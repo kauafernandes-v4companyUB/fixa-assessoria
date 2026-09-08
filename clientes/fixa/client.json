@@ -16,9 +16,110 @@
       }
     ]
   },
-  "briefing": {},
+  "briefing": {
+    "identification": {
+      "name": "Fixa (Engenharia + Assessoria, marca unificada em construção)",
+      "contact_name": "Carlos Henrique Garbin",
+      "contact_role": "Engenheiro Civil / Diretor de ambas as empresas",
+      "segment": "Regularização fundiária e imobiliária (engenharia, arquitetura e direito imobiliário)",
+      "annual_revenue": "~R$ 1,7 milhões projetados para 2026 (Fixa Engenharia ~R$1M + Fixa Assessoria ~R$700 mil)",
+      "years_in_market": "10 anos (Fixa Engenharia, fundada 13/09/2016) e 2 anos (Fixa Assessoria, fundada 22/08/2024)",
+      "location": "Caxias do Sul, RS",
+      "website": "https://www.fixaengenharia.com (existe mas desatualizado desde 2016, sem CNPJ/telefone/endereço, cobre só uma das duas marcas)",
+      "instagram": "@fixa_engenharia (cliente quer rever a arroba para unificar as duas marcas)",
+      "whatsapp": "+55 54 99971-9141",
+      "gmb": true
+    },
+    "product": {
+      "main_product": "Regularização fundiária e imobiliária: REURB, usucapião, regularização de casas, inventários, projetos de engenharia/arquitetura para loteamentos (urbanístico, pavimentação, drenagem, abastecimento de água, esgotamento sanitário)",
+      "ticket": "Variável por serviço: R$5 mil (regularização de casas), R$12 mil (usucapião), R$20 mil (inventários), R$100-400 mil (regularização fundiária de loteamentos, conforme porte)",
+      "billing_model": "projeto",
+      "sales_cycle": "Longo — meses a anos, dependente de prazos judiciais e administrativos (cartórios, prefeitura)",
+      "active_customers": null,
+      "most_profitable": "REURB / regularização fundiária de loteamentos (maior ticket, curva A)",
+      "growth_potential": "Regularização fundiária de loteamentos e inventários"
+    },
+    "icp": {
+      "best_customers": "Proprietários pessoa física, classe média a média-alta, faixa etária 40-70 anos, com imóvel sem matrícula regularizada, que precisam de segurança jurídica para vender, financiar ou deixar o imóvel em herança. Clientes de longa duração (alguns desde 2018).",
+      "not_customers": null,
+      "problems_before": [
+        "Imóvel sem matrícula ou com matrícula irregular",
+        "Impossibilidade de vender, financiar ou dar em garantia o imóvel",
+        "Situação fundiária irregular em loteamentos (REURB) / conflitos de divisa e confrontação com vizinhos"
+      ],
+      "results_after": [
+        "Segurança jurídica plena sobre o imóvel",
+        "Matrícula regularizada — pode vender, financiar e herdar com tranquilidade",
+        "Processo conduzido com conhecimento técnico (engenharia/arquitetura) e jurídico integrado, num único escritório"
+      ],
+      "churn_reasons": null
+    },
+    "competition": {
+      "competitors": [
+        {
+          "name": "Balen Regularizações",
+          "perceived_differential": "Escala e institucionalização — parte do Balen Group (holding com direito, regularização, topografia e imobiliário), presença multi-estado, +20 anos, +20.000 clientes atendidos, prêmio Top of Mind 2022"
+        },
+        {
+          "name": "DCA Engenharia",
+          "perceived_differential": "Prova social forte — cases nomeados e documentados publicamente (condomínios regularizados junto à Prefeitura de Caxias do Sul)"
+        },
+        {
+          "name": "BLM Assessoria Imobiliária",
+          "perceived_differential": "Presença digital muito fraca (sem site próprio) — oportunidade de diferenciação mais fácil frente a este concorrente"
+        }
+      ],
+      "real_differential": "Conhecimento técnico de grande porte, combinando engenharia + arquitetura + direito imobiliário em um único escritório (concorrentes normalmente exigem contratar dois prestadores separados). Relacionamento consolidado com cartórios e prefeitura (SMU), reduzindo atritos e prazos. Sistema de gestão interno próprio em implantação (previsão nov/2026).",
+      "why_choose_us": "Confiança e conhecimento técnico do escritório, clareza sobre prazos e etapas do processo, preço e condições de pagamento, relacionamento e agilidade no atendimento, histórico de casos concluídos com sucesso na região."
+    },
+    "brand": {
+      "adjectives": null,
+      "voice_tone": null,
+      "admired_brands": [
+        "DCA Engenharia",
+        "Balen Regularizações",
+        "BDS Topografia e Assessoria Imobiliária"
+      ],
+      "current_colors": null,
+      "has_logo": true,
+      "restrictions": "Preferencialmente utilizar fotos da própria marca, evitando fotos de banco de imagens da internet"
+    },
+    "digital_situation": {
+      "paid_traffic": false,
+      "platforms": [],
+      "monthly_investment": null,
+      "current_results": null,
+      "crm": null,
+      "lead_sources": "Indicação (boca a boca), relacionamento institucional com cartórios e prefeitura, busca direta (Google/site)",
+      "conversion_rate": null,
+      "biggest_pain": "Nenhuma receita vinda da internet — toda a operação é 100% offline hoje. Querem captação online e expandir a marca para novas cidades."
+    },
+    "accesses": {
+      "meta_business": false,
+      "google_ads": false,
+      "google_analytics": false,
+      "google_search_console": false,
+      "instagram_admin": true,
+      "website_admin": null,
+      "crm": false,
+      "gmb": null,
+      "whatsapp_business": true
+    },
+    "sales_module": {
+      "active_sellers": "0 formal — atendimento comercial feito pelos próprios sócios/técnicos (principalmente Carlos Henrique Garbin, que fecha os principais serviços)",
+      "sales_process": "Indicação ou busca direta → contato → diagnóstico do caso → proposta → contratação. Decisor: proprietário do imóvel (PF), às vezes junto com cônjuge ou herdeiros.",
+      "objections": [
+        "Achar que o processo é caro e que vai demorar muito",
+        "Desconfiança de que o serviço seja desnecessário / falta de urgência (sem necessidade imediata de vender ou financiar)",
+        "Não ter todos os documentos exigidos e achar que isso inviabiliza o processo / já ter tentado resolver sozinho"
+      ],
+      "conversion_rate": null,
+      "sales_cycle": "Meses (processo judicial/administrativo de REURB ou usucapião)",
+      "has_scripts": false
+    }
+  },
   "research": {
-    "fetched_at": null
+    "fetched_at": "2026-09-08"
   },
   "connectors": {
     "fetched_at": "2026-09-08T11:20:24Z",
@@ -265,5 +366,12 @@
       }
     }
   },
-  "history": []
+  "history": [
+    {
+      "ts": "2026-09-08T11:28:17Z",
+      "skill": "ee-novo-cliente",
+      "checkpoint": 0,
+      "decision": "Cliente cadastrado via pré kick-off V4 + pesquisa web. Modelo de venda: inside-sales. Pendências para hoje: WhatsApp confirmado (54 99971-9141), GMB (link fornecido, checar detalhes), adjetivos de marca, tom de voz, cores atuais, quem não é cliente ideal, nº de clientes ativos — a extrair na call de kick-off."
+    }
+  ]
 }

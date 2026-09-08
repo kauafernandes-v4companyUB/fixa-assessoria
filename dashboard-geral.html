@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estruturação IA — Dashboard Geral</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0a0a0a; color: #e5e2e1; padding: 2rem; }
+  h1 { font-size: 1.5rem; margin-bottom: 1.5rem; color: #fff; }
+  .client-card { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; }
+  .client-name { font-size: 1.2rem; font-weight: 700; color: #fff; }
+  .client-week { color: #888; font-size: 0.9rem; margin-top: 0.25rem; }
+  .progress-bar { height: 6px; background: #333; border-radius: 3px; margin: 0.75rem 0; overflow: hidden; }
+  .progress-fill { height: 100%; background: #FB2E0A; border-radius: 3px; transition: width 0.3s; }
+  .stats { display: flex; gap: 1rem; font-size: 0.8rem; color: #aaa; }
+</style>
+</head>
+<body>
+<h1>ESTRUTURAÇÃO IA — CLIENTES ATIVOS</h1>
+<div id="clients"></div>
+<script>
+const clients = [{
+  "name": "Fixa Engenharia & Assessoria",
+  "slug": "fixa",
+  "current_week": 1,
+  "skills": {
+    "ee-s1-persona-icp": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s1-auditoria-comunicacao": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s1-swot": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s2-pesquisa-mercado": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s1-arquitetura-presenca": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s2-diagnostico-midia": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s2-diagnostico-organico-ig": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s2-diagnostico-criativos": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s1-diagnostico-maturidade": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s2-posicionamento": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s2-diagnostico-cro": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s4-cliente-oculto": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s4-diagnostico-comercial": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-is-metricas-funil": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-is-pipeline": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-manual-marca": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-landing-page": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-copy-anuncios": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-criativos-anuncios": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-crm-setup": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s5-scripts-sdr": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s5-sdr-ia-config": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    },
+    "ee-s3-forecast-midia": {
+      "status": "pending",
+      "checkpoint": 0,
+      "started_at": null,
+      "completed_at": null
+    }
+  },
+  "created_at": "2026-09-08"
+}];
+clients.forEach(c => {
+  const skills = Object.values(c.skills || {});
+  const total = skills.length;
+  const done = skills.filter(s => s.status === 'completed').length;
+  const wip = skills.filter(s => s.status === 'in_progress').length;
+  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+  document.getElementById('clients').innerHTML += `
+    <div class="client-card">
+      <div class="client-name">${c.name}</div>
+      <div class="client-week">Semana ${c.current_week || 1} · ${done}/${total} skills · ${pct}%</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+      <div class="stats">
+        <span>${done} completas</span>
+        <span>${wip} em andamento</span>
+        <span>${total - done - wip} pendentes</span>
+      </div>
+    </div>`;
+});
+</script>
+</body>
+</html>
