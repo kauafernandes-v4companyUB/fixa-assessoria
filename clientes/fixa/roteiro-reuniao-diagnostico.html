@@ -107,6 +107,12 @@
   .beat--decision{ background:var(--decision-bg); border-left:3px solid var(--decision); } .beat--decision .beat-label{ color:var(--decision); }
   .beat--transition{ background:var(--transition-bg); border-left:3px solid var(--transition); } .beat--transition .beat-label{ color:var(--transition); }
   .beat--stage{ color:var(--stage); font-style:italic; font-size:.82rem; padding:2px 2px 10px; }
+  .beat--source{ background:#f1efe9; border-left:3px solid var(--stage); }
+  .beat--source .beat-label{ color:var(--stage); }
+  .beat--source ul{ margin:0; padding-left:18px; }
+  .beat--source li{ margin-bottom:8px; font-size:.92rem; color:var(--ink-soft); }
+  .beat--source li b{ color:var(--ink); }
+  .beat--source li:last-child{ margin-bottom:0; }
 
   .fontes-slide{ margin-top:16px; font-size:.85rem; }
   .fontes-slide ul{ padding-left:18px; }
@@ -239,6 +245,7 @@
         <span style="background:var(--provocation-bg);color:var(--provocation)">Provocação</span>
         <span style="background:var(--decision-bg);color:var(--decision)">Decisão</span>
         <span style="background:var(--transition-bg);color:var(--transition)">Transição</span>
+        <span style="background:#f1efe9;color:var(--stage)">Texto completo (fonte — não precisa ler literalmente)</span>
       </div>
       <div class="grid-cards" id="cardsGrid">
         <a class="slide-card" href="#slide-01" data-search="capa"><span class="num">Slide 01</span><div class="title">Capa</div><div class="meta">Abertura visual · 1 min</div><span class="chip">contextualização</span></a>
@@ -399,6 +406,15 @@
           <p>A recomendação que está no diagnóstico — e que eu quero a concordância formal de vocês — é: primeiro CRM básico com pipeline mínimo, depois a landing page com CRO e rastreamento instalado, e só então mídia paga. Criativos e reforço de SEO local correm em paralelo, sem depender de nada. Podemos seguir com essa sequência?</p>
         </div>
         <div class="beat beat--pause">[PAUSA PARA RESPOSTA — REGISTRE A DECISÃO]</div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo dos achados (o slide mostra só o resumo em bullet)</span>
+          <ul>
+            <li><b>Ameaça —</b> Mídia paga, CRO e CRM estão todos no fundo da escala (5-8/100) — não existe pixel, landing page, rastreamento (GA4 e Search Console confirmados como ausentes) nem CRM. Todo lead que pesquisa ativamente por regularização de imóvel hoje vai para um concorrente com presença digital.</li>
+            <li><b>Vantagem —</b> O Google Meu Negócio já tem 16 avaliações com nota 4.7 — prova social real e verificável, ainda que com volume baixo, que nenhum outro canal digital da Fixa aproveita hoje.</li>
+            <li><b>Contexto —</b> A operação comercial de captação é 100% offline (indicação e relacionamento institucional, confirmado no briefing) — isso não é atraso técnico, é uma decisão histórica que nunca precisou de digital até agora.</li>
+            <li><b>Ação —</b> Antes de ligar mídia paga (maior peso no score, 25%), é preciso resolver CRO e CRM básicos — senão o investimento em anúncio vaza: gera lead que cai numa página sem conversão e depois morre no WhatsApp pessoal sem pipeline.</li>
+          </ul>
+        </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
           <p>Esse foi o retrato geral. Agora eu quero aprofundar o porquê estratégico — o que a Fixa tem de força real, e contra quem ela está competindo. É isso que a próxima análise mostra.</p>
@@ -463,6 +479,55 @@
           <span class="beat-label">Decisão</span>
           <p>Eu quero validar com vocês a leitura desta SWOT como base para o posicionamento da próxima semana — ela já aponta a estratégia central: ocupar o território de "prazo por escrito" usando o diferencial que vocês já têm na prática.</p>
         </div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo — Forças (o slide mostra só o título de 1 linha de cada)</span>
+          <ul>
+            <li><b>Engenharia que resolve a parte jurídica da regularização por dentro, sem precisar de um segundo prestador —</b> A regularização exige levantamento técnico (engenharia/arquitetura) e resolução documental/jurídica (cartório, registro, inventário). A Fixa trata as duas frentes dentro do mesmo processo, com um profissional formado em Direito dedicado à demanda jurídica da própria engenharia — não é um departamento jurídico robusto nem um escritório de advocacia à parte, é a burocracia legal da regularização resolvida junto com o projeto técnico.</li>
+            <li><b>Depoimentos reais no Instagram — a prova social mais sólida que a Fixa tem hoje —</b> 71 posts no Instagram incluem múltiplos depoimentos com nome e foto de cliente, além do GMB reivindicado com nota 4,7. Mas as 16 avaliações do GMB são uma amostra pequena — abaixo do benchmark do setor (50+) para posição competitiva forte no pack local, e uma nota baseada em tão poucas avaliações oscila fácil com 2-3 reviews negativas. Não é um dado robusto ainda, é um ponto de partida.</li>
+            <li><b>Relacionamento institucional consolidado com cartórios e prefeitura (SMU) —</b> O briefing confirma relacionamento direto com cartórios e prefeitura que reduz atrito e prazo — ativo difícil de copiar rapidamente por um novo entrante, e distinto do "case público" da DCA (que documenta publicamente, mas não necessariamente tem o mesmo grau de relação institucional).</li>
+            <li><b>10 anos de histórico (desde 2016) com base de clientes recorrente desde 2018 —</b> O briefing confirma 10 anos de atuação da Fixa Engenharia e indica que recompra/indicação já ocorre organicamente, mesmo sem captura estruturada de depoimento.</li>
+            <li><b>Ticket alto e pouco sensível a preço no REURB de loteamentos (R$100-400 mil) —</b> O willingness_to_pay do persona-icp mostra elasticidade baixa nesse serviço — decisão institucional, não emocional, ticket maior justificado por escopo de obra, não por percepção de marca.</li>
+          </ul>
+        </div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo — Fraquezas</span>
+          <ul>
+            <li><b>Site institucional não aparece nem na busca pelo próprio nome —</b> A auditoria de comunicação confirmou: busca por "fixa engenharia" não retorna o site nos 10 primeiros resultados do Google; causa-raiz identificada — campo "website" vazio no GMB.</li>
+            <li><b>CRM inexistente (5/100) — todo lead cai no WhatsApp pessoal do sócio —</b> O diagnóstico de maturidade confirma accesses.crm=false, sem pipeline, sem automação e sem métrica de quantos leads entram por mês.</li>
+            <li><b>Marca fragmentada — todos os canais comunicam só "Fixa Engenharia" —</b> Confirmado nos 3 canais auditados (site, Instagram, GMB) — nenhum menciona a Fixa Assessoria nem a frente jurídica interna, apesar de ser parte do posicionamento que o Carlos quer construir.</li>
+            <li><b>Zero mídia paga e zero rastreamento instalado —</b> Os conectores V4MOS confirmam 0 campanhas em Google Ads e Meta Ads; o briefing confirma accesses.google_analytics=false e google_search_console=false.</li>
+            <li><b>Volume de avaliações do GMB abaixo do benchmark do setor —</b> A auditoria de comunicação identificou o gap: 16 avaliações vs. benchmark de 50+ para posição competitiva forte no pack local.</li>
+          </ul>
+        </div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo — Oportunidades</span>
+          <ul>
+            <li><b>Nenhum concorrente mapeado formaliza clareza de prazo como promessa —</b> A pesquisa desta SWOT mostrou: o site da Balen fala em "soluções eficazes" de forma genérica, a DCA foca em "engenharia e meio ambiente" amplo — nenhum formaliza "prazo por escrito" como diferencial, apesar de ser a dor #1 mapeada no ICP (desconfiança sobre prazo).</li>
+            <li><b>BLM tem presença digital quase nula —</b> Confirmado na pesquisa: apenas listagens em diretórios de CNPJ, nenhum domínio institucional, nenhum Instagram identificável, 275 curtidas no Facebook.</li>
+            <li><b>GMB já é ativo real e subaproveitado — quick win de 15 minutos com potencial de destravar SEO local —</b> O campo "website" vazio explica por que o site não aparece na busca pela própria marca; corrigir isso é imediato e de baixo custo.</li>
+            <li><b>Mercado local sem nenhum concorrente com mídia paga + LP + CRM estruturados —</b> Nenhum dos 3 concorrentes mapeados demonstra estrutura de mídia paga ativa nem funil de conversão dedicado (LP própria) — o público que já pesquisa "regularizar imóvel Caxias do Sul" hoje se distribui só por indicação/SEO orgânico fraco entre os players.</li>
+            <li><b>Pendência de validação: possível liderança em novos loteamentos frente à Balen —</b> Relato do operador (não confirmado no formulário) registrado em ee-s1-persona-icp como pending_validation_item — se documentável (contratos, protocolos na prefeitura), é prova social/institucional forte contra o maior concorrente.</li>
+          </ul>
+        </div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo — Ameaças</span>
+          <ul>
+            <li><b>Balen tem escala institucionalizada e reconhecimento de marca formal —</b> A pesquisa confirmou: site institucional robusto, +20 anos de atuação, prêmio Top of Mind 2022, cases publicados (ação judicial vencida, desapropriação), Instagram com 2.149 seguidores.</li>
+            <li><b>DCA já pratica SEO de case público — tática replicável e ainda não usada pela Fixa —</b> Páginas indexadas no Google para "Residencial Vista Bella" e "Condado Angel", com CRF emitido pela Prefeitura documentado publicamente.</li>
+            <li><b>Mídia paga ligada antes de CRO/CRM mínimos mascara vazamento de funil como "anúncio ruim" —</b> Já identificado no diagnóstico de maturidade — CRM 5/100 e CRO 8/100 significam que investimento em mídia hoje vazaria antes de gerar retorno mensurável.</li>
+            <li><b>Ciclo de decisão curto do ICP (1-3 semanas) amplifica o custo de cada mês sem correção —</b> O buyer_journey do persona-icp mostra ciclo de decisão curto na fase de Pesquisa/Consideração (3-10 dias + 1-3 semanas) — cada mês sem correção é um ciclo inteiro de leads pesquisando e não encontrando a Fixa.</li>
+            <li><b>Dependência de uma única pessoa para todo o atendimento comercial —</b> O briefing confirma: sales_module.active_sellers = "0 formal — atendimento comercial feito pelos próprios sócios/técnicos (principalmente Carlos Henrique Garbin)".</li>
+          </ul>
+        </div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo dos achados</span>
+          <ul>
+            <li><b>Vantagem —</b> A Fixa é a única entre os 3 concorrentes mapeados que resolve o técnico e o jurídico da regularização dentro do mesmo processo, sem o cliente precisar contratar um segundo prestador — Balen tem 3 linhas de negócio, mas ainda separadas por atendimento.</li>
+            <li><b>Ameaça —</b> Balen (Instagram 2.149 seguidores, prêmio Top of Mind 2022, site institucional robusto) e DCA (cases nomeados e indexados no Google, como o Residencial Vista Bella) já têm ativos de escala e prova social que a Fixa ainda não replicou digitalmente.</li>
+            <li><b>Contexto —</b> BLM, o 3º concorrente mapeado no briefing, tem presença digital quase nula (275 curtidas no Facebook, sem site próprio) — não deve ser usada como referência de "barra mínima" para a Fixa.</li>
+            <li><b>Ação —</b> Antes de investir em mídia paga, a sequência já definida (GMB→site→CRO→CRM) precisa se completar — senão o orçamento de anúncio vai mascarar o vazamento de funil já mapeado como problema de mídia.</li>
+          </ul>
+        </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
           <p>Toda essa estratégia serve pra alguém específico. Deixa eu apresentar quem é essa pessoa.</p>
@@ -513,6 +578,15 @@
           <p>Sem problema — mantemos isso como hipótese interna nossa, e não vira claim de marketing nem comparação nominal com a Balen até termos prova concreta.</p>
         </div>
         <div class="beat beat--stage">[SE ALGUÉM DISSER "A IVETE NÃO É O ÚNICO TIPO DE CLIENTE QUE ATENDEMOS"] "Com certeza — ela é a persona-âncora, não a única. Outros perfis entram como variação, mas a comunicação principal de vocês precisa falar com ela primeiro, porque é o padrão mais recorrente e mais alinhado ao que vocês querem atender."</div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo dos achados</span>
+          <ul>
+            <li><b>Vantagem —</b> A Fixa integra engenharia, arquitetura e direito imobiliário num único contrato — diferencial que nenhum concorrente mapeado no formulário declara ter.</li>
+            <li><b>Ameaça —</b> Captação depende quase 100% de indicação e relacionamento institucional — sem presença digital ativa (site desativado, sem tráfego pago), a Fixa fica invisível para quem pesquisa "regularização de imóvel Caxias do Sul" online.</li>
+            <li><b>Contexto —</b> As objeções do ICP (formulário) são todas sobre confiança e prazo — achar caro/demorado, desconfiar da necessidade, achar que a falta de documentos inviabiliza — nenhuma é sobre o serviço em si.</li>
+            <li><b>Ação —</b> A mensagem-chave funcional aprovada ("engenharia + arquitetura + direito num só lugar") só se sustenta se for acompanhada de um processo comercial que prometa prazo por escrito — senão a promessa técnica soa vazia diante da desconfiança já mapeada.</li>
+          </ul>
+        </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
           <p>Agora que sabemos pra quem vocês estão falando, vamos ver onde essa conversa está falhando hoje — canal por canal.</p>
@@ -569,6 +643,15 @@
           <span class="beat-label">Decisão</span>
           <p>O que eu preciso de vocês agora: aprovação pra esses cinco quick wins entrarem na produção essa semana, e confirmação de quem no time tem acesso de edição do site e do GMB.</p>
         </div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo dos achados</span>
+          <ul>
+            <li><b>Vantagem —</b> O GMB já está reivindicado e verificado, com nota 4.7 (16 avaliações reais, incluindo comentários com elogio a "qualidade, organização e compromisso") e endereço/telefone/horário todos preenchidos corretamente — base sólida para SEO local.</li>
+            <li><b>Ameaça —</b> O site institucional não aparece nos 10 primeiros resultados do Google nem para a busca exata pelo nome da marca ("fixa engenharia") — quem procura a Fixa pelo nome encontra Instagram, LinkedIn, Jusbrasil e até a Serasa antes do próprio site.</li>
+            <li><b>Contexto —</b> O próprio Google sinaliza a falha mais simples de corrigir: o campo "website" do perfil do GMB está vazio ("Adicionar informações ausentes → Adicionar website") — o site existe, só não está linkado onde mais gera clique direto.</li>
+            <li><b>Ação —</b> Como a Fixa contratou o Executar, os quick wins abaixo (vincular o site no GMB, prova social no site, CTA de ação) entram direto na fila de produção da nossa equipe — não é uma lista de tarefas para o Carlos, é o que vamos construir nas próximas semanas.</li>
+          </ul>
+        </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
           <p>Agora que vimos onde a comunicação de vocês vaza, vamos olhar pro tamanho real da oportunidade que está em jogo.</p>
@@ -618,12 +701,22 @@
           <span class="beat-label">Provocação</span>
           <p>Duzentos e sessenta e seis loteamentos REURB-E que ainda não foram regularizados só nessa cidade, segundo o levantamento da própria prefeitura — se a Fixa não ocupar esse espaço nos próximos anos, alguém vai.</p>
         </div>
+        <div class="beat beat--source">
+          <span class="beat-label">Texto completo dos achados</span>
+          <ul>
+            <li><b>Vantagem —</b> Mesmo sem nenhuma presença digital, a Fixa já captura ~16,1% do SAM regional estimado (R$10,6M/ano) — nível de "líder de nicho" nos benchmarks de mercado, sustentado só por indicação e relacionamento institucional com cartórios e prefeitura.</li>
+            <li><b>Contexto —</b> O município tem 600 áreas irregulares mapeadas pela própria Secretaria de Urbanismo (SMU, 2021), sendo 466 REURB-E (loteamentos particulares) — é o segmento de maior ticket (R$100-400 mil) e onde o relacionamento institucional da Fixa pesa mais.</li>
+            <li><b>Ameaça —</b> Nenhum concorrente mapeado combina relacionamento institucional forte com presença digital robusta — mas a digitalização nacional dos cartórios (prazo maio/2026, IA já em uso) pode baratear serviços simples de escritura/averbação nos próximos 12-24 meses.</li>
+            <li><b>Ação —</b> O SOM de mercado triangulado (R$2,68M/ano) exige ~58% de crescimento sobre o faturamento atual — alcançável formalizando a promessa de prazo (janela livre já identificada na SWOT) e levando a captação para o digital, sem precisar competir em escala com a Balen.</li>
+          </ul>
+        </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
           <p>E por falar em quem pode ocupar esse espaço — vamos ver, especificamente, quem está competindo com vocês hoje.</p>
         </div>
         <button class="btn copy-fala">Copiar fala deste slide</button>
       </div>
+      <div class="fontes-slide"><b>Fontes internas usadas neste slide:</b> ee-s2-pesquisa-mercado.json (tam_sam_som, market_share, summary_key_findings).</div>
       <div class="nav-slide"><a href="#slide-07">← Auditoria</a><a href="#visao-geral">Visão geral</a><a href="#slide-09">Próximo: Concorrentes →</a></div>
     </section>
 

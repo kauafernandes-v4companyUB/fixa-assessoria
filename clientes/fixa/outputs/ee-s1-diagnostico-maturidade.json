@@ -45,19 +45,23 @@
   "summary_key_findings": [
     {
       "category": "ameaca",
-      "text": "Mídia paga, CRO e CRM estão todos no fundo da escala (5-8/100) — não existe pixel, landing page, rastreamento (GA4 e Search Console confirmados como ausentes) nem CRM. Todo lead que pesquisa ativamente por regularização de imóvel hoje vai para um concorrente com presença digital."
+      "text": "Mídia paga, CRO e CRM no fundo da escala — zero pixel, LP ou rastreamento instalado.",
+      "text_full": "Mídia paga, CRO e CRM estão todos no fundo da escala (5-8/100) — não existe pixel, landing page, rastreamento (GA4 e Search Console confirmados como ausentes) nem CRM. Todo lead que pesquisa ativamente por regularização de imóvel hoje vai para um concorrente com presença digital."
     },
     {
       "category": "vantagem",
-      "text": "O Google Meu Negócio já tem 16 avaliações com nota 4.7 — prova social real e verificável, ainda que com volume baixo, que nenhum outro canal digital da Fixa aproveita hoje."
+      "text": "GMB com 16 avaliações e nota 4.7 é prova social real, mas ainda não aproveitada em nenhum outro canal.",
+      "text_full": "O Google Meu Negócio já tem 16 avaliações com nota 4.7 — prova social real e verificável, ainda que com volume baixo, que nenhum outro canal digital da Fixa aproveita hoje."
     },
     {
       "category": "contexto",
-      "text": "A operação comercial de captação é 100% offline (indicação e relacionamento institucional, confirmado no briefing) — isso não é atraso técnico, é uma decisão histórica que nunca precisou de digital até agora."
+      "text": "Captação 100% offline hoje — decisão histórica, não atraso técnico.",
+      "text_full": "A operação comercial de captação é 100% offline (indicação e relacionamento institucional, confirmado no briefing) — isso não é atraso técnico, é uma decisão histórica que nunca precisou de digital até agora."
     },
     {
       "category": "acao",
-      "text": "Antes de ligar mídia paga (maior peso no score, 25%), é preciso resolver CRO e CRM básicos — senão o investimento em anúncio vaza: gera lead que cai numa página sem conversão e depois morre no WhatsApp pessoal sem pipeline."
+      "text": "Resolver CRO e CRM antes de ligar mídia paga, ou o investimento em anúncio vaza.",
+      "text_full": "Antes de ligar mídia paga (maior peso no score, 25%), é preciso resolver CRO e CRM básicos — senão o investimento em anúncio vaza: gera lead que cai numa página sem conversão e depois morre no WhatsApp pessoal sem pipeline."
     }
   ],
 

@@ -48,19 +48,23 @@
   "summary_key_findings": [
     {
       "category": "vantagem",
-      "text": "Mesmo sem nenhuma presença digital, a Fixa já captura ~16,1% do SAM regional estimado (R$10,6M/ano) — nível de 'líder de nicho' nos benchmarks de mercado, sustentado só por indicação e relacionamento institucional com cartórios e prefeitura."
+      "text": "Fixa já captura ~16,1% do SAM regional sem nenhum investimento digital — nível de líder de nicho.",
+      "text_full": "Mesmo sem nenhuma presença digital, a Fixa já captura ~16,1% do SAM regional estimado (R$10,6M/ano) — nível de 'líder de nicho' nos benchmarks de mercado, sustentado só por indicação e relacionamento institucional com cartórios e prefeitura."
     },
     {
       "category": "contexto",
-      "text": "O município tem 600 áreas irregulares mapeadas pela própria Secretaria de Urbanismo (SMU, 2021), sendo 466 REURB-E (loteamentos particulares) — é o segmento de maior ticket (R$100-400 mil) e onde o relacionamento institucional da Fixa pesa mais."
+      "text": "Município tem 600 áreas irregulares mapeadas (SMU) — 466 são loteamentos, o ticket mais alto da Fixa.",
+      "text_full": "O município tem 600 áreas irregulares mapeadas pela própria Secretaria de Urbanismo (SMU, 2021), sendo 466 REURB-E (loteamentos particulares) — é o segmento de maior ticket (R$100-400 mil) e onde o relacionamento institucional da Fixa pesa mais."
     },
     {
       "category": "ameaca",
-      "text": "Nenhum concorrente mapeado combina relacionamento institucional forte com presença digital robusta — mas a digitalização nacional dos cartórios (prazo maio/2026, IA já em uso) pode baratear serviços simples de escritura/averbação nos próximos 12-24 meses."
+      "text": "Digitalização dos cartórios (prazo maio/2026) pode baratear serviços documentais simples.",
+      "text_full": "Nenhum concorrente mapeado combina relacionamento institucional forte com presença digital robusta — mas a digitalização nacional dos cartórios (prazo maio/2026, IA já em uso) pode baratear serviços simples de escritura/averbação nos próximos 12-24 meses."
     },
     {
       "category": "acao",
-      "text": "O SOM de mercado triangulado (R$2,68M/ano) exige ~58% de crescimento sobre o faturamento atual — alcançável formalizando a promessa de prazo (janela livre já identificada na SWOT) e levando a captação para o digital, sem precisar competir em escala com a Balen."
+      "text": "SOM de R$2,68M/ano exige 58% de crescimento — alcançável formalizando prazo e indo pro digital.",
+      "text_full": "O SOM de mercado triangulado (R$2,68M/ano) exige ~58% de crescimento sobre o faturamento atual — alcançável formalizando a promessa de prazo (janela livre já identificada na SWOT) e levando a captação para o digital, sem precisar competir em escala com a Balen."
     }
   ],
 

@@ -45,19 +45,23 @@
   "summary_key_findings": [
     {
       "category": "vantagem",
-      "text": "A Fixa integra engenharia, arquitetura e direito imobiliário num único contrato — diferencial que nenhum concorrente mapeado no formulário declara ter."
+      "text": "Único concorrente mapeado que integra engenharia, arquitetura e direito num único contrato.",
+      "text_full": "A Fixa integra engenharia, arquitetura e direito imobiliário num único contrato — diferencial que nenhum concorrente mapeado no formulário declara ter."
     },
     {
       "category": "ameaca",
-      "text": "Captação depende quase 100% de indicação e relacionamento institucional — sem presença digital ativa (site desativado, sem tráfego pago), a Fixa fica invisível para quem pesquisa 'regularização de imóvel Caxias do Sul' online."
+      "text": "Captação 100% via indicação — sem presença digital, a Fixa fica invisível pra quem busca online.",
+      "text_full": "Captação depende quase 100% de indicação e relacionamento institucional — sem presença digital ativa (site desativado, sem tráfego pago), a Fixa fica invisível para quem pesquisa 'regularização de imóvel Caxias do Sul' online."
     },
     {
       "category": "contexto",
-      "text": "As objeções do ICP (formulário) são todas sobre confiança e prazo — achar caro/demorado, desconfiar da necessidade, achar que a falta de documentos inviabiliza — nenhuma é sobre o serviço em si."
+      "text": "Todas as objeções do ICP são sobre confiança e prazo — nenhuma é sobre o serviço em si.",
+      "text_full": "As objeções do ICP (formulário) são todas sobre confiança e prazo — achar caro/demorado, desconfiar da necessidade, achar que a falta de documentos inviabiliza — nenhuma é sobre o serviço em si."
     },
     {
       "category": "acao",
-      "text": "A mensagem-chave funcional aprovada ('engenharia + arquitetura + direito num só lugar') só se sustenta se for acompanhada de um processo comercial que prometa prazo por escrito — senão a promessa técnica soa vazia diante da desconfiança já mapeada."
+      "text": "Mensagem-chave só sustenta se vier com promessa de prazo por escrito no processo comercial.",
+      "text_full": "A mensagem-chave funcional aprovada ('engenharia + arquitetura + direito num só lugar') só se sustenta se for acompanhada de um processo comercial que prometa prazo por escrito — senão a promessa técnica soa vazia diante da desconfiança já mapeada."
     }
   ],
 

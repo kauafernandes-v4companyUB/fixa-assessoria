@@ -42,19 +42,23 @@
   "summary_key_findings": [
     {
       "category": "vantagem",
-      "text": "O GMB já está reivindicado e verificado, com nota 4.7 (16 avaliações reais, incluindo comentários com elogio a 'qualidade, organização e compromisso') e endereço/telefone/horário todos preenchidos corretamente — base sólida para SEO local."
+      "text": "GMB reivindicado, nota 4.7, 16 avaliações reais — base sólida pra SEO local.",
+      "text_full": "O GMB já está reivindicado e verificado, com nota 4.7 (16 avaliações reais, incluindo comentários com elogio a 'qualidade, organização e compromisso') e endereço/telefone/horário todos preenchidos corretamente — base sólida para SEO local."
     },
     {
       "category": "ameaca",
-      "text": "O site institucional não aparece nos 10 primeiros resultados do Google nem para a busca exata pelo nome da marca ('fixa engenharia') — quem procura a Fixa pelo nome encontra Instagram, LinkedIn, Jusbrasil e até a Serasa antes do próprio site."
+      "text": "Site não aparece nem buscando o nome exato da marca no Google.",
+      "text_full": "O site institucional não aparece nos 10 primeiros resultados do Google nem para a busca exata pelo nome da marca ('fixa engenharia') — quem procura a Fixa pelo nome encontra Instagram, LinkedIn, Jusbrasil e até a Serasa antes do próprio site."
     },
     {
       "category": "contexto",
-      "text": "O próprio Google sinaliza a falha mais simples de corrigir: o campo 'website' do perfil do GMB está vazio ('Adicionar informações ausentes → Adicionar website') — o site existe, só não está linkado onde mais gera clique direto."
+      "text": "Causa-raiz: campo 'website' vazio no GMB — o site existe, só não está linkado.",
+      "text_full": "O próprio Google sinaliza a falha mais simples de corrigir: o campo 'website' do perfil do GMB está vazio ('Adicionar informações ausentes → Adicionar website') — o site existe, só não está linkado onde mais gera clique direto."
     },
     {
       "category": "acao",
-      "text": "Como a Fixa contratou o Executar, os quick wins abaixo (vincular o site no GMB, prova social no site, CTA de ação) entram direto na fila de produção da nossa equipe — não é uma lista de tarefas para o Carlos, é o que vamos construir nas próximas semanas."
+      "text": "Quick wins já entram na fila de produção do Executar essa semana.",
+      "text_full": "Como a Fixa contratou o Executar, os quick wins abaixo (vincular o site no GMB, prova social no site, CTA de ação) entram direto na fila de produção da nossa equipe — não é uma lista de tarefas para o Carlos, é o que vamos construir nas próximas semanas."
     }
   ],
   "icp_reference": "Ivete Dal Bosco, 35-70 anos, classe média/média-alta, proprietária sem matrícula regularizada — decide em 1-3 semanas, mas desconfia de prazo e seriedade. Compara quem realmente entrega, não quem é mais barato.",
