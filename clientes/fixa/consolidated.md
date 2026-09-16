@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-09-16 04:27 UTC · Ciclo atual: Semana 1 · Cliente: `fixa`*
+*Gerado em 2026-09-16 17:59 UTC · Ciclo atual: Semana 2 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -68,7 +68,7 @@
 
 ## 3. ICP & Persona
 
-> **Resumo:** O ICP da Fixa é o proprietário pessoa física de 35-70 anos, classe média a média-alta, com imóvel sem matrícula regularizada, buscando segurança jurídica para vender, financiar ou deixar em herança sem conflito entre os filhos. A decisão de escolher o escritório é rápida (1-3 semanas) mas carregada de desconfiança sobre prazo e seriedade, enquanto o processo em si dura meses a anos. Hoje a captação depende quase 100% de indicação e relacionamento institucional — o ICP raramente encontra a Fixa quando pesquisa online.
+> **Resumo:** O ICP da Fixa é a pessoa proprietária de imóvel, física, de 35-70 anos, classe média a média-alta, com imóvel sem matrícula regularizada, buscando segurança jurídica para vender, financiar ou deixar em herança sem conflito entre os filhos. A decisão de escolher o escritório é rápida (1-3 semanas) mas carregada de desconfiança sobre prazo e seriedade, enquanto o processo em si dura meses a anos. Hoje a captação depende quase 100% de indicação e relacionamento institucional — o ICP raramente encontra a Fixa quando pesquisa online.
 
 ### ICP principal
 **Segmento:** —
@@ -351,7 +351,7 @@ Ocupar o território 'o escritório que garante prazo por escrito na regulariza�
 - ✅ **ee-s2-pesquisa-mercado** — concluída em 2026-09-16T14:30:00Z
 - ✅ **ee-s1-diagnostico-maturidade** — concluída em 2026-09-15T00:00:00Z
 
-**Semana atual:** 1
+**Semana atual:** 2
 
 ### Histórico de refinamentos
 - *2026-09-08T11:28:17Z* — **ee-novo-cliente** (—): 
