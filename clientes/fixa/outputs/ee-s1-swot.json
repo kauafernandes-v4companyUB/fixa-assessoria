@@ -282,7 +282,7 @@
     {
       "title": "Dependência de uma única pessoa para todo o atendimento comercial",
       "description": "O briefing confirma: sales_module.active_sellers = '0 formal — atendimento comercial feito pelos próprios sócios/técnicos (principalmente Carlos Henrique Garbin)'.",
-      "implication": "Gargalo de capacidade se o volume de leads aumentar com mídia paga — endereçar junto com CRM/SDR (Semana 3-5) para não sobrecarregar o Carlos.",
+      "implication": "Gargalo de capacidade se o volume de leads aumentar com mídia paga — endereçar junto com CRM/SDR (Semana 3-4) para não sobrecarregar o Carlos.",
       "probability": "medium",
       "impact": "high",
       "source": "briefing"
@@ -368,7 +368,7 @@
         "id": "WT2",
         "strategy": "Endereçar a dependência do Carlos (T5) junto com o CRM básico (mitigar W2), definindo um fluxo mínimo de triagem que não dependa 100% dele.",
         "rationale": "Se o volume de leads aumentar com os quick wins e a mídia futura sem resolver esse gargalo, o próprio sucesso da estratégia sobrecarrega o único vendedor.",
-        "expected_outcome": "Triagem inicial (via CRM/SDR na Semana 3-5) reduz a dependência direta do Carlos para os primeiros contatos."
+        "expected_outcome": "Triagem inicial (via CRM/SDR na Semana 3-4) reduz a dependência direta do Carlos para os primeiros contatos."
       },
       {
         "id": "WT3",
@@ -456,5 +456,5 @@
     "discussion_anchor": "Vale alinhar com o Carlos, antes da Semana 2 (posicionamento), como comunicar a parte jurídica sem soar como escritório de advocacia robusto — e decidir se a mensagem-chave já aprovada ('engenharia, arquitetura e direito num só lugar') precisa de um ajuste de explicação para não parecer 3 pilares equivalentes."
   },
 
-  "honesty_alert": "A vantagem central da Fixa (resolver técnico+jurídico num só processo) só é real na prática — na percepção pública ainda não existe, porque a marca está fragmentada em todos os canais e a parte jurídica não pode ser comunicada como um departamento robusto (é a demanda jurídica da própria engenharia, tratada internamente). Além disso, o único sinal de prova social hoje fora do Instagram (GMB, 4,7★/16 avaliações) é uma amostra pequena — não deve ser vendido como prova social forte até crescer em volume. E toda a operação comercial depende de uma única pessoa (Carlos); se o volume de leads aumentar com os quick wins e a futura mídia paga, esse gargalo pode neutralizar o ganho da estratégia antes mesmo do CRM/SDR entrarem no ar (Semana 3-5)."
+  "honesty_alert": "A vantagem central da Fixa (resolver técnico+jurídico num só processo) só é real na prática — na percepção pública ainda não existe, porque a marca está fragmentada em todos os canais e a parte jurídica não pode ser comunicada como um departamento robusto (é a demanda jurídica da própria engenharia, tratada internamente). Além disso, o único sinal de prova social hoje fora do Instagram (GMB, 4,7★/16 avaliações) é uma amostra pequena — não deve ser vendido como prova social forte até crescer em volume. E toda a operação comercial depende de uma única pessoa (Carlos); se o volume de leads aumentar com os quick wins e a futura mídia paga, esse gargalo pode neutralizar o ganho da estratégia antes mesmo do CRM/SDR entrarem no ar (Semana 3-4)."
 }

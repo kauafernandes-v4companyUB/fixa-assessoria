@@ -21,7 +21,7 @@
       "category": "oportunidade",
       "label": "Ativo pronto e não aproveitado",
       "value": "GMB reivindicado, 4.7★, 16 avaliações + Instagram com depoimentos reais",
-      "subtext": "Vamos levar essa prova social para site, LP e anúncios na Semana 3",
+      "subtext": "Vamos levar essa prova social pro site já esta semana, e pra LP e anúncios na Semana 4",
       "tone": "green"
     },
     {
@@ -104,7 +104,7 @@
           "engagement_level": null,
           "notes": "Conteúdo é institucional (Início, Sobre nós, Serviços, Contato), sem tratar objeções específicas do ICP (prazo, confiança, documentação)."
         },
-        "additional_notes": "Site menciona apenas 'FIXA Engenharia' — nenhuma referência à Fixa Assessoria ou ao Jurídico. Sem CNPJ ou telefone visíveis. Não aparece nos 10 primeiros resultados do Google nem para busca direta pelo nome da marca (ver captura de tela do GMB/busca fornecida pelo operador). Esse é o canal que vira a base da nova landing page da Semana 3."
+        "additional_notes": "Site menciona apenas 'FIXA Engenharia' — nenhuma referência à Fixa Assessoria ou ao Jurídico. Sem CNPJ ou telefone visíveis. Não aparece nos 10 primeiros resultados do Google nem para busca direta pelo nome da marca (ver captura de tela do GMB/busca fornecida pelo operador). Esse é o canal que vira a base da nova landing page da Semana 4."
       },
       "gaps": [
         {
@@ -145,7 +145,7 @@
           "effort": "low"
         },
         {
-          "action": "Vamos usar este site como base de conteúdo (fotos reais, estrutura) para a nova landing page da Semana 3, já com a mensagem-chave aprovada e prova social do Instagram/GMB",
+          "action": "Vamos usar este site como base de conteúdo (fotos reais, estrutura) para a nova landing page da Semana 4, já com a mensagem-chave aprovada e prova social do Instagram/GMB",
           "priority": "short_term",
           "effort": "medium"
         },
@@ -223,7 +223,7 @@
           "effort": "low"
         },
         {
-          "action": "Vamos assumir a cadência de produção (ee-s2-diagnostico-criativos e Semana 3) mantendo o estilo que já funciona (depoimento + bastidores técnicos + educativo)",
+          "action": "Vamos assumir a cadência de produção (a partir do diagnóstico de criativos) mantendo o estilo que já funciona (depoimento + bastidores técnicos + educativo)",
           "priority": "short_term",
           "effort": "medium"
         },
@@ -392,7 +392,7 @@
       "gap": "Site não aparece nos primeiros resultados do Google nem para busca pelo nome da marca",
       "impact": "high",
       "effort": "medium",
-      "recommended_action": "Vamos vincular o site ao GMB e trabalhar SEO local básico como parte da nova LP (Semana 3)",
+      "recommended_action": "Vamos vincular o site ao GMB e trabalhar SEO local básico como parte da nova LP (Semana 4)",
       "quadrant": "quick_win"
     },
     {
@@ -463,7 +463,7 @@
         "problem": "Prova social forte (Instagram + GMB) presa fora do site",
         "evidence": "Site sem nenhum depoimento/avaliação; Instagram com depoimentos reais e GMB com nota 4.7 (16 avaliações, comentários elogiando qualidade e compromisso)",
         "impact": "Quem chega pelo site (ou por um anúncio futuro) não vê nenhuma prova de que a Fixa entrega — o material que provaria isso já existe, só não está lá",
-        "action": "Vamos levar os melhores depoimentos e avaliações para o site e a landing page na Semana 3"
+        "action": "Vamos levar os melhores depoimentos e avaliações para o site já esta semana, e para a landing page na Semana 4"
       },
       {
         "problem": "Site, Instagram e GMB comunicam só 'Fixa Engenharia', sem Assessoria nem Jurídico",
@@ -544,7 +544,7 @@
         "leakage_pct": 85,
         "root_cause": "Site sem SEO estruturado e sem website vinculado ao GMB, sem anúncio pago — mesmo busca pelo nome exato da marca não retorna o site nos 10 primeiros resultados",
         "fix_effort": "medium",
-        "fix_impact_estimate": "Vincular o site ao GMB (quick win) + landing page + SEO local básico (Semana 3) podem recuperar uma fatia relevante desse volume hoje perdido para concorrentes"
+        "fix_impact_estimate": "Vincular o site ao GMB (quick win, esta semana) + landing page e SEO local básico (Semana 4) podem recuperar uma fatia relevante desse volume hoje perdido para concorrentes"
       },
       {
         "stage": "Chega a um canal da Fixa (site, Instagram ou GMB)",
@@ -588,7 +588,7 @@
       }
     ],
     "biggest_leakage_summary": "O maior vazamento estimado é entre 'Pesquisa online' e 'Chega a um canal da Fixa' — cerca de 85% de quem pesquisa ativamente por regularização de imóvel em Caxias do Sul hoje nunca chega a encontrar a Fixa, agravado pelo fato de que nem a busca pelo nome exato da marca retorna o site oficial. Esse número é estimado [E] — não há tracking hoje para medir com precisão (CRM=5/100).",
-    "projected_funnel_90d_realistic": "[E] Com o site vinculado ao GMB e prova social replicada (quick wins desta semana) e, depois, LP + CRM mínimo + primeiros testes de mídia paga (Semana 3-4), a expectativa realista é reduzir o vazamento em 'Pesquisa/Consideração' — sem uma linha de base mensurada hoje, o ganho exato só fica claro depois que GA4/pixel estiverem instalados."
+    "projected_funnel_90d_realistic": "[E] Com o site vinculado ao GMB e prova social replicada (quick wins desta semana) e, depois, LP + CRM mínimo + primeiros testes de mídia paga (Semana 4), a expectativa realista é reduzir o vazamento em 'Pesquisa/Consideração' — sem uma linha de base mensurada hoje, o ganho exato só fica claro depois que GA4/pixel estiverem instalados."
   },
   "tone_of_voice_analysis": {
     "description": "A Fixa ainda não tem brand_voice_target formalmente declarado (brand.adjectives e brand.voice_tone estão null no briefing) — os pilares abaixo são inferidos a partir da mensagem-chave já aprovada (abordagem funcional) e do objection_library de ee-s1-persona-icp, e serão formalizados no Manual de Marca (ee-s3-manual-marca). WhatsApp fora do escopo desta rodada.",
