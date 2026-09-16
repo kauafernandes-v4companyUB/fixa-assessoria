@@ -72,10 +72,12 @@
     "methodology": "mixed",
     "tam": {
       "value_brl": 1500000000,
+      "short_description": "Mercado nacional de regularização documental residencial e fundiária — estimativa bottom-up.",
       "description": "Mercado nacional anual de regularização documental residencial e fundiária urbana (escritura/matrícula, usucapião, REURB residencial) — bottom-up a partir do estoque nacional de imóveis sem escritura. Cálculo: 30.000.000 de domicílios urbanos sem escritura (Ministério do Desenvolvimento Regional) × 1%/ano de conversão em contratação de serviço [E] × R$5.000 de ticket médio de regularização residencial (mesmo ticket cobrado pela Fixa hoje, usado como proxy nacional) [E] = R$1,5 bilhão/ano. Não existe relatório setorial dedicado que meça o mercado de 'regularização fundiária' como categoria própria — por isso o bottom-up."
     },
     "sam": {
       "value_brl": 10584000,
+      "short_description": "Caxias do Sul + Serra Gaúcha — soma regularização residencial e REURB de loteamentos.",
       "description": "Mercado regional (Caxias do Sul e Serra Gaúcha) somando dois fluxos: (A) regularização residencial/documental — R$6.384.000/ano, e (B) REURB de loteamentos institucional — R$4.200.000/ano. Ver 'filters' para o detalhamento de cada fluxo.",
       "filters": [
         "Fluxo A (residencial): 463.501 habitantes de Caxias do Sul (IBGE Censo 2022) ÷ 2,54 pessoas/domicílio (média do RS, Censo 2022) ≈ 182.481 domicílios [E] × 50% de taxa de irregularidade documental (proxy nacional, Ministério do Desenvolvimento Regional) ≈ 91.240 domicílios com irregularidade potencial [E] × 1%/ano de conversão em contratação [E] = 912 processos/ano × R$7.000 de ticket médio ponderado (entre regularização de casa R$5k e usucapião R$12k, refletindo o mix real de serviços da Fixa) [E] = R$6.384.000/ano",
@@ -85,6 +87,7 @@
     },
     "som": {
       "value_brl": 2680000,
+      "short_description": "Teto tangível de curto prazo, triangulado por 3 métodos — não é meta comercial imposta.",
       "description": "SOM de mercado (teto tangível de captura, não é meta do cliente nem limitado pela capacidade operacional atual) — triangulado por 3 métodos independentes que convergiram na faixa de R$2,1M-R$3,0M/ano, com média de R$2,68M/ano. NÃO foi derivado da meta comercial da Fixa nem reduzido pela capacidade operacional atual (ver operational_ceiling_note). Representa ~25,3% do SAM total e ~39,7% do Mercado Endereçável (R$6.753.600) — essa segunda razão é a leitura mais honesta da performance competitiva da Fixa, porque mede a captura dentro do que ela de fato persegue (perfil médio/médio-alto + loteamentos institucionais), não do SAM inteiro (que inclui perfis que a Fixa filtra deliberadamente, ver anti-persona em ee-s1-persona-icp).",
       "assumptions": [
         "Método 1 (capacidade plenamente madura, bottom-up da estrutura): 1,75× o faturamento atual (R$1,7M) = R$2.975.000/ano — assume maturação operacional mínima (CRM básico funcionando, sem vazamento de lead) com a MESMA equipe, sem contratação adicional",
