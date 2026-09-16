@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixa — Roteiro de Reunião: Diagnóstico Estratégico</title>
+<style>
+  :root{
+    --bg:#f7f6f3; --bg-alt:#ffffff; --ink:#1c1a17; --ink-soft:#5b564e;
+    --line:#e4e0d8; --accent:#b5361c; --accent-soft:#f4ded8;
+    --context:#2a5a8c; --context-bg:#e8f0f8;
+    --insight:#6a3d9a; --insight-bg:#f0e8f7;
+    --external:#0d7d6f; --external-bg:#e2f4f1;
+    --question:#c07a00; --question-bg:#fbf0dc;
+    --pause:#7a7568; --pause-bg:#eeece6;
+    --conditional:#a8720a; --conditional-bg:#faf0da;
+    --provocation:#a3221b; --provocation-bg:#f8e3e1;
+    --decision:#1e7a3d; --decision-bg:#e2f3e7;
+    --transition:#40507a; --transition-bg:#e8eaf3;
+    --stage:#8a8677;
+    --radius:10px;
+    --sidebar-w:270px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55; font-size:16px;
+  }
+  a{color:var(--accent);}
+  .app{display:flex; min-height:100vh;}
+  .sidebar{
+    width:var(--sidebar-w); flex:0 0 var(--sidebar-w); position:fixed; top:0; left:0; bottom:0;
+    background:var(--bg-alt); border-right:1px solid var(--line); padding:20px 16px;
+    overflow-y:auto; z-index:20;
+  }
+  .sidebar h1{font-size:1rem; margin:0 0 4px; line-height:1.3;}
+  .sidebar .sub{font-size:.78rem; color:var(--ink-soft); margin-bottom:14px;}
+  .sidebar input[type=search]{
+    width:100%; padding:8px 10px; border:1px solid var(--line); border-radius:8px;
+    font-size:.85rem; margin-bottom:14px; background:var(--bg);
+  }
+  .sidebar nav a{
+    display:block; padding:6px 8px; border-radius:7px; font-size:.83rem;
+    color:var(--ink-soft); text-decoration:none; margin-bottom:2px;
+  }
+  .sidebar nav a.active, .sidebar nav a:hover{ background:var(--accent-soft); color:var(--accent); }
+  .sidebar nav .group-label{
+    font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; font-weight:700;
+    color:var(--ink-soft); margin:14px 0 4px; padding:0 8px;
+  }
+  .progress-track{ height:3px; background:var(--line); border-radius:3px; margin-bottom:12px; overflow:hidden; }
+  .progress-fill{ height:100%; width:0%; background:var(--accent); transition:width .15s; }
+
+  .content{ margin-left:var(--sidebar-w); flex:1; padding:32px 5vw 100px; max-width:920px; }
+  section{ padding-top:14px; margin-bottom:52px; scroll-margin-top:20px; }
+  section h2{ font-size:1.55rem; margin:0 0 6px; letter-spacing:-.01em; }
+  section h3{ font-size:1.1rem; margin:22px 0 8px; }
+  .eyebrow{ font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; font-weight:700; color:var(--accent); margin-bottom:6px; display:block; }
+
+  header.cover{
+    background:linear-gradient(135deg,#1c1a17,#39322a); color:#fff; border-radius:16px;
+    padding:38px 34px; margin-bottom:40px;
+  }
+  header.cover .eyebrow{ color:#f0c4a8; }
+  header.cover h1{ font-size:2rem; margin:0 0 10px; }
+  header.cover p{ color:#d8d3c8; margin:2px 0; font-size:.95rem; }
+  .cover-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px; margin-top:22px; }
+  .cover-grid .item{ background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.14); border-radius:10px; padding:12px 14px; }
+  .cover-grid .item b{ display:block; font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; color:#f0c4a8; margin-bottom:4px; }
+
+  .card{ background:var(--bg-alt); border:1px solid var(--line); border-radius:var(--radius); padding:20px 22px; }
+  table{ width:100%; border-collapse:collapse; font-size:.88rem; }
+  table th, table td{ text-align:left; padding:9px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  table th{ font-size:.7rem; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-soft); }
+
+  .grid-cards{ display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:14px; margin-top:14px; }
+  .slide-card{
+    background:var(--bg-alt); border:1px solid var(--line); border-radius:var(--radius);
+    padding:14px 16px; text-decoration:none; color:var(--ink); display:block;
+  }
+  .slide-card:hover{ border-color:var(--accent); }
+  .slide-card .num{ font-size:.7rem; color:var(--accent); font-weight:700; }
+  .slide-card .title{ font-weight:600; margin:4px 0 6px; font-size:.95rem; }
+  .slide-card .meta{ font-size:.75rem; color:var(--ink-soft); }
+  .chip{ display:inline-block; font-size:.68rem; padding:2px 8px; border-radius:100px; background:var(--pause-bg); color:var(--pause); margin-top:6px; }
+
+  .slide-section{ border-top:3px solid var(--accent); padding-top:24px; }
+  .slide-meta-row{ display:flex; flex-wrap:wrap; gap:10px; margin:10px 0 18px; }
+  .meta-pill{ background:var(--bg-alt); border:1px solid var(--line); border-radius:100px; padding:5px 14px; font-size:.78rem; color:var(--ink-soft); }
+  .meta-pill b{ color:var(--ink); }
+
+  .roteiro{ background:var(--bg-alt); border:1px solid var(--line); border-radius:var(--radius); padding:22px 24px; }
+  .beat{ margin:0 0 14px; padding:12px 14px; border-radius:8px; font-size:.98rem; }
+  .beat p{ margin:0 0 8px; }
+  .beat p:last-child{ margin-bottom:0; }
+  .beat-label{ font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; display:block; margin-bottom:6px; }
+  .beat--main{ background:transparent; padding:12px 2px; }
+  .beat--context{ background:var(--context-bg); border-left:3px solid var(--context); } .beat--context .beat-label{ color:var(--context); }
+  .beat--insight{ background:var(--insight-bg); border-left:3px solid var(--insight); } .beat--insight .beat-label{ color:var(--insight); }
+  .beat--external{ background:var(--external-bg); border-left:3px solid var(--external); } .beat--external .beat-label{ color:var(--external); }
+  .beat--question{ background:var(--question-bg); border-left:3px solid var(--question); } .beat--question .beat-label{ color:var(--question); }
+  .beat--pause{ background:var(--pause-bg); border-left:3px dashed var(--pause); font-style:italic; color:var(--pause); padding:8px 14px; font-size:.85rem; }
+  .beat--conditional{ background:var(--conditional-bg); border-left:3px solid var(--conditional); } .beat--conditional .beat-label{ color:var(--conditional); }
+  .beat--provocation{ background:var(--provocation-bg); border-left:3px solid var(--provocation); } .beat--provocation .beat-label{ color:var(--provocation); }
+  .beat--decision{ background:var(--decision-bg); border-left:3px solid var(--decision); } .beat--decision .beat-label{ color:var(--decision); }
+  .beat--transition{ background:var(--transition-bg); border-left:3px solid var(--transition); } .beat--transition .beat-label{ color:var(--transition); }
+  .beat--stage{ color:var(--stage); font-style:italic; font-size:.82rem; padding:2px 2px 10px; }
+
+  .fontes-slide{ margin-top:16px; font-size:.85rem; }
+  .fontes-slide ul{ padding-left:18px; }
+  .fontes-slide li{ margin-bottom:6px; }
+
+  .adjust-box{ margin-top:16px; background:#fdf6e8; border:1px solid #e8d8a8; border-radius:8px; padding:12px 16px; font-size:.85rem; }
+  .adjust-box b{ display:block; margin-bottom:4px; color:#8a6a10; }
+
+  .nav-slide{ display:flex; justify-content:space-between; margin-top:18px; font-size:.82rem; }
+  .nav-slide a{ text-decoration:none; color:var(--ink-soft); }
+  .nav-slide a:hover{ color:var(--accent); }
+
+  .btn{
+    border:1px solid var(--line); background:var(--bg-alt); border-radius:8px; padding:6px 12px;
+    font-size:.78rem; cursor:pointer; color:var(--ink); margin-top:12px;
+  }
+  .btn:hover{ border-color:var(--accent); color:var(--accent); }
+
+  .legend{ display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 30px; }
+  .legend span{ font-size:.72rem; padding:4px 10px; border-radius:100px; }
+
+  #backTop{
+    position:fixed; bottom:22px; right:22px; z-index:30; background:var(--accent); color:#fff;
+    border:none; border-radius:50%; width:44px; height:44px; cursor:pointer; font-size:1.1rem;
+    box-shadow:0 4px 14px rgba(0,0,0,.2); opacity:0; pointer-events:none; transition:opacity .2s;
+  }
+  #backTop.show{ opacity:1; pointer-events:auto; }
+
+  @media print{
+    .sidebar,#backTop,.btn{ display:none; }
+    .content{ margin-left:0; max-width:100%; }
+    section{ page-break-inside:avoid; }
+  }
+  @media (max-width:880px){
+    .sidebar{ position:static; width:100%; flex:none; border-right:none; border-bottom:1px solid var(--line); max-height:260px; }
+    .app{ flex-direction:column; }
+    .content{ margin-left:0; padding:24px 5vw 80px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <h1>Fixa · Roteiro de Reunião</h1>
+    <div class="sub">Diagnóstico Estratégico · v1</div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <input type="search" id="searchBox" placeholder="Buscar slide...">
+    <nav id="navMenu">
+      <a href="#resumo">Resumo executivo</a>
+      <a href="#mapa">Mapa da reunião</a>
+      <a href="#visao-geral">Visão geral dos slides</a>
+      <a href="#abertura">Abertura</a>
+      <div class="group-label">Slides</div>
+      <a href="#slide-01" data-search="capa fixa">01 · Capa</a>
+      <a href="#slide-02" data-search="pauta agenda">02 · Pauta de hoje</a>
+      <a href="#slide-03" data-search="onde estamos numeros faturamento">03 · Onde estamos hoje</a>
+      <a href="#slide-04" data-search="maturidade digital pilares score">04 · Maturidade digital</a>
+      <a href="#slide-05" data-search="swot forcas fraquezas">05 · Análise SWOT</a>
+      <a href="#slide-06" data-search="persona ivete icp">06 · Persona principal</a>
+      <a href="#slide-07" data-search="auditoria comunicacao canais gaps">07 · Auditoria de comunicação</a>
+      <a href="#slide-08" data-search="pesquisa mercado tam sam som">08 · Pesquisa de mercado</a>
+      <a href="#slide-09" data-search="concorrentes balen dca blm">09 · Concorrentes-chave</a>
+      <a href="#slide-10" data-search="proximos passos semana">10 · Próximos passos</a>
+      <a href="#slide-11" data-search="obrigado fechamento">11 · Obrigado</a>
+      <div class="group-label">Encerramento</div>
+      <a href="#fechamento">Fechamento e plano de ação</a>
+      <a href="#fontes">Fontes externas</a>
+      <a href="#audio">Modo áudio</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <header class="cover">
+      <span class="eyebrow">Roteiro estratégico integral de reunião</span>
+      <h1>Fixa Engenharia &amp; Assessoria — Diagnóstico Estratégico</h1>
+      <p>Base: deck <code>apresentacao.html</code> (Estruturação V4 · Semana 1-2, progressivo) — 11 slides.</p>
+      <div class="cover-grid">
+        <div class="item"><b>Participantes</b>Carlos Henrique Garbin (Diretor/Eng. Civil) + sócios — reunião executiva</div>
+        <div class="item"><b>Duração alvo</b>45–60 min</div>
+        <div class="item"><b>Objetivo</b>Aprovar o diagnóstico (maturidade, persona, SWOT, auditoria, pesquisa de mercado) e autorizar a execução dos quick wins + sequência até a Semana 3</div>
+        <div class="item"><b>Tom</b>Consultivo-executivo — "o que vamos fazer", não "o que está errado"</div>
+        <div class="item"><b>Data de referência</b>16/09/2026</div>
+        <div class="item"><b>Versão</b>1.0 — gerado a partir dos outputs aprovados: ee-s1-persona-icp, ee-s1-diagnostico-maturidade, ee-s1-auditoria-comunicacao, ee-s1-swot, ee-s2-pesquisa-mercado</div>
+      </div>
+    </header>
+
+    <section id="resumo">
+      <span class="eyebrow">Seção 1</span>
+      <h2>Resumo executivo</h2>
+      <div class="card">
+        <p><b>Objetivo da reunião:</b> apresentar o diagnóstico consolidado da Fixa (maturidade digital, persona/ICP, SWOT competitiva, auditoria de comunicação e pesquisa de mercado) e obter aprovação formal para: (1) executar os quick wins já mapeados nesta semana, (2) seguir concluindo o restante da Semana 2 (mídia paga, orgânico IG, criativos, posicionamento, CRO), e (3) confirmar a entrada na Semana 3 (funil comercial, cliente oculto, pipeline — modelo inside-sales).</p>
+        <p><b>Narrativa central:</b> a Fixa já é <i>líder de nicho</i> no mercado regional (~16,1% do SAM, R$10,6 milhões/ano) sem nenhum investimento digital — mas está em 10/100 de maturidade digital, 26 pontos abaixo da média do setor. O ativo mais valioso (prova social real no Instagram e GMB, relacionamento institucional com cartórios/prefeitura) já existe; o que falta é organização, não reputação.</p>
+        <p><b>Decisões esperadas ao final:</b> aprovação dos 5 quick wins de comunicação, confirmação de quem no time tem acesso de edição do site/GMB, validação (ou descarte) da pendência sobre loteamentos vs. Balen, e alinhamento sobre a sequência CRM → CRO → mídia paga antes de qualquer investimento em anúncios.</p>
+        <p><b>Principais riscos/pontos sensíveis:</b> (a) o framing da "frente jurídica" precisa ser comunicado como parte do processo de engenharia, não como um departamento jurídico robusto — ponto já ajustado pelo operador na SWOT; (b) o item sobre loteamentos vs. Balen é um relato não confirmado — deve ser tratado como hipótese em toda a reunião, nunca como fato consolidado; (c) o negócio depende hoje de uma única pessoa (Carlos) para todo o comercial — isso limita quanto volume adicional a operação aguenta antes do CRM/SDR estarem no ar.</p>
+        <p><b>Resultado ideal ao sair da sala:</b> Carlos e sócios saem entendendo exatamente por que a sequência é CRM/CRO antes de mídia paga, aprovam os quick wins para essa semana, e têm clareza do que falta para fechar a Semana 2.</p>
+      </div>
+    </section>
+
+    <section id="mapa">
+      <span class="eyebrow">Seção 2</span>
+      <h2>Mapa da reunião</h2>
+      <div class="card">
+        <table>
+          <thead><tr><th>Bloco</th><th>Slides</th><th>Objetivo</th><th>Tempo</th><th>Decisão esperada</th></tr></thead>
+          <tbody>
+            <tr><td>Abertura</td><td>—</td><td>Alinhar pauta e resultado esperado</td><td>3 min</td><td>Compromisso de 45-60min sem interrupção de pauta</td></tr>
+            <tr><td>Contexto</td><td>01–03</td><td>Ancorar números reais do negócio</td><td>5 min</td><td>—</td></tr>
+            <tr><td>Diagnóstico crítico</td><td>04–05</td><td>Maturidade digital + SWOT competitiva</td><td>16 min</td><td>Aprovar sequência CRM→CRO→mídia e o framing do diferencial jurídico</td></tr>
+            <tr><td>Cliente ideal</td><td>06</td><td>Humanizar o ICP e validar mensagem-chave</td><td>5 min</td><td>Validar (ou não) pendência de loteamentos vs. Balen</td></tr>
+            <tr><td>Execução imediata</td><td>07</td><td>Gaps por canal e quick wins</td><td>7 min</td><td>Aprovar os 5 quick wins e confirmar acessos</td></tr>
+            <tr><td>Mercado</td><td>08–09</td><td>Tamanho de oportunidade e concorrência</td><td>10 min</td><td>Validar meta de crescimento real vs. SOM calculado</td></tr>
+            <tr><td>Fechamento</td><td>10–11 + encerramento</td><td>Alinhar próximos passos e responsáveis</td><td>7 min</td><td>Aprovação formal do plano de ação</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="visao-geral">
+      <span class="eyebrow">Seção 3</span>
+      <h2>Visão geral dos slides</h2>
+      <div class="legend">
+        <span style="background:var(--context-bg);color:var(--context)">Contextualização</span>
+        <span style="background:var(--insight-bg);color:var(--insight)">Insight de especialista</span>
+        <span style="background:var(--external-bg);color:var(--external)">Dado externo</span>
+        <span style="background:var(--question-bg);color:var(--question)">Pergunta</span>
+        <span style="background:var(--pause-bg);color:var(--pause)">Pausa</span>
+        <span style="background:var(--conditional-bg);color:var(--conditional)">Condução condicional</span>
+        <span style="background:var(--provocation-bg);color:var(--provocation)">Provocação</span>
+        <span style="background:var(--decision-bg);color:var(--decision)">Decisão</span>
+        <span style="background:var(--transition-bg);color:var(--transition)">Transição</span>
+      </div>
+      <div class="grid-cards" id="cardsGrid">
+        <a class="slide-card" href="#slide-01" data-search="capa"><span class="num">Slide 01</span><div class="title">Capa</div><div class="meta">Abertura visual · 1 min</div><span class="chip">contextualização</span></a>
+        <a class="slide-card" href="#slide-02" data-search="pauta"><span class="num">Slide 02</span><div class="title">Pauta de hoje</div><div class="meta">Agenda · 1-2 min</div><span class="chip">contextualização</span></a>
+        <a class="slide-card" href="#slide-03" data-search="numeros"><span class="num">Slide 03</span><div class="title">Onde estamos hoje</div><div class="meta">Contexto factual · 2-3 min</div><span class="chip">fala completa</span></a>
+        <a class="slide-card" href="#slide-04" data-search="maturidade"><span class="num">Slide 04</span><div class="title">Maturidade digital</div><div class="meta">Diagnóstico crítico · 8 min</div><span class="chip">decisão</span></a>
+        <a class="slide-card" href="#slide-05" data-search="swot"><span class="num">Slide 05</span><div class="title">Análise SWOT</div><div class="meta">Diagnóstico crítico · 8 min</div><span class="chip">decisão</span></a>
+        <a class="slide-card" href="#slide-06" data-search="persona"><span class="num">Slide 06</span><div class="title">Persona principal</div><div class="meta">Cliente ideal · 5 min</div><span class="chip">discussão</span></a>
+        <a class="slide-card" href="#slide-07" data-search="auditoria"><span class="num">Slide 07</span><div class="title">Auditoria de comunicação</div><div class="meta">Execução imediata · 7 min</div><span class="chip">decisão</span></a>
+        <a class="slide-card" href="#slide-08" data-search="mercado"><span class="num">Slide 08</span><div class="title">Pesquisa de mercado</div><div class="meta">Mercado · 6 min</div><span class="chip">discussão</span></a>
+        <a class="slide-card" href="#slide-09" data-search="concorrentes"><span class="num">Slide 09</span><div class="title">Concorrentes-chave</div><div class="meta">Mercado · 4 min</div><span class="chip">fala completa</span></a>
+        <a class="slide-card" href="#slide-10" data-search="proximos"><span class="num">Slide 10</span><div class="title">Próximos passos</div><div class="meta">Fechamento · 5 min</div><span class="chip">decisão</span></a>
+        <a class="slide-card" href="#slide-11" data-search="obrigado"><span class="num">Slide 11</span><div class="title">Obrigado</div><div class="meta">Fechamento visual · 1 min</div><span class="chip">transição</span></a>
+      </div>
+    </section>
+
+    <section id="abertura" class="slide-section">
+      <span class="eyebrow">Abertura da reunião</span>
+      <h2>Antes do slide 1</h2>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Bom dia — obrigado por reservarem esse horário. Sei que a agenda de vocês é apertada, então quero aproveitar bem esse tempo.</p>
+          <p>Hoje eu trago o diagnóstico completo que construímos nas últimas semanas: maturidade digital, o perfil de cliente ideal de vocês, uma análise competitiva, a auditoria dos canais que vocês já têm, e o tamanho real do mercado que a Fixa atua. Não é uma lista de problemas — é o raciocínio completo de onde vocês estão hoje e o que faz sentido priorizar primeiro.</p>
+        </div>
+        <div class="beat beat--context">
+          <span class="beat-label">Contextualização</span>
+          <p>Vocês contrataram o Executar, então tudo que a gente vai mostrar aqui já está — ou está prestes a entrar — na fila de produção da nossa equipe. Essa reunião não é para vocês saírem com uma lista de tarefas; é para alinharmos prioridade e sequência antes de colocarmos a mão na massa.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>A agenda de hoje: primeiro, uma leitura rápida de onde a Fixa está agora em números reais. Depois, o ponto mais denso da reunião — maturidade digital e a análise SWOT, que juntas explicam por que a sequência de execução importa tanto quanto o que vamos executar. Na sequência, o perfil da cliente ideal de vocês, os gaps de comunicação com os quick wins já prontos pra essa semana, o tamanho do mercado, e quem disputa esse território com vocês. Fechamos com o plano de ação e os próximos passos.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>O resultado que eu preciso desta reunião é: aprovação de vocês para os quick wins que vamos mostrar — alguns levam 15 minutos e já resolvem o maior gargalo que encontramos — e alinhamento sobre a ordem de execução das próximas semanas.</p>
+        </div>
+        <div class="beat beat--stage">[SE ALGUÉM TENTAR PULAR DIRETO PARA "QUANDO A MÍDIA PAGA VAI COMEÇAR"] Reconheça o interesse, mas segure a pauta: "Ótimo que já querem entrar nisso — é justamente um dos pontos centrais de hoje, vou chegar lá com o racional completo em poucos minutos, vale a pena ver a sequência antes do número."</div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Vamos começar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 01 -->
+    <section id="slide-01" class="slide-section">
+      <span class="eyebrow">Slide 01 — Capa</span>
+      <h2>Fixa Engenharia &amp; Assessoria</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> abrir formalmente e ancorar expectativa</span>
+        <span class="meta-pill"><b>Tempo:</b> 1 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> atenção da sala</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Este é o diagnóstico estratégico da Fixa Engenharia e Assessoria — construído em cima do que vocês nos passaram no kickoff, do que já está publicado nos canais de vocês, e de pesquisa direta sobre o mercado de regularização fundiária em Caxias do Sul.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="nav-slide"><a href="#abertura">← Abertura</a><a href="#visao-geral">Visão geral</a><a href="#slide-02">Próximo: Pauta →</a></div>
+    </section>
+
+    <!-- SLIDE 02 -->
+    <section id="slide-02" class="slide-section">
+      <span class="eyebrow">Slide 02 — Pauta de hoje</span>
+      <h2>O que vamos cobrir</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> situar quanto já foi feito x o que falta</span>
+        <span class="meta-pill"><b>Tempo:</b> 1-2 min</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Oito blocos: maturidade digital com os scores por pilar, o perfil da cliente ideal de vocês, a análise SWOT e o que ela sugere fazer, a auditoria de comunicação com os gaps de cada canal, o tamanho do mercado, quem são os concorrentes que mais pesam, e como fecha o projeto até aqui.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Eu vou começar pelo mais concreto — os números de onde a Fixa está hoje — antes de entrar no que é mais denso.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="nav-slide"><a href="#slide-01">← Capa</a><a href="#visao-geral">Visão geral</a><a href="#slide-03">Próximo: Onde estamos →</a></div>
+    </section>
+
+    <!-- SLIDE 03 -->
+    <section id="slide-03" class="slide-section">
+      <span class="eyebrow">Slide 03 — Onde estamos hoje</span>
+      <h2>Fixa em números reais</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> ancorar contexto factual antes do diagnóstico crítico</span>
+        <span class="meta-pill"><b>Tempo:</b> 2-3 min</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Hoje a Fixa projeta cerca de um milhão e setecentos mil reais de faturamento para 2026 — sendo aproximadamente um milhão vindo da frente de Engenharia e setecentos mil da Assessoria. São dez anos de Fixa Engenharia, fundada em setembro de 2016, e dois anos de Fixa Assessoria, fundada em agosto de 2024 — duas empresas, três frentes de atuação (engenharia, assessoria imobiliária e a parte jurídica interna), uma marca em unificação.</p>
+        </div>
+        <div class="beat beat--context">
+          <span class="beat-label">Contextualização</span>
+          <p>Eu trago esse número agora porque ele vai ser importante daqui a pouco, quando a gente falar de mercado: vocês já faturam isso hoje sem nenhum investimento em mídia paga, sem site funcionando de verdade e sem CRM. Guardem esse dado.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>E é exatamente por isso que o próximo bloco importa tanto — porque ele explica como vocês chegaram até aqui apesar da maturidade digital ser praticamente zero.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="adjust-box">
+        <b>Ajuste recomendado para o slide</b>
+        O KPI "R$ 1,70" no slide renderizado está sem a unidade (milhões) visível e o campo de contexto (kpi__hint) está vazio ("—"). Sugestão: corrigir para "R$ 1,70 mi" e preencher o hint com a composição (Engenharia + Assessoria). O card "Tempo de mercado: 10 anos" também mistura as duas entidades (10 anos Engenharia / 2 anos Assessoria) — vale desdobrar em dois KPIs.
+      </div>
+      <div class="nav-slide"><a href="#slide-02">← Pauta</a><a href="#visao-geral">Visão geral</a><a href="#slide-04">Próximo: Maturidade digital →</a></div>
+    </section>
+
+    <!-- SLIDE 04 -->
+    <section id="slide-04" class="slide-section">
+      <span class="eyebrow">Slide 04 — Maturidade digital</span>
+      <h2>Diagnóstico por pilar</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> apresentar o score crítico e a causa-raiz de operar 100% offline</span>
+        <span class="meta-pill"><b>Tempo:</b> 7-8 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> concordância sobre a sequência CRM → CRO → mídia paga</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--context">
+          <span class="beat-label">Contextualização</span>
+          <p>No slide anterior eu mostrei que vocês faturam um milhão e setecentos mil reais por ano só de indicação e relacionamento. Agora eu vou mostrar o porquê disso ser, ao mesmo tempo, uma conquista e um risco.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>A maturidade digital geral da Fixa está em dez pontos de cem. Isso classifica como crítico, e está vinte e seis pontos abaixo da média do setor imobiliário, que gira em torno de trinta e seis. Olhando pilar por pilar: Mídia Paga está em cinco, Criativos em treze, CRO — que é a capacidade da página de converter visita em contato — está em oito, CRM está em cinco, e SEO está em vinte e dois, sendo o único pilar fora da faixa crítica.</p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight de especialista</span>
+          <p>Reparem que Mídia Paga e CRM estão empatados no fundo da escala, com menos trinta e cinco pontos cada um em relação à média do setor. Não é coincidência esses dois estarem juntos — são exatamente os dois pilares que decidem, juntos, se um lead vira cliente ou se perde pelo caminho. Um sem o outro não resolve nada.</p>
+        </div>
+        <div class="beat beat--question">
+          <span class="beat-label">Pergunta</span>
+          <p>Hoje, quando um contato novo chega pelo WhatsApp de vocês, o que acontece depois? Existe algum jeito — mesmo que informal, uma planilha — de saber quantos leads entraram esse mês e quantos viraram proposta?</p>
+        </div>
+        <div class="beat beat--pause">[PAUSA PARA RESPOSTA]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE NÃO HOUVER NENHUM REGISTRO</span>
+          <p>Então esse é exatamente o ponto que esse score de cinco em CRM está descrevendo: hoje não existe visibilidade de quantos leads entram, e isso vale tanto para o lead que vem de indicação quanto para o que, no futuro, vier de um anúncio pago.</p>
+        </div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE HOUVER PLANILHA OU CONTROLE INFORMAL</span>
+          <p>Isso já ajuda bastante — dá pra usar como ponto de partida. A pergunta que fica é: dá pra saber, hoje, qual a taxa de conversão entre quem entra em contato e quem fecha? Se essa resposta não existir ainda, é sinal de que o controle é de volume, não de funil — e é exatamente isso que o CRM básico resolve.</p>
+        </div>
+        <div class="beat beat--external">
+          <span class="beat-label">Dado externo</span>
+          <p>Vale contextualizar por que a gente está sendo tão específico com a ordem: o próprio diagnóstico aponta que investir em mídia paga — que é o pilar de maior peso no cálculo do score, vinte e cinco por cento — antes de resolver CRO e CRM mínimos faz o investimento vazar. Isso não é uma opinião nossa isolada; é a leitura de honestidade que documentamos junto com o diagnóstico: quatro dos cinco pilares estão na faixa crítica — não é um ajuste pontual, é começar praticamente do zero em quase tudo, com uma exceção real: o GMB, com nota quatro vírgula sete.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA O CARD DE CRM E DEPOIS PARA O DE MÍDIA PAGA]</div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>Se o volume de leads dobrasse amanhã com uma campanha de mídia rodando bem, a operação de hoje — que depende inteiramente do WhatsApp pessoal do Carlos — aguentaria esse volume, ou vocês estariam só dobrando o desperdício?</p>
+        </div>
+        <div class="beat beat--stage">[SE HOUVER OBJEÇÃO: "POR QUE NÃO COMEÇAR JÁ COM MÍDIA PAGA, QUE É O QUE TRAZ CLIENTE RÁPIDO?"] Reconheça a lógica antes de contrapor: "Entendo a vontade — é o canal mais visível. Mas o vazamento maior hoje não está na entrada de lead, está depois: numa página que não converte e num CRM que não existe. Ligar mídia paga em cima disso amplia o vazamento, não o resultado."</div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>A recomendação que está no diagnóstico — e que eu quero a concordância formal de vocês — é: primeiro CRM básico com pipeline mínimo, depois a landing page com CRO e rastreamento instalado, e só então mídia paga. Criativos e reforço de SEO local correm em paralelo, sem depender de nada. Podemos seguir com essa sequência?</p>
+        </div>
+        <div class="beat beat--pause">[PAUSA PARA RESPOSTA — REGISTRE A DECISÃO]</div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Esse foi o retrato geral. Agora eu quero aprofundar o porquê estratégico — o que a Fixa tem de força real, e contra quem ela está competindo. É isso que a próxima análise mostra.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="fontes-slide"><b>Fontes internas usadas neste slide:</b> ee-s1-diagnostico-maturidade.json (scores por pilar, benchmark setorial, priorities, honesty_alert).</div>
+      <div class="nav-slide"><a href="#slide-03">← Onde estamos</a><a href="#visao-geral">Visão geral</a><a href="#slide-05">Próximo: SWOT →</a></div>
+    </section>
+
+    <!-- SLIDE 05 -->
+    <section id="slide-05" class="slide-section">
+      <span class="eyebrow">Slide 05 — Análise SWOT</span>
+      <h2>Forças · Fraquezas · Oportunidades · Ameaças</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> leitura estratégica cruzada com concorrência real</span>
+        <span class="meta-pill"><b>Tempo:</b> 8 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> validar o framing do diferencial jurídico</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--context">
+          <span class="beat-label">Contextualização</span>
+          <p>Até aqui vocês viram o "onde dói". Agora eu quero mostrar o "por que vocês ainda ganham apesar disso" — e contra quem vocês estão competindo de verdade.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>Do lado das forças, a mais importante: a Fixa resolve o levantamento técnico — engenharia e arquitetura — e a parte documental e jurídica da regularização dentro do mesmo processo, sem o cliente precisar contratar um segundo prestador. Nenhum dos três concorrentes que mapeamos declara oferecer isso integrado. Isso já foi discutido com vocês antes, e o framing que ficou combinado é importante: essa parte jurídica não é comunicada como um departamento robusto tipo escritório de advocacia — é a burocracia legal da própria regularização, resolvida dentro do processo técnico, por um profissional formado em Direito. Vou manter esse framing em tudo que vier depois, inclusive no posicionamento da próxima semana.</p>
+          <p>A segunda força real: prova social. Setenta e um posts no Instagram trazem depoimentos com nome e foto de cliente, e o Google Meu Negócio está reivindicado com nota quatro vírgula sete. Mas — sendo honesto com vocês — dezesseis avaliações é uma amostra pequena, abaixo do benchmark do setor, que fica em cinquenta ou mais. É um ponto de partida, não uma prova social robusta ainda.</p>
+          <p>A terceira: o relacionamento institucional de vocês com cartórios e com a prefeitura, que reduz atrito e prazo — um ativo difícil de qualquer concorrente novo copiar rápido.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>Do lado das fraquezas, a mais crítica é a mesma que vimos na auditoria: o site não aparece nem quando alguém busca o nome exato da marca no Google. A segunda é o CRM zerado — todo lead cai no WhatsApp pessoal do sócio, sem pipeline. E a terceira, que aparece nos três canais que auditamos: hoje a comunicação de vocês fala só de "Fixa Engenharia" — a Assessoria e o Jurídico ainda não aparecem em nenhum canal digital.</p>
+        </div>
+        <div class="beat beat--question">
+          <span class="beat-label">Pergunta</span>
+          <p>Vocês concordam com esse framing — comunicar a parte jurídica como parte do processo de engenharia, e não como uma terceira especialidade equivalente e separada? Essa decisão já está registrada do nosso lado, mas eu quero a confirmação de vocês antes de levar isso pro posicionamento na próxima semana.</p>
+        </div>
+        <div class="beat beat--pause">[PAUSA PARA RESPOSTA]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE CONCORDAREM</span>
+          <p>Perfeito, sigo com esse framing consolidado no posicionamento.</p>
+        </div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE QUISEREM REVISITAR</span>
+          <p>Sem problema — eu anoto esse ponto em aberto e trazemos de volta com mais tempo na reunião de posicionamento, sem travar o restante de hoje.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>Agora, oportunidades: a mais urgente — e essa eu quero destacar — é que nenhum dos três concorrentes mapeados formaliza clareza de prazo como promessa comercial. A Balen aposta em escala institucional, a DCA em cases documentados. Nenhum dos dois diz, por escrito, em quanto tempo o processo do cliente vai sair. E essa é exatamente a dor número um do perfil de cliente de vocês, que eu vou detalhar daqui a pouco.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>Do lado das ameaças, a Balen é a mais séria: mais de vinte anos de atuação, prêmio Top of Mind 2022 em Caxias do Sul, mais de vinte mil clientes declarados, site institucional robusto e dois mil cento e quarenta e nove seguidores no Instagram. A gente colocou isso num placar comparativo: numa escala de zero a dez, a Fixa está em três vírgula quatro hoje, a Balen em sete, a DCA em cinco vírgula oito, e a BLM em um. O gap maior está em site, SEO e mídia paga — não em reputação ou capacidade técnica.</p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight de especialista</span>
+          <p>A leitura estratégica que eu trago aqui é: a Fixa não vai vencer a Balen em escala — não faz sentido tentar copiar uma holding. O caminho é competir em especificidade: resolver tudo num processo só, e formalizar prazo por escrito, que é território livre.</p>
+        </div>
+        <div class="beat beat--stage">[SE SURGIR A PERGUNTA: "POR QUE COMPARAR A GENTE COM A BALEN, QUE É MUITO MAIOR?"] "Não é pra competir em tamanho — é pra mostrar exatamente onde tem espaço livre que a Balen, apesar do tamanho dela, não ocupa."</div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>Vale a pena investir pesado em mídia paga agora, sabendo que o CRM ainda está zerado? Ou a prioridade de verdade é destravar o que já existe — prova social, relacionamento institucional, a promessa de prazo — antes de aumentar o volume de gente entrando em contato?</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>Eu quero validar com vocês a leitura desta SWOT como base para o posicionamento da próxima semana — ela já aponta a estratégia central: ocupar o território de "prazo por escrito" usando o diferencial que vocês já têm na prática.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Toda essa estratégia serve pra alguém específico. Deixa eu apresentar quem é essa pessoa.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="fontes-slide"><b>Fontes internas usadas neste slide:</b> ee-s1-swot.json (competitor_scorecard, strengths, weaknesses, opportunities, threats, tows_matrix, strategic_synthesis).</div>
+      <div class="nav-slide"><a href="#slide-04">← Maturidade digital</a><a href="#visao-geral">Visão geral</a><a href="#slide-06">Próximo: Persona →</a></div>
+    </section>
+
+    <!-- SLIDE 06 -->
+    <section id="slide-06" class="slide-section">
+      <span class="eyebrow">Slide 06 — Persona principal</span>
+      <h2>Ivete Dal Bosco</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> humanizar o ICP e validar a mensagem-chave</span>
+        <span class="meta-pill"><b>Tempo:</b> 4-5 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> levantar a pendência de validação sobre loteamentos</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--context">
+          <span class="beat-label">Contextualização</span>
+          <p>Tudo que eu mostrei até agora — maturidade, SWOT, o território de prazo por escrito — existe para servir uma pessoa específica. Deixa eu apresentar ela.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>Essa é a Ivete Dal Bosco — sessenta e um anos, viúva, aposentada, mora na casa que o marido construiu há mais de trinta anos, num bairro consolidado de padrão médio. Depois que ele faleceu, ela descobriu que o imóvel nunca teve escritura definitiva registrada — só um contrato antigo de compra e venda, sem averbação. Os três filhos moram em outras cidades. Ela quer vender a casa e se mudar pra perto de um deles, mas o comprador exige matrícula regularizada e o banco não libera financiamento sem isso. Ela já tentou resolver sozinha no cartório e na prefeitura, cada órgão pediu um documento diferente, e ela desistiu no meio do caminho.</p>
+          <p>A frase dela resume tudo: <i>"Eu só quero vender essa casa em paz e não deixar essa dor de cabeça pros meus filhos resolverem depois que eu morrer. Já tentei sozinha e não consegui nem entender o que me pediam."</i></p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight de especialista</span>
+          <p>Reparem que a Ivete não está comparando preço. As objeções mapeadas no formulário de vocês são todas sobre confiança e prazo — achar que vai ser caro e demorado, desconfiar que o serviço seja necessário, achar que a falta de documento inviabiliza tudo. Nenhuma é sobre o serviço em si. Por isso a mensagem-chave aprovada foi a funcional: "Regularize seu imóvel com engenharia, arquitetura e direito num só lugar."</p>
+        </div>
+        <div class="beat beat--main">
+          <p>E existem também três perfis que a gente definiu como o oposto da Ivete — quem <i>não</i> deveria consumir tempo de diagnóstico técnico da equipe de vocês: o Curioso Especulador, que só quer saber o preço sem ter um caso concreto; o Fora do Padrão de Atendimento, que negocia a parcela pra um valor simbólico e tende a abandonar o processo no meio; e a Emergência de Última Hora, que quer a matrícula pronta em poucos dias e rejeita qualquer prazo realista.</p>
+        </div>
+        <div class="beat beat--stage">[ORIENTAÇÃO DE PALCO — ponto a levantar verbalmente, sem virar claim de marketing]</div>
+        <div class="beat beat--question">
+          <span class="beat-label">Pergunta</span>
+          <p>Existe um ponto que registramos no kickoff e que eu preciso confirmar diretamente com vocês, porque ele não entra em nenhum slide ou no portal enquanto não for validado: vocês sentem que, no último ano, a Fixa assumiu a maioria dos novos loteamentos protocolados na cidade, tirando espaço da Balen? Isso é algo que dá pra documentar com contrato ou protocolo na prefeitura?</p>
+        </div>
+        <div class="beat beat--pause">[PAUSA PARA RESPOSTA]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE SIM E FOR DOCUMENTÁVEL</span>
+          <p>Ótimo — vamos levantar essa documentação com vocês. Se confirmado, isso vira um ativo de prova social forte justamente no segmento de maior ticket que vocês têm.</p>
+        </div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE NÃO HOUVER COMO DOCUMENTAR</span>
+          <p>Sem problema — mantemos isso como hipótese interna nossa, e não vira claim de marketing nem comparação nominal com a Balen até termos prova concreta.</p>
+        </div>
+        <div class="beat beat--stage">[SE ALGUÉM DISSER "A IVETE NÃO É O ÚNICO TIPO DE CLIENTE QUE ATENDEMOS"] "Com certeza — ela é a persona-âncora, não a única. Outros perfis entram como variação, mas a comunicação principal de vocês precisa falar com ela primeiro, porque é o padrão mais recorrente e mais alinhado ao que vocês querem atender."</div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Agora que sabemos pra quem vocês estão falando, vamos ver onde essa conversa está falhando hoje — canal por canal.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="fontes-slide"><b>Fontes internas usadas neste slide:</b> ee-s1-persona-icp.json (persona, icp.behavior.main_objections, anti_persona, pending_validation_items — item com render.roteiro_apresentacao=true).</div>
+      <div class="nav-slide"><a href="#slide-05">← SWOT</a><a href="#visao-geral">Visão geral</a><a href="#slide-07">Próximo: Auditoria →</a></div>
+    </section>
+
+    <!-- SLIDE 07 -->
+    <section id="slide-07" class="slide-section">
+      <span class="eyebrow">Slide 07 — Auditoria de comunicação</span>
+      <h2>Gaps por canal</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> mostrar gaps acionáveis e os quick wins já na fila de produção</span>
+        <span class="meta-pill"><b>Tempo:</b> 6-7 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> aprovar os 5 quick wins e confirmar acessos</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>A gente auditou quatro canais — site, Instagram, anúncios e Google Meu Negócio, deixando o WhatsApp fora desta rodada a pedido de vocês. O score médio ficou em trinta e um de cem. Mas o dado importante não é a média — é a distribuição: Instagram está em quarenta e oito, GMB em quarenta e cinco, site em vinte e oito, e anúncios em cinco, porque simplesmente não existem ainda.</p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight de especialista</span>
+          <p>O padrão que se repete em quase todos os gaps não é falta de material — é material bom que existe em dois canais e nunca chega ao terceiro. E tem um erro de configuração de quinze minutos que ajuda a explicar boa parte disso: o campo "website" do perfil do Google Meu Negócio está vazio. O próprio Google sinaliza isso no painel de vocês.</p>
+        </div>
+        <div class="beat beat--question">
+          <span class="beat-label">Pergunta</span>
+          <p>Vocês já tinham reparado que esse campo estava vazio no perfil do Google?</p>
+        </div>
+        <div class="beat beat--pause">[PAUSA PARA RESPOSTA]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE NÃO SABIAM</span>
+          <p>Então esse é literalmente o primeiro ajuste que vamos fazer — e pode sair ainda essa semana.</p>
+        </div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">Condução condicional — SE JÁ SABIAM</span>
+          <p>Perfeito — então só preciso confirmar com vocês quem tem acesso de edição do perfil pra gente resolver isso nos próximos dias.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>São cinco quick wins ao todo, e eu vou listar rápido porque todos já entram direto na nossa fila de produção: vincular o site ao GMB, quinze minutos; levar os melhores depoimentos do Instagram e as avaliações do GMB pro site, cerca de duas horas do nosso design; trocar os dois botões "Saiba mais" do site por "Quero regularizar meu imóvel", uma hora; publicar no GMB o mesmo conteúdo já produzido pro Instagram, uma hora; e incluir CNPJ e telefone no rodapé do site, trinta minutos.</p>
+        </div>
+        <div class="beat beat--stage">[SE SURGIR: "POR QUE NÃO FAZER UM SITE NOVO DO ZERO?"] "Porque o que existe hoje já tem boa base — fotos reais, estrutura visual consistente. O problema não é o material, é a configuração e a falta de prova social. A gente aproveita essa base pra já entrar direto na nova landing page da Semana 3, em vez de recomeçar do zero."</div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>Setenta e um posts no Instagram com depoimento real, GMB com nota quatro vírgula sete — vocês já têm a prova que qualquer concorrente ia querer ter. A pergunta não é se vocês têm material bom. É por que esse material nunca saiu do Instagram.</p>
+        </div>
+        <div class="beat beat--external">
+          <span class="beat-label">Dado externo — leitura de funil</span>
+          <p>Um dado que vale trazer aqui, com a ressalva de que é uma estimativa nossa, sem ferramenta de tracking instalada ainda: o maior vazamento estimado na jornada de vocês está entre "pesquisa online" e "chegar a um canal da Fixa" — cerca de oitenta e cinco por cento de quem pesquisa ativamente por regularização de imóvel em Caxias do Sul hoje nunca chega a encontrar vocês. Isso é estimativa, não medição — vamos ter o número real assim que instalarmos o rastreamento.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>O que eu preciso de vocês agora: aprovação pra esses cinco quick wins entrarem na produção essa semana, e confirmação de quem no time tem acesso de edição do site e do GMB.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Agora que vimos onde a comunicação de vocês vaza, vamos olhar pro tamanho real da oportunidade que está em jogo.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="fontes-slide"><b>Fontes internas usadas neste slide:</b> ee-s1-auditoria-comunicacao.json (channels_audited, quick_wins, journey_friction_map, tone_of_voice_analysis).</div>
+      <div class="nav-slide"><a href="#slide-06">← Persona</a><a href="#visao-geral">Visão geral</a><a href="#slide-08">Próximo: Pesquisa de mercado →</a></div>
+    </section>
+
+    <!-- SLIDE 08 -->
+    <section id="slide-08" class="slide-section">
+      <span class="eyebrow">Slide 08 — Pesquisa de mercado</span>
+      <h2>TAM · SAM · SOM</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> dimensionar a oportunidade e mostrar a liderança de nicho atual</span>
+        <span class="meta-pill"><b>Tempo:</b> 5-6 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> validar meta de crescimento vs. SOM calculado</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>O mercado nacional de regularização documental residencial e fundiária urbana gira em torno de um bilhão e meio de reais por ano — esse é o TAM, calculado de baixo pra cima a partir do estoque de imóveis sem escritura no país. Olhando só pra região de vocês, Caxias do Sul e Serra Gaúcha, o mercado endereçável — o SAM — é de dez milhões e quinhentos e oitenta e quatro mil reais por ano, somando dois fluxos: regularização residencial e REURB de loteamentos.</p>
+        </div>
+        <div class="beat beat--external">
+          <span class="beat-label">Dado externo</span>
+          <p>Esse número regional tem uma base concreta e pública: a Secretaria Municipal de Urbanismo de Caxias do Sul mapeou, em 2021, seiscentas áreas irregulares na cidade — sendo quatrocentas e sessenta e seis delas REURB-E, loteamentos particulares. É justamente o segmento de maior ticket de vocês, entre cem e quatrocentos mil reais.</p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight de especialista</span>
+          <p>E aqui está o dado que eu acho mais importante desse bloco inteiro: cruzando o faturamento atual de vocês com esse SAM regional, a Fixa já captura cerca de dezesseis vírgula um por cento desse mercado — sem nenhum investimento digital. Isso é patamar de líder de nicho nos benchmarks que a gente usa. Vocês não têm um problema de produto ou de reputação. Têm um problema de estar ausentes onde o cliente ideal já está procurando.</p>
+        </div>
+        <div class="beat beat--main">
+          <p>Triangulando por três métodos diferentes — capacidade operacional madura, participação de mercado por benchmark de nicho, e captura por segmento — o teto tangível de curto prazo, o SOM, converge pra dois milhões e seiscentos e oitenta mil reais por ano. Isso representa cerca de cinquenta e sete por cento de crescimento sobre o faturamento atual. Importante: esse número não é uma meta que a gente está impondo — é o teto calculado com a estrutura de hoje, minimamente madura em CRM.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA OS TRÊS CÍRCULOS TAM/SAM/SOM NA TELA]</div>
+        <div class="beat beat--question">
+          <span class="beat-label">Pergunta</span>
+          <p>Sabendo que vocês já capturam dezesseis por cento desse mercado regional sem nenhum investimento digital — qual é a meta de faturamento real que vocês têm em mente pra 2027? Hoje a gente não tem isso documentado formalmente ainda.</p>
+        </div>
+        <div class="beat beat--pause">[PAUSA PARA RESPOSTA — REGISTRE A META SE FOR DECLARADA]</div>
+        <div class="beat beat--external">
+          <span class="beat-label">Dado externo</span>
+          <p>Vale mencionar uma tendência que pode afetar o setor nos próximos anos: o Sistema Eletrônico dos Registros Públicos, previsto na Lei federal 14.382 de 2022, estabelece prazo até 25 de maio de 2026 para os cartórios migrarem cem por cento dos registros ao sistema digital nacional — segundo dados públicos da ANOREG/BR, noventa e quatro por cento dos dados já estão informatizados, e já existe inteligência artificial em uso para leitura automática de matrículas. Isso pode, nos próximos doze a vinte e quatro meses, baratear os serviços documentais mais simples — o que reforça a importância de vocês se diferenciarem nos casos complexos: usucapião, inventário e REURB de loteamentos.</p>
+        </div>
+        <div class="beat beat--stage">[HONESTY ALERT — verbalizar a limitação] "Preciso ser transparente: esses números de mercado são estimativas construídas de baixo pra cima, porque não existe um relatório de setor pronto especificamente pra 'regularização fundiária'. Tratem como território de referência, não como meta fechada."</div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>Duzentos e sessenta e seis loteamentos REURB-E que ainda não foram regularizados só nessa cidade, segundo o levantamento da própria prefeitura — se a Fixa não ocupar esse espaço nos próximos anos, alguém vai.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>E por falar em quem pode ocupar esse espaço — vamos ver, especificamente, quem está competindo com vocês hoje.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="nav-slide"><a href="#slide-07">← Auditoria</a><a href="#visao-geral">Visão geral</a><a href="#slide-09">Próximo: Concorrentes →</a></div>
+    </section>
+
+    <!-- SLIDE 09 -->
+    <section id="slide-09" class="slide-section">
+      <span class="eyebrow">Slide 09 — Concorrentes-chave</span>
+      <h2>Quem disputa o mesmo território</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> aterrissar a leitura de mercado em concorrentes reais</span>
+        <span class="meta-pill"><b>Tempo:</b> 3-4 min</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Três concorrentes diretos mapeados. A Balen Regularizações é o mais forte — nota sete de dez no nosso placar digital, parte de um grupo maior, mais de vinte anos de atuação, prêmio Top of Mind 2022, mais de vinte mil clientes declarados. A DCA Engenharia está em seis — o forte dela é SEO de caso nomeado: eles indexam no Google páginas específicas de projeto, como o Residencial Vista Bella, com trinta e duas unidades regularizadas documentadas publicamente, e o Condomínio Condado Angel, com sessenta e uma matrículas emitidas. E a BLM Assessoria Imobiliária está em um — presença digital praticamente inexistente, sem site próprio, só duzentas e setenta e cinco curtidas no Facebook.</p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight de especialista</span>
+          <p>Colocando os três num mapa competitivo — de um lado escala institucionalizada, de outro relacionamento próximo; de um lado presença digital fraca, de outro forte — nenhum dos três concorrentes ocupa o quadrante de relacionamento próximo combinado com presença digital forte. Esse quadrante está vazio.</p>
+        </div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>Ninguém nesse mapa combina relacionamento institucional forte com presença digital forte ao mesmo tempo. É exatamente nesse espaço vazio que a gente quer posicionar a Fixa.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Com o cenário competitivo claro, vamos fechar com o que isso significa em termos de próximos passos.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="fontes-slide"><b>Fontes internas usadas neste slide:</b> ee-s2-pesquisa-mercado.json (competitors, competitive_map); ee-s1-swot.json (competitor_scorecard).</div>
+      <div class="nav-slide"><a href="#slide-08">← Pesquisa de mercado</a><a href="#visao-geral">Visão geral</a><a href="#slide-10">Próximo: Próximos passos →</a></div>
+    </section>
+
+    <!-- SLIDE 10 -->
+    <section id="slide-10" class="slide-section">
+      <span class="eyebrow">Slide 10 — Próximos passos do projeto</span>
+      <h2>O que falta para fechar o pacote de diagnóstico</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> alinhar o que falta e pedir aprovação formal</span>
+        <span class="meta-pill"><b>Tempo:</b> 4-5 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> aprovação para seguir executando</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>O que vocês viram hoje é a Semana 1 completa mais a pesquisa de mercado. Ainda faltam, na frente digital, o diagnóstico de criativos; e na frente de operação, o diagnóstico de mídia paga, o diagnóstico orgânico do Instagram, o posicionamento — que é a peça mais importante, porque tudo que vamos produzir depois nasce dela — e o diagnóstico de CRO da página.</p>
+        </div>
+        <div class="beat beat--context">
+          <span class="beat-label">Contextualização</span>
+          <p>Depois desse pacote fechado, entramos na Semana 3, que no modelo de vocês — inside sales — cobre cliente oculto, diagnóstico comercial, definição de métricas de funil e o desenho do pipeline comercial. Isso alimenta direto o CRM e os scripts do SDR mais adiante.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>O que eu preciso aprovar com vocês agora: primeiro, que o diagnóstico de hoje — maturidade, persona, SWOT, auditoria, mercado — está validado e pode virar a base oficial do projeto. Segundo, autorização pra seguir executando os quick wins já essa semana, em paralelo com o restante da Semana 2. Podemos seguir nessa velocidade?</p>
+        </div>
+        <div class="beat beat--pause">[PAUSA PARA RESPOSTA — REGISTRE A DECISÃO]</div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Muito obrigado pela atenção de vocês hoje.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="adjust-box">
+        <b>Ajuste recomendado para o slide</b>
+        O slide renderizado lista "Diagnóstico de Maturidade" como pendência da Semana 2, mas esse output já está com status "completed" no progresso do cliente (concluído em 15/09). Sugestão: o renderer deveria filtrar itens já completed da lista de "próximos passos" para não parecer pendência em aberto.
+      </div>
+      <div class="nav-slide"><a href="#slide-09">← Concorrentes</a><a href="#visao-geral">Visão geral</a><a href="#slide-11">Próximo: Obrigado →</a></div>
+    </section>
+
+    <!-- SLIDE 11 -->
+    <section id="slide-11" class="slide-section">
+      <span class="eyebrow">Slide 11 — Obrigado</span>
+      <h2>Encerramento visual</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Função:</b> fechar visualmente antes do encerramento falado com o plano de ação</span>
+        <span class="meta-pill"><b>Tempo:</b> 1 min</span>
+      </div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Antes de encerrar de vez, deixa eu resumir rapidamente o que sai dessa reunião e quem fica responsável por cada ponto — pra ninguém sair daqui com dúvida do que vem a seguir.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Vou passar pelo plano de ação agora.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste slide</button>
+      </div>
+      <div class="nav-slide"><a href="#slide-10">← Próximos passos</a><a href="#visao-geral">Visão geral</a><a href="#fechamento">Fechamento →</a></div>
+    </section>
+
+    <section id="fechamento" class="slide-section">
+      <span class="eyebrow">Encerramento da reunião</span>
+      <h2>Síntese, decisões e plano de ação</h2>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Recapitulando em uma frase: a Fixa já é líder de nicho no mercado regional sem nenhum investimento digital, e a prova social que precisa já existe — o que falta é organização, sequência e destravar o que já está pronto, não reinventar nada.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Síntese das decisões (a confirmar ao vivo)</span>
+          <p>1) Sequência CRM → CRO → mídia paga aprovada. 2) Framing da frente jurídica como parte do processo de engenharia, não especialidade separada — confirmado. 3) Cinco quick wins de comunicação aprovados para esta semana. 4) Pendência de loteamentos vs. Balen — [REGISTRAR: validar / descartar]. 5) Meta de faturamento 2027 — [REGISTRAR o número dito na sala, se houver].</p>
+        </div>
+        <h3>Plano de ação</h3>
+        <table>
+          <thead><tr><th>Ação</th><th>Motivo</th><th>Responsável</th><th>Prazo</th><th>Dependência</th><th>Indicador de conclusão</th></tr></thead>
+          <tbody>
+            <tr><td>Vincular o site ao campo "website" do GMB</td><td>Maior impacto por menor esforço da auditoria — destrava SEO local</td><td>Carlos (acesso ao painel do GMB)</td><td>Esta semana</td><td>Nenhuma</td><td>Site aparece nos 10 primeiros resultados buscando "fixa engenharia"</td></tr>
+            <tr><td>Levar depoimentos do Instagram e avaliações do GMB para o site</td><td>Site é o único canal sem prova social hoje</td><td>Equipe V4 (design) + autorização do Carlos</td><td>Esta semana</td><td>Autorização de uso de nome/foto dos clientes</td><td>Seção de prova social publicada</td></tr>
+            <tr><td>Trocar CTA "Saiba mais" por "Quero regularizar meu imóvel"</td><td>CTA orientado a ação em vez de navegação genérica</td><td>Equipe V4</td><td>Esta semana</td><td>Acesso de edição do site (confirmar com Carlos)</td><td>CTA atualizado no ar</td></tr>
+            <tr><td>Instalar GA4 + pixel</td><td>Medir o efeito dos quick wins desde o primeiro dia</td><td>Equipe V4</td><td>1-2 semanas</td><td>Nenhuma</td><td>Eventos rastreados no GA4</td></tr>
+            <tr><td>Validar (ou descartar) pendência de loteamentos vs. Balen</td><td>Possível ativo de prova social institucional no segmento de maior ticket</td><td>Carlos (levantar contratos/protocolos)</td><td>A combinar</td><td>Nenhuma</td><td>Documentação reunida ou item descartado</td></tr>
+            <tr><td>Concluir os diagnósticos restantes da Semana 2 (mídia, orgânico IG, criativos, posicionamento, CRO)</td><td>Fechar o pacote de diagnóstico antes da Semana 3</td><td>Equipe V4</td><td>Próximas semanas</td><td>Persona e pesquisa de mercado (já entregues)</td><td>5 diagnósticos aprovados</td></tr>
+          </tbody>
+        </table>
+        <div class="beat beat--main" style="margin-top:18px;">
+          <p>Muito obrigado pelo tempo de vocês. A partir de hoje já entramos com os quick wins em produção, e eu volto com o posicionamento assim que estiver pronto pra validação. Qualquer dúvida no meio do caminho, o canal direto é o mesmo de sempre.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala de encerramento</button>
+      </div>
+    </section>
+
+    <section id="fontes">
+      <span class="eyebrow">Fontes externas consolidadas</span>
+      <h2>Fontes utilizadas na reunião</h2>
+      <div class="card">
+        <p style="color:var(--ink-soft); font-size:.85rem;">Todas as fontes abaixo já constam nos outputs aprovados do projeto (ee-s2-pesquisa-mercado.json). Nenhum dado externo novo foi pesquisado para este roteiro — apenas reorganizado para uso em fala.</p>
+        <ul style="font-size:.88rem;">
+          <li><b>Ministério do Desenvolvimento Regional</b> (via Correio Braziliense, 2019) — estoque nacional de imóveis sem escritura, usado no cálculo bottom-up do TAM.</li>
+          <li><b>IBGE — Censo 2022, Panorama Caxias do Sul</b> (2022) — população e domicílios do município, usado no cálculo do SAM regional.</li>
+          <li><b>Prefeitura de Caxias do Sul — Diretoria de Regularização Fundiária / SMU</b> (2021) — 600 áreas irregulares mapeadas, 466 REURB-E particulares.</li>
+          <li><b>CBIC — Construção Civil cresce 4,3% em 2024</b> (2024) — contexto de crescimento do setor de serviços especializados de engenharia.</li>
+          <li><b>ANOREG/BR — PID/ONR 2025</b> (2025) — digitalização dos cartórios de imóveis (SERP, Lei 14.382/2022), prazo 25/05/2026, uso de IA (Iari) para leitura de matrículas.</li>
+          <li><b>Mordor Intelligence — Residential Real Estate Market in Brazil</b> — tendência de crescimento do mercado imobiliário residencial em 2026, citada como contexto (não usada para cálculo direto).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="audio">
+      <span class="eyebrow">Modo áudio</span>
+      <h2>Transcrição completa para leitura em voz alta</h2>
+      <button class="btn" id="copyAllBtn">Copiar transcrição completa</button>
+      <div class="card" id="audioTranscript" style="margin-top:14px; font-size:.95rem;">
+        <p><b>Abertura.</b> Bom dia — obrigado por reservarem esse horário. Hoje eu trago o diagnóstico completo que construímos nas últimas semanas: maturidade digital, o perfil de cliente ideal de vocês, uma análise competitiva, a auditoria dos canais que vocês já têm, e o tamanho real do mercado que a Fixa atua. Como vocês contrataram o Executar, tudo que vamos mostrar aqui já está, ou está prestes a entrar, na fila de produção da nossa equipe. O resultado que eu preciso desta reunião é aprovação de vocês para os quick wins que vamos mostrar e alinhamento sobre a ordem de execução das próximas semanas. Vamos começar.</p>
+
+        <p><b>Slide um — capa.</b> Este é o diagnóstico estratégico da Fixa Engenharia e Assessoria, construído em cima do que vocês passaram no kickoff, do que já está publicado nos canais de vocês, e de pesquisa direta sobre o mercado de regularização fundiária em Caxias do Sul.</p>
+
+        <p><b>Slide dois — pauta.</b> Oito blocos: maturidade digital com os scores por pilar, o perfil da cliente ideal, a análise SWOT, a auditoria de comunicação com os gaps de cada canal, o tamanho do mercado, os concorrentes que mais pesam, e como fecha o projeto até aqui. Eu vou começar pelos números de onde a Fixa está hoje.</p>
+
+        <p><b>Slide três — onde estamos hoje.</b> Hoje a Fixa projeta cerca de um milhão e setecentos mil reais de faturamento para 2026 — sendo aproximadamente um milhão vindo da Engenharia e setecentos mil da Assessoria. São dez anos de Fixa Engenharia, fundada em setembro de 2016, e dois anos de Fixa Assessoria, fundada em agosto de 2024. Guardem esse dado: vocês já faturam isso sem nenhum investimento em mídia paga, sem site funcionando de verdade e sem CRM. É por isso que o próximo bloco importa tanto.</p>
+
+        <p><b>Slide quatro — maturidade digital.</b> A maturidade digital geral da Fixa está em dez pontos de cem — crítico, vinte e seis pontos abaixo da média do setor imobiliário, que gira em trinta e seis. Mídia paga está em cinco, criativos em treze, C R O em oito, C R M em cinco, e S E O em vinte e dois — o único fora da faixa crítica. Mídia paga e C R M estão empatados no fundo da escala, e são exatamente os dois pilares que decidem, juntos, se um lead vira cliente. Pergunta pra sala: hoje, quando um contato novo chega pelo WhatsApp de vocês, existe algum jeito de saber quantos leads entraram esse mês? Pausa para resposta. Se não houver registro nenhum: esse é exatamente o ponto que o score de C R M está descrevendo. Se houver planilha: ótimo ponto de partida, mas dá pra saber a taxa de conversão? A ordem recomendada é C R M básico, depois C R O com rastreamento, e só então mídia paga — pergunto se podemos seguir nessa sequência. Pausa para resposta e registro da decisão. Esse foi o retrato geral — agora eu quero aprofundar o porquê estratégico.</p>
+
+        <p><b>Slide cinco — análise SWOT.</b> Do lado das forças, a mais importante: a Fixa resolve engenharia e a parte jurídica da regularização dentro do mesmo processo, sem o cliente contratar um segundo prestador. Esse ponto é comunicado como parte do processo técnico, não como um departamento jurídico robusto — framing já combinado com vocês. Pergunto se concordam com esse framing antes de levar ao posicionamento. Pausa para resposta. A segunda força é a prova social — setenta e um posts no Instagram com depoimento real, G M B com nota quatro vírgula sete, mas dezesseis avaliações é amostra pequena, abaixo do benchmark de cinquenta ou mais. A terceira é o relacionamento institucional com cartórios e prefeitura. Do lado das fraquezas: o site não aparece nem buscando o nome da marca, o C R M está zerado, e a marca está fragmentada — só "Fixa Engenharia" em todos os canais. Do lado das oportunidades, a mais urgente: nenhum dos três concorrentes formaliza clareza de prazo como promessa comercial — e essa é a dor número um do cliente ideal de vocês. Do lado das ameaças, a Balen é a mais séria — mais de vinte anos, prêmio Top of Mind 2022, mais de vinte mil clientes declarados. No placar comparativo de zero a dez, a Fixa está em três vírgula quatro, a Balen em sete, a D C A em cinco vírgula oito, a B L M em um. A leitura estratégica: a Fixa não vai vencer a Balen em escala — o caminho é competir em especificidade e ocupar o território de prazo por escrito. Provocação: vale investir pesado em mídia paga agora, sabendo que o C R M ainda está zerado? Toda essa estratégia serve pra alguém específico — deixa eu apresentar essa pessoa.</p>
+
+        <p><b>Slide seis — persona.</b> Essa é a Ivete Dal Bosco — sessenta e um anos, viúva, aposentada, mora na casa que o marido construiu há mais de trinta anos. Descobriu, depois que ele faleceu, que o imóvel nunca teve escritura registrada. Os três filhos moram em outras cidades, ela quer vender e se mudar pra perto de um deles, mas o comprador exige matrícula regularizada e o banco não libera financiamento. Já tentou resolver sozinha e desistiu no meio. A frase dela resume tudo: "Eu só quero vender essa casa em paz e não deixar essa dor de cabeça pros meus filhos resolverem depois que eu morrer." As objeções mapeadas são todas sobre confiança e prazo, nenhuma sobre o serviço em si — por isso a mensagem-chave aprovada foi "Regularize seu imóvel com engenharia, arquitetura e direito num só lugar". Existe um ponto registrado no kickoff que preciso confirmar diretamente: vocês sentem que assumiram a maioria dos novos loteamentos protocolados na cidade no último ano, tirando espaço da Balen? Isso é documentável? Pausa para resposta. Se sim e documentável, vamos levantar essa documentação. Se não, mantemos como hipótese interna, sem virar claim de marketing. Agora vamos ver onde essa conversa está falhando hoje, canal por canal.</p>
+
+        <p><b>Slide sete — auditoria de comunicação.</b> Auditamos quatro canais — site, Instagram, anúncios e Google Meu Negócio. Score médio de trinta e um de cem: Instagram quarenta e oito, G M B quarenta e cinco, site vinte e oito, anúncios cinco, porque não existem ainda. O padrão que se repete: material bom que existe em dois canais e nunca chega ao terceiro — e um erro de configuração de quinze minutos ajuda a explicar isso: o campo "website" do perfil do Google está vazio. Pergunta: vocês já tinham reparado nisso? Pausa para resposta. São cinco quick wins: vincular o site ao G M B, quinze minutos; levar depoimentos pro site, duas horas; trocar C T A por "Quero regularizar meu imóvel", uma hora; publicar no G M B o conteúdo já feito pro Instagram, uma hora; incluir C N P J e telefone no rodapé, trinta minutos. Provocação: vocês já têm a prova que qualquer concorrente ia querer ter — a pergunta é por que esse material nunca saiu do Instagram. Decisão: preciso de aprovação pra esses cinco quick wins entrarem em produção essa semana, e confirmação de quem tem acesso de edição. Agora vamos olhar pro tamanho real da oportunidade em jogo.</p>
+
+        <p><b>Slide oito — pesquisa de mercado.</b> O mercado nacional de regularização documental gira em torno de um bilhão e meio de reais por ano. Na região de vocês, o mercado endereçável é de dez milhões e quinhentos e oitenta e quatro mil reais por ano. A Secretaria Municipal de Urbanismo mapeou, em 2021, seiscentas áreas irregulares na cidade, sendo quatrocentas e sessenta e seis REURB-E — o segmento de maior ticket de vocês. Cruzando com o faturamento atual, a Fixa já captura cerca de dezesseis vírgula um por cento desse mercado regional sem nenhum investimento digital — patamar de líder de nicho. O teto tangível de curto prazo, triangulado por três métodos, converge pra dois milhões e seiscentos e oitenta mil reais por ano — cerca de cinquenta e sete por cento de crescimento sobre o faturamento atual. Pergunta: qual é a meta de faturamento real de vocês pra 2027? Pausa para resposta. Vale mencionar uma tendência do setor: o Sistema Eletrônico dos Registros Públicos, previsto em lei federal de 2022, estabelece prazo até vinte e cinco de maio de 2026 para os cartórios migrarem cem por cento dos registros ao sistema digital, com inteligência artificial já em uso pra leitura de matrículas — isso pode, nos próximos doze a vinte e quatro meses, baratear serviços documentais simples. Preciso ser transparente: esses números de mercado são estimativas construídas de baixo pra cima — tratem como território de referência, não meta fechada. E por falar em quem pode ocupar esse espaço, vamos ver quem está competindo com vocês hoje.</p>
+
+        <p><b>Slide nove — concorrentes.</b> Três concorrentes diretos. Balen Regularizações — nota sete de dez, mais de vinte anos, prêmio Top of Mind 2022, mais de vinte mil clientes declarados. D C A Engenharia — nota seis, forte em S E O de caso nomeado, com páginas indexadas de projetos como o Residencial Vista Bella, trinta e duas unidades regularizadas documentadas. B L M Assessoria Imobiliária — nota um, presença digital praticamente inexistente. Nenhum dos três combina relacionamento institucional forte com presença digital forte ao mesmo tempo — é exatamente nesse espaço vazio que queremos posicionar a Fixa. Com o cenário competitivo claro, vamos fechar com os próximos passos.</p>
+
+        <p><b>Slide dez — próximos passos.</b> O que vocês viram hoje é a Semana um completa mais a pesquisa de mercado. Ainda faltam o diagnóstico de criativos, o diagnóstico de mídia paga, o diagnóstico orgânico do Instagram, o posicionamento — a peça mais importante, porque tudo que vem depois nasce dela — e o diagnóstico de C R O da página. Depois desse pacote fechado, entramos na Semana três, que no modelo de vocês cobre cliente oculto, diagnóstico comercial, métricas de funil e o desenho do pipeline comercial. Preciso aprovar com vocês: que o diagnóstico de hoje está validado como base oficial do projeto, e autorização pra seguir executando os quick wins essa semana em paralelo com o restante da Semana dois. Podemos seguir nessa velocidade? Pausa para resposta e registro da decisão. Muito obrigado pela atenção de vocês hoje.</p>
+
+        <p><b>Encerramento.</b> Recapitulando em uma frase: a Fixa já é líder de nicho no mercado regional sem nenhum investimento digital, e a prova social que precisa já existe — o que falta é organização e sequência, não reinventar nada. As decisões de hoje: sequência C R M, C R O, mídia paga aprovada; framing da frente jurídica confirmado; cinco quick wins aprovados para esta semana; pendência de loteamentos frente à Balen a validar ou descartar; meta de faturamento 2027 a registrar. Muito obrigado pelo tempo de vocês — a partir de hoje já entramos com os quick wins em produção, e eu volto com o posicionamento assim que estiver pronto pra validação.</p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<button id="backTop" aria-label="Voltar ao topo">↑</button>
+
+<script>
+(function(){
+  // reading progress
+  var fill = document.getElementById('progressFill');
+  function updateProgress(){
+    var h = document.documentElement;
+    var scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+    fill.style.width = (isFinite(scrolled) ? scrolled : 0) + '%';
+  }
+  document.addEventListener('scroll', updateProgress, {passive:true});
+  updateProgress();
+
+  // back to top
+  var backTop = document.getElementById('backTop');
+  document.addEventListener('scroll', function(){
+    backTop.classList.toggle('show', window.scrollY > 500);
+  }, {passive:true});
+  backTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+
+  // active nav highlight
+  var links = Array.prototype.slice.call(document.querySelectorAll('#navMenu a'));
+  var sections = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      var id = '#' + entry.target.id;
+      var link = links.find(function(a){ return a.getAttribute('href') === id; });
+      if (link) link.classList.toggle('active', entry.isIntersecting);
+    });
+  }, {rootMargin:'-20% 0px -70% 0px'});
+  sections.forEach(function(s){ io.observe(s); });
+
+  // search filter (sidebar nav + cards grid)
+  var searchBox = document.getElementById('searchBox');
+  searchBox.addEventListener('input', function(){
+    var q = this.value.trim().toLowerCase();
+    links.forEach(function(a){
+      if (!a.dataset.search) return;
+      var match = !q || a.dataset.search.indexOf(q) > -1 || a.textContent.toLowerCase().indexOf(q) > -1;
+      a.style.display = match ? '' : 'none';
+    });
+    document.querySelectorAll('#cardsGrid .slide-card').forEach(function(c){
+      var match = !q || (c.dataset.search||'').indexOf(q) > -1 || c.textContent.toLowerCase().indexOf(q) > -1;
+      c.style.display = match ? '' : 'none';
+    });
+  });
+
+  // copy fala per slide
+  document.querySelectorAll('.copy-fala').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var roteiro = btn.closest('.roteiro');
+      var text = Array.prototype.slice.call(roteiro.querySelectorAll('.beat p'))
+        .map(function(p){ return p.textContent.trim(); }).join('\n\n');
+      navigator.clipboard.writeText(text).then(function(){
+        var old = btn.textContent; btn.textContent = 'Copiado!';
+        setTimeout(function(){ btn.textContent = old; }, 1500);
+      });
+    });
+  });
+
+  // copy full transcript
+  document.getElementById('copyAllBtn').addEventListener('click', function(){
+    var text = document.getElementById('audioTranscript').innerText;
+    navigator.clipboard.writeText(text).then(function(){
+      var btn = document.getElementById('copyAllBtn');
+      var old = btn.textContent; btn.textContent = 'Copiado!';
+      setTimeout(function(){ btn.textContent = old; }, 1500);
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
