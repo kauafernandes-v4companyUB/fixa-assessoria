@@ -1,0 +1,413 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "O ICP da Fixa é o proprietário pessoa física de 35-70 anos, classe média a média-alta, com imóvel sem matrícula regularizada, buscando segurança jurídica para vender, financiar ou deixar em herança sem conflito entre os filhos. A decisão de escolher o escritório é rápida (1-3 semanas) mas carregada de desconfiança sobre prazo e seriedade, enquanto o processo em si dura meses a anos. Hoje a captação depende quase 100% de indicação e relacionamento institucional — o ICP raramente encontra a Fixa quando pesquisa online.",
+
+  "summary_headline": "Fixa: dono de imóvel 35-70 anos, classe média/média-alta, travado sem matrícula regularizada — quer clareza técnica e de prazo, não a oferta mais barata.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Perfil demográfico",
+      "value": "35-70 anos, classe média/média-alta",
+      "subtext": "Formulário (40-70) e call (35-70) convergem no núcleo do perfil",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "WTP regularização de casa",
+      "value": "R$5.000 → até R$7.000",
+      "subtext": "Ticket confirmado no formulário e na call; aceita mais com prazo garantido",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Vazamento de captação",
+      "value": "100% indicação/offline",
+      "subtext": "Sem site ativo, sem tráfego pago, invisível no Google",
+      "tone": "red"
+    },
+    {
+      "category": "competicao",
+      "label": "Concorrentes diretos",
+      "value": "3 mapeados",
+      "subtext": "Balen (escala) e DCA (cases) ocupam território funcional/credibilidade",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Ciclo de decisão",
+      "value": "1-3 semanas até escolher escritório",
+      "subtext": "Depois disso, processo dura meses a anos",
+      "tone": "gray"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A Fixa integra engenharia, arquitetura e direito imobiliário num único contrato — diferencial que nenhum concorrente mapeado no formulário declara ter."
+    },
+    {
+      "category": "ameaca",
+      "text": "Captação depende quase 100% de indicação e relacionamento institucional — sem presença digital ativa (site desativado, sem tráfego pago), a Fixa fica invisível para quem pesquisa 'regularização de imóvel Caxias do Sul' online."
+    },
+    {
+      "category": "contexto",
+      "text": "As objeções do ICP (formulário) são todas sobre confiança e prazo — achar caro/demorado, desconfiar da necessidade, achar que a falta de documentos inviabiliza — nenhuma é sobre o serviço em si."
+    },
+    {
+      "category": "acao",
+      "text": "A mensagem-chave funcional aprovada ('engenharia + arquitetura + direito num só lugar') só se sustenta se for acompanhada de um processo comercial que prometa prazo por escrito — senão a promessa técnica soa vazia diante da desconfiança já mapeada."
+    }
+  ],
+
+  "icp": {
+    "demographics": {
+      "type": "B2C",
+      "age_range": "35-70 anos (núcleo 40-70 confirmado no formulário; a call ampliou levemente a faixa para 35-70 — tratado como a mesma resposta, dados complementares)",
+      "income_or_revenue": "Classe média a média-alta (formulário), detalhada na call como B/B+, no máximo C — nunca D. As duas leituras são complementares, não contraditórias.",
+      "location": "Caxias do Sul, RS e região (Serra Gaúcha)",
+      "company_size": null,
+      "company_size_note": "Não aplicável — ICP é B2C (pessoa física); o próprio schema recomenda omitir/null neste caso.",
+      "decision_maker_role": "Proprietário(a) do imóvel; decisão às vezes compartilhada com cônjuge ou herdeiros quando envolve inventário",
+      "education": null,
+      "education_note": "Não informado no formulário nem na call de kickoff — não levantado ainda com o Carlos.",
+      "other": {
+        "nota_padrao_atendimento": "A irregularidade imobiliária não é exclusiva de baixa renda — inclui também imóveis de padrão alto — mas a Fixa hoje prioriza atendimento em bairros de padrão médio a alto."
+      }
+    },
+    "behavior": {
+      "decision_process": "Mista — racional (custo/prazo) e emocional (segurança para os filhos, medo de conflito de herança). Decisão pode ser individual ou compartilhada com cônjuge/herdeiros.",
+      "research_channels": [
+        "Indicação boca a boca (canal dominante hoje)",
+        "Busca direta no Google ('regularizar imóvel Caxias do Sul', 'usucapião Caxias do Sul')",
+        "Instagram dos escritórios concorrentes",
+        "Conversa com cartório/despachante ao tentar resolver sozinho antes de buscar um escritório"
+      ],
+      "main_objections": [
+        "Achar que o processo é caro e vai demorar muito",
+        "Desconfiança de que o serviço seja desnecessário / falta de urgência",
+        "Não ter todos os documentos exigidos e achar que isso inviabiliza o processo"
+      ],
+      "switching_triggers": "Já ter sido mal atendido ou 'enrolado' por outro escritório antes; falta de clareza sobre prazo e etapas.",
+      "purchase_frequency": "Compra única por imóvel/processo — ciclo de meses a anos; recompra ocorre quando a família tem mais de um imóvel para regularizar, ou por indicação a parentes."
+    },
+    "jobs": {
+      "functional": "Quando decido vender a casa da família, usar o imóvel como garantia de um empréstimo, ou organizar a herança, e descubro que não existe matrícula regularizada em meu nome, quero um escritório que resolva a documentação do início ao fim — engenharia, medição e registro —, para que eu consiga vender, financiar ou deixar o imóvel resolvido para os filhos sem depender de mais ninguém.",
+      "emotional": "Quero ter a tranquilidade de saber que a casa onde criei minha família está juridicamente segura, sem risco de disputa ou de perder o que construí.",
+      "social": "Quero poder dizer para os filhos e netos que deixei tudo 'em ordem' — sem pendência para eles resolverem depois de mim."
+    },
+    "pains": [
+      {
+        "pain": "Não consigo vender ou dar o imóvel em garantia porque não existe matrícula em meu nome no cartório — perco oportunidades e fico refém de quem quiser se aproveitar da situação.",
+        "intensity": "critical",
+        "current_workaround": "Tenta negociar informalmente ou adia a venda/financiamento indefinidamente."
+      },
+      {
+        "pain": "Tenho medo de morrer e deixar meus filhos brigando na Justiça por causa da papelada do imóvel.",
+        "intensity": "high"
+      },
+      {
+        "pain": "Já tentei resolver sozinho no cartório e na prefeitura, mas cada órgão pede um documento diferente e eu não entendo o 'juridiquês' — desisto no meio do processo.",
+        "intensity": "high",
+        "current_workaround": "Abandona o processo depois de algumas tentativas frustradas."
+      },
+      {
+        "pain": "O vizinho avançou a cerca há anos e ninguém resolveu a divisa porque nenhum dos dois tem documento que prove o limite certo.",
+        "intensity": "medium"
+      },
+      {
+        "pain": "Desconfio de contratar um novo escritório sem saber se vai realmente entregar, depois de ouvir histórias de gente que pagou e o processo não andou.",
+        "intensity": "medium"
+      }
+    ],
+    "gains": [
+      { "gain": "Matrícula do imóvel regularizada e registrada em cartório no nome certo.", "type": "tangible" },
+      { "gain": "Poder vender, financiar ou dar em garantia o imóvel sem entrave jurídico.", "type": "tangible" },
+      { "gain": "Prazos e etapas claras, sabendo em que fase o processo está a cada momento.", "type": "tangible" },
+      { "gain": "Tranquilidade de que a papelada não vai virar problema para os filhos.", "type": "intangible" },
+      { "gain": "Confiança de ter sido acompanhado por gente técnica e séria, sem ser enganado.", "type": "intangible" }
+    ]
+  },
+
+  "persona": {
+    "name": "Ivete Dal Bosco",
+    "photo_description": "Mulher de 61 anos, cabelo grisalho curto, óculos de leitura pendurados no pescoço, expressão séria mas acolhedora, fotografada na varanda de uma casa de padrão médio num bairro consolidado de Caxias do Sul — roupas discretas, estilo dona de casa aposentada da Serra Gaúcha.",
+    "story": "Ivete é viúva, aposentada, e mora na casa que o marido construiu há mais de 30 anos, num bairro consolidado de padrão médio. Depois que ele faleceu, descobriu que o imóvel nunca teve escritura definitiva registrada — só um contrato de compra e venda antigo, sem averbação. Com os três filhos morando em outras cidades, ela quer vender a casa e se mudar para perto de um deles, mas o comprador exige matrícula regularizada e o banco não libera financiamento sem isso. Já tentou resolver sozinha no cartório e na prefeitura, mas cada um pediu um documento diferente, e desistiu depois de meses indo de um lugar para o outro sem entender o processo.",
+    "quote": "Eu só quero vender essa casa em paz e não deixar essa dor de cabeça pros meus filhos resolverem depois que eu morrer. Já tentei sozinha e não consegui nem entender o que me pediam."
+  },
+
+  "where_to_find": {
+    "digital_channels": [
+      "Grupos de WhatsApp/Facebook de bairro e associações de moradores em áreas de ocupação irregular na região de Caxias do Sul",
+      "Páginas e grupos de cartórios/despachantes imobiliários locais no Facebook",
+      "Instagram de corretores de imóveis da região (público que recebe a mesma dúvida na hora de vender)",
+      "Grupos de Facebook sobre inventário e herança no RS"
+    ],
+    "keywords": [
+      "regularizar imóvel Caxias do Sul",
+      "usucapião Caxias do Sul",
+      "como tirar escritura de casa sem documento",
+      "REURB Caxias do Sul",
+      "inventário e regularização de imóvel RS"
+    ],
+    "influencers": [
+      "Não identificado no formulário nem na call — perfis específicos (advogados/corretores locais de referência) precisam ser levantados diretamente com o Carlos"
+    ],
+    "communities": [
+      "Associações de moradores de bairros em processo de regularização fundiária",
+      "Grupos de herdeiros/família sobre inventário e partilha de bens",
+      "Rede de relacionamento institucional que a Fixa já tem com cartórios e prefeitura (fonte de indicação, não só de descoberta)"
+    ]
+  },
+
+  "anti_persona": {
+    "description": "As duas anti-personas abaixo são o espelho invertido da Ivete: onde ela tem necessidade real, prazo que ela aceita negociar e capacidade financeira compatível com o bairro que a Fixa atende, os perfis abaixo têm curiosidade sem urgência, resistência a pagar o que o serviço vale, ou expectativa de prazo incompatível com a realidade jurídica do processo.",
+    "profiles": [
+      {
+        "profile_name": "Curioso Especulador",
+        "description": "Quer saber 'quanto custa' ou 'como eu faço sozinho' sem ter um caso concreto em mãos — está testando o mercado, não resolvendo um problema. Ao contrário da Ivete, que já perdeu um comprador e tem um prazo real batendo na porta, o Curioso não tem nenhuma consequência prática se não fizer nada.",
+        "signals": [
+          "Pergunta só o preço por WhatsApp antes de contar o caso",
+          "Não menciona motivo concreto (venda, financiamento, inventário travado)",
+          "Some ou some completamente depois de ouvir o orçamento",
+          "Pede o passo a passo completo 'de graça' para tentar sozinho"
+        ],
+        "why_not": "Consome tempo de diagnóstico técnico-jurídico (que tem custo real para a Fixa) sem intenção de conversão — diferente da Ivete, que converte porque tem um problema que só a Fixa resolve.",
+        "operational_rule": "Responder com material educativo padrão e oferecer o diagnóstico pago; não fazer análise de caso individual sem um motivo concreto declarado."
+      },
+      {
+        "profile_name": "Fora do Padrão de Atendimento",
+        "description": "Perfil de renda e bairro abaixo do que a Fixa atende hoje (média/média-alta). Enquanto a Ivete mora num bairro consolidado e sustenta a parcela do serviço sem grande atrito porque há um ativo real (a casa) em jogo, esse perfil negocia a parcela para um valor simbólico e, segundo relato do próprio Carlos, tende a abandonar o processo no meio quando a real complexidade (e o real custo) aparece.",
+        "signals": [
+          "Pede parcela muito abaixo do praticado já na primeira conversa",
+          "Bairro/região fora do padrão médio-alto que a Fixa atende",
+          "Hesita ou tenta renegociar valor antes mesmo do diagnóstico",
+          "Sinais de que o imóvel tem valor de mercado baixo demais para justificar o custo do processo"
+        ],
+        "why_not": "Alto risco de abandono no meio do processo depois que a equipe já investiu horas técnicas (levantamento, medição) — diferente da Ivete, que tem motivação e capacidade financeira para seguir até o fim.",
+        "operational_rule": "Manter o filtro de bairro/classe já praticado informalmente pela empresa; ao identificar esse padrão na triagem, oferecer uma versão mais simples do serviço ou recusar educadamente, deixando claro o motivo."
+      },
+      {
+        "profile_name": "Emergência de Última Hora",
+        "description": "Precisa da matrícula pronta em poucos dias porque tem uma venda ou financiamento com prazo já marcado. Ao contrário da Ivete, que aceita o prazo real do processo (meses) desde que ele seja explicado com clareza, esse perfil rejeita qualquer prazo que não seja imediato e culpa o escritório por uma demora que na verdade é estrutural (cartório, prefeitura).",
+        "signals": [
+          "Pergunta 'em quanto tempo sai' antes mesmo de explicar o caso",
+          "Menciona um compromisso (escritura, financiamento) já marcado para os próximos dias",
+          "Se irrita ao ouvir o prazo real do processo"
+        ],
+        "why_not": "Expectativa impossível de cumprir gera frustração e reclamação mesmo quando o serviço é entregue corretamente — desgasta a relação e a reputação sem culpa técnica da Fixa.",
+        "operational_rule": "Alinhar prazo realista por escrito antes de aceitar o caso; nunca prometer prazo que dependa de terceiros (cartório/prefeitura)."
+      }
+    ],
+    "operational_rule": "A Ivete converte porque tem uma necessidade real e um prazo que ela mesma consegue negociar; os três perfis acima falham em pelo menos um desses dois pontos (necessidade real ou compatibilidade de prazo/capacidade financeira). O formulário de triagem deve capturar isso antes de qualquer diagnóstico técnico-jurídico."
+  },
+
+  "buyer_journey": {
+    "description": "Jornada da Ivete (ou perfil equivalente) do gatilho até a indicação, mapeada com base no que se sabe hoje sobre o cliente ideal e sobre a operação 100% offline da Fixa.",
+    "stages": [
+      {
+        "stage": "Gatilho",
+        "trigger": "Decide vender/financiar o imóvel ou organizar a herança e descobre que não tem matrícula regularizada",
+        "mental_state": "Ansiedade/frustração súbita",
+        "primary_channel": "Conversa com família, cartório ou corretor de imóveis",
+        "dominant_question": "Isso tem solução? Quanto custa e quanto tempo demora?",
+        "client_intervention": "Nenhuma ainda — a Fixa não aparece nesse momento",
+        "friction_today": "Site desativado desde 2016, sem CNPJ/telefone/endereço, não aparece quando ela pesquisa",
+        "duration_estimate": "Dias a poucas semanas até decidir buscar ajuda"
+      },
+      {
+        "stage": "Pesquisa",
+        "trigger": "Decide buscar informação sobre quem pode resolver",
+        "mental_state": "Confusão/desconfiança — não entende os termos técnicos",
+        "primary_channel": "Google, indicação de conhecidos, Instagram",
+        "dominant_question": "Quem é confiável pra isso?",
+        "client_intervention": "Perfil no Instagram desatualizado/fragmentado, pouca presença no Google",
+        "friction_today": "Concorrentes como Balen e DCA têm mais prova social e presença institucional visível",
+        "duration_estimate": "3-10 dias"
+      },
+      {
+        "stage": "Consideração",
+        "trigger": "Já tem 2-3 opções de escritório",
+        "mental_state": "Comparação cética sobre preço e seriedade",
+        "primary_channel": "WhatsApp, indicação direta, site/Instagram de cada opção",
+        "dominant_question": "Qual desses realmente resolve, sem me enrolar e sem cobrar mais depois?",
+        "client_intervention": "Atendimento pessoal do Carlos Henrique — forte no boca a boca, mas invisível digitalmente",
+        "friction_today": "Falta de cases documentados publicamente e de prova de escala frente aos concorrentes mais institucionalizados",
+        "duration_estimate": "1-3 semanas"
+      },
+      {
+        "stage": "Decisão",
+        "trigger": "Reunião/diagnóstico com o escritório",
+        "mental_state": "Alívio se a explicação for clara, desconfiança se parecer 'vendedor'",
+        "primary_channel": "Presencial ou WhatsApp com o próprio Carlos",
+        "dominant_question": "Eles realmente vão conseguir resolver o meu caso específico?",
+        "client_intervention": "Diagnóstico técnico feito pelos sócios (ponto forte — conhecimento real)",
+        "friction_today": "Ausência de proposta padronizada e de script comercial pode gerar insegurança",
+        "duration_estimate": "1-2 reuniões, alguns dias"
+      },
+      {
+        "stage": "Execução",
+        "trigger": "Contrato assinado, processo em andamento",
+        "mental_state": "Ansiedade por falta de visibilidade do andamento",
+        "primary_channel": "WhatsApp direto com o escritório",
+        "dominant_question": "Em que pé está meu processo?",
+        "client_intervention": "Acompanhamento manual, sem CRM formal ainda",
+        "friction_today": "Sem sistema de status estruturado — o sistema de gestão interno ainda está em implantação",
+        "duration_estimate": "Meses a anos"
+      },
+      {
+        "stage": "Recompra/Indicação",
+        "trigger": "Processo concluído com sucesso",
+        "mental_state": "Gratidão e confiança",
+        "primary_channel": "Boca a boca, WhatsApp",
+        "dominant_question": "Quem mais na minha família/rede precisa disso?",
+        "client_intervention": "Nenhuma ativa hoje — não há captura estruturada de depoimento/case",
+        "friction_today": "A Fixa não pede indicação nem depoimento de forma sistemática",
+        "duration_estimate": "Contínuo"
+      }
+    ],
+    "critical_leakage_point": "O maior vazamento é na Pesquisa/Consideração digital: a Fixa depende quase 100% de indicação e relacionamento institucional (sem tráfego pago, site desatualizado, Instagram fragmentado entre marcas) — quem pesquisa online 'regularização de imóvel Caxias do Sul' encontra concorrentes com mais presença institucional primeiro, e nunca chega a saber que a Fixa existe."
+  },
+
+  "willingness_to_pay": {
+    "description": "Faixas baseadas nos valores informados no formulário de kickoff, com os valores mencionados na call de boas-vindas usados apenas como confirmação (regularização de casa) ou nota de contexto (demais serviços), sem substituir o dado do formulário onde há divergência.",
+    "services": [
+      {
+        "service": "Regularização de casa individual",
+        "current_ticket_range": "R$5.000",
+        "perceived_fair_range": "R$3.000-6.000",
+        "premium_ceiling": "R$7.000 com prazo garantido por contrato e atualização periódica do processo",
+        "elasticity": "baixa — mais sensível ao prazo prometido do que ao preço em si",
+        "pricing_lever": "clareza de prazo e etapas + acompanhamento integrado (engenharia+jurídico no mesmo local)"
+      },
+      {
+        "service": "Usucapião",
+        "current_ticket_range": "R$12.000",
+        "perceived_fair_range": "R$8.000-15.000",
+        "premium_ceiling": "R$18.000 com garantia de acompanhamento até o registro final em cartório",
+        "elasticity": "média — compara com advogados avulsos mais baratos, mas sem o levantamento técnico",
+        "pricing_lever": "combo engenharia (levantamento/planta) + jurídico no mesmo contrato, evitando contratar dois prestadores"
+      },
+      {
+        "service": "Inventário com regularização de imóvel",
+        "current_ticket_range": "R$20.000",
+        "perceived_fair_range": "R$15.000-25.000",
+        "premium_ceiling": "R$30.000 se resolver também a partilha entre herdeiros sem conflito",
+        "elasticity": "baixa — decisão emocional (herança), família paga para evitar briga",
+        "pricing_lever": "mediação entre herdeiros + segurança jurídica da partilha"
+      },
+      {
+        "service": "Regularização fundiária de loteamento (REURB)",
+        "current_ticket_range": "R$100.000-400.000",
+        "perceived_fair_range": "variável conforme porte — decisão institucional, não emocional",
+        "premium_ceiling": "topo da faixa (R$400.000) aceito quando inclui toda infraestrutura (água, esgoto, drenagem, pavimentação) e relação já estabelecida com a prefeitura (SMU)",
+        "elasticity": "baixa — ticket maior é justificado por escopo de obra e não por percepção de marca",
+        "pricing_lever": "relacionamento institucional com cartórios e prefeitura, reduzindo prazo e atrito, e execução completa (projeto + obra + jurídico)"
+      }
+    ]
+  },
+
+  "objection_library": {
+    "description": "Objeções reais mapeadas no formulário de kickoff, com respostas construídas a partir do diferencial confirmado da Fixa (engenharia + arquitetura + direito integrados, relacionamento institucional com cartórios e prefeitura).",
+    "objections": [
+      {
+        "objection": "Isso não vai ficar muito caro e demorado?",
+        "subtext": "Já ouvi histórias de gente que pagou e o processo não saiu do lugar — tenho medo de jogar dinheiro fora.",
+        "bad_response": "Não se preocupe, a gente resolve rapidinho.",
+        "good_response": "Vou te mostrar exatamente as etapas do seu caso específico e o prazo médio de cada uma, com base nos processos que já concluímos — você vai saber onde o processo está a cada mês.",
+        "when_to_use": "Primeira reunião de diagnóstico"
+      },
+      {
+        "objection": "Não sei se realmente preciso disso agora.",
+        "subtext": "Não sinto urgência porque não estou tentando vender nem financiar hoje — mas tenho medo de deixar pra quando for tarde.",
+        "bad_response": "Você devia regularizar assim que possível.",
+        "good_response": "Conta pra mim: você pretende deixar essa casa pros seus filhos? Sem a matrícula regularizada, eles vão ter que resolver isso na Justiça, com advogado, cartório e um processo mais caro do que se resolver agora, em vida.",
+        "when_to_use": "Abordagem inicial / qualificação"
+      },
+      {
+        "objection": "Não tenho todos os documentos do imóvel.",
+        "subtext": "Acho que sem os papéis certos não tem solução — já desisti antes por causa disso.",
+        "bad_response": "Sem documento fica difícil, precisa procurar.",
+        "good_response": "Isso é mais comum do que parece — na maioria dos casos a gente consegue reconstituir o histórico do imóvel via cartório, prefeitura e levantamento topográfico. Deixa eu ver seu caso antes de dizer que não dá.",
+        "when_to_use": "Primeiro contato / triagem"
+      },
+      {
+        "objection": "Já contratei um escritório antes e não deu em nada.",
+        "subtext": "Não confio mais em promessa — quero prova de que vocês são diferentes.",
+        "bad_response": "Com a gente vai ser diferente, pode confiar.",
+        "good_response": "Entendo a desconfiança. Olha os casos que já concluímos — e antes de fechar, te mostro por escrito cada etapa e prazo do seu processo.",
+        "when_to_use": "Objeção recorrente em clientes que já tentaram antes"
+      },
+      {
+        "objection": "Por que contratar vocês e não um concorrente maior/mais conhecido?",
+        "subtext": "Aquele é maior/mais famoso — será que vocês dão conta?",
+        "bad_response": "Somos tão bons quanto eles.",
+        "good_response": "A diferença é que aqui você tem engenharia, arquitetura e direito imobiliário no mesmo escritório — não precisa contratar dois prestadores nem ficar de um lado pro outro. E temos relação direta com o cartório e a prefeitura daqui, o que agiliza o processo.",
+        "when_to_use": "Comparação direta com concorrente"
+      },
+      {
+        "objection": "Meu vizinho/família vai discordar da divisão/limite do terreno.",
+        "subtext": "Tenho medo de abrir uma briga de família ou com vizinho ao mexer nisso.",
+        "bad_response": "Isso é problema jurídico, resolve na Justiça.",
+        "good_response": "Antes de qualquer coisa judicial, a gente faz o levantamento técnico que mostra os limites reais — muitas vezes isso já resolve o impasse sem processo, com conversa baseada em dado técnico.",
+        "when_to_use": "Casos de usucapião/divisa"
+      },
+      {
+        "objection": "Posso fazer isso sozinho, sem pagar um escritório?",
+        "subtext": "Quero economizar, mas não sei se dou conta da burocracia.",
+        "bad_response": "Não recomendamos, é arriscado.",
+        "good_response": "Dá pra tentar, mas cada etapa (levantamento técnico, processo no cartório, questões jurídicas) tem uma linguagem própria — o que a gente cobra é justamente pra você não precisar aprender tudo isso sozinho nem correr o risco de errar um requisito e voltar pra estaca zero.",
+        "when_to_use": "Objeção de preço / DIY"
+      }
+    ]
+  },
+
+  "key_message": {
+    "chosen_message": "Regularize seu imóvel com engenharia, arquitetura e direito num só lugar.",
+    "approach": "functional",
+    "usage_context": "Site institucional, headline da landing page, bio do Instagram, anúncios de busca (Google Ads)",
+    "alternatives": [
+      {
+        "message": "Regularize seu imóvel com engenharia, arquitetura e direito num só lugar.",
+        "approach": "functional",
+        "rationale": "Escolhida pelo operador. Comunica o diferencial real e verificável da Fixa (três competências integradas num único contrato) — nenhum concorrente mapeado declara oferecer isso, e é uma promessa fácil de sustentar na prática."
+      },
+      {
+        "message": "Deixe a casa da família em ordem, sem preocupação para seus filhos.",
+        "approach": "emotional",
+        "rationale": "Ativa o medo de deixar conflito de herança, presente nas dores do ICP — mais forte em remarketing e conteúdo de topo de funil do que como mensagem-âncora."
+      },
+      {
+        "message": "Você que resolveu tudo em vida — sem deixar problema para ninguém.",
+        "approach": "social",
+        "rationale": "Foca em como o cliente quer ser visto pelos filhos/família — mensagem de reforço em depoimentos e prova social, não como mensagem-chave principal."
+      }
+    ]
+  },
+
+  "key_insight": {
+    "headline": "Ivete não está comparando preço — está comparando quem vai realmente entregar dentro do prazo prometido.",
+    "context": "Todas as objeções mapeadas no formulário são sobre confiança e prazo (medo de ser enganado, achar que vai demorar demais), não sobre o serviço em si. Os concorrentes mapeados competem em território funcional/credibilidade (Balen com escala institucional, DCA com cases documentados), mas nenhum comunica clareza de prazo como promessa formal.",
+    "numbered_reasons": [
+      "As objeções do formulário são todas sobre confiança e prazo, não sobre o serviço em si.",
+      "Nenhum concorrente mapeado comunica clareza de prazo como diferencial formal — Balen aposta em escala/tradição, DCA em cases.",
+      "A Fixa já tem o diferencial real (engenharia+arquitetura+direito integrados, relação com cartórios/prefeitura), mas ainda não formaliza isso como promessa de prazo ao cliente."
+    ],
+    "discussion_anchor": "A mensagem funcional escolhida ('tudo num só lugar') só sustenta a promessa se vier acompanhada de um processo comercial que entregue prazo por escrito — isso é decisão de processo comercial, não só de copy, e vale alinhar com o Carlos como parte da Semana 4 (CRM/SDR)."
+  },
+
+  "pending_validation_items": [
+    {
+      "topic": "Participação da Fixa em novos loteamentos vs. Balen",
+      "raised_in_skill": "ee-s1-persona-icp",
+      "question": "É possível documentar (contratos, protocolos na prefeitura) que a Fixa assumiu a maioria dos novos loteamentos protocolados na cidade no último ano — mercado que antes era atendido pela Balen — e que a Balen estaria enfrentando problemas de entrega/reputação?",
+      "why_it_matters": "Se confirmado e documentável, é um ativo forte de prova social para mensagem, posicionamento (Semana 2) e diagnóstico de mercado. Hoje é só um relato dado na call de kickoff, sem corroboração no formulário — não deve virar claim de marketing ou comparação nominal com a Balen sem essa validação.",
+      "render": {
+        "portal": false,
+        "slide": false,
+        "roteiro_apresentacao": true
+      }
+    }
+  ]
+}

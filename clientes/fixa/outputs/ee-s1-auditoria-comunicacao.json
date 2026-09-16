@@ -1,0 +1,746 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "Auditoria de 4 canais digitais da Fixa (WhatsApp fora do escopo desta rodada): site e anúncios estão bem abaixo do potencial (sem prova social, sem CTA de ação, nenhum anúncio ativo), enquanto Instagram (bio forte, depoimentos reais) e GMB (perfil reivindicado, nota 4.7, 16 avaliações) já têm bons ativos — mas o site nem aparece nos 10 primeiros resultados do Google para o nome da própria marca, e o GMB não tem o site vinculado.",
+  "summary_headline": "Fixa tem prova social pronta (Instagram + GMB 4.7) e o próprio site nem aparece quando alguém busca 'fixa engenharia' no Google — é isso que a Semana 3 vai destravar.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Canais auditados",
+      "value": "4 canais, score médio 31/100",
+      "subtext": "Instagram (48) e GMB (45) são os canais mais fortes hoje; anúncios não existem (5)",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Maior vazamento",
+      "value": "Site ausente até na busca pela própria marca",
+      "subtext": "Buscar 'fixa engenharia' no Google não traz o site oficial nos 10 primeiros resultados",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ativo pronto e não aproveitado",
+      "value": "GMB reivindicado, 4.7★, 16 avaliações + Instagram com depoimentos reais",
+      "subtext": "Vamos levar essa prova social para site, LP e anúncios na Semana 3",
+      "tone": "green"
+    },
+    {
+      "category": "competicao",
+      "label": "Gap vs. melhor concorrente (estimado)",
+      "value": "-30 a -40 pontos em site institucional",
+      "subtext": "Balen tem escala declarada (+20.000 clientes, Top of Mind); leitura preliminar, sem auditoria formal ainda",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Coerência de marca entre canais",
+      "value": "45/100",
+      "subtext": "Site, Instagram e GMB falam só de 'Fixa Engenharia' — Assessoria e Jurídico ainda não aparecem em nenhum canal digital",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O GMB já está reivindicado e verificado, com nota 4.7 (16 avaliações reais, incluindo comentários com elogio a 'qualidade, organização e compromisso') e endereço/telefone/horário todos preenchidos corretamente — base sólida para SEO local."
+    },
+    {
+      "category": "ameaca",
+      "text": "O site institucional não aparece nos 10 primeiros resultados do Google nem para a busca exata pelo nome da marca ('fixa engenharia') — quem procura a Fixa pelo nome encontra Instagram, LinkedIn, Jusbrasil e até a Serasa antes do próprio site."
+    },
+    {
+      "category": "contexto",
+      "text": "O próprio Google sinaliza a falha mais simples de corrigir: o campo 'website' do perfil do GMB está vazio ('Adicionar informações ausentes → Adicionar website') — o site existe, só não está linkado onde mais gera clique direto."
+    },
+    {
+      "category": "acao",
+      "text": "Como a Fixa contratou o Executar, os quick wins abaixo (vincular o site no GMB, prova social no site, CTA de ação) entram direto na fila de produção da nossa equipe — não é uma lista de tarefas para o Carlos, é o que vamos construir nas próximas semanas."
+    }
+  ],
+  "icp_reference": "Ivete Dal Bosco, 35-70 anos, classe média/média-alta, proprietária sem matrícula regularizada — decide em 1-3 semanas, mas desconfia de prazo e seriedade. Compara quem realmente entrega, não quem é mais barato.",
+  "channels_audited": [
+    {
+      "name": "site",
+      "url_or_handle": "https://www.fixaengenharia.com",
+      "score": 28,
+      "classification": "low",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": false,
+          "aligned_with_icp": false,
+          "notes": "A primeira dobra promete 'comprometimento e qualidade' em projetos residenciais e comerciais — mensagem genérica de engenharia, não fala da dor específica da Ivete (imóvel sem matrícula, medo de brigar por herança). É o primeiro ajuste que vamos fazer na nova LP (ee-s3-landing-page): trazer a mensagem-chave já aprovada ('engenharia, arquitetura e direito num só lugar')."
+        },
+        "social_proof": {
+          "present": false,
+          "type": "nenhum",
+          "quality": "none",
+          "notes": "Nenhum depoimento, logo, número ou selo na página. Tanto o Instagram (depoimentos reais) quanto o GMB (4.7★, 16 avaliações) já têm prova social pronta — vamos trazer esse material para o site."
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": false,
+          "notes": "Dois CTAs, ambos 'Saiba mais' (seções Orçamento e Sobre nós) — direcionam para /contato e /empresa. Vamos trocar por ação específica ('Quero regularizar meu imóvel')."
+        },
+        "visual_consistency": {
+          "consistent": true,
+          "professional": true,
+          "notes": "Fotos reais de obras e projetos, paleta neutra (branco/cinza), tipografia uniforme — base visual aproveitável para a nova identidade que sai do Manual de Marca (Semana 4)."
+        },
+        "mobile_experience": {
+          "responsive": null,
+          "speed": null,
+          "notes": "Não verificado nesta rodada — sem acesso a teste de PageSpeed/dispositivo real. Vamos validar isso junto com a implementação da landing page."
+        },
+        "content_quality": {
+          "speaks_to_icp": false,
+          "frequency": "estático — site institucional sem blog/conteúdo",
+          "engagement_level": null,
+          "notes": "Conteúdo é institucional (Início, Sobre nós, Serviços, Contato), sem tratar objeções específicas do ICP (prazo, confiança, documentação)."
+        },
+        "additional_notes": "Site menciona apenas 'FIXA Engenharia' — nenhuma referência à Fixa Assessoria ou ao Jurídico. Sem CNPJ ou telefone visíveis. Não aparece nos 10 primeiros resultados do Google nem para busca direta pelo nome da marca (ver captura de tela do GMB/busca fornecida pelo operador). Esse é o canal que vira a base da nova landing page da Semana 3."
+      },
+      "gaps": [
+        {
+          "gap": "Site não aparece nos primeiros resultados do Google nem para a busca exata pelo nome da marca",
+          "evidence": "Busca por 'fixa engenharia' no Google retorna Instagram, LinkedIn, Jusbrasil, Serasa Experian, Facebook, CNPJá, Econodata e Prospectei nos 10 primeiros resultados — o site oficial não aparece (captura de tela fornecida pelo operador, 15/09/2026)",
+          "impact": "high"
+        },
+        {
+          "gap": "Ausência total de prova social (depoimentos, números, selos)",
+          "evidence": "Nenhum depoimento, logo ou dado quantificável na página — confirmado via leitura direta do site em 15/09/2026",
+          "impact": "high"
+        },
+        {
+          "gap": "Proposta de valor genérica, não alinhada à dor do ICP",
+          "evidence": "Headline fala em 'comprometimento e qualidade' em vez da mensagem-chave aprovada ('engenharia, arquitetura e direito num só lugar')",
+          "impact": "high"
+        },
+        {
+          "gap": "CTA não orientado a ação",
+          "evidence": "Dois botões 'Saiba mais', nenhum com verbo de ação específico",
+          "impact": "medium"
+        },
+        {
+          "gap": "Sem CNPJ e telefone visíveis no site",
+          "evidence": "Rodapé traz apenas email e cidade; CNPJ e telefone ausentes",
+          "impact": "medium"
+        },
+        {
+          "gap": "Site comunica só 'Fixa Engenharia', sem Assessoria/Jurídico",
+          "evidence": "Nenhuma menção à Fixa Assessoria em todo o conteúdo lido",
+          "impact": "high"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Vamos vincular o site no perfil do GMB (campo 'website' está vazio hoje) e trabalhar SEO local básico para o site aparecer na busca pelo próprio nome da marca",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Vamos usar este site como base de conteúdo (fotos reais, estrutura) para a nova landing page da Semana 3, já com a mensagem-chave aprovada e prova social do Instagram/GMB",
+          "priority": "short_term",
+          "effort": "medium"
+        },
+        {
+          "action": "Vamos trocar os CTAs genéricos por 'Quero regularizar meu imóvel', como quick win imediato",
+          "priority": "immediate",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "instagram",
+      "url_or_handle": "@fixa_engenharia",
+      "score": 48,
+      "classification": "medium",
+      "screenshots_analyzed": true,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": true,
+          "aligned_with_icp": true,
+          "notes": "Bio traz 'Serviços de engenharia & Especialistas em regularização de imóveis e loteamentos', '+10 anos de atuação' e um número de clientes atendidos na casa dos milhares — é a comunicação mais forte e mais alinhada ao ICP entre todos os canais auditados."
+        },
+        "social_proof": {
+          "present": true,
+          "type": "depoimentos com nome e foto no feed + número de clientes atendidos na bio",
+          "quality": "strong",
+          "notes": "O feed (71 posts) tem múltiplos posts de depoimento com citação, nome e foto do cliente, além de fotos reais de entrega de chaves e handshake com clientes. É a prova social mais forte que a Fixa já tem — hoje presa só aqui e no GMB."
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": true,
+          "notes": "Botões de ação no topo do perfil (Especialistas, Contato, Localização, Mais) e link direto de WhatsApp configurado — CTA funcional."
+        },
+        "visual_consistency": {
+          "consistent": true,
+          "professional": true,
+          "notes": "Grid usa moldura/overlay '△FIXA' recorrente em boa parte dos posts, misturando fotos reais de obra/equipe com cards de texto padronizados — identidade visual reconhecível, ainda que pré-Manual de Marca."
+        },
+        "mobile_experience": {
+          "responsive": true,
+          "speed": null,
+          "notes": "Nativo do app Instagram — não aplicável avaliar velocidade."
+        },
+        "content_quality": {
+          "speaks_to_icp": true,
+          "frequency": null,
+          "engagement_level": null,
+          "notes": "71 posts com mix real de formatos: educativo ('O que é REURB?', 'Regularização na prática'), depoimento, bastidores técnicos (engenheiro em campo, entrega de matrículas), institucional (aniversário de empresa, eventos). Cadência atual e engajamento (likes/comentários) não verificáveis pela captura estática — vamos confirmar isso ao assumir a produção de conteúdo."
+        },
+        "additional_notes": "Perfil é só '@fixa_engenharia' — mesmo gap do site e do GMB: não cobre Fixa Assessoria nem Jurídico. Pequena divergência entre o número de seguidores mostrado na captura direta do Instagram e o número indexado pelo Google (natural — o índice do Google atualiza com atraso); não muda a leitura estratégica. Endereço (Av. Itália 482) e WhatsApp aparecem nos botões de contato."
+      },
+      "gaps": [
+        {
+          "gap": "Perfil cobre só a marca Engenharia, não a Fixa unificada",
+          "evidence": "Handle @fixa_engenharia e bio focada em 'serviços de engenharia' — sem menção a Assessoria/Jurídico",
+          "impact": "high"
+        },
+        {
+          "gap": "Prova social forte do Instagram não é replicada no site",
+          "evidence": "Depoimentos e números de clientes atendidos existem aqui e no GMB — ausentes no site e nos futuros anúncios",
+          "impact": "high"
+        },
+        {
+          "gap": "Cadência e engajamento atuais não confirmados",
+          "evidence": "Diagnóstico de maturidade (ee-s1-diagnostico-maturidade) registrou que hoje ninguém produz criativos de forma dedicada — o feed pode ser majoritariamente histórico",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Vamos extrair os melhores depoimentos já publicados aqui para usar no site, na LP e no manual de marca",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Vamos assumir a cadência de produção (ee-s2-diagnostico-criativos e Semana 3) mantendo o estilo que já funciona (depoimento + bastidores técnicos + educativo)",
+          "priority": "short_term",
+          "effort": "medium"
+        },
+        {
+          "action": "Vamos decidir com o Carlos, junto do manual de marca, se o Instagram unificado herda este handle ou migra para um novo que já nasça com as 3 frentes",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "name": "anuncios",
+      "url_or_handle": null,
+      "score": 5,
+      "classification": "critical",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": false,
+          "clear": false,
+          "aligned_with_icp": false,
+          "notes": "Não aplicável — sem anúncios ativos."
+        },
+        "social_proof": {
+          "present": false,
+          "type": "nenhum",
+          "quality": "none",
+          "notes": "Não aplicável — sem anúncios ativos."
+        },
+        "cta": {
+          "present": false,
+          "visible": false,
+          "action_oriented": false,
+          "notes": "Não aplicável — sem anúncios ativos."
+        },
+        "visual_consistency": {
+          "consistent": null,
+          "professional": null,
+          "notes": "Não aplicável."
+        },
+        "mobile_experience": {
+          "responsive": null,
+          "speed": null,
+          "notes": "Não aplicável."
+        },
+        "content_quality": {
+          "speaks_to_icp": null,
+          "frequency": null,
+          "engagement_level": null,
+          "notes": "Não aplicável."
+        },
+        "additional_notes": "Confirmado no briefing (digital_situation.paid_traffic=false) e nos conectores V4MOS (0 campanhas, 0 investimento em Google Ads e Meta Ads no período analisado). Já sequenciado no diagnóstico de maturidade: mídia paga só liga depois de CRO e CRM mínimos, para não mascarar vazamento de funil como problema de anúncio."
+      },
+      "gaps": [
+        {
+          "gap": "Nenhum anúncio pago ativo em nenhuma plataforma",
+          "evidence": "google_ads.total_campaigns=0 e facebook_ads.total_campaigns=0 nos conectores V4MOS; confirmado no briefing",
+          "impact": "high"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Vamos ligar mídia paga só depois que a landing page (ee-s3-landing-page) e o CRM básico (ee-s3-crm-setup) estiverem no ar, seguindo a priorização já definida no diagnóstico de maturidade",
+          "priority": "medium_term",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "name": "google_meu_negocio",
+      "url_or_handle": "https://share.google/Z8H9m6q4Fo0riIJ0V",
+      "score": 45,
+      "classification": "medium",
+      "screenshots_analyzed": true,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": true,
+          "aligned_with_icp": false,
+          "notes": "Descrição do perfil: 'Empresa de engenharia e arquitetura que trabalha com projetos de infraestrutura urbana, loteamentos, regularização de terrenos e casas, além de projetos em diversas áreas.' Clara e correta, mas — mesmo padrão dos outros canais — não menciona o Jurídico nem fala diretamente com a dor de quem está sem matrícula."
+        },
+        "social_proof": {
+          "present": true,
+          "type": "avaliações com comentário",
+          "quality": "strong",
+          "notes": "16 avaliações, nota 4.7. Comentários reais visíveis: 'A Fixa Engenharia entrega serviços com qualidade, organização e compromisso', 'Profissionais extremamente qualificados e experientes', 'Empresa séria e comprometida com os resultados!' — todos 5 estrelas."
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": true,
+          "notes": "Botões de Rotas e Salvar presentes; telefone clicável. Mas falta o principal: o campo 'website' do perfil está vazio — o próprio Google sinaliza isso em 'Adicionar informações ausentes → Adicionar website'."
+        },
+        "visual_consistency": {
+          "consistent": null,
+          "professional": null,
+          "notes": "Quantidade e qualidade das fotos do perfil não verificadas nesta captura (mostra só o card de busca, não a aba 'Fotos' completa)."
+        },
+        "mobile_experience": {
+          "responsive": null,
+          "speed": null,
+          "notes": "Não aplicável a este canal."
+        },
+        "content_quality": {
+          "speaks_to_icp": false,
+          "frequency": "sem posts recentes aparentes",
+          "engagement_level": "273 interações com clientes registradas no painel do proprietário",
+          "notes": "O prompt 'Mantenha seus clientes atualizados → Adicionar atualização' sugere que a função de Posts do GMB não está sendo usada."
+        },
+        "additional_notes": "Perfil reivindicado e verificado ('Você gerencia este Perfil da Empresa'). Endereço (Centro Profissional Domenica Verdi, Av. Itália 482, Sl 801, São Pelegrino), telefone (54) 99971-9141 e horário de funcionamento todos preenchidos e corretos. Categoria primária: 'Empresa de engenharia civil' — não cobre Assessoria/Jurídico. 'Força do perfil' aparece parcial no painel (indicador circular incompleto), consistente com o website ausente."
+      },
+      "gaps": [
+        {
+          "gap": "Campo 'website' do perfil está vazio",
+          "evidence": "O próprio Google sinaliza: 'Adicionar informações ausentes → Adicionar website' no painel do proprietário",
+          "impact": "high"
+        },
+        {
+          "gap": "Função de Posts do GMB não está em uso",
+          "evidence": "Prompt 'Mantenha seus clientes atualizados' sugere ausência de atualizações recentes",
+          "impact": "medium"
+        },
+        {
+          "gap": "Categoria e descrição cobrem só Engenharia/Arquitetura, sem o Jurídico",
+          "evidence": "Categoria 'Empresa de engenharia civil'; descrição não menciona regularização jurídica/direito imobiliário",
+          "impact": "medium"
+        },
+        {
+          "gap": "Volume de avaliações abaixo do benchmark do setor",
+          "evidence": "16 avaliações vs. benchmark de 50+ para posição competitiva forte no pack local",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Vamos vincular o site ao perfil do GMB — é o ajuste de maior impacto por menor esforço desta auditoria inteira",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Vamos publicar posts periódicos no GMB (cases, avisos, novidades) aproveitando o mesmo conteúdo já produzido para o Instagram",
+          "priority": "short_term",
+          "effort": "low"
+        },
+        {
+          "action": "Vamos pedir review a cada processo concluído para aumentar o volume de avaliações acima do benchmark do setor",
+          "priority": "short_term",
+          "effort": "low"
+        }
+      ]
+    }
+  ],
+  "gap_matrix": [
+    {
+      "rank": 1,
+      "channel": "google_meu_negocio",
+      "gap": "Campo 'website' do perfil do GMB está vazio",
+      "impact": "high",
+      "effort": "low",
+      "recommended_action": "Vamos vincular o site ao perfil do GMB — ajuste imediato, sem custo",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 2,
+      "channel": "site",
+      "gap": "Site não aparece nos primeiros resultados do Google nem para busca pelo nome da marca",
+      "impact": "high",
+      "effort": "medium",
+      "recommended_action": "Vamos vincular o site ao GMB e trabalhar SEO local básico como parte da nova LP (Semana 3)",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 3,
+      "channel": "site",
+      "gap": "Ausência total de prova social no site (depoimentos, números)",
+      "impact": "high",
+      "effort": "low",
+      "recommended_action": "Vamos trazer os depoimentos do Instagram e as avaliações do GMB para o site/LP",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 4,
+      "channel": "site",
+      "gap": "CTA genérico ('Saiba mais') em vez de ação específica",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Vamos trocar por 'Quero regularizar meu imóvel'",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 5,
+      "channel": "google_meu_negocio",
+      "gap": "Função de Posts do GMB não está em uso",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Vamos publicar no GMB o mesmo conteúdo já produzido para o Instagram",
+      "quadrant": "quick_win"
+    },
+    {
+      "rank": 6,
+      "channel": "site + instagram + gmb",
+      "gap": "Marca fragmentada: todos os canais comunicam só 'Fixa Engenharia', sem Assessoria/Jurídico",
+      "impact": "high",
+      "effort": "high",
+      "recommended_action": "Vamos unificar a comunicação das 3 frentes no Manual de Marca (ee-s3-manual-marca) e propagar para todos os canais",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 7,
+      "channel": "anuncios",
+      "gap": "Nenhum anúncio pago ativo em nenhuma plataforma",
+      "impact": "high",
+      "effort": "high",
+      "recommended_action": "Vamos ligar mídia paga só depois de LP e CRM básico no ar, conforme já priorizado no diagnóstico de maturidade",
+      "quadrant": "strategic_project"
+    },
+    {
+      "rank": 8,
+      "channel": "site",
+      "gap": "Sem CNPJ e telefone visíveis no rodapé",
+      "impact": "medium",
+      "effort": "low",
+      "recommended_action": "Vamos incluir CNPJ e telefone assim que confirmarmos o acesso de edição do site",
+      "quadrant": "quick_win"
+    }
+  ],
+  "executive_summary": {
+    "overall_assessment": "A comunicação digital da Fixa hoje tem dois canais com base sólida — Instagram (48/100, prova social real e alinhada ao ICP) e GMB (45/100, perfil reivindicado, nota 4.7 com 16 avaliações) — cercados por um site fraco (28/100) e ausência total de anúncios pagos (5/100). O padrão que se repete em quase todos os gaps não é falta de material — é material bom (depoimentos, avaliações 5 estrelas, nota 4.7) que existe em dois canais e nunca chega ao terceiro, e um erro de configuração simples (o site não está linkado no GMB) que provavelmente explica por que o site nem aparece quando alguém busca a marca pelo nome.\n\nComo a Fixa contratou o Executar, esses gaps viram diretamente fila de produção da nossa equipe nas próximas semanas: vincular o site ao GMB, levar a prova social do Instagram/GMB para o site e a LP, e unificar as 3 frentes (Engenharia, Assessoria, Jurídico) no Manual de Marca antes de ligar qualquer investimento em mídia paga.",
+    "top_problems": [
+      {
+        "problem": "Site não aparece nem quando alguém busca o nome exato da marca no Google",
+        "evidence": "Busca por 'fixa engenharia' traz Instagram, LinkedIn, Jusbrasil, Serasa Experian, Facebook, CNPJá, Econodata e Prospectei nos 10 primeiros resultados — o site oficial não aparece",
+        "impact": "Quem já conhece a marca e tenta confirmar informações (telefone, serviços, endereço) não encontra o canal mais completo da Fixa",
+        "action": "Vamos vincular o site ao GMB (ajuste imediato) e trabalhar SEO local básico junto com a nova LP"
+      },
+      {
+        "problem": "Prova social forte (Instagram + GMB) presa fora do site",
+        "evidence": "Site sem nenhum depoimento/avaliação; Instagram com depoimentos reais e GMB com nota 4.7 (16 avaliações, comentários elogiando qualidade e compromisso)",
+        "impact": "Quem chega pelo site (ou por um anúncio futuro) não vê nenhuma prova de que a Fixa entrega — o material que provaria isso já existe, só não está lá",
+        "action": "Vamos levar os melhores depoimentos e avaliações para o site e a landing page na Semana 3"
+      },
+      {
+        "problem": "Site, Instagram e GMB comunicam só 'Fixa Engenharia', sem Assessoria nem Jurídico",
+        "evidence": "Nenhuma menção à Fixa Assessoria no site, no handle/bio do Instagram, nem na categoria/descrição do GMB",
+        "impact": "A marca unificada que o Carlos quer construir (ver decisão registrada em 08/09) ainda não existe em nenhum canal digital",
+        "action": "Vamos resolver isso no Manual de Marca (ee-s3-manual-marca) e propagar a marca unificada para todos os canais"
+      }
+    ],
+    "communication_score": 31
+  },
+  "competitor_benchmark": {
+    "description": "Leitura preliminar com base no que já está mapeado no briefing (perceived_differential de cada concorrente) — não é ainda uma auditoria formal canal a canal dos concorrentes (essa auditoria mais profunda é objeto de ee-s1-swot e ee-s2-pesquisa-mercado, ainda pendentes). Os scores de concorrente abaixo são estimativas direcionais, marcadas como tal.",
+    "groups": [
+      {
+        "name": "Balen Regularizações",
+        "members": [
+          "Balen Regularizações"
+        ],
+        "positioning": "Escala e institucionalização — parte do Balen Group, +20 anos, +20.000 clientes atendidos, prêmio Top of Mind 2022"
+      },
+      {
+        "name": "DCA Engenharia",
+        "members": [
+          "DCA Engenharia"
+        ],
+        "positioning": "Prova social documentada publicamente — cases de condomínios regularizados nomeados junto à Prefeitura de Caxias do Sul"
+      },
+      {
+        "name": "BLM Assessoria Imobiliária",
+        "members": [
+          "BLM Assessoria Imobiliária"
+        ],
+        "positioning": "Presença digital muito fraca, sem site próprio — concorrente onde a barra para se diferenciar é baixa"
+      }
+    ],
+    "benchmark_by_channel": [
+      {
+        "channel": "site",
+        "client_score": 28,
+        "best_in_class_score": 65,
+        "gap": -37,
+        "best_practice_observed": "[E] Balen, como holding de escala, tende a ter site institucional com prova social de volume (+20.000 clientes) e presença multi-estado — a confirmar em ee-s1-swot",
+        "opportunity_for_client": "A Fixa pode vencer não em escala, mas em especificidade: nenhum concorrente mapeado comunica os 3 serviços integrados (engenharia+arquitetura+direito) no mesmo contrato"
+      },
+      {
+        "channel": "prova_social_institucional",
+        "client_score": 40,
+        "best_in_class_score": 70,
+        "gap": -30,
+        "best_practice_observed": "[E] DCA nomeia publicamente os condomínios que regularizou junto à Prefeitura — prova social específica e verificável",
+        "opportunity_for_client": "A Fixa já tem depoimentos reais no Instagram e avaliações 5 estrelas no GMB (não usados no site) — e o item pendente de validação sobre 'maioria dos novos loteamentos assumidos frente à Balen' (ver pending_validation_items em ee-s1-persona-icp) pode virar um case do mesmo tipo, se confirmado"
+      },
+      {
+        "channel": "presenca_digital_geral",
+        "client_score": 31,
+        "best_in_class_score": null,
+        "gap": null,
+        "best_practice_observed": "BLM (concorrente citado no briefing) não tem nem site próprio — presença digital muito fraca",
+        "opportunity_for_client": "Mesmo com os gaps mapeados nesta auditoria, a Fixa já está à frente da BLM em produção de conteúdo (71 posts no Instagram, GMB reivindicado com 4.7★) — é um concorrente fácil de superar digitalmente, mesmo sem grande investimento"
+      }
+    ],
+    "strategic_read": "A Fixa não vai vencer Balen em escala nem tentar replicar o volume de cases da DCA no curto prazo — o caminho mais rápido é corrigir o erro de configuração que já custa visibilidade (site fora do GMB e da busca pela própria marca) e levar a prova social que já existe (Instagram + GMB) para os canais onde hoje não existe (site, futuros anúncios). Frente à BLM, a Fixa já está à frente digitalmente; frente a Balen e DCA, o gap está mais em prova social institucional e SEO básico do que em qualidade de atendimento ou diferencial técnico."
+  },
+  "journey_friction_map": {
+    "description": "Funil da jornada da Ivete (persona aprovada em ee-s1-persona-icp), do gatilho até a indicação — sem tracking hoje (CRM=5/100), então os volumes são estimativas [E] a partir do que está confirmado no briefing e no diagnóstico de maturidade. Atendimento/configuração do WhatsApp fica fora desta rodada de auditoria.",
+    "stages": [
+      {
+        "stage": "Gatilho (percebe que precisa regularizar)",
+        "current_volume": "não mensurado hoje — sem tracking",
+        "leakage_pct": 0,
+        "root_cause": "Ainda não é fricção de canal — é o momento em que o problema surge, antes de qualquer busca",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Não aplicável nesta etapa"
+      },
+      {
+        "stage": "Pesquisa online (Google/Instagram)",
+        "current_volume": "[E] alto volume de buscas por 'regularizar imóvel Caxias do Sul' e termos correlatos",
+        "leakage_pct": 85,
+        "root_cause": "Site sem SEO estruturado e sem website vinculado ao GMB, sem anúncio pago — mesmo busca pelo nome exato da marca não retorna o site nos 10 primeiros resultados",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Vincular o site ao GMB (quick win) + landing page + SEO local básico (Semana 3) podem recuperar uma fatia relevante desse volume hoje perdido para concorrentes"
+      },
+      {
+        "stage": "Chega a um canal da Fixa (site, Instagram ou GMB)",
+        "current_volume": "[E] baixo, majoritariamente via indicação direta, não via busca",
+        "leakage_pct": 40,
+        "root_cause": "Site sem prova social nem CTA de ação faz parte de quem chega desistir sem contatar; Instagram e GMB convertem melhor por já terem prova social",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Prova social + CTA de ação no site (quick win) reduzem esse vazamento sem custo adicional"
+      },
+      {
+        "stage": "Contato inicial (indicação ou canal digital)",
+        "current_volume": "[E] moderado — é onde a indicação converte hoje",
+        "leakage_pct": 20,
+        "root_cause": "Fora do escopo desta auditoria (configuração de atendimento) — mas o diagnóstico de maturidade já confirmou CRM=5/100, sem pipeline nem follow-up estruturado",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Endereçado em ee-s3-crm-setup, Semana 4"
+      },
+      {
+        "stage": "Diagnóstico/reunião com os sócios",
+        "current_volume": "[E] a maioria dos contatos qualificados chega até aqui",
+        "leakage_pct": 15,
+        "root_cause": "Ponto forte real da Fixa — conhecimento técnico dos sócios gera confiança; vazamento residual vem de objeções de prazo/preço não tratadas com material padronizado",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Objection library já mapeada em ee-s1-persona-icp pode virar material de apoio ao diagnóstico"
+      },
+      {
+        "stage": "Contratação",
+        "current_volume": "[E] conversão histórica sustenta ~R$1,7M projetados para 2026",
+        "leakage_pct": null,
+        "root_cause": "Não aplicável — fim do funil de aquisição",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Não aplicável"
+      },
+      {
+        "stage": "Execução → Indicação/Recompra",
+        "current_volume": "Fonte de quase 100% da captação atual",
+        "leakage_pct": null,
+        "root_cause": "Não há captura estruturada de depoimento/case ao final de cada processo — depoimentos no Instagram e avaliações no GMB parecem pontuais, não sistemáticos",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Pedir depoimento/review a cada processo concluído aumenta o volume de prova social pronta para replicar"
+      }
+    ],
+    "biggest_leakage_summary": "O maior vazamento estimado é entre 'Pesquisa online' e 'Chega a um canal da Fixa' — cerca de 85% de quem pesquisa ativamente por regularização de imóvel em Caxias do Sul hoje nunca chega a encontrar a Fixa, agravado pelo fato de que nem a busca pelo nome exato da marca retorna o site oficial. Esse número é estimado [E] — não há tracking hoje para medir com precisão (CRM=5/100).",
+    "projected_funnel_90d_realistic": "[E] Com o site vinculado ao GMB e prova social replicada (quick wins desta semana) e, depois, LP + CRM mínimo + primeiros testes de mídia paga (Semana 3-4), a expectativa realista é reduzir o vazamento em 'Pesquisa/Consideração' — sem uma linha de base mensurada hoje, o ganho exato só fica claro depois que GA4/pixel estiverem instalados."
+  },
+  "tone_of_voice_analysis": {
+    "description": "A Fixa ainda não tem brand_voice_target formalmente declarado (brand.adjectives e brand.voice_tone estão null no briefing) — os pilares abaixo são inferidos a partir da mensagem-chave já aprovada (abordagem funcional) e do objection_library de ee-s1-persona-icp, e serão formalizados no Manual de Marca (ee-s3-manual-marca). WhatsApp fora do escopo desta rodada.",
+    "brand_voice_target": {
+      "pillars": [
+        "técnico e claro (sem 'juridiquês')",
+        "direto sobre prazo e etapas",
+        "acolhedor sem ser informal demais",
+        "confiável — cumpre o que promete"
+      ],
+      "avoid": [
+        "não promete prazo que não pode cumprir",
+        "não soa 'vendedor' ou apressado",
+        "não usa jargão jurídico sem explicar"
+      ]
+    },
+    "channel_drift": [
+      {
+        "channel": "site",
+        "actual_tone": "Institucional genérico — 'comprometimento e qualidade' em projetos residenciais e comerciais, sem falar diretamente com a dor de quem está sem matrícula",
+        "target_alignment": "parcial",
+        "drift_notes": "Fala como uma empresa de engenharia qualquer, não como um escritório que resolve especificamente o medo da Ivete (brigas de herança, venda travada)",
+        "fix": "Reescrever a headline com a mensagem-chave aprovada e um subtítulo que nomeia a dor específica",
+        "example": "'Comprometimento e qualidade' (headline atual) vs. 'Regularize seu imóvel com engenharia, arquitetura e direito num só lugar' (mensagem aprovada)"
+      },
+      {
+        "channel": "instagram",
+        "actual_tone": "Técnico-acolhedor — mistura bastidores de campo (engenheiro com capacete), depoimentos emocionais e conteúdo educativo direto ('O que é REURB?')",
+        "target_alignment": "bom",
+        "drift_notes": "É o canal mais próximo do tom-alvo hoje, mas o texto completo das legendas não foi lido nesta rodada (só thumbnails) — vale validar amostra de legendas ao assumir a produção",
+        "example": "Cards com aspas e nome de cliente citando a experiência, ao lado de posts técnicos tipo 'REGULARIZAÇÃO NA PRÁTICA'"
+      },
+      {
+        "channel": "google_meu_negocio",
+        "actual_tone": "Descritivo-institucional — 'Empresa de engenharia e arquitetura que trabalha com projetos de infraestrutura urbana, loteamentos, regularização...' e avaliações de clientes elogiando 'qualidade, organização e compromisso'",
+        "target_alignment": "bom",
+        "drift_notes": "Tom correto e profissional, mas a descrição (escrita pela empresa) não menciona o Jurídico nem fala da dor específica do ICP — os comentários de clientes (não editáveis) já soam mais próximos do tom-alvo que a própria descrição institucional",
+        "example": "'Empresa de engenharia e arquitetura que trabalha com projetos de infraestrutura urbana, loteamentos, regularização de terrenos e casas' (descrição) vs. 'A Fixa Engenharia entrega serviços com qualidade, organização e compromisso' (avaliação de cliente)"
+      },
+      {
+        "channel": "anuncios",
+        "actual_tone": null,
+        "target_alignment": "nenhum",
+        "drift_notes": "Não aplicável — canal ainda não existe"
+      }
+    ],
+    "coherence_score": 45
+  },
+  "url_audit": {
+    "description": "URLs e canais críticos para o operador confirmar/QA antes e durante a produção da Semana 3.",
+    "urls": [
+      {
+        "url": "https://www.fixaengenharia.com",
+        "purpose": "Site institucional (base de conteúdo para a nova LP)",
+        "status_expected": "Deve listar CNPJ, telefone e as 3 frentes (Engenharia, Assessoria, Jurídico) após a unificação de marca, e aparecer nos primeiros resultados do Google para busca pela marca",
+        "verify_checklist": [
+          "CNPJ e telefone visíveis no rodapé",
+          "Menção à Fixa Assessoria",
+          "CTA de ação (não só 'Saiba mais')",
+          "Ao menos 1 depoimento com nome e resultado",
+          "Site aparecendo nos 10 primeiros resultados do Google para 'fixa engenharia'"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/fixa_engenharia",
+        "purpose": "Perfil principal de redes sociais",
+        "status_expected": "Decisão pendente: mantém este handle ou migra para um perfil unificado 'Fixa' junto ao Manual de Marca",
+        "verify_checklist": [
+          "Bio menciona as 3 frentes ou só Engenharia",
+          "Link da bio está funcionando",
+          "Botão de WhatsApp configurado",
+          "Destaques cobrem depoimentos/FAQ"
+        ]
+      },
+      {
+        "url": "https://share.google/Z8H9m6q4Fo0riIJ0V",
+        "purpose": "Google Meu Negócio",
+        "status_expected": "16 avaliações, nota 4.7 confirmadas; perfil reivindicado; falta vincular o website e ativar Posts",
+        "verify_checklist": [
+          "Campo 'website' preenchido com o link do site",
+          "Categoria secundária cobrindo Assessoria/Jurídico, se disponível na plataforma",
+          "Posts publicados regularmente",
+          "Todas as avaliações com resposta"
+        ]
+      }
+    ]
+  },
+  "quick_wins": [
+    {
+      "action": "Vincular o site (fixaengenharia.com) ao campo 'website' do perfil do GMB",
+      "channel": "google_meu_negocio",
+      "time_estimate": "15min",
+      "expected_impact": "Ajuste de maior impacto por menor esforço desta auditoria — conecta o canal de maior confiança (GMB, 4.7★) direto ao site, e ajuda o site a subir nos resultados de busca",
+      "who_does_it": "operator",
+      "steps": [
+        "Acessar o painel do proprietário do GMB (link fornecido: share.google/Z8H9m6q4Fo0riIJ0V)",
+        "Clicar em 'Adicionar informações ausentes → Adicionar website'",
+        "Inserir a URL do site"
+      ]
+    },
+    {
+      "action": "Levar os melhores depoimentos do Instagram e as avaliações do GMB para o site, numa seção de prova social",
+      "channel": "site",
+      "time_estimate": "2h",
+      "expected_impact": "Site deixa de ser o único canal sem nenhuma prova social — reduz abandono de quem chega por busca direta",
+      "who_does_it": "designer",
+      "steps": [
+        "Selecionar 3-5 depoimentos mais fortes do feed do Instagram e 2-3 avaliações do GMB",
+        "Confirmar com o Carlos autorização de uso de nome/foto de cada cliente",
+        "Montar seção de prova social no site (ou já direto na LP em produção)"
+      ]
+    },
+    {
+      "action": "Trocar os dois CTAs 'Saiba mais' do site por 'Quero regularizar meu imóvel'",
+      "channel": "site",
+      "time_estimate": "1h",
+      "expected_impact": "CTA orientado a ação em vez de navegação genérica",
+      "who_does_it": "operator",
+      "steps": [
+        "Confirmar acesso de edição do site com o Carlos (website_admin ainda não confirmado no briefing)",
+        "Atualizar texto e link dos dois botões"
+      ]
+    },
+    {
+      "action": "Publicar os primeiros posts no GMB reaproveitando conteúdo já produzido para o Instagram",
+      "channel": "google_meu_negocio",
+      "time_estimate": "1h",
+      "expected_impact": "Ativa um recurso hoje ocioso do GMB (a função de Posts) sem exigir produção nova",
+      "who_does_it": "operator",
+      "steps": [
+        "Selecionar 2-3 posts recentes do Instagram com boa performance visual",
+        "Adaptar formato/tamanho para o GMB",
+        "Publicar e definir cadência mínima (ex.: quinzenal)"
+      ]
+    },
+    {
+      "action": "Incluir CNPJ e telefone no rodapé do site",
+      "channel": "site",
+      "time_estimate": "30min",
+      "expected_impact": "Aumenta a credibilidade institucional e facilita contato direto",
+      "who_does_it": "operator",
+      "steps": [
+        "Confirmar acesso de edição do site",
+        "Adicionar CNPJ e telefone no rodapé, ao lado do email já existente"
+      ]
+    }
+  ],
+  "key_insight": {
+    "headline": "A Fixa já tem a prova social que precisa — e um erro de configuração de 15 minutos ajuda a explicar por que o site nem aparece na busca pela própria marca.",
+    "context": "O GMB está reivindicado, com nota 4.7 e 16 avaliações reais — mas o campo 'website' está vazio, e o próprio Google sinaliza isso no painel. Ao mesmo tempo, o Instagram já mostra depoimentos reais com nome e foto. Nenhum desses ativos aparece no site — e o site, por sua vez, nem aparece nos 10 primeiros resultados do Google para 'fixa engenharia'.",
+    "numbered_reasons": [
+      "(1) Site tem zero prova social; Instagram e GMB já têm depoimentos e avaliações reais",
+      "(2) Causa-raiz: cada canal foi tratado separadamente, sem um repositório central de prova social, e o GMB nem está linkado ao site",
+      "(3) Quick win que destrava: vincular o site ao GMB (15min) e levar os depoimentos/avaliações para o site esta semana, sem esperar a landing page completa"
+    ],
+    "discussion_anchor": "Vale validar com o Carlos, antes de escalar para a Semana 3, se todos os depoimentos do Instagram têm autorização de uso de nome/foto — para não travar a produção do site por uma pendência de permissão."
+  },
+  "honesty_alert": "Esta auditoria não cobriu o canal WhatsApp a pedido do operador (fora do escopo desta rodada) — o diagnóstico de atendimento/CRM nesse canal já está registrado em ee-s1-diagnostico-maturidade (pilar CRM=5/100) e será tratado em ee-s3-crm-setup. Além disso, o score do GMB reflete o que é visível na tela de busca fornecida (perfil, avaliações, informações de contato) — a aba completa de Fotos não foi auditada em detalhe."
+}

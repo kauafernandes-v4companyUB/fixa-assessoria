@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixa Engenharia &amp; Assessoria · Diagnóstico Estratégico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    height: 100%; width: 100%; overflow: hidden;
+    background: #0a0a0a; color: #fff;
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+  }
+
+  .presentation { position: fixed; inset: 0; overflow: hidden; }
+  .slides-track {
+    display: flex; height: 100vh; width: 100vw;
+    transition: transform 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  .slide {
+    flex: 0 0 100vw; height: 100vh;
+    position: relative; overflow-y: auto; overflow-x: hidden;
+    padding: 4vh 5vw 8vh;
+    display: flex; flex-direction: column;
+    background: radial-gradient(ellipse at center, #ff3a1f 0%, #d61a0e 55%, #8a0d05 100%);
+  }
+  .slide--alt { background: linear-gradient(135deg, #ff5a2c 0%, #e6230e 60%, #8a0d05 100%); }
+  .slide--diag { background: radial-gradient(circle at 30% 50%, #ff6a3c 0%, #d61a0e 50%, #5a0802 100%); }
+  .slide--soft { background: linear-gradient(180deg, #b81409 0%, #f04823 100%); }
+
+  .slide__header { display: flex; align-items: center; margin-bottom: 2.5vh; }
+  .logo-v4 {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 64px; height: 64px; background: #fff;
+    border-radius: 14px; box-shadow: 0 6px 22px rgba(0,0,0,0.18);
+  }
+  .logo-v4 img { width: 72%; height: 72%; object-fit: contain; display: block; }
+
+  h1.title-mega {
+    font-weight: 700; font-size: clamp(3.5rem, 8vw, 7.5rem);
+    line-height: 0.95; letter-spacing: -0.03em;
+    background: linear-gradient(180deg, #ffe1c0 0%, #f5a665 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  h2.title-section {
+    font-weight: 700; font-size: clamp(2.2rem, 4.5vw, 4rem);
+    line-height: 1.05; letter-spacing: -0.02em; color: #fff; margin-bottom: 2vh;
+  }
+  h3.subtitle { font-weight: 600; font-size: clamp(1.15rem, 1.7vw, 1.7rem); line-height: 1.2; color: #fff; }
+  .eyebrow {
+    display: inline-block; font-weight: 600; font-size: clamp(0.8rem, 0.95vw, 1rem);
+    letter-spacing: 0.08em; text-transform: uppercase; color: #ffd0a8;
+    padding: 8px 18px; border-radius: 100px;
+    background: rgba(255,220,180,0.12); border: 1px solid rgba(255,220,180,0.2);
+    backdrop-filter: blur(8px); margin-bottom: 1.6vh;
+  }
+  .subtitle-text {
+    font-weight: 500; font-size: clamp(1rem, 1.3vw, 1.35rem); line-height: 1.45;
+    color: rgba(255, 240, 220, 0.92); max-width: 900px;
+  }
+  .accent { color: #ffd0a8; font-weight: 700; }
+  .strong { color: #fff; font-weight: 700; }
+
+  .pill {
+    display: inline-block; padding: 10px 22px; border-radius: 100px;
+    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(12px); font-weight: 600; font-size: 0.95rem; color: #fff;
+  }
+  .glass {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    backdrop-filter: blur(14px);
+    border-radius: 18px; padding: 22px;
+  }
+
+  .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .row-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .row-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .row-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+  .stack { display: flex; flex-direction: column; gap: 12px; }
+
+  .kpi__label {
+    font-weight: 600; font-size: 0.78rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: rgba(255,220,180,0.85); margin-bottom: 6px;
+  }
+  .kpi__value {
+    font-weight: 700; font-size: clamp(1.9rem, 2.8vw, 2.6rem);
+    line-height: 1; color: #fff; letter-spacing: -0.02em; margin-bottom: 6px;
+  }
+  .kpi__hint { font-size: 0.9rem; color: rgba(255,255,255,0.75); line-height: 1.35; }
+
+  ul.bullets { list-style: none; padding: 0; }
+  ul.bullets li {
+    font-weight: 500; font-size: clamp(1rem, 1.18vw, 1.18rem);
+    line-height: 1.45; color: rgba(255,245,230,0.96);
+    padding: 9px 0 9px 28px; position: relative;
+  }
+  ul.bullets li::before {
+    content: ''; position: absolute; left: 0; top: 20px;
+    width: 16px; height: 2px; background: #ffd0a8; border-radius: 2px;
+  }
+  ul.bullets--check li::before {
+    content: '✓'; width: auto; height: auto; background: none;
+    left: 2px; top: 8px; color: #ffd0a8; font-weight: 700; font-size: 1.15rem;
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, rgba(255,225,180,0.16), rgba(255,225,180,0.06));
+    border-left: 4px solid #ffd0a8; padding: 18px 22px; border-radius: 10px;
+  }
+  .highlight-box__label {
+    font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #ffd0a8; font-weight: 700; margin-bottom: 6px;
+  }
+  .highlight-box__text {
+    font-weight: 600; font-size: clamp(1rem, 1.2vw, 1.25rem);
+    line-height: 1.45; color: #fff;
+  }
+
+  .compare { width: 100%; border-collapse: collapse; }
+  .compare th, .compare td {
+    padding: 13px 14px; text-align: left;
+    font-size: clamp(0.9rem, 1.05vw, 1.05rem);
+    color: rgba(255,245,230,0.94);
+  }
+  .compare th {
+    font-weight: 700; font-size: 0.78rem;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: #ffd0a8; border-bottom: 1px solid rgba(255,255,255,0.18);
+  }
+  .compare td { border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .compare tr:last-child td { border-bottom: none; }
+  .compare .accent-cell { color: #ffd0a8; font-weight: 700; }
+
+  .swot-grid {
+    display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr;
+    gap: 16px; flex: 1; min-height: 0;
+  }
+  .swot-quad {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    backdrop-filter: blur(14px); border-radius: 14px;
+    padding: 20px 22px; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .swot-quad__label {
+    font-size: 0.9rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #ffd0a8; font-weight: 700; margin-bottom: 12px;
+  }
+  .swot-quad ul { list-style: none; padding: 0; }
+  .swot-quad ul li {
+    font-size: clamp(0.95rem, 1.05vw, 1.05rem);
+    line-height: 1.4; padding: 6px 0 6px 18px;
+    position: relative; color: rgba(255,245,230,0.95);
+  }
+  .swot-quad ul li::before {
+    content: '•'; position: absolute; left: 4px; top: 5px;
+    color: #ffd0a8; font-weight: 700;
+  }
+  .swot-quad--s { border-left: 3px solid #80ff9f; }
+  .swot-quad--w { border-left: 3px solid #ffb780; }
+  .swot-quad--o { border-left: 3px solid #80c8ff; }
+  .swot-quad--t { border-left: 3px solid #ff8080; }
+
+  .pillar-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    backdrop-filter: blur(14px); border-radius: 14px;
+    padding: 18px; text-align: center;
+  }
+  .pillar-card__score {
+    font-weight: 700; font-size: clamp(2.2rem, 3vw, 2.8rem);
+    line-height: 1; letter-spacing: -0.02em; margin-bottom: 4px;
+  }
+  .pillar-card__bar {
+    height: 8px; background: rgba(255,255,255,0.16);
+    border-radius: 6px; overflow: hidden; margin: 10px 0 10px;
+  }
+  .pillar-card__bar-fill { height: 100%; border-radius: 6px; }
+  .pillar-card__name {
+    font-weight: 600; font-size: 0.95rem;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    color: rgba(255,220,180,0.9); margin-bottom: 4px;
+  }
+  .pillar-card__class {
+    font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.08em; font-weight: 700;
+  }
+  .cls-critical { color: #ff8c8c; }
+  .cls-low { color: #ffb780; }
+  .cls-medium { color: #ffe18c; }
+  .cls-good { color: #80ff9f; }
+  .fill-critical { background: linear-gradient(90deg, #ff3a3a, #ff7a7a); }
+  .fill-low { background: linear-gradient(90deg, #ff7a3a, #ffb780); }
+  .fill-medium { background: linear-gradient(90deg, #ffb780, #ffe18c); }
+  .fill-good { background: linear-gradient(90deg, #80ff9f, #b8ffc8); }
+
+  .slide__content { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .slide__footer {
+    margin-top: auto; display: flex; justify-content: space-between;
+    align-items: flex-end; font-size: 0.78rem;
+    color: rgba(255,220,180,0.5); font-weight: 500; padding-top: 1.5vh;
+  }
+
+  .controls {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    display: flex; align-items: center; gap: 18px;
+    padding: 14px 24px;
+    background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.55) 60%);
+    z-index: 10;
+  }
+  .control-btn {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(8px); color: #fff; font-size: 1.1rem;
+    display: inline-flex; align-items: center; justify-content: center;
+    cursor: pointer; user-select: none; transition: background .2s;
+  }
+  .control-btn:hover { background: rgba(255,255,255,0.18); }
+  .control-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+  .progress-bar {
+    flex: 1; height: 4px; border-radius: 4px;
+    background: rgba(255,255,255,0.16); overflow: hidden;
+  }
+  .progress-bar__fill {
+    height: 100%; background: linear-gradient(90deg, #ffd0a8 0%, #f5a665 100%);
+    transition: width 0.4s cubic-bezier(0.7, 0, 0.3, 1); border-radius: 4px;
+  }
+  .counter {
+    font-weight: 600; font-size: 0.9rem;
+    color: rgba(255,255,255,0.85); letter-spacing: 0.04em;
+    min-width: 60px; text-align: center;
+  }
+
+  .deco-square {
+    position: absolute; border-radius: 18px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    border: 1px solid rgba(255,255,255,0.05); pointer-events: none;
+  }
+  .deco-s1 { width: 300px; height: 300px; top: -80px; right: -80px; transform: rotate(15deg); }
+  .deco-s2 { width: 200px; height: 200px; bottom: -60px; left: 6%; transform: rotate(-12deg); opacity: 0.5; }
+
+  .hint {
+    position: fixed; top: 14px; right: 18px;
+    font-size: 0.75rem; color: rgba(255,220,180,0.5);
+    font-weight: 500; pointer-events: none; z-index: 5;
+  }
+</style>
+</head>
+<body>
+
+<div class="hint">← → setas para navegar · F para tela cheia</div>
+
+<div class="presentation">
+  <div class="slides-track" id="track">
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content" style="justify-content:center;">
+        <span class="eyebrow">Diagnóstico Estratégico</span>
+        <h1 class="title-mega">Fixa<br/>Engenharia & Assessoria</h1>
+        <p class="subtitle-text" style="margin-top:24px; font-size:clamp(1.1rem, 1.5vw, 1.5rem);">
+          Diagnóstico Estratégico · Estruturação V4 · Semana 1
+        </p>
+      </div>
+      <div class="slide__footer">
+        <span>Setembro · 2026</span>
+        <span>V4 Company · Estruturação Estratégica</span>
+      </div>
+      <div class="deco-square deco-s1"></div>
+      <div class="deco-square deco-s2"></div>
+    </section>
+    
+
+    <section class="slide">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content" style="justify-content:center;">
+        <span class="eyebrow">Pauta de hoje</span>
+        <h2 class="title-section">O que vamos cobrir</h2>
+        <div class="row-2" style="margin-top:3vh;">
+          <div class="stack"><div class="pill">1 · Maturidade digital — scores por pilar</div><div class="pill">2 · Persona — ICP e jornada</div><div class="pill">3 · SWOT — forças, fraquezas, oportunidades, ameaças</div><div class="pill">4 · SWOT cruzada — estratégias derivadas</div></div>
+          <div class="stack"><div class="pill">5 · Auditoria de comunicação — gaps por canal</div><div class="pill">6 · Pesquisa de mercado (TAM · SAM · SOM)</div><div class="pill">7 · Concorrentes-chave</div><div class="pill">8 · Próximos passos do projeto</div></div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--diag">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Onde estamos hoje</span>
+        <h2 class="title-section">Fixa Engenharia &amp; Assessoria em números reais</h2>
+        <div class="row-2" style="margin-top:3vh;">
+          
+          <div class="glass">
+            <div class="kpi__label">Faturamento anual</div>
+            <div class="kpi__value">R$ 1,70</div>
+            <div class="kpi__hint">—</div>
+          </div>
+          <div class="glass">
+            <div class="kpi__label">Tempo de mercado</div>
+            <div class="kpi__value">10 anos</div>
+            <div class="kpi__hint">Caxias do Sul, RS</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Maturidade digital</span>
+        <h2 class="title-section">Diagnóstico por pilar</h2>
+        <div style="display:flex; align-items:center; gap:24px; margin-top:1vh;">
+          <div class="glass" style="min-width: 220px; text-align:center; padding:22px;">
+            <div class="kpi__label">Score geral</div>
+            <div class="kpi__value cls-critical" style="font-size:3.4rem;">10<span style="font-size:1.5rem; opacity:0.6">/100</span></div>
+            <div class="kpi__hint cls-critical" style="font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">gap crítico</div>
+          </div>
+          
+          <p class="subtitle-text" style="flex:1;">
+            Comparado ao setor (média 36), você está <span class="accent">26 pts abaixo</span>. A Fixa está abaixo da média do setor em todos os 5 pilares, mas o gap mais crítico está empatado entre Mídia Paga e CRM (-35 pontos cada) — os dois pilares que, juntos, decidem se um lead vira cliente ou se perde no…
+          </p>
+        </div>
+        <div class="row-5" style="margin-top:3vh;">
+          
+          <div class="pillar-card">
+            <div class="pillar-card__name">Mídia Paga</div>
+            <div class="pillar-card__score cls-critical">5</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-critical" style="width:5%;"></div></div>
+            <div class="pillar-card__class cls-critical">gap crítico</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">Criativos</div>
+            <div class="pillar-card__score cls-critical">13</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-critical" style="width:13%;"></div></div>
+            <div class="pillar-card__class cls-critical">gap crítico</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">CRO</div>
+            <div class="pillar-card__score cls-critical">8</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-critical" style="width:8%;"></div></div>
+            <div class="pillar-card__class cls-critical">gap crítico</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">CRM</div>
+            <div class="pillar-card__score cls-critical">5</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-critical" style="width:5%;"></div></div>
+            <div class="pillar-card__class cls-critical">gap crítico</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">SEO</div>
+            <div class="pillar-card__score cls-low">22</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-low" style="width:22%;"></div></div>
+            <div class="pillar-card__class cls-low">baixo</div>
+          </div>
+        </div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Leitura V4</div>
+          <div class="highlight-box__text">Fixa tem 10/100 de maturidade digital — 26 pontos abaixo da média do setor imobiliário. Só o GMB (nota 4.7) sustenta a presença digital hoje.</div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--diag">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Análise SWOT</span>
+        <h2 class="title-section">Forças · Fraquezas · Oportunidades · Ameaças</h2>
+        <div class="swot-grid" style="margin-top:2vh;">
+          
+          <div class="swot-quad swot-quad--s">
+            <div class="swot-quad__label">F · Forças</div>
+            <ul><li>A regularização exige levantamento técnico (engenharia/arquitetura) e resolução documental/jurídica (cartório, registro, inventário). A Fixa trata as duas…</li><li>71 posts no Instagram incluem múltiplos depoimentos com nome e foto de cliente, além do GMB reivindicado com nota 4,7. Mas as 16 avaliações do GMB são uma…</li><li>O briefing confirma relacionamento direto com cartórios e prefeitura que reduz atrito e prazo — ativo difícil de copiar rapidamente por um novo entrante, e…</li><li>O briefing confirma 10 anos de atuação da Fixa Engenharia e indica que recompra/indicação já ocorre organicamente, mesmo sem captura estruturada de depoimento.</li><li>O willingness_to_pay do persona-icp mostra elasticidade baixa nesse serviço — decisão institucional, não emocional, ticket maior justificado por escopo de…</li></ul>
+          </div>
+          
+          <div class="swot-quad swot-quad--w">
+            <div class="swot-quad__label">W · Fraquezas</div>
+            <ul><li>A auditoria de comunicação confirmou: busca por 'fixa engenharia' não retorna o site nos 10 primeiros resultados do Google; causa-raiz identificada — campo…</li><li>O diagnóstico de maturidade confirma accesses.crm=false, sem pipeline, sem automação e sem métrica de quantos leads entram por mês.</li><li>Confirmado nos 3 canais auditados (site, Instagram, GMB) — nenhum menciona a Fixa Assessoria nem a frente jurídica interna, apesar de ser parte do…</li><li>Os conectores V4MOS confirmam 0 campanhas em Google Ads e Meta Ads; o briefing confirma accesses.google_analytics=false e google_search_console=false.</li><li>A auditoria de comunicação identificou o gap: 16 avaliações vs. benchmark de 50+ para posição competitiva forte no pack local.</li></ul>
+          </div>
+          
+          <div class="swot-quad swot-quad--o">
+            <div class="swot-quad__label">O · Oportunidades</div>
+            <ul><li>A pesquisa desta SWOT mostrou: o site da Balen fala em 'soluções eficazes' de forma genérica, a DCA foca em 'engenharia e meio ambiente' amplo — nenhum…</li><li>Confirmado na pesquisa: apenas listagens em diretórios de CNPJ, nenhum domínio institucional, nenhum Instagram identificável, 275 curtidas no Facebook.</li><li>O campo 'website' vazio explica por que o site não aparece na busca pela própria marca; corrigir isso é imediato e de baixo custo.</li><li>Nenhum dos 3 concorrentes mapeados demonstra estrutura de mídia paga ativa nem funil de conversão dedicado (LP própria) — o público que já pesquisa…</li><li>Relato do operador (não confirmado no formulário) registrado em ee-s1-persona-icp como pending_validation_item — se documentável (contratos, protocolos na…</li></ul>
+          </div>
+          
+          <div class="swot-quad swot-quad--t">
+            <div class="swot-quad__label">T · Ameaças</div>
+            <ul><li>A pesquisa confirmou: site institucional robusto, +20 anos de atuação, prêmio Top of Mind 2022, cases publicados (ação judicial vencida, desapropriação),…</li><li>Páginas indexadas no Google para 'Residencial Vista Bella' e 'Condado Angel', com CRF emitido pela Prefeitura documentado publicamente.</li><li>Já identificado no diagnóstico de maturidade — CRM 5/100 e CRO 8/100 significam que investimento em mídia hoje vazaria antes de gerar retorno mensurável.</li><li>O buyer_journey do persona-icp mostra ciclo de decisão curto na fase de Pesquisa/Consideração (3-10 dias + 1-3 semanas) — cada mês sem correção é um ciclo…</li><li>O briefing confirma: sales_module.active_sellers = '0 formal — atendimento comercial feito pelos próprios sócios/técnicos (principalmente Carlos Henrique…</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Persona principal</span>
+        <h2 class="title-section">Ivete Dal Bosco</h2>
+        <div class="row-2" style="margin-top:2vh; flex:1; align-items:stretch;">
+          <div class="glass">
+            <h3 class="subtitle" style="margin-bottom:14px; color:#ffd0a8;">Quem é</h3>
+            <p style="font-size:1.05rem; line-height:1.5; color:rgba(255,245,230,0.95);">Ivete é viúva, aposentada, e mora na casa que o marido construiu há mais de 30 anos, num bairro consolidado de padrão médio. Depois que ele faleceu, descobriu que o imóvel nunca teve escritura definitiva registrada — só um contrato de compra e venda antigo, sem averbação. Com os três filhos morando em outras cidades, ela quer vender a casa e se mudar para perto de um deles, mas o comprador exige matrícula regularizada e o banco não libera financiamento sem isso. Já tentou…</p>
+          </div>
+          <div class="glass">
+            <h3 class="subtitle" style="margin-bottom:14px; color:#ffd0a8;">Mensagem-chave</h3>
+            <p style="font-weight:600; font-size:clamp(1.05rem, 1.35vw, 1.35rem); line-height:1.35; color:#fff; margin:8px 0 18px;">
+              Eu só quero vender essa casa em paz e não deixar essa dor de cabeça pros meus filhos resolverem depois que eu morrer. Já tentei sozinha e não consegui nem entender o que me pediam.
+            </p>
+            <h3 class="subtitle" style="margin-bottom:8px; color:#ffd0a8; font-size:1.05rem;">Onde encontrar</h3>
+            <p style="color:rgba(255,245,230,0.92); font-size:1rem; line-height:1.45;">—</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Auditoria de comunicação</span>
+        <h2 class="title-section">Gaps por canal</h2>
+        <p class="subtitle-text" style="margin-bottom:1.5vh;">Fixa tem prova social pronta (Instagram + GMB 4.7) e o próprio site nem aparece quando alguém busca 'fixa engenharia' no Google — é isso que a Semana 3 vai destravar.</p>
+        <div class="row-2" style="margin-top:1.5vh; gap:18px;">
+          <div class="glass">
+            <h3 class="subtitle" style="color:#ffd0a8; margin-bottom:12px; font-size:1.1rem;">Achados principais</h3>
+            <ul class="bullets"><li>O GMB já está reivindicado e verificado, com nota 4.7 (16 avaliações reais, incluindo comentários com elogio a 'qualidade, organização e compromisso') e endereço/telefone/horário todos preenchidos…</li><li>O site institucional não aparece nos 10 primeiros resultados do Google nem para a busca exata pelo nome da marca ('fixa engenharia') — quem procura a Fixa pelo nome encontra Instagram, LinkedIn,…</li><li>O próprio Google sinaliza a falha mais simples de corrigir: o campo 'website' do perfil do GMB está vazio ('Adicionar informações ausentes → Adicionar website') — o site existe, só não está linkado…</li><li>Como a Fixa contratou o Executar, os quick wins abaixo (vincular o site no GMB, prova social no site, CTA de ação) entram direto na fila de produção da nossa equipe — não é uma lista de tarefas para…</li></ul>
+          </div>
+          <div class="glass" style="border-left:3px solid #80ff9f;">
+            <h3 class="subtitle" style="color:#80ff9f; margin-bottom:12px; font-size:1.1rem;">Quick wins</h3>
+            <ul class="bullets bullets--check"><li>Vincular o site (fixaengenharia.com) ao campo 'website' do perfil do GMB</li><li>Levar os melhores depoimentos do Instagram e as avaliações do GMB para o site, numa seção de prova social</li><li>Trocar os dois CTAs 'Saiba mais' do site por 'Quero regularizar meu imóvel'</li><li>Publicar os primeiros posts no GMB reaproveitando conteúdo já produzido para o Instagram</li><li>Incluir CNPJ e telefone no rodapé do site</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--diag">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Pesquisa de mercado</span>
+        <h2 class="title-section">TAM · SAM · SOM</h2>
+        <div class="row-3" style="margin-top:2.5vh;">
+          <div class="glass" style="text-align:center;">
+            <div class="kpi__label" style="font-size:1rem; letter-spacing:0.12em;">TAM</div>
+            <div class="kpi__value" style="font-size:clamp(2.4rem, 3.6vw, 3.4rem);">R$ 1,50 bi</div>
+            <div class="kpi__hint" style="font-size:0.95rem;">Mercado nacional anual de regularização documental residencial e fundiária urbana (escritura/matrícula,…</div>
+          </div>
+          <div class="glass" style="text-align:center; border: 2px solid rgba(255,208,168,0.4);">
+            <div class="kpi__label" style="font-size:1rem; letter-spacing:0.12em;">SAM</div>
+            <div class="kpi__value" style="font-size:clamp(2.4rem, 3.6vw, 3.4rem);">R$ 10,58 MM</div>
+            <div class="kpi__hint" style="font-size:0.95rem;">Mercado regional (Caxias do Sul e Serra Gaúcha) somando dois fluxos: (A) regularização residencial/documental…</div>
+          </div>
+          <div class="glass" style="text-align:center;">
+            <div class="kpi__label" style="font-size:1rem; letter-spacing:0.12em;">SOM</div>
+            <div class="kpi__value" style="font-size:clamp(2.4rem, 3.6vw, 3.4rem);">R$ 2,68 MM</div>
+            <div class="kpi__hint" style="font-size:0.95rem;">SOM de mercado (teto tangível de captura, não é meta do cliente nem limitado pela capacidade operacional…</div>
+          </div>
+        </div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Insight estratégico</div>
+          <div class="highlight-box__text">Fixa já captura ~16% do SAM regional (R$10,6M/ano) sem nenhum investimento digital — SOM de mercado (R$2,68M/ano) está ao alcance só formalizando prazo, território livre entre os concorrentes.</div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Concorrentes-chave</span>
+        <h2 class="title-section">Quem disputa o mesmo território</h2>
+        <table class="compare" style="margin-top:2.5vh;">
+          <thead>
+            <tr>
+              <th>Concorrente</th><th style="width:120px;">Score digital</th><th>Posicionamento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="strong">Balen Regularizações</td>
+              <td class="accent-cell" style="white-space:nowrap;">7<span style="opacity:0.5; font-weight:400">/10</span></td>
+              <td>Escala e institucionalização sob a marca 'Balen Group' — holding com 3 unidades de negócio (Regularizações, Topografia, Imóveis) já sob uma marca única, +20 anos de atuação,…</td>
+            </tr>
+            <tr>
+              <td class="strong">DCA Engenharia</td>
+              <td class="accent-cell" style="white-space:nowrap;">6<span style="opacity:0.5; font-weight:400">/10</span></td>
+              <td>Assessoria e consultoria técnica em engenharia e meio ambiente, com regularização fundiária como uma de suas frentes — posiciona-se por cases públicos e documentados junto à…</td>
+            </tr>
+            <tr>
+              <td class="strong">BLM Assessoria Imobiliária</td>
+              <td class="accent-cell" style="white-space:nowrap;">1<span style="opacity:0.5; font-weight:400">/10</span></td>
+              <td>Assessoria imobiliária genérica, sem proposta de valor digital identificável — presença quase inexistente fora de diretórios de CNPJ.</td>
+            </tr></tbody>
+        </table>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Próximos passos do projeto</span>
+        <h2 class="title-section">O que vamos executar na Semana 2</h2>
+        <div class="row-2" style="margin-top:3vh; gap:18px;">
+          <div class="glass">
+            <h3 class="subtitle" style="color:#ffd0a8; margin-bottom:14px; font-size:1.2rem;">Digital</h3>
+            <ul class="bullets bullets--check" style="font-size:1.02rem;"><li>Diagnóstico de Criativos</li></ul>
+          </div>
+          <div class="glass">
+            <h3 class="subtitle" style="color:#ffd0a8; margin-bottom:14px; font-size:1.2rem;">Operação</h3>
+            <ul class="bullets bullets--check" style="font-size:1.02rem;"><li>Diagnóstico de Mídia Paga</li><li>Diagnóstico Orgânico (IG)</li><li>Posicionamento</li><li>Diagnóstico de CRO</li></ul>
+          </div></div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--soft">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content" style="justify-content:center; text-align:center;">
+        <h1 class="title-mega" style="margin:0 auto;">Obrigado.</h1>
+        <p class="subtitle-text" style="margin:32px auto 0; font-size:clamp(1.1rem, 1.4vw, 1.4rem); max-width:700px;">
+          Vamos juntos transformar contexto em escala.
+        </p>
+      </div>
+      <div class="slide__footer">
+        <span>V4 Company · Estruturação Estratégica</span>
+        <span></span>
+      </div>
+    </section>
+    
+  </div>
+
+  <div class="controls">
+    <button class="control-btn" id="prev" aria-label="Anterior">‹</button>
+    <div class="progress-bar"><div class="progress-bar__fill" id="progress"></div></div>
+    <span class="counter" id="counter">1 / 11</span>
+    <button class="control-btn" id="next" aria-label="Próximo">›</button>
+    <button class="control-btn" id="fullscreen" aria-label="Tela cheia">⛶</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const track = document.getElementById('track');
+    const slides = track.querySelectorAll('.slide');
+    const total = slides.length;
+    const counter = document.getElementById('counter');
+    const progress = document.getElementById('progress');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const fsBtn = document.getElementById('fullscreen');
+    let current = 0;
+
+    function render() {
+      track.style.transform = `translateX(-${current * 100}vw)`;
+      counter.textContent = `${current + 1} / ${total}`;
+      progress.style.width = `${((current + 1) / total) * 100}%`;
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === total - 1;
+    }
+
+    function next() { if (current < total - 1) { current++; render(); } }
+    function prev() { if (current > 0) { current--; render(); } }
+    function goto(i) { current = Math.max(0, Math.min(total - 1, i)); render(); }
+
+    prevBtn.addEventListener('click', prev);
+    nextBtn.addEventListener('click', next);
+    fsBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+      else document.exitFullscreen();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); next(); }
+      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prev(); }
+      else if (e.key === 'Home') { e.preventDefault(); goto(0); }
+      else if (e.key === 'End') { e.preventDefault(); goto(total - 1); }
+      else if (e.key === 'f' || e.key === 'F') { fsBtn.click(); }
+    });
+
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, {passive: true});
+    document.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].screenX - touchStartX;
+      if (Math.abs(dx) > 60) (dx < 0 ? next : prev)();
+    }, {passive: true});
+
+    render();
+  })();
+</script>
+
+</body>
+</html>

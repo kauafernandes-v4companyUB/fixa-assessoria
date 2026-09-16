@@ -244,34 +244,35 @@
     "current_week": 1,
     "skills": {
       "ee-s1-persona-icp": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-15T00:00:00Z",
+        "completed_at": "2026-09-15T00:00:00Z"
       },
       "ee-s1-auditoria-comunicacao": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-15T21:01:33Z",
+        "completed_at": "2026-09-15T21:01:33Z"
       },
       "ee-s1-swot": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-15T21:45:00Z",
+        "completed_at": "2026-09-15T21:45:00Z"
       },
       "ee-s2-pesquisa-mercado": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-16T14:30:00Z",
+        "completed_at": "2026-09-16T14:30:00Z"
       },
       "ee-s1-arquitetura-presenca": {
-        "status": "pending",
+        "status": "skipped",
         "checkpoint": 0,
         "started_at": null,
-        "completed_at": null
+        "completed_at": null,
+        "skip_reason": "Skill marcada como STUB no plugin (sem lógica de geração implementada ainda) — sem entregável possível. Status 'skipped' (não 'pending') para não aparecer como pendência no portal; o renderer filtra skills 'skipped' de todas as listas/contadores/slides. Reavaliar quando a V4 liberar o conteúdo desta skill."
       },
       "ee-s2-diagnostico-midia": {
         "status": "pending",
@@ -292,10 +293,10 @@
         "completed_at": null
       },
       "ee-s1-diagnostico-maturidade": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-15T00:00:00Z",
+        "completed_at": "2026-09-15T00:00:00Z"
       },
       "ee-s2-posicionamento": {
         "status": "pending",
@@ -395,6 +396,42 @@
       "skill": "ee-continuar",
       "checkpoint": 0,
       "decision": "Operador confirmou que são 3 frentes de atuação sob a marca única 'Fixa', não 3 CNPJs: Engenharia (Fixa Engenharia Ltda), Assessoria (Fixa Assessoria Ltda) e Jurídico (Christian Fochezatto Lorencet, atua como autônomo/CPF, faturamento passa pelo CNPJ da Fixa Assessoria). Relevante para posicionamento e manual de marca — a unificação de marca precisa comunicar 3 competências (engenharia+arquitetura, assessoria imobiliária, direito) mesmo com só 2 CNPJs por trás."
+    },
+    {
+      "ts": "2026-09-15T00:00:00Z",
+      "skill": "ee-s1-persona-icp",
+      "checkpoint": 0,
+      "decision": "ICP/Persona aprovado. Persona 'Ivete Dal Bosco' (35-70 anos, classe média/média-alta — formulário e call tratados como respostas complementares, não conflitantes). Mensagem-chave escolhida: funcional ('Regularize seu imóvel com engenharia, arquitetura e direito num só lugar'). Anti-persona finalizada com 3 perfis em contraste direto com a persona (Curioso Especulador, Fora do Padrão de Atendimento, Emergência de Última Hora). Regra geral definida: dados extraídos de transcrição de call têm peso menor que o formulário de kickoff — só tratados como confirmados quando corroborados por ambas as fontes (aplica-se a todas as skills seguintes). Pendência levantada para validar em call futura (não renderiza no portal/slide, só no roteiro de apresentação): confirmar se a Fixa documenta ter assumido a maioria dos novos loteamentos da cidade no último ano frente à Balen."
+    },
+    {
+      "ts": "2026-09-15T00:00:00Z",
+      "skill": "ee-s1-diagnostico-maturidade",
+      "checkpoint": 0,
+      "decision": "Diagnóstico aprovado sem ajustes. Score geral 10/100 (Crítico), 26 pontos abaixo da média do setor imobiliário (36/100). Todos os 5 pilares abaixo da média do setor; 4 de 5 na faixa Crítica. Único ponto forte real: GMB com 16 avaliações e nota 4.7. Prioridade definida: CRM básico e CRO (landing page + tracking) antes de ligar mídia paga na Semana 4, para não mascarar vazamento de funil como problema de anúncio. Dados confirmados diretamente com o operador: ninguém produz criativos hoje; SEO geral confirmado como baixo/ruim; nenhuma landing page ativa."
+    },
+    {
+      "ts": "2026-09-15T21:01:33Z",
+      "skill": "ee-s1-auditoria-comunicacao",
+      "checkpoint": 0,
+      "decision": "Auditoria de comunicação aprovada (4 canais: site, Instagram, GMB, anúncios — WhatsApp fora do escopo a pedido do operador). Score médio 31/100. Achado central: GMB reivindicado (4.7★, 16 avaliações) está com o campo 'website' vazio, o que ajuda a explicar por que o site nem aparece nos 10 primeiros resultados do Google buscando o próprio nome da marca. Prova social forte já existe (Instagram + GMB) mas está presa fora do site. Mesma fragmentação de marca dos outputs anteriores: todos os canais comunicam só 'Fixa Engenharia', sem Assessoria/Jurídico. Quick win prioritário: vincular o site ao GMB (15min, maior impacto/menor esforço da auditoria)."
+    },
+    {
+      "ts": "2026-09-15T21:45:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 0,
+      "decision": "SWOT aprovada com 2 ajustes do operador: (1) a frente jurídica não deve ser comunicada como uma 3ª especialidade separada e equivalente a Engenharia/Assessoria — é a demanda jurídica da própria regularização (cartório, registro) resolvida internamente por profissional formado em Direito, dentro do processo de engenharia, sem ser um departamento jurídico robusto tipo escritório de advocacia; isso muda o framing do diferencial #1 em toda a SWOT/TOWS e fica como nota para ee-s2-posicionamento reconsiderar a explicação da mensagem-chave ('engenharia, arquitetura e direito num só lugar'). (2) GMB com nota 4,7 em 16 avaliações foi recalibrado de 'prova social forte' para 'ponto de partida frágil' — amostra pequena, abaixo do benchmark do setor (50+), não deve ser vendida como prova social robusta até crescer em volume. Scorecard digital de concorrentes (Balen 7,0/10, DCA 5,8/10, BLM 1,0/10 vs Fixa 3,4/10) construído com pesquisa observável real (sites, Instagram, cases documentados). Ação prioritária #1: vincular site ao GMB (score 9,5, custo zero)."
+    },
+    {
+      "ts": "2026-09-16T14:30:00Z",
+      "skill": "ee-s2-pesquisa-mercado",
+      "checkpoint": 0,
+      "decision": "Pesquisa de mercado gerada e salva sem ajustes do operador. TAM R$1,5bi/ano (nacional, bottom-up), SAM R$10,58M/ano (Caxias do Sul + região, dois fluxos: residencial R$6,38M + loteamentos REURB R$4,2M), SOM R$2,68M/ano (triangulado por 3 métodos, convergência R$2,1M-R$3,0M). Achado central: a Fixa já captura ~16,1% do SAM sem nenhum investimento digital — nível de 'líder de nicho' sustentado só por indicação/relacionamento institucional. Dado local relevante encontrado (SMU, 2021): 600 áreas irregulares no município, 466 REURB-E particulares — reforça a pendência de validação já registrada em ee-s1-persona-icp sobre a Fixa ter assumido a maioria dos novos loteamentos frente à Balen. 3 concorrentes aprofundados (mesmos da SWOT: Balen, DCA, BLM) com positioning/canais/pricing estimado. Oportunidade não explorada: nenhum concorrente formaliza prazo por escrito como promessa comercial."
+    },
+    {
+      "ts": "2026-09-16T15:00:00Z",
+      "skill": "ee-continuar",
+      "checkpoint": 0,
+      "decision": "Operador pediu para remover ee-s1-arquitetura-presenca de toda visualização do portal, já que a skill é STUB (sem entrega possível) e não deveria aparecer como pendência eterna. Status alterado de 'pending' para 'skipped' em progress.skills — o renderer do portal (shared-templates/portal.html) filtra explicitamente skills com esse status de todas as listas, contadores de semana e slides. Não foi alterado o delivery-map.json nem o dependency_graph.json (arquivos compartilhados entre todos os clientes do plugin) — a mudança é local ao progresso da Fixa. Nenhuma outra skill do modelo inside-sales depende de ee-s1-arquitetura-presenca."
     }
   ]
 }

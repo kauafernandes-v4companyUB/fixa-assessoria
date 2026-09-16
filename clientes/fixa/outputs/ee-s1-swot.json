@@ -1,0 +1,456 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "A SWOT da Fixa aponta como maior alavanca resolver o técnico e o jurídico da regularização dentro do mesmo processo (diferencial que nenhum concorrente mapeado — Balen, DCA, BLM — comunica) combinado com a ausência de qualquer concorrente formalizando prazo como promessa; a maior proteção necessária é resolver CRM/CRO e unificar a marca antes de escalar mídia paga, para não desperdiçar essa vantagem.",
+
+  "summary_headline": "Fixa resolve engenharia+jurídico da regularização num só processo — diferencial que nenhum concorrente comunica — mas CRM e site zerados ameaçam desperdiçar isso se mídia ligar antes da hora.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Balanço SWOT",
+      "value": "5 forças / 5 fraquezas",
+      "subtext": "5 oportunidades / 5 ameaças — leitura equilibrada, não é pitch de vendas",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "Scorecard digital (0-10)",
+      "value": "Fixa 3,4 vs Balen 7,0",
+      "subtext": "DCA 5,8, BLM 1,0 — gap maior em site/SEO/mídia paga, não em reputação",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ação #1 priorizada",
+      "value": "Vincular GMB ao site — score 9,5/10",
+      "subtext": "Custo zero, 15min, payback imediato em visibilidade",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Maior ameaça",
+      "value": "Ligar mídia antes de CRO/CRM",
+      "subtext": "Pode mascarar vazamento de funil como 'anúncio ruim'",
+      "tone": "red"
+    },
+    {
+      "category": "janela",
+      "label": "Território de mensagem livre",
+      "value": "Nenhum concorrente formaliza prazo",
+      "subtext": "Balen aposta em escala, DCA em cases — prazo por escrito está livre",
+      "tone": "yellow"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A Fixa é a única entre os 3 concorrentes mapeados que resolve o técnico e o jurídico da regularização dentro do mesmo processo, sem o cliente precisar contratar um segundo prestador — Balen tem 3 linhas de negócio, mas ainda separadas por atendimento."
+    },
+    {
+      "category": "ameaca",
+      "text": "Balen (Instagram 2.149 seguidores, prêmio Top of Mind 2022, site institucional robusto) e DCA (cases nomeados e indexados no Google, como o Residencial Vista Bella) já têm ativos de escala e prova social que a Fixa ainda não replicou digitalmente."
+    },
+    {
+      "category": "contexto",
+      "text": "BLM, o 3º concorrente mapeado no briefing, tem presença digital quase nula (275 curtidas no Facebook, sem site próprio) — não deve ser usada como referência de 'barra mínima' para a Fixa."
+    },
+    {
+      "category": "acao",
+      "text": "Antes de investir em mídia paga, a sequência já definida (GMB→site→CRO→CRM) precisa se completar — senão o orçamento de anúncio vai mascarar o vazamento de funil já mapeado como problema de mídia."
+    }
+  ],
+
+  "competitor_scorecard": [
+    {
+      "name": "Fixa Engenharia & Assessoria",
+      "type": "cliente",
+      "scores": { "site": 2.8, "seo": 2.2, "midia_paga": 0.5, "social": 4.8, "gmn": 4.5, "reputacao": 4.7, "comunicacao": 4.5 },
+      "evidence": {
+        "site": "Score 28/100 na auditoria de comunicação (ee-s1-auditoria-comunicacao) — sem prova social, CTA genérico, não aparece nos 10 primeiros resultados do Google buscando o próprio nome",
+        "seo": "Score 22/100 no diagnóstico de maturidade — GMB é o único sinal positivo; SEO técnico/conteúdo confirmados como baixos pelo operador",
+        "midia_paga": "Score 5/100 — zero campanhas ativas confirmadas via conectores V4MOS (Google Ads e Meta Ads zerados no período)",
+        "social": "Score 48/100 na auditoria — Instagram @fixa_engenharia com 71 posts e depoimentos reais, mas cobre só a marca Engenharia",
+        "gmn": "Score 45/100 — GMB reivindicado, 4,7★, 16 avaliações, mas campo 'website' vazio",
+        "reputacao": "Nota 4,7 no GMB com 16 avaliações reais elogiando qualidade/organização/compromisso — volume abaixo do benchmark do setor (50+)",
+        "comunicacao": "Coherence_score 45/100 na auditoria — mensagem-chave aprovada ainda não propagada a todos os canais; marca fragmentada entre Engenharia/Assessoria/Jurídico"
+      },
+      "overall": 3.4
+    },
+    {
+      "name": "Balen Regularizações",
+      "type": "direto",
+      "scores": { "site": 8, "seo": null, "midia_paga": null, "social": 7, "gmn": null, "reputacao": 7, "comunicacao": 6 },
+      "evidence": {
+        "site": "Site institucional (balengroup.com.br/empresa/regularizacoes) com FAQ sobre REURB, cases nomeados (ação judicial vencida, desapropriação), prêmio Top of Mind 2022, 3 linhas de WhatsApp segmentadas por unidade de negócio",
+        "seo": "Não verificável nesta rodada — sem ferramenta de ranking disponível; a confirmar em ee-s2-pesquisa-mercado",
+        "midia_paga": "Não verificável nesta rodada — sem acesso à Meta Ads Library nesta busca",
+        "social": "Instagram @balenregularizacoes com 2.149 seguidores, presença anunciada em 3 cidades (Caxias do Sul, Ponta Grossa, Itaquaquecetuba)",
+        "gmn": "Perfil do Google Meu Negócio não localizado/verificado nesta busca",
+        "reputacao": "Prêmio 'Top of Mind 2022' em Caxias do Sul, +20 anos de atuação, +20.000 clientes declarados (briefing), cobertura de mídia local citada no próprio site",
+        "comunicacao": "Comunica através de 3 sublinhas de negócio (Regularizações, Topografia, Imóveis) já sob uma marca — mensagem gira em 'soluções eficazes', sem foco específico na dor de herança/venda travada do ICP"
+      },
+      "overall": 7.0
+    },
+    {
+      "name": "DCA Engenharia",
+      "type": "direto",
+      "scores": { "site": null, "seo": 6, "midia_paga": null, "social": 5, "gmn": null, "reputacao": 7, "comunicacao": 5 },
+      "evidence": {
+        "site": "Certificado SSL do site (dca.eng.br) impediu verificação direta nesta rodada",
+        "seo": "Múltiplas páginas de projeto indexadas no Google com nome de condomínios reais (Vista Bella, Condado Angel) — SEO de cauda longa por case",
+        "midia_paga": "Não verificável nesta rodada",
+        "social": "Instagram @dca_engenharia com 1.210 seguidores, 394 posts, bio focada em 'engenharia e meio ambiente', destaques por tema (projetos, incêndio, meio ambiente, REURB)",
+        "gmn": "Perfil do Google Meu Negócio não localizado nesta busca",
+        "reputacao": "Cases nomeados e documentados publicamente — Residencial Vista Bella (CRF emitido pela Prefeitura em 20/12/2022, 32 unidades regularizadas) e Condomínio Condado Angel (61 matrículas emitidas)",
+        "comunicacao": "Posiciona-se como 'assessoria e consultoria em engenharia e meio ambiente' — mais amplo que regularização fundiária pura, sem foco claro em pessoa física com dor de herança/venda travada"
+      },
+      "overall": 5.8
+    },
+    {
+      "name": "BLM Assessoria Imobiliária",
+      "type": "direto",
+      "scores": { "site": 0, "seo": 1, "midia_paga": null, "social": 1, "gmn": null, "reputacao": 2, "comunicacao": 1 },
+      "evidence": {
+        "site": "Sem site próprio confirmado (briefing + busca) — apenas listagens em cadastros empresariais (Solutudo, Econodata, Casa dos Dados)",
+        "seo": "Presença só em diretórios de CNPJ — nenhuma página própria otimizada",
+        "midia_paga": "Não verificável nesta rodada; presença digital tão fraca que é improvável haver mídia paga ativa",
+        "social": "Página no Facebook com 275 curtidas e 56 check-ins — volume muito baixo, sem Instagram identificado nas buscas",
+        "gmn": "Perfil do Google Meu Negócio não localizado nesta busca",
+        "reputacao": "Nenhuma prova social pública (depoimento, case, prêmio) encontrada nas buscas",
+        "comunicacao": "Nenhuma mensagem/proposta de valor pública identificável além do nome e serviço genérico 'assessoria imobiliária'"
+      },
+      "overall": 1.0
+    },
+    {
+      "name": "Escritórios de advocacia avulsa (usucapião/inventário)",
+      "type": "indireto",
+      "scores": { "site": null, "seo": null, "midia_paga": null, "social": null, "gmn": null, "reputacao": null, "comunicacao": null },
+      "evidence": {
+        "geral": "Citado no persona-icp (ee-s1-persona-icp, willingness_to_pay.services[usucapião].elasticity) como concorrência indireta — mais barato que a Fixa, mas sem o levantamento técnico de engenharia. Sem dados observáveis coletados nesta rodada (categoria, não empresa específica)"
+      },
+      "overall": null
+    }
+  ],
+
+  "strengths": [
+    {
+      "title": "Engenharia que resolve a parte jurídica da regularização por dentro, sem precisar de um segundo prestador",
+      "description": "A regularização exige levantamento técnico (engenharia/arquitetura) e resolução documental/jurídica (cartório, registro, inventário). A Fixa trata as duas frentes dentro do mesmo processo, com um profissional formado em Direito dedicado à demanda jurídica da própria engenharia — não é um departamento jurídico robusto nem um escritório de advocacia à parte, é a burocracia legal da regularização resolvida junto com o projeto técnico.",
+      "implication": "Não comunicar como '3 especialidades separadas e equivalentes' (superpromete capacidade jurídica que a Fixa não tem como escritório robusto). A mensagem correta é funcional: 'você não precisa contratar um engenheiro e depois um advogado, a gente resolve a parte jurídica da regularização junto com o projeto técnico'. Vale alinhar esse ajuste de framing com ee-s2-posicionamento — a mensagem-chave aprovada em ee-s1-persona-icp ('engenharia, arquitetura e direito num só lugar') pode soar como 3 pilares equivalentes se não vier explicada dessa forma.",
+      "source": "operador"
+    },
+    {
+      "title": "Depoimentos reais no Instagram — a prova social mais sólida que a Fixa tem hoje",
+      "description": "71 posts no Instagram incluem múltiplos depoimentos com nome e foto de cliente, além do GMB reivindicado com nota 4,7. Mas as 16 avaliações do GMB são uma amostra pequena — abaixo do benchmark do setor (50+) para posição competitiva forte no pack local, e uma nota baseada em tão poucas avaliações oscila fácil com 2-3 reviews negativas. Não é um dado robusto ainda, é um ponto de partida.",
+      "implication": "Levar os depoimentos do Instagram para o site é o ganho imediato (ação já priorizada); o GMB precisa de volume antes de virar prova social forte de verdade — pedir review sistematicamente a cada processo concluído (já mapeado como fraqueza) é pré-requisito, não só um extra.",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Relacionamento institucional consolidado com cartórios e prefeitura (SMU)",
+      "description": "O briefing confirma relacionamento direto com cartórios e prefeitura que reduz atrito e prazo — ativo difícil de copiar rapidamente por um novo entrante, e distinto do 'case público' da DCA (que documenta publicamente, mas não necessariamente tem o mesmo grau de relação institucional).",
+      "implication": "Usar como argumento de prazo mais confiável (dor #1 do ICP) e formalizar como promessa de prazo por escrito no processo comercial.",
+      "source": "briefing"
+    },
+    {
+      "title": "10 anos de histórico (desde 2016) com base de clientes recorrente desde 2018",
+      "description": "O briefing confirma 10 anos de atuação da Fixa Engenharia e indica que recompra/indicação já ocorre organicamente, mesmo sem captura estruturada de depoimento.",
+      "implication": "Sistematizar a captura de depoimento/indicação pós-processo (hoje não estruturada, ver fraquezas) para transformar histórico em ativo de marketing recorrente.",
+      "source": "briefing"
+    },
+    {
+      "title": "Ticket alto e pouco sensível a preço no REURB de loteamentos (R$100-400 mil)",
+      "description": "O willingness_to_pay do persona-icp mostra elasticidade baixa nesse serviço — decisão institucional, não emocional, ticket maior justificado por escopo de obra, não por percepção de marca.",
+      "implication": "Linha de receita mais resiliente a concorrência de preço — pode sustentar investimento em marketing de marca sem canibalizar margem dos serviços de ticket menor.",
+      "source": "diagnostico"
+    }
+  ],
+
+  "weaknesses": [
+    {
+      "title": "Site institucional não aparece nem na busca pelo próprio nome",
+      "description": "A auditoria de comunicação confirmou: busca por 'fixa engenharia' não retorna o site nos 10 primeiros resultados do Google; causa-raiz identificada — campo 'website' vazio no GMB.",
+      "implication": "Risco de continuar invisível mesmo para quem já conhece a marca; mitigar com o quick win já mapeado (vincular GMB) + SEO local básico.",
+      "severity": "critical",
+      "source": "diagnostico"
+    },
+    {
+      "title": "CRM inexistente (5/100) — todo lead cai no WhatsApp pessoal do sócio",
+      "description": "O diagnóstico de maturidade confirma accesses.crm=false, sem pipeline, sem automação e sem métrica de quantos leads entram por mês.",
+      "implication": "Qualquer aumento de volume (orgânico ou pago) vaza sem controle; mitigar com ee-s3-crm-setup antes de escalar mídia paga.",
+      "severity": "critical",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Marca fragmentada — todos os canais comunicam só 'Fixa Engenharia'",
+      "description": "Confirmado nos 3 canais auditados (site, Instagram, GMB) — nenhum menciona a Fixa Assessoria nem a frente jurídica interna, apesar de ser parte do posicionamento que o Carlos quer construir.",
+      "implication": "A força de 'resolver técnico e jurídico num só processo' fica incompleta enquanto a marca não for unificada nos canais — resolver no Manual de Marca antes de escalar mídia.",
+      "severity": "high",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Zero mídia paga e zero rastreamento instalado",
+      "description": "Os conectores V4MOS confirmam 0 campanhas em Google Ads e Meta Ads; o briefing confirma accesses.google_analytics=false e google_search_console=false.",
+      "implication": "Qualquer decisão de mídia hoje seria 'às cegas' — sem baseline para medir ganho; mitigar instalando tracking junto com a nova LP antes de ligar anúncios.",
+      "severity": "high",
+      "source": "v4mos"
+    },
+    {
+      "title": "Volume de avaliações do GMB abaixo do benchmark do setor",
+      "description": "A auditoria de comunicação identificou o gap: 16 avaliações vs. benchmark de 50+ para posição competitiva forte no pack local.",
+      "implication": "Mesmo com nota alta (4,7), o volume baixo limita a força do sinal de confiança; mitigar pedindo review sistemático a cada processo concluído.",
+      "severity": "medium",
+      "source": "diagnostico"
+    }
+  ],
+
+  "opportunities": [
+    {
+      "title": "Nenhum concorrente mapeado formaliza clareza de prazo como promessa",
+      "description": "A pesquisa desta SWOT mostrou: o site da Balen fala em 'soluções eficazes' de forma genérica, a DCA foca em 'engenharia e meio ambiente' amplo — nenhum formaliza 'prazo por escrito' como diferencial, apesar de ser a dor #1 mapeada no ICP (desconfiança sobre prazo).",
+      "implication": "Capturar esse território de mensagem antes que um concorrente o ocupe — usar a mensagem-chave já aprovada + processo comercial com prazo por escrito.",
+      "time_sensitivity": "urgent",
+      "source": "market_trend"
+    },
+    {
+      "title": "BLM tem presença digital quase nula",
+      "description": "Confirmado na pesquisa: apenas listagens em diretórios de CNPJ, nenhum domínio institucional, nenhum Instagram identificável, 275 curtidas no Facebook.",
+      "implication": "Mesmo com os gaps mapeados na Fixa, é o concorrente mais fácil de superar digitalmente — não deve ser referência de 'barra mínima' ao planejar a Semana 3/4.",
+      "time_sensitivity": "medium_term",
+      "source": "market_trend"
+    },
+    {
+      "title": "GMB já é ativo real e subaproveitado — quick win de 15 minutos com potencial de destravar SEO local",
+      "description": "O campo 'website' vazio explica por que o site não aparece na busca pela própria marca; corrigir isso é imediato e de baixo custo.",
+      "implication": "Capturar esse ganho antes mesmo da LP entrar no ar — não depende de nenhuma outra entrega.",
+      "time_sensitivity": "urgent",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Mercado local sem nenhum concorrente com mídia paga + LP + CRM estruturados",
+      "description": "Nenhum dos 3 concorrentes mapeados demonstra estrutura de mídia paga ativa nem funil de conversão dedicado (LP própria) — o público que já pesquisa 'regularizar imóvel Caxias do Sul' hoje se distribui só por indicação/SEO orgânico fraco entre os players.",
+      "implication": "Primeiro entrante com mídia paga + LP estruturada + CRM tem janela de CPC/CPA mais baixo antes que Balen ou DCA repliquem.",
+      "time_sensitivity": "medium_term",
+      "source": "market_trend"
+    },
+    {
+      "title": "Pendência de validação: possível liderança em novos loteamentos frente à Balen",
+      "description": "Relato do operador (não confirmado no formulário) registrado em ee-s1-persona-icp como pending_validation_item — se documentável (contratos, protocolos na prefeitura), é prova social/institucional forte contra o maior concorrente.",
+      "implication": "Só usar como claim de marketing após validação com contratos/protocolos; por ora, tratar como hipótese a confirmar, não fato.",
+      "time_sensitivity": "medium_term",
+      "source": "operador"
+    }
+  ],
+
+  "threats": [
+    {
+      "title": "Balen tem escala institucionalizada e reconhecimento de marca formal",
+      "description": "A pesquisa confirmou: site institucional robusto, +20 anos de atuação, prêmio Top of Mind 2022, cases publicados (ação judicial vencida, desapropriação), Instagram com 2.149 seguidores.",
+      "implication": "A Fixa não vai vencer em escala — precisa competir em especificidade (resolver técnico+jurídico sem 2 prestadores + prazo por escrito), não tentar copiar o modelo de holding da Balen.",
+      "probability": "high",
+      "impact": "high",
+      "source": "market_trend"
+    },
+    {
+      "title": "DCA já pratica SEO de case público — tática replicável e ainda não usada pela Fixa",
+      "description": "Páginas indexadas no Google para 'Residencial Vista Bella' e 'Condado Angel', com CRF emitido pela Prefeitura documentado publicamente.",
+      "implication": "Se a Fixa não adotar tática semelhante (cases nomeados e indexáveis) no Manual de Marca/site, perde para a DCA no long-tail de busca por nome de empreendimento.",
+      "probability": "medium",
+      "impact": "medium",
+      "source": "market_trend"
+    },
+    {
+      "title": "Mídia paga ligada antes de CRO/CRM mínimos mascara vazamento de funil como 'anúncio ruim'",
+      "description": "Já identificado no diagnóstico de maturidade — CRM 5/100 e CRO 8/100 significam que investimento em mídia hoje vazaria antes de gerar retorno mensurável.",
+      "implication": "Seguir a sequência já definida (CRO+CRM antes de mídia) para não gerar dado enganoso que leve a abandonar o canal por engano.",
+      "probability": "high",
+      "impact": "high",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Ciclo de decisão curto do ICP (1-3 semanas) amplifica o custo de cada mês sem correção",
+      "description": "O buyer_journey do persona-icp mostra ciclo de decisão curto na fase de Pesquisa/Consideração (3-10 dias + 1-3 semanas) — cada mês sem correção é um ciclo inteiro de leads pesquisando e não encontrando a Fixa.",
+      "implication": "Priorizar os quick wins (GMB→site) nesta semana, não esperar o pacote completo da Semana 3/4.",
+      "probability": "high",
+      "impact": "medium",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Dependência de uma única pessoa para todo o atendimento comercial",
+      "description": "O briefing confirma: sales_module.active_sellers = '0 formal — atendimento comercial feito pelos próprios sócios/técnicos (principalmente Carlos Henrique Garbin)'.",
+      "implication": "Gargalo de capacidade se o volume de leads aumentar com mídia paga — endereçar junto com CRM/SDR (Semana 3-5) para não sobrecarregar o Carlos.",
+      "probability": "medium",
+      "impact": "high",
+      "source": "briefing"
+    }
+  ],
+
+  "strategic_synthesis": {
+    "leverage": "A aposta principal é usar a mensagem já aprovada, a prova social existente (mesmo que ainda modesta no GMB) e a relação institucional com cartório/prefeitura para ocupar o território de 'prazo por escrito' que nenhum concorrente comunica hoje — Balen aposta em escala, DCA em cases, e nenhum dos dois formaliza clareza de prazo como promessa, que é exatamente a dor #1 mapeada no ICP. Isso começa pelos quick wins de comunicação (15min a 2h) já identificados na auditoria, antes mesmo da landing page completa entrar no ar.",
+    "protection": "O risco principal é que CRM e CRO zerados, combinados com a marca ainda fragmentada em 'só Engenharia', amplifiquem duas ameaças ao mesmo tempo: primeiro, ligar mídia paga cedo demais mascararia vazamento de funil como se fosse problema de anúncio; segundo, enquanto a marca não comunicar a integração técnico+jurídico de forma clara (sem soar como 3 especialidades separadas), a Balen — que já tem 3 linhas de negócio sob uma marca institucionalizada — segue ocupando mais espaço de credibilidade do que a Fixa, mesmo com um diferencial real que a Fixa já tem na prática.",
+    "recommended_strategy": "Nos próximos 90 dias, a prioridade é completar a sequência já em andamento — quick wins de comunicação nesta semana, Manual de Marca para unificar a marca, CRO/CRM antes de qualquer mídia paga — reforçada pelo insight desta SWOT: formalizar a promessa de prazo por escrito no processo comercial só depois que o CRM garantir visibilidade de status, para não repetir a mesma desconfiança que a Fixa está tentando resolver."
+  },
+
+  "tows_matrix": {
+    "description": "Cruzamento dos quadrantes SWOT para derivar estratégias acionáveis — não é redundância da análise, é onde ela vira decisão.",
+    "so_strategies": [
+      {
+        "id": "SO1",
+        "strategy": "Usar o diferencial de resolver engenharia+jurídico da regularização num só processo (F1, sem comunicar como '3 especialidades separadas') + prova social existente (F2) para ocupar o território de 'clareza de prazo' que nem Balen nem DCA comunicam formalmente (O1).",
+        "rationale": "Nenhum concorrente formaliza prazo como promessa; a Fixa já tem os ingredientes (processo integrado + prova social + relação institucional) para sustentar essa promessa com credibilidade.",
+        "expected_outcome": "Site/LP/GMB comunicando prazo por escrito como diferencial central, deslocando a comparação de preço para comparação de confiança."
+      },
+      {
+        "id": "SO2",
+        "strategy": "Aproveitar a fraqueza digital da BLM (O2) para capturar rapidamente share de busca local, usando o relacionamento institucional (F3) como prova de agilidade nos cases.",
+        "rationale": "BLM não compete digitalmente — é o concorrente mais fácil de superar, e a Fixa já tem ativo de relacionamento institucional que a BLM não demonstra publicamente.",
+        "expected_outcome": "Fixa ocupa posição de destaque no pack local do Google para termos de regularização antes mesmo de competir diretamente com Balen/DCA."
+      },
+      {
+        "id": "SO3",
+        "strategy": "Executar o quick win do GMB (O3) imediatamente, aproveitando a prova social já existente (F2) sem esperar a landing page completa.",
+        "rationale": "Ganho de baixo esforço e alto impacto que já está mapeado e pronto para execução.",
+        "expected_outcome": "Site passa a aparecer na busca pela própria marca em poucas semanas, recuperando parte do vazamento de 85% identificado na jornada do ICP."
+      }
+    ],
+    "wo_strategies": [
+      {
+        "id": "WO1",
+        "strategy": "Unificar a marca (resolver W3) no Manual de Marca antes de formalizar a promessa de prazo (capturar O1), garantindo que a integração técnico+jurídico seja comunicada de forma consistente em todos os canais.",
+        "rationale": "A oportunidade de ocupar o território de confiança/prazo só funciona se a marca comunicar as frentes de forma coerente — hoje ela não comunica.",
+        "expected_outcome": "Site, Instagram e GMB passam a comunicar Engenharia + Assessoria + a parte jurídica interna de forma unificada, sustentando a mensagem-chave sem contradição."
+      },
+      {
+        "id": "WO2",
+        "strategy": "Implementar CRM básico (resolver W2) antes de escalar a captação de leads gerada pelos quick wins de SEO local (capturar O3), para não perder o volume adicional no WhatsApp pessoal do Carlos.",
+        "rationale": "Mais visibilidade sem CRM só desloca o gargalo — o lead chega e se perde do mesmo jeito.",
+        "expected_outcome": "Todo lead adicional gerado pelos quick wins entra em um pipeline mínimo, com visibilidade de volume e status pela primeira vez."
+      },
+      {
+        "id": "WO3",
+        "strategy": "Instalar tracking (GA4, pixel — resolver W4) já na correção do GMB/site (capturar O3), para medir desde o primeiro dia o efeito do quick win no vazamento de 85% mapeado na jornada.",
+        "rationale": "Sem baseline, não dá para provar que o quick win funcionou nem embasar decisão de investimento futuro em mídia.",
+        "expected_outcome": "Primeira medição real de tráfego/conversão da história digital da Fixa, servindo de base para a Semana 4."
+      }
+    ],
+    "st_strategies": [
+      {
+        "id": "ST1",
+        "strategy": "Usar o fato de resolver o técnico e o jurídico da regularização no mesmo processo (F1) para se posicionar contra a ameaça de escala da Balen (T1) — competir em não precisar de dois prestadores, não em tamanho de escritório.",
+        "rationale": "A Fixa não tem orçamento nem estrutura para replicar a holding da Balen; o caminho defensável é ser mais completo por processo, não maior em porte.",
+        "expected_outcome": "Mensagem de vendas e site deixam claro 'resolvemos o técnico e o jurídico juntos' como resposta direta à objeção 'por que não um concorrente maior'."
+      },
+      {
+        "id": "ST2",
+        "strategy": "Seguir a sequência CRO/CRM antes de mídia (disciplina já definida no diagnóstico) para neutralizar a ameaça de queimar orçamento e concluir erroneamente que mídia não funciona (T3).",
+        "rationale": "A ameaça é menos sobre o canal e mais sobre a ordem de execução — proteger o investimento futuro com a sequência certa.",
+        "expected_outcome": "Quando a mídia paga ligar (Semana 4), CPA e conversão são mensuráveis desde o primeiro real investido."
+      },
+      {
+        "id": "ST3",
+        "strategy": "Formalizar cases nomeados e documentáveis (usando F3 — relacionamento institucional) como resposta à tática de SEO de case da DCA (T2).",
+        "rationale": "A DCA já usa cases públicos como ativo de SEO; a Fixa tem histórico de 10 anos e relação institucional para produzir o mesmo tipo de conteúdo, só não formalizou ainda.",
+        "expected_outcome": "Páginas de case indexáveis no site, replicando a tática que hoje só a DCA usa no mercado local."
+      }
+    ],
+    "wt_strategies": [
+      {
+        "id": "WT1",
+        "strategy": "Priorizar os quick wins de comunicação (mitigar W1, W3) nesta semana, não esperar o pacote completo da Semana 3/4, dado o ciclo de decisão curto do ICP (T4).",
+        "rationale": "Cada semana de invisibilidade digital custa um ciclo inteiro de leads que decidem em 1-3 semanas — a fraqueza mais barata de corrigir precisa vir primeiro.",
+        "expected_outcome": "Vazamento na fase de Pesquisa/Consideração começa a reduzir antes mesmo da LP e do CRM estarem prontos."
+      },
+      {
+        "id": "WT2",
+        "strategy": "Endereçar a dependência do Carlos (T5) junto com o CRM básico (mitigar W2), definindo um fluxo mínimo de triagem que não dependa 100% dele.",
+        "rationale": "Se o volume de leads aumentar com os quick wins e a mídia futura sem resolver esse gargalo, o próprio sucesso da estratégia sobrecarrega o único vendedor.",
+        "expected_outcome": "Triagem inicial (via CRM/SDR na Semana 3-5) reduz a dependência direta do Carlos para os primeiros contatos."
+      },
+      {
+        "id": "WT3",
+        "strategy": "Não formalizar a promessa de prazo enquanto o CRM (W2) não garantir visibilidade de status para o cliente durante a execução, evitando reforçar a mesma desconfiança que a Fixa está tentando resolver.",
+        "rationale": "Prometer prazo sem conseguir monitorar/comunicar status internamente é pior do que não prometer — alimenta a objeção 'já fui enrolado antes' em vez de neutralizá-la.",
+        "expected_outcome": "Promessa de prazo só entra em vigor coordenada com o CRM, protegendo a reputação que a Fixa está construindo digitalmente."
+      }
+    ]
+  },
+
+  "priority_actions": [
+    {
+      "action": "Vincular o site da Fixa ao campo 'website' do perfil do GMB",
+      "swot_basis": "Captura O3, mitiga W1, base do SO3",
+      "impact": "high",
+      "suggested_timeline": "Semana 1 (imediato)",
+      "dependencies": [],
+      "financial_impact": { "investment": 0, "note": "Custo zero, esforço de 15min — impacto estimado em recuperação parcial do vazamento de 85% na fase de Pesquisa mapeado em ee-s1-auditoria-comunicacao." },
+      "risk_adjusted_score": { "impact": 9, "probability_of_success": 10, "reversibility": 10, "score": 9.5 }
+    },
+    {
+      "action": "Levar depoimentos do Instagram e avaliações do GMB para o site",
+      "swot_basis": "Alavanca F2, captura O3, executa SO3",
+      "impact": "high",
+      "suggested_timeline": "Semana 1",
+      "dependencies": [],
+      "financial_impact": { "investment": 0, "note": "Reaproveita material existente; sem custo de produção." },
+      "risk_adjusted_score": { "impact": 8, "probability_of_success": 9, "reversibility": 10, "score": 8.7 }
+    },
+    {
+      "action": "Instalar GA4 e pixel junto da correção do GMB/site, antes de qualquer teste de mídia paga",
+      "swot_basis": "Mitiga W4, executa WO3",
+      "impact": "medium",
+      "suggested_timeline": "Semana 1-2",
+      "dependencies": [],
+      "financial_impact": { "investment": 0, "note": "Ferramentas gratuitas — esforço de configuração apenas." },
+      "risk_adjusted_score": { "impact": 7, "probability_of_success": 9, "reversibility": 9, "score": 8.3 }
+    },
+    {
+      "action": "Implementar CRM básico com pipeline mínimo antes de escalar qualquer geração de leads adicional",
+      "swot_basis": "Mitiga W2, executa WO2, WT2",
+      "impact": "high",
+      "suggested_timeline": "Semana 4 (ee-s3-crm-setup)",
+      "dependencies": ["ee-s3-crm-setup"],
+      "financial_impact": { "investment": null, "expected_return_90d": null, "note": "Detalhado no diagnóstico de maturidade (priority #1); investimento e retorno específicos ficam em ee-s3-crm-setup." },
+      "risk_adjusted_score": { "impact": 9, "probability_of_success": 7, "reversibility": 8, "score": 8.0 }
+    },
+    {
+      "action": "Unificar a marca (Engenharia + Assessoria + demanda jurídica interna) no Manual de Marca antes de propagar aos canais",
+      "swot_basis": "Mitiga W3, executa WO1, protege contra T1",
+      "impact": "high",
+      "suggested_timeline": "Semana 4 (ee-s3-manual-marca)",
+      "dependencies": ["ee-s2-posicionamento"],
+      "financial_impact": { "investment": null, "note": "Custo de produção interno (Executar) — sem investimento externo direto." },
+      "risk_adjusted_score": { "impact": 9, "probability_of_success": 7, "reversibility": 6, "score": 7.5 }
+    },
+    {
+      "action": "Formalizar promessa de prazo por escrito no processo comercial, coordenada com o CRM",
+      "swot_basis": "Executa SO1, WT3 — usa F1+F3, captura O1, evita reforçar T3",
+      "impact": "high",
+      "suggested_timeline": "Semana 3-4 (junto com ee-s3-crm-setup e ee-s3-is-pipeline)",
+      "dependencies": ["ee-s3-crm-setup", "ee-s3-is-pipeline"],
+      "financial_impact": { "investment": null, "note": "Mudança de processo comercial — sem custo direto de mídia/produção." },
+      "risk_adjusted_score": { "impact": 9, "probability_of_success": 6, "reversibility": 7, "score": 7.3 }
+    },
+    {
+      "action": "Produzir 1-2 páginas de case nomeado e indexável, aproveitando o histórico de 10 anos",
+      "swot_basis": "Executa ST3, usa F3+F4, protege contra T2",
+      "impact": "medium",
+      "suggested_timeline": "Semana 3-4",
+      "dependencies": ["ee-s3-manual-marca"],
+      "financial_impact": { "investment": null, "note": "Depende de autorização de clientes para uso de nome/case — mesma pendência já registrada na auditoria de comunicação." },
+      "risk_adjusted_score": { "impact": 6, "probability_of_success": 6, "reversibility": 8, "score": 6.5 }
+    }
+  ],
+
+  "key_insight": {
+    "headline": "Nenhum concorrente mapeado formaliza clareza de prazo como promessa — e é exatamente essa a dor #1 do ICP da Fixa.",
+    "context": "Balen aposta em escala institucional (Top of Mind 2022, holding com 3 unidades de negócio), DCA aposta em cases documentados publicamente — mas nenhum dos dois comunica, como promessa formal, em qual etapa e prazo o processo do cliente está. É exatamente essa a objeção #1 mapeada no ICP: medo de ser 'enrolado' sem saber o prazo real.",
+    "numbered_reasons": [
+      "(1) A Fixa já resolve o técnico e o jurídico da regularização dentro do mesmo processo, sem precisar de um segundo prestador — diferencial real, mas que só sustenta a promessa de prazo se for comunicado como integração de processo, não como '3 especialidades equivalentes'.",
+      "(2) A prova social existe para validar que a Fixa cumpre o que promete (depoimentos reais no Instagram; GMB ainda com amostra pequena, 16 avaliações) — mas precisa ser levada ao site e ter seu volume ampliado antes de sustentar sozinha essa promessa.",
+      "(3) O relacionamento institucional com cartórios/prefeitura reduz o risco real de atraso, tornando a promessa de prazo mais segura de cumprir do que para um concorrente sem essa relação."
+    ],
+    "discussion_anchor": "Vale alinhar com o Carlos, antes da Semana 2 (posicionamento), como comunicar a parte jurídica sem soar como escritório de advocacia robusto — e decidir se a mensagem-chave já aprovada ('engenharia, arquitetura e direito num só lugar') precisa de um ajuste de explicação para não parecer 3 pilares equivalentes."
+  },
+
+  "honesty_alert": "A vantagem central da Fixa (resolver técnico+jurídico num só processo) só é real na prática — na percepção pública ainda não existe, porque a marca está fragmentada em todos os canais e a parte jurídica não pode ser comunicada como um departamento robusto (é a demanda jurídica da própria engenharia, tratada internamente). Além disso, o único sinal de prova social hoje fora do Instagram (GMB, 4,7★/16 avaliações) é uma amostra pequena — não deve ser vendido como prova social forte até crescer em volume. E toda a operação comercial depende de uma única pessoa (Carlos); se o volume de leads aumentar com os quick wins e a futura mídia paga, esse gargalo pode neutralizar o ganho da estratégia antes mesmo do CRM/SDR entrarem no ar (Semana 3-5)."
+}

@@ -1,0 +1,268 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "segment": "Regularização fundiária e imobiliária (engenharia, arquitetura e resolução jurídica documental integradas)",
+  "region": "Caxias do Sul, RS e região (Serra Gaúcha)",
+
+  "summary": "A Fixa já captura ~16% de um SAM regional estimado em R$10,6 milhões/ano sem nenhum investimento digital — nível de 'líder de nicho' sustentado só por indicação e relação institucional. O SOM de mercado triangulado (R$2,68 milhões/ano) exige ~58% de crescimento sobre o faturamento atual, alcançável formalizando a promessa de prazo (território que nenhum dos 3 concorrentes mapeados ocupa) e levando a captação para o digital.",
+
+  "summary_headline": "Fixa já captura ~16% do SAM regional (R$10,6M/ano) sem nenhum investimento digital — SOM de mercado (R$2,68M/ano) está ao alcance só formalizando prazo, território livre entre os concorrentes.",
+
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Share atual do SAM",
+      "value": "~16,1%",
+      "subtext": "R$1,7M de um SAM regional de R$10,6M/ano — nível de líder de nicho",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "SOM de mercado",
+      "value": "R$2,68M/ano",
+      "subtext": "Triangulado por 3 métodos convergentes — 58% acima do faturamento atual",
+      "tone": "green"
+    },
+    {
+      "category": "competicao",
+      "label": "Concorrentes diretos mapeados",
+      "value": "3 (Balen, DCA, BLM)",
+      "subtext": "Balen lidera com 7/10 de maturidade digital; BLM é quase inexistente (1/10)",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Loteamentos REURB no município",
+      "value": "600 áreas irregulares (SMU)",
+      "subtext": "466 são REURB-E particulares — nicho de maior ticket da Fixa (R$100-400 mil)",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Digitalização dos cartórios",
+      "value": "Prazo até 25/05/2026 (SERP)",
+      "subtext": "IA já lê/organiza matrículas — pode baratear serviço documental simples",
+      "tone": "red"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Mesmo sem nenhuma presença digital, a Fixa já captura ~16,1% do SAM regional estimado (R$10,6M/ano) — nível de 'líder de nicho' nos benchmarks de mercado, sustentado só por indicação e relacionamento institucional com cartórios e prefeitura."
+    },
+    {
+      "category": "contexto",
+      "text": "O município tem 600 áreas irregulares mapeadas pela própria Secretaria de Urbanismo (SMU, 2021), sendo 466 REURB-E (loteamentos particulares) — é o segmento de maior ticket (R$100-400 mil) e onde o relacionamento institucional da Fixa pesa mais."
+    },
+    {
+      "category": "ameaca",
+      "text": "Nenhum concorrente mapeado combina relacionamento institucional forte com presença digital robusta — mas a digitalização nacional dos cartórios (prazo maio/2026, IA já em uso) pode baratear serviços simples de escritura/averbação nos próximos 12-24 meses."
+    },
+    {
+      "category": "acao",
+      "text": "O SOM de mercado triangulado (R$2,68M/ano) exige ~58% de crescimento sobre o faturamento atual — alcançável formalizando a promessa de prazo (janela livre já identificada na SWOT) e levando a captação para o digital, sem precisar competir em escala com a Balen."
+    }
+  ],
+
+  "tam_sam_som": {
+    "methodology": "mixed",
+    "tam": {
+      "value_brl": 1500000000,
+      "description": "Mercado nacional anual de regularização documental residencial e fundiária urbana (escritura/matrícula, usucapião, REURB residencial) — bottom-up a partir do estoque nacional de imóveis sem escritura. Cálculo: 30.000.000 de domicílios urbanos sem escritura (Ministério do Desenvolvimento Regional) × 1%/ano de conversão em contratação de serviço [E] × R$5.000 de ticket médio de regularização residencial (mesmo ticket cobrado pela Fixa hoje, usado como proxy nacional) [E] = R$1,5 bilhão/ano. Não existe relatório setorial dedicado que meça o mercado de 'regularização fundiária' como categoria própria — por isso o bottom-up."
+    },
+    "sam": {
+      "value_brl": 10584000,
+      "description": "Mercado regional (Caxias do Sul e Serra Gaúcha) somando dois fluxos: (A) regularização residencial/documental — R$6.384.000/ano, e (B) REURB de loteamentos institucional — R$4.200.000/ano. Ver 'filters' para o detalhamento de cada fluxo.",
+      "filters": [
+        "Fluxo A (residencial): 463.501 habitantes de Caxias do Sul (IBGE Censo 2022) ÷ 2,54 pessoas/domicílio (média do RS, Censo 2022) ≈ 182.481 domicílios [E] × 50% de taxa de irregularidade documental (proxy nacional, Ministério do Desenvolvimento Regional) ≈ 91.240 domicílios com irregularidade potencial [E] × 1%/ano de conversão em contratação [E] = 912 processos/ano × R$7.000 de ticket médio ponderado (entre regularização de casa R$5k e usucapião R$12k, refletindo o mix real de serviços da Fixa) [E] = R$6.384.000/ano",
+        "Fluxo B (loteamentos REURB): 466 loteamentos REURB-E (particulares) mapeados pela Secretaria Municipal de Urbanismo (SMU, 2021) como passivo do município × 6%/ano de taxa de regularização do estoque (ritmo do programa municipal 'Esse Terreno é Meu', ativo desde 2021) [E] ≈ 28 loteamentos/ano × R$150.000 de ticket médio (ponto médio da faixa R$100-400 mil do briefing) = R$4.200.000/ano",
+        "Exclui: imóveis já regularizados; municípios fora da Serra Gaúcha; serviços jurídicos avulsos sem componente de engenharia"
+      ]
+    },
+    "som": {
+      "value_brl": 2680000,
+      "description": "SOM de mercado (teto tangível de captura, não é meta do cliente nem limitado pela capacidade operacional atual) — triangulado por 3 métodos independentes que convergiram na faixa de R$2,1M-R$3,0M/ano, com média de R$2,68M/ano. NÃO foi derivado da meta comercial da Fixa nem reduzido pela capacidade operacional atual (ver operational_ceiling_note). Representa ~25,3% do SAM total e ~39,7% do Mercado Endereçável (R$6.753.600) — essa segunda razão é a leitura mais honesta da performance competitiva da Fixa, porque mede a captura dentro do que ela de fato persegue (perfil médio/médio-alto + loteamentos institucionais), não do SAM inteiro (que inclui perfis que a Fixa filtra deliberadamente, ver anti-persona em ee-s1-persona-icp).",
+      "assumptions": [
+        "Método 1 (capacidade plenamente madura, bottom-up da estrutura): 1,75× o faturamento atual (R$1,7M) = R$2.975.000/ano — assume maturação operacional mínima (CRM básico funcionando, sem vazamento de lead) com a MESMA equipe, sem contratação adicional",
+        "Método 2 (market share top-down, benchmark de nicho): 20% do SAM (R$10.584.000) = R$2.116.800/ano — posiciona a Fixa entre 'líder de nicho' (5-12%) e 'dominante estrutural' (15-25%), justificado pelo relacionamento institucional já consolidado",
+        "Método 3 (segmento premium bottom-up): 55% de captura do Fluxo B/loteamentos (R$4.200.000 × 55% = R$2.310.000, dado o relacionamento institucional já estabelecido) + 25% de captura do Fluxo A filtrado por perfil (R$2.553.600 × 25% = R$638.400) = R$2.948.400/ano",
+        "Convergência: R$2.116.800 / R$2.948.400 / R$2.975.000 — faixa relativamente estreita, média usada como SOM final"
+      ],
+      "operational_ceiling_note": "A estrutura comercial atual (atendimento concentrado no sócio Carlos Henrique Garbin, sem time comercial formal — accesses.crm=false, sales_module.active_sellers='0 formal') sustenta hoje ~R$1,7M/ano. O Método 1 desta triangulação já assume uma maturação operacional mínima (CRM básico) com a mesma equipe. Capturar além do SOM de R$2,68M/ano — por exemplo, para competir por escala com a Balen — exigiria contratação de equipe técnica/comercial adicional, fora do escopo desta pesquisa de mercado."
+    },
+    "sources": [
+      { "name": "Ministério do Desenvolvimento Regional (via Correio Braziliense)", "url": "https://www.correiobraziliense.com.br/app/noticia/brasil/2019/07/28/interna-brasil,774183/imoveis-irregulares-no-brasil.shtml", "year": 2019 },
+      { "name": "IBGE - Censo 2022, Panorama Caxias do Sul", "url": "https://cidades.ibge.gov.br/brasil/rs/caxias-do-sul/panorama", "year": 2022 },
+      { "name": "CNN Brasil - Média de moradores por domicílio cai no Brasil, Censo 2022 (IBGE)", "url": "https://www.cnnbrasil.com.br/nacional/media-de-moradores-por-domicilio-cai-no-brasil-revela-censo-2022/", "year": 2022 },
+      { "name": "Prefeitura de Caxias do Sul - Diretoria de Regularização Fundiária / SMU", "url": "https://caxias.rs.gov.br/servicos/urbanismo/diretoria-de-regularizacao-fundiaria", "year": 2021 },
+      { "name": "CBIC - Construção Civil cresce 4,3% em 2024 e impulsiona economia nacional", "url": "https://cbic.org.br/construcao-civil-cresce-43-em-2024-e-impulsiona-economia-nacional/", "year": 2024 },
+      { "name": "ANOREG/BR - PID/ONR 2025: inclusão digital nos Cartórios de Imóveis", "url": "https://www.anoreg.org.br/site/pid-onr-2025-inclusao-digital-reduz-desigualdades-nos-cartorios-de-imoveis/", "year": 2025 }
+    ]
+  },
+
+  "market_share": {
+    "current_revenue_brl": 1700000,
+    "current_share_of_sam_pct": 16.1,
+    "target_share_of_sam_pct": 25.3,
+    "gap_to_som_brl": 980000,
+    "gap_to_som_pct": 57.6,
+    "commentary": "A Fixa está hoje em ~16,1% do SAM regional (R$10,6M/ano) — patamar de 'líder de nicho' nos benchmarks de mercado, alcançado inteiramente via indicação e relacionamento institucional, sem qualquer investimento digital (mídia paga: R$0, confirmado via conectores V4MOS). O SOM de R$2,68M/ano representa um crescimento de 57,6% sobre o faturamento atual — não é um salto para outra categoria de empresa, é a mesma vantagem relacional que já existe hoje, só formalizada em processo comercial (prazo por escrito) e levada para o digital (site, LP, mídia paga). Nota sobre metas: o briefing registra '~R$1,7 milhões projetados para 2026' como faturamento (identification.annual_revenue), mas não há um campo de meta comercial explícita e separada documentado ainda (ex: um 'Meta 12M' de formulário V4MOS) — vale levantar isso diretamente com o Carlos em uma próxima call para comparar aspiração dele com o SOM de mercado calculado aqui.",
+    "enderecavel_value_brl": 6753600,
+    "enderecavel_composition": "Fluxo A (residencial) filtrado a ~40% — perfil de bairro médio/médio-alto que a Fixa atende hoje, conforme anti-persona 'Fora do Padrão de Atendimento' já mapeada em ee-s1-persona-icp: R$6.384.000 × 40% = R$2.553.600 [E]. Mais Fluxo B (REURB de loteamentos) inteiro — decisão institucional, não segmentada por classe social do proprietário individual: R$4.200.000. Total: R$2.553.600 + R$4.200.000 = R$6.753.600.",
+    "enderecavel_note": "O SAM total (R$10,6M/ano) inclui todo o backlog de irregularidade documental do município, mas a Fixa filtra deliberadamente o fluxo residencial por perfil de bairro (médio/médio-alto) — o perfil 'Fora do Padrão de Atendimento' já é tratado como anti-persona operacional, não é um gap a corrigir. O Mercado Endereçável (R$6,75M/ano) separa essa barreira de ESCOLHA (SAM → Endereçável) da barreira COMPETITIVA (Endereçável → SOM, onde a Fixa disputa com Balen/DCA/BLM). A razão SOM/Endereçável (~39,7%) é uma leitura mais honesta da performance da Fixa do que SOM/SAM (~25,3%): mostra que, dentro do que ela de fato persegue, já está perto da faixa de 'líder do nicho' (20-40%)."
+  },
+
+  "competitors": [
+    {
+      "name": "Balen Regularizações",
+      "positioning": "Escala e institucionalização sob a marca 'Balen Group' — holding com 3 unidades de negócio (Regularizações, Topografia, Imóveis) já sob uma marca única, +20 anos de atuação, prêmio Top of Mind 2022 em Caxias do Sul, atuação multi-cidade (Caxias do Sul, Ponta Grossa, Itaquaquecetuba).",
+      "channels": ["Site institucional (SEO)", "Instagram (@balenregularizacoes, 2.149 seguidores)", "Facebook", "LinkedIn", "3 linhas de WhatsApp segmentadas por unidade de negócio"],
+      "strengths": [
+        "Site institucional robusto com FAQ sobre REURB, cases nomeados (ação judicial vencida, desapropriação municipal) e fundamentação legal explícita",
+        "Prêmio 'Top of Mind 2022' e +20 anos de atuação — reconhecimento de marca formal",
+        "3 linhas de negócio já unificadas sob uma marca única, modelo que a Fixa ainda está construindo"
+      ],
+      "weaknesses": [
+        "Mensagem institucional genérica ('soluções eficazes') — não fala diretamente à dor de prazo/confiança do ICP",
+        "Nenhuma promessa formal de prazo identificada no site ou material público",
+        "Escala de holding pode soar menos pessoal/local do que o atendimento direto que a Fixa oferece"
+      ],
+      "estimated_pricing": "[E] Provavelmente comparável ou levemente superior ao ticket da Fixa dado o porte institucional (holding) — nenhuma tabela de preços pública encontrada",
+      "digital_score": 7,
+      "digital_details": {
+        "website": "balengroup.com.br/empresa/regularizacoes — site institucional robusto, FAQ, cases nomeados, prêmio Top of Mind 2022",
+        "instagram": "@balenregularizacoes — 2.149 seguidores, atua em 3 cidades",
+        "google": "Não verificado nesta rodada — perfil GMB não localizado na busca",
+        "active_ads": "Não verificado nesta rodada — sem acesso à Meta Ads Library"
+      }
+    },
+    {
+      "name": "DCA Engenharia",
+      "positioning": "Assessoria e consultoria técnica em engenharia e meio ambiente, com regularização fundiária como uma de suas frentes — posiciona-se por cases públicos e documentados junto à Prefeitura, não por integração jurídica.",
+      "channels": ["Site (dca.eng.br) com páginas de case individuais indexadas no Google", "Instagram (@dca_engenharia, 1.210 seguidores, 394 posts)", "Facebook"],
+      "strengths": [
+        "SEO de cauda longa forte via páginas de case nomeadas (Residencial Vista Bella — CRF emitido pela Prefeitura em 20/12/2022, 32 unidades regularizadas; Condomínio Condado Angel — 61 matrículas emitidas)",
+        "Prova social verificável e específica (nome do empreendimento + resultado documentado publicamente)",
+        "Atuação desde 2010 na Serra Gaúcha — histórico consolidado"
+      ],
+      "weaknesses": [
+        "Posicionamento amplo ('engenharia e meio ambiente') — dilui o foco em regularização fundiária residencial/pessoa física",
+        "Sem menção a integração jurídica ou promessa de prazo",
+        "Volume de seguidores/engajamento social modesto (1.210) comparado à Balen"
+      ],
+      "estimated_pricing": "[E] Provavelmente comparável ao ticket da Fixa dado o foco similar em engenharia + regularização — nenhuma tabela de preços pública encontrada",
+      "digital_score": 6,
+      "digital_details": {
+        "website": "dca.eng.br — certificado SSL impediu verificação direta nesta rodada; páginas de projeto indexadas no Google confirmam estrutura de cases",
+        "instagram": "@dca_engenharia — 1.210 seguidores, 394 posts, destaques por tema (projetos, incêndio, meio ambiente, REURB)",
+        "google": "SEO de cauda longa forte via páginas de case nomeadas com resultado documentado (nº de matrículas emitidas)",
+        "active_ads": "Não verificado nesta rodada"
+      }
+    },
+    {
+      "name": "BLM Assessoria Imobiliária",
+      "positioning": "Assessoria imobiliária genérica, sem proposta de valor digital identificável — presença quase inexistente fora de diretórios de CNPJ.",
+      "channels": ["Facebook (275 curtidas)"],
+      "strengths": [
+        "Nenhum ponto forte digital identificado nesta pesquisa"
+      ],
+      "weaknesses": [
+        "Sem site próprio confirmado — apenas listagens em diretórios de CNPJ (Solutudo, Econodata, Casa dos Dados)",
+        "Sem Instagram identificável nas buscas",
+        "Nenhuma prova social pública (depoimento, case, prêmio) encontrada",
+        "Nenhuma mensagem/proposta de valor pública além do nome e serviço genérico"
+      ],
+      "estimated_pricing": "Não disponível — nenhuma informação de preço encontrada; presença digital insuficiente para estimar",
+      "digital_score": 1,
+      "digital_details": {
+        "website": "Sem site próprio identificado — apenas listagens em diretórios de CNPJ",
+        "instagram": "Não identificado nesta busca",
+        "google": "Presença apenas em diretórios de CNPJ, nenhuma página institucional própria",
+        "active_ads": "Improvável haver mídia paga ativa dado a ausência de presença digital própria"
+      }
+    }
+  ],
+
+  "competitive_map": {
+    "axis_x": "Boutique relacional (baixa escala, alta proximidade) ↔ Holding institucionalizada (alta escala, processo padronizado)",
+    "axis_y": "Presença digital fraca ↔ Presença digital forte",
+    "positions": [
+      { "name": "Balen Regularizações", "quadrant": "Holding institucionalizada + presença digital forte" },
+      { "name": "DCA Engenharia", "quadrant": "Meio-termo — relacional com SEO tático forte (cases nomeados), digital moderado" },
+      { "name": "BLM Assessoria Imobiliária", "quadrant": "Boutique relacional + presença digital fraca" },
+      { "name": "Fixa Engenharia & Assessoria", "quadrant": "Hoje: boutique relacional + presença digital fraca (mesmo quadrante da BLM, mas com relacionamento institucional muito mais forte). Posição sugerida: mover para 'boutique relacional + presença digital forte' — quadrante vazio." }
+    ],
+    "empty_spaces": "Nenhum concorrente combina relacionamento institucional forte (cartórios/prefeitura) com presença digital robusta — é o quadrante vazio que a Fixa pode ocupar, sem precisar copiar a escala de holding da Balen.",
+    "crowded_spaces": "Presença digital fraca é o quadrante mais povoado por padrão (BLM e, historicamente, a própria Fixa) — não é onde vale disputar."
+  },
+
+  "trends": [
+    {
+      "trend": "Digitalização e integração nacional dos registros de imóveis (Sistema Eletrônico dos Registros Públicos — SERP, Lei 14.382/2022), com prazo até 25/05/2026 para os cartórios migrarem 100% dos registros ao sistema digital",
+      "evidence": "ANOREG/BR - Programa de Inclusão Digital (PID/ONR 2025); Corregedoria do CNJ prorrogou o prazo de digitalização; 94% dos dados já informatizados; IA 'Iari' (parceria ONR + Google) já em uso para leitura/organização de matrículas"
+    },
+    {
+      "trend": "Mercado imobiliário residencial brasileiro projetado em crescimento para 2026, aumentando a demanda por regularização como pré-requisito de venda/financiamento",
+      "evidence": "Mordor Intelligence - Residential Real Estate Market in Brazil; reportagens do setor (imobconecta) apontam crescimento de ~10% projetado para 2026"
+    },
+    {
+      "trend": "Setor de serviços especializados de engenharia (categoria que inclui regularização fundiária/agrimensura) segue em expansão dentro da Construção Civil, que cresceu 4,3% em 2024",
+      "evidence": "CBIC - Construção Civil cresce 4,3% em 2024 e impulsiona economia nacional; serviços especializados respondem por 23,9% do resultado do setor; PIB da Construção Civil em R$359,5 bilhões em 2024"
+    }
+  ],
+
+  "threats": [
+    {
+      "threat": "Ferramentas de IA para leitura/organização automática de matrículas (ex: Iari, lançada pelo ONR em parceria com o Google) podem baratear ou tornar mais acessível o autoatendimento em casos simples de escritura/averbação",
+      "potential_impact": "Pode comprimir o ticket de serviços documentais simples nos próximos 12-24 meses, pressionando a Fixa a se diferenciar mais pelos casos complexos (usucapião, inventário, REURB de loteamentos) do que pela burocracia documental básica"
+    },
+    {
+      "threat": "Balen Regularizações (concorrente líder, holding institucionalizada com unidades em 3 cidades) pode intensificar presença digital e mídia paga na região",
+      "potential_impact": "Fecharia a janela de oportunidade já identificada na SWOT — hoje nenhum concorrente mapeado investe em mídia paga — antes que a Fixa consiga estruturar CRO/CRM/mídia própria (Semana 4 do planejamento)"
+    }
+  ],
+
+  "unexploited_opportunity": {
+    "description": "Ocupar o território 'o escritório que garante prazo por escrito na regularização do seu imóvel' — nenhum dos 3 concorrentes mapeados (Balen, DCA, BLM) formaliza clareza de prazo como promessa comercial, apesar de ser a dor #1 do ICP da Fixa (objeções mapeadas em ee-s1-persona-icp são todas sobre confiança e prazo, nenhuma sobre o serviço em si).",
+    "why_nobody_does_it": "(1) O setor lida com prazos que dependem de terceiros (cartório, prefeitura), o que torna arriscado prometer prazo por escrito sem CRM e visibilidade de status internos — a maioria dos escritórios evita o compromisso por medo de não cumprir. (2) O concorrente de maior porte (Balen) compete em escala institucional e reconhecimento de marca, não em compromisso operacional individualizado; o de menor porte (BLM) não tem estrutura digital sequer para formalizar esse tipo de promessa. (3) Formalizar prazo exige integrar o processo comercial ao operacional (visibilidade de status em tempo real), o que só faz sentido depois de uma digitalização mínima da operação — nenhum concorrente mapeado parece ter feito essa transição ainda.",
+    "feasibility": "media"
+  },
+
+  "market_jtbd": {
+    "current_solutions": "A maioria resolve (ou tenta resolver) diretamente no cartório/prefeitura, ou contrata separadamente um engenheiro/topógrafo para o levantamento técnico e um advogado avulso para a parte jurídica — dois prestadores, dois contratos, sem processo unificado.",
+    "alternatives": [
+      { "type": "direct", "description": "Escritórios concorrentes especializados em regularização fundiária/imobiliária (Balen, DCA) — regularização completa via terceiros especializados, com ou sem integração jurídica formal." },
+      { "type": "indirect", "description": "Advogados avulsos especializados em usucapião/inventário, sem parte de engenharia — mais baratos, mas sem o levantamento técnico (mapeado em ee-s1-persona-icp, willingness_to_pay)." },
+      { "type": "diy", "description": "Tentar resolver sozinho no cartório e na prefeitura — dor mapeada explicitamente no ICP: 'cada órgão pede um documento diferente e eu não entendo o juridiquês, desisto no meio do processo'." },
+      { "type": "inaction", "description": "Não fazer nada — adiar indefinidamente a venda, o financiamento ou a partilha, aceitando o risco jurídico e a impossibilidade de usar o imóvel como garantia." }
+    ],
+    "cost_of_inaction": "O imóvel permanece impossibilitado de ser vendido, financiado ou dado em garantia; risco real de disputa judicial entre herdeiros na falta de partilha regularizada (dor emocional #1 do ICP); e, com a digitalização/integração nacional dos registros (SERP, prazo maio/2026), imóveis não regularizados tendem a ficar mais visíveis como pendências dentro de um sistema nacional cada vez mais integrado, aumentando a pressão para regularizar."
+  },
+
+  "real_differentials": [
+    {
+      "differential": "Resolve o técnico e o jurídico da regularização dentro do mesmo processo, sem o cliente precisar contratar um segundo prestador",
+      "status": "confirmed",
+      "icp_relevance": "Reduz a fricção #1 do ICP — desconfiança e complexidade de lidar com múltiplos prestadores sem coordenação (mapeado nas pains de ee-s1-persona-icp)."
+    },
+    {
+      "differential": "Relacionamento institucional consolidado com cartórios e a Secretaria Municipal do Urbanismo (SMU)",
+      "status": "confirmed",
+      "icp_relevance": "Reduz prazo e atrito no processo, endereçando a dor #1 do ICP (desconfiança sobre prazo e seriedade)."
+    },
+    {
+      "differential": "Possível liderança em REURB de loteamentos frente ao maior concorrente (Balen), com histórico de ter assumido a maioria dos novos loteamentos protocolados na cidade no último ano",
+      "status": "potential",
+      "icp_relevance": "Se confirmado, é prova social/institucional forte justamente no segmento de maior ticket do negócio (R$100-400 mil) — mas hoje é apenas um relato do operador na call de kickoff, sem corroboração documental (mesma pendência já registrada em ee-s1-persona-icp).",
+      "action_needed": "Validar com contratos/protocolos na prefeitura antes de usar como claim de marketing ou comparação nominal com a Balen."
+    },
+    {
+      "differential": "Prazo por escrito como promessa comercial formal",
+      "status": "aspirational",
+      "icp_relevance": "Endereça diretamente a objeção #1 do ICP (medo de ser 'enrolado' sem saber prazo) e é o território de mensagem que nenhum concorrente mapeado ocupa hoje.",
+      "action_needed": "Depende do CRM básico (ee-s3-crm-setup) estar funcionando, com visibilidade de status, antes de poder ser formalizada com segurança."
+    }
+  ],
+
+  "honesty_alert": "O SAM e o SOM desta pesquisa foram construídos majoritariamente com estimativas bottom-up (backlog nacional de imóveis sem escritura, médias estaduais de moradores por domicílio, e o levantamento de 600 áreas irregulares feito pela própria SMU em 2021) — não existe relatório setorial dedicado a 'regularização fundiária' com dados de mercado publicados, e a taxa de conversão anual do estoque em contratações é estimativa [E], não dado observado. Vale notar também: a participação atual estimada da Fixa no SAM (~16,1%) já é alta para os benchmarks de 'líder de nicho' — isso é coerente com o histórico de 10 anos e o relacionamento institucional (F3 da SWOT), mas também reforça que o SAM residencial aqui calculado pode estar subdimensionado, ou que a Fixa já é, de fato, dominante no nicho institucional de loteamentos. A pendência de validação já registrada em ee-s1-persona-icp (Fixa vs. Balen em loteamentos) ajudaria a esclarecer qual das duas leituras é a correta."
+}

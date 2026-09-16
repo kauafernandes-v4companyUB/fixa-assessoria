@@ -1,0 +1,243 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "Maturidade digital geral em 10/100 (Crítico) — muito abaixo da média do setor imobiliário (36/100). A Fixa opera 100% offline hoje: zero mídia paga, zero CRM, zero landing page ou rastreamento, com Google Meu Negócio (16 avaliações, nota 4.7) como único sinal positivo real.",
+
+  "summary_headline": "Fixa tem 10/100 de maturidade digital — 26 pontos abaixo da média do setor imobiliário. Só o GMB (nota 4.7) sustenta a presença digital hoje.",
+
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score geral",
+      "value": "10/100",
+      "subtext": "Crítico — negócio praticamente invisível no digital",
+      "tone": "red"
+    },
+    {
+      "category": "posicao",
+      "label": "Vs. média do setor",
+      "value": "-26 pontos",
+      "subtext": "Setor imobiliário: média 36/100 (faixa normal 25-50)",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Pilar mais crítico",
+      "value": "CRM: 5/100",
+      "subtext": "Leads morrem no WhatsApp pessoal, sem pipeline nem follow-up",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Único ponto forte real",
+      "value": "GMB: 16 avaliações, nota 4.7",
+      "subtext": "Prova social pronta para escalar com baixo esforço",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Mídia paga",
+      "value": "R$0 investido hoje",
+      "subtext": "Zero estrutura — qualquer ação parte do zero absoluto",
+      "tone": "gray"
+    }
+  ],
+
+  "summary_key_findings": [
+    {
+      "category": "ameaca",
+      "text": "Mídia paga, CRO e CRM estão todos no fundo da escala (5-8/100) — não existe pixel, landing page, rastreamento (GA4 e Search Console confirmados como ausentes) nem CRM. Todo lead que pesquisa ativamente por regularização de imóvel hoje vai para um concorrente com presença digital."
+    },
+    {
+      "category": "vantagem",
+      "text": "O Google Meu Negócio já tem 16 avaliações com nota 4.7 — prova social real e verificável, ainda que com volume baixo, que nenhum outro canal digital da Fixa aproveita hoje."
+    },
+    {
+      "category": "contexto",
+      "text": "A operação comercial de captação é 100% offline (indicação e relacionamento institucional, confirmado no briefing) — isso não é atraso técnico, é uma decisão histórica que nunca precisou de digital até agora."
+    },
+    {
+      "category": "acao",
+      "text": "Antes de ligar mídia paga (maior peso no score, 25%), é preciso resolver CRO e CRM básicos — senão o investimento em anúncio vaza: gera lead que cai numa página sem conversão e depois morre no WhatsApp pessoal sem pipeline."
+    }
+  ],
+
+  "data_source": "mixed",
+  "overall_score": 10,
+  "overall_classification": "critical",
+
+  "pillar_scores": [
+    {
+      "pillar": "midia_paga",
+      "score": 5,
+      "classification": "critical",
+      "highlight": "Zero campanhas ativas em Google Ads e Meta Ads (confirmado via conectores V4MOS) — não existe pixel, estrutura de funil nem orçamento definido.",
+      "estimated": true,
+      "details": {
+        "strengths": [],
+        "strengths_note": "Nenhum ponto forte identificado neste pilar — não há nenhuma estrutura de mídia paga em operação hoje.",
+        "weaknesses": [
+          "Nenhuma campanha ativa em Google Ads ou Meta Ads no período analisado (dados de conectores zerados)",
+          "Sem pixel/tag instalado — zero rastreamento de eventos",
+          "Sem orçamento de mídia definido até o momento"
+        ],
+        "metrics": {
+          "google_ads_campanhas": 0,
+          "facebook_ads_campanhas": 0,
+          "investimento_mensal": 0
+        }
+      }
+    },
+    {
+      "pillar": "criativos",
+      "score": 13,
+      "classification": "critical",
+      "highlight": "Ninguém produz conteúdo de forma dedicada hoje — Instagram existe mas sem cadência, identidade visual consistente ou estratégia de criativos.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Perfil de Instagram já existe e está separado da conta pessoal do sócio"
+        ],
+        "weaknesses": [
+          "Confirmado com o operador: não há ninguém produzindo criativos de forma dedicada",
+          "Sem variedade de formato, sem identidade visual consolidada (marca ainda em unificação — ver ee-s1-persona-icp)",
+          "Volume e frequência de postagem não estruturados"
+        ],
+        "metrics": {}
+      }
+    },
+    {
+      "pillar": "cro",
+      "score": 8,
+      "classification": "critical",
+      "highlight": "Não existe landing page nem rastreamento de conversão — o único site (institucional, desatualizado) não foi feito para converter.",
+      "estimated": true,
+      "details": {
+        "strengths": [],
+        "strengths_note": "Nenhum ponto forte identificado — o site existente não foi desenhado para converter.",
+        "weaknesses": [
+          "Confirmado: nenhuma landing page ou página de conversão ativa hoje",
+          "Site institucional desatualizado desde 2016, sem CNPJ/telefone/endereço atualizados",
+          "Google Analytics e Google Search Console ausentes (confirmado em accesses do briefing)",
+          "Sem proposta de valor clara, CTA estruturado ou prova social na única página existente"
+        ],
+        "metrics": {
+          "google_analytics": false,
+          "google_search_console": false
+        }
+      }
+    },
+    {
+      "pillar": "crm",
+      "score": 5,
+      "classification": "critical",
+      "highlight": "Sem CRM (confirmado no briefing) — leads chegam por WhatsApp pessoal do sócio, sem pipeline, sem automação e sem métrica de quantos entram por mês.",
+      "estimated": true,
+      "details": {
+        "strengths": [],
+        "strengths_note": "Nenhum ponto forte identificado — não há CRM, pipeline ou automação de nenhum tipo hoje.",
+        "weaknesses": [
+          "Confirmado: sem CRM (accesses.crm = false)",
+          "Sem pipeline comercial estruturado",
+          "Sem automação de nutrição ou follow-up",
+          "Captação inteiramente dependente do relacionamento pessoal do sócio administrador"
+        ],
+        "metrics": {}
+      }
+    },
+    {
+      "pillar": "seo",
+      "score": 22,
+      "classification": "low",
+      "highlight": "Google Meu Negócio é o único ponto positivo real (16 avaliações, nota 4.7), mas SEO técnico, conteúdo e ranqueamento de palavras-chave são confirmados como baixos/ruins pelo operador.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "GMB ativo com 16 avaliações e nota média 4.7 — prova social consolidada, mesmo com volume baixo de reviews"
+        ],
+        "weaknesses": [
+          "SEO geral confirmado como baixo e ruim pelo operador — não ranqueia bem para termos como 'regularização de imóvel Caxias do Sul'",
+          "Site institucional desatualizado, sem estrutura técnica de SEO nem conteúdo/blog",
+          "Sem estratégia de palavras-chave locais"
+        ],
+        "metrics": {
+          "gmb_reviews": 16,
+          "gmb_rating": 4.7
+        }
+      }
+    }
+  ],
+
+  "executive_summary": "A Fixa está com maturidade digital de 10/100 — classificação Crítica, 26 pontos abaixo da média do setor imobiliário (36/100). Na prática, isso significa que a empresa está deixando na mesa todo o volume de quem já está pesquisando ativamente por regularização de imóvel em Caxias do Sul agora: hoje, 100% da captação vem de indicação e relacionamento institucional (confirmado no briefing), e quem busca no Google encontra concorrentes como Balen e DCA antes de encontrar a Fixa.\n\nOs dois maiores gaps que custam resultado agora são Mídia Paga e CRO, ambos no fundo da escala (5/100 e 8/100). Não existe nenhuma campanha ativa em Google Ads ou Meta Ads (confirmado via conectores V4MOS, zerados no período), nem pixel, nem landing page — o único site existente é institucional, desatualizado desde 2016, sem rastreamento (Google Analytics e Search Console confirmados ausentes) e sem proposta de valor estruturada para converter. Some a isso o CRM em 5/100: todo lead que chega hoje cai no WhatsApp pessoal do sócio administrador, sem pipeline, sem automação e sem visibilidade de quantos leads entram por mês.\n\nOs dois pontos fortes a acelerar: primeiro, o Google Meu Negócio, com 16 avaliações e nota 4.7 — prova social real, ainda que com volume baixo, que hoje não é aproveitada em nenhum outro canal. Segundo, o diferencial técnico já validado no mercado offline (engenharia, arquitetura e direito imobiliário integrados num único contrato, mapeado no ICP) — a Fixa não tem um problema de produto ou de reputação, tem um problema de estar ausente onde o cliente ideal já está procurando.",
+
+  "priorities": [
+    {
+      "rank": 1,
+      "action": "Implementar CRM básico com pipeline mínimo (mesmo que simples) e parar de depender só do WhatsApp pessoal do sócio para gerir leads.",
+      "rationale": "Sem isso, qualquer lead gerado por mídia paga ou orgânico se perde no meio do caminho — hoje não há sequer visibilidade de quantos leads entram por mês.",
+      "effort": "medium",
+      "pillar": "crm",
+      "dependencies": [],
+      "dependencies_note": "Pode começar imediatamente — não depende de nenhuma outra entrega."
+    },
+    {
+      "rank": 2,
+      "action": "Criar uma landing page de conversão com proposta de valor clara, CTA estruturado e rastreamento (GA4 + pixel) instalado.",
+      "rationale": "Hoje não existe nenhuma página feita para converter, nem rastreamento de nenhum tipo — é impossível medir o que funciona sem isso.",
+      "effort": "medium",
+      "pillar": "cro",
+      "dependencies": ["ee-s2-posicionamento (definir a proposta de valor antes de escrever a copy da LP)"]
+    },
+    {
+      "rank": 3,
+      "action": "Estruturar mídia paga com pixel instalado, estrutura de funil básica e orçamento de teste definido.",
+      "rationale": "É o pilar de maior peso no score (25%) e a alavanca mais rápida de resultado de curto prazo, mas só deve ligar depois que CRO e CRM mínimos existirem — senão o investimento vaza em leads que não convertem nem são acompanhados.",
+      "effort": "high",
+      "pillar": "midia_paga",
+      "dependencies": ["Landing page de conversão pronta", "CRM mínimo funcionando"]
+    },
+    {
+      "rank": 4,
+      "action": "Estabelecer produção de criativos com identidade visual consistente e cadência mínima de postagem.",
+      "rationale": "Sem criativos consistentes, qualquer mídia paga vai rodar com peça fraca e CPA alto — hoje não há ninguém dedicado a essa produção.",
+      "effort": "medium",
+      "pillar": "criativos",
+      "dependencies": ["ee-s3-manual-marca (identidade visual unificada)"]
+    },
+    {
+      "rank": 5,
+      "action": "Reforçar SEO local aproveitando o ponto forte já existente (GMB com nota 4.7) — completar perfil, responder avaliações, e mapear palavras-chave locais básicas.",
+      "rationale": "É o único pilar com sinal positivo hoje — ganho de tração orgânica de baixo custo e baixo esforço enquanto os outros pilares se estruturam.",
+      "effort": "low",
+      "pillar": "seo",
+      "dependencies": [],
+      "dependencies_note": "Pode começar imediatamente — não depende de nenhuma outra entrega."
+    }
+  ],
+
+  "sector_benchmark": {
+    "sector": "Imobiliário (regularização fundiária)",
+    "sector_average": 36,
+    "comparison": "significantly_below",
+    "pillar_comparison": [
+      { "pillar": "midia_paga", "client_score": 5, "sector_average": 40, "gap": -35, "position": "critical_gap" },
+      { "pillar": "criativos", "client_score": 13, "sector_average": 28, "gap": -15, "position": "critical_gap" },
+      { "pillar": "cro", "client_score": 8, "sector_average": 32, "gap": -24, "position": "critical_gap" },
+      { "pillar": "crm", "client_score": 5, "sector_average": 40, "gap": -35, "position": "critical_gap" },
+      { "pillar": "seo", "client_score": 22, "sector_average": 40, "gap": -18, "position": "below" }
+    ],
+    "key_insight": "A Fixa está abaixo da média do setor em todos os 5 pilares, mas o gap mais crítico está empatado entre Mídia Paga e CRM (-35 pontos cada) — os dois pilares que, juntos, decidem se um lead vira cliente ou se perde no caminho."
+  },
+
+  "key_insight": {
+    "headline": "CRM em 5/100 vai continuar travando o retorno de qualquer investimento em mídia, mesmo depois que a mídia estiver rodando bem.",
+    "context": "A Fixa está prestes a ligar mídia paga pela primeira vez na história da empresa (Semana 4 do planejamento). Mas hoje, sem CRM, sem pipeline e sem visibilidade de quantos leads entram, cada lead pago vai cair no mesmo WhatsApp pessoal que já concentra toda a operação comercial — sem estrutura para não se perder.",
+    "numbered_reasons": [
+      "CRM confirmado ausente (accesses.crm = false) — não há pipeline, automação nem métrica de quantos leads entram por mês.",
+      "Mídia paga sem CRM por trás gera um efeito cascata: o CPA parece ruim não porque o anúncio é ruim, mas porque o lead se perde depois de gerado.",
+      "O ROI de destravar isso primeiro é maior do que otimizar mídia paga sozinha — resolver CRM garante que cada real investido em anúncio tenha chance real de virar receita."
+    ],
+    "discussion_anchor": "Antes de aprovar o orçamento de mídia paga da Semana 4, vale alinhar com o Carlos que o CRM básico (ee-s3-crm-setup) precisa estar funcionando primeiro — ou o investimento em anúncio vai mascarar um problema que não é de mídia."
+  },
+
+  "honesty_alert": "Todos os 5 pilares estão abaixo da média do setor, e 4 dos 5 estão na faixa Crítica (0-20) — isso não é um ajuste incremental, é começar do zero absoluto em quase tudo. O único ativo real hoje é o GMB (16 avaliações, 4.7). É importante alinhar essa expectativa com o cliente: os resultados de mídia paga só virão de forma consistente depois que CRO e CRM mínimos estiverem no ar — ligar mídia antes disso vai gerar dado enganoso (parecendo que o anúncio não funciona, quando na verdade o vazamento está depois do clique)."
+}
