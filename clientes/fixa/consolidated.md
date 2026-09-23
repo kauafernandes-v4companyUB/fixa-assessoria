@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-09-23 17:41 UTC · Ciclo atual: Semana 2 · Cliente: `fixa`*
+*Gerado em 2026-09-23 18:10 UTC · Ciclo atual: Semana 3 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -439,7 +439,7 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 - ✅ **ee-s1-diagnostico-maturidade** — concluída em 2026-09-15T00:00:00Z
 - ✅ **ee-s2-posicionamento** — concluída em 2026-09-23T12:32:04Z
 
-**Semana atual:** 2
+**Semana atual:** 3
 
 ### Histórico de refinamentos
 - *2026-09-15T21:01:33Z* — **ee-s1-auditoria-comunicacao** (—): 

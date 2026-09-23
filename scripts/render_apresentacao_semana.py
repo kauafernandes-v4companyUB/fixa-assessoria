@@ -419,11 +419,17 @@ def main():
         print(f"Nenhum output completo encontrado pra Semana {week_n} ainda.", file=sys.stderr)
         sys.exit(1)
 
+    # Nomes amigáveis faltando no plugin pras skills de inside-sales da Semana 3
+    # (SKILL_PRETTY_NAMES não tem essas duas — cai no fallback feio "Is Pipeline").
+    ra.SKILL_PRETTY_NAMES.setdefault("ee-s3-is-metricas-funil", "Métricas de Funil")
+    ra.SKILL_PRETTY_NAMES.setdefault("ee-s3-is-pipeline", "Pipeline Comercial")
+
     cover = build_cover_semana(client, week_n)
     pauta = build_pauta_semana(week_n, pauta_items)
+    proximos_passos = ra.build_proximos_passos(client, outputs)
     fechamento = ra.build_fechamento(client, outputs)
 
-    all_slides = "\n".join([cover, pauta] + slides_html + [fechamento])
+    all_slides = "\n".join([cover, pauta] + slides_html + [proximos_passos, fechamento])
     name = client.get("meta", {}).get("name", "Cliente")
     title = f"{name} · Diagnóstico Estratégico · Semana {week_n}"
     total_slides = all_slides.count('<section class="slide')

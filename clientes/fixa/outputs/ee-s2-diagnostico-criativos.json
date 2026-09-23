@@ -11,8 +11,8 @@
     "ee-s1-auditoria-comunicacao.json",
     "ee-s1-diagnostico-maturidade.json"
   ],
-  "summary": "A Fixa nunca produziu criativo pago (0 confirmado em ee-s2-diagnostico-midia) — este diagnóstico vira briefing de produção para a Semana 3, partindo da prova social já existente (GMB 4,7★, depoimentos reais no Instagram) e do gap de cases documentados que a DCA já explora no mercado local.",
-  "summary_headline": "Fixa não tem nenhum criativo pago pra avaliar — briefing de produção recomenda partir da prova social já existente (GMB + depoimentos IG), formato reels, 8-10 peças novas.",
+  "summary": "A Fixa nunca produziu criativo pago (0 confirmado em ee-s2-diagnostico-midia) — este diagnóstico vira briefing de produção para a Semana 3, partindo da prova social já existente (depoimentos reais no Instagram — a mais sólida hoje) e do gap de cases documentados que a DCA já explora no mercado local.",
+  "summary_headline": "Fixa não tem nenhum criativo pago pra avaliar — briefing de produção recomenda partir dos depoimentos reais do Instagram (prova social mais sólida hoje), formato reels, 8-10 peças novas.",
   "summary_highlights": [
     {
       "category": "maturidade",
@@ -24,8 +24,8 @@
     {
       "category": "oportunidade",
       "label": "Matéria-prima pronta",
-      "value": "GMB 4,7★ + depoimentos IG",
-      "subtext": "Prova social real, nunca usada em anúncio pago",
+      "value": "Depoimentos reais no Instagram",
+      "subtext": "GMB (4,7★) reforça, mas com 16 avaliações ainda abaixo do benchmark do setor (50+)",
       "tone": "green"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "category": "vantagem",
-      "text": "A prova social mais forte da Fixa (GMB 4,7★, depoimentos reais no Instagram) já existe e nunca foi usada em anúncio pago."
+      "text": "A prova social mais forte da Fixa (depoimentos reais no Instagram, com nome e foto) já existe e nunca foi usada em anúncio pago — o GMB (4,7★) reforça, mas ainda tem poucas avaliações pra carregar sozinho."
     },
     {
       "category": "ameaca",
@@ -110,7 +110,7 @@
       "seen_in": [
         0
       ],
-      "reason": "Prova social objetiva e verificável, ainda não usada em nenhuma peça de comunicação paga (gap já identificado em ee-s1-auditoria-comunicacao)."
+      "reason": "Prova social real, mas amostra pequena (16 avaliações, abaixo do benchmark do setor de 50+) — reforça, não substitui, a prova social mais forte que são os depoimentos reais do Instagram."
     }
   ],
   "competitor_analysis": [
@@ -175,7 +175,7 @@
     "visual_elements": [
       "Rostos reais — clientes reais (com autorização) ou o Carlos Henrique explicando o processo, nunca foto de banco de imagens (restrição já registrada no briefing do cliente)",
       "Cenário real: casa/bairro de padrão médio da região, ou o próprio escritório",
-      "Selo ou menção visual da nota do GMB (4,7★) como prova social",
+      "Depoimentos reais em vídeo (prova social mais forte) — GMB como reforço secundário, não protagonista",
       "Contraste alto + pouco texto na imagem (regra Meta: texto <20% da área)"
     ],
     "avoid_elements": [
@@ -203,10 +203,10 @@
     "variation_plan": "3 hooks (dor direta / depoimento real / integração técnico-jurídica) × 2 formatos (reels + feed estático) × 2 CTAs (agendar diagnóstico / falar no WhatsApp), reaproveitando as 5 hipóteses de teste já briefadas em ee-s2-diagnostico-midia (H1-H5) como ponto de partida, sem repetir o trabalho."
   },
   "key_insight": {
-    "headline": "A Fixa tem prova social real (GMB 4,7★, depoimentos no Instagram) mas nunca virou criativo pago — é o gap mais barato de fechar antes de escalar mídia.",
-    "context": "Zero criativos pagos existem hoje (confirmado em 3 diagnósticos anteriores), mas ao contrário do zero em mídia paga, aqui a matéria-prima já existe: depoimentos reais e nota do GMB. A DCA já usa esse tipo de prova (cases documentados) há anos no mercado local — a Fixa só precisa transformar o que já tem em formato de anúncio.",
+    "headline": "A Fixa tem depoimentos reais no Instagram mas nunca viraram criativo pago — é o gap mais barato de fechar antes de escalar mídia.",
+    "context": "Zero criativos pagos existem hoje (confirmado em 3 diagnósticos anteriores), mas ao contrário do zero em mídia paga, aqui a matéria-prima já existe: depoimentos reais no Instagram, a prova social mais forte que a Fixa tem hoje (o GMB, com 16 avaliações, ainda reforça pouco sozinho). A DCA já usa esse tipo de prova (cases documentados) há anos no mercado local — a Fixa só precisa transformar o que já tem em formato de anúncio.",
     "numbered_reasons": [
-      "(1) Ninguém produz criativo hoje (pilar criativos 13/100 em ee-s1-diagnostico-maturidade) — mas a matéria-prima (depoimentos, GMB) já está pronta",
+      "(1) Ninguém produz criativo hoje (pilar criativos 13/100 em ee-s1-diagnostico-maturidade) — mas a matéria-prima (depoimentos reais no Instagram) já está pronta",
       "(2) DCA já comprova que prova social documentada funciona no mercado local (SEO de cauda longa via cases nomeados)",
       "(3) As 5 hipóteses de criativo já briefadas em ee-s2-diagnostico-midia dão o ponto de partida — este diagnóstico só formaliza o padrão visual/formato"
     ],

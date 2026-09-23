@@ -50,7 +50,7 @@
     },
     {
       "category": "vantagem",
-      "text": "GMB com nota 4,7 (16 avaliações) já dá prova social pronta para os primeiros criativos, sem precisar captar do zero."
+      "text": "GMB com nota 4,7 (16 avaliações, ainda abaixo do benchmark do setor de 50+) é um sinal positivo, mas os depoimentos reais do Instagram são a prova social mais forte pronta pra usar em anúncio."
     },
     {
       "category": "ameaca",
@@ -122,8 +122,8 @@
       "dimension": "landing_pages"
     },
     {
-      "problem": "Vamos levar a prova social do GMB (4,7★, 16 avaliações) para dentro dos criativos pagos — hoje ela existe mas está isolada.",
-      "data_evidence": "ee-s1-auditoria-comunicacao: GMB reivindicado e com avaliações reais, mas não vinculado a nenhum outro canal.",
+      "problem": "Vamos levar a prova social real (depoimentos do Instagram, a mais forte hoje) para dentro dos criativos pagos — hoje ela existe mas está isolada.",
+      "data_evidence": "ee-s1-auditoria-comunicacao: depoimentos reais com nome e foto no Instagram, e GMB reivindicado com avaliações reais (16, volume ainda baixo) — nenhum dos dois vinculado a canal pago.",
       "impact": "Criativo sem prova social converte pior — usar isso desde o primeiro teste pode evitar 15-25% de CPL desperdiçado nos primeiros 30 dias.",
       "dimension": "creatives"
     },
@@ -536,7 +536,7 @@
     "total_reach_90d": 0,
     "avg_ctr": 0,
     "avg_cpm": 0,
-    "strategic_diagnosis": "Zero campanhas confirmadas via V4MOS nos últimos 90 dias — não existe conta Meta Ads ativa hoje. Vamos começar pelas audiências quentes (seguidores do Instagram + engajamento do GMB) para aproveitar a prova social já existente (4,7★, 16 avaliações) antes de escalar para público frio. As 5 hipóteses de criativo já mapeadas (H1-H5) formam o primeiro pack de teste, com R$1.700 de budget na semana 1. Lançamento condicionado a LP + CRM prontos (Semana 4).",
+    "strategic_diagnosis": "Zero campanhas confirmadas via V4MOS nos últimos 90 dias — não existe conta Meta Ads ativa hoje. Vamos começar pelas audiências quentes (seguidores do Instagram + engajamento do GMB) para aproveitar os depoimentos reais do Instagram — a prova social mais forte da Fixa hoje — antes de escalar para público frio (o GMB, com 4,7★ e 16 avaliações, reforça mas ainda tem volume abaixo do benchmark do setor de 50+). As 5 hipóteses de criativo já mapeadas (H1-H5) formam o primeiro pack de teste, com R$1.700 de budget na semana 1. Lançamento condicionado a LP + CRM prontos (Semana 4).",
     "critical_issues": [
       "Nenhum criativo pago produzido até hoje — ninguém na Fixa produz criativo de forma dedicada",
       "Sem pixel instalado — impossível medir conversão de qualquer campanha lançada hoje",
