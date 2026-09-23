@@ -1,0 +1,570 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "A Fixa vai implementar o funil de captação (tracking, landing page e CRM) antes de ligar qualquer real em mídia paga — hoje o investimento é R$0 (confirmado via V4MOS: 0 campanhas em Google e Meta Ads). Depois do funil pronto na Semana 4, o Cenário B (R$3.000/mês, Google+Meta) projeta 25-30 leads/mês a um CPL de ~R$50-60.",
+  "summary_headline": "Antes de ligar mídia paga, vamos implementar tracking + LP + CRM (Semana 4) — depois lançamos R$3.000/mês em Google+Meta com meta de 25-30 leads/mês.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Investimento atual",
+      "value": "R$0/mês",
+      "subtext": "0 campanhas ativas confirmadas via V4MOS (Google + Meta)",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Budget de lançamento (Cenário B)",
+      "value": "R$3.000/mês",
+      "subtext": "~25-30 leads/mês estimados [E], CPL blend ~R$50-60",
+      "tone": "green"
+    },
+    {
+      "category": "janela",
+      "label": "O que implementamos primeiro",
+      "value": "Tracking + LP + CRM",
+      "subtext": "Pré-requisito antes do 1º real em anúncio — Semana 4",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Se pularmos a ordem",
+      "value": "CPL parece ruim sem ser",
+      "subtext": "Anúncio pagaria pra provar o que já sabemos: falta conversão, não tráfego",
+      "tone": "red"
+    },
+    {
+      "category": "competicao",
+      "label": "Concorrente com budget maior",
+      "value": "Balen Regularizações",
+      "subtext": "Escala multi-estado — entramos menores, mas com ângulo que ninguém ocupa (prazo por escrito)",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "acao",
+      "text": "Vamos implementar tracking (GA4 + Search Console + pixel), LP de conversão e CRM básico antes de ligar qualquer real em anúncio."
+    },
+    {
+      "category": "contexto",
+      "text": "A Fixa nunca investiu em mídia paga — não é conta 'quebrada', é conta que nunca existiu (V4MOS confirma 0 campanhas)."
+    },
+    {
+      "category": "vantagem",
+      "text": "GMB com nota 4,7 (16 avaliações) já dá prova social pronta para os primeiros criativos, sem precisar captar do zero."
+    },
+    {
+      "category": "ameaca",
+      "text": "Ligar mídia antes do funil pronto faria o CPL parecer alto por vazamento de conversão, não por problema de anúncio."
+    }
+  ],
+  "segment": "Regularização fundiária e imobiliária (engenharia, arquitetura e direito imobiliário) — Caxias do Sul/RS",
+  "data_source": "v4mos_api",
+  "data_period": "90 dias (25/06/2026 a 23/09/2026) via V4MOS — 0 campanhas confirmadas em Google Ads e Meta Ads",
+  "monthly_budget": null,
+  "platforms_active": [],
+  "integrations_status": {
+    "meta_ads": "not_configured",
+    "google_ads": "not_configured",
+    "google_analytics": "not_configured"
+  },
+  "current_metrics": {
+    "cpl": null,
+    "ctr": null,
+    "conversion_rate": null,
+    "roas": null,
+    "cpc": null,
+    "total_investment": 0,
+    "total_leads": 0,
+    "total_clicks": 0,
+    "impressions": 0,
+    "frequency": null
+  },
+  "benchmarks": {
+    "cpl": 55,
+    "ctr": 3.5,
+    "conversion_rate": 5,
+    "roas": null,
+    "cpc": 7,
+    "source": "Blend de benchmarks V4 'Imobiliárias/Construtoras' (ticket alto, ROAS mais relevante que CPL isolado) e 'Advocacia/Serviços Jurídicos' (Google Search como canal principal, keywords de urgência) — natureza híbrida do serviço (engenharia + direito imobiliário). Sem histórico de conta real da Fixa para calibrar; tratar como ponto de partida do lançamento, não como meta."
+  },
+  "diagnosis_by_dimension": {
+    "account_structure": {
+      "organization": "nonexistent",
+      "segmentation": "Ainda não existe segmentação — vamos desenhá-la a partir do ICP (35-70 anos, Caxias do Sul, classe média/média-alta, foco em busca ativa por regularização/usucapião).",
+      "budget_allocation": "concentrated",
+      "observation": "Ainda não há budget alocado. A recomendação de lançamento concentra o orçamento inicial em Google Search (branded + intenção alta) e 1 campanha Meta de captura, evitando pulverização na fase de teste."
+    },
+    "creatives": {
+      "active_count": 0,
+      "ab_testing_active": false,
+      "average_frequency": null,
+      "fatigue_detected": false,
+      "evaluation": "Nenhum criativo pago existe hoje — confirmado com o operador que ninguém produz criativo de forma dedicada (ver ee-s1-diagnostico-maturidade, pilar criativos 13/100). Vamos partir das 5 hipóteses de teste abaixo."
+    },
+    "landing_pages": {
+      "lp_count": 0,
+      "coherence_with_ads": "low",
+      "estimated_bounce_rate": null,
+      "evaluation": "Nenhuma landing page ativa — o site institucional (desatualizado desde 2016) não converte e nem aparece nos 10 primeiros resultados do Google para o nome da própria marca (ver ee-s1-auditoria-comunicacao). Vamos construir a LP de conversão em ee-s3-landing-page antes de ligar mídia."
+    },
+    "audiences": {
+      "types_used": [],
+      "overlap_detected": null,
+      "retargeting_active": false,
+      "evaluation": "Nenhum público construído hoje — vamos desenhar a partir do ICP, priorizando audiências quentes (seguidores IG, engajamento GMB) antes de escalar para público frio."
+    }
+  },
+  "top_problems": [
+    {
+      "problem": "Vamos implementar landing page e CRM antes de qualquer real em mídia — hoje não existe onde o lead pago aterrissar nem quem faça o follow-up dele.",
+      "data_evidence": "CRO 8/100 e CRM 5/100 no diagnóstico de maturidade; accesses.google_analytics e accesses.google_search_console confirmados como false no briefing.",
+      "impact": "Sem isso, o primeiro mês de anúncio pago serviria só pra provar o que já sabemos — que falta conversão, não tráfego. Implementar antes evita queimar o budget de lançamento aprendendo o óbvio.",
+      "dimension": "landing_pages"
+    },
+    {
+      "problem": "Vamos levar a prova social do GMB (4,7★, 16 avaliações) para dentro dos criativos pagos — hoje ela existe mas está isolada.",
+      "data_evidence": "ee-s1-auditoria-comunicacao: GMB reivindicado e com avaliações reais, mas não vinculado a nenhum outro canal.",
+      "impact": "Criativo sem prova social converte pior — usar isso desde o primeiro teste pode evitar 15-25% de CPL desperdiçado nos primeiros 30 dias.",
+      "dimension": "creatives"
+    },
+    {
+      "problem": "Vamos instalar GA4, Search Console e pixel Meta antes do lançamento — sem isso não dá pra medir o que funciona.",
+      "data_evidence": "accesses.google_analytics=false, accesses.google_search_console=false; CRO 8/100.",
+      "impact": "Sem tracking, o budget de teste queima sem gerar aprendizado mensurável — qualquer decisão de otimização ficaria no achismo.",
+      "dimension": "account_structure"
+    }
+  ],
+  "action_plan": [
+    {
+      "action": "Vincular o site da Fixa ao perfil do GMB",
+      "priority": "high",
+      "expected_impact": "Quick win já mapeado na auditoria de comunicação — ajuda o site a aparecer para buscas pela própria marca antes do lançamento de mídia paga.",
+      "responsible": "Operador V4 / Fixa (acesso ao GMB)",
+      "deadline": "Semana 2"
+    },
+    {
+      "action": "Instalar Google Analytics 4 + Google Search Console + pixel Meta",
+      "priority": "high",
+      "expected_impact": "Sem isso, qualquer real investido em mídia não gera dado de otimização.",
+      "responsible": "V4 técnico",
+      "deadline": "Semana 2-3, junto com a criação da landing page"
+    },
+    {
+      "action": "Criar a landing page de conversão (regularização/REURB) com prova social do GMB e Instagram",
+      "priority": "high",
+      "expected_impact": "Sem LP dedicada, todo lead pago cai num site institucional que não converte (CRO 8/100) — pré-requisito para ligar qualquer campanha.",
+      "responsible": "V4 (ee-s3-landing-page)",
+      "deadline": "Semana 4"
+    },
+    {
+      "action": "Configurar CRM básico (Kommo) com pipeline mínimo",
+      "priority": "high",
+      "expected_impact": "Hoje leads morrem no WhatsApp pessoal do sócio — sem pipeline, o lead pago vai morrer igual ao lead de indicação.",
+      "responsible": "V4 (ee-s3-crm-setup)",
+      "deadline": "Semana 4"
+    },
+    {
+      "action": "Lançar campanha piloto Google Search (branded + intenção REURB/usucapião)",
+      "priority": "medium",
+      "expected_impact": "Primeiro teste real de captação paga com budget controlado (Cenário B) — mede CPL real antes de escalar.",
+      "responsible": "V4 mídia",
+      "deadline": "Pós-Semana 4 (LP + CRM prontos)"
+    },
+    {
+      "action": "Lançar campanha piloto Meta Ads (públicos quentes: seguidores IG + engajamento GMB)",
+      "priority": "medium",
+      "expected_impact": "Aquece a audiência antes de investir em frio, aproveitando a prova social já existente.",
+      "responsible": "V4 mídia",
+      "deadline": "Pós-Semana 4"
+    }
+  ],
+  "realistic_goal": {
+    "target_cpl": 55,
+    "target_roas": null,
+    "justification": "Sem histórico de conta real da Fixa, a meta parte do benchmark blend (imobiliário + jurídico) e é tratada como hipótese a validar no piloto, não como promessa. ROAS não é a métrica central por causa da variação enorme de ticket (R$5 mil a R$400 mil) — CAC/LTV é o framing mais honesto para este negócio.",
+    "assumptions": [
+      "LP de conversão e tracking no ar até o fim da Semana 4",
+      "CRM básico configurado e testado até o fim da Semana 4",
+      "GMB vinculado ao site antes do lançamento de mídia",
+      "Budget mínimo de R$1.500-3.000/mês sustentado por 60-90 dias contínuos"
+    ],
+    "risk_factors": [
+      "Conta nova sem histórico — período de aprendizado do algoritmo pode elevar CPL nas primeiras semanas",
+      "Manual de marca (ee-s3-manual-marca) precisa estar definido antes de subir criativo pago, já que Engenharia e Assessoria ainda estão em unificação de marca",
+      "Ciclo de venda longo (meses) — leads gerados no mês 1 podem só fechar depois dos 90 dias"
+    ]
+  },
+  "realistic_goal_90d": {
+    "current_cpl": null,
+    "target_cpl": 55,
+    "current_cac": null,
+    "target_cac": 400,
+    "current_leads_month": 0,
+    "target_leads_month": 25,
+    "premissas": [
+      "Landing page de conversão (ee-s3-landing-page) e tracking (GA4+pixel) no ar até o fim da Semana 4",
+      "CRM básico (ee-s3-crm-setup) configurado e testado até o fim da Semana 4",
+      "GMB vinculado ao site antes do lançamento de mídia (quick win já mapeado)",
+      "Budget mínimo de R$1.500-3.000/mês sustentado por pelo menos 60-90 dias contínuos",
+      "Manual de marca (ee-s3-manual-marca) definido antes de subir criativos pagos"
+    ]
+  },
+  "keyword_clusters": [
+    {
+      "cluster": "Marca",
+      "keywords": [
+        "fixa engenharia caxias do sul",
+        "fixa assessoria imobiliária",
+        "fixa regularização de imóveis"
+      ],
+      "intent": "navigational",
+      "budget_allocation_pct": 10,
+      "expected_cpc_range": "R$1-3",
+      "bid_strategy": "CPC manual baixo / máx. cliques",
+      "copy_angle": "Reforça marca + prova social GMB",
+      "risk": "Baixo volume de busca hoje (marca pouco conhecida no digital) — cluster pequeno mas barato"
+    },
+    {
+      "cluster": "Regularização/REURB",
+      "keywords": [
+        "regularizar imóvel Caxias do Sul",
+        "REURB Caxias do Sul",
+        "regularização fundiária Caxias do Sul",
+        "como regularizar casa sem escritura"
+      ],
+      "intent": "transactional",
+      "budget_allocation_pct": 30,
+      "expected_cpc_range": "R$5-12",
+      "bid_strategy": "Máx. conversões com CPA alvo após 30 dias de aprendizado",
+      "copy_angle": "Promessa de prazo por escrito + prova social GMB — ataca a objeção #1 (achar caro/demorado)",
+      "risk": "Concorrência da Balen (escala, budget maior) nesses termos",
+      "opportunity_keywords": [
+        {
+          "keyword": "regularização de terreno caxias do sul",
+          "intent": "transactional",
+          "volume_estimate": "baixo-médio [E]",
+          "expected_cpc": "R$5-10 [E]",
+          "rationale": "Variação de intenção equivalente não coberta pelas keywords atuais do ICP"
+        }
+      ]
+    },
+    {
+      "cluster": "Usucapião",
+      "keywords": [
+        "usucapião Caxias do Sul",
+        "como funciona usucapião",
+        "usucapião extrajudicial RS"
+      ],
+      "intent": "commercial",
+      "budget_allocation_pct": 20,
+      "expected_cpc_range": "R$4-10",
+      "bid_strategy": "CPA alvo",
+      "copy_angle": "Explica prazo/processo + convite pro diagnóstico gratuito",
+      "risk": "Termo técnico pode atrair curiosos sem caso concreto (ver anti-persona 'Curioso Especulador' em ee-s1-persona-icp)"
+    },
+    {
+      "cluster": "Escritura/Documento",
+      "keywords": [
+        "como tirar escritura de casa sem documento",
+        "imóvel sem escritura o que fazer",
+        "matrícula de imóvel irregular"
+      ],
+      "intent": "informational",
+      "budget_allocation_pct": 15,
+      "expected_cpc_range": "R$3-8",
+      "bid_strategy": "Máx. cliques, funil de topo com remarketing",
+      "copy_angle": "Empatia com a dúvida + prova de que dá pra resolver mesmo sem todos os documentos (ataca objeção #3)",
+      "risk": "Alto volume de tráfego frio de baixa intenção comercial imediata"
+    },
+    {
+      "cluster": "Inventário/Herança",
+      "keywords": [
+        "inventário e regularização de imóvel RS",
+        "inventário de imóvel sem escritura",
+        "herança imóvel não regularizado"
+      ],
+      "intent": "commercial",
+      "budget_allocation_pct": 15,
+      "expected_cpc_range": "R$4-9",
+      "bid_strategy": "CPA alvo",
+      "copy_angle": "Evitar briga entre herdeiros — ataca o job emocional/social do ICP",
+      "risk": "Ciclo de decisão pode ser mais longo (múltiplos herdeiros decidindo)"
+    },
+    {
+      "cluster": "Genéricas long-tail",
+      "keywords": [
+        "advogado usucapião caxias do sul",
+        "engenheiro para regularização de imóvel"
+      ],
+      "intent": "commercial",
+      "budget_allocation_pct": 10,
+      "expected_cpc_range": "R$3-7",
+      "bid_strategy": "Máx. cliques, orçamento de teste",
+      "copy_angle": "Captura intenção adjacente que não usa o termo exato 'regularização'",
+      "risk": "Volume imprevisível — monitorar e realocar após 30 dias"
+    }
+  ],
+  "budget_reallocation_scenarios": {
+    "description": "Sem budget histórico para realocar — os 3 cenários abaixo são de LANÇAMENTO, dimensionados a partir do ticket médio (R$5-400 mil) e do orçamento confortável para o teste inicial.",
+    "scenario_a_conservative": {
+      "name": "Conservador",
+      "total_budget_monthly": 1500,
+      "google_split": 1000,
+      "meta_split": 500,
+      "expected_leads_monthly": 13,
+      "expected_cpl": 65,
+      "expected_roas": null,
+      "confidence": "low",
+      "effort_weeks": 1,
+      "risk_assessment": "Budget mínimo viável para gerar sinal, mas pode não ser suficiente pra sair da fase de aprendizado dos algoritmos em 30 dias.",
+      "campaigns_structure": [
+        {
+          "campaign": "Search - Regularização/REURB",
+          "platform": "Google",
+          "budget_monthly": 700,
+          "objective": "Geração de lead - alta intenção"
+        },
+        {
+          "campaign": "Search - Marca",
+          "platform": "Google",
+          "budget_monthly": 300,
+          "objective": "Proteção de marca/branded"
+        },
+        {
+          "campaign": "Meta - Retargeting IG/GMB",
+          "platform": "Meta",
+          "budget_monthly": 500,
+          "objective": "Aquecer audiência já engajada"
+        }
+      ]
+    },
+    "scenario_b_realistic": {
+      "name": "Realista",
+      "total_budget_monthly": 3000,
+      "google_split": 2000,
+      "meta_split": 1000,
+      "expected_leads_monthly": 27,
+      "expected_cpl": 55,
+      "expected_roas": null,
+      "confidence": "medium",
+      "effort_weeks": 2,
+      "risk_assessment": "Budget compatível com o ciclo de aprendizado do algoritmo em 60-90 dias — pequeno perto do budget de concorrentes maiores (Balen), mas suficiente para validar o canal.",
+      "campaigns_structure": [
+        {
+          "campaign": "Search - Regularização/REURB",
+          "platform": "Google",
+          "budget_monthly": 1000,
+          "objective": "Geração de lead - alta intenção"
+        },
+        {
+          "campaign": "Search - Usucapião + Inventário",
+          "platform": "Google",
+          "budget_monthly": 600,
+          "objective": "Geração de lead - intenção comercial"
+        },
+        {
+          "campaign": "Search - Marca",
+          "platform": "Google",
+          "budget_monthly": 400,
+          "objective": "Proteção de marca/branded"
+        },
+        {
+          "campaign": "Meta - Retargeting quente",
+          "platform": "Meta",
+          "budget_monthly": 600,
+          "objective": "Aquecer audiência já engajada"
+        },
+        {
+          "campaign": "Meta - Interesse frio (teste)",
+          "platform": "Meta",
+          "budget_monthly": 400,
+          "objective": "Teste de público frio"
+        }
+      ]
+    },
+    "scenario_c_aggressive": {
+      "name": "Agressivo",
+      "total_budget_monthly": 6000,
+      "google_split": 4000,
+      "meta_split": 2000,
+      "expected_leads_monthly": 55,
+      "expected_cpl": 50,
+      "expected_roas": null,
+      "confidence": "low",
+      "effort_weeks": 3,
+      "risk_assessment": "Só faz sentido depois que o Cenário B validar CPL/conversão reais — pular direto pro agressivo sem esses dados é apostar às cegas, além de exigir CRM/atendimento comercial já rodando pra não desperdiçar leads."
+    },
+    "recommendation": "Cenário B é o ponto de partida recomendado — dá volume suficiente pra sair da fase de aprendizado sem comprometer caixa antes de validar CPL real."
+  },
+  "creative_testing_hypotheses": {
+    "description": "5 hipóteses de teste A/B para a primeira semana de campanha, cada uma amarrada a uma dor, objeção ou diferencial já mapeado no ICP/SWOT.",
+    "hypotheses": [
+      {
+        "id": "H1",
+        "hypothesis": "Se o anúncio abrir com a dor específica 'sua casa não tem escritura' (dor crítica do ICP), então o CTR será maior que um anúncio institucional genérico, porque nomeia a dor exata que já preocupa o ICP.",
+        "angle": "Dor + urgência prática (venda/financiamento travados)",
+        "format": "Reels/vídeo curto",
+        "hook": "Sua casa não tem escritura regularizada?",
+        "body": "Você pode estar impedido de vender, financiar ou deixar o imóvel resolvido para seus filhos. A Fixa resolve engenharia, medição e registro em um só lugar — com prazo definido por escrito.",
+        "cta": "Fale com a Fixa e descubra seu prazo real",
+        "target_audience": "Público quente (seguidores IG + engajamento GMB), 35-70 anos, Caxias do Sul",
+        "success_criteria": "CTR > 1,2% E CPL abaixo de R$60 nos primeiros 14 dias",
+        "testing_budget": 400,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H2",
+        "hypothesis": "Se o criativo usar depoimento real em vídeo de cliente com nota do GMB (4,7★), então o CPL será menor que criativo sem prova social, porque ataca diretamente a desconfiança mapeada no ICP.",
+        "angle": "Prova social / depoimento",
+        "format": "Vídeo depoimento",
+        "hook": "Foi assim que a Fixa resolveu o problema de...",
+        "body": "Depoimento real de cliente atendido pela Fixa, com nota real do Google (4,7★, 16 avaliações).",
+        "cta": "Veja se o seu caso pode ser resolvido também",
+        "target_audience": "Público frio lookalike de clientes atuais",
+        "success_criteria": "CPL 15% menor que a média dos outros criativos testados",
+        "testing_budget": 400,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H3",
+        "hypothesis": "Se o anúncio comunicar 'prazo definido por escrito', então a taxa de conversão da LP será maior, porque nenhum concorrente mapeado (Balen, DCA, BLM) formaliza essa promessa.",
+        "angle": "Diferencial competitivo (prazo)",
+        "format": "Carrossel estático",
+        "hook": "O único escritório da região que coloca o prazo no papel",
+        "body": "Engenharia, arquitetura e direito imobiliário em um só processo — com prazo definido por escrito desde o início.",
+        "cta": "Agende seu diagnóstico",
+        "target_audience": "Público frio de interesse (regularização, usucapião)",
+        "success_criteria": "Conv. LP > 5%",
+        "testing_budget": 300,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H4",
+        "hypothesis": "Se o criativo focar no medo de brigar na Justiça por herança (job emocional/social) em vez do aspecto técnico, então vai gerar mais leads qualificados no público 50-70 com filhos, porque essa é a dor emocional dominante nesse subgrupo.",
+        "angle": "Emocional (herança/família)",
+        "format": "Imagem única + copy longa",
+        "hook": "Não deixe essa dor de cabeça para seus filhos resolverem",
+        "body": "Regularize o imóvel da família agora e evite disputa de herança no futuro. Processo conduzido por quem entende de engenharia e de direito.",
+        "cta": "Fale com a Fixa sobre o seu caso",
+        "target_audience": "Interesse em herança/inventário, 50-70 anos",
+        "success_criteria": "CPL abaixo do benchmark (R$60) E pelo menos 30% dos leads mencionarem herança/inventário no primeiro contato",
+        "testing_budget": 300,
+        "testing_duration_days": 14
+      },
+      {
+        "id": "H5",
+        "hypothesis": "Se o anúncio de busca usar a keyword exata 'usucapião Caxias do Sul' no headline 1, então o CTR será maior que um anúncio genérico de 'regularização de imóveis', porque casa com a intenção literal de busca do usuário.",
+        "angle": "Correspondência de intenção de busca",
+        "format": "RSA (responsive search ad)",
+        "hook": "Usucapião em Caxias do Sul",
+        "body": "Engenharia + Direito em um só processo. Prazo definido por escrito. Fale com a Fixa.",
+        "cta": "Solicite seu diagnóstico gratuito",
+        "target_audience": "Search - cluster Usucapião",
+        "success_criteria": "CTR > 4% (benchmark do setor: 2,5-6%)",
+        "testing_budget": 300,
+        "testing_duration_days": 14
+      }
+    ],
+    "testing_budget_total_week_1": 1700
+  },
+  "daypart_optimization": {
+    "description": "Ajustes de lance por janela de dia/hora, baseados no comportamento do ICP (proprietário de imóvel 35-70 anos, muitos já tentaram resolver sozinhos no cartório/prefeitura).",
+    "adjustments": [
+      {
+        "day_time": "Segunda-Sexta 8h-12h",
+        "bid_adjustment_pct": 15,
+        "rationale": "Horário em que o ICP costuma resolver assuntos administrativos e ligar para cartório/prestadores — confirmado na call de kickoff."
+      },
+      {
+        "day_time": "Segunda-Sexta 18h-21h",
+        "bid_adjustment_pct": 10,
+        "rationale": "Horário de decisão familiar/compartilhada (cônjuge, herdeiros) fora do expediente — a decisão do ICP às vezes é compartilhada."
+      },
+      {
+        "day_time": "Segunda-Sexta 12h-14h",
+        "bid_adjustment_pct": -10,
+        "rationale": "Horário de almoço, menor atenção a anúncios de alta consideração como este."
+      },
+      {
+        "day_time": "Sábado 9h-13h",
+        "bid_adjustment_pct": 0,
+        "rationale": "Manter neutro para testar — sem dado histórico ainda, reavaliar após 30 dias de campanha."
+      },
+      {
+        "day_time": "Domingo",
+        "bid_adjustment_pct": -30,
+        "rationale": "Cartório e prefeitura fechados aos domingos — reduz a urgência de contato imediato no setor."
+      }
+    ]
+  },
+  "google_ads": {
+    "integration": "Nenhuma conta Google Ads vinculada hoje",
+    "budget_monthly_declared": null,
+    "budget_monthly_actual": 0,
+    "total_campaigns": 0,
+    "active_campaigns": 0,
+    "paused_campaigns": 0,
+    "status": "critical",
+    "score": 0,
+    "score_classification": "critical",
+    "total_spend_90d": 0,
+    "total_clicks_90d": 0,
+    "total_impressions_90d": 0,
+    "total_conversions_90d": 0,
+    "avg_cpa": null,
+    "avg_ctr": 0,
+    "strategic_diagnosis": "Zero campanhas confirmadas via V4MOS nos últimos 90 dias — não existe conta Google Ads ativa hoje. Vamos estruturar o Google Search a partir dos 6 clusters de keyword já mapeados (Marca, Regularização/REURB, Usucapião, Escritura/Documento, Inventário/Herança, Genéricas), concentrando o budget inicial em Search de alta intenção (REURB/usucapião) e proteção de marca. O lançamento só acontece depois que LP e tracking estiverem prontos (Semana 4) — ligar antes disso mediria vazamento de funil, não performance de anúncio.",
+    "paused_campaigns_opportunity": [],
+    "monthly_evolution": [],
+    "day_of_week": [],
+    "gender_breakdown": [],
+    "top_keywords": []
+  },
+  "meta_ads": {
+    "integration": "Nenhuma conta Meta Business vinculada hoje",
+    "budget_monthly_declared": null,
+    "budget_monthly_actual": 0,
+    "total_campaigns": 0,
+    "total_ads": 0,
+    "total_creatives": 0,
+    "status": "critical",
+    "score": 0,
+    "score_classification": "critical",
+    "total_spend_90d": 0,
+    "total_clicks_90d": 0,
+    "total_impressions_90d": 0,
+    "total_reach_90d": 0,
+    "avg_ctr": 0,
+    "avg_cpm": 0,
+    "strategic_diagnosis": "Zero campanhas confirmadas via V4MOS nos últimos 90 dias — não existe conta Meta Ads ativa hoje. Vamos começar pelas audiências quentes (seguidores do Instagram + engajamento do GMB) para aproveitar a prova social já existente (4,7★, 16 avaliações) antes de escalar para público frio. As 5 hipóteses de criativo já mapeadas (H1-H5) formam o primeiro pack de teste, com R$1.700 de budget na semana 1. Lançamento condicionado a LP + CRM prontos (Semana 4).",
+    "critical_issues": [
+      "Nenhum criativo pago produzido até hoje — ninguém na Fixa produz criativo de forma dedicada",
+      "Sem pixel instalado — impossível medir conversão de qualquer campanha lançada hoje",
+      "Identidade visual ainda em unificação (Engenharia + Assessoria) — aguardar ee-s3-manual-marca antes de padronizar criativos pagos"
+    ],
+    "top_5_ads_by_spend": [],
+    "monthly_evolution": [],
+    "creative_gallery": [],
+    "creative_gallery_summary": {
+      "total_displayed": 0,
+      "total_ads": 0,
+      "manter": 0,
+      "otimizar": 0,
+      "eliminar": 0,
+      "note": "Nenhum ad ativo — galeria populada após o lançamento do piloto."
+    }
+  },
+  "key_insight": {
+    "headline": "Vamos construir o funil primeiro (tracking + LP + CRM) e só depois ligar mídia — essa ordem evita queimar budget de lançamento aprendendo o óbvio.",
+    "context": "A Fixa está pronta para investir em mídia, mas o funil que recebe esse tráfego ainda não existe. Implementar tracking, LP e CRM antes do primeiro real em anúncio garante que o CPL medido no piloto reflita o anúncio, não o vazamento de conversão.",
+    "numbered_reasons": [
+      "(1) CRO 8/100 e CRM 5/100 — hoje não há onde o lead pago aterrissar nem quem faça o follow-up dele",
+      "(2) A causa-raiz não é falta de tráfego, é ausência de estrutura de conversão (site institucional não converte, sem CRM, sem tracking)",
+      "(3) Com o funil pronto, o Cenário B projeta 25-30 leads/mês a um CPL de ~R$50-60 — upside real, mas só depois da base implementada"
+    ],
+    "discussion_anchor": "O stakeholder precisa aprovar esta ordem de implementação (funil antes de mídia) antes do próximo ciclo, para alinhar expectativa de quando o primeiro lead pago realmente chega."
+  },
+  "honesty_alert": "Todos os números de CPL/leads/CAC são estimados sem histórico real de conta da Fixa — tratar como hipótese a validar no piloto (pós Semana 4), não como promessa. ROAS não foi usado como meta central pela variação enorme de ticket (R$5 mil a R$400 mil).",
+  "is_launch_plan": true,
+  "completed_at": "2026-09-23T12:17:44Z"
+}

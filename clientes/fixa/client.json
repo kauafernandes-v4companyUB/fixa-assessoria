@@ -139,10 +139,10 @@
     "fetched_at": "2026-09-08"
   },
   "connectors": {
-    "fetched_at": "2026-09-08T11:20:24Z",
+    "fetched_at": "2026-09-23T12:06:29Z",
     "period": {
-      "start": "2026-06-10T00:00:00Z",
-      "end": "2026-09-08T23:59:59Z"
+      "start": "2026-06-25T00:00:00Z",
+      "end": "2026-09-23T23:59:59Z"
     },
     "google_ads": {
       "total_campaigns": 0,
@@ -275,10 +275,10 @@
         "skip_reason": "Skill marcada como STUB no plugin (sem lógica de geração implementada ainda) — sem entregável possível. Status 'skipped' (não 'pending') para não aparecer como pendência no portal; o renderer filtra skills 'skipped' de todas as listas/contadores/slides. Reavaliar quando a V4 liberar o conteúdo desta skill."
       },
       "ee-s2-diagnostico-midia": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-23T12:18:08Z",
+        "completed_at": "2026-09-23T12:18:08Z"
       },
       "ee-s2-diagnostico-organico-ig": {
         "status": "pending",
@@ -299,10 +299,10 @@
         "completed_at": "2026-09-15T00:00:00Z"
       },
       "ee-s2-posicionamento": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-23T12:32:04Z",
+        "completed_at": "2026-09-23T12:32:04Z"
       },
       "ee-s2-diagnostico-cro": {
         "status": "pending",
@@ -432,6 +432,18 @@
       "skill": "ee-continuar",
       "checkpoint": 0,
       "decision": "Operador pediu para remover ee-s1-arquitetura-presenca de toda visualização do portal, já que a skill é STUB (sem entrega possível) e não deveria aparecer como pendência eterna. Status alterado de 'pending' para 'skipped' em progress.skills — o renderer do portal (shared-templates/portal.html) filtra explicitamente skills com esse status de todas as listas, contadores de semana e slides. Não foi alterado o delivery-map.json nem o dependency_graph.json (arquivos compartilhados entre todos os clientes do plugin) — a mudança é local ao progresso da Fixa. Nenhuma outra skill do modelo inside-sales depende de ee-s1-arquitetura-presenca."
+    },
+    {
+      "ts": "2026-09-23T12:18:08Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 0,
+      "decision": "Diagnóstico de mídia gerado como plano de lançamento (Fixa não investe em mídia paga hoje — 0 campanhas confirmadas via V4MOS em Google Ads e Meta Ads nos últimos 90 dias). Aprovado sem ajustes de conteúdo/números. Operador pediu ajuste de tom: material para a reunião não deve soar como diagnóstico ('o que está errado') pois o cliente já sabe que não tem nada estruturado e conhece os riscos — deve soar como roadmap de implementação ('o que vamos implementar de imediato, como e por quê'). Sequenciamento mantido: tracking + landing page + CRM (Semana 4) antes de qualquer real em mídia, para não mascarar vazamento de funil como problema de anúncio (consistente com a decisão já registrada em ee-s1-diagnostico-maturidade). Cenário B (R$3.000/mês Google+Meta) recomendado, meta 90 dias de 25 leads/mês a CPL ~R$55."
+    },
+    {
+      "ts": "2026-09-23T12:32:04Z",
+      "skill": "ee-s2-posicionamento",
+      "checkpoint": 0,
+      "decision": "Posicionamento aprovado com ajuste crítico do operador: a direção inicial proposta incluía 'prazo por escrito' como território de mensagem (territorio livre identificado em ee-s2-pesquisa-mercado e ee-s1-swot, mesmo suavizado como 'transparência desde a primeira conversa'). Operador rejeitou explicitamente qualquer menção a prazo/data como bullshit ('já falei pra você que isso é bullshitagem') — direção descartada permanentemente, registrado em memória. Direção final aprovada: PUV e declaração de posicionamento apoiadas em 'Integração técnico-jurídica + Relacionamento institucional de 10 anos' (ambos diferenciais confirmados, não aspiracionais). Território de marca: Integração + Relacionamento + Tranquilidade. Tagline recomendada: 'Engenharia e direito, num processo só.' Canvas 4P, mapa competitivo (quadrante vazio: boutique relacional + digital forte) e key_insight ajustados para nunca mencionar prazo como promessa em nenhuma comunicação futura (LP, copy, criativos, scripts de SDR)."
     }
   ]
 }

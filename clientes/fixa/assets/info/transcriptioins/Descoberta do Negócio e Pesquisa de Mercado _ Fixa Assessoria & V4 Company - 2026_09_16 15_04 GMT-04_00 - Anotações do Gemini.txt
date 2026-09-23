@@ -1,0 +1,1084 @@
+﻿set. 16, 2026
+Descoberta do Negócio e Pesquisa de Mercado | Fixa Assessoria & V4 Company - Transcrição
+00:00:23
+
+
+Kauã Fernandes: Fala pessoal, beleza? Ô,
+Leonardo Demarchi: Opa,
+Kauã Fernandes: gostei do fundo aí, ô Léo. Deixa eu te mostrar o meu aqui rapidinho.
+Leonardo Demarchi: pode tirar um pouquinho rapidão. Meu, tem umas coisinhas ali, ó. Ah, lá, ó.
+Kauã Fernandes: Tem mais um ali, só que tá na na sala que eu tava tocando.
+Leonardo Demarchi: Aham.
+Kauã Fernandes: E tem uma guitarra ali.
+Leonardo Demarchi: Eu tenho,
+Kauã Fernandes: Ali só o braço dela ali também no chão que não tem.
+Leonardo Demarchi: tem mais um no chão ali, rosinha também.
+Kauã Fernandes: E tem um violão ali no chão também.
+Leonardo Demarchi: Eu tenho esses aqui só.
+Kauã Fernandes: Pô, maneiro, cara. Esse aí, esse aí do meio, corpudinho é um é um é um cavaquinho. É um cavaco.
+Leonardo Demarchi: Esse aqui é uma viola.
+Kauã Fernandes: É, é uma viola.
+Leonardo Demarchi: Aham. Aqui tem um pulelê.
+Kauã Fernandes: Da hora. O clelê eu toco também.
+Leonardo Demarchi: Aí tem um violão de aço. Esse primeiro aqui. E esse azul é um violão de nylon.
+Kauã Fernandes: Top.
+
+
+
+
+00:01:17
+
+
+Kauã Fernandes: O rosinha que você vê é de nylon. Os que tava em cima era de aço também.
+Leonardo Demarchi: Aham.
+Kauã Fernandes: Deixa eu pegar uma água ali, pessoal, antes de eu avisar o pessoal para entrar.
+Leonardo Demarchi: Fechou.
+Kauã Fernandes: tá por aí, Luciano?
+Luciano Affonso: Tô aqui. Tô aqui, pai.
+Kauã Fernandes: Quietinho. Entrou quietinho.
+Luciano Affonso: Ah, é desse de desse desse assunto músico aí eu não participo, pô.
+Kauã Fernandes: Agora se tivesse falando de uma calistenia aqui, você já entrosava mais, né?
+Luciano Affonso: Ah, não. E é outra história.
+Leonardo Demarchi: Luciano, Luciano só toca cachorro.
+Luciano Affonso: T pedra nas casas.
+Leonardo Demarchi: Ai ô Luciano, o clima,
+Kauã Fernandes: Deixa eu aqui tá um calor
+Leonardo Demarchi: o clima aí tá esquisito também,
+Kauã Fernandes: safado.
+Leonardo Demarchi: cara. Aqui tava um frio do cão ontem, hoje tá a 25º.
+Luciano Affonso: Aqui tá assim também lá.
+Leonardo Demarchi: Tava acho que 6 ou 7 graus ontem, hoje tá 25. Haja imunidade.
+Kauã Fernandes: de imunidade, filho.
+Luciano Affonso: Ah, aqui ontem, aqui ontem tava 20º, aí hoje tá 13.
+
+
+
+
+00:03:41
+
+
+Leonardo Demarchi: Aham. Aqui a mínima para hoje é 11, cara. Você
+Luciano Affonso: PR
+Leonardo Demarchi: olha para fora, o céu tá limpinho, mas tá um frio. Apesar que 24º já já dá para ir pra praia, né, Luciano?
+Luciano Affonso: 24 gra sem camisa já.
+Leonardo Demarchi: Dá para fazer um churrasco já, tomar uma cerveja gelada.
+Kauã Fernandes: Boa pessoal, hoje vocês vão ficar mais como ouvintes aí, viu?
+Leonardo Demarchi: Да.
+Kauã Fernandes: É claro. Fique à vontade para contribuir. para não tem nenhuma pauta específica para vocês.
+Leonardo Demarchi: Угу.
+Kauã Fernandes: Ô, Luciano, vou te mandar um e-mail aqui, vê se você consegue adicionar esse e-mail na conta do IT Garden, tá? por favor.
+Luciano Affonso: Tá. Que e-mail é? É teu?
+Kauã Fernandes: Não é um contato que o sócio, outro sócio deles pediu para adicionar.
+Luciano Affonso: Ah, começou a guerra de novo.
+Kauã Fernandes: Como não nunca teve trégua, né? Já sabe. E a gente no meio.
+Luciano Affonso: Que loucura. Tá,
+Kauã Fernandes: Mandei aí.
+Luciano Affonso: manda que adiciona agora.
+Kauã Fernandes: Mandei aí.
+
+
+
+
+00:05:43
+
+
+Luciano Affonso: Só finalizando o negócio aqui, eu já adicionei e até o print de contar para vocês. Eu tô criando um, eu tinha uma plainha antes. e que eu conseguia tipoar minhas tarefas atrasadas e tudo mais e de acordo com a com a matriz de Zenher, né? E e também com sprints, Scrom que eu utilizava para grow dos projetos.
+Kauã Fernandes: Correto.
+Luciano Affonso: Aí, pô, planilha ultrapassando para cacete, né? Peguei e joguei a planilha no chat EPT e comecei a conversar com ele, pum, pum, no Codex, eu criei um aplicativo web para que faz a mesma coisa que a planilha é top. Aí,
+Kauã Fernandes: Da hora.
+Luciano Affonso: agora tô terminando de configurar aqui.
+Leonardo Demarchi: Cara, chat PT pago é muito bom. Eu tô usando para algumas coisas aqui. Nossa senhora.
+Kauã Fernandes: O Codex é bom, cara.
+Leonardo Demarchi: A função,
+Kauã Fernandes: O com o novo Codex que saiu.
+Leonardo Demarchi: o dele também é muito boa.
+Kauã Fernandes: Absurdo.
+Leonardo Demarchi: Ele vai te fazendo perguntas, vai respondendo, enfim. Cara, um que eu curti bastante para fazer aplicativo é o base 44, para tu fazer aplicativo web.
+
+
+
+
+00:07:07
+
+
+Luciano Affonso: É, o bom do que eu fiz agora com o chat é que eu trabalho dentro do meu próprio chat.
+Leonardo Demarchi: Mhm.
+Luciano Affonso: Aí eu não tenho, ele não tá hospedado em lugar nenhum, tá dentro do meu chat. Eu entro através do chat. Não tipo gastar com nada.
+Leonardo Demarchi: Sim, é o base 44, a mesma coisa. Eu criei esse tempo atrás um sisteminha como se fosse uma planilha financeira, só que um pouco mais bonita, sabe? Mais organizar.
+Luciano Affonso: Uhum.
+Leonardo Demarchi: Tudo no base 44, não preciso hospedar em lugar nenhum, fica dentro do do base 44. Eu posso mandar para qualquer um, posso até vender como MVP, se eu quiser.
+Kauã Fernandes: Da hora.
+Luciano Affonso: Sim.
+Kauã Fernandes: Engraçado, acho que a gente teve a mesma ideia ao mesmo tempo. Eu tô finalizando de desenvolver um uma business unit Autopilot. Ele varre as transcrições de todas as causas que eu faço, varre o Ecite, varre o BI, tá? E aí eu consigo adicionar o o TXT dos grupos de WhatsApp quando eu quiser para ele fazer o replanejamento semanal dos clientes. Luciano, só que eu não, só que eu não vou nem usufruir disso.
+
+
+
+
+00:08:16
+
+
+Leonardo Demarchi: Eu
+Kauã Fernandes: Vou tô fazendo e já vou ter que passar para pra Paola.
+Leonardo Demarchi: eu vou criar ainda para mim um sistema de demanda só para mim, porque cara, eu tenho aqui a V4 e tenho mais uns uns cinco, seis projeto em paralelo. Aí às vezes eu me perco nas demandas, fico, rapaz, que que tem que fazer hoje? Fazer um negócio para me notificar no WhatsApp.
+Kauã Fernandes: É, é bom, tá? Porque o ecite não notifica de jeito nenhum.
+Leonardo Demarchi: Não notifica ainda.
+Kauã Fernandes: Uma vez eu tava eu tava pagando uma solução chamada tict
+Leonardo Demarchi: Email. Uhum.
+Kauã Fernandes: e aí eu conseguia fazer o o ecai notificar através do zapier e o tictque,
+Leonardo Demarchi: Sim.
+Kauã Fernandes: mas aí eu parei de pagar o tictque e aí perdeu a integração.
+Leonardo Demarchi: Ah, tem agora para fazer isso aí.
+Kauã Fernandes: É tranquilo.
+Leonardo Demarchi: Conecta minha conta do chatt ali. Programa com o chatpt e vou. E aí, Ca? Você acha agora Med Clinic vai ou não?
+Kauã Fernandes: Agora,
+Leonardo Demarchi: Tem 54 páginas para eles olharem lá no WhatsApp.
+Kauã Fernandes: agora tem que ir. Deixa eu aceitar o Christian aqui.
+
+
+
+
+00:09:26
+
+
+Kauã Fernandes: Agora tem que ir, mano.
+Leonardo Demarchi: Tá louco.
+Kauã Fernandes: Boa tarde, Christian.
+Christian Lorencet: Boa tarde. Tudo bem?
+Kauã Fernandes: Tudo ótimo. E você?
+Christian Lorencet: Certo.
+Kauã Fernandes: Ô, tá um solzinho bacana aí.
+Christian Lorencet: Vai, eu vim no nos bosques aqui para participar da reunião.
+Kauã Fernandes: Legal. Boa. O Carlos vai entrar com a gente também, né?
+Christian Lorencet: Sim, ele só tá um pouquinho mais atrasadinho do que eu,
+Kauã Fernandes: Boa.
+Christian Lorencet: mas logo ele a gente pode começar já.
+Kauã Fernandes: Vamos aguardar então. Pode começar.
+Christian Lorencet: Sim,
+Kauã Fernandes: Você acredita?
+Christian Lorencet: sim,
+Kauã Fernandes: Sem problema.
+Christian Lorencet: tem problema.
+Kauã Fernandes: Não, tranquilo. Então, vamos iniciar. Christian, prazer conhecê-lo, tá?
+Christian Lorencet: Prazer.
+Kauã Fernandes: Sei que você não pôde estar presente na nossa primeira reunião. Teve uma correria, Carlos participou ali com a gente, mas eu sou o Kauan, tá? Vou estar à frente aí como testa do projeto de vocês, o seu account manager, tá? Junto comigo você sempre vai ver o Leonardo e o Luciano, tá bom?
+
+
+
+
+00:10:27
+
+
+Kauã Fernandes: Se quiserem se apresentar pro Cristian que ainda não tiveram contato com vocês, fiquem à vontade. Pode começar, Léo.
+Leonardo Demarchi: Boa tarde,
+Luciano Affonso: Boa,
+Leonardo Demarchi: Cristian.
+Luciano Affonso: boa.
+Leonardo Demarchi: Bom,
+Christian Lorencet: Так.
+Leonardo Demarchi: como falou, eu sou o Leonardo,
+Luciano Affonso: Posso começar?
+Leonardo Demarchi: tá?
+Luciano Affonso: Ah,
+Leonardo Demarchi: Tá, tô,
+Luciano Affonso: vai.
+Leonardo Demarchi: tô falando depois,
+Luciano Affonso: บ
+Leonardo Demarchi: depois vai tu. Então, Luciano, como que falou, sou Leonardo, fico responsável por toda a parte de criação visual do dos projetos, seja identidade visual, criativos ou social mídia. É tudo comigo. quiser tirar alguma dúvida, eh, ou recomendação, pode me chamar ali no WhatsApp que a gente tá sempre online.
+Christian Lorencet: Tranquilo. M.
+Kauã Fernandes: Tá mudo, Luciano.
+Leonardo Demarchi: Lúcia. Yeah.
+Luciano Affonso: Boa. Ah, então, basicamente, Christian, eu sou o Luciano, tá? Eu eu faço parte aqui da equipe, eu fico a cargo da gestão de tráfego, tá? Então, tudo que é de performance, anúncio, ã, canais de mídia, canais de aquisição, então tu pode contar comigo nesse ponto, certo?
+
+
+
+
+00:11:34
+
+
+Luciano Affonso: M.
+Christian Lorencet: Tranquilo. M.
+Kauã Fernandes: Além da gente, Christian, a gente tem o a nossa copywritter do projeto, tá? E a Nathália, que é a R de Squad, tá no grupo também,
+Christian Lorencet: Угу.
+Kauã Fernandes: mas não fica mais na parte gerencial ali do do squad, tá bom? Então, semana passada eu expliquei certinho como que funciona as entregas, né? Yeah. de quatro semanas, a gente vai batendo as pautas ali semana a semana, tá? E enviando para vocês o artefato e o portal que, na verdade, eu já vou mandar o link para vocês daqui a pouco e já tá pronto. É um portal com usuário e senha que vocês conseguem entrar e e verificar como que tá as entregas e os conteúdos que a gente apresenta nas nas reuniões.
+Christian Lorencet: que o Carlos chegou aí.
+Kauã Fernandes: Boa tarde, Carlos.
+FIXA Engenharia: Boa tarde. Tudo bem?
+Kauã Fernandes: Tudo ótimo. E você?
+FIXA Engenharia: Bem.
+Kauã Fernandes: Boa. A gente tá para começar, só tava passando pro Christian um resumo do que a gente conversou na na semana passada. Bom, agora que você chegou,
+FIXA Engenharia: Uhum.
+Kauã Fernandes: a gente vai iniciar definitivo.
+
+
+
+
+00:12:39
+
+
+Kauã Fernandes: Beleza?
+FIXA Engenharia: Uhum.
+Kauã Fernandes: Boa,
+FIXA Engenharia: Pode começar.
+Kauã Fernandes: pessoal. Então, vamos lá.
+FIXA Engenharia: Vai tocando aí. Pergunta pode começar.
+Kauã Fernandes: Tranquilo, tranquilo. Pessoal, que que a gente vai abordar aqui hoje, né? Hoje a gente entra no começa, né, o diagnóstico estratégico da Fixa, tá? Então, eh, tudo que vocês falam na call e tudo que vocês responderam nos formulários, eles auxiliam a gente aí construindo esse diagnóstico, tá? Então, se em algum momento a gente passar por uma informação ambígua sobre o negócio de vocês, eh, é muito importante que vocês falem pra gente, porque a partir daí a gente consegue ir auditando e ajustando o os próximos planejamentos, tá? Então, o que que a gente vai cobrir? Eh, oito blocos inicialmente, tá? Então, vamos olhar pra maturidade digital, tá? com scores por pilar. E aí o tom aqui que a gente vai falar eh não é basicamente o que tá errado e o que vocês precisam consertar, tá? Porque vocês já entraram com a gente com a assessoria, tá bom?
+
+
+
+
+00:13:58
+
+
+Kauã Fernandes: Então nós estamos aqui diagnosticando, tá? E já estamos propondo o que que a gente vai fazer, ações rápidas de zero custo para já tirar essas coisas que estão zeradas para uma nota mais satisfatória. Então sempre tenham isso em mente. Esse é o tom desses primeiros diagnósticos. Positivo.
+Christian Lorencet: positivo.
+Kauã Fernandes: Maravilha. Não tô vendo vocês, tá? Então, eh, se vocês terem algum gesto, alguma coisa, eu não vou conseguir ver. Eh, então qualquer coisa, levantem a mão aí com o Meet que eu volto pra tela do Meet e consigo dar atenção,
+Christian Lorencet: Tranquilo.
+Kauã Fernandes: combinado? Então, vamos falar sobre o perfil ideal do cliente de vocês, tá? Análise SWAT, o que ela já sugere fazer dentro do da próprio do próprio cruzamento, tá? auditoria de comunicação com os gaps de cada canal e o tamanho do mercado, tá? E dentro desse mercado, quem são os concorrentes e os concorrentes que mais pesam e como que fecha o projeto até aqui,
+Christian Lorencet: Sì.
+Kauã Fernandes: tá bom? Então, começando pelo mais concreto, tá? os números de onde? Fixa está hoje, tá?
+
+
+
+
+00:15:00
+
+
+Kauã Fernandes: E como que o que que esses números dizem pra gente. Então, em números reais é importante a gente trazer essa contextualização, porque ela vai ser muito importante daqui a pouco, principalmente quando a gente for falar de mercado, tá? Então, hoje a fixa projeta cerca de R$ 1.700 de faturamento para 2026, sendo aproximadamente 1 milhão vindo da frente de engenharia e 700.000 da frente de assessoria, tá?
+FIXA Engenharia: Так.
+Kauã Fernandes: Ainda dentro dessa contextualização, 10 anos de Fixa engenharia, tá? E 2 anos de assessoria. Então nós temos aí duas empresas, né, mais três frentes de atuação, parte imobiliária, parte de assessoria e ali a parte jurídica barra imobiliária que tem, né? E aí dentro disso a gente tem um cenário de uma marca em estado de unificação, né? Então vocês já chegaram nesse cenário aqui sem investimento em mídia paga, sem site funcionando de verdade e sem CRM estruturado, tá? Isso é fato. Então o próximo bloco que eu vou trazer para vocês, ele explica exatamente eh como vocês chegaram aqui, apesar da maturidade digital ser praticamente zero, tá? Eh, passar aqui. Boa.
+
+
+
+
+00:16:19
+
+
+Kauã Fernandes: Então, vamos lá. Por pilar, pessoal. Mostrei para vocês aquele número de R$ 1.700 por ano, tá? Só dentro ali de indicação e relacionamentos. Agora eu vou mostrar porquê disso ser ao longo do tempo uma conquista muito rica, tá? e um risco, efetivamente um risco. Por quê? A maturidade geral da Fixa está em 10 pontos de 100, mas acredito que isso não seja novidade para vocês, tá?
+FIXA Engenharia: SP
+Kauã Fernandes: Isso classifica como crítico, lógico, tá? E tá 26 pontos abaixo da média do setor imobiliário, tá? O setor médio de imobiliário vai girar esse diagnóstico nosso aqui de acordo com isso,
+FIXA Engenharia: Да.
+Kauã Fernandes: é de acordo com o próprio material interno da rede, tá? Esse diagnóstico, isso é usar é dentro daquele método que o Sa passou para vocês lá no começo, que a rede trabalha. Então, dentro da rede V4, o ramo imobiliário que a gente tem gira em torno de 36 de 100, tá? E nós estamos com 10 hoje. Olhando pilar para pilar, a gente vai entender porquê.
+FIXA Engenharia: E por quê?
+
+
+
+
+00:17:26
+
+
+Kauã Fernandes: Mídia paga tá em cinco, criativos em 13, CRO, que é a capacidade de converter a visita em contato, efetivamente tá em oito. CRM tá em cinco, tá? E CO, que é o search engine optimization, né, o CEO da do dos ambientes, aí 22 sendo o único pilar fora da faixa crítica, tá? Isso dentro daquele site auditado que eh a gente sabe que tá desatualizado, tá? E não tá funcionando, né? Não tá ativo. Tá ativo, mas não é uma não está eh operacional. É isso, né, Carlos?
+FIXA Engenharia: Isso.
+Kauã Fernandes: Perfeito.
+FIXA Engenharia: Na verdade não é não era nem para tá ativo isso aí.
+Kauã Fernandes: Boa. Então, por que que a gente tem mídia paga e CRM empatados no fundo da escala, eh, e com essa média de -35 pontos em relação à média do setor, tá? Eh, não é coincidência esses dois pontos estarem criticamente baixos juntos. Por quê? São exatamente esses dois pilares que vão decidir juntos se um lead vira cliente ou se um lead se perde pelo caminho, tá? Um sem o outro não resolve nada, é os dois juntos, tá? Isso é um grande problema do setor imobiliário no dentro da base, tá?
+
+
+
+
+00:18:51
+
+
+Kauã Fernandes: Então aqui a gente já entra uma pergunta para vocês entenderem ainda mais o que eu tô dizendo. Uma pergunta para vocês entenderem. Traditório, né? Mas enfim, hoje quando um contato novo chega pelo WhatsApp de vocês, que acontece depois da primeira abordagem e depois que esse lead para de responder?
+FIXA Engenharia: Não, se ele parar de responder, a gente não vai mais atrás.
+Kauã Fernandes: Existe alguma forma, uma planilha, alguma coisa de saber quanto lead entrou no mês e quantos nada
+FIXA Engenharia: Ah,
+Kauã Fernandes: boa.
+FIXA Engenharia: não existe controle disso aí.
+Kauã Fernandes: Perfeito.
+Christian Lorencet: S
+Kauã Fernandes: É exatamente o ponto desse score 5 em CRM, tá? Não tem visibilidade quantos leads entram. Isso vale tanto pro lead que vende indicação quanto pros futuros que vier de um anúncio de tráfego pago, tá? Por isso que não faz sentido hoje o Luciano subiu uma campanha para vocês de lead. Faz o menor sentido porque esses leads vão vazar. É um é colocar um a água numa bacia que não tem fundo, vai tá jogando água e vai estar passando direto, tá? Então os dois tm que andar juntos. Um estruturado sem o outro não vale a pena. Você tem um comercial mega estruturado, um CRM, pô, de ponta, todo automatizado, e não tem demanda para SRM, não vale de nada.
+
+
+
+
+00:20:11
+
+
+Kauã Fernandes: Aí se você tem muita demanda e você não tem controle dos leads, não faz follow-up, também não adianta nada, tá? Então, é isso que sustenta a nota de vocês. E por que que a gente tá sendo tão específico dessa forma com essa ordem de CRM e de e de lead, tá? O próprio diagnóstico, ele vai apontar pra gente que investir em mídia paga, tá, eh, antes de resolver essa questão do CRM, é fazer o investimento vazar, tá? Então é basicamente isso, não é uma opinião nossa aqui da V4 isolada,
+FIXA Engenharia: Ah, opinião
+Kauã Fernandes: tá? Mas é de fato honestidade, tá?
+Christian Lorencet: Yeah.
+Kauã Fernandes: que a gente tá documentando junto com diagnóstico aqui, tá bom? Eh, então não é um ajuste que a gente vai ter que fazer num processo aqui ali, não é? É começar praticamente do zero, quase em tudo, tá? Uma questão de fluxo de de atendimento de CRM, tá bom? E quase todos os outros pilares aqui do digital também não é referente a ajuste pontual, é de fato uma estruturação quase que zero que a gente vai tocar daqui pra frente,
+FIXA Engenharia: Sim,
+Kauã Fernandes: tá?
+FIXA Engenharia: a gente tá ciente.
+Kauã Fernandes: Perfeito.
+
+
+
+
+00:21:30
+
+
+Kauã Fernandes: Perfeito, pessoal. Eh, então, que que eu preciso de vocês? Tá aqui a gente já tem que tomar uma decisão. CRM básico com pipeline mínimo, tá? Eh, isso é básico. Vou até botar aqui para vocês pra gente conversar sobre isso. Qual que é a viabilidade hoje de vocês investirem numa plataforma de CRM?
+FIXA Engenharia: Cr
+Kauã Fernandes: CRM é um programa de gestão de leads. É, vai ser um um, vamos lá, um, eu vou mostrar na prática para você. Vou abrir um CRM de um cliente aqui, tá? Essa decisão precisa ser tomada e aí vocês precisam ter bastante clareza para tomar essa decisão, tá? Só um segundo enquanto eu abro aqui. Vou mostrar para vocês o CRM de um cliente e já é o CRM que a gente vai, que eu já indico para vocês fazerem uma contratação, tá? Assim que vocês tomarem essa decisão.
+FIXA Engenharia: Oh.
+Kauã Fernandes: Vamos lá. Hoje o atendimento tá concentrado no Carlos, né? E a demanda é baixa, correto?
+FIXA Engenharia: E o cara já não dá conta hoje.
+Kauã Fernandes: E o Carlos tem outros afazeres, né? Se eu coloco na mão de vocês um CRM que demanda muito tempo e é muito complexo e vai demandar mais do Carlos, que que vai acontecer?
+
+
+
+
+00:23:50
+
+
+Kauã Fernandes: Vai adiantar nada,
+FIXA Engenharia: Não vai ser feito não.
+Kauã Fernandes: vai piorar, correto? Tá? Então aqui a gente tem o CRM M de um cliente nosso chamado Valmac,
+Christian Lorencet: Não.
+Kauã Fernandes: bem robusto, tá? Mas o que que é a ideia aqui, tá? A ideia é que vocês contratem ele a versão automatizada, tá? Para justamente tirar a essa dependência do Carlos aqui dentro do CRM. O fluxo é, você consegue ver que os pipelines são essas linhas eh verticais, um pipeline em atendimento, dois pipeline, três para até fechar a venda. Então é o caminho que percorre até fechar a venda. A venda de vocês é com
+FIXA Engenharia: faz automatização com Ads, alguma coisa assim para ele automatizar as informações.
+Kauã Fernandes: exatamente essa visão, exatamente isso, tá? o o o caminho que le vai percorrer até ele fechar a venda e a venda de vocês tem um ciclo longo, tem uma é uma venda construtiva de ciclo longo. Então é muita informação triada durante esse período que hoje no WhatsApp já não funciona e se fosse colocar aqui para ficar continuar manual seria pior. Esse produto tem uma esse cliente tem uma venda construtiva também, é de ciclo longo, é máquinas industriais, tá?
+
+
+
+
+00:25:08
+
+
+Kauã Fernandes: Mas aí como funcionação? O lead entra aqui no lead de entrada, tá? O SDR IA, que é um agente que atua dentro do CRM, é uma IA de atendimento de qualificação de leads que atua dentro do CRM, faz o atendimento desse lead, tá? E percorre ele pelos caminhos. Então, em qualquer momento do dia que eu abrir o CRM, eu sei exatamente quantos leads estão em cada etapa, tá? E se o e se o a venda tá avançando, eu consigo saber quanto de dinheiro vocês têm em cada etapa. Igual aqui, ó, em proposta e proposta em espera, no momento tem 1980 propostas em espera aqui em em reais, quer dizer, entendeu? Valores em reais, tá? Então a ideia aqui é justamente vocês terem o CRM combinados com uma IA de atendimento que vai atuar dentro do CRM e vai automatizar o atendimento até certo ponto,
+FIXA Engenharia: Pronto.
+Kauã Fernandes: tá? Porque a o AIA não vai conseguir fechar o contrato para vocês.
+FIXA Engenharia: É, deixa eu fazer uma pergunta,
+Kauã Fernandes: Mas ela prático.
+Christian Lorencet: O que é que
+FIXA Engenharia: um exemplo prático, tá? Ah, chegou uma mensagem para mim no WhatsApp para ou enfim pro escritório,
+
+
+
+
+00:26:12
+
+
+Kauã Fernandes: Manda.
+FIXA Engenharia: enfim, porque a gente vai ter que também ter um IA de atendimento inicial para direcionar para ou pro meu celular ou pro celular de cada um dos escritórios.
+Kauã Fernandes: Ótimo. M.
+FIXA Engenharia: Ã, porque a gente então vai ter um número novo, Cristian, tá falando isso aí, para poder botar uma E vai ser num número novo, aquele que tá sobrando ali da conta. H, esse número novo,
+Christian Lorencet: Já.
+FIXA Engenharia: porque a gente não sabe para quem que vai ter que ser direcionado, atendimentos online, entendeu? Que vierem de leads de Google, Ads e coisa assim. Ah, aí, por exemplo, a pessoa vai clicar, quero falar sobre capião, vai pro da assessoria, quero falar sobre tal coisa, vai pro da engenharia, quero falar sobre tal coisa, vai pro meu, sabe?
+Christian Lorencet: Ah, tem que ter um antes, então. Amen.
+FIXA Engenharia: Yeah.
+Christian Lorencet: Угу.
+FIXA Engenharia: É, foi o que eles passaram ali, que seria o ideal.
+Kauã Fernandes: É, basicamente tem que ter um número para receber as demandas de tráfego separados, que não tenha mensagens pessoais de nenhum dos sócios, que não tenha nada, que esse número seja só para isso, porque a gente tá comprometido com comercial também e a gente tem que ter livre acesso a essas conversas desse WhatsApp, justamente para melhorar a performance.
+
+
+
+
+00:27:19
+
+
+Kauã Fernandes: Então, a indicação é ter um número destinado só para essa demanda de marketing.
+FIXA Engenharia: Sim. que aí esse número ã só o único problema seria os clientes salvarem esse número e continuarem mandando mensagem posterior para esse número. Isso seria um problema para nós. Mas tiverem alguma dúvida de algum loteamento, alguma coisa, sabe?
+Kauã Fernandes: É dentro do como a visão não é que o atendimento saia desse número e vá para você, mas que dentro desse mesmo número você consiga administrar todas as frentes. Dá para fazer isso dentro do como com o mesmo número, sem bagunçar, tá? Eh, é um pouco mais detalhado como que é feito isso dentro do como, mas dá para fazer, entendeu? E é, e na verdade é o que eu, que a gente faria naturalmente.
+FIXA Engenharia: Tá, mas vamos lá. Pessoal entrou em contato com aquele WhatsApp, tá? Ou enfim, caiu, caiu no meu WhatsApp ali para fazer um orçamento de alguma coisa aqui. O que faço, tá? Hã, como que o que a IA vai identificar? Por exemplo, se eu já mandei o orçamento, ela vai ler um PDF que tiver na conversa. Ã,
+Kauã Fernandes: Ela vai, ela vai ler, ela vai ler justamente o a etapa atual que esse lead tá.
+
+
+
+
+00:28:28
+
+
+Kauã Fernandes: Pô, se o lead tá aqui em proposta, em espera, pressupõe o quê?
+FIXA Engenharia: mas como que ele atravessa de um L,
+Kauã Fernandes: Se ele tá,
+FIXA Engenharia: como ele atravessa de uma categorização para outro?
+Kauã Fernandes: pô, vamos imaginar que tem uma de atendimento aqui. Esse aqui não tem, mas vamos imaginar que tenha. O lead chegou, contato inicial, poucas informações. Aí ela foi perguntando qual o tamanho no nesse caso desse cliente, qual o tamanho do negócio, qual o equipamento de desejado, tal, foi lá, criou o endereço, tal, pegou as informações, mandou a proposta, aí o lead sumiu. Aqui quando ele caiu para cá, ó, Iá já sabe. Eu, opa, mandou a proposta. Mandei para um humano, o humano já vai mandar a proposta. O humano já tem todas as informações para mandar a proposta. Então, se eu mandei o atendimento para humano, a proposta já tá lá. É lógico, é o é regra de negócio. Não faz sentido. Se eu já tenho todas as informações e e eu já passei o atendimento para humano, não tem como esse humano não ter mandado a proposta ainda. Não faz sentido.
+
+
+
+
+00:29:20
+
+
+Kauã Fernandes: A minha triagem serve justamente para isso, para preparar o atendimento, pro mano só chegar, fazer a triagem, mandar a proposta. Então, se a IA, a IA vai verificar, eu já passei esse atendimento para um mano e ele tá retornando o contato. Se for não, não tem proposta enviada. Se for sim, tem uma proposta enviada e a minha abordagem muda. Minha abordagem é fazer acompanhamento dessa em cima dessa proposta. Então aí vai e e como que ela sabe em que etapa que ela tá? Ela vai ler a etapa que o leite tá aqui nos pipelines. Aí ela sabe em que etapa cada em que etapa cada cardzinho desse tá, entendeu?
+Christian Lorencet: Daí faz um atendimento bom preliminar ou ela É tipo aquelas aquelas respostas meio padrão que o cara não vai querer nem dar andamento pro atendimento.
+Kauã Fernandes: É tudo, é tudo uma questão de prompt e base, base de dados, tá? Você pedi pro Carlos me exportar os últimos 200, 300 atendimentos que ele tem no WhatsApp e mandar para ela alinhado a um prompt bem feito. Um prompt, por exemplo, tem a que é tão mal feita hoje que se você começa a conversar com ela e perguntar a receita de bolo, ela manda, você perguntar e há de atendimento e há comercial, entendeu?
+
+
+
+
+00:30:33
+
+
+Kauã Fernandes: Isso é fala de prompt. Então, se você tem um prompinho e uma base eh de dados eh decente e com volume, aí você já começa melhor. Não quer dizer que ela vai ser a melhor logo no começo. Ela precisa de ajustes, ela precisa de treino, ela tem versões até você conseguir soltar ela pro público, tá? Mas aí é a implementação nossa, a gente cuida desse etapa,
+FIXA Engenharia: Mas esse seria um número exclusivo para usar em digital e coisas online.
+Kauã Fernandes: correto?
+FIXA Engenharia: Ela seria o número que ficaria na página do Instagram também.
+Kauã Fernandes: Pode ser, pode não ser. Ah, a ideal é que sim, porque o L entra ali no no na BI e já entra em contato e aí a IA vai perguntar por onde você entrou em contato. Se já vier com a mensagem automática de tráfego pago, ela já sabe que vio o tráfego pago, entendeu? Se vier com a mensagem pronta do Instagram, ela sabe que veio do Instagram. Se o L apagar e mandar qualquer coisa, ela vai perguntar da onde que veio.
+FIXA Engenharia: Tá. Poderia fazer uma coisa, Cristian, do tipo assim, entrar em contato que há com qual assunto deseja conversar. Aí ele clica no assunto, se é sobre Rurb, cai no meu número, se é sobre regularização de prefeitorias, cai no número do escritório, se é sobre regularização, o pode ser até no meu número de regulação de prefeitoria para as gurias não terem que ficar fazendo orçamento aí
+
+
+
+
+00:31:50
+
+
+FIXA Engenharia: também ou enfim, pode ser que bote uma guria fazer orçamento. Isso aí a gente pode alinhar também, a gente pode alterar isso aí depois quando tiver uma guria de comercial aqui dentro, porque a gente vai ter, eu acho que o ideal é a gente padronizar todos os orçamentos que não sejam extremamente completos, que nem o que aí a pessoa já tem o orçamento pronto,
+Kauã Fernandes: Aí, faz isso.
+FIXA Engenharia: é só enviar. A gente treina no comercial para fazer duas, três verificações simples. Por exemplo, os de os de casas ali de engenharia, tirando laudo de verão pericial e reurb, são todos automatizados os valores. Então a gente deixa um ali, faz duas, três verificações simples geocaxias, coisas assim, só para ver que é possível regularizar e passa orçamento.
+Kauã Fernandes: Boa.
+Christian Lorencet: Да.
+Kauã Fernandes: a gente,
+Christian Lorencet: Прос.
+Kauã Fernandes: qual que é o processo, tá? Vocês já têm dentro da estruturação estratégica comprados, vocês já pagaram por isso, a implementação de um CRM, tá? E a implementação de um SDRA. O SDRA ele é por crédito, então vocês fazem as recargas mensais.
+
+
+
+
+00:32:57
+
+
+Kauã Fernandes: para ele continuar mandando as mensagens. Mas a implementação do e e é se quiserem, mas a implementação eh vocês já pagaram e a implementação do CRM também já pagaram. Que que falta pra gente implementar o CRM? É o CRM. E o que que falta para implementar SDRA? Também é o CRM. Uma vez que tem o CRM, a gente implementa SDRA. E aí é é só ir adicionando os créditos. Qual que é a visão? Quanto mais cedo vocês tomarem a decisão do CRM, mais cedo a gente implementa, mais cedo a gente treina vocês e mais cedo vocês têm um comercial decente para receber demanda de tráfego pago, tá?
+FIXA Engenharia: Até porque assim o que que acontece,
+Kauã Fernandes: Então,
+FIXA Engenharia: minha preocupação é separar o que é tráfego pago do que que entra de indicação, porque o quem entra de indicação tem que ser diretamente um endimento humanizado, porque senão a gente vai ter problema.
+Kauã Fernandes: boa,
+FIXA Engenharia: Aqui nós vivemos numa região extremamente conservadora, os caras não gostam de falar com robô, eles gostam de ligar e conversar.
+Kauã Fernandes: boa,
+FIXA Engenharia: Então o que for indicação tem que passar o nosso número, Cristian.
+
+
+
+
+00:33:54
+
+
+FIXA Engenharia: Não adianta separar o que é tráfego pago para tráfico pago.
+Christian Lorencet: Sim,
+FIXA Engenharia: Assim,
+Kauã Fernandes: perfeito.
+FIXA Engenharia: a gente joga até porque se a gente for receber todo mundo que é tráfego pago, vai ter um monte de curioso,
+Christian Lorencet: tem que ter feito,
+Kauã Fernandes: Isso.
+FIXA Engenharia: um monte de coisa assim.
+Kauã Fernandes: Essa é a visão.
+Christian Lorencet: tá? E para instalar o CRM não seria interessante nós já tá com o site consolidado, com todas as mídias já consolidadas, porque não adianta a gente ter um CRM que não tem lead de lugar nenhum.
+Kauã Fernandes: Demanda positivo. Porém, a gente precisa realmente estruturar o que o ambiente para antes de receber a demanda,
+FIXA Engenharia: E vocês conseguiram entrar no Instagram?
+Kauã Fernandes: né? Sim. Não, o Instagram sim, mas eu depois no final da cal vou precisar de um tempinho seu, o Carlos, porque só falta aquela verificação de e-mail lá, cara. Só falta colocar o código ali e aí tá tudo certo, tá? Mas deixei para fazer na reunião que daí a gente faz junto, tá?
+FIXA Engenharia: Tu atende ele um,
+Kauã Fernandes: No final a gente faz.
+FIXA Engenharia: Tu atende ele 5 minutos, Cristian que eu só vou assinar aquele contrato de compra e venda lá para pessoa pegar as testemunhas ali dentro, porque senão eu tenho uma venda de um terreno que se o cara vem aqui, eu preciso ter testemunhas assinadas, eu preciso vender esse terreno para poder pagar mobílio do apartamento.
+
+
+
+
+00:34:59
+
+
+FIXA Engenharia: Se me preocupar,
+Kauã Fernandes: Pá,
+FIXA Engenharia: eu vou vou imprimir ele.
+Kauã Fernandes: vai lá,
+FIXA Engenharia: Tu continua relendo,
+Kauã Fernandes: fecha essa venda.
+FIXA Engenharia: CR. Só ver para mim quanto é que é o valor do CRM ali.
+Christian Lorencet: Seum
+FIXA Engenharia: Dá uma olhada o que que tu acha.
+Kauã Fernandes: Fecha essa venda lá, Carlos. Vai sair agora? Posso seguir? Não entendi direito. É isso,
+Christian Lorencet: sim,
+Kauã Fernandes: né? Pode seguir, né?
+Christian Lorencet: Tá tudo bem?
+Kauã Fernandes: Boa. Vamos lá. Eh, Cristian, Cristian, ficou alguma dúvida sobre o CRM? Você quer já falar de valores? Quer voltar nisso depois?
+Christian Lorencet: Não, acho que já dá para avançar pros valores mesmo,
+Kauã Fernandes: Tá bom.
+Christian Lorencet: pra gente ver se se cabe já de largada.
+Kauã Fernandes: Tá. Compartilhar aqui com você, tá? Boa. A gente já entra aqui na na versão de um ano, tá? Deixa eu ver se eu consigo Consigo solicitar para português? Não,
+Christian Lorencet: É, mas o dinheiro já tá em português aí, pelo que eu vi.
+
+
+
+
+00:36:11
+
+
+Kauã Fernandes: tá em português. Aí foi agora. Foi. Beleza. Eh, um ano fechou. Vamos olhar aqui os benefícios, tá? para você entender o motivo da minha indicação, porque que eu vou indicar, o plano que eu vou indicar, tá? Básico, funil de venda, que é aquele pipeline que eu mostrei, caixa de entrada unificada, que é o como ele vai conectar com todas as suas redes sociais, Google, Facebook, eh, Facebook, eh, Messenger do Facebook, inbox do Instagram, comentários do Instagram, tudo você consegue administrar dentro do como,
+Christian Lorencet: Угуm.
+Kauã Fernandes: tá? Por isso que tá falando caixa de entrada unificada, painel de controle, porque o como também permite você criar tarefas para esses leads. Vamos supor que você não vai automatizar nenhum atendimento, não é o caso aqui, mas você não vai automatizar e você tem uma equipe comercial. Aí dentro desse atendimento comercial, o lead falou pra tua equipe que tem que ver com a esposa e só vai ver depois que a esposa voltar de viagem, dia primeiro do mês que vem. O cara não vai anotar isso e muito menos vai ficar de cabeça. Ele pode colocar uma tarefa que o como vai lembrar ele exatamente o que ele tem que fazer nesse dia e para quem que ele tem que entrar em contato.
+
+
+
+
+00:37:26
+
+
+Kauã Fernandes: Por isso que fala painel de controle e calendário, tá? Então o básico tem isso, tá? E aí 250 L por licença e 750 créditos de IA por mês.
+Christian Lorencet: Угу.
+Kauã Fernandes: Avançado para equipes em crescimento, automáticos de chatos com IA. Aí aqui é automação de funis. Então aqui você já tem uma automatização feita, mas não é uma automatização de a, é uma automatização de bot, lista de transmissão, eh, bots sem código e é aqueles aquela programação arrasta solta, agentes de a, sugestão de valores de campos de a e detecção de mensagens perdidas. Tá bom? Aqui você tem todos os benefícios desse, mas essas versões aqui. E aqui a gente chega no Pro, que é onde começa a ficar interessante pra gente que quer realmente eh tirar o esforço humano do comercial. Ah, o Léo Léo tá entrando de outra conta, Léo. Vou aceitar aqui. Beleza. Aqui fica interessante pra gente que quer realmente tirar eh o esforço humano do comercial, tá? Então aqui a gente consegue tudo do avançado, criar página de agendamento, compartilhar link de agendamento, criar segmentos dinâmicos, sincronizar público alvo com plataformas de ads, tá?
+
+
+
+
+00:38:42
+
+
+Kauã Fernandes: Então isso aqui é sensacional. Nossa inteligência, nossas campanhas ficam mais e mais inteligentes porque os sistemas estão se retroalimentando, tá? E acompanhar a Hord campanhas. E aqui começa a parte interessante, o kit completo de IA. É aqui que realmente a gente vai, eh, se se diferenciar e se destacar até 50 agentes de a agendamento de consultas por gestão de mensagens por voz e análise de venda e marketing. Então, como o Carlos bem disse e como a gente até já levantou e vai mostrar para vocês, a nossa persona tem esse contato mais humano mesmo. E aí, se a gente tem um atendimento que não consegue nem ouvir áudio, lascou, entendeu?
+Christian Lorencet: Sim.
+Kauã Fernandes: Então, esse pacote aqui permite a Ia que vai eh fazer essa essa essa leitura de de ouvir áudio, tá? E aí o contrato é aqui você pode escolher o número de contrato, mas o anual acaba tendo o preço mais interessante, 194 por usuário por mês, tá? Só que onde que tá o pulo do gato? Você tem, vocês têm a equipe de vocês aí, né? Porém, vocês não precisam ter um usuário por pessoa. Vocês podem contratar um único usuário e esse único usuário todo mundo acessar.
+Christian Lorencet: Sì.
+
+
+
+
+00:39:55
+
+
+Kauã Fernandes: O que que se o que que se perde com isso? Qual é a desvantagem? A desvantagem é aqui. Se você tem o Cristian, o Carlos e mais uma pessoa no atendimento e aí alguém foi lá e cometeu um erro dentro do combo. Algum erro de atendimento, algum quebrou alguma automação por fuçar demais, alguma coisa. Como só tem o usuário, como entende que só uma pessoa mexeu e eu e eu nem vocês vai vamos descobrir quem realmente cometeu esse erro. Perde essa rastreabilidade porque por como só tem uma pessoa usando,
+Christian Lorencet: Sì.
+Kauã Fernandes: tá? Essa é a desvantagem de você ter um único usuário. Eu preciso você deixar ela bem explicitada para vocês, mas ainda assim eu recomendo que se compre só um usuário no começo e conforme a operação for ficando mais madura comercialmente aí a gente expande. Mas de começo, o único usuário é completamente possível, tá? Tá? Inclusive aquele CRM que eu mostrei para vocês anteriormente daquele cliente que já tá rodando, até hoje só tem um único usuário.
+Christian Lorencet: Tá, se nós contratarmos esse esse pacotinho pro aí, o lead vai ser atendido todo sozinho até chegar em um dos nossos telefonemas, o lead já atendido. É isso.
+
+
+
+
+00:41:00
+
+
+Kauã Fernandes: Correto. Correto.
+Christian Lorencet: Nós não vamosar fazer o atendimento preliminar de de nada,
+Kauã Fernandes: Não, ela já descarta. Curioso, tá?
+Christian Lorencet: tá?
+Kauã Fernandes: passa para vocês com priorização de de leads quentes barra leads e leads frios. Manda ou pro descarte ou pra nutrição. Que que é a nutrição? É um lead que, pô, não faz sentido falar com vocês agora, mas também não faz sentido descartar. Então ele vai para um canal onde ele vai ficar rodando mensagens esporádicas ali até ser o momento de compra desse leite,
+Christian Lorencet: Entendi.
+Kauã Fernandes: entendeu?
+Christian Lorencet: Uhum. Não, eu acho que é justo. Sai muito mais barato do que nós termos um comercial interno por enquanto, né?
+Kauã Fernandes: Correto? Essa é a visão, tá?
+Christian Lorencet: Угуm.
+Kauã Fernandes: Além do como eh existe a contratação do SDRA, tá? O como já tem a IA dele de vendas que vai performar, tá? Porém, o SDRA ele é ainda mais eficaz. Tá, mas eu vou falar do SDRA com vocês depois. Aqui dentro do que já tem do como eh já atende, tá?
+
+
+
+
+00:42:06
+
+
+Kauã Fernandes: Mas aí o SDRA é realmente o melhor que a IA pode proporcionar em triagem de atendimento, tá? Eh, vou mandar o link para vocês, deem uma olhada, eh, discutam aí as oportunidades e aí vocês podem me dar o retorno no WhatsApp que eu gero o link de pagamento para vocês. Não contratem por aqui, tá? Quando forem contratar, me avisem que eu mando o link para vocês de contratação.
+Christian Lorencet: Так.
+FIXA Engenharia: Qual que diferença tem desconto?
+Kauã Fernandes: Vocês têm 14 dias de graça pelo link que eu vou enviar.
+FIXA Engenharia: Ja.
+Kauã Fernandes: Eh, boa. Voltando paraa apresentação, então, pessoal.
+FIXA Engenharia: Так.
+Kauã Fernandes: Boa. Então, esse foi o retrato geral, né, da nossa do nosso diagnóstico de motoridade digital. E aí, o que que eu tenho para aprofundar com vocês agora? O o porquê estratégico, né? O que a fixa tem de força real, tá? e de fato o espaço e os e o que e contra quem ela tá tá competindo efetivamente, tá? É o que a gente vai falar aqui. Então, nós temos uma análise SWAT, tá? E o que que a gente tem nessa análise SWAT?
+
+
+
+
+00:43:30
+
+
+Kauã Fernandes: A gente viu até aqui aonde dói, né? Agora eu quero mostrar para vocês porque vocês ganham apesar disso, né? e contra quem contra quem a gente tá competindo. Então, do lado das forças aqui, vou destacar as mais importantes, tá? Por quê? A fixa resolve o o levantamento técnico, tá? Engenharia e arquitetura e a parte documental e jurídica que a gente tem dentro da regularização de um de um único processo, tá? E aí o cliente acaba que não precisa passar por um segundo por um segundo prestador de serviço. Os concorrentes que a gente mapeou não declaram oferecer isso de forma integrada, tá? Então, o que que ficou combinado? é importante eh, a burocracia legal da própria regularização resolvida aqui dentro desse processo técnico de vocês por um profissional formado em direito, que no caso é o Christian, é uma é uma estrutura interna que a gente entende como uma força, tá? A segunda força real é a prova social, tá? 71 posts no Instagram, tá? trazem ali eh ao todo, a gente mapeou 71 posts no Instagram e alguns trazem ali depoimentos com nome e fotos de clientes, tá?
+FIXA Engenharia: Sì.
+
+
+
+
+00:44:57
+
+
+FIXA Engenharia: Yeah. A gente tem bastante que a gente pode fazer novos,
+Christian Lorencet: Угу.
+FIXA Engenharia: tá?
+Kauã Fernandes: Isso é muito bom, tá?
+FIXA Engenharia: Tem tem a gente pode,
+Kauã Fernandes: Prova social,
+FIXA Engenharia: sei lá, pegar 30, 50 clientes fazer depoimento.
+Kauã Fernandes: pô. Isso é sensacional, tá? A a gente sempre vai tá pedindo mais de prova social quando a gente tiver confeccionando os nossos materiais, porque é um é um dos principais pilares da comunicação digital é a prova social, tá? O Google, meu Negócio hoje tá com uma nota 4,7, porém vou ser bem franco com vocês, eh 16 avaliações que a gente tem no total do Google Meu Negócio é uma amostra baixa, tá? Então é um ponto de partida, mas não é uma uma prova social robusta ainda, tá? com esse volume de avaliações, era pra gente ter cinco estrelas no Google Meu Negócio, mas a gente vai ajudar vocês a rodar uma campanha interna paraa base de vocês e para novos clientes, pra gente lotar esse Google negócio de avaliações e avaliações positivas, tá? Tá, tá dentro do nosso planejamento. Eh, a terceira força que a gente tem, principal força mapeada aqui, é o relacionamento institucional de vocês com cartórios e com a prefeitura, tá?
+
+
+
+
+00:46:10
+
+
+Kauã Fernandes: que isso, querendo ou não, vai reduzir o atrito prático que o cliente de vocês vai sentir, tá bom? Isso, principalmente esse bom relacionamento que vocês têm, é um ativo difícil de qualquer player copiar, tanto concorrente novo quanto concorrentes velhos que ainda não alcançaram isso,
+Christian Lorencet: Угу.
+Kauã Fernandes: tá? Então, do lado de fraquezas que a gente tem, a mais crítica principal delas é a mesma que a gente viu na auditoria de de marketing, tá? De digital. Eh, os um um eh praticamente zero presença digital, né? um site eh que tá ativo, mas não era para tá ativo, então, praticamente não existe um site, né? Eh, segundo é a parte do CRM zerado, sem sem comercial bem definido, tá bom? E a terceira que aparece nos canais que a gente auditou hoje, tá? A comunicação de vocês hoje eh como o Carlos bem contextualizou pra gente, ainda só fala fixa engenharia, tá? E a parte de assessoria hoje não tá efetivamente aparecendo,
+Christian Lorencet: Угу.
+Kauã Fernandes: mas isso aí é um problema que a gente já vai resolver dentro da unificação que a gente vai propor, tá? Oportunidade, pessoal. Dentro de oportunidades, a mais urgente que eu vou destacar aqui com vocês é que nenhum dos três concorrentes mapeados hoje, tá, formaliza a clareza de prazo como promessa comercial, tá?
+
+
+
+
+00:47:48
+
+
+Kauã Fernandes: E é uma coisa assim, eh, difícil mesmo de prometer prazo dentro desse, desse segmento, tá?
+Christian Lorencet: Sì.
+Kauã Fernandes: Porém,
+Christian Lorencet: M.
+Kauã Fernandes: há uma lacuna que a gente pode preencher. Há uma oportunidade aí dentro, tá? A Balen aposta a comunicação dela, principalmente em escala institucional. A DCA vai bater muito em cases documentados, cases de sucessos documentados que eles têm, tá? e nenhum dos dois diz por escrito em quanto tempo o processo do cliente vai sair, até porque não tem nem como, mas eles também não comunicam nenhum tipo de de agilidade e acessibilidade, tá? E essa é exatamente a dor número um do perfil do cliente de vocês, que a gente vai detalhar esse perfil daqui a pouco, tá? Do lado de ameaças, a Balen foi a corrente mapeado mais sério, tá? Efetivamente não temos uma concorrência ultra ameaçadora, porém a gente tem a mais ameaçadora dentro das concorrências que a gente tem.
+FIXA Engenharia: É, a gente tem esse seria o nosso grande problema digital, porque eu devido que nem eu tava conversando, expliquei para eles, Christian, que eles vem desde a época do cartório. Ah, então eles têm o casabo, eles têm uma uma capacidade de captação por nome, eles eles falam em rádio que a gente não tem, né?
+
+
+
+
+00:49:15
+
+
+Kauã Fernandes: Exato.
+FIXA Engenharia: Ah, a DCA, a BLM inexistente na parte online e depois que saiu o Bruno da sociedade, não sei até quant eles vão se quebrar até. Eles tm muito apoio em cartório, então tem muita coisa que eles fazem ainda, né? Teve identificações de cartório, mas não sei até quando isso porque o Marcelo nem cartório de direito e o DCA tem muita conhecimento, muita indicação de prefeitura que nem nós, mas tem muita indicação também de empresas.
+Kauã Fernandes: Correto.
+FIXA Engenharia: Eles fazem muito licenciamento ambiental paraa empresa, né?
+Kauã Fernandes: Correto.
+FIXA Engenharia: É,
+Kauã Fernandes: Perfeito.
+FIXA Engenharia: o Balen seria um problema para nós, né? Na verdade, o que a gente estaria buscando seria, eu acho que o nosso mercado alvo de internet seria a gente dos 30 até os 30, até uns 45, eu acho. Ai, Deus.
+Kauã Fernandes: Vou vou detalhar para vocês o perfil do público já. É balém. A pronúncia correta, né? Tô falando balem.
+FIXA Engenharia: É, Balen.
+Kauã Fernandes: Valem. Beleza. Então é, e eles batem muito em cima de uma premiação que eles ganharam em 2022, top of mind.
+
+
+
+
+00:50:23
+
+
+Kauã Fernandes: Deixa eu perguntar, eh, essa premiação localmente ela tem um peso efetivo ou é realmente uma coisa que eles enchem mais uma linguiça
+Christian Lorencet: Não.
+Kauã Fernandes: ali?
+FIXA Engenharia: Não, nunca vi ninguém. Nem falou, nem sabia que tinha essação.
+Kauã Fernandes: Ah,
+FIXA Engenharia: Tá seu nível.
+Kauã Fernandes: perfeito, perfeito. Então, mais de 20.000 1000 clientes declarados no site, né? E o institucional deles é muito robusto, então vai muito de conta com o que o a percepção que o Carlos tem aí, tá? Então a gente colocou isso num placar mais comparativo, tá? Numa escala de 0 a 10, a fixa tá em 3,4 hoje. a Balen em sete e a DCA em círculo 8 e a BLM
+Christian Lorencet: Так.
+Kauã Fernandes: vai tá em um. O gap maior que a gente tem é basicamente o nosso site, tá? Nosso CEO e a mídia paga. Eh, e não tá referente, não estamos necessariamente eh respaldando e reputação ou capacidade técnica como eh ameaças ou fraquezas. É basicamente uma questão de posicionamento mesmo,
+FIXA Engenharia: Sim,
+
+
+
+
+00:51:27
+
+
+Kauã Fernandes: tá?
+FIXA Engenharia: sim.
+Kauã Fernandes: Então a leitura estratégica que eu vou trazer aqui pra gente é o quê? Nós não temos como vencer a Balen em escala. Não faz sentido a gente tentar copiar eles como uma holding, tá? Qual que é o nosso caminho para competir? Especificidade, tá? Bater nessa questão de resolver tudo num processo só, tá? bater numa comunicação de tranquilizar o prazo, tá? Que é o território que tá livre hoje pra gente nadar de braçada. Por quê?
+FIXA Engenharia: Ó
+Kauã Fernandes: Não é para completo, tá? Mas é para mostrar exatamente onde tem um espaço livre que a Balen deixa de comunicar, que apesar do tamanho dela, ela não ocupa e que a gente pode se esbaldar ali, tá?
+FIXA Engenharia: são tão grandes assim. O problema é que eles, a advocacia deles é enorme, né, Christian? A advocacia deles é gigante.
+Christian Lorencet: Mas os pequenos não são também, né? A equipe é robusta, né?
+FIXA Engenharia: É, eu acho que a B Regularizações deve estar com umas 15 pessoas já, porque eles pegaram aqueles contratos grandes em São Paulo e Paraná.
+Christian Lorencet: Não, não é uma empresa pequena não.
+
+
+
+
+00:52:35
+
+
+FIXA Engenharia: Não.
+Kauã Fernandes: Boa, pessoal. Essa é a leitura SWAT que a gente tem, tá? E aí toda essa estratégia serve para alguém em específico, serve para uma pessoa em específico, tá? Eu vou apresentar para vocês essa pessoa agora. Tudo que a gente tá falando agora serve para Ivete da Albosco. Vocês conhecem a Ivete da Albosco?
+FIXA Engenharia: entar vai escritura contina Não.
+Kauã Fernandes: A Ivete Dalbosco,
+Christian Lorencet: Так.
+Kauã Fernandes: ela tem 61 anos, tá viúva aposentada, eh mora na casa que o marido construi há mais de 30 anos, num bairro consolidado, de padrão médio, tá? Depois que ele faleceu, ela descobriu que o imóvel, na verdade, nunca teve uma escritura definitiva registrada, tá? Só contrato antigo de compra e venda sem averbação. Tem três filhos que moram em outras cidades e ela quer vender a casa e se mudar para perto deles, mas o comprador vai exigir ali uma matrícula regularizada e o banco não vai nem liberar o financiamento ser isso. Então ela desistiu no meio do caminho desse processo aí depois de tentar sozinha no cartório e tudo mais. Oh. Então a frase dela é:"Eu só quero vender essa casa em paz e não deixar essa dor de cabeça paraos meus filhos resolverem quando eu morrer, tá? Essa aqui é a Ivet,
+
+
+
+
+00:54:08
+
+
+Kauã Fernandes: tá? E toda a nossa comunicação vai ser voltada para Ivet,
+FIXA Engenharia: Uhum.
+Kauã Fernandes: tá?
+FIXA Engenharia: Acho que faz sentido,
+Kauã Fernandes: E que eu ia devolver a pergunta para
+FIXA Engenharia: porque é um cliente que a gente consegue captar muita coisa ao mesmo tempo.
+Kauã Fernandes: vocês. Faz sentido esse estereótipo dentro do do contexto de vocês?
+FIXA Engenharia: Sim, fácil.
+Christian Lorencet: F
+Kauã Fernandes: Maravilha.
+FIXA Engenharia: Cristian,
+Kauã Fernandes: Por quê?
+FIXA Engenharia: faz sentido. Minha cabeça hoje não tá muito boa.
+Christian Lorencet: Passa. respondi.
+FIXA Engenharia: Ah.
+Kauã Fernandes: Boa, Cristian tinha respondido. Legal. Que que acontece? É muito importante vocês validarem isso aqui com base no que vocês vem na realidade e com base no que você falou. Dá para tirar muita coisa daí, porque aqui a gente vai, tudo que a gente fizer, toda a comunicação que a gente fizer daqui pra frente vai ser, pô, a gente vai perguntar aqui até internamente, a Ivet vai comprar isso? vai falar com a Ivet isso, entendeu? E é assim que a gente direciona a comunicação específica para noss pro nosso perfil de cliente ideal,
+
+
+
+
+00:55:03
+
+
+Christian Lorencet: Угу.
+Kauã Fernandes: tá? Então, pessoal, a visão aqui é o quê? A Ivet não tá comparando preço, tá? As objeções mapeadas que vocês trouxeram pra gente do dos clientes de vocês, as principais objeções são todas sobre confiança e prazo, tá? vai ser caro, vai ser demorado, vai desconfiar que o produto não é necessário, tá? Então, eh, nenhuma objeção é sobre o serviço em si. Por isso, a mensagem chave funcional é:"Regularize seu imóvel com engenharia, arquitetura e direito num lugar só", tá? Existem três perfis que a gente definiu como o oposto da Ivet, quem não deveria consumir tempo de diagnóstico da equipe técnica de vocês? Quem não deveria consumir tempo do Carlos ou do Cristian no atendimento, tá? O curioso especulador que só quer saber o preço sem ter um caso concreto, tá? O fora do padrão de atendimento que negocia a parcela para um valor simbólico e tende a abandonar o processo no meio do caminho, tá? E a emergência de última hora,
+Christian Lorencet: Угуm.
+Kauã Fernandes: aquele cara que vem louco querendo a matrícula pronta para na mesma semana e vai rejeitar qualquer prazo realista, tá? Esses três perfis é o que a gente chama de antipersona.
+
+
+
+
+00:56:25
+
+
+Kauã Fernandes: E a gente não quer comunicar de uma forma para que esses caras nem entrem em contato com a gente ou se entrem não cheguem no WhatsApp de vocês. Não cheguem no WhatsApp humano de vocês, tá? Então pessoal, existe um ponto que a gente registrou no que vocês colocaram no KCOF, eu preciso confirmar diretamente com vocês, tá? Eh, vocês sentem que houve ali nos últimos tempos, esses loteamentos que vocês assumiram ao longo do tempo aí, esses últimos loteamentos que vocês assumiram protocolados na cidade, vocês tiraram espaço da Balen assumindo eles ou isso é algo que dá para
+Christian Lorencet: Eu
+Kauã Fernandes: documentar? Existe essa essa visão de tipo, a gente tirou o espaço da Balen efetivamente ou não?
+FIXA Engenharia: Ah, a gente viu,
+Kauã Fernandes: Da Balen.
+FIXA Engenharia: a gente viu todas as concorrências que a gente fez com eles nos últimos tempos.
+Kauã Fernandes: Ah, legal.
+FIXA Engenharia: Eles estão meio que matos na cidade, tá? Porque eles eles pegaram muita coisa e não entregaram. Eles não estão entregando. Então, por isso que eles começaram a pegar esse serviço em São Paulo,
+Christian Lorencet: vou pedir só um casaco.
+
+
+
+
+00:57:32
+
+
+FIXA Engenharia: Paraná.
+Christian Lorencet: Tá muito frio. Já volto aí.
+Kauã Fernandes: Beleza. Да.
+Christian Lorencet: Meu Deus.
+FIXA Engenharia: Eles eles a gente ganhou todas as concorrências que a gente fez com ele nos últimos tempos, mesmo cobrando mais. Eles eles estão com problema de qualidade aqui na cidade, muito para muito. Não tô entregando, eles pegaram, nós temos 50 e poucos núcleos, eles tem cento e poucos, eles não entregaram nada, entregam muito menos que nós e eles estão bem queimados aqui na cidade, mas nesse sentido com o público que já com com as comunidades que conversam entre si, sabe?
+Kauã Fernandes: Entendi.
+FIXA Engenharia: Por isso que eles eles se estafaram porque eles pegaram um contrato grande em São Paulo, uma cidade pequena de São Paulo, pequena média, 600.000 habitantes e um contrato, os contratos bons em no Paraná, em Ponta Grossa, senão eles estavam bem queimados.
+Kauã Fernandes: Entendi. Entendi. Perfeito. Perfeito. Carlos. Boa. Então, agora que a gente sabe com quem que a gente tá falando, tá? Vamos ver os gaps por canal que a gente auditou hoje, tá?
+
+
+
+
+00:58:29
+
+
+Kauã Fernandes: Então aqui, pessoal, de novo, não quero eh ficar batendo no que tá errado, mas principalmente no que que a gente pode, como que a gente vai resolver isso rápido para vocês, tá? Então, a gente auditou quatro canais, site, Instagram, Google, meu negócio e anúncios, né? A gente foi lá ver realmente ver que não tinha nada rodando, tá? E deixamos o WhatsApp de fora dessa rodada de auditoria, mas a gente vai auditar o WhatsApp quando a gente fizer o cliente oculto, tá? O score médio ficou em 31 de 100, mas o dado importante não é a média que a gente tem, e sim a distribuição, tá? Instagram está em 48 pontos e o Google Me negócio em 45, tá? Eh, site em 28 e anúncios em cinco, porque simplesmente não existem ainda. Que acontece? Padrão que a gente vê se repetindo ao longo dos gaps que eu tô trazendo para vocês aqui, não é falta de material, é material, material efetivamente bom que não existe nos canais, tá? tem um erro de configuração eh de 15 minutos que existe que dá para explicar o porquê porque que esses são os gaps, tá? O campo website do do perfil do Google no negócio de vocês tá vazio, tá?
+
+
+
+
+00:59:51
+
+
+Kauã Fernandes: E o que que dava para ter colocado ali? Dava para ter colocado ali o número de WhatsApp para entrar em contato, tá? Então assim, tô falando para vocês eh estratégias quick wins que a gente já vai fazer aqui para vocês saindo dessa reunião, tá?
+FIXA Engenharia: Tá,
+Kauã Fernandes: Isso a gente já vai colocar. Eh, a gente já vai sair com essa todas essas quickins que eu tô falando para vocês aqui ainda essa semana,
+FIXA Engenharia: eu vou levar vocês ali paraa minha mesa que minha bateria tá acabando.
+Kauã Fernandes: tá bom?
+FIXA Engenharia: Eu acho que é menos trabalhoso do que trazer o carregador. Pode continuar falando que eu só vou transportar vocês para minha mesa.
+Kauã Fernandes: Tranquilo,
+FIXA Engenharia: E agora depois assim só fica eu e Letícia aqui no escritório. Ela tá de fora, então ela vai incomodar também.
+Kauã Fernandes: tranquilo, tranquilo. Então são quick wins, são cinco quick wins ao ao todo, né? Cinco vitórias rápidas, tá? Eh, todas já entram direto na nossa esteira de produção, tá? Então, o que a gente tá falando aqui já é de tarefas efetivas do time, tá? Então, é vincular o link do WhatsApp ao Google Negócio, tá?
+
+
+
+
+01:00:45
+
+
+FIXA Engenharia: Ja.
+Kauã Fernandes: levar os melhores depoimentos do Instagram e as avaliações do Google Meu Negócio, eh, já documentar elas pro momento da landing page, tá? A gente já vai, já tem isso levantado, já tem isso pronto, então não vou precisar cobrar de vocês essa esse levantamento, tá? Eh, e a gente tem ali umas alterações que dá para fazer no site, mas que a gente não vai fazer efetivamente no site,
+FIXA Engenharia: É,
+Kauã Fernandes: tá?
+FIXA Engenharia: a gente vai ter que refazer o site, né? A gente tá vendo com a empresa de Brasília ou com vocês.
+Kauã Fernandes: Exato.
+FIXA Engenharia: Não sei se vocês chegaram a passar um lançamento pra gente para fazer essa parte do site.
+Kauã Fernandes: Boa. Eh, a aqui todas as alterações que eu falar de site é o que a gente já vai fazer na landing page, tá? Deixa eu já deixa eu já travar aqui. Eu já vou te fazer um, já vou passar para você um orçamento de site, tá? Deixa eu passar aqui o preço tabelado da rede, mas eu queria saber quanto que vocês já orçaram com a outra empresa, que daí a gente
+FIXA Engenharia: perguntar pro Cristian, porque ele que tava cuidando dessa parte aí, vou pegar meu copo ali.
+
+
+
+
+01:01:47
+
+
+FIXA Engenharia: Ah, o Cristian que tava falando com o pessoal do sistema, ele que tá tratando essa parte aí com o sistema, a inclusive da da finalização do sistema, da parte técnica e financeira. Só um minuto.
+Kauã Fernandes: tá
+FIXA Engenharia: Á. Não,
+Kauã Fernandes: Opa, perdão.
+FIXA Engenharia: agora escute.
+Kauã Fernandes: Vou te mostrar aqui qual qual que é o preço base da da confecção de um site aqui na na V4,
+FIXA Engenharia: Uhum.
+Kauã Fernandes: tá?
+FIXA Engenharia: Ja.
+Kauã Fernandes: Deixa eu só entender uma coisa. Esse site que você tá falando é É um site já integrado a um sistema. Esse sistema já tá pronto. É tipo site e sistema que vocês querem redondo, tudo, uma coisa só. Ou já existe o sistema, só precisa do site institucional. Só para entender.
+FIXA Engenharia: Só do site. O sistema. A gente já tá finalizando o sistema interno personalizando.
+Kauã Fernandes: Ah, tá, tá, entendi. Então, a implementação do site básico aqui tá em torno de 18.000, tá? Com uma implementação de 5 semanas, tá bom? Porém, eh, queria ver que que a a esse valor é completamente negociável, tá?
+
+
+
+
+01:03:29
+
+
+Kauã Fernandes: Consigo, porque vocês já estão na base, como que a gente consigue ver o que que a gente consegue fazer nesse valor? E se vocês tiverem um orçamento da outra vocês orçaram aí, melhor ainda pra gente negociar esse valor aqui.
+FIXA Engenharia: Opa, tu me passa só o site base sem o sistema
+Kauã Fernandes: É esse valor só o set by no sistema.
+FIXA Engenharia: 18,
+Kauã Fernandes: O valor tabelado é esse aqui, 18, tá?
+FIXA Engenharia: tá?
+Kauã Fernandes: Mas é realmente a esse é o preço base mesmo, tá?
+FIXA Engenharia: Uhum.
+Kauã Fernandes: Aí dentro aí de um segundo momento a gente a gente dá uma olhada com mais calma nesse valor aqui, tá? Não consigo bater o martelo ainda. O quão o quão a gente ainda pode melhorar esse valor. Preciso ver com o Sávio, que é o coordenador comercial, mas com certeza sim, dá para melhorar bastante esse valor para vocês. Isso eu garanto, tá? Eh, deixa eu trocar aqui, continuar. Mas aí a gente precisa separar bem, tá? Uma visão aqui,
+FIXA Engenharia: Угуm.
+Kauã Fernandes: tá? Eh, alterações de site que a gente tá falando aqui, tá?
+
+
+
+
+01:04:45
+
+
+Kauã Fernandes: Nós não vamos nem mexer no site antigo, nem estamos falando de refazer um site institucional agora. O que vocês têm com a gente que já tá na fila de produção, é uma landing page, uma página de captura pensada em capturar a demanda de anúncio. É um site também,
+FIXA Engenharia: Угу.
+Kauã Fernandes: funciona como site, fica na bi do Instagram também, enfim, mas não tem todas as informações institucionais e oportunidades de fuga que um site institucional tem. O objetivo dele é só mandar pro WhatsApp, tá? Então, tudo que a gente tá falando aqui de alteração no site são coisas que vão ter na landing page que a gente vai produzir. E se a gente fechar fechar o site também, vamos construir o site dentro do padrão já com essas melhorias que a gente auditou no site antigo que vocês têm,
+FIXA Engenharia: Beleza.
+Kauã Fernandes: tá boa? Um dado que vale a gente falar aqui, tá, com uma ressalva que é uma estimativa nossa, tá? eh, que quando a gente roda sem ferramenta de track instalada, tá? O maior vazamento que a gente tem numa jornada, na na jornada do segmento de vocês, vai tá entre a pesquisa online e chegar no canal oficial da Fixa,
+FIXA Engenharia: Угуm.
+Kauã Fernandes: tá?
+
+
+
+
+01:06:02
+
+
+Kauã Fernandes: Então, cerca de 85% de quem pesquisa ativamente por reguleração de imóveis nunca nunca encontra vocês, isso é fato, tá? E aí eh éonde esse vazamento aí eh estimado, tá? O que eu preciso de vocês, tá? Agora, eh, perguntar o que que a gente pode usar do material existente do site e do Instagram para confeccionar a landing page. Você vai falar para mim, Kauan, nenhuma imagem daquele site eu quero que você utilize. Eu pode utilizar todas ou eu vou te mandar um banco de imagem só pra gente já ter esse material pronto para a lenda impage já sair mais redonda e sem muita refação.
+FIXA Engenharia: fala o que que tu vai botar no link page que eu te mando no banco de dados do Instagram tu pode usar tudo do site
+Kauã Fernandes: Tá bom? Fechou.
+FIXA Engenharia: não mas me manda uma Um, manda pelo pelo Whats o que quais são os dados que tu vai usar na Lepage que eu cato no banco de dados
+Kauã Fernandes: Sim.
+FIXA Engenharia: aqui porque senão se for mandar, eu olhei aqui, a gente tem, sei lá, 2000 imagens, se for mandar para vocês filtrarem aí o que que vocês sem fazer um filtro básico, a gente já sabe o que que é cada assunto aqui.
+
+
+
+
+01:07:11
+
+
+FIXA Engenharia: Aí eu vou te acabar te confundindo.
+Kauã Fernandes: Tá, entendi. Beleza. Eu mando sim. Boa. Então, até agora a gente viu onde a comunicação vaza, né? E agora vamos olhar pro tamanho real da oportunidade que tá em jogo, tá? Então, a gente sempre vai olhar para um estudo de tã, sã e som, tá? Esse estudo ele é um pouco complicado porque ele parte de uma série de estimativas, né? Um estudo de transção nunca vai ser exato, tá? Mas a gente trabalha com uma estimativa e essa estimativa direciona o o bastante o norte do projeto, né? Por quê? Que a gente olha pro mercado nacional de regularização documental, residencial e fundiária urbana. Então, olhando para esse mercado, a gente tenta entender quanto que gira eh em reais por ano, tá? Então, hoje o mercado tá gerando em torno de Rhão e deais por ano.
+FIXA Engenharia: Угуm.
+Kauã Fernandes: Esse é o TAN. E aí a gente calcula de baixo para cima, tá? Ou seja, a partir do estoque de imóveis sem escrituras no país, tá? Agora, olhando só pra região de vocês, Caxias do Sul/ Serra Gaúcha, o mercado endereçável, tá?
+
+
+
+
+01:08:36
+
+
+Kauã Fernandes: É de R$ 10.584.000 por ano, tá?
+FIXA Engenharia: Так.
+Kauã Fernandes: E aí a gente tá somando aqui dois fluxos, importante destacar, regularização residencial e reurb de loteamentos.
+FIXA Engenharia: Sim, quando a gente fala que a gente captura 10%, na verdade a gente não captura nem perto disso, porque tem outras coisas que a gente faz, ações judiciais, Yeah. inventário, essas coisas que tem um mercado a de infinito, né?
+Kauã Fernandes: Entendi,
+FIXA Engenharia: E eles não trazem, sei lá, 30 40.000 por mês,
+Kauã Fernandes: entendi,
+FIXA Engenharia: ou seja,
+Kauã Fernandes: entendi.
+FIXA Engenharia: em torno de 15% de faturamento. Tá bem? Acho mais ou menos. Mas assim, faz sentido. Pode continuar.
+Kauã Fernandes: Boa. Eh, beleza. Aqui a principal dado que a gente trouxe aqui nesse número é a Secretaria Municipal de Urbanismo de Caxias do Sul com o mapeamento que eles fizeram em 2021, tá?
+FIXA Engenharia: Ага.
+Kauã Fernandes: 600 áreas irregulares na cidade, tá? sendo 466 delas de reorbier e loteamentos particulares.
+
+
+
+
+01:09:52
+
+
+Kauã Fernandes: Então, é justamente ali o segmento de maior ticket de vocês, eh, rodando ali. Ou seja, o achado mais importante desse bloco inteiro, tá? Se a gente cruzar o faturamento atual de vocês com esse SAM, com esse mercado endereçável regional, a FIXA já captura em torno desse 16%. eh dentro desses serviços eh primordiais, né? Eh, cerca de 16%, sem nenhum investimento digital, tá? Eh, dentro do estudo de de mercado, isso é número de líder de segmento, tá? Dentro do benchmark desse segmento. Isso é número de líder, tá? Vocês não têm problema de produção ou de reputação, tá? a gente tem um problema de fato de estar ausente online, onde o cliente ideal já está procurando. Então, triangulando aqui por três métodos diferentes, capacidade operacional madura, participação de mercado eh por benchmark de nicho e captura por segmento, o teto tangível de curto prazo que a gente tem, ou seja, o som, converge para R$ 2.680.000 R$ 1000 por ano, tá?
+Christian Lorencet: Ne.
+Kauã Fernandes: Isso vai representar cerca de 57% de crescimento sobre o faturamento projetado atual.
+
+
+
+
+01:11:23
+
+
+Kauã Fernandes: Esse número não é uma meta que a gente tá impondo, tá? Importante entender isso. Esse número diz respeito especificamente ao teto calculado com a estrutura de hoje, minimamente madura em CRM, tá? Sabendo que vocês já capturam esse valor de mercado regional sem investimento digital, nós vamos trazer uma meta nas próximas nas próximas entregas pra gente entender qual o faturamento que a gente espera vir no digital e qual é o a porcentagem que a gente espera impactar do valor. Yeah. atual, tá? E vale mencionar aqui, ainda falando de mercado, uma tendência que a gente tem eh que pode afetar o setor nos próximos anos, que é o sistema eletrônico de registros públicos, né, que teve uma lei em 2022 que estabelece o prazo para até 25 de maio de 2026 pros cartórios migrarem quase que 100%, ou se melhor, 100% dos registros para um sistema digital, né? Então, segundo ali a Noreg,
+FIXA Engenharia: Sim,
+Kauã Fernandes: né?
+FIXA Engenharia: a gente tem a gente tem esse provimento que a gente tá utilizando já ele agora a gente tá já no protocolo, já estamos com essa dificuldade aí a gente nosso que eles jogaram no nosso para para fazer as digitalizações para eles.
+
+
+
+
+01:12:43
+
+
+Kauã Fernandes: Ah, legal. Boa. Então, vocês já tão já estão vendo isso aí na prática. Desde quando? Ô, Carlos.
+FIXA Engenharia: Estamos cobrando já fazem alguns mesinhos.
+Kauã Fernandes: Boa. Eh, fechou. E aí, quem que tá competindo hoje dentro desse espaço que a gente tem definido, tá? Justamente quem a gente já vem falando aí durante essas reuniões. Então, três concorrentes diretos mapeados. Balen é mais forte, mas ainda assim não tem uma nota muito espetacular, nota sete, tá no no nosso placar interno eh digital, mas ali tem tradição, mais de 25 anos de atuação, tem esse prêmio que eles ficam eh eh anunciando aí no digital, Top of Mind 2022, e a prova social mais forte que eles batem, que é mais de 20.000 clientes declarados. DCA.
+Christian Lorencet: Top of Top of Mind é uma empresa de estímulo, é uma é um prêmio que eles é por provocação, é a empresa mais lembrada do segmento. Isso tem para rádio,
+Kauã Fernandes: Hum,
+Christian Lorencet: TV, tem para várias coisas, mas é a empresa mais lembrada.
+Kauã Fernandes: entendi. Então eles ganharam prêmio pela comunicação deles.
+
+
+
+
+01:14:03
+
+
+Christian Lorencet: É,
+Kauã Fernandes: É isso.
+Christian Lorencet: eles têm muitos canais, né? Tem tem imprensa, tem tem TV, tem rádio. Eles investem nisso, no marketing para esse público, né?
+Kauã Fernandes: Entendi. Boa. Valeu aí a contextualização. Ô, ô, Cristian. Então é um prêmio basicamente por ter a comunicação mais presente.
+Christian Lorencet: Sì.
+FIXA Engenharia: Sim, eles falam em rádio, eles têm propaganda com acordo com que é uma coisa que Cristian, talvez a gente comece a fazer com o Diário Caxense, por exemplo, que eles fazem com o Leov. Ah, começar a fazer parceria com mídias locais que que atuam em redes sociais, eh, fazem panfletagem, eles fazem muitas frentes ao mesmo tempo, pagam subor para presidente Bar e vai.
+Christian Lorencet: que pega esse esse público é um público que talvez não nos interesse tanto assim também, né?
+FIXA Engenharia: Yeah.
+Kauã Fernandes: É, e nem,
+Christian Lorencet: que tematamente
+Kauã Fernandes: ó, e nem sempre quem aparece mais é quem tem mais resultado. em comunicação não é proporcional, tá? Eh, vamos lá. A DCA tem um forte dela em CEO de caso nomeado, então eles indexaram no Google eh páginas específicas de projeto, tá?
+
+
+
+
+01:15:15
+
+
+Kauã Fernandes: Então você consegue entrar eh tá indexado no Google diretamente residencial vista bela e aí você consegue atrair o maior número de pesquisas orgânicas quando você faz essa indexação.
+FIXA Engenharia: É,
+Kauã Fernandes: É para isso que serve um site.
+FIXA Engenharia: a gente pode fazer. A gente tem bastante cas aí, inclusive a gente vai entregar um agora final do mês.
+Kauã Fernandes: Ótimo. É para isso. É isso que é um site institucional eficiente, tá? É você realmente usar as informações institucionais ao seu favor para capturar demanda orgânica. site institucional serve para capturar a demanda orgânica. É barato capturar a demanda orgânica quando bem feito com o site institucional, tá? Então a visão que a gente faria no site é justamente essa, indexar case direto na na na página do Google para quando pesquisarem até o nome do bairro já aparecer ali eh vocês em alguns resultados da pesquisa, tá? Eh, boa. E a BLM tá ali numa presença digital praticamente inexistente, tá? Eh, só 275 curtidas no Facebook eles têm. Então, colocando no mapa comparativo, competitivo e comparativo, a gente tem uma escala institucionalizada de um lado e outro de relacionamento próximo, tá? E aí a gente tem uma presa digital completamente fraca da BLM, tá?
+
+
+
+
+01:16:38
+
+
+Kauã Fernandes: E aí nenhum dos três concorrentes ocupa o quadrante de relacionamento próximo combinado com presença digital forte. É um quadrante que tá vazio, tá? Ninguém nesse mapa combina relaçamento institucional forte com preso mesmo tempo. É exatamente nesse espaço vazio que a V4 quer posicionar a fixa, tá? com cenário competitivo. Claro,
+Christian Lorencet: Sì.
+Kauã Fernandes: vamos fechar o que isso significa em termos de próximos passos, tá? Então, já encaminhando pro final, pessoal, o que falta para fechar o pacote de diagnóstico ali, né? O que vocês viram hoje é a semana um inteira, mas o diagnóstico de maturidade que que a gente tem mais a semana dois, tá? Então, paraa semana dois tem quatro diagnósticos. Diagnóstico de mídia paga. No caso, diagnóstico de mídia paga, como vocês não têm nada para diagnosticar, já é o nosso planejamento de mídia paga para vocês, tá? Eh, planejamento orgânico do Instagram. Lembrando, vocês não têm social mídia por contrato, tá? Mas vocês têm um um vai vão ter um diagnóstico orgânico do Instagram e um planejamento orgânico do Instagram. E aí, se quiserem, se gostarem do planejamento, se fizerem sentido contratar um social mídia com AV4, planejamento tá à disposição.
+
+
+
+
+01:18:01
+
+
+Kauã Fernandes: Se quiserem fazer por conta, o planejamento também tá à disposição. Se quiserem contratar um social mídia interno, o planejamento também tá à disposição. Vocês vão ter um diagnóstico e um planejamento para vocês tomarem uma decisão eh com de acordo com isso, tá? E aí, semana que vem, a gente tem a parte mais importante que é o posicionamento, como que a gente vai se declarar, qual vai ser o nosso padrão de posicionamento que aí que que que a gente vai elaborar para vocês, vai mostrar para vocês na semana dois. E aí tudo que nascer a partir da semana dois vai nascer com base nesse posicionamento, tá? Depois da semana dois fechada, a gente entra na semana três, tá? Que vai cobrir eh landing page, tá? eh, cliente oculto, diagnóstico comercial e definições de métricas de funil, o desenho do pipeline comercial de vocês, que é a implementação de um CRM, tá? E isso alimenta na próxima semana quatro os scripts do SDRA mais adiante, tá boa, pessoal? Tudo que eu falei aqui fez sentido para vocês,
+FIXA Engenharia: Sim,
+Christian Lorencet: Sì.
+FIXA Engenharia: já tava ciente sobre isso.
+Kauã Fernandes: correto, pessoal? Nesse caso, esse horário ficou bom para vocês, né?
+
+
+
+
+01:19:17
+
+
+Kauã Fernandes: Paraa semana que vem,
+FIXA Engenharia: Sim, se for a cinco é até melhor.
+Kauã Fernandes: às 17,
+FIXA Engenharia: Ah, para mim é melhor até se for 17 sempre.
+Kauã Fernandes: sempre às 17. Para mim é possível.
+Christian Lorencet: É melhor.
+Kauã Fernandes: Ah, perfeito. Será que você tinha falado 17 e eu confundi, Cristian, na reunião passada?
+FIXA Engenharia: Não,
+Christian Lorencet: Eu acho que foi Carlos queou.
+FIXA Engenharia: eu falei 16 mesmo.
+Kauã Fernandes: Ô, Carlos,
+FIXA Engenharia: Eu tava,
+Kauã Fernandes: perdão.
+FIXA Engenharia: eu tava viajando.
+Kauã Fernandes: Ah,
+FIXA Engenharia: para 16 mesmo.
+Kauã Fernandes: tá. Fechou. Já vou mudar aqui o invite e aí fica paraas 17, então. Tá. Eh, Cristian, você tem um e-mail que eu posso adicionar aqui no invite?
+Christian Lorencet: Sim. Eh, eu acho que eu mando no grupo, é melhor porque tem a gás no meio.
+Kauã Fernandes: Perfeito, perfeito,
+Christian Lorencet: Ja.
+Kauã Fernandes: perfeito. Pessoal, é isso, tá? Daqui nós já saímos com tarefas paraa equipe e tarefas para vocês, que eu vou pedir ali um material pro Carlos para landing page, tá?
+
+
+
+
+01:20:12
+
+
+FIXA Engenharia: Manda o convite lá que eu vou olhar se entra o código agora.
+Kauã Fernandes: Exatamente isso. Então, eh, no final, no geral encerramos, tá? ão liberados aí. Eu vou ficar, queria que o Luciano ficasse também para dar uma mão no na questão do acesso ali, se alguma coisa não der conta, mas o resto liberado.
+Christian Lorencet: Tá, vou mandar meu e-mail no grupo aí, então.
+Kauã Fernandes: Valeu,
+Leonardo Demarchi: Beleza,
+Kauã Fernandes: Cristian,
+Leonardo Demarchi: então.
+Kauã Fernandes: obrigado.
+Christian Lorencet: Valeu,
+Kauã Fernandes: Valeu,
+Leonardo Demarchi: Pessoal,
+Kauã Fernandes: Léo.
+Leonardo Demarchi: até mais.
+Kauã Fernandes: Tchau. Tá por aí, Luciano? Tá por aí.
+Luciano Affonso: Tô sempre,
+Kauã Fernandes: Boa ex por aí.
+Luciano Affonso: tô sempre por aqui.
+Kauã Fernandes: É isso aí,
+Luciano Affonso: Bora.
+Kauã Fernandes: meu amigo. Vamos lá. Consegue soltar a tela aí? Ô, Carlos,
+FIXA Engenharia: Quer que eu compartilhe na tela?
+Kauã Fernandes: isso. Co?
+Luciano Affonso: M.
+Kauã Fernandes: Mandei o link aqui. A ah, deixa eu solicitar aqui então.
+
+
+
+
+01:21:10
+
+
+Kauã Fernandes: Aproveitar que você abriu aí. Eu vou tentar solicitar aqui, tá? Beleza, já tô com ele aberto aqui mesmo. Ótimo. Tô com duas máquinas aqui, por isso que eu tô inclinado aqui. Deixa eu aprovar aqui. Pedi o código de novo. Boa. Pedi aqui. Vamos ver se cai.
+FIXA Engenharia: Tem outra maneira além de fazer isso?
+Kauã Fernandes: Tem, não tem o jeito de você fazer solicitar da sua máquina, mas eh do jeito que tá configurada a sua conta, o único jeito seria a Paloma. Aí chegou 562852. Chegou outro, né? Mais recente. Tenta, vamos tentar o de cima que eu acho que é isso que vai tá valendo. 0 7 2 8 7 6. Acho que foi, hein? Foi maravilha,
+FIXA Engenharia: Oi.
+Kauã Fernandes: maravilha, Carlos. Foi. Tá certinho. Agora eu tô na, eu vou vou entrar nas contas, o convite vai chegar para mim e aí a gente não vai precisar entrar mais pelo seu acesso. Eu consigo entrar pelo meu,
+FIXA Engenharia: Uhum.
+
+
+
+
+01:22:42
+
+
+Kauã Fernandes: consigo remover a Paloma e aí já tá, já tá tudo certo, tá tudo configurado,
+FIXA Engenharia: Não tem problema,
+Kauã Fernandes: tá?
+FIXA Engenharia: tá?
+Kauã Fernandes: Eh,
+FIXA Engenharia: Não tem,
+Kauã Fernandes: no mais é isso, então, Carlos, obrigado pelo seu tempo,
+FIXA Engenharia: tá?
+Kauã Fernandes: tá?
+FIXA Engenharia: O landing page. Então vocês montam então dos anúncios.
+Kauã Fernandes: A gente vai isso
+FIXA Engenharia: Esse landing page fica fica vinculado a uma ao siteional, caso a gente vai fazer um siteional.
+Kauã Fernandes: vai ficar tipo assim, se o seu site for fixoassessoria.com.br, a land page vai ser lp.fixassessoria.com.br.
+FIXA Engenharia: Tá,
+Kauã Fernandes: Entendeu?
+FIXA Engenharia: eu acho que nós vamos nós vamos usar o engenharia por enquanto que engenharia.com.br fixengenharia.combr o jeito, se tu clicar e fizer isso aí, não do x, mas se tu botar fixengenhariia.com.br, tu vai cair no nosso sistema de gestão interna hoje. Não tenho site. Esse sistema de gestão interna vai ficar dentro do site aí.
+Kauã Fernandes: Hein? Eu acho que o que eu tenho aqui que o CR me Cristian me passou foi justamente o assessoria, tá?
+FIXA Engenharia: Sim, a gente passou todos, tá? A gente passou o de engenharia, professor de assessoria. Eu acho que o do do site inicialmente é que a gente vai usar o de assessoria, a gente reservou no futuro para caso a gente vá separar, caso cresça muito e a assessoria fica numa tem o próprio site vinculado com o da engenharia, a gente temha reservado, mas a gente vai usar inicialmente da engenharia, eu acho.
+Kauã Fernandes: Entendi.
+FIXA Engenharia: Ou a gente vai fazer os dois sites e o seoret clica dentro da engenharia. A gente não decidiu ainda.
+Kauã Fernandes: Tá, entendi.
+FIXA Engenharia: Se a gente ver semana que vem.
+Kauã Fernandes: Perfeito. Perfeito, Carlos. É isso. Então, fechou.
+FIXA Engenharia: Tá bom.
+Kauã Fernandes: Obrigado. A gente vai se falando ali.
+FIXA Engenharia: Valeu,
+Luciano Affonso: Fechado.
+Kauã Fernandes: Valeu.
+Luciano Affonso: Então galera,
+Kauã Fernandes: Tchau. Tchau.
+Luciano Affonso: tchau. Co?
+
+
+
+
+A transcrição foi encerrada após 01:24:25
+
+
+Esta transcrição editável foi gerada por computador e pode conter erros. As pessoas também podem alterar o texto depois que ele for criado.

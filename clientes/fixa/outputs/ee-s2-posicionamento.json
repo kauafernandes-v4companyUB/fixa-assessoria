@@ -1,0 +1,207 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "O posicionamento da Fixa combina o diferencial confirmado (engenharia + jurídico num único processo) com 10 anos de relacionamento institucional consolidado com cartórios e prefeitura — sem nenhuma promessa de prazo. PUV: resolve a regularização sem o cliente precisar contratar dois prestadores, apoiado em relação direta com os órgãos que decidem o processo. Território de marca: Integração + Relacionamento + Tranquilidade, quadrante vazio entre os 3 concorrentes mapeados (Balen, DCA, BLM).",
+  "summary_headline": "Fixa ocupa o território 'Integração + Relacionamento institucional' — combinação que nenhum dos 3 concorrentes mapeados oferece, sem depender de promessa de prazo.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Território de marca",
+      "value": "Integração + Relacionamento + Tranquilidade",
+      "subtext": "3 palavras que nenhum concorrente mapeado ocupa juntas",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "Território do concorrente #1",
+      "value": "Balen: Escala e Institucionalização",
+      "subtext": "Holding, +20 anos, Top of Mind 2022 — mas mensagem genérica ('soluções eficazes')",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Tempo até concorrência chegar",
+      "value": "Até a Balen investir em mídia paga",
+      "subtext": "Nenhum dos 3 concorrentes investe em mídia hoje (ver ee-s2-pesquisa-mercado)",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "ICP principal + ticket",
+      "value": "Proprietário 35-70 anos · R$5k-400k",
+      "subtext": "Núcleo residencial (R$5-12k) + loteamentos institucionais (R$100-400k)",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Pior cenário",
+      "value": "Prometer prazo em qualquer peça",
+      "subtext": "Decisão do operador: nunca usar prazo/data como promessa de comunicação",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A Fixa é o único escritório mapeado que resolve engenharia e jurídico da regularização num único processo, apoiado por 10 anos de relacionamento institucional real."
+    },
+    {
+      "category": "contexto",
+      "text": "O território 'prazo' foi descartado pelo operador como direção de comunicação — o diferencial de confiança vem do relacionamento institucional e da integração técnico-jurídica, não de promessa de data."
+    },
+    {
+      "category": "ameaca",
+      "text": "Balen tem escala e budget pra copiar a combinação Integração+Relacionamento rapidamente, se decidir investir em mídia paga."
+    },
+    {
+      "category": "acao",
+      "text": "Aplicar o território (Integração + Relacionamento + Tranquilidade) em toda a produção da Semana 3 — manual de marca, LP, copy, criativos — sem nenhuma menção a prazo/data."
+    }
+  ],
+  "positioning_map": {
+    "axis_x": "Boutique relacional (baixa escala, alta proximidade) ↔ Holding institucionalizada (alta escala, processo padronizado)",
+    "axis_y": "Presença digital fraca ↔ Presença digital forte",
+    "client_position": "Boutique relacional + presença digital forte (quadrante vazio — nenhum concorrente ocupa)",
+    "justification": "Hoje a Fixa está no quadrante 'boutique relacional + digital fraco' (mesmo da BLM, mas com relacionamento institucional muito mais forte). Mover para 'boutique relacional + digital forte' aproveita o relacionamento consolidado (ativo difícil de copiar) sem tentar competir em escala de holding contra a Balen — joga no território onde a Fixa já tem vantagem real.",
+    "competitor_positions": [
+      {
+        "name": "Balen Regularizações",
+        "quadrant": "Holding institucionalizada + presença digital forte"
+      },
+      {
+        "name": "DCA Engenharia",
+        "quadrant": "Meio-termo — relacional com SEO tático forte (cases nomeados), digital moderado"
+      },
+      {
+        "name": "BLM Assessoria Imobiliária",
+        "quadrant": "Boutique relacional + presença digital fraca"
+      }
+    ]
+  },
+  "positioning_statements": [
+    {
+      "label": "Integração Técnico-Jurídica + Relacionamento Institucional",
+      "statement": "A Fixa resolve engenharia e a parte jurídica da regularização em um único processo — sem contratar dois prestadores — com 10 anos de relacionamento direto com cartórios e prefeitura, pra você vender, financiar ou deixar a casa resolvida pros filhos.",
+      "justification": "Combina os dois diferenciais confirmados (status 'confirmed' em ee-s2-pesquisa-mercado): integração técnico-jurídica e relacionamento institucional consolidado. Nenhum dos dois depende de entrega futura pra ser verdadeiro hoje.",
+      "bet": "O diferencial mais defensável e sustentável — não é aspiracional.",
+      "risk": "Pode soar 'mais um serviço técnico' se a prova de relacionamento institucional (nº de processos, anos, cartórios específicos) não vier concreta o suficiente na comunicação."
+    },
+    {
+      "label": "Prova Social / Track Record",
+      "statement": "Para proprietários que desconfiam de contratar um novo escritório sem saber se vai entregar, a Fixa é o escritório de regularização que mostra resultado real: depoimentos verificáveis de quem já resolveu o próprio imóvel com a gente.",
+      "justification": "Ataca diretamente a objeção #1 do ICP (desconfiança) usando a prova social já existente (GMB 4,7★, depoimentos reais no Instagram).",
+      "bet": "Prioriza prova social pra resolver a objeção de confiança de forma mais direta que a integração técnica.",
+      "risk": "O volume de avaliações do GMB (16) ainda está abaixo do benchmark do setor (50+) — a prova social é real mas modesta; pode soar exagerada se comunicada como robusta cedo demais."
+    },
+    {
+      "label": "Especialista em Loteamentos/REURB Institucional",
+      "statement": "Para loteadores e associações de moradores com áreas irregulares em Caxias do Sul, a Fixa é o escritório que já assumiu a maioria dos novos processos de REURB institucional da cidade, porque conhece o trâmite da Secretaria de Urbanismo por dentro.",
+      "justification": "Foca no segmento de maior ticket (R$100-400 mil) e na possível liderança da Fixa em loteamentos frente à Balen.",
+      "bet": "Prioriza o segmento de maior ticket e menor concorrência direta (relacionamento institucional pesa mais que em processos residenciais avulsos).",
+      "risk": "Essa liderança em loteamentos é status 'potential' — relato do operador na call de kickoff, não corroborado documentalmente (pending_validation_item já registrado em ee-s1-persona-icp). Não deve virar claim de marketing até validar com contratos/protocolos na prefeitura."
+    }
+  ],
+  "chosen_statement": "A Fixa resolve engenharia e a parte jurídica da regularização em um único processo — sem contratar dois prestadores — com 10 anos de relacionamento direto com cartórios e prefeitura, pra você vender, financiar ou deixar a casa resolvida pros filhos.",
+  "puv": "A Fixa resolve engenharia e a parte jurídica da regularização do seu imóvel em um único processo — sem contratar dois prestadores — com 10 anos de relacionamento direto com cartórios e prefeitura, para você vender, financiar ou deixar a casa resolvida para os filhos.",
+  "canvas_4p": {
+    "product": {
+      "delivers": "Regularização completa (engenharia + jurídico) conduzida por um único escritório, apoiada por 10 anos de relacionamento direto com cartórios e a Secretaria de Urbanismo de Caxias do Sul.",
+      "transformation": "ANTES: proprietário com imóvel sem matrícula, impedido de vender/financiar/herdar, desconfiado depois de tentar sozinho no cartório ou de ouvir histórias de processo que não anda. DEPOIS: matrícula regularizada e registrada, imóvel liberado para vender/financiar/herdar, acompanhado do início ao fim por um único ponto de contato técnico-jurídico.",
+      "doesnt_deliver": "Não é um escritório de advocacia full-service — a frente jurídica resolve a burocracia da própria regularização, não outras demandas jurídicas da família (ajuste de framing definido pelo operador na SWOT). Não promete prazo fixo de conclusão — o processo depende de terceiros (cartório, prefeitura) fora do controle da Fixa; isso nunca deve virar promessa de comunicação, decisão explícita do operador."
+    },
+    "price": {
+      "positioning": "mid-market",
+      "justification": "O ticket varia de R$5 mil (regularização de casa) a R$400 mil (REURB de loteamentos institucionais) — não compete por ser a opção mais barata. A ancoragem correta é o custo de NÃO regularizar: impossibilidade de vender, financiar ou herdar, além do risco de disputa judicial entre herdeiros. No segmento institucional (loteamentos), o relacionamento com cartórios e prefeitura justifica um posicionamento mais premium, pela redução real de atrito que nenhum concorrente comparável oferece com a mesma consistência.",
+      "anchoring": "Para o público residencial: ancorar pelo custo da inação (não vender/financiar/herdar), não pelo preço do serviço. Para loteamentos: ancorar pela redução de atrito via relacionamento institucional consolidado — não pelo preço mais baixo."
+    },
+    "place": {
+      "main_channel": "Google Search (busca ativa por 'regularizar imóvel', 'usucapião', 'REURB Caxias do Sul')",
+      "main_channel_justification": "O ICP já demonstra intenção de busca ativa (pesquisa direta no Google é canal #2 mapeado em ee-s1-persona-icp) e a principal objeção é desconfiança em contratar um escritório novo — Search captura quem já está no momento de decisão, ao contrário de Meta que precisa gerar a demanda do zero.",
+      "support_channel": "Meta Ads (retargeting em públicos quentes: seguidores IG + engajamento GMB) + GMB/SEO local",
+      "avoid_channels": [
+        {
+          "channel": "TikTok Ads",
+          "reason": "ICP tem núcleo 40-70 anos — formato e audiência não combinam com o ciclo de decisão racional/emocional deste serviço"
+        },
+        {
+          "channel": "LinkedIn Ads",
+          "reason": "Mesmo no fluxo institucional (loteamentos), a decisão passa por relacionamento direto e indicação, não por anúncio pago em rede profissional — CPL alto sem retorno provável"
+        },
+        {
+          "channel": "Programática/Display frio",
+          "reason": "Budget de lançamento (R$1.500-3.000/mês) é pequeno demais pra sustentar display sem retargeting configurado"
+        }
+      ]
+    },
+    "promotion": {
+      "tone": "Técnico/profissional com camada didática — explica o processo em linguagem simples (sem 'juridiquês'), reforçando relacionamento institucional e prova social real. Não é tom próximo/informal nem aspiracional/premium — é confiança tranquila de quem já resolve isso há 10 anos.",
+      "top_funnel_message": "Sua casa não tem escritura regularizada? Você pode estar impedido de vender, financiar ou deixar resolvido pros filhos.",
+      "bottom_funnel_message": "Engenharia e a parte jurídica da regularização em um único processo, com quem tem 10 anos de relacionamento direto com cartórios e a prefeitura de Caxias do Sul. Fale com a Fixa."
+    }
+  },
+  "brand_territory": {
+    "three_words": [
+      "Integração",
+      "Relacionamento",
+      "Tranquilidade"
+    ],
+    "description": "Integração = resolve engenharia e a parte jurídica da regularização dentro de um único processo, sem o cliente coordenar dois prestadores. Relacionamento = 10 anos de relação direta e consolidada com cartórios e a Secretaria de Urbanismo, que reduz atrito real no processo. Tranquilidade = a entrega emocional final — a família resolve o problema sem risco de disputa ou pendência para os filhos.",
+    "competitor_territories": [
+      {
+        "competitor": "Balen Regularizações",
+        "territory": "Escala e Institucionalização — holding com 3 unidades, +20 anos, prêmio Top of Mind"
+      },
+      {
+        "competitor": "DCA Engenharia",
+        "territory": "Prova Técnica Documentada — cases nomeados e indexados, mas amplo (engenharia + meio ambiente)"
+      },
+      {
+        "competitor": "BLM Assessoria Imobiliária",
+        "territory": "Nenhum território comunicado — presença digital quase nula"
+      }
+    ],
+    "availability_justification": "Nenhum concorrente mapeado combina Integração (técnico+jurídico num processo) com Relacionamento institucional consolidado — Balen aposta em escala/marca, DCA em prova técnica isolada de cases, e nenhum dos dois tem o mesmo histórico de 10 anos de relação direta com cartório e prefeitura que a Fixa já tem hoje."
+  },
+  "taglines": [
+    {
+      "tagline": "Engenharia e direito, num processo só.",
+      "tone": "Direto/funcional",
+      "justification": "Resume o diferencial central (Integração) em 6 palavras — funciona em qualquer canal, do headline de anúncio à assinatura de e-mail.",
+      "best_use": "Headline de anúncio (Google RSA, hook Meta), assinatura de e-mail, topo de site."
+    },
+    {
+      "tagline": "Quem resolve a parte técnica e a jurídica, sem te enrolar entre dois escritórios.",
+      "tone": "Próximo/empático",
+      "justification": "Usa a linguagem real do ICP (a fragmentação de contratar dois prestadores é uma dor mapeada) sem prometer nenhuma data — ataca a fricção do processo, não o tempo dele.",
+      "best_use": "Criativos de Meta Ads (carrossel, reels), copy de topo de funil."
+    },
+    {
+      "tagline": "10 anos resolvendo regularização de imóvel em Caxias do Sul.",
+      "tone": "Institucional/credibilidade",
+      "justification": "Ancora no track record real (10 anos, fundação 2016) — funciona como prova social objetiva sem depender de reviews (ainda com volume baixo no GMB).",
+      "best_use": "Hero da landing page, seção 'sobre' do site, material institucional/apresentação comercial."
+    }
+  ],
+  "recommended_tagline": "Engenharia e direito, num processo só.",
+  "operator_direction": {
+    "strongest_differential": "Integração técnico-jurídica num único processo, apoiada por relacionamento institucional de 10 anos (não prazo)",
+    "desired_position": "Boutique relacional + presença digital forte",
+    "positioning_restrictions": [
+      "Não comunicar a frente jurídica como 3ª especialidade separada e equivalente a Engenharia/Assessoria",
+      "Nunca usar prazo/data de conclusão como promessa em nenhuma peça de comunicação"
+    ],
+    "desired_tone": "Técnico/profissional com camada didática, apoiado em relacionamento institucional e prova social real"
+  },
+  "key_insight": {
+    "headline": "Território 'Integração técnico-jurídica + relacionamento institucional' está livre — nenhum concorrente mapeado combina as duas coisas.",
+    "context": "Balen tem escala e reconhecimento formal, mas fala de forma institucional genérica sem integrar jurídico. DCA prova via cases técnicos, mas não integra jurídico nem tem o mesmo relacionamento institucional. Nenhum dos três resolve as duas frentes dentro de um único processo apoiado por 10 anos de relação direta com cartório e prefeitura.",
+    "numbered_reasons": [
+      "(1) Diferencial confirmado e sustentável hoje — não depende de nenhuma entrega futura (CRM, LP) pra ser verdadeiro",
+      "(2) Scorecard digital mostra o gap da Fixa em site/SEO/mídia, não em confiança ou capacidade técnica — o território já é real, falta comunicá-lo",
+      "(3) Balen tem budget pra copiar rápido se decidir investir em mídia — a janela fecha quando algum concorrente formalizar esse mesmo combo"
+    ],
+    "discussion_anchor": "O stakeholder precisa aprovar esta direção agora pra destravar a produção da Semana 3 (LP, criativos, copy) — sem depender de nenhuma entrega futura.",
+    "feasibility": "alta — os dois pilares (integração técnico-jurídica + relacionamento institucional) já são reais hoje, sem depender de nenhuma capacidade que a Fixa ainda não tem."
+  },
+  "honesty_alert": "Prazo/data de conclusão do processo NÃO deve aparecer como promessa em nenhuma peça de comunicação (site, anúncio, script comercial) — decisão explícita do operador. O processo depende de terceiros (cartório, prefeitura) e prometer prazo é insustentável. Além disso, a frente jurídica não deve ser comunicada como uma 3ª especialidade separada e equivalente a Engenharia/Assessoria — é a burocracia legal resolvida dentro do processo técnico. A possível liderança da Fixa em novos loteamentos frente à Balen (considerada na Opção C) é status 'potential', não confirmado documentalmente — não usar como claim de marketing até validar.",
+  "completed_at": "2026-09-23T12:31:49Z"
+}

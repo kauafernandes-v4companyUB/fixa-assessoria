@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-09-16 18:36 UTC · Ciclo atual: Semana 2 · Cliente: `fixa`*
+*Gerado em 2026-09-23 12:32 UTC · Ciclo atual: Semana 2 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -64,6 +64,8 @@
 - **Mais rentável:** REURB / regularização fundiária de loteamentos (maior ticket, curva A)
 - **Potencial de crescimento:** Regularização fundiária de loteamentos e inventários
 
+
+### Unidade econômica atual (últimos 90d) *[refinado em Semana 2]*
 
 
 ## 3. ICP & Persona
@@ -287,7 +289,41 @@ Ocupar o território 'o escritório que garante prazo por escrito na regulariza�
 
 ## 6. Posicionamento Estratégico
 
-*Posicionamento ainda não definido.*
+> **Headline:** Fixa ocupa o território 'Integração + Relacionamento institucional' — combinação que nenhum dos 3 concorrentes mapeados oferece, sem depender de promessa de prazo.
+
+### Território de marca
+**Integração · Relacionamento · Tranquilidade**
+Integração = resolve engenharia e a parte jurídica da regularização dentro de um único processo, sem o cliente coordenar dois prestadores. Relacionamento = 10 anos de relação direta e consolidada com cartórios e a Secretaria de Urbanismo, que reduz atrito real no processo. Tranquilidade = a entrega emocional final — a família resolve o problema sem risco de disputa ou pendência para os filhos.
+
+### PUV — Proposta Única de Valor
+> **A Fixa resolve engenharia e a parte jurídica da regularização do seu imóvel em um único processo — sem contratar dois prestadores — com 10 anos de relacionamento direto com cartórios e prefeitura, para você vender, financiar ou deixar a casa resolvida para os filhos.**
+
+### Tagline recomendada
+> *"Engenharia e direito, num processo só."*
+
+### Canvas 4P
+- **Produto:** Regularização completa (engenharia + jurídico) conduzida por um único escritório, apoiada por 10 anos de relacionamento direto com cartórios e a Secretaria de Urbanismo de Caxias do Sul.
+- **Preço:** Posicionamento **mid-market**. O ticket varia de R$5 mil (regularização de casa) a R$400 mil (REURB de loteamentos institucionais) — não compete por ser a opção mais barata. A ancoragem correta é o custo de NÃO regularizar: impossibilidade de vender, financiar ou herdar, além do risco de disputa judicial entre herdeiros. No segmento institucional (loteamentos), o relacionamento com cartórios e prefeitura justifica um posicionamento mais premium, pela redução real de atrito que nenhum concorrente comparável oferece com a mesma consistência.
+- **Praça:** Google Search (busca ativa por 'regularizar imóvel', 'usucapião', 'REURB Caxias do Sul'). O ICP já demonstra intenção de busca ativa (pesquisa direta no Google é canal #2 mapeado em ee-s1-persona-icp) e a principal objeção é desconfiança em contratar um escritório novo — Search captura quem já está no momento de decisão, ao contrário de Meta que precisa gerar a demanda do zero.
+- **Promoção:** Técnico/profissional com camada didática — explica o processo em linguagem simples (sem 'juridiquês'), reforçando relacionamento institucional e prova social real. Não é tom próximo/informal nem aspiracional/premium — é confiança tranquila de quem já resolve isso há 10 anos.
+  - *Topo de funil:* Sua casa não tem escritura regularizada? Você pode estar impedido de vender, financiar ou deixar resolvido pros filhos.
+
+### Insight estratégico
+**Território 'Integração técnico-jurídica + relacionamento institucional' está livre — nenhum concorrente mapeado combina as duas coisas.**
+
+Balen tem escala e reconhecimento formal, mas fala de forma institucional genérica sem integrar jurídico. DCA prova via cases técnicos, mas não integra jurídico nem tem o mesmo relacionamento institucional. Nenhum dos três resolve as duas frentes dentro de um único processo apoiado por 10 anos de relação direta com cartório e prefeitura.
+
+1. (1) Diferencial confirmado e sustentável hoje — não depende de nenhuma entrega futura (CRM, LP) pra ser verdadeiro
+2. (2) Scorecard digital mostra o gap da Fixa em site/SEO/mídia, não em confiança ou capacidade técnica — o território já é real, falta comunicá-lo
+3. (3) Balen tem budget pra copiar rápido se decidir investir em mídia — a janela fecha quando algum concorrente formalizar esse mesmo combo
+
+### Direção estratégica
+- **Diferencial mais forte:** Integração técnico-jurídica num único processo, apoiada por relacionamento institucional de 10 anos (não prazo)
+- **Posição desejada:** Boutique relacional + presença digital forte
+- **Tom desejado:** Técnico/profissional com camada didática, apoiado em relacionamento institucional e prova social real
+- **Restrições:**
+  - Não comunicar a frente jurídica como 3ª especialidade separada e equivalente a Engenharia/Assessoria
+  - Nunca usar prazo/data de conclusão como promessa em nenhuma peça de comunicação
 
 
 ## 7. Comunicação & Auditoria de Canais
@@ -314,7 +350,31 @@ Ocupar o território 'o escritório que garante prazo por escrito na regulariza�
 
 ## 9. Mídia Paga
 
-*Diagnóstico de mídia ainda não realizado.*
+> **Headline:** Antes de ligar mídia paga, vamos implementar tracking + LP + CRM (Semana 4) — depois lançamos R$3.000/mês em Google+Meta com meta de 25-30 leads/mês.
+
+- **Período analisado:** 90 dias (25/06/2026 a 23/09/2026) via V4MOS — 0 campanhas confirmadas em Google Ads e Meta Ads
+- **Budget contratado:** —/mês
+- **Google Ads:** —/mês
+- **Meta Ads:** —/mês
+
+### Métricas atuais (90d)
+- **Investimento total:** 0
+- **Total de leads:** 0
+- **Total de clicks:** 0
+- **Impressões:** 0
+
+### Principais achados
+- **Investimento atual:** R$0/mês — 0 campanhas ativas confirmadas via V4MOS (Google + Meta)
+- **Budget de lançamento (Cenário B):** R$3.000/mês — ~25-30 leads/mês estimados [E], CPL blend ~R$50-60
+- **O que implementamos primeiro:** Tracking + LP + CRM — Pré-requisito antes do 1º real em anúncio — Semana 4
+- **Se pularmos a ordem:** CPL parece ruim sem ser — Anúncio pagaria pra provar o que já sabemos: falta conversão, não tráfego
+- **Concorrente com budget maior:** Balen Regularizações — Escala multi-estado — entramos menores, mas com ângulo que ninguém ocupa (prazo por escrito)
+
+### Diagnóstico por dimensão
+- **Account structure:** Ainda não existe segmentação — vamos desenhá-la a partir do ICP (35-70 anos, Caxias do Sul, classe média/média-alta, foco em busca ativa por regularização/usucapião).
+- **Creatives:** Nenhum criativo pago existe hoje — confirmado com o operador que ninguém produz criativo de forma dedicada (ver ee-s1-diagnostico-maturidade, pilar criativos 13/100). Vamos partir das 5 hipóteses de teste abaixo.
+- **Landing pages:** low
+- **Audiences:** Nenhum público construído hoje — vamos desenhar a partir do ICP, priorizando audiências quentes (seguidores IG, engajamento GMB) antes de escalar para público frio.
 
 
 ## 10. CRO & Landing Page
@@ -349,19 +409,21 @@ Ocupar o território 'o escritório que garante prazo por escrito na regulariza�
 - ✅ **ee-s1-auditoria-comunicacao** — concluída em 2026-09-15T21:01:33Z
 - ✅ **ee-s1-swot** — concluída em 2026-09-15T21:45:00Z
 - ✅ **ee-s2-pesquisa-mercado** — concluída em 2026-09-16T14:30:00Z
+- ✅ **ee-s2-diagnostico-midia** — concluída em 2026-09-23T12:18:08Z
 - ✅ **ee-s1-diagnostico-maturidade** — concluída em 2026-09-15T00:00:00Z
+- ✅ **ee-s2-posicionamento** — concluída em 2026-09-23T12:32:04Z
 
 **Semana atual:** 2
 
 ### Histórico de refinamentos
-- *2026-09-08T11:28:17Z* — **ee-novo-cliente** (—): 
-- *2026-09-08T00:00:00Z* — **ee-continuar** (—): 
 - *2026-09-15T00:00:00Z* — **ee-s1-persona-icp** (—): 
 - *2026-09-15T00:00:00Z* — **ee-s1-diagnostico-maturidade** (—): 
 - *2026-09-15T21:01:33Z* — **ee-s1-auditoria-comunicacao** (—): 
 - *2026-09-15T21:45:00Z* — **ee-s1-swot** (—): 
 - *2026-09-16T14:30:00Z* — **ee-s2-pesquisa-mercado** (—): 
 - *2026-09-16T15:00:00Z* — **ee-continuar** (—): 
+- *2026-09-23T12:18:08Z* — **ee-s2-diagnostico-midia** (—): 
+- *2026-09-23T12:32:04Z* — **ee-s2-posicionamento** (—): 
 
 ---
 
