@@ -43,7 +43,8 @@
       "years_in_market": "10 anos (Fixa Engenharia, fundada 13/09/2016) e 2 anos (Fixa Assessoria, fundada 22/08/2024)",
       "location": "Caxias do Sul, RS",
       "website": "https://www.fixaengenharia.com (existe mas desatualizado desde 2016, sem CNPJ/telefone/endereço, cobre só uma das duas marcas)",
-      "instagram": "@fixa_engenharia (cliente quer rever a arroba para unificar as duas marcas)",
+      "instagram": "@fixa_engenharia",
+      "instagram_note": "Cliente quer rever a arroba para unificar as duas marcas (Engenharia + Assessoria)",
       "whatsapp": "+55 54 99971-9141",
       "gmb": true
     },
@@ -281,16 +282,16 @@
         "completed_at": "2026-09-23T12:18:08Z"
       },
       "ee-s2-diagnostico-organico-ig": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-23T17:18:02Z",
+        "completed_at": "2026-09-23T17:18:02Z"
       },
       "ee-s2-diagnostico-criativos": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-23T12:49:27Z",
+        "completed_at": "2026-09-23T12:49:27Z"
       },
       "ee-s1-diagnostico-maturidade": {
         "status": "completed",
@@ -444,6 +445,18 @@
       "skill": "ee-s2-posicionamento",
       "checkpoint": 0,
       "decision": "Posicionamento aprovado com ajuste crítico do operador: a direção inicial proposta incluía 'prazo por escrito' como território de mensagem (territorio livre identificado em ee-s2-pesquisa-mercado e ee-s1-swot, mesmo suavizado como 'transparência desde a primeira conversa'). Operador rejeitou explicitamente qualquer menção a prazo/data como bullshit ('já falei pra você que isso é bullshitagem') — direção descartada permanentemente, registrado em memória. Direção final aprovada: PUV e declaração de posicionamento apoiadas em 'Integração técnico-jurídica + Relacionamento institucional de 10 anos' (ambos diferenciais confirmados, não aspiracionais). Território de marca: Integração + Relacionamento + Tranquilidade. Tagline recomendada: 'Engenharia e direito, num processo só.' Canvas 4P, mapa competitivo (quadrante vazio: boutique relacional + digital forte) e key_insight ajustados para nunca mencionar prazo como promessa em nenhuma comunicação futura (LP, copy, criativos, scripts de SDR)."
+    },
+    {
+      "ts": "2026-09-23T12:49:27Z",
+      "skill": "ee-s2-diagnostico-criativos",
+      "checkpoint": 0,
+      "decision": "Diagnóstico de criativos aprovado sem ajustes. Fixa não tem nenhum criativo pago hoje (0 confirmado em ee-s2-diagnostico-midia) e o operador não tinha screenshots disponíveis — matriz de avaliação virou documentação de ausência, não avaliação real. Checagem automática da Meta Ads Library (Balen, DCA) falhou por bloqueio de scraping; análise de concorrentes usou dados já confirmados em ee-s2-pesquisa-mercado (site/Instagram), com recomendação de checagem manual antes da produção. Briefing de produção pra Semana 3: 9 criativos (3 hooks x 2 formatos x 2 CTAs), formato prioritário reels, partindo da prova social já existente (GMB 4,7★ + depoimentos reais no Instagram) em vez de recomeçar do zero — operador confirmou ter cliente disposto a gravar depoimento real. Sem nenhuma menção a prazo (regra já fixada em memória)."
+    },
+    {
+      "ts": "2026-09-23T17:18:02Z",
+      "skill": "ee-s2-diagnostico-organico-ig",
+      "checkpoint": 0,
+      "decision": "Diagnóstico orgânico IG aprovado sem ajustes. Precisou corrigir um bug antes de rodar: briefing.identification.instagram tinha uma nota do operador embutida no valor ('@fixa_engenharia (cliente quer rever a arroba...)'), que quebrava a chamada business_discovery (erro 'Invalid user id') — campo limpo para '@fixa_engenharia' e nota movida para instagram_note. Token do Meta Graph API (.credentials/meta-graph-api.json) foi fornecido pelo operador copiando de outro projeto (Santa Juliana/medclinic não tinham mais o arquivo — token expirado ou removido). Dados reais confirmam: engagement rate da Fixa (5,34%) é o maior das 3 contas (Balen 2,01%, DCA 2,73%) mesmo com a menor base de seguidores. Padrão vencedor: número concreto de marco no corpo do post (post de 17,1% eng) e case nomeado real na 1ª menção. Padrão que quebra: foto de banco de imagens (pior post, 1,06% eng, contraria brand.restrictions do próprio cliente) e reaproveitar o mesmo case com ângulo mais fraco (6x menos engajamento). Gap mais acionável: Balen mostra relacionamento institucional com a prefeitura como conteúdo — Fixa tem o mesmo ativo (território 'Relacionamento' do posicionamento) mas nunca produziu conteúdo parecido."
     }
   ]
 }

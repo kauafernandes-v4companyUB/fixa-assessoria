@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-09-23 12:32 UTC · Ciclo atual: Semana 2 · Cliente: `fixa`*
+*Gerado em 2026-09-23 17:41 UTC · Ciclo atual: Semana 2 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -37,7 +37,7 @@
 ### Contato
 - **Responsável:** Carlos Henrique Garbin — Engenheiro Civil / Diretor de ambas as empresas
 - **WhatsApp:** +55 54 99971-9141
-- **Instagram:** @fixa_engenharia (cliente quer rever a arroba para unificar as duas marcas)
+- **Instagram:** @fixa_engenharia
 - **Site:** https://www.fixaengenharia.com (existe mas desatualizado desde 2016, sem CNPJ/telefone/endereço, cobre só uma das duas marcas)
 
 ### Contrato
@@ -187,7 +187,7 @@ As duas anti-personas abaixo são o espelho invertido da Ivete: onde ela tem nec
 
 ## 4. Mercado & Concorrência
 
-> **Headline:** Fixa já captura ~16% do SAM regional (R$10,6M/ano) sem nenhum investimento digital — SOM de mercado (R$2,68M/ano) está ao alcance só formalizando prazo, território livre entre os concorrentes.
+> **Headline:** Fixa já captura ~16% do SAM regional (R$10,6M/ano) sem nenhum investimento digital — SOM de mercado (R$2,68M/ano) está ao alcance formalizando o relacionamento institucional em processo comercial e levando a captação para o digital — território livre entre os concorrentes.
 
 ### Tamanho de mercado
 - **TAM:** R$ 1,50 bi — Mercado nacional anual de regularização documental residencial e fundiária urbana (escritura/matrícula, usucapião, REURB residencial) — bottom-up a partir do estoque nacional de imóveis sem escritura. Cálculo: 30.000.000 de domicílios urbanos sem escritura (Ministério do Desenvolvimento Regional) × 1%/ano de conversão em contratação de serviço [E] × R$5.000 de ticket médio de regularização residencial (mesmo ticket cobrado pela Fixa hoje, usado como proxy nacional) [E] = R$1,5 bilhão/ano. Não existe relatório setorial dedicado que meça o mercado de 'regularização fundiária' como categoria própria — por isso o bottom-up.
@@ -205,7 +205,7 @@ As duas anti-personas abaixo são o espelho invertido da Ivete: onde ela tem nec
 - **Mercado endereçável:** R$ 6,75 M (64% do SAM · SOM = 40% do endereçável) — fatia do SAM relevante à oferta (decisão estratégica de não competir em commodity/ocasional)
 - **Composição:** Fluxo A (residencial) filtrado a ~40% — perfil de bairro médio/médio-alto que a Fixa atende hoje, conforme anti-persona 'Fora do Padrão de Atendimento' já mapeada em ee-s1-persona-icp: R$6.384.000 × 40% = R$2.553.600 [E]. Mais Fluxo B (REURB de loteamentos) inteiro — decisão institucional, não segmentada por classe social do proprietário individual: R$4.200.000. Total: R$2.553.600 + R$4.200.000 = R$6.753.600.
 - *O SAM total (R$10,6M/ano) inclui todo o backlog de irregularidade documental do município, mas a Fixa filtra deliberadamente o fluxo residencial por perfil de bairro (médio/médio-alto) — o perfil 'Fora do Padrão de Atendimento' já é tratado como anti-persona operacional, não é um gap a corrigir. O Mercado Endereçável (R$6,75M/ano) separa essa barreira de ESCOLHA (SAM → Endereçável) da barreira COMPETITIVA (Endereçável → SOM, onde a Fixa disputa com Balen/DCA/BLM). A razão SOM/Endereçável (~39,7%) é uma leitura mais honesta da performance da Fixa do que SOM/SAM (~25,3%): mostra que, dentro do que ela de fato persegue, já está perto da faixa de 'líder do nicho' (20-40%).*
-*A Fixa está hoje em ~16,1% do SAM regional (R$10,6M/ano) — patamar de 'líder de nicho' nos benchmarks de mercado, alcançado inteiramente via indicação e relacionamento institucional, sem qualquer investimento digital (mídia paga: R$0, confirmado via conectores V4MOS). O SOM de R$2,68M/ano representa um crescimento de 57,6% sobre o faturamento atual — não é um salto para outra categoria de empresa, é a mesma vantagem relacional que já existe hoje, só formalizada em processo comercial (prazo por escrito) e levada para o digital (site, LP, mídia paga). Nota sobre metas: o briefing registra '~R$1,7 milhões projetados para 2026' como faturamento (identification.annual_revenue), mas não há um campo de meta comercial explícita e separada documentado ainda (ex: um 'Meta 12M' de formulário V4MOS) — vale levantar isso diretamente com o Carlos em uma próxima call para comparar aspiração dele com o SOM de mercado calculado aqui.*
+*A Fixa está hoje em ~16,1% do SAM regional (R$10,6M/ano) — patamar de 'líder de nicho' nos benchmarks de mercado, alcançado inteiramente via indicação e relacionamento institucional, sem qualquer investimento digital (mídia paga: R$0, confirmado via conectores V4MOS). O SOM de R$2,68M/ano representa um crescimento de 57,6% sobre o faturamento atual — não é um salto para outra categoria de empresa, é a mesma vantagem relacional que já existe hoje, só formalizada em processo comercial (relacionamento institucional, não promessa de prazo — que depende de terceiros como cartório e prefeitura) e levada para o digital (site, LP, mídia paga). Nota sobre metas: o briefing registra '~R$1,7 milhões projetados para 2026' como faturamento (identification.annual_revenue), mas não há um campo de meta comercial explícita e separada documentado ainda (ex: um 'Meta 12M' de formulário V4MOS) — vale levantar isso diretamente com o Carlos em uma próxima call para comparar aspiração dele com o SOM de mercado calculado aqui.*
 
 ### Concorrentes mapeados
 **Balen Regularizações**
@@ -231,13 +231,13 @@ As duas anti-personas abaixo são o espelho invertido da Ivete: onde ela tem nec
 - **Ameaça:** Balen Regularizações (concorrente líder, holding institucionalizada com unidades em 3 cidades) pode intensificar presença digital e mídia paga na região — Fecharia a janela de oportunidade já identificada na SWOT — hoje nenhum concorrente mapeado investe em mídia paga — antes que a Fixa consiga estruturar CRO/CRM/mídia própria (Semana 4 do planejamento)
 
 ### Oportunidade não explorada
-Ocupar o território 'o escritório que garante prazo por escrito na regularização do seu imóvel' — nenhum dos 3 concorrentes mapeados (Balen, DCA, BLM) formaliza clareza de prazo como promessa comercial, apesar de ser a dor #1 do ICP da Fixa (objeções mapeadas em ee-s1-persona-icp são todas sobre confiança e prazo, nenhuma sobre o serviço em si).
+Nenhum dos 3 concorrentes mapeados (Balen, DCA, BLM) formaliza clareza de prazo como promessa comercial, apesar de ser parte da dor #1 do ICP da Fixa (objeções mapeadas em ee-s1-persona-icp são todas sobre confiança e prazo, nenhuma sobre o serviço em si). NOTA — atualizado em ee-s2-posicionamento: essa lacuna foi avaliada e descartada como direção de comunicação da Fixa, porque o processo depende de terceiros (cartório, prefeitura) fora do controle da empresa, tornando qualquer promessa de prazo por escrito insustentável mesmo com CRM implementado. A resposta estratégica escolhida para a mesma objeção de confiança foi o relacionamento institucional de 10 anos, que reduz atrito real sem prometer uma data (ver ee-s2-posicionamento, território 'Relacionamento').
 
 ### Diferenciais reais
 - **Resolve o técnico e o jurídico da regularização dentro do mesmo processo, sem o cliente precisar contratar um segundo prestador** *[confirmed]* — Reduz a fricção #1 do ICP — desconfiança e complexidade de lidar com múltiplos prestadores sem coordenação (mapeado nas pains de ee-s1-persona-icp).
 - **Relacionamento institucional consolidado com cartórios e a Secretaria Municipal do Urbanismo (SMU)** *[confirmed]* — Reduz prazo e atrito no processo, endereçando a dor #1 do ICP (desconfiança sobre prazo e seriedade).
 - **Possível liderança em REURB de loteamentos frente ao maior concorrente (Balen), com histórico de ter assumido a maioria dos novos loteamentos protocolados na cidade no último ano** *[potential]* — Se confirmado, é prova social/institucional forte justamente no segmento de maior ticket do negócio (R$100-400 mil) — mas hoje é apenas um relato do operador na call de kickoff, sem corroboração documental (mesma pendência já registrada em ee-s1-persona-icp).
-- **Prazo por escrito como promessa comercial formal** *[aspirational]* — Endereça diretamente a objeção #1 do ICP (medo de ser 'enrolado' sem saber prazo) e é o território de mensagem que nenhum concorrente mapeado ocupa hoje.
+- **Prazo por escrito como promessa comercial formal** *[descartado]* — Endereçava a objeção #1 do ICP (medo de ser 'enrolado' sem saber prazo), mas foi descartado como direção de comunicação em ee-s2-posicionamento — depende de terceiros (cartório, prefeitura) fora do controle da Fixa, tornando a promessa insustentável mesmo com CRM implementado.
 
 
 ## 5. Maturidade Digital & SWOT
@@ -345,7 +345,31 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 
 ## 8. Orgânico Instagram
 
-*Diagnóstico de Instagram ainda não realizado.*
+> **Resumo:** A Fixa (@fixa_engenharia) tem a maior taxa de engajamento das 3 contas analisadas (5,34% vs 2,73% da DCA e 2,01% da Balen) mesmo com metade dos seguidores da DCA e um quinto da Balen — mas seu pior post usa foto de banco de imagens (contrariando a própria restrição de marca) e reaproveitar o mesmo case duas vezes derrubou o engajamento em 6x. Ação prioritária: mais posts com números concretos de marco e conteúdo mostrando o relacionamento institucional, ativo real que a Fixa nunca mostrou.
+
+### Engagement vs concorrência
+- **@fixa_engenharia** — engagement proxy: 5.338% · formato forte: REELS
+- **@balenregularizacoes** — engagement proxy: 2.01% · formato forte: REELS
+- **@dca_engenharia** — engagement proxy: 2.732% · formato forte: REELS
+
+*O cliente tem a MAIOR taxa de engajamento das 3 contas (5,34%) mesmo com a menor base de seguidores (473 vs 1.212 da DCA e 2.152 da Balen) — quem já segue a Fixa se envolve genuinely mais. O gap real não é qualidade média de conteúdo, é volume: poucos seguidores pra alcançar e poucos cases reais publicados (8 posts/90d) pra sustentar cadência maior sem cair em conteúdo institucional genérico.*
+
+### O que já funciona
+- Número concreto de marco/resultado citado no corpo do post (ex: '337 lotes entregues', meta de 500 até 2026)
+- Case nomeado real (nome da pessoa/empreendimento) contado como história humana, na primeira menção
+
+### Lacunas vs concorrência
+- Legenda ultra-curta (menos de 350 caracteres) com número de marco na primeira linha, sem narrativa longa
+- Conteúdo mostrando reconhecimento oficial/relacionamento institucional com o poder público (foto com secretário, entrega de homenagem)
+- Geolocalização do case (nome do bairro/núcleo específico) na legenda
+- Presença física em feiras/eventos do setor como conteúdo
+
+### Próximas ações
+- Publicar mais posts com número concreto de marco no corpo do texto (total de lotes/processos entregues no trimestre) — replicar o padrão do post de 17,1% de engajamento e o mesmo formato que já funciona 3x pra DCA
+- Eliminar/evitar fotos de banco de imagens em qualquer post — o pior post do cliente usa uma e contraria a própria restrição de marca já registrada no briefing
+- Produzir conteúdo mostrando o relacionamento institucional da Fixa com cartórios/SMU (reunião, entrega conjunta, evento institucional) — ativo real que o posicionamento já reivindica mas nunca apareceu no feed
+- Ao reaproveitar um case já publicado, usar um ângulo humano novo (não repetir a mesma história com ângulo processual) — a repetição do caso Ângelo Venturin teve 6x menos engajamento que a primeira menção
+- Testar formato de legenda curta (menos de 350 caracteres, número na primeira linha) ao lado do formato narrativo mais longo já usado
 
 
 ## 9. Mídia Paga
@@ -410,20 +434,22 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 - ✅ **ee-s1-swot** — concluída em 2026-09-15T21:45:00Z
 - ✅ **ee-s2-pesquisa-mercado** — concluída em 2026-09-16T14:30:00Z
 - ✅ **ee-s2-diagnostico-midia** — concluída em 2026-09-23T12:18:08Z
+- ✅ **ee-s2-diagnostico-organico-ig** — concluída em 2026-09-23T17:18:02Z
+- ✅ **ee-s2-diagnostico-criativos** — concluída em 2026-09-23T12:49:27Z
 - ✅ **ee-s1-diagnostico-maturidade** — concluída em 2026-09-15T00:00:00Z
 - ✅ **ee-s2-posicionamento** — concluída em 2026-09-23T12:32:04Z
 
 **Semana atual:** 2
 
 ### Histórico de refinamentos
-- *2026-09-15T00:00:00Z* — **ee-s1-persona-icp** (—): 
-- *2026-09-15T00:00:00Z* — **ee-s1-diagnostico-maturidade** (—): 
 - *2026-09-15T21:01:33Z* — **ee-s1-auditoria-comunicacao** (—): 
 - *2026-09-15T21:45:00Z* — **ee-s1-swot** (—): 
 - *2026-09-16T14:30:00Z* — **ee-s2-pesquisa-mercado** (—): 
 - *2026-09-16T15:00:00Z* — **ee-continuar** (—): 
 - *2026-09-23T12:18:08Z* — **ee-s2-diagnostico-midia** (—): 
 - *2026-09-23T12:32:04Z* — **ee-s2-posicionamento** (—): 
+- *2026-09-23T12:49:27Z* — **ee-s2-diagnostico-criativos** (—): 
+- *2026-09-23T17:18:02Z* — **ee-s2-diagnostico-organico-ig** (—): 
 
 ---
 

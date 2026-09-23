@@ -1,0 +1,217 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "segment": "Regularização fundiária e imobiliária (engenharia, arquitetura e direito imobiliário) — Caxias do Sul/RS",
+  "icp_summary": "Proprietário de imóvel, 35-70 anos, classe média/média-alta, sem matrícula regularizada, decisão em 1-3 semanas — objeções são todas sobre confiança e prazo (não sobre o serviço em si). Ver ee-s1-persona-icp.",
+  "total_creatives_analyzed": 0,
+  "source_outputs": [
+    "ee-s1-persona-icp.json",
+    "ee-s2-posicionamento.json",
+    "ee-s2-diagnostico-midia.json",
+    "ee-s2-pesquisa-mercado.json",
+    "ee-s1-auditoria-comunicacao.json",
+    "ee-s1-diagnostico-maturidade.json"
+  ],
+  "summary": "A Fixa nunca produziu criativo pago (0 confirmado em ee-s2-diagnostico-midia) — este diagnóstico vira briefing de produção para a Semana 3, partindo da prova social já existente (GMB 4,7★, depoimentos reais no Instagram) e do gap de cases documentados que a DCA já explora no mercado local.",
+  "summary_headline": "Fixa não tem nenhum criativo pago pra avaliar — briefing de produção recomenda partir da prova social já existente (GMB + depoimentos IG), formato reels, 8-10 peças novas.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Criativos hoje",
+      "value": "0 produzidos",
+      "subtext": "Pilar criativos 13/100 em ee-s1-diagnostico-maturidade",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Matéria-prima pronta",
+      "value": "GMB 4,7★ + depoimentos IG",
+      "subtext": "Prova social real, nunca usada em anúncio pago",
+      "tone": "green"
+    },
+    {
+      "category": "competicao",
+      "label": "Gap vs. DCA",
+      "value": "Cases documentados",
+      "subtext": "DCA usa prova técnica nomeada há anos, Fixa não usa nenhuma",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "Formato recomendado",
+      "value": "Reels (vídeo vertical curto)",
+      "subtext": "ICP consome Instagram, depoimento em vídeo ataca a objeção de confiança",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Verificação de concorrentes",
+      "value": "Meta Ads Library não acessível",
+      "subtext": "Checagem automática falhou nesta rodada — validar manualmente antes de produzir",
+      "tone": "gray"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "Nenhum criativo pago ou orgânico estruturado existe hoje — não é uma conta com criativo ruim, é uma conta sem produção nenhuma."
+    },
+    {
+      "category": "vantagem",
+      "text": "A prova social mais forte da Fixa (GMB 4,7★, depoimentos reais no Instagram) já existe e nunca foi usada em anúncio pago."
+    },
+    {
+      "category": "ameaca",
+      "text": "DCA já usa prova técnica documentada (cases nomeados) como criativo/SEO há anos — padrão que a Fixa ainda não replica."
+    },
+    {
+      "category": "acao",
+      "text": "Produzir os primeiros 8-10 criativos a partir das 5 hipóteses já briefadas em ee-s2-diagnostico-midia, priorizando reels com depoimento real."
+    }
+  ],
+  "creative_matrix": [
+    {
+      "number": 0,
+      "type": "outro",
+      "description": "Linha de documentação, não avaliação — não existe nenhum criativo pago ou orgânico estruturado produzido pela Fixa até hoje (confirmado em ee-s1-diagnostico-maturidade e ee-s2-diagnostico-midia). O operador também não tinha screenshots disponíveis nesta rodada para avaliação visual, mesmo do orgânico.",
+      "hook_score": 1,
+      "hook_comment": "Não aplicável — não há criativo produzido para avaliar hook.",
+      "clarity_score": 1,
+      "clarity_comment": "Não aplicável — mesma razão.",
+      "icp_coherence_score": 1,
+      "icp_coherence_comment": "Não aplicável — mesma razão.",
+      "cta_score": 1,
+      "cta_comment": "Não aplicável — mesma razão.",
+      "visual_score": 1,
+      "visual_comment": "Não aplicável — mesma razão.",
+      "total_score": 5,
+      "verdict": "eliminar",
+      "verdict_reason": "Esta linha documenta a ausência total de criativos — não é uma peça real com veredito de descarte, é o ponto de partida (score mínimo por convenção, já que o schema exige ao menos 1 item avaliado)."
+    }
+  ],
+  "patterns_identified": [
+    {
+      "pattern": "Ausência estrutural de produção de criativo — nenhum criativo pago ou orgânico estruturado existe hoje, confirmado de forma cruzada em 3 diagnósticos anteriores.",
+      "affected_creatives": [
+        0
+      ],
+      "example": "ee-s1-diagnostico-maturidade: pilar criativos 13/100, 'ninguém produz criativos de forma dedicada hoje'. ee-s2-diagnostico-midia: creative_gallery vazia, 0 anúncios ativos confirmados via V4MOS."
+    }
+  ],
+  "what_works": [
+    {
+      "element": "Depoimentos reais de clientes (nome + foto) já publicados no Instagram @fixa_engenharia",
+      "seen_in": [
+        0
+      ],
+      "reason": "É a prova social mais forte que a Fixa já tem hoje (ver ee-s1-swot) — deve virar a base dos primeiros criativos pagos em vez de começar do zero."
+    },
+    {
+      "element": "Nota 4,7★ no Google Meu Negócio (16 avaliações)",
+      "seen_in": [
+        0
+      ],
+      "reason": "Prova social objetiva e verificável, ainda não usada em nenhuma peça de comunicação paga (gap já identificado em ee-s1-auditoria-comunicacao)."
+    }
+  ],
+  "competitor_analysis": [
+    {
+      "competitor": "Balen Regularizações",
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=Balen%20Regulariza%C3%A7%C3%B5es",
+      "creative_pattern": "Institucional e amplo: site com FAQ sobre REURB, cases nomeados (ação judicial vencida, desapropriação), mas mensagem de marca genérica ('soluções eficazes') sem prova social em formato de anúncio identificado (ver ee-s2-pesquisa-mercado). Checagem de anúncios ativos na Meta Ads Library não foi possível nesta rodada (bloqueio de acesso automatizado) — recomenda-se checagem manual pelo link antes da produção.",
+      "what_works": "Cases nomeados com resultado documentado (nº de processos, prêmio Top of Mind) — formato de prova social forte que pode inspirar depoimentos em vídeo da Fixa.",
+      "what_to_avoid": "Tom institucional de holding ('soluções eficazes') — a Fixa não tem a mesma escala e deve competir em proximidade/relacionamento, não em porte.",
+      "gap_para_cliente": true,
+      "replication_idea": "Adaptar o formato 'case documentado' da Balen para vídeo-depoimento curto (reels) com nome e foto real de cliente da Fixa — mais barato de produzir que a página de case institucional e mais nativo do formato pago."
+    },
+    {
+      "competitor": "DCA Engenharia",
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=DCA%20Engenharia",
+      "creative_pattern": "SEO de cauda longa via páginas de case nomeadas com resultado documentado (ex: 'Residencial Vista Bella — CRF emitido, 32 unidades regularizadas'). Não é um padrão de criativo pago confirmado, é orgânico/SEO — mas o princípio (prova específica e nomeada) é replicável em anúncio. Checagem de anúncios ativos na Meta Ads Library não foi possível nesta rodada.",
+      "what_works": "Prova social específica e verificável (nome do empreendimento + resultado) gera mais confiança que depoimento genérico.",
+      "what_to_avoid": "Posicionamento amplo ('engenharia e meio ambiente') que dilui o foco em regularização residencial/pessoa física — não é isso que o ICP da Fixa busca.",
+      "gap_para_cliente": true,
+      "replication_idea": "Criar 2-3 criativos 'case real' (com autorização do cliente) citando o tipo de processo resolvido (usucapião, REURB) e o resultado, no espírito do case da DCA, mas em formato de anúncio pago em vez de página de site."
+    }
+  ],
+  "competitor_patterns_missing": [
+    {
+      "pattern": "Prova social documentada e nomeada (case com nome + resultado específico)",
+      "seen_in_competitors": [
+        "DCA Engenharia",
+        "Balen Regularizações"
+      ],
+      "why_it_works": "Ataca diretamente a objeção #1 do ICP (desconfiança de que o serviço não vai entregar) com evidência concreta, não promessa genérica.",
+      "how_client_could_implement": "Produzir 2-3 vídeos-depoimento curtos (reels) com clientes reais dispostos a aparecer, citando o tipo de processo e o resultado obtido — sem qualquer menção a prazo.",
+      "priority": "alta"
+    },
+    {
+      "pattern": "Conteúdo institucional educativo (FAQ, explicação do processo em linguagem simples)",
+      "seen_in_competitors": [
+        "Balen Regularizações"
+      ],
+      "why_it_works": "Reduz a fricção de 'não entender o juridiquês' (objeção #3 do ICP) antes mesmo do primeiro contato.",
+      "how_client_could_implement": "Carrossel educativo: '3 documentos que você precisa pra regularizar seu imóvel' — formato didático que também serve de criativo de topo de funil.",
+      "priority": "media"
+    },
+    {
+      "pattern": "Contato segmentado por tipo de serviço (linha de WhatsApp dedicada por unidade de negócio)",
+      "seen_in_competitors": [
+        "Balen Regularizações"
+      ],
+      "why_it_works": "Reduz atrito no primeiro contato ao já direcionar a conversa certa (residencial vs. institucional/loteamento).",
+      "how_client_could_implement": "Não é criativo em si, mas o CTA do criativo pode já linkar pro WhatsApp certo assim que o CRM (Semana 4, ee-s3-crm-setup) estiver pronto.",
+      "priority": "baixa"
+    }
+  ],
+  "production_briefing": {
+    "hook_direction": "Nomear a dor específica do ICP logo nos primeiros segundos (impossibilidade de vender/financiar/herdar por falta de matrícula) ou abrir com prova social real (depoimento/GMB) — nunca abrir com logo ou frase institucional genérica.",
+    "hook_examples": [
+      "Sua casa não tem escritura regularizada?",
+      "Você pode estar impedido de vender, financiar ou deixar resolvido pros filhos.",
+      "Foi assim que a Fixa resolveu o problema de quem já passou por isso..."
+    ],
+    "priority_format": "reels",
+    "format_justification": "O ICP já consome Instagram (canal mapeado em ee-s1-persona-icp) e depoimento em vídeo é o formato que mais ataca a objeção de desconfiança. Reels ocupa a tela toda (CTR mais alto) — complementar com feed estático pra quem prefere formato parado (núcleo 40-70 anos).",
+    "visual_elements": [
+      "Rostos reais — clientes reais (com autorização) ou o Carlos Henrique explicando o processo, nunca foto de banco de imagens (restrição já registrada no briefing do cliente)",
+      "Cenário real: casa/bairro de padrão médio da região, ou o próprio escritório",
+      "Selo ou menção visual da nota do GMB (4,7★) como prova social",
+      "Contraste alto + pouco texto na imagem (regra Meta: texto <20% da área)"
+    ],
+    "avoid_elements": [
+      "Foto de banco de imagens — restrição explícita do cliente (brand.restrictions no briefing)",
+      "Logo como hook ou abertura institucional genérica ('conheça a Fixa...')",
+      "Qualquer menção a prazo, data ou garantia de tempo de conclusão do processo — decisão explícita do operador",
+      "Jargão jurídico/técnico sem tradução — o ICP já relatou não entender 'juridiquês' (objeção #3 mapeada)"
+    ],
+    "copy_guidelines": {
+      "length": "medium_30_words",
+      "tone": "Técnico/profissional com camada didática, apoiado em relacionamento institucional e prova social real — sem juridiquês (tom aprovado em ee-s2-posicionamento).",
+      "structure": "hook (dor) → dor detalhada → solução (Integração técnico-jurídica + Relacionamento institucional de 10 anos) → prova (depoimento/GMB) → CTA claro",
+      "icp_keywords": [
+        "regularizar imóvel",
+        "usucapião",
+        "escritura",
+        "matrícula",
+        "REURB",
+        "herança",
+        "inventário",
+        "cartório"
+      ]
+    },
+    "recommended_quantity": 9,
+    "variation_plan": "3 hooks (dor direta / depoimento real / integração técnico-jurídica) × 2 formatos (reels + feed estático) × 2 CTAs (agendar diagnóstico / falar no WhatsApp), reaproveitando as 5 hipóteses de teste já briefadas em ee-s2-diagnostico-midia (H1-H5) como ponto de partida, sem repetir o trabalho."
+  },
+  "key_insight": {
+    "headline": "A Fixa tem prova social real (GMB 4,7★, depoimentos no Instagram) mas nunca virou criativo pago — é o gap mais barato de fechar antes de escalar mídia.",
+    "context": "Zero criativos pagos existem hoje (confirmado em 3 diagnósticos anteriores), mas ao contrário do zero em mídia paga, aqui a matéria-prima já existe: depoimentos reais e nota do GMB. A DCA já usa esse tipo de prova (cases documentados) há anos no mercado local — a Fixa só precisa transformar o que já tem em formato de anúncio.",
+    "numbered_reasons": [
+      "(1) Ninguém produz criativo hoje (pilar criativos 13/100 em ee-s1-diagnostico-maturidade) — mas a matéria-prima (depoimentos, GMB) já está pronta",
+      "(2) DCA já comprova que prova social documentada funciona no mercado local (SEO de cauda longa via cases nomeados)",
+      "(3) As 5 hipóteses de criativo já briefadas em ee-s2-diagnostico-midia dão o ponto de partida — este diagnóstico só formaliza o padrão visual/formato"
+    ],
+    "discussion_anchor": "O stakeholder precisa validar que os primeiros criativos pagos vão nascer da prova social já existente (não de um redesign do zero) — isso acelera a produção da Semana 3."
+  },
+  "honesty_alert": "Este diagnóstico não avaliou criativos reais (nenhum existe hoje) nem anúncios ativos de concorrentes — a tentativa de checagem automática na Meta Ads Library falhou nesta rodada (bloqueio de acesso), e o operador não tinha screenshots disponíveis. A matriz de avaliação (linha única) documenta a ausência, não avalia uma peça real; a análise de concorrentes usa apenas dados já confirmados em ee-s2-pesquisa-mercado (site, Instagram). Recomenda-se checagem manual da Meta Ads Library (links fornecidos) antes de finalizar a produção da Semana 3. O briefing de produção é a parte acionável desta entrega.",
+  "completed_at": "2026-09-23T12:46:32Z"
+}

@@ -1,0 +1,492 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "A Fixa (@fixa_engenharia) tem a maior taxa de engajamento das 3 contas analisadas (5,34% vs 2,73% da DCA e 2,01% da Balen) mesmo com metade dos seguidores da DCA e um quinto da Balen — mas seu pior post usa foto de banco de imagens (contrariando a própria restrição de marca) e reaproveitar o mesmo case duas vezes derrubou o engajamento em 6x. Ação prioritária: mais posts com números concretos de marco e conteúdo mostrando o relacionamento institucional, ativo real que a Fixa nunca mostrou.",
+  "summary_headline": "Fixa tem o maior engajamento das 3 contas (5,34%) mas só 8 posts/90d — pior post usa banco de imagens; melhor padrão é número de marco ou case nomeado na 1ª menção.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Engagement rate",
+      "value": "5,34%",
+      "subtext": "Maior das 3 contas — DCA 2,73%, Balen 2,01%",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Seguidores",
+      "value": "473",
+      "subtext": "Metade da DCA (1.212), 1/5 da Balen (2.152)",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Pior post usa banco de imagens",
+      "value": "1,06% eng (pior da conta)",
+      "subtext": "Contraria a restrição de marca do próprio cliente",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Padrão de maior impacto",
+      "value": "Número concreto de marco",
+      "subtext": "Post '337 lotes entregues' teve 17,1% eng — 3x o 2º melhor",
+      "tone": "green"
+    },
+    {
+      "category": "competicao",
+      "label": "Cadência",
+      "value": "8 posts/90d vs 18 da DCA",
+      "subtext": "DCA posta 2,2x mais, mas metade é institucional fraco (vagas, datas)",
+      "tone": "yellow"
+    },
+    {
+      "category": "acao",
+      "label": "Gap institucional",
+      "value": "Relacionamento nunca mostrado",
+      "subtext": "Balen posta reconhecimento oficial da prefeitura — Fixa tem o mesmo ativo e não mostra",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A Fixa tem a maior taxa de engajamento das 3 contas (5,34%) mesmo com a menor base de seguidores — quem já segue se importa de verdade."
+    },
+    {
+      "category": "contexto",
+      "text": "Reaproveitar o mesmo case (Condomínio Ângelo Venturin) numa segunda postagem com ângulo processual gerou 6x menos engajamento que a primeira menção da história."
+    },
+    {
+      "category": "ameaca",
+      "text": "O pior post do cliente usa foto de banco de imagens — contraria a própria restrição de marca do briefing e é literalmente o post de pior desempenho da conta."
+    },
+    {
+      "category": "acao",
+      "text": "Produzir conteúdo mostrando o relacionamento institucional com cartórios/prefeitura (ativo real do posicionamento aprovado) — a Balen já faz isso e a Fixa, que tem o mesmo relacionamento, nunca mostrou."
+    }
+  ],
+  "period": {
+    "start": "2026-06-25",
+    "end": "2026-09-23",
+    "days": 90
+  },
+  "client_account": {
+    "username": "fixa_engenharia",
+    "name": "FIXA Engenharia",
+    "biography": "Especialistas em regularização de imóveis e loteamentos\n+ 10 anos de atuação\n+3.500 clientes atendidos\nREURB • Projetos • Laudos • Assessoria",
+    "profile_picture_url": "https://scontent.foal1-1.fna.fbcdn.net/v/t51.82787-15/751323403_18015029633873910_8856447174553218878_n.jpg",
+    "website": "https://api.whatsapp.com/send?phone=5554999719141",
+    "followers_count": 473,
+    "follows_count": 339,
+    "media_count_total": 71,
+    "posts_90d": 8,
+    "permalink": "https://www.instagram.com/fixa_engenharia/"
+  },
+  "competitor_accounts": [
+    {
+      "username": "balenregularizacoes",
+      "name": "Balen Regularizações",
+      "biography": "🏡 Regularização de imóveis | REURB | Habite-se | 📍 Caxias do Sul | Ponta Grossa | Itaquaquecetuba | 🔗Fale conosco pelo link abaixo",
+      "website": "https://linktr.ee/balenregularizacoes",
+      "followers_count": 2152,
+      "follows_count": 1271,
+      "media_count_total": 426,
+      "posts_90d": 8,
+      "permalink": "https://www.instagram.com/balenregularizacoes/"
+    },
+    {
+      "username": "dca_engenharia",
+      "name": "DCA ENGENHARIA",
+      "biography": "A DCA é uma empresa de assessoria e consultoria, prestadora de serviços nas áreas de engenharia e meio ambiente. 🌱🧯",
+      "website": "https://linktr.ee/dca_engenharia",
+      "followers_count": 1212,
+      "follows_count": 936,
+      "media_count_total": 473,
+      "posts_90d": 18,
+      "permalink": "https://www.instagram.com/dca_engenharia/"
+    }
+  ],
+  "format_distribution": {
+    "by_account": [
+      {
+        "username": "fixa_engenharia",
+        "counts": {
+          "FEED_IMAGE": 0,
+          "CAROUSEL": 3,
+          "REELS": 5,
+          "VIDEO": 0
+        }
+      },
+      {
+        "username": "balenregularizacoes",
+        "counts": {
+          "FEED_IMAGE": 1,
+          "CAROUSEL": 1,
+          "REELS": 6,
+          "VIDEO": 0
+        }
+      },
+      {
+        "username": "dca_engenharia",
+        "counts": {
+          "FEED_IMAGE": 7,
+          "CAROUSEL": 4,
+          "REELS": 7,
+          "VIDEO": 0
+        }
+      }
+    ],
+    "insight": "O cliente já está bem alinhado em Reels (5 de 8 posts — mesmo formato de melhor desempenho nas 3 contas), mas é o único dos três que nunca publicou FEED_IMAGE. Isso não é necessariamente um problema (Reels performa melhor para os 3), mas limita a velocidade de produção — FEED_IMAGE é mais rápido de produzir que Reels e poderia carregar conteúdo institucional (ex: prova de relacionamento com cartório/prefeitura) sem exigir edição de vídeo."
+  },
+  "cadence": {
+    "by_account": [
+      {
+        "username": "fixa_engenharia",
+        "posts_per_week": 0.62,
+        "preferred_weekday": "Fri",
+        "preferred_hour": "20h"
+      },
+      {
+        "username": "balenregularizacoes",
+        "posts_per_week": 0.62,
+        "preferred_weekday": "Tue",
+        "preferred_hour": "01h"
+      },
+      {
+        "username": "dca_engenharia",
+        "posts_per_week": 1.38,
+        "preferred_weekday": "Tue",
+        "preferred_hour": "18h"
+      }
+    ],
+    "insight": "A DCA publica mais que o dobro do cliente (1,38 posts/semana vs 0,62) — mas boa parte desse volume extra é conteúdo institucional fraco (vaga de estágio, Dia da Independência, Dia do Gaúcho), que puxa a própria média de engajamento da DCA pra baixo (2,73%, abaixo dos 5,34% do cliente). Aumentar cadência sem aumentar a quantidade de cases reais pra contar não é o caminho certo pra Fixa."
+  },
+  "engagement_benchmark": {
+    "by_account": [
+      {
+        "username": "fixa_engenharia",
+        "avg_likes": 21.9,
+        "avg_comments": 1.1,
+        "avg_engagement_proxy": 5.338,
+        "best_format_by_engagement": "REELS"
+      },
+      {
+        "username": "balenregularizacoes",
+        "avg_likes": 34.2,
+        "avg_comments": 3.0,
+        "avg_engagement_proxy": 2.01,
+        "best_format_by_engagement": "REELS"
+      },
+      {
+        "username": "dca_engenharia",
+        "avg_likes": 27.3,
+        "avg_comments": 1.9,
+        "avg_engagement_proxy": 2.732,
+        "best_format_by_engagement": "REELS"
+      }
+    ],
+    "insight": "O cliente tem a MAIOR taxa de engajamento das 3 contas (5,34%) mesmo com a menor base de seguidores (473 vs 1.212 da DCA e 2.152 da Balen) — quem já segue a Fixa se envolve genuinely mais. O gap real não é qualidade média de conteúdo, é volume: poucos seguidores pra alcançar e poucos cases reais publicados (8 posts/90d) pra sustentar cadência maior sem cair em conteúdo institucional genérico."
+  },
+  "top_posts": [
+    {
+      "username": "fixa_engenharia",
+      "post_id": "17971633820935754",
+      "permalink": "https://www.instagram.com/reel/DcT7O1Hs1r5/",
+      "embed_url": "https://www.instagram.com/reel/DcT7O1Hs1r5/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-08-21T18:22:59+0000",
+      "caption": "No dia 13 de agosto, o programa municipal de Regularização Fundiária de Caxias do Sul, \"Esse Terreno é Meu\", completou 5 anos de existência. A nossa primeira entrega de REURB através desse novo programa foi em 2024 e, nos últimos 30 meses, tivemos o orgulho de entregar 337 lotes residenciais aos nossos clientes, projetando chegar a 500 lotes entregues até o final de 2026.",
+      "like_count": 57,
+      "comments_count": 8,
+      "engagement_proxy": 17.125,
+      "diagnosis": "Número concreto de marco (337 lotes entregues, meta de 500 até 2026) logo no corpo do post — o post de maior engajamento da amostra inteira (17,1%), 3x o segundo melhor do próprio cliente. Reconhece parceiros institucionais nominalmente (SMU, Procuradoria), reforçando o relacionamento institucional real do posicionamento."
+    },
+    {
+      "username": "fixa_engenharia",
+      "post_id": "18050954792555198",
+      "permalink": "https://www.instagram.com/reel/DalgvyvgVIs/",
+      "embed_url": "https://www.instagram.com/reel/DalgvyvgVIs/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-07-09T20:49:35+0000",
+      "caption": "Alguns projetos envolvem muito mais do que engenharia. Envolvem histórias que precisam continuar. O Paiol Espaço Nativo nasceu no início dos anos 1990... A FIXA participou desse processo acompanhando o desenvolvimento do novo galpão, a regularização da construção e os encaminhamentos necessários junto à Prefeitura e ao Corpo de Bombeiros.",
+      "like_count": 48,
+      "comments_count": 1,
+      "engagement_proxy": 10.782,
+      "diagnosis": "Case nomeado (Paiol Espaço Nativo) contado como história humana real, com depoimento em vídeo do proprietário — primeira menção desse case no período, sem reaproveitamento. Segundo melhor post da amostra (10,8%)."
+    },
+    {
+      "username": "fixa_engenharia",
+      "post_id": "17945814222267089",
+      "permalink": "https://www.instagram.com/reel/DbY5Ec2k5id/",
+      "embed_url": "https://www.instagram.com/reel/DbY5Ec2k5id/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-07-29T19:43:22+0000",
+      "caption": "Uma história de família que agora também faz parte da história da FIXA. O Condomínio Ângelo Venturin carrega no nome uma homenagem ao avô do Wagner, antigo proprietário da área... Agradecemos ao Wagner pela confiança e por compartilhar um pouco dessa história com a gente.",
+      "like_count": 20,
+      "comments_count": 0,
+      "engagement_proxy": 4.228,
+      "diagnosis": "Case nomeado (Wagner Venturin) com depoimento real em vídeo, primeira menção da história — funciona (4,2% eng), mas bem abaixo dos outros 2 tops porque não tem número concreto de marco nem a mesma força emocional específica do Paiol."
+    },
+    {
+      "username": "balenregularizacoes",
+      "post_id": "17896935219597508",
+      "permalink": "https://www.instagram.com/reel/DchlyJvPWdb/",
+      "embed_url": "https://www.instagram.com/reel/DchlyJvPWdb/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-08-27T01:19:49+0000",
+      "caption": "Primeiro dia da Expo Alto Tietê 2026 concluído! Nosso estande foi ponto de encontro para conversas, conexões e troca de experiências sobre um tema que transforma cidades: a regularização.",
+      "like_count": 53,
+      "comments_count": 5,
+      "engagement_proxy": 3.16,
+      "diagnosis": "Presença física em feira/evento do setor como conteúdo — reforça prova de atividade de mercado e networking. A Fixa não tem nenhum post desse tipo no período.",
+      "gap_para_cliente": true
+    },
+    {
+      "username": "balenregularizacoes",
+      "post_id": "18171603682450337",
+      "permalink": "https://www.instagram.com/reel/DcO34pJyIiA/",
+      "embed_url": "https://www.instagram.com/reel/DcO34pJyIiA/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-08-19T18:53:37+0000",
+      "caption": "Este reconhecimento não é apenas da Balen Regularizações... Recebemos das mãos do Secretário Municipal do Urbanismo de Caxias do Sul, Adriano Bressan, esta homenagem pelos serviços prestados pela Balen Regularizações desde o início da Lei Municipal de Regularização Fundiária, que completa cinco anos.",
+      "like_count": 53,
+      "comments_count": 2,
+      "engagement_proxy": 2.742,
+      "diagnosis": "Reconhecimento oficial recebido do poder público, mostrado como conteúdo — prova visual do relacionamento institucional que a Balen tem com a prefeitura. A Fixa tem o mesmo tipo de relacionamento (10 anos, ver ee-s2-posicionamento) mas nunca produziu conteúdo parecido.",
+      "gap_para_cliente": true
+    },
+    {
+      "username": "balenregularizacoes",
+      "post_id": "18082365188245727",
+      "permalink": "https://www.instagram.com/reel/DbVxJh5v5CP/",
+      "embed_url": "https://www.instagram.com/reel/DbVxJh5v5CP/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-07-28T14:37:13+0000",
+      "caption": "A regularização de um imóvel vai muito além de um documento. É a segurança de proteger a história construída ao longo de uma vida... Na Balen Regularizações, transformamos histórias em conquistas.",
+      "like_count": 42,
+      "comments_count": 7,
+      "engagement_proxy": 2.928,
+      "diagnosis": "Mensagem de valor genérica (sem case nomeado) — o cliente já executa esse tipo de narrativa emocional com case nomeado real, formato mais forte que o da Balen aqui.",
+      "gap_para_cliente": false
+    },
+    {
+      "username": "dca_engenharia",
+      "post_id": "17913953703445895",
+      "permalink": "https://www.instagram.com/reel/Dcg4yXoBd3a/",
+      "embed_url": "https://www.instagram.com/reel/Dcg4yXoBd3a/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-08-26T18:49:32+0000",
+      "caption": "A DCA Engenharia faz parte do sonho de muitas famílias. Em agosto, chegamos ao nosso oitavo parcelamento regularizado 🤩 Seguimos trabalhando para muitas outras entregas acontecerem! ✨",
+      "like_count": 77,
+      "comments_count": 7,
+      "engagement_proxy": 8.086,
+      "diagnosis": "Legenda ultra-curta (183 caracteres) com número de marco na primeira linha, sem narrativa longa — formato mais enxuto que o do cliente, que também converte bem. A Fixa só testou número de marco em legenda longa (top_1), nunca no formato curto e direto.",
+      "gap_para_cliente": true
+    },
+    {
+      "username": "dca_engenharia",
+      "post_id": "18026071172853367",
+      "permalink": "https://www.instagram.com/reel/Db_-OUvhxg-/",
+      "embed_url": "https://www.instagram.com/reel/Db_-OUvhxg-/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-08-14T00:01:46+0000",
+      "caption": "Um grande marco na história da DCA Engenharia! Na noite em que a Reurb completa 5 anos, chegamos ao oitavo loteamento regularizado! Hoje entregamos mais 81 certidões, totalizando 290 nesse período.",
+      "like_count": 57,
+      "comments_count": 7,
+      "engagement_proxy": 6.436,
+      "diagnosis": "Mesmo padrão de número de marco acumulado (290 certidões) que já funciona pro cliente (top_1) — confirma que o formato é replicável e não é sorte isolada.",
+      "gap_para_cliente": false
+    },
+    {
+      "username": "dca_engenharia",
+      "post_id": "18175124044428219",
+      "permalink": "https://www.instagram.com/reel/Dcua3JIh7h0/",
+      "embed_url": "https://www.instagram.com/reel/Dcua3JIh7h0/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-09-01T00:55:38+0000",
+      "caption": "Encerrando o mês de agosto com três loteamentos regularizados 🚀 Na noite desta segunda (31), entregamos as certidões de regularização fundiária para dez famílias do Núcleo Vidor, no bairro Bela Vista.",
+      "like_count": 49,
+      "comments_count": 5,
+      "engagement_proxy": 5.281,
+      "diagnosis": "Número + nome do bairro/núcleo específico — geolocaliza a prova social, reforçando relevância local. Padrão que o cliente já tangencia mas sem nomear bairros específicos.",
+      "gap_para_cliente": true
+    }
+  ],
+  "bottom_posts": [
+    {
+      "username": "fixa_engenharia",
+      "post_id": "17999692502968012",
+      "permalink": "https://www.instagram.com/p/Davx4FZIMWh/",
+      "embed_url": "https://www.instagram.com/p/Davx4FZIMWh/embed/",
+      "media_type": "CAROUSEL_ALBUM",
+      "format": "CAROUSEL",
+      "timestamp": "2026-07-13T20:31:04+0000",
+      "caption": "Uma casa pode representar anos de trabalho, lembranças e conquistas compartilhadas por uma família. A regularização ajuda a proteger essa história... Cuidar da documentação também é uma forma de cuidar do futuro da sua família.",
+      "like_count": 5,
+      "comments_count": 0,
+      "engagement_proxy": 1.057,
+      "diagnosis": "Foto de banco de imagens (mãos segurando maquete de casa) + mensagem de valor genérica, sem case nomeado nem número — contraria a própria restrição de marca do cliente (brand.restrictions: evitar banco de imagens) e é o pior post da conta."
+    },
+    {
+      "username": "fixa_engenharia",
+      "post_id": "18615573571001924",
+      "permalink": "https://www.instagram.com/reel/Db5pBbzCq9M/",
+      "embed_url": "https://www.instagram.com/reel/Db5pBbzCq9M/embed/",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "2026-08-11T12:58:08+0000",
+      "caption": "Em um processo de regularização, é natural que surjam dúvidas, inseguranças e muitas perguntas pelo caminho... No Condomínio Ângelo Venturin, essa relação foi construída com clareza, eficiência e confiança, até a entrega da regularização aos moradores.",
+      "like_count": 9,
+      "comments_count": 0,
+      "engagement_proxy": 1.903,
+      "diagnosis": "Reaproveita o mesmo case do top_3 (Ângelo Venturin/Wagner) com um ângulo processual em vez de humano — engajamento 6x menor que a primeira menção da mesma história, 18 dias depois. Sinal de que repetir o case com ângulo mais fraco não funciona."
+    },
+    {
+      "username": "fixa_engenharia",
+      "post_id": "18482758651102273",
+      "permalink": "https://www.instagram.com/p/DbEWr9eoMFo/",
+      "embed_url": "https://www.instagram.com/p/DbEWr9eoMFo/embed/",
+      "media_type": "CAROUSEL_ALBUM",
+      "format": "CAROUSEL",
+      "timestamp": "2026-07-21T20:17:32+0000",
+      "caption": "Regularizar um imóvel é valorizar aquilo que você construiu com tanto esforço... Com a Fixa Engenharia, você garante que a regularização de seu imóvel seguirá um rígido padrão de qualidade do início até o final.",
+      "like_count": 9,
+      "comments_count": 0,
+      "engagement_proxy": 1.903,
+      "diagnosis": "Mensagem de valor institucional genérica sem case nomeado nem número de marco — mesmo padrão de falha do bottom_1: quando o post não nomeia uma pessoa/caso real ou um número concreto, o engajamento despenca."
+    }
+  ],
+  "competitor_patterns_missing": [
+    {
+      "pattern": "Legenda ultra-curta (menos de 350 caracteres) com número de marco na primeira linha, sem narrativa longa",
+      "seen_in_count": 3,
+      "seen_in_competitors": [
+        "dca_engenharia"
+      ],
+      "example_permalinks": [
+        "https://www.instagram.com/reel/Dcg4yXoBd3a/",
+        "https://www.instagram.com/reel/Db_-OUvhxg-/"
+      ],
+      "why_works": "Entrega o número de prova social nos primeiros segundos, sem exigir que o espectador leia uma legenda longa — formato mais compatível com o consumo rápido de Reels.",
+      "how_to_apply": "Testar 2-3 posts no formato curto (número + 1 frase de contexto) ao lado do formato narrativo já usado, medindo se o engajamento se mantém."
+    },
+    {
+      "pattern": "Conteúdo mostrando reconhecimento oficial/relacionamento institucional com o poder público (foto com secretário, entrega de homenagem)",
+      "seen_in_count": 1,
+      "seen_in_competitors": [
+        "balenregularizacoes"
+      ],
+      "example_permalinks": [
+        "https://www.instagram.com/reel/DcO34pJyIiA/"
+      ],
+      "why_works": "Prova visual de relacionamento institucional é um argumento de confiança forte para o ICP (desconfiança é a objeção #1 mapeada) — e a Fixa já reivindica esse mesmo ativo real (10 anos de relacionamento, território 'Relacionamento' aprovado em ee-s2-posicionamento), só nunca mostrou.",
+      "how_to_apply": "Produzir 1-2 posts mostrando a relação da Fixa com cartórios/SMU (reunião, entrega de títulos em conjunto, evento institucional) — não precisa ser prêmio, só mostrar a relação real que já existe."
+    },
+    {
+      "pattern": "Geolocalização do case (nome do bairro/núcleo específico) na legenda",
+      "seen_in_count": 1,
+      "seen_in_competitors": [
+        "dca_engenharia"
+      ],
+      "example_permalinks": [
+        "https://www.instagram.com/reel/Dcua3JIh7h0/"
+      ],
+      "why_works": "Reforça relevância local imediata pra quem mora no mesmo bairro ou conhece a região, sem precisar de mais contexto.",
+      "how_to_apply": "Ao publicar cases novos, incluir o nome do bairro/loteamento específico logo na primeira linha da legenda (já feito parcialmente pelo cliente, mas sem consistência)."
+    },
+    {
+      "pattern": "Presença física em feiras/eventos do setor como conteúdo",
+      "seen_in_count": 1,
+      "seen_in_competitors": [
+        "balenregularizacoes"
+      ],
+      "example_permalinks": [
+        "https://www.instagram.com/reel/DchlyJvPWdb/"
+      ],
+      "why_works": "Mostra atividade de mercado e networking, reforçando porte e relevância — ainda que o evento não seja local (Balen atua em 3 cidades).",
+      "how_to_apply": "Prioridade baixa pra Fixa — só vale se houver evento local relevante (ex: feira do setor imobiliário em Caxias do Sul); não inventar presença que não existe."
+    }
+  ],
+  "client_winning_patterns": [
+    {
+      "pattern": "Número concreto de marco/resultado citado no corpo do post (ex: '337 lotes entregues', meta de 500 até 2026)",
+      "seen_in_count": 1,
+      "example_permalinks": [
+        "https://www.instagram.com/reel/DcT7O1Hs1r5/"
+      ],
+      "recommendation": "É o post de maior engajamento da amostra inteira (17,1%). Publicar atualizações de marco numérico com a mesma regularidade que a DCA (que usa o mesmo padrão em 3 dos seus tops) — trimestral ou a cada entrega relevante."
+    },
+    {
+      "pattern": "Case nomeado real (nome da pessoa/empreendimento) contado como história humana, na primeira menção",
+      "seen_in_count": 2,
+      "example_permalinks": [
+        "https://www.instagram.com/reel/DalgvyvgVIs/",
+        "https://www.instagram.com/reel/DbY5Ec2k5id/"
+      ],
+      "recommendation": "Continuar produzindo — é o segundo padrão mais forte do cliente. Mas evitar reaproveitar o MESMO case numa segunda postagem com ângulo mais processual/institucional (isso derrubou o engajamento em 6x no caso do Ângelo Venturin) — se for reusar um case, mudar o ângulo pra algo igualmente humano (ex: outro morador, outro momento da história)."
+    }
+  ],
+  "instagram_compliance": {
+    "aspect_ratio_issues_count": 0,
+    "notes": "Amostra visual revisada (thumbnails de 2 tops + 2 bottoms do cliente, 1 top de cada concorrente) não mostra problema de aspect ratio — os Reels seguem o formato vertical padrão. Achado real, porém: o pior post do cliente (bottom_1, carrossel) usa foto de banco de imagens (mãos segurando maquete de casa sobre documentos) — contraria a própria restrição de marca do cliente (brand.restrictions no briefing: 'evitar fotos de banco de imagens') e é também o pior post em engajamento da amostra. Os posts de melhor desempenho usam fotos/vídeos reais (evento, pessoa real com nome e depoimento) ou um template de card de depoimento com foto real e citação — ambos alinhados à restrição."
+  },
+  "next_actions": [
+    {
+      "action": "Publicar mais posts com número concreto de marco no corpo do texto (total de lotes/processos entregues no trimestre) — replicar o padrão do post de 17,1% de engajamento e o mesmo formato que já funciona 3x pra DCA",
+      "impact": "alto",
+      "effort": "baixo",
+      "priority": 1
+    },
+    {
+      "action": "Eliminar/evitar fotos de banco de imagens em qualquer post — o pior post do cliente usa uma e contraria a própria restrição de marca já registrada no briefing",
+      "impact": "alto",
+      "effort": "baixo",
+      "priority": 1
+    },
+    {
+      "action": "Produzir conteúdo mostrando o relacionamento institucional da Fixa com cartórios/SMU (reunião, entrega conjunta, evento institucional) — ativo real que o posicionamento já reivindica mas nunca apareceu no feed",
+      "impact": "alto",
+      "effort": "medio",
+      "priority": 2
+    },
+    {
+      "action": "Ao reaproveitar um case já publicado, usar um ângulo humano novo (não repetir a mesma história com ângulo processual) — a repetição do caso Ângelo Venturin teve 6x menos engajamento que a primeira menção",
+      "impact": "medio",
+      "effort": "baixo",
+      "priority": 3
+    },
+    {
+      "action": "Testar formato de legenda curta (menos de 350 caracteres, número na primeira linha) ao lado do formato narrativo mais longo já usado",
+      "impact": "medio",
+      "effort": "baixo",
+      "priority": 3
+    },
+    {
+      "action": "Incluir o nome do bairro/loteamento específico na primeira linha da legenda de cases novos, de forma consistente",
+      "impact": "baixo",
+      "effort": "baixo",
+      "priority": 4
+    },
+    {
+      "action": "Aumentar cadência com CASES REAIS, não conteúdo institucional genérico — a DCA posta 2,2x mais mas isso puxa a própria média de engajamento dela pra baixo com posts de vaga/data comemorativa",
+      "impact": "medio",
+      "effort": "medio",
+      "priority": 4
+    },
+    {
+      "action": "Manter o horário de publicação em torno do pico já identificado (sexta-feira, 20h) como padrão, testando variações pontuais",
+      "impact": "baixo",
+      "effort": "baixo",
+      "priority": 5
+    }
+  ],
+  "completed_at": "2026-09-23T13:28:48Z"
+}
