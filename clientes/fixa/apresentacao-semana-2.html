@@ -249,6 +249,23 @@
     font-weight: 500; pointer-events: none; z-index: 5;
   }
 </style>
+<style>
+  /* Ajuste pra apresentação ao vivo: fonte maior, conteúdo condensado pra caber sem rolar. */
+  h2.title-section { font-size: clamp(2.6rem, 5vw, 4.6rem); }
+  .subtitle-text { font-size: clamp(1.5rem, 2vw, 2.1rem); line-height: 1.45; }
+  .eyebrow { font-size: clamp(0.95rem, 1.1vw, 1.15rem); }
+  .kpi__label { font-size: clamp(0.95rem, 1.1vw, 1.15rem); }
+  .kpi__value { font-size: clamp(2.4rem, 3.6vw, 3.4rem) !important; }
+  .kpi__hint { font-size: clamp(1.1rem, 1.3vw, 1.35rem); line-height: 1.4; }
+  ul.bullets li { font-size: clamp(1.25rem, 1.5vw, 1.55rem); padding: 10px 0 10px 30px; }
+  .highlight-box__label { font-size: 0.9rem; }
+  .highlight-box__text { font-size: clamp(1.35rem, 1.7vw, 1.85rem); line-height: 1.45; }
+  .compare th { font-size: 0.95rem; }
+  .compare th, .compare td { font-size: clamp(1.2rem, 1.4vw, 1.5rem); padding: 16px 16px; }
+  .pattern-card__title { font-size: clamp(1.15rem, 1.35vw, 1.4rem); font-weight: 700; color: #ffd0a8; margin-bottom: 10px; line-height: 1.3; }
+  .pattern-card__body { font-size: clamp(1.05rem, 1.2vw, 1.25rem); line-height: 1.4; color: rgba(255,245,230,0.95); }
+  .pattern-card__tag { display:inline-block; font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:#ffd0a8; background:rgba(255,208,168,0.15); border-radius:100px; padding:3px 12px; margin-bottom:12px; }
+</style>
 </head>
 <body>
 
@@ -262,7 +279,7 @@
       <div class="slide__content" style="justify-content:center;">
         <span class="eyebrow">Diagnóstico Estratégico</span>
         <h1 class="title-mega">Fixa<br/>Engenharia & Assessoria</h1>
-        <p class="subtitle-text" style="margin-top:24px; font-size:clamp(1.1rem, 1.5vw, 1.5rem);">
+        <p class="subtitle-text" style="margin-top:24px;">
           Estruturação V4 · Semana 2
         </p>
       </div>
@@ -282,7 +299,7 @@
         <h2 class="title-section">O que vamos cobrir</h2>
         <div class="row-2" style="margin-top:3vh;">
           <div class="stack"><div class="pill">1 · Posicionamento estratégico</div><div class="pill">2 · Diagnóstico de mídia paga</div><div class="pill">3 · Cenários de budget de mídia</div></div>
-          <div class="stack"><div class="pill">4 · Conteúdo orgânico — Instagram vs. concorrentes</div><div class="pill">5 · Padrões dos concorrentes que faltam explorar</div><div class="pill">6 · Diagnóstico de criativos — briefing de produção</div></div>
+          <div class="stack"><div class="pill">4 · Orgânico — Instagram vs. concorrentes</div><div class="pill">5 · Orgânico — padrões que faltam explorar</div><div class="pill">6 · Diagnóstico de criativos</div></div>
         </div>
       </div>
     </section>
@@ -293,19 +310,19 @@
       <div class="slide__content">
         <span class="eyebrow">Posicionamento aprovado</span>
         <h2 class="title-section">Como vamos ser percebidos</h2>
-        <div style="margin:3vh 0; text-align:center;">
-          <div style="display:inline-flex; gap:14px; flex-wrap:wrap; justify-content:center;"><span class="pill" style="font-size:clamp(1rem, 1.35vw, 1.35rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Integração</span><span class="pill" style="font-size:clamp(1rem, 1.35vw, 1.35rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Relacionamento</span><span class="pill" style="font-size:clamp(1rem, 1.35vw, 1.35rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Tranquilidade</span></div>
+        <div style="margin:2.5vh 0; text-align:center;">
+          <div style="display:inline-flex; gap:14px; flex-wrap:wrap; justify-content:center;"><span class="pill" style="font-size:clamp(1.1rem,1.5vw,1.5rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Integração</span><span class="pill" style="font-size:clamp(1.1rem,1.5vw,1.5rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Relacionamento</span><span class="pill" style="font-size:clamp(1.1rem,1.5vw,1.5rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Tranquilidade</span></div>
         </div>
-        <div class="row-2" style="gap:18px;">
-          <div class="glass">
-            <div class="highlight-box__label">PUV — Proposta Única de Valor</div>
-            <p style="font-weight:600; font-size:clamp(1rem, 1.2vw, 1.25rem); line-height:1.5; color:#fff; margin-top:10px;">
-              A Fixa resolve engenharia e a parte jurídica da regularização do seu imóvel em um único processo — sem contratar dois prestadores — com 10 anos de relacionamento direto com cartórios e prefeitura, para você vender, financiar ou deixar a casa resolvida para os filhos.
+        <div class="row-2" style="gap:18px; flex:1;">
+          <div class="glass" style="display:flex; flex-direction:column; justify-content:center;">
+            <div class="highlight-box__label">PUV</div>
+            <p style="font-weight:600; font-size:clamp(1.3rem,1.7vw,1.75rem); line-height:1.4; color:#fff; margin-top:10px;">
+              A Fixa resolve engenharia e a parte jurídica da regularização em um único processo — sem contratar dois prestadores — com 10 anos de relacionamento direto com cartórios e prefeitura.
             </p>
           </div>
           <div class="glass" style="display:flex; flex-direction:column; justify-content:center;">
             <div class="highlight-box__label">Tagline aprovada</div>
-            <h3 style="font-weight:700; font-size:clamp(1.5rem, 2.6vw, 2.4rem); color:#fff; margin-top:10px; line-height:1.1;">
+            <h3 style="font-weight:700; font-size:clamp(2rem, 3vw, 2.8rem); color:#fff; margin-top:10px; line-height:1.15;">
               Engenharia e direito, num processo só.
             </h3>
           </div>
@@ -317,16 +334,32 @@
     <section class="slide slide--diag">
       <div class="slide__header"><span class="logo-v4" aria-label="V4"></span></div>
       <div class="slide__content">
-        <span class="eyebrow">Mídia paga · números atuais</span>
-        <h2 class="title-section">Diagnóstico de mídia paga</h2>
-        <p class="subtitle-text" style="margin-bottom:1.5vh;">Antes de ligar mídia paga, vamos implementar tracking + LP + CRM (Semana 4) — depois lançamos R$3.000/mês em Google+Meta com meta de 25-30 leads/mês.</p>
-        <div class="row-2" style="margin-top:1.5vh;">
-          
+        <span class="eyebrow">Mídia paga · ponto de partida</span>
+        <h2 class="title-section">Plano de lançamento, não otimização</h2>
+        <div class="row-4" style="margin-top:2vh;">
           <div class="glass">
-            <div class="kpi__label">Leads (período)</div>
-            <div class="kpi__value">0</div>
-            <div class="kpi__hint">Conversões medidas</div>
+            <div class="kpi__label">Investimento hoje</div>
+            <div class="kpi__value">R$ 0,00</div>
+            <div class="kpi__hint">0 campanhas ativas (90d)</div>
           </div>
+          <div class="glass">
+            <div class="kpi__label">Leads hoje</div>
+            <div class="kpi__value">0</div>
+            <div class="kpi__hint">Nunca rodou mídia paga</div>
+          </div>
+          <div class="glass">
+            <div class="kpi__label">Budget de lançamento</div>
+            <div class="kpi__value">R$ 3.000</div>
+            <div class="kpi__hint">Cenário B · recomendado</div>
+          </div>
+          <div class="glass">
+            <div class="kpi__label">CPL alvo</div>
+            <div class="kpi__value">R$ 55,00</div>
+            <div class="kpi__hint">Após LP + CRM prontos</div>
+          </div></div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Leitura V4</div>
+          <div class="highlight-box__text">Vamos construir o funil primeiro (tracking + LP + CRM) e só depois ligar mídia — essa ordem evita queimar budget de lançamento aprendendo o óbvio.</div>
         </div>
       </div>
     </section>
@@ -335,27 +368,27 @@
     <section class="slide">
       <div class="slide__header"><span class="logo-v4" aria-label="V4"></span></div>
       <div class="slide__content">
-        <span class="eyebrow">Mídia paga · cenários de escala</span>
-        <h2 class="title-section">Realocar e reestruturar a operação</h2>
+        <span class="eyebrow">Mídia paga · cenários de lançamento</span>
+        <h2 class="title-section">Quanto investir quando o funil estiver pronto</h2>
         <div class="row-3" style="margin-top:3vh;">
           <div class="glass" style="">
             <div class="kpi__label" style="">Cenário A · Conservador</div>
-            <div class="kpi__value" style="font-size:1.9rem; ">R$ 1.500<span style="font-size:1rem; opacity:0.6">/mês</span></div>
+            <div class="kpi__value" style="">R$ 1.500<span style="font-size:1rem; opacity:0.6">/mês</span></div>
             <div class="kpi__hint" style="margin-top:8px;">~13 leads/mês · CPL R$ 65,00</div>
           </div>
           <div class="glass" style="border: 2px solid rgba(255,208,168,0.4);">
             <div class="kpi__label" style="color:#ffd0a8;">Cenário B · Recomendado</div>
-            <div class="kpi__value" style="font-size:1.9rem; color:#ffd0a8;">R$ 3.000<span style="font-size:1rem; opacity:0.6">/mês</span></div>
+            <div class="kpi__value" style="color:#ffd0a8;">R$ 3.000<span style="font-size:1rem; opacity:0.6">/mês</span></div>
             <div class="kpi__hint" style="margin-top:8px;">~27 leads/mês · CPL R$ 55,00</div>
           </div>
           <div class="glass" style="">
             <div class="kpi__label" style="">Cenário C · Agressivo</div>
-            <div class="kpi__value" style="font-size:1.9rem; ">R$ 6.000<span style="font-size:1rem; opacity:0.6">/mês</span></div>
+            <div class="kpi__value" style="">R$ 6.000<span style="font-size:1rem; opacity:0.6">/mês</span></div>
             <div class="kpi__hint" style="margin-top:8px;">~55 leads/mês · CPL R$ 50,00</div>
           </div></div>
         <div class="highlight-box" style="margin-top:3vh;">
           <div class="highlight-box__label">Recomendação V4</div>
-          <div class="highlight-box__text">Sem budget histórico para realocar — os 3 cenários abaixo são de LANÇAMENTO, dimensionados a partir do ticket médio (R$5-400 mil) e do orçamento confortável para o teste inicial.</div>
+          <div class="highlight-box__text">Cenário B — dá volume pra sair da fase de aprendizado do algoritmo sem comprometer caixa.</div>
         </div>
       </div>
     </section>
@@ -365,37 +398,14 @@
       <div class="slide__header"><span class="logo-v4" aria-label="V4"></span></div>
       <div class="slide__content">
         <span class="eyebrow">Conteúdo orgânico · Instagram</span>
-        <h2 class="title-section">Você vs concorrentes</h2>
+        <h2 class="title-section">Você vs. concorrentes (90 dias)</h2>
         <table class="compare" style="margin-top:2.5vh;">
-          <thead>
-            <tr><th>Conta</th><th>Followers</th><th>Posts/sem</th><th>Engagement</th><th>Melhor formato</th></tr>
-          </thead>
-          <tbody>
-            <tr style="background:rgba(255,225,180,0.1);">
-              <td class="strong">@fixa_engenharia (você)</td>
-              <td>473</td>
-              <td>0,62</td>
-              <td class="accent-cell" style="font-size:1.15rem;">5.34%</td>
-              <td>REELS</td>
-            </tr>
-            <tr>
-              <td>@balenregularizacoes</td>
-              <td>2.152</td>
-              <td>0,62</td>
-              <td>2.01%</td>
-              <td>REELS</td>
-            </tr>
-            <tr>
-              <td>@dca_engenharia</td>
-              <td>1.212</td>
-              <td>1,38</td>
-              <td>2.73%</td>
-              <td>REELS</td>
-            </tr></tbody>
+          <thead><tr><th>Conta</th><th>Seguidores</th><th>Posts/sem</th><th>Engajamento</th></tr></thead>
+          <tbody><tr style="background:rgba(255,225,180,0.12);"><td class="strong">@fixa_engenharia (você)</td><td>473</td><td>0,62</td><td class="accent-cell">5.34%</td></tr><tr ><td>@balenregularizacoes</td><td>2.152</td><td>0,62</td><td>2.01%</td></tr><tr ><td>@dca_engenharia</td><td>1.212</td><td>1,38</td><td>2.73%</td></tr></tbody>
         </table>
         <div class="highlight-box" style="margin-top:3vh;">
-          <div class="highlight-box__label">Leitura V4 — Key Insight</div>
-          <div class="highlight-box__text">Fixa tem o maior engajamento das 3 contas (5,34%) mas só 8 posts/90d — pior post usa banco de imagens; melhor padrão é número de marco ou case nomeado na 1ª menção.</div>
+          <div class="highlight-box__label">Leitura V4</div>
+          <div class="highlight-box__text">Fixa tem o maior engajamento das 3 contas — mesmo com menos seguidores que Balen e DCA.</div>
         </div>
       </div>
     </section>
@@ -405,31 +415,22 @@
       <div class="slide__header"><span class="logo-v4" aria-label="V4"></span></div>
       <div class="slide__content">
         <span class="eyebrow">Conteúdo orgânico · gaps</span>
-        <h2 class="title-section">Padrões dos concorrentes que você ainda não usa</h2>
-        <div class="row-4" style="margin-top:3vh; gap:14px; flex:1;">
-          <div class="glass" style="padding:18px;">
-            <div class="kpi__label" style="font-size:0.85rem;">1 · Legenda ultra-curta (menos de 350 caracteres) com número de marco na primeira linha, sem narrativa longa</div>
-            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
-              Entrega o número de prova social nos primeiros segundos, sem exigir que o espectador leia uma legenda longa — formato mais compatível com o consumo rápido de Reels.
-            </p>
+        <h2 class="title-section">Padrões dos concorrentes que faltam explorar</h2>
+        <div class="row-3" style="margin-top:3vh; gap:16px; flex:1;">
+          <div class="glass" style="padding:22px;">
+            <span class="pattern-card__tag">visto em dca_engenharia</span>
+            <div class="pattern-card__title">Legenda curta + número na 1ª linha</div>
+            <p class="pattern-card__body">Prova social nos primeiros segundos, sem exigir leitura longa.</p>
           </div>
-          <div class="glass" style="padding:18px;">
-            <div class="kpi__label" style="font-size:0.85rem;">2 · Conteúdo mostrando reconhecimento oficial/relacionamento institucional com o poder público (foto com secretário, entrega de homenagem)</div>
-            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
-              Prova visual de relacionamento institucional é um argumento de confiança forte para o ICP (desconfiança é a objeção #1 mapeada) — e a Fixa já reivindica esse mesmo ativo real (10 anos de relacionamento, território 'Relacionamento' aprovado em ee-s2-posicionamento), só nunca mostrou.
-            </p>
+          <div class="glass" style="padding:22px;">
+            <span class="pattern-card__tag">visto em balenregularizacoes</span>
+            <div class="pattern-card__title">Relacionamento institucional como conteúdo</div>
+            <p class="pattern-card__body">Fixa tem o mesmo ativo (10 anos) — nunca mostrou. Gap mais barato de fechar.</p>
           </div>
-          <div class="glass" style="padding:18px;">
-            <div class="kpi__label" style="font-size:0.85rem;">3 · Geolocalização do case (nome do bairro/núcleo específico) na legenda</div>
-            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
-              Reforça relevância local imediata pra quem mora no mesmo bairro ou conhece a região, sem precisar de mais contexto.
-            </p>
-          </div>
-          <div class="glass" style="padding:18px;">
-            <div class="kpi__label" style="font-size:0.85rem;">4 · Presença física em feiras/eventos do setor como conteúdo</div>
-            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
-              Mostra atividade de mercado e networking, reforçando porte e relevância — ainda que o evento não seja local (Balen atua em 3 cidades).
-            </p>
+          <div class="glass" style="padding:22px;">
+            <span class="pattern-card__tag">visto em dca_engenharia</span>
+            <div class="pattern-card__title">Geolocalização do case no texto</div>
+            <p class="pattern-card__body">Reforça relevância local imediata pra quem mora no bairro.</p>
           </div></div>
       </div>
     </section>
@@ -439,26 +440,24 @@
       <div class="slide__header"><span class="logo-v4" aria-label="V4"></span></div>
       <div class="slide__content">
         <span class="eyebrow">Criativos · briefing de produção</span>
-        <h2 class="title-section">Diagnóstico de Criativos</h2>
-        <p class="subtitle-text" style="margin-bottom:1.5vh;">Nomear a dor específica do ICP logo nos primeiros segundos (impossibilidade de vender/financiar/herdar por falta de matrícula) ou abrir com prova social real (depoimento/GMB) — nunca abrir com logo ou frase institucional genérica.</p>
-        <div class="row-2" style="margin-top:1.5vh;">
+        <h2 class="title-section">Pronto pra Semana 3</h2>
+        <div class="row-2" style="margin-top:2vh;">
           <div class="glass">
             <div class="kpi__label">Formato prioritário</div>
-            <div class="kpi__value" style="font-size:1.9rem;">Reels</div>
-            <div class="kpi__hint">Recomendado pro primeiro lote de anúncios</div>
+            <div class="kpi__value">Reels</div>
+            <div class="kpi__hint">Primeiro lote de anúncios</div>
           </div>
           <div class="glass">
             <div class="kpi__label">Criativos recomendados</div>
             <div class="kpi__value">9</div>
-            <div class="kpi__hint">3 hooks (dor direta / depoimento real / integração técnico-jurídica) × 2 formatos (reels + feed estático) × 2 CTAs (agendar diagnóstico / falar no WhatsApp), reaproveitando as 5 hipóteses de teste já briefadas em ee-s2-diagnostico-midia (H1-H5) como ponto de partida, sem repetir o trabalho.</div>
+            <div class="kpi__hint">3 hooks × 2 formatos × 2 CTAs</div>
           </div></div>
-        
         <div class="glass" style="margin-top:2vh; border-left:3px solid #ff8080;">
-          <h3 class="subtitle" style="color:#ff9c9c; margin-bottom:10px; font-size:1.1rem;">Evitar</h3>
-          <ul class="bullets"><li>Foto de banco de imagens — restrição explícita do cliente (brand.restrictions no briefing)</li><li>Logo como hook ou abertura institucional genérica ('conheça a Fixa...')</li><li>Qualquer menção a prazo, data ou garantia de tempo de conclusão do processo — decisão explícita do operador</li><li>Jargão jurídico/técnico sem tradução — o ICP já relatou não entender 'juridiquês' (objeção #3 mapeada)</li></ul>
+          <h3 class="subtitle" style="color:#ff9c9c; margin-bottom:10px; font-size:1.3rem;">Evitar</h3>
+          <ul class="bullets"><li>Banco de imagens</li><li>Jargão jurídico sem tradução</li><li>Qualquer menção a prazo/data</li></ul>
         </div>
-        <div class="highlight-box" style="margin-top:3vh;">
-          <div class="highlight-box__label">Leitura V4 — Key Insight</div>
+        <div class="highlight-box" style="margin-top:2.5vh;">
+          <div class="highlight-box__label">Leitura V4</div>
           <div class="highlight-box__text">A Fixa tem prova social real (GMB 4,7★, depoimentos no Instagram) mas nunca virou criativo pago — é o gap mais barato de fechar antes de escalar mídia.</div>
         </div>
       </div>
