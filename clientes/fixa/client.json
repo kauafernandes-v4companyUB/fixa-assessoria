@@ -306,7 +306,7 @@
         "completed_at": "2026-09-23T12:32:04Z"
       },
       "ee-s2-diagnostico-cro": {
-        "status": "pending",
+        "status": "skipped",
         "checkpoint": 0,
         "started_at": null,
         "completed_at": null
@@ -457,6 +457,36 @@
       "skill": "ee-s2-diagnostico-organico-ig",
       "checkpoint": 0,
       "decision": "Diagnóstico orgânico IG aprovado sem ajustes. Precisou corrigir um bug antes de rodar: briefing.identification.instagram tinha uma nota do operador embutida no valor ('@fixa_engenharia (cliente quer rever a arroba...)'), que quebrava a chamada business_discovery (erro 'Invalid user id') — campo limpo para '@fixa_engenharia' e nota movida para instagram_note. Token do Meta Graph API (.credentials/meta-graph-api.json) foi fornecido pelo operador copiando de outro projeto (Santa Juliana/medclinic não tinham mais o arquivo — token expirado ou removido). Dados reais confirmam: engagement rate da Fixa (5,34%) é o maior das 3 contas (Balen 2,01%, DCA 2,73%) mesmo com a menor base de seguidores. Padrão vencedor: número concreto de marco no corpo do post (post de 17,1% eng) e case nomeado real na 1ª menção. Padrão que quebra: foto de banco de imagens (pior post, 1,06% eng, contraria brand.restrictions do próprio cliente) e reaproveitar o mesmo case com ângulo mais fraco (6x menos engajamento). Gap mais acionável: Balen mostra relacionamento institucional com a prefeitura como conteúdo — Fixa tem o mesmo ativo (território 'Relacionamento' do posicionamento) mas nunca produziu conteúdo parecido."
+    },
+    {
+      "ts": "2026-09-28T12:00:00Z",
+      "skill": "ee-s2-diagnostico-cro",
+      "checkpoint": 0,
+      "decision": "Diagnóstico de CRO pulado (status 'skipped'). A Fixa não tem site ativo: o fixaengenharia.com (Wix, 2016) está no ar por engano — Carlos no kick-off 08/09: 'ele não deveria estar ativado, já mandei desativar umas três vezes, a gente tá sem site'; e na reunião 16/09 ficou decidido não mexer no site antigo. Auditar uma página que vai ser desligada não gera decisão. Os requisitos de conversão (prova social, CTA único pro WhatsApp, tracking) entram direto no ee-s3-landing-page, que não depende desta skill no dependency_graph."
+    },
+    {
+      "ts": "2026-09-28T12:20:00Z",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 0,
+      "decision": "Operador confirmou antes de rodar: (1) Volume — as '~70 conversas por dia' que o Carlos citou no kick-off (08/09) são o WhatsApp todo (clientes ativos, cartório, fornecedores, pessoal), NÃO leads novos; a demanda de leads novos é baixa (confirmado em 16/09). Não usar 70/dia como volume de leads. Leads/mês e taxas entre etapas entram como [não disponível] — linha de base a medir quando o CRM entrar. (2) Ticket mínimo — vale o doc pré-kick-off/briefing (R$5 mil regularização de casa; R$12 mil usucapião; R$20 mil inventário; R$100-400 mil REURB de loteamento), não o 'mínimo R$10 mil' dito na call. Skill ainda não rodada — aguardando cliente oculto."
+    },
+    {
+      "ts": "2026-09-29T15:00:00Z",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 0,
+      "decision": "Operador decidiu esperar a conversa do cliente oculto (chega 29/09 fim do dia) antes de rodar. Definições já fechadas: (1) Taxa 'quem precisa fecha 90%+ / curioso ~33%' vem SÓ da transcrição do kick-off 08/09 — se usada, entra marcada de forma bem explícita como RELATO VERBAL do Carlos, não medido, não corroborado no briefing; taxas do funil seguem [não disponível]. Operador vai anexar mais uma transcrição ao projeto — ler antes de gerar. (2) Lead qualificado (5★/4★) é roteado por assunto: REURB/loteamento → Carlos; regularização de casa → Dayane (escritório Engenharia); usucapião/inventário → Christian (Assessoria). Lead de indicação sempre direto com humano (pedido do Carlos em 16/09). (3) Kommo já contratado — falta implementar; SLA calibrado para operação com CRM."
+    },
+    {
+      "ts": "2026-09-29T16:30:00Z",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 0,
+      "decision": "Transcrição da call de 23/09 lida (assets/info/transcriptioins/Diagnóstico Digital e Posicionamento...2026_09_23). Fatos que entram no diagnóstico: (1) Kommo plano Pro, 1 usuário compartilhado (R$194/mês anual), assinatura pelo Christian com contato@fixassessoria.com.br. (2) Arquitetura acordada: número NOVO de WhatsApp Business (chip a retirar pelo Carlos até 28/09) recebe todas as campanhas via LP; SEM redirecionar para outros números — atendimento segue no mesmo número dentro do Kommo, com funil de triagem IA antes e depois DOIS funis: funil do Carlos e funil do Christian ('cada um cuida do seu funil'). Dayane não foi citada na call. (3) Carlos quase nunca está no escritório e vai operar o Kommo pelo celular com push de novo lead — base para o SLA. (4) Mídia inicial R$3.000/mês autorizada pelo Carlos. (5) Reunião da Semana 3 marcada para quarta 30/09: métricas de funil, funis Carlos/Christian, resultado do cliente oculto e diagnóstico comercial. Nenhuma taxa de conversão nova; 90%+/33% segue só como relato verbal de 08/09."
+    },
+    {
+      "ts": "2026-09-29T16:45:00Z",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 0,
+      "decision": "Operador corrigiu o roteamento: Dayane fica FORA por enquanto (nem funil, nem escalação). Pipeline e SLA com apenas dois funis após a triagem do SDR IA: funil do Carlos (engenharia: REURB/loteamento, regularização de casa) e funil do Christian (assessoria: usucapião, inventário). Substitui o roteamento em 3 pessoas registrado às 15:00 de 29/09. Escalação de SLA fica entre Carlos e Christian (um cobre o outro)."
     }
   ]
 }
