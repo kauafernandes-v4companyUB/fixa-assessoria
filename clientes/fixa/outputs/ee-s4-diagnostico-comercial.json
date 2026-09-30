@@ -1,0 +1,363 @@
+{
+  "summary": "Na Fixa Engenharia & Assessoria o comercial funciona bem quando o cliente chega por indicação e já com o problema na mão. O que falta é estrutura para o lead que chega sem conhecer ninguém: não há contagem de leads, a primeira resposta depende da agenda do Carlos e quem para de responder não é procurado de novo. O gargalo a atacar primeiro é Lead → Primeiro Contato. O plano começa hoje com ajustes sem custo no WhatsApp Business e segue com o que a V4 implementa: número novo no Kommo, SDR IA fazendo a triagem por assunto, dois funis (Carlos e Christian), critério 5★ = necessidade concreta + imóvel na área de atuação + decisor na conversa + investimento compatível com o ticket, e SLA de 30 min para 5★ com cobertura entre os sócios.",
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary_headline": "A Fixa fecha bem quem já chega precisando. O que vamos montar é o caminho para o lead novo não se perder antes da conversa.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Leads/mês",
+      "value": "Não medido",
+      "subtext": "A linha de base começa no 1º lead dentro do Kommo",
+      "tone": "gray"
+    },
+    {
+      "category": "posicao",
+      "label": "Follow-up de quem para de responder",
+      "value": "Não existe hoje",
+      "subtext": "'Se ele parar de responder, a gente não vai mais atrás' (16/09)",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "1ª resposta observada",
+      "value": "~3h",
+      "subtext": "Cliente oculto, 1 contato, 29/09",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "SLA proposto para lead 5★",
+      "value": "30 min",
+      "subtext": "Humano assume depois da triagem imediata do SDR IA",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ticket de entrada",
+      "value": "R$ 5 mil",
+      "subtext": "Regularização de casa; usucapião R$ 12 mil; inventário R$ 20 mil; REURB R$ 100–400 mil",
+      "tone": "green"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Quando o cliente tem um problema concreto (vender, financiar, inventariar), a Fixa fecha. Carlos, em 08/09: 'o cara que fecha é o cara que precisa'. Pelo relato verbal dele, não medido e não corroborado no briefing, quem precisa fecha em 90%+ e o curioso em cerca de 33%. O critério de qualificação parte daí: necessidade concreta é o sinal nº 1."
+    },
+    {
+      "category": "contexto",
+      "text": "Não há vendedor dedicado. O Carlos atende o WhatsApp da bio, que também recebe clientes ativos, cartório, fornecedores e assuntos pessoais, e quase nunca está no escritório. O Christian cuida da assessoria. Leads não são contados e ninguém retoma quem parou de responder (16/09). O cliente oculto de 29/09 confirmou o padrão: resposta cerca de 3h depois e nenhuma continuidade."
+    },
+    {
+      "category": "acao",
+      "text": "Hoje, sem custo: saudação automática com pergunta de triagem, mensagem de ausência, respostas rápidas e etiquetas 'Lead novo' / 'Aguardando retorno' no WhatsApp Business atual. Com a V4: número novo dentro do Kommo, SDR IA (agente de IA do próprio Kommo, já incluído no plano) fazendo a triagem por assunto, funil do Carlos (REURB/loteamento, regularização de casa) e funil do Christian (usucapião, inventário), aviso de lead novo no celular e régua de follow-up."
+    },
+    {
+      "category": "acao",
+      "text": "Lead de indicação não passa pelo SDR IA: vai direto para atendimento humano, a pedido do Carlos (16/09). O SDR IA cuida só da demanda que chega pelo tráfego e pela landing page, e filtra o curioso antes que ele ocupe a agenda dos sócios."
+    },
+    {
+      "category": "ameaca",
+      "text": "Sem os ajustes, os R$ 3.000/mês de mídia autorizados em 23/09 vão trazer leads para um atendimento que hoje não consegue retomá-los. Por isso Kommo e SDR IA entram antes da campanha, não depois."
+    }
+  ],
+  "funnel_diagnosis": [
+    {
+      "stage": "Lead → Primeiro Contato",
+      "current_rate": null,
+      "benchmark": 65,
+      "unavailable_reason": "Não existe contagem de leads hoje ('não existe controle disso aí', 16/09). A taxa passa a ser medida quando o Kommo entrar.",
+      "bottleneck": "A primeira resposta depende da agenda do Carlos, num número que mistura lead, cliente ativo, fornecedor e assunto pessoal. No cliente oculto (29/09) a resposta veio cerca de 3h depois e ficou no cumprimento, sem pergunta sobre o caso.",
+      "root_cause": "Não há canal dedicado a lead novo nem alguém (ou algo) responsável pela primeira resposta.",
+      "estimated": true
+    },
+    {
+      "stage": "Primeiro Contato → Qualificação (diagnóstico do caso)",
+      "current_rate": null,
+      "benchmark": 45,
+      "unavailable_reason": "Sem registro de conversas nem de desfecho. Leads que param de responder não são retomados (16/09).",
+      "bottleneck": "Quem para de responder sai do funil de vez: não há follow-up nem régua de retomada.",
+      "root_cause": "Sem CRM, nada lembra ninguém de voltar ao lead. Ciclo de decisão de 1 a 3 semanas (ICP) sem nenhum contato ativo nesse intervalo.",
+      "estimated": true
+    },
+    {
+      "stage": "Qualificação → Proposta",
+      "current_rate": null,
+      "benchmark": 57,
+      "unavailable_reason": "Não medido.",
+      "bottleneck": "Não há critério escrito do que é um lead bom. A triagem acontece na cabeça do Carlos, caso a caso.",
+      "root_cause": "Processo 100% dependente do sócio, sem critério nem script (briefing: has_scripts = false).",
+      "estimated": true
+    },
+    {
+      "stage": "Proposta → Fechamento",
+      "current_rate": null,
+      "benchmark": 30,
+      "unavailable_reason": "Não medido. Relato verbal do Carlos (08/09, não medido): quem tem necessidade concreta fecha em 90%+.",
+      "bottleneck": "Não é o gargalo hoje. Pelo relato, quem chega à proposta com necessidade concreta fecha. O risco é a proposta ficar parada esperando cônjuge ou herdeiros sem retorno ativo.",
+      "root_cause": "A decisão costuma envolver cônjuge ou herdeiros (briefing), e não há follow-up depois da proposta.",
+      "estimated": true
+    }
+  ],
+  "primary_bottleneck": {
+    "stage": "Lead → Primeiro Contato (+ retomada de quem parou de responder)",
+    "description": "O lead novo chega a um número compartilhado, espera a disponibilidade do Carlos e, se não responde de volta, não é procurado de novo. É o ponto que decide se os R$ 3.000/mês de mídia viram conversa ou se perdem.",
+    "estimated_improvement": "Resposta imediata com o SDR IA e 100% dos leads com retomada automática. O efeito em R$ só pode ser calculado depois de 30 a 60 dias de linha de base no Kommo; hoje não há volume nem taxa medidos para projetar."
+  },
+  "sales_team_structure": {
+    "roles": [
+      {
+        "role": "Carlos Henrique Garbin — sócio, Engenharia (fecha os principais serviços)",
+        "count": 1,
+        "tenure": "Fixa Engenharia desde 2016",
+        "capacity_note": "Atende o WhatsApp da bio entre obras, prefeitura, cartório e procuradoria. Quase nunca está no escritório e vai operar o Kommo pelo celular, com aviso de lead novo (23/09)."
+      },
+      {
+        "role": "Christian Lorencet — advogado, Assessoria (usucapião, inventário)",
+        "count": 1,
+        "tenure": "Fixa Assessoria desde 2024",
+        "capacity_note": "Vai cuidar do próprio funil no Kommo, também pelo celular (23/09)."
+      },
+      {
+        "role": "SDR IA — triagem inicial (a implantar)",
+        "count": 1,
+        "tenure": "—",
+        "capacity_note": "Responde na hora, 24h por dia, e faz a triagem por assunto. Encaminha para o funil do Carlos ou do Christian e manda o curioso para nutrição ou descarte."
+      }
+    ],
+    "tools": [
+      "WhatsApp da bio do Instagram (número compartilhado com clientes ativos, fornecedores e assuntos pessoais)",
+      "Kommo plano Pro, 1 usuário compartilhado (R$ 194/mês no anual), contratado e ainda não implantado",
+      "Número novo de WhatsApp Business para campanhas (chip a cargo do Carlos)",
+      "Software de gestão interno em desenvolvimento (08/09)"
+    ],
+    "rituals": [
+      "Nenhum ritual comercial hoje (sem reunião de pipeline, sem cadência de follow-up)"
+    ],
+    "gaps": [
+      "Sem contagem de leads nem de taxas entre etapas",
+      "Sem responsável pela primeira resposta do lead novo",
+      "Sem follow-up de quem para de responder",
+      "Sem critério escrito de qualificação nem script",
+      "Lead e contatos operacionais misturados no mesmo número"
+    ]
+  },
+  "objection_map": [
+    {
+      "objection": "Isso não vai ficar muito caro?",
+      "type": "price",
+      "funnel_moment": "proposal",
+      "frequency": "high",
+      "recommended_response": "Antes do valor, mostre o que custa não regularizar: sem matrícula não dá pra vender nem financiar, e os herdeiros vão ter um processo mais caro depois. Depois apresente o valor do caso específico e a forma de pagamento (a Fixa já trabalha com parcelamento).",
+      "sdr_prevention": "Não passar preço antes de entender o caso. Perguntar o objetivo (vender, financiar, herança) para que o valor chegue já ligado ao problema que ele resolve. Se perguntarem cedo, informar a faixa 'a partir de' do serviço identificado e dizer que o valor exato sai depois da análise do caso.",
+      "example_dialogue": {
+        "lead_says": "E mais ou menos quanto fica?",
+        "sdr_responds": "Depende do que o seu imóvel precisa. Regularização de casa, por exemplo, parte de R$ 5 mil e dá pra parcelar. Pra te passar o valor certo, me conta: a ideia é vender, financiar ou organizar pra família?"
+      }
+    },
+    {
+      "objection": "Isso demora muito? Tenho medo do comprador desistir.",
+      "type": "urgency",
+      "funnel_moment": "qualification",
+      "frequency": "high",
+      "recommended_response": "Explique as etapas do caso e o que depende da Fixa e o que depende de cartório e prefeitura. Não prometa data. A segurança vem de saber em que etapa o processo está.",
+      "sdr_prevention": "Nunca informar prazo nem data de conclusão. Registrar a urgência (ex.: comprador financiando) como sinal de qualificação e passar para o humano com essa informação.",
+      "example_dialogue": {
+        "lead_says": "Isso demora muito? Tem um vizinho querendo comprar",
+        "sdr_responds": "Entendo a pressa. O tempo depende das etapas do seu caso e de cartório e prefeitura, por isso o especialista vai te explicar o caminho certinho. Vou passar seu caso agora pra ele, com prioridade."
+      }
+    },
+    {
+      "objection": "Não tenho todos os documentos, uns papéis sumiram.",
+      "type": "trust",
+      "funnel_moment": "first_contact",
+      "frequency": "high",
+      "recommended_response": "É mais comum do que parece. Muitas vezes o histórico do imóvel é reconstituído por cartório, prefeitura e levantamento técnico. Antes de dizer que não dá, vale analisar o caso.",
+      "sdr_prevention": "Perguntar quais documentos existem (contrato, IPTU, certidões) sem tratar a falta como impedimento. Documentação incompleta não desqualifica o lead.",
+      "example_dialogue": {
+        "lead_says": "Só tenho o contrato do terreno e uns IPTU",
+        "sdr_responds": "Já é um bom começo! Muitos casos que a Fixa resolve começam assim. O especialista analisa o que você tem e vê o caminho."
+      }
+    },
+    {
+      "objection": "Já paguei um advogado e ele sumiu. Como sei que com vocês vai ser diferente?",
+      "type": "trust",
+      "funnel_moment": "qualification",
+      "frequency": "medium",
+      "recommended_response": "Acolha a experiência sem criticar o outro profissional. Mostre como a Fixa conduz: engenharia e a parte legal no mesmo processo, relação direta com cartório e prefeitura, casos concluídos na região e acompanhamento de cada etapa.",
+      "sdr_prevention": "Registrar a experiência anterior no card do lead para que o humano entre sabendo disso. Não prometer resultado nem prazo.",
+      "example_dialogue": {
+        "lead_says": "Ano passado pagamos 3 mil pra um advogado e ele sumiu",
+        "sdr_responds": "Sinto muito por isso, é bem frustrante. Vou deixar anotado pro especialista, que vai te mostrar como a Fixa acompanha cada etapa do processo."
+      }
+    },
+    {
+      "objection": "Preciso conversar com meu irmão / minha esposa antes.",
+      "type": "authority",
+      "funnel_moment": "proposal",
+      "frequency": "high",
+      "recommended_response": "Descubra cedo quem decide e ofereça uma conversa com todos (pode ser online para quem mora longe). Combine uma data de retorno em vez de esperar.",
+      "sdr_prevention": "Perguntar na triagem quem mais participa da decisão (cônjuge, herdeiros). Se o lead disser 'vou falar com X', entrar na régua de retomada em 48h.",
+      "example_dialogue": {
+        "lead_says": "Vou conversar com meu irmão e te falo",
+        "sdr_responds": "Claro! Se ajudar, dá pra fazer uma conversa online com vocês dois. Posso te chamar na quinta pra ver o que vocês decidiram?"
+      }
+    },
+    {
+      "objection": "Não sei se preciso disso agora.",
+      "type": "need",
+      "funnel_moment": "first_contact",
+      "frequency": "medium",
+      "recommended_response": "Pergunte o plano para o imóvel (vender, deixar para os filhos). Sem matrícula, a família herda o problema junto com o imóvel, e resolver depois costuma ser mais caro e mais difícil.",
+      "sdr_prevention": "Sem gatilho concreto, o lead vai para nutrição, não para os sócios.",
+      "example_dialogue": {
+        "lead_says": "Não tenho pressa, só queria saber",
+        "sdr_responds": "Sem problema! Vou te mandar de vez em quando uns conteúdos sobre regularização. Quando fizer sentido, é só chamar aqui."
+      }
+    },
+    {
+      "objection": "Isso é com advogado ou com engenheiro? Vou ter que contratar os dois?",
+      "type": "competitor",
+      "funnel_moment": "first_contact",
+      "frequency": "medium",
+      "recommended_response": "Esta é a hora do diferencial: na Fixa a parte técnica e a parte legal são resolvidas no mesmo processo, sem precisar de dois escritórios.",
+      "sdr_prevention": "Apresentar a integração logo na primeira resposta sobre o serviço, tratando a parte jurídica como parte do processo e não como uma terceira especialidade separada.",
+      "example_dialogue": {
+        "lead_says": "Vou ter que contratar advogado e engenheiro?",
+        "sdr_responds": "Não precisa! Na Fixa a parte técnica e a parte legal são resolvidas juntas, no mesmo processo."
+      }
+    }
+  ],
+  "objection_pattern": {
+    "most_frequent_type": "trust (confiança: documentação, experiência anterior ruim, 'vai demorar') — alinhado ao ICP e ao posicionamento",
+    "most_critical_moment": "first_contact — é onde o lead some hoje, antes de qualquer objeção de preço",
+    "deal_killer_objection": "Silêncio depois de 'vou conversar com meu irmão/família', sem retomada",
+    "main_recommendation": "Resposta imediata com pergunta sobre o caso e régua de retomada em 48h depois de qualquer 'vou pensar / vou falar com X'. A objeção que mais pesa hoje não é o preço, é a ausência de próximo contato."
+  },
+  "qualification_criteria": {
+    "five_star": {
+      "profile": "Proprietário ou herdeiro com problema concreto e decisão em andamento: precisa vender, financiar ou inventariar, e o imóvel está na área de atuação.",
+      "mandatory_signals": [
+        "Necessidade concreta com gatilho declarado: venda, financiamento, inventário/partilha ou exigência de banco/cartório",
+        "Imóvel ou loteamento na área de atuação (RS, primeira metade de SC)",
+        "É o proprietário/herdeiro ou o decisor está na conversa ou foi identificado",
+        "Aceita investimento compatível com o ticket do serviço (a partir de R$ 5 mil, parcelável)"
+      ],
+      "action": "Card cai no funil do assunto (Carlos: REURB/loteamento e regularização de casa; Christian: usucapião e inventário) com aviso de lead novo no app do Kommo. Os dois celulares recebem, porque a conta é única; quem age é o dono do funil. Contato humano em até 30 min.",
+      "example": "Herdeira em Caxias do Sul com casa dos pais sem averbação e inventário não aberto. Tem comprador que vai financiar, o irmão concorda com a venda e ela sabe que o serviço é pago."
+    },
+    "four_star": {
+      "profile": "Tem o problema e está na área, mas falta um sinal: decisor ausente, orçamento ainda não conversado ou gatilho sem data.",
+      "signals": [
+        "Necessidade concreta com gatilho declarado",
+        "Imóvel na área de atuação",
+        "Decisor identificado",
+        "Aceita investimento compatível com o ticket"
+      ],
+      "min_signals": 3,
+      "action": "Encaminhar para o funil do responsável. Contato humano em até 4h, no mesmo dia útil.",
+      "example": "Proprietário em Farroupilha quer regularizar a casa para vender no ano que vem. Ainda não falou em valor, mas é o dono e o imóvel está na área."
+    },
+    "three_star": {
+      "profile": "Interesse real, sem gatilho definido ou com informação incompleta.",
+      "signals": [
+        "Necessidade concreta com gatilho declarado",
+        "Imóvel na área de atuação",
+        "Decisor identificado",
+        "Aceita investimento compatível com o ticket"
+      ],
+      "min_signals": 2,
+      "action": "Régua de nutrição automática no Kommo em até 24h. O SDR IA retoma em 7 dias perguntando se o plano mudou.",
+      "example": "Filho pesquisando para a mãe, que tem terreno com contrato de gaveta na Serra. Ainda sem plano de venda e a mãe não está na conversa."
+    },
+    "one_two_star": {
+      "profile": "Curioso sem imóvel ou sem problema, fora da área ou buscando serviço que a Fixa não faz.",
+      "disqualification_signals": [
+        "Não tem imóvel com pendência nem herança a resolver (só curiosidade de preço)",
+        "Imóvel fora da área de atuação",
+        "Busca serviço fora do escopo (ex.: aluguel, compra de imóvel, corretagem)",
+        "Expectativa de pagamento muito abaixo do ticket mínimo, mesmo parcelado"
+      ],
+      "action": "Resposta cordial pelo SDR IA. Nutrição passiva quando fizer sentido, sem encaminhar para os sócios.",
+      "example": "'Quanto custa uma escritura?', sem imóvel definido e sem responder às perguntas de triagem."
+    },
+    "tiebreaker_rules": {
+      "three_vs_four": "Na dúvida, gatilho com data (comprador, banco, prazo de inventário) sobe para 4★. Sem gatilho, fica em 3★.",
+      "two_vs_three": "Na dúvida, se existe um imóvel real com pendência, é 3★ e vai para nutrição. Se não há imóvel, é 1-2★."
+    },
+    "routing_rules": [
+      "Lead de indicação: não passa por scoring, vai direto para atendimento humano (pedido do Carlos, 16/09)",
+      "REURB/loteamento e regularização de casa → funil do Carlos",
+      "Usucapião e inventário → funil do Christian",
+      "Caso misto (ex.: casa sem averbação + inventário não aberto) → a validar na reunião de 30/09"
+    ]
+  },
+  "sla": {
+    "five_star_minutes": 30,
+    "five_star_responsible": "Dono do funil do assunto (Carlos ou Christian), pelo Kommo no celular com aviso de lead novo",
+    "five_star_channel": "WhatsApp do número novo, dentro do Kommo (mesma conversa, sem trocar de número)",
+    "four_star_hours": 4,
+    "four_star_responsible": "Dono do funil do assunto (Carlos ou Christian)",
+    "three_star_hours": 24,
+    "escalation_5star_minutes": 60,
+    "escalation_4star_hours": 8,
+    "escalation_responsible": "O outro sócio: Carlos cobre o Christian e o Christian cobre o Carlos. Com a conta única do Kommo, a cobertura é por funil: a automação marca o card com a tag 'SLA estourado' e cria uma tarefa atrasada, que os dois veem.",
+    "notes": "Ciclo longo (meses), com decisão do escritório em 1 a 3 semanas (ICP). A primeira resposta é sempre imediata pelo SDR IA; o SLA mede o tempo até o humano assumir. SLA em horário comercial; fora dele, o SDR IA avisa quando o especialista retorna, sem prometer prazo de processo."
+  },
+  "action_plan": [
+    {
+      "priority": 1,
+      "action": "Ligar hoje, no WhatsApp Business atual: saudação automática com pergunta sobre o caso, mensagem de ausência, 3 respostas rápidas de triagem e etiquetas 'Lead novo' / 'Aguardando retorno'",
+      "responsible": "Carlos, com os textos prontos enviados pela V4 (Kauã)",
+      "timeline": "Hoje (30/09)",
+      "measurement": "Todo contato novo recebe resposta na hora, com pergunta sobre o caso",
+      "expected_impact": "Primeira impressão diferente desde já, sem custo e sem esperar o Kommo"
+    },
+    {
+      "priority": 2,
+      "action": "Aprovar na reunião os critérios 1-5★, o roteamento por assunto (Carlos/Christian), a regra de indicação direto para o humano e o SLA",
+      "responsible": "Carlos e Christian, com a V4",
+      "timeline": "Reunião de 30/09",
+      "measurement": "Critérios e SLA aprovados, virando base das métricas de funil e do SDR IA",
+      "expected_impact": "O SDR IA qualifica com o critério dos sócios, não com um critério genérico"
+    },
+    {
+      "priority": 3,
+      "action": "Colocar o número novo no Kommo com funil de triagem + funil do Carlos + funil do Christian, avisos de lead novo no celular dos dois e régua de retomada (48h após 'vou pensar / vou falar com X')",
+      "responsible": "V4 (Kauã / Luciano); chip do número novo com o Carlos",
+      "timeline": "Semana 4, antes de subir a campanha",
+      "measurement": "100% dos leads da campanha registrados no Kommo; nenhum lead parado sem próxima ação",
+      "expected_impact": "Nenhum lead sem retomada"
+    },
+    {
+      "priority": 4,
+      "action": "Treinar o SDR IA com as conversas reais do Carlos (exportar as últimas 200 a 300 do WhatsApp) e com este mapa de objeções, respeitando as regras de comunicação (sem prometer prazo; jurídico como parte do processo)",
+      "responsible": "V4 (scripts SDR + configuração), exportação pelo Carlos",
+      "timeline": "Semana 4",
+      "measurement": "5 leads simulados triados e encaminhados ao funil certo",
+      "expected_impact": "Triagem imediata no tom da Fixa; curioso filtrado antes de chegar aos sócios"
+    },
+    {
+      "priority": 5,
+      "action": "Medir a linha de base desde o 1º lead: leads/mês, taxa de contato, taxa de qualificação, propostas e fechamentos por funil",
+      "responsible": "V4 (leitura mensal com Carlos e Christian)",
+      "timeline": "Contínuo a partir do 1º lead no Kommo; primeira leitura em 30 dias",
+      "measurement": "Funil com taxas reais para substituir os [não disponível] deste diagnóstico",
+      "expected_impact": "Base para calibrar mídia, SLA e forecast com número real"
+    }
+  ],
+  "key_insight": {
+    "headline": "A Fixa não precisa aprender a fechar. Precisa de um caminho para o lead novo chegar até a conversa.",
+    "context": "Quem chega por indicação e com o problema na mão fecha. O lead de mídia chega sem relação prévia, num número compartilhado, e some se ninguém o retoma. O Kommo + SDR IA respondem na hora, fazem a triagem e deixam só lead qualificado para o Carlos e o Christian.",
+    "numbered_reasons": [
+      "(1) Relato do Carlos (verbal, não medido): quem precisa fecha. Qualificar por necessidade concreta concentra o tempo dos sócios em quem fecha",
+      "(2) Hoje ninguém retoma quem para de responder (16/09). A régua de retomada é o ganho mais simples",
+      "(3) A mídia de R$ 3.000/mês só rende se o atendimento estiver pronto antes"
+    ],
+    "discussion_anchor": "Aprovar hoje os critérios 5★, o SLA de 30 min e o roteamento Carlos/Christian, e ligar os ajustes gratuitos no WhatsApp atual ainda hoje.",
+    "feasibility": "alta — Kommo já contratado, SDR IA e CRM já incluídos na estruturação, e ajustes do WhatsApp Business sem custo."
+  },
+  "honesty_alert": "Nenhuma taxa de conversão da Fixa é medida hoje: todas as taxas atuais estão como [não disponível] e os benchmarks são de serviços profissionais (advocacia/consultoria) para PMEs brasileiras. Os 90%+ de fechamento de quem precisa e ~33% do curioso são RELATO VERBAL do Carlos no kick-off de 08/09, não corroborados no briefing. As '~70 conversas/dia' do kick-off são o WhatsApp inteiro, não leads. A frequência das objeções é estimada a partir do briefing e do ICP. O cliente oculto teve um único contato de cumprimento, o que é leitura indicativa. Ticket mínimo conforme briefing (R$ 5 mil casa), não o 'mínimo R$ 10 mil' da call. Dayane fica fora do roteamento por enquanto. Nenhuma peça (script, SDR, LP) promete prazo de conclusão. SDR IA = agente de IA do próprio Kommo, incluído no plano Pro (até 50 agentes, 2.250 créditos de IA/mês no usuário único), sem ferramenta externa paga.",
+  "operator_direction": "Tom de ação para a reunião de 30/09: o que dá pra fazer hoje com baixo custo + o que a V4 implementa com Assessoria e Kommo. Não apresentar como avaliação do atendimento do Carlos.",
+  "completed_at": "2026-09-30T12:40:00Z"
+}

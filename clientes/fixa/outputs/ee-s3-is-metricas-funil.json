@@ -1,0 +1,541 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "O funil da Fixa Engenharia & Assessoria passa a ter 7 etapas com critério objetivo: Lead → Triagem SDR IA → MQL → SAL → SQL → Proposta → Fechado. O gargalo herdado do diagnóstico comercial (Lead → Primeiro Contato e a falta de retomada) fica coberto pela triagem imediata e pela saída por tempo de cada etapa. O scoring tem 5 perguntas que o SDR IA faz no WhatsApp, pontua de 0 a 11 e tem 4 filtros de anti-persona. Com isso, o SDR IA, o Carlos e o Christian classificam o mesmo lead do mesmo jeito, e o lead de indicação vai direto para o humano sem passar pela nota.",
+  "summary_headline": "Mesma resposta, mesma estrela: 5 perguntas no WhatsApp decidem quem vai para o Carlos, para o Christian ou para a nutrição.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Funil canônico",
+      "value": "7 etapas",
+      "subtext": "Cada uma com critério de entrada e de saída verificável",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Perguntas de scoring",
+      "value": "5 (0–11 pts)",
+      "subtext": "Motivo, data, cidade, decisor, investimento",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "SLA lead 5★",
+      "value": "30 min",
+      "subtext": "Humano assume; o SDR IA já respondeu na hora",
+      "tone": "blue"
+    },
+    {
+      "category": "janela",
+      "label": "Meta de CPL (Cenário B)",
+      "value": "R$ 50–60 [E]",
+      "subtext": "R$ 3.000/mês → 25–30 leads/mês, projeção do diagnóstico de mídia",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "Taxas atuais",
+      "value": "Linha de base a medir",
+      "subtext": "A primeira leitura sai 30 dias após o 1º lead no Kommo",
+      "tone": "gray"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "Hoje não existe contagem de leads nem critério escrito: a triagem acontece na cabeça do Carlos. Este documento transforma o que o diagnóstico comercial levantou em regras que o SDR IA e os dois sócios aplicam igual."
+    },
+    {
+      "category": "vantagem",
+      "text": "A regra de qualificação parte do que o próprio Carlos observa ('o cara que fecha é o cara que precisa', 08/09): a pergunta de maior peso é o motivo concreto (venda, financiamento, inventário), e só ela pode levar o lead a 5★."
+    },
+    {
+      "category": "acao",
+      "text": "Toda etapa tem saída por tempo. Lead que não responde em 48h entra na régua de retomada em vez de sumir, o que resolve o 'se ele parar de responder, a gente não vai mais atrás' (16/09)."
+    },
+    {
+      "category": "acao",
+      "text": "Motivo de perda vira lista fechada de 10 itens. Em 30 dias a Fixa sabe, com número, por que perde: sem resposta, curioso, preço, família não aprovou ou outro concorrente."
+    },
+    {
+      "category": "ameaca",
+      "text": "Ponto aberto para a reunião de 30/09: o roteamento do caso misto (ex.: casa sem averbação + inventário não aberto). Até decidir, o SDR IA manda para o funil do Carlos e marca o Christian no card."
+    }
+  ],
+  "canonical_funnel": [
+    {
+      "stage_number": 1,
+      "name": "Lead",
+      "entry_criteria": "Primeira mensagem recebida no número de WhatsApp de campanhas (dentro do Kommo), vinda da landing page, anúncio ou Instagram. Lead de indicação é registrado manualmente pelo sócio e vai direto para a etapa 4 (SAL), sem scoring.",
+      "exit_criteria": "Respondeu pelo menos 1 pergunta de triagem do SDR IA.",
+      "owner": "SDR IA",
+      "typical_duration": "Minutos (resposta do SDR IA imediata)"
+    },
+    {
+      "stage_number": 2,
+      "name": "Triagem SDR IA",
+      "entry_criteria": "Respondeu a 1ª pergunta de triagem.",
+      "exit_criteria": "Respondeu as 5 perguntas de scoring e recebeu nota (0–11), ou disparou um filtro de anti-persona. Sem resposta por 48h após 2 tentativas → régua de retomada; sem resposta após a régua → Perdido ('Sem resposta').",
+      "owner": "SDR IA",
+      "typical_duration": "Até 48h"
+    },
+    {
+      "stage_number": 3,
+      "name": "MQL",
+      "entry_criteria": "Score ≥ 4 pontos (3★ ou mais) e nenhum filtro de anti-persona ativo.",
+      "exit_criteria": "Score ≥ 7 (4★/5★) → encaminhado ao funil do Carlos ou do Christian conforme o assunto. Score 4–6 (3★) → fica em nutrição automática até alguma resposta mudar e o score subir para ≥ 7.",
+      "owner": "SDR IA (encaminhamento automático)",
+      "typical_duration": "Imediato para 4★/5★; nutrição de 3★ sem prazo fixo, com retomada a cada 7 dias"
+    },
+    {
+      "stage_number": 4,
+      "name": "SAL — atendimento humano",
+      "entry_criteria": "Lead 4★/5★ encaminhado ao funil do assunto (Carlos: REURB/loteamento e regularização de casa; Christian: usucapião e inventário), ou lead de indicação registrado.",
+      "exit_criteria": "O dono do funil fez o primeiro contato humano na conversa (registrado no Kommo) e marcou a análise do caso (conversa com todos os decisores ou recebimento de documentos).",
+      "owner": "Carlos ou Christian",
+      "typical_duration": "Primeiro contato: 30 min (5★) / 4h (4★)"
+    },
+    {
+      "stage_number": 5,
+      "name": "SQL — análise do caso",
+      "entry_criteria": "Análise do caso marcada ou documentos recebidos, com os 4 critérios BANT da Fixa confirmados pelo humano (ver stage_definitions.sql).",
+      "exit_criteria": "Proposta com valor e forma de pagamento enviada ao lead (registrada no card).",
+      "owner": "Carlos ou Christian",
+      "typical_duration": "1–2 semanas [E]"
+    },
+    {
+      "stage_number": 6,
+      "name": "Proposta enviada",
+      "entry_criteria": "Proposta enviada (PDF ou mensagem) e registrada no Kommo.",
+      "exit_criteria": "Contrato assinado → Fechado. Recusa → Perdido, com motivo da lista fechada. Sem retorno em 48h → régua de retomada pós-proposta.",
+      "owner": "Carlos ou Christian (retomada automática pelo Kommo)",
+      "typical_duration": "1–3 semanas [E] (janela de decisão do ICP)"
+    },
+    {
+      "stage_number": 7,
+      "name": "Fechado",
+      "entry_criteria": "Contrato assinado e primeira parcela ou entrada combinada registrada.",
+      "exit_criteria": "Etapa final do funil comercial. O processo técnico-jurídico segue fora do pipeline de vendas.",
+      "owner": "Carlos ou Christian",
+      "typical_duration": "—"
+    }
+  ],
+  "stage_definitions": {
+    "lead": {
+      "definition": "Qualquer pessoa que mandou mensagem no número de campanhas da Fixa ou foi registrada como indicação.",
+      "objective_criteria": "Existe conversa iniciada pelo contato no número de campanhas dentro do Kommo (ou card de indicação criado por um sócio)."
+    },
+    "mql": {
+      "definition": "Lead com imóvel real na área de atuação e algum motivo para regularizar.",
+      "objective_criteria": "Score ≥ 4 na tabela de scoring e nenhum filtro de anti-persona ativo (imóvel na área, assunto dentro do escopo, informou o caso)."
+    },
+    "sal": {
+      "definition": "Lead 4★/5★ (ou de indicação) que o dono do funil assumiu.",
+      "objective_criteria": "Score ≥ 7 (ou origem = indicação) e primeiro contato humano registrado no Kommo pelo Carlos ou pelo Christian."
+    },
+    "sql": {
+      "definition": "Lead com caso real, decisores envolvidos, investimento aceito e motivo com data, pronto para receber proposta.",
+      "objective_criteria": "Need: motivo concreto confirmado (venda, financiamento, inventário/partilha ou exigência de banco/cartório/prefeitura). Authority: proprietário/herdeiro na conversa e demais decisores (cônjuge, irmãos) identificados e cientes. Budget: aceitou a faixa 'a partir de' do serviço (casa R$ 5 mil; usucapião R$ 12 mil; inventário R$ 20 mil; REURB R$ 100–400 mil), com ou sem parcelamento. Timeline: existe um gatilho com data ou pessoa esperando (comprador, banco, cartório), ou o lead definiu quando quer começar."
+    }
+  },
+  "scoring_table": [
+    {
+      "question": "O que te fez procurar a regularização agora?",
+      "weight_rationale": "É o sinal nº 1 do diagnóstico comercial e da fala do Carlos ('quem fecha é quem precisa'). Só a resposta de 3 pontos permite chegar a 5★.",
+      "answers": [
+        {
+          "answer": "Vender ou financiar, com comprador, banco ou corretor já envolvido",
+          "points": 3
+        },
+        {
+          "answer": "Inventário ou partilha necessária (falecimento, herdeiros) ou exigência de cartório/prefeitura",
+          "points": 3
+        },
+        {
+          "answer": "Quer vender ou organizar para a família no futuro, sem nada em andamento",
+          "points": 1
+        },
+        {
+          "answer": "Só quer saber como funciona ou quanto custa, sem caso definido",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "question": "Tem alguma data ou alguém esperando isso ser resolvido (comprador, banco, cartório)?",
+      "weight_rationale": "Separa urgência real de intenção vaga. O ICP decide o escritório em 1–3 semanas quando há gatilho.",
+      "answers": [
+        {
+          "answer": "Sim, algo previsto para os próximos 3 meses",
+          "points": 2
+        },
+        {
+          "answer": "Sim, mas para depois de 3 meses",
+          "points": 1
+        },
+        {
+          "answer": "Não tem data",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "question": "Em qual cidade fica o imóvel (ou o loteamento)?",
+      "weight_rationale": "A Fixa atua no RS e na primeira metade de SC (08/09). Fora disso não há levantamento técnico viável.",
+      "answers": [
+        {
+          "answer": "Cidade no RS ou na primeira metade de SC",
+          "points": 2
+        },
+        {
+          "answer": "Outra região",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "question": "O imóvel é seu ou da família? Quem mais participa da decisão?",
+      "weight_rationale": "A decisão costuma envolver cônjuge ou herdeiros (briefing). O 'vou falar com meu irmão' é o momento em que o lead some hoje.",
+      "answers": [
+        {
+          "answer": "Sou o dono/herdeiro, e quem decide comigo já sabe e concorda em resolver",
+          "points": 2
+        },
+        {
+          "answer": "Sou o dono/herdeiro, mas ainda preciso conversar com os outros",
+          "points": 1
+        },
+        {
+          "answer": "Não sou dono nem herdeiro e o dono não sabe da conversa",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "question": "A regularização parte de R$ 5 mil (casa) e dá pra parcelar. Faz sentido pra você seguir com a análise do caso?",
+      "weight_rationale": "Confirma a capacidade de investimento sem negociar preço no WhatsApp. O SDR IA informa a faixa 'a partir de' do serviço identificado (casa R$ 5 mil; usucapião R$ 12 mil; inventário R$ 20 mil).",
+      "answers": [
+        {
+          "answer": "Sim, faz sentido",
+          "points": 2
+        },
+        {
+          "answer": "Depende do valor final / quer ver a proposta",
+          "points": 1
+        },
+        {
+          "answer": "Não, está fora do que consegue investir",
+          "points": 0
+        }
+      ]
+    }
+  ],
+  "anti_persona_filters": [
+    {
+      "signal": "Imóvel fora da área de atuação (fora do RS e da primeira metade de SC)",
+      "effect": "Trava em 1★, sem encaminhar aos sócios. O SDR IA responde com cordialidade e encerra."
+    },
+    {
+      "signal": "Assunto fora do escopo (aluguel, compra de imóvel, corretagem, avaliação para venda sem pendência documental)",
+      "effect": "Trava em 1★. Resposta cordial e encerramento."
+    },
+    {
+      "signal": "Curioso Especulador: não informou o caso depois de 2 perguntas de triagem e só pergunta preço ou passo a passo para fazer sozinho",
+      "effect": "Trava em 2★, com nutrição passiva e conteúdo educativo. Sem análise de caso individual."
+    },
+    {
+      "signal": "Fora do Padrão de Atendimento: declara que só consegue pagar menos de R$ 400/mês (abaixo de R$ 5 mil em 12x)",
+      "effect": "Trava em 2★ e vai para nutrição passiva, sem passar para os sócios."
+    }
+  ],
+  "scoring_star_mapping": [
+    {
+      "stars": 5,
+      "min_points": 10,
+      "max_points": 11,
+      "label": "Lead quente: motivo concreto (3 pts) obrigatório; vai para o funil do assunto com SLA de 30 min"
+    },
+    {
+      "stars": 4,
+      "min_points": 7,
+      "max_points": 9,
+      "label": "Qualificado: vai para o funil do assunto com SLA de 4h"
+    },
+    {
+      "stars": 3,
+      "min_points": 4,
+      "max_points": 6,
+      "label": "Morno (MQL): nutrição automática com retomada a cada 7 dias"
+    },
+    {
+      "stars": 2,
+      "min_points": 2,
+      "max_points": 3,
+      "label": "Frio: nutrição passiva"
+    },
+    {
+      "stars": 1,
+      "min_points": 0,
+      "max_points": 1,
+      "label": "Desqualificado: resposta cordial e encerramento"
+    }
+  ],
+  "scoring_validation_examples": [
+    {
+      "lead_profile": "[Ilustrativo] Herdeira de 58 anos em Caxias do Sul com a casa dos pais sem averbação e inventário não aberto. Tem vizinho querendo comprar com financiamento e o irmão em SP quer vender (perfil do cliente oculto).",
+      "answers_given": "Motivo: venda com comprador financiando (3) · Data: comprador esperando, próximos 3 meses (2) · Cidade: Caxias do Sul (2) · Decisor: herdeira, irmão concorda em vender (2) · Investimento: 'depende, já perdi 3 mil' (1)",
+      "points_total": 10,
+      "resulting_stars": 5
+    },
+    {
+      "lead_profile": "[Ilustrativo] Loteador com área irregular em Caxias do Sul que quer regularizar via REURB para vender os lotes.",
+      "answers_given": "Motivo: vender, com exigência da prefeitura (3) · Data: sem data definida (0) · Cidade: Caxias do Sul (2) · Decisor: é o dono e decide (2) · Investimento: faz sentido (2)",
+      "points_total": 9,
+      "resulting_stars": 4
+    },
+    {
+      "lead_profile": "[Ilustrativo] Proprietário em Farroupilha que quer regularizar a casa para vender no ano que vem.",
+      "answers_given": "Motivo: vender no futuro, nada em andamento (1) · Data: depois de 3 meses (1) · Cidade: Farroupilha (2) · Decisor: dono, decide com a esposa que já concorda (2) · Investimento: quer ver a proposta (1)",
+      "points_total": 7,
+      "resulting_stars": 4
+    },
+    {
+      "lead_profile": "[Ilustrativo] Filho pesquisando para a mãe, que tem terreno com contrato de gaveta na Serra, sem plano de venda.",
+      "answers_given": "Motivo: organizar no futuro (1) · Data: não (0) · Cidade: Bento Gonçalves (2) · Decisor: mãe ainda não conversou (1) · Investimento: quer ver a proposta (1)",
+      "points_total": 5,
+      "resulting_stars": 3
+    },
+    {
+      "lead_profile": "[Ilustrativo] Contato que pergunta 'quanto custa uma escritura?' e não responde às perguntas sobre o imóvel.",
+      "answers_given": "Não informou o caso após 2 perguntas → filtro Curioso Especulador",
+      "points_total": 0,
+      "resulting_stars": 2
+    }
+  ],
+  "key_metrics": [
+    {
+      "metric": "Leads/mês",
+      "definition": "Novos contatos no número de campanhas (etapa 1), separados por origem (mídia, orgânico, indicação).",
+      "formula": "Contagem de cards criados na etapa Lead no mês",
+      "source": "Kommo (pipeline de triagem)",
+      "frequency": "Semanal no 1º mês, depois mensal",
+      "current_value": null,
+      "target_value": "25–30/mês com R$ 3.000 de mídia (Cenário B)",
+      "estimated": true
+    },
+    {
+      "metric": "CPL",
+      "definition": "Custo de mídia por lead. Só mídia; não inclui Kommo, SDR IA nem horas dos sócios.",
+      "formula": "Investimento em Google Ads + Meta Ads no mês ÷ leads de mídia no mês",
+      "source": "Google Ads + Meta Ads (investimento) e Kommo (leads com origem = mídia)",
+      "frequency": "Semanal",
+      "current_value": null,
+      "target_value": "R$ 50–60",
+      "estimated": true
+    },
+    {
+      "metric": "CAC",
+      "definition": "Custo total para conquistar um cliente novo vindo do digital: mídia + ferramentas comerciais + horas dos sócios dedicadas ao comercial.",
+      "formula": "(Mídia + Kommo R$ 194/mês + créditos extras de IA do Kommo, se passar de 2.250/mês + horas comerciais dos sócios × valor-hora) ÷ contratos fechados de origem digital no mês",
+      "source": "Google/Meta Ads, fatura do Kommo, recargas do SDR IA, estimativa de horas dos sócios e Kommo (fechados)",
+      "frequency": "Mensal",
+      "current_value": null,
+      "target_value": null,
+      "estimated": false
+    },
+    {
+      "metric": "Ticket médio (por serviço)",
+      "definition": "Valor médio contratado por tipo de serviço. A média geral mistura R$ 5 mil com R$ 400 mil, por isso a leitura é por serviço.",
+      "formula": "Soma dos contratos fechados do serviço ÷ número de contratos do serviço",
+      "source": "Kommo (valor do negócio no card) e contratos assinados",
+      "frequency": "Mensal",
+      "current_value": "Referência do briefing: casa R$ 5 mil · usucapião R$ 12 mil · inventário R$ 20 mil · REURB R$ 100–400 mil",
+      "target_value": null,
+      "estimated": true
+    },
+    {
+      "metric": "LTV",
+      "definition": "Receita total gerada por um cliente, somando o serviço inicial e os que vêm depois (ex.: REURB traz as casas; inventário traz a regularização do imóvel). O negócio é por projeto, não recorrente.",
+      "formula": "Ticket do 1º serviço + soma dos serviços adicionais contratados pelo mesmo cliente em 24 meses",
+      "source": "Kommo (histórico do contato) e financeiro da Fixa",
+      "frequency": "Semestral",
+      "current_value": null,
+      "target_value": null,
+      "estimated": false
+    },
+    {
+      "metric": "Conversão geral (lead → contrato)",
+      "definition": "Percentual de leads que viram contrato assinado.",
+      "formula": "Fechados no período ÷ leads do período × 100 (por coorte de entrada)",
+      "source": "Kommo",
+      "frequency": "Mensal",
+      "current_value": null,
+      "target_value": "3–8% (benchmark de serviços profissionais)",
+      "estimated": true
+    },
+    {
+      "metric": "Ciclo de venda",
+      "definition": "Dias entre a entrada do lead e o contrato assinado.",
+      "formula": "Média de (data de Fechado − data de Lead) dos contratos do mês",
+      "source": "Kommo (datas de mudança de etapa)",
+      "frequency": "Mensal",
+      "current_value": "1–3 semanas para decidir o escritório (ICP)",
+      "target_value": null,
+      "estimated": true
+    },
+    {
+      "metric": "Tempo até o 1º contato humano (4★/5★)",
+      "definition": "Minutos entre o encaminhamento do SDR IA e a primeira mensagem do Carlos ou do Christian.",
+      "formula": "Mediana de (hora da 1ª mensagem humana − hora do encaminhamento) por estrela",
+      "source": "Kommo (histórico da conversa)",
+      "frequency": "Semanal",
+      "current_value": "~3h (cliente oculto, 1 contato, antes do SDR IA)",
+      "target_value": "≤ 30 min (5★) · ≤ 4h (4★)",
+      "estimated": true
+    },
+    {
+      "metric": "ROAS comercial",
+      "definition": "Receita contratada vinda de mídia para cada R$ 1 investido em mídia.",
+      "formula": "Valor dos contratos fechados com origem = mídia ÷ investimento em mídia no mesmo período",
+      "source": "Kommo (valor e origem) e Google/Meta Ads",
+      "frequency": "Mensal, em janela de 90 dias por causa do ciclo",
+      "current_value": null,
+      "target_value": null,
+      "estimated": false
+    }
+  ],
+  "sla_by_star": [
+    {
+      "stars": 5,
+      "response_time": "30 minutos para o 1º contato humano (o SDR IA já respondeu na hora), em horário comercial",
+      "responsible": "Dono do funil do assunto: Carlos (REURB/loteamento, casa) ou Christian (usucapião, inventário)",
+      "channel": "Mesma conversa no número de campanhas, pelo Kommo no celular (aviso de lead novo)",
+      "escalation": "Sem contato em 60 min → o card ganha a tag 'SLA estourado' e fica como tarefa atrasada no funil, visível para o outro sócio, que assume"
+    },
+    {
+      "stars": 4,
+      "response_time": "4 horas, no mesmo dia útil",
+      "responsible": "Dono do funil do assunto",
+      "channel": "Mesma conversa, pelo Kommo",
+      "escalation": "Sem contato em 8h → o card ganha a tag 'SLA estourado' e fica como tarefa atrasada no funil, visível para o outro sócio, que assume"
+    },
+    {
+      "stars": 3,
+      "response_time": "Entra na régua de nutrição automática em até 24h",
+      "responsible": "SDR IA / automação do Kommo",
+      "channel": "WhatsApp (número de campanhas)",
+      "escalation": "Se o score subir para ≥ 7 numa retomada, segue o SLA de 4★/5★"
+    },
+    {
+      "stars": 2,
+      "response_time": "Nutrição passiva com conteúdo educativo (quinzenal ou mensal)",
+      "responsible": "Automação do Kommo",
+      "channel": "WhatsApp (número de campanhas)",
+      "escalation": "Não escala"
+    },
+    {
+      "stars": 1,
+      "response_time": "Resposta cordial imediata do SDR IA e encerramento",
+      "responsible": "SDR IA",
+      "channel": "WhatsApp (número de campanhas)",
+      "escalation": "Não escala"
+    }
+  ],
+  "loss_reasons": [
+    {
+      "reason": "Sem resposta",
+      "definition": "Parou de responder e não voltou depois da régua de retomada completa."
+    },
+    {
+      "reason": "Curioso / sem caso concreto",
+      "definition": "Disparou o filtro Curioso Especulador ou nunca informou um imóvel com pendência."
+    },
+    {
+      "reason": "Fora da área de atuação",
+      "definition": "Imóvel fora do RS e da primeira metade de SC."
+    },
+    {
+      "reason": "Fora do escopo",
+      "definition": "Pediu serviço que a Fixa não faz (aluguel, compra, corretagem etc.)."
+    },
+    {
+      "reason": "Preço / capacidade de pagamento",
+      "definition": "Recebeu a faixa ou a proposta e declarou que não consegue pagar, mesmo parcelado."
+    },
+    {
+      "reason": "Família/decisor não aprovou",
+      "definition": "O lead aceitou, mas cônjuge, irmão ou herdeiro não concordou em seguir."
+    },
+    {
+      "reason": "Fechou com outro profissional",
+      "definition": "Declarou ter contratado outro escritório, advogado ou engenheiro."
+    },
+    {
+      "reason": "Desistiu do objetivo",
+      "definition": "A venda ou o financiamento caiu e o lead não quer mais regularizar agora."
+    },
+    {
+      "reason": "Caso inviável após análise",
+      "definition": "Na análise do caso (SQL) a Fixa concluiu que não há caminho técnico ou jurídico viável."
+    },
+    {
+      "reason": "Outro",
+      "definition": "Nenhum motivo acima se aplica. Descrever em uma linha. Revisão mensal: se um 'Outro' se repetir 3 vezes, vira motivo da lista."
+    }
+  ],
+  "funnel_health_indicators": {
+    "leading": [
+      "% de leads com as 5 perguntas respondidas e score atribuído (meta ≥ 70%)",
+      "% de leads 4★/5★ com 1º contato humano dentro do SLA",
+      "% de leads com próxima ação agendada no Kommo (nenhum card parado sem tarefa)",
+      "% de leads 'vou pensar / vou falar com X' que receberam a retomada em 48h"
+    ],
+    "lagging": [
+      "Taxa Lead → Primeiro Contato (gargalo herdado; benchmark 65%)",
+      "Conversão geral lead → contrato por funil (Carlos / Christian)",
+      "CPL e CAC do mês",
+      "Distribuição dos motivos de perda"
+    ]
+  },
+  "governance": {
+    "owner": "Kauã Fernandes (Account Manager V4), validando com Carlos e Christian",
+    "review_frequency": "Mensal. A primeira revisão é 30 dias após o 1º lead no Kommo, para recalibrar pontos e faixas de estrela com dado real",
+    "version": "1.0",
+    "change_log": [
+      {
+        "date": "2026-09-30",
+        "change": "Criação: funil de 7 etapas, scoring de 5 perguntas (0–11), 4 filtros de anti-persona, SLA por estrela e 10 motivos de perda. Herda o diagnóstico comercial de 30/09."
+      },
+      {
+        "date": "2026-09-30",
+        "change": "Definido que a triagem usa o agente de IA do próprio Kommo (plano Pro, sem custo extra). Com a conta única, a escalação de SLA é feita por funil: tag 'SLA estourado' + tarefa atrasada visível para os dois sócios, em vez de alerta individual."
+      }
+    ]
+  },
+  "risks_and_countermeasures": [
+    {
+      "risk": "MQL/SQL virar adjetivo ('esse parece bom') e cada sócio classificar diferente",
+      "countermeasure": "Estrela vem só da tabela de 5 perguntas. O humano pode subir ou descer uma estrela, mas registra no card qual resposta mudou."
+    },
+    {
+      "risk": "Confundir CPL com CAC e achar a mídia cara ou barata pelo número errado",
+      "countermeasure": "CPL mede só mídia (meta R$ 50–60). CAC inclui Kommo, créditos extras de IA (se houver) e horas dos sócios. Os dois aparecem separados na leitura mensal."
+    },
+    {
+      "risk": "Motivo de perda em texto livre, sem padrão para analisar",
+      "countermeasure": "Campo obrigatório de lista fechada no Kommo ao mover para Perdido. 'Outro' exige uma linha e é revisado todo mês."
+    },
+    {
+      "risk": "SDR IA prometer prazo de conclusão ao responder 'isso demora?'",
+      "countermeasure": "Regra fixa no prompt: nunca informar prazo nem data. Explicar que depende das etapas do caso e de cartório/prefeitura e passar para o especialista."
+    },
+    {
+      "risk": "Caso misto (engenharia + inventário) cair no funil errado ou ficar sem dono",
+      "countermeasure": "Até a decisão da reunião de 30/09: funil do Carlos com o Christian marcado no card."
+    },
+    {
+      "risk": "Passar dos 2.250 créditos de IA/mês do usuário único e gerar custo extra",
+      "countermeasure": "Acompanhar o consumo de créditos na leitura semanal do 1º mês. Se passar, simplificar o agente (menos mensagens por triagem) antes de comprar créditos."
+    }
+  ],
+  "completed_at": "2026-09-30T13:05:00Z"
+}

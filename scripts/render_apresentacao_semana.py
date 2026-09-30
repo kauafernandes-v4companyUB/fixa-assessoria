@@ -385,6 +385,319 @@ WEEK2_SLIDES = [
 ]
 
 
+# ---------------------------------------------------------------------------
+# SEMANA 3 — Inside Sales (cliente oculto, diagnóstico comercial, métricas, pipeline)
+# Tom definido pelo operador (30/09): ações de baixo custo pra hoje + o que a V4
+# implementa no Kommo. Nunca "avaliação do atendimento do Carlos", nunca nota.
+# ---------------------------------------------------------------------------
+
+def _cards(items, cols=None, tag_color="#ffd0a8"):
+    cols = cols or len(items)
+    html = "".join(f"""
+          <div class="glass" style="padding:20px;">
+            {f'<span class="pattern-card__tag">{ra.esc(tag)}</span>' if tag else ''}
+            <div class="pattern-card__title">{ra.esc(title)}</div>
+            <p class="pattern-card__body">{ra.esc(body)}</p>
+          </div>""" for tag, title, body in items)
+    return f'<div class="row-{cols}" style="margin-top:2.5vh; gap:14px;">{html}</div>'
+
+
+def build_s3_ponto_partida(client, outputs):
+    d = outputs.get("ee-s4-cliente-oculto")
+    if not d:
+        return ""
+    kpis = [
+        ("1ª resposta", "~3h", "Um 'bom dia' às 08:53 (29/09)"),
+        ("Pergunta sobre o caso", "Nenhuma", "A conversa parou no cumprimento"),
+        ("Retomada", "Nenhuma", "Ninguém voltou a chamar"),
+    ]
+    kpi_html = "".join(f"""
+          <div class="glass">
+            <div class="kpi__label">{ra.esc(a)}</div>
+            <div class="kpi__value">{ra.esc(b)}</div>
+            <div class="kpi__hint">{ra.esc(c)}</div>
+          </div>""" for a, b, c in kpis)
+    return f"""
+    <section class="slide slide--diag">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">Ponto de partida · como o lead novo chega hoje</span>
+        <h2 class="title-section">Um número pra tudo, sem estrutura pro lead novo</h2>
+        <div class="row-3" style="margin-top:2.5vh;">{kpi_html}</div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Leitura V4</div>
+          <div class="highlight-box__text">Não é falta de vontade de atender: o mesmo WhatsApp recebe cliente, cartório, fornecedor e lead — e quem responde está na obra. É exatamente isso que o Kommo + IA vão tirar do colo de vocês.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_hoje_sem_custo(client, outputs):
+    if not outputs.get("ee-s4-cliente-oculto"):
+        return ""
+    items = [
+        ("hoje · grátis", "Saudação automática", "Já responde perguntando o caso: casa, terreno, usucapião ou inventário?"),
+        ("hoje · grátis", "Mensagem de ausência", "Fora do horário, avisa quando vai ser respondido."),
+        ("hoje · grátis", "Respostas rápidas", "3 perguntas de triagem prontas: o quê, onde, quais documentos."),
+        ("hoje · grátis", "Etiquetas", "'Lead novo' e 'Aguardando retorno' — separa lead do resto das conversas."),
+    ]
+    return f"""
+    <section class="slide slide--alt">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">O que dá pra fazer hoje · WhatsApp Business atual</span>
+        <h2 class="title-section">4 ajustes, zero custo, a partir de hoje</h2>
+        {_cards(items, 4)}
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Como fica</div>
+          <div class="highlight-box__text">A V4 manda os textos prontos hoje — a configuração é feita no próprio app do WhatsApp Business.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_arquitetura_kommo(client, outputs):
+    if not outputs.get("ee-s3-is-pipeline"):
+        return ""
+    box = lambda t, sub, extra="": f'<div class="glass" style="padding:18px; text-align:center; {extra}"><div class="pattern-card__title" style="margin-bottom:6px;">{ra.esc(t)}</div><p class="pattern-card__body">{ra.esc(sub)}</p></div>'
+    arrow = '<div style="font-size:2.2rem; color:#ffd0a8; text-align:center; align-self:center;">→</div>'
+    flow = f"""
+        <div style="display:grid; grid-template-columns: 1fr auto 1.1fr auto 1fr; gap:12px; margin-top:3vh; align-items:stretch;">
+          {box('Número novo', 'Recebe tudo que vem da landing page e dos anúncios')}
+          {arrow}
+          {box('Triagem IA', 'Agente de IA do Kommo responde na hora e faz 5 perguntas', 'border:2px solid rgba(255,208,168,0.5);')}
+          {arrow}
+          <div class="stack">
+            {box('Funil do Carlos', 'REURB/loteamento · regularização de casa')}
+            {box('Funil do Christian', 'Usucapião · inventário')}
+          </div>
+        </div>"""
+    return f"""
+    <section class="slide">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">O que a V4 implementa · Kommo (plano Pro já assinado)</span>
+        <h2 class="title-section">Um número, uma triagem, dois funis</h2>
+        {flow}
+        <div class="row-2" style="margin-top:2.5vh; gap:14px;">
+          <div class="highlight-box"><div class="highlight-box__label">Indicação</div><div class="highlight-box__text">Vai direto pro humano, sem robô.</div></div>
+          <div class="highlight-box"><div class="highlight-box__label">Sem custo extra</div><div class="highlight-box__text">Agente de IA, funis, app com aviso de lead, tarefas e réguas — tudo no plano Pro.</div></div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_funil_gargalo(client, outputs):
+    d = outputs.get("ee-s4-diagnostico-comercial")
+    if not d:
+        return ""
+    rows = []
+    for st in d.get("funnel_diagnosis") or []:
+        is_g = "Primeiro Contato" in st.get("stage", "") and st.get("stage", "").startswith("Lead")
+        style = 'style="background:rgba(255,225,180,0.14);"' if is_g else ""
+        stage = ra.esc(st.get("stage", "").split(" (")[0])
+        bm = f"{st.get('benchmark')}%" if st.get("benchmark") is not None else "—"
+        rows.append(f'<tr {style}><td class="{"strong" if is_g else ""}">{stage}{" ← gargalo" if is_g else ""}</td><td>a medir no Kommo</td><td>{bm}</td></tr>')
+    return f"""
+    <section class="slide slide--diag">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">Diagnóstico comercial</span>
+        <h2 class="title-section">A Fixa fecha. O lead se perde antes da conversa</h2>
+        <table class="compare" style="margin-top:2vh;">
+          <thead><tr><th>Etapa</th><th>Fixa hoje</th><th>Referência (serviços profissionais)</th></tr></thead>
+          <tbody>{''.join(rows)}</tbody>
+        </table>
+        <div class="highlight-box" style="margin-top:2.5vh;">
+          <div class="highlight-box__label">Leitura V4</div>
+          <div class="highlight-box__text">"Quem fecha é quem precisa." O trabalho não é ensinar a fechar — é fazer o lead novo chegar até a conversa, e retomar quem parou de responder.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_scoring(client, outputs):
+    d = outputs.get("ee-s3-is-metricas-funil")
+    if not d:
+        return ""
+    short_q = ["Por que agora?", "Tem data / alguém esperando?", "Onde fica o imóvel?", "Quem decide?", "Investimento faz sentido?"]
+    rows = []
+    for i, q in enumerate(d.get("scoring_table") or []):
+        pts = " / ".join(str(a.get("points")) for a in q.get("answers") or [])
+        rows.append(f"<tr><td>{ra.esc(short_q[i] if i < len(short_q) else q.get('question'))}</td><td class='accent-cell'>{ra.esc(pts)}</td></tr>")
+    stars = "".join(
+        f'<div class="pill" style="font-size:clamp(1.05rem,1.3vw,1.35rem);">{"★"*m["stars"]} · {m["min_points"]}–{m["max_points"]} pts</div>'
+        for m in d.get("scoring_star_mapping") or [])
+    return f"""
+    <section class="slide">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">Qualificação · mesma resposta, mesma estrela</span>
+        <h2 class="title-section">5 perguntas decidem pra onde o lead vai</h2>
+        <div class="row-2" style="margin-top:2vh; gap:18px; align-items:start;">
+          <table class="compare"><thead><tr><th>Pergunta da IA</th><th>Pontos</th></tr></thead><tbody>{''.join(rows)}</tbody></table>
+          <div class="stack">{stars}</div>
+        </div>
+        <div class="highlight-box" style="margin-top:2.5vh;">
+          <div class="highlight-box__label">Regra de ouro</div>
+          <div class="highlight-box__text">Só chega a 5★ quem tem motivo concreto: vender, financiar ou inventariar.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_sla(client, outputs):
+    d = outputs.get("ee-s3-is-metricas-funil")
+    if not d:
+        return ""
+    items = [
+        ("5★ · lead quente", "30 minutos", "Dono do funil assume. Passou de 60 min: tag 'SLA estourado' e o outro sócio assume."),
+        ("4★ · qualificado", "4 horas", "Mesmo dia útil. Passou de 8h: tag 'SLA estourado'."),
+        ("3★ · morno", "Régua automática", "Nutrição com conteúdo até aparecer um motivo concreto."),
+        ("1–2★ · frio", "Resposta cordial", "Sem ocupar a agenda de vocês."),
+    ]
+    return f"""
+    <section class="slide slide--soft">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">SLA por estrela · a IA responde na hora, o humano assume em</span>
+        <h2 class="title-section">Quem responde, e em quanto tempo</h2>
+        {_cards(items, 4)}
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Com uma conta só no Kommo</div>
+          <div class="highlight-box__text">Cada um cuida do seu funil. O aviso de lead chega nos dois celulares; a cobertura é pela tag no funil.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_pipeline(client, outputs):
+    d = outputs.get("ee-s3-is-pipeline")
+    if not d:
+        return ""
+    chips = []
+    for st in d.get("pipeline_stages") or []:
+        ctrl = st.get("is_control_stage")
+        style = "border:2px solid #ffd0a8; background:rgba(255,225,180,0.2);" if ctrl else ""
+        chips.append(f'<div class="glass" style="padding:16px 12px; text-align:center; {style}"><div class="kpi__label">{st["stage_number"]}</div><div class="pattern-card__title" style="margin:6px 0 0;">{ra.esc(st["crm_status_label"])}</div>{"<div class=\'pattern-card__tag\' style=\'margin-top:8px;\'>controle</div>" if ctrl else ""}</div>')
+    return f"""
+    <section class="slide">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">Pipeline no Kommo · igual nos dois funis</span>
+        <h2 class="title-section">Nenhum lead sem próximo passo</h2>
+        <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:10px; margin-top:3vh;">{''.join(chips)}</div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Regra do pipeline</div>
+          <div class="highlight-box__text">Toda etapa tem critério objetivo pra avançar e uma tarefa com data. 'Aguardando 1º contato' é onde a gente mede o gargalo.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_reguas(client, outputs):
+    if not outputs.get("ee-s3-is-pipeline"):
+        return ""
+    items = [
+        ("imediato", "Boas-vindas", "IA responde na hora com pergunta sobre o caso. Sem resposta: 2h e 24h, depois encerra com cordialidade."),
+        ("3★ · 5 toques", "Nutrição", "Por que o banco exige matrícula, caso real, 'num processo só', documentos. Para quando surge motivo."),
+        ("48h · 24h · 72h", "Retomada", "Depois de 'vou falar com meu irmão' ou combinado não cumprido. Sem pressão, sem 'última chance'."),
+        ("90 dias", "Reativação", "Uma vez por lead a cada 12 meses: 'a situação do imóvel mudou?'"),
+    ]
+    return f"""
+    <section class="slide slide--alt">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">Réguas automáticas · todas com ponto de parada</span>
+        <h2 class="title-section">Quem parou de responder volta a ser chamado</h2>
+        {_cards(items, 4)}
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Nunca nas mensagens</div>
+          <div class="highlight-box__text">Prazo ou data de conclusão. O processo depende de cartório e prefeitura.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_metricas(client, outputs):
+    d = outputs.get("ee-s3-is-metricas-funil")
+    if not d:
+        return ""
+    kpis = [
+        ("Leads/mês", "25–30", "Meta com R$ 3.000/mês de mídia [E]"),
+        ("Custo por lead", "R$ 50–60", "Só mídia · meta estimada"),
+        ("1º contato humano", "≤ 30 min", "Lead 5★ · hoje ~3h"),
+        ("Motivos de perda", "10 fixos", "Lista fechada, revisada todo mês"),
+    ]
+    kpi_html = "".join(f"""
+          <div class="glass">
+            <div class="kpi__label">{ra.esc(a)}</div>
+            <div class="kpi__value">{ra.esc(b)}</div>
+            <div class="kpi__hint">{ra.esc(c)}</div>
+          </div>""" for a, b, c in kpis)
+    return f"""
+    <section class="slide slide--diag">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">O que vamos medir a partir do 1º lead</span>
+        <h2 class="title-section">Número real no lugar de impressão</h2>
+        <div class="row-4" style="margin-top:2.5vh;">{kpi_html}</div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Primeira leitura</div>
+          <div class="highlight-box__text">30 dias depois do 1º lead no Kommo, recalibramos pontos, estrelas e SLA com dado de verdade.</div>
+        </div>
+      </div>
+    </section>
+    """
+
+
+def build_s3_decisoes(client, outputs):
+    if not outputs.get("ee-s3-is-pipeline"):
+        return ""
+    items = [
+        "Aprovar as 5 perguntas e as faixas de estrela",
+        "Aprovar o SLA: 30 min (5★) e 4h (4★), um cobre o outro",
+        "Caso misto (averbação + inventário): funil do Carlos ou do Christian?",
+        "Corte de investimento: abaixo de R$ 400/mês não segue pros sócios?",
+        "Ligar hoje os 4 ajustes no WhatsApp atual",
+        "Chip do número novo + exportar as últimas 200–300 conversas",
+    ]
+    lis = "".join(f"<li>{ra.esc(x)}</li>" for x in items)
+    return f"""
+    <section class="slide slide--soft">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">Decisões de hoje</span>
+        <h2 class="title-section">O que precisamos fechar pra configurar o Kommo</h2>
+        <div class="glass" style="margin-top:2.5vh;"><ul class="bullets bullets--check">{lis}</ul></div>
+      </div>
+    </section>
+    """
+
+
+WEEK3_SLIDES = [
+    ("s3_ponto_partida", build_s3_ponto_partida, "ee-s4-cliente-oculto", "Ponto de partida do atendimento"),
+    ("s3_hoje", build_s3_hoje_sem_custo, "ee-s4-cliente-oculto", "O que dá pra fazer hoje, sem custo"),
+    ("s3_arquitetura", build_s3_arquitetura_kommo, "ee-s3-is-pipeline", "Como fica no Kommo"),
+    ("s3_funil", build_s3_funil_gargalo, "ee-s4-diagnostico-comercial", "Onde o lead se perde"),
+    ("s3_scoring", build_s3_scoring, "ee-s3-is-metricas-funil", "Critério de qualificação"),
+    ("s3_sla", build_s3_sla, "ee-s3-is-metricas-funil", "SLA por estrela"),
+    ("s3_pipeline", build_s3_pipeline, "ee-s3-is-pipeline", "Pipeline comercial"),
+    ("s3_reguas", build_s3_reguas, "ee-s3-is-pipeline", "Réguas automáticas"),
+    ("s3_metricas", build_s3_metricas, "ee-s3-is-metricas-funil", "O que vamos medir"),
+    ("s3_decisoes", build_s3_decisoes, "ee-s3-is-pipeline", "Decisões de hoje"),
+]
+WEEK_SLIDES = {2: None, 3: WEEK3_SLIDES}
+
+
 def main():
     if len(sys.argv) < 3:
         print("Uso: render_apresentacao_semana.py <client_dir> <semana_n>", file=sys.stderr)
@@ -401,13 +714,14 @@ def main():
     # Semana 2 é hardcoded aqui (WEEK2_SLIDES) porque os builders são escritos à mão,
     # condensados pra caber numa tela sem rolar — não são genéricos como os do plugin.
     # Pra Semana 3+, escrever o WEEK3_SLIDES equivalente quando os outputs existirem.
-    if week_n != 2:
-        print(f"Semana {week_n} ainda não tem builders condensados neste script — só Semana 2 por enquanto.", file=sys.stderr)
+    WEEK_SLIDES[2] = WEEK2_SLIDES
+    if week_n not in WEEK_SLIDES:
+        print(f"Semana {week_n} ainda não tem builders condensados neste script — só Semanas 2 e 3 por enquanto.", file=sys.stderr)
         sys.exit(1)
 
     pauta_items = []
     slides_html = []
-    for slide_id, builder, required_skill, pauta_label in WEEK2_SLIDES:
+    for slide_id, builder, required_skill, pauta_label in WEEK_SLIDES[week_n]:
         if required_skill not in outputs:
             continue
         chunk = builder(client, outputs) or ""

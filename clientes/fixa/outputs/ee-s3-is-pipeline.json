@@ -1,0 +1,427 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "O pipeline da Fixa Engenharia & Assessoria no Kommo tem 7 etapas, da Triagem IA ao Contrato assinado. As etapas 2 a 7 são iguais no funil do Carlos (engenharia) e no do Christian (assessoria). A etapa de controle é 'Aguardando 1º contato', onde fica o gargalo do diagnóstico comercial (Lead → Primeiro Contato): tem SLA de 30 min (5★) e 4h (4★) e se estourar, o card ganha a tag 'SLA estourado', visível para o outro sócio. Quatro réguas com condição de parada garantem que nenhum lead fique sem próximo passo: boas-vindas imediata, nutrição de 5 toques, retomada depois de 'vou falar com a família' e reativação em 90 dias. O script consultivo SPIN parte das dores reais da persona: comprador exigindo matrícula, tentativa frustrada no cartório, herdeiros, advogado anterior que sumiu.",
+  "summary_headline": "Todo lead com próximo passo: resposta na hora, retomada automática e os dois sócios vendo o mesmo funil.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Etapas no Kommo",
+      "value": "7",
+      "subtext": "Triagem IA + 6 etapas iguais nos funis Carlos e Christian",
+      "tone": "blue"
+    },
+    {
+      "category": "posicao",
+      "label": "Etapa de controle",
+      "value": "Aguardando 1º contato",
+      "subtext": "Gargalo do diagnóstico comercial, com SLA de 30 min (5★) / 4h (4★)",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Réguas com condição de parada",
+      "value": "4",
+      "subtext": "Boas-vindas · nutrição · retomada · reativação",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Objeções com resposta pronta",
+      "value": "7",
+      "subtext": "Herdadas do diagnóstico comercial, em versão curta",
+      "tone": "green"
+    },
+    {
+      "category": "maturidade",
+      "label": "Perguntas no banco",
+      "value": "9",
+      "subtext": "5 de scoring + 4 de descoberta",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "Hoje o lead que para de responder não é procurado de novo (16/09), e o cliente oculto de 29/09 ficou num cumprimento sem continuidade. As réguas deste pipeline existem para isso: toda etapa tem próxima ação e prazo."
+    },
+    {
+      "category": "acao",
+      "text": "Ninguém repete pergunta. O SDR IA registra no card o motivo, a cidade, os decisores, os documentos e o histórico do lead (ex.: 'já pagou advogado que sumiu'). Carlos e Christian entram na conversa já sabendo o caso."
+    },
+    {
+      "category": "acao",
+      "text": "Regra de comunicação em todas as réguas e no script: nunca prometer prazo nem data de conclusão, e tratar a parte jurídica como parte do processo, não como uma terceira especialidade. A mensagem-âncora é a da marca: 'Engenharia e direito, num processo só.'"
+    },
+    {
+      "category": "vantagem",
+      "text": "O script SPIN leva o lead a dizer por conta própria o que a Fixa resolve: a Ivete (persona) já tentou sozinha no cartório e na prefeitura e não entendeu o que pediam. A pergunta de Implicação faz aparecer o valor de ter engenharia e parte legal no mesmo processo."
+    },
+    {
+      "category": "ameaca",
+      "text": "Réguas agressivas queimam o lead de ticket alto e decisão em família. A régua de nutrição tem no máximo 5 toques em ~5 semanas, e a reativação acontece uma vez por lead a cada 12 meses."
+    }
+  ],
+  "pipeline_stages": [
+    {
+      "stage_number": 1,
+      "name": "Triagem IA",
+      "entry_criteria": "Primeira mensagem recebida no número de campanhas (funil de triagem no Kommo).",
+      "exit_criteria": "5 perguntas de scoring respondidas → 4★/5★ vai para 'Aguardando 1º contato' no funil do assunto; 3★ vai para nutrição; 1–2★ ou filtro de anti-persona → resposta cordial e Perdido (motivo da lista). Sem resposta após a régua de boas-vindas → Perdido 'Sem resposta'.",
+      "crm_status_label": "Triagem IA",
+      "is_control_stage": false
+    },
+    {
+      "stage_number": 2,
+      "name": "Aguardando 1º contato",
+      "entry_criteria": "Lead 4★/5★ encaminhado pelo SDR IA ao funil do Carlos (REURB/loteamento, regularização de casa) ou do Christian (usucapião, inventário), ou lead de indicação registrado por um sócio.",
+      "exit_criteria": "O dono do funil mandou a 1ª mensagem humana na conversa. SLA: 30 min (5★) e 4h (4★). Estourou 60 min / 8h → o card ganha a tag 'SLA estourado' e fica como tarefa atrasada no funil, visível para o outro sócio, que assume.",
+      "crm_status_label": "Aguardando 1º contato",
+      "is_control_stage": true
+    },
+    {
+      "stage_number": 3,
+      "name": "Em conversa",
+      "entry_criteria": "1ª mensagem humana enviada.",
+      "exit_criteria": "Análise do caso marcada (conversa com todos os decisores, presencial ou online) ou documentos recebidos. Sem resposta do lead em 48h → régua de retomada; sem resposta ao fim da régua → Perdido 'Sem resposta'.",
+      "crm_status_label": "Em conversa",
+      "is_control_stage": false
+    },
+    {
+      "stage_number": 4,
+      "name": "Análise do caso",
+      "entry_criteria": "Análise marcada ou documentos recebidos, com Need, Authority, Budget e Timeline confirmados (definição de SQL de ee-s3-is-metricas-funil).",
+      "exit_criteria": "Proposta com valor e forma de pagamento enviada e anexada ao card. Caso inviável → Perdido 'Caso inviável após análise'.",
+      "crm_status_label": "Análise do caso",
+      "is_control_stage": false
+    },
+    {
+      "stage_number": 5,
+      "name": "Proposta enviada",
+      "entry_criteria": "Proposta anexada ao card e data de envio registrada.",
+      "exit_criteria": "Lead respondeu à proposta (aceite, dúvida ou pedido de ajuste) → Decisão da família. Sem retorno em 48h → régua de retomada.",
+      "crm_status_label": "Proposta enviada",
+      "is_control_stage": false
+    },
+    {
+      "stage_number": 6,
+      "name": "Decisão da família",
+      "entry_criteria": "O lead respondeu à proposta e há decisão pendente (conversa com cônjuge ou herdeiros, ajuste de parcelamento).",
+      "exit_criteria": "Contrato assinado → Contrato assinado. Recusa → Perdido com motivo da lista fechada. Cada 'vou falar com X' gera tarefa de retomada com data no card.",
+      "crm_status_label": "Decisão da família",
+      "is_control_stage": false
+    },
+    {
+      "stage_number": 7,
+      "name": "Contrato assinado",
+      "entry_criteria": "Contrato assinado e entrada ou 1ª parcela registrada.",
+      "exit_criteria": "Etapa final do pipeline comercial. O processo técnico-jurídico segue fora do funil de vendas.",
+      "crm_status_label": "Contrato assinado",
+      "is_control_stage": false
+    }
+  ],
+  "welcome_cadence": {
+    "trigger": "Primeira mensagem de um contato novo no número de campanhas",
+    "max_response_time": "Imediato (SDR IA, 24h por dia). Humano: 30 min para 5★ e 4h para 4★, em horário comercial",
+    "touches": [
+      {
+        "touch_number": 1,
+        "channel": "WhatsApp (SDR IA)",
+        "timing": "T+0 (imediato)",
+        "objective": "Receber o lead, dizer quem é a Fixa e puxar o assunto do caso já na primeira resposta, para a conversa não parar no 'bom dia'",
+        "message_skeleton": "Cumprimento + nome da Fixa + a ideia de 'engenharia e a parte legal num processo só' em meia frase + pergunta aberta sobre o que a pessoa precisa resolver no imóvel (sem pedir documento nem dado pessoal ainda)."
+      },
+      {
+        "touch_number": 2,
+        "channel": "WhatsApp (SDR IA)",
+        "timing": "T+2h sem resposta",
+        "objective": "Facilitar a resposta de quem não sabe explicar o caso",
+        "message_skeleton": "Retomada curta com opções para escolher (casa sem escritura / terreno ou loteamento / usucapião / inventário / outro) e a mensagem de que pode responder com poucas palavras."
+      },
+      {
+        "touch_number": 3,
+        "channel": "WhatsApp (SDR IA)",
+        "timing": "T+24h sem resposta",
+        "objective": "Encerrar com cordialidade e deixar a porta aberta",
+        "message_skeleton": "Aviso de que a conversa fica guardada + convite para responder quando for melhor. Sem cobrar resposta. Depois disso, o lead vai para Perdido 'Sem resposta' e entra só na reativação de 90 dias."
+      },
+      {
+        "touch_number": 4,
+        "channel": "WhatsApp (Carlos ou Christian, na mesma conversa)",
+        "timing": "Após triagem 4★/5★, dentro do SLA (30 min / 4h)",
+        "objective": "Assumir o caso mostrando que já leu o que o lead contou",
+        "message_skeleton": "Nome + papel (engenheiro responsável / advogado da assessoria) + resumo em 1 linha do caso que o lead contou ao SDR IA + uma pergunta de Situação do SPIN. Nunca repetir as perguntas de triagem."
+      }
+    ]
+  },
+  "nurture_cadence": {
+    "trigger": "Lead 3★ ao fim da triagem (interesse real, sem gatilho definido ou com informação incompleta)",
+    "touch_count_range": "5 toques em ~5 semanas",
+    "touches": [
+      {
+        "touch_number": 1,
+        "timing": "D+2",
+        "channel": "WhatsApp (automação Kommo)",
+        "objective": "Explicar por que banco e comprador exigem matrícula",
+        "message_skeleton": "Conteúdo curto e didático ligado ao caso que o lead contou (ex.: o que é averbação, por que o financiamento trava sem matrícula) + convite aberto para dúvidas."
+      },
+      {
+        "touch_number": 2,
+        "timing": "D+7",
+        "channel": "WhatsApp (automação Kommo)",
+        "objective": "Prova real",
+        "message_skeleton": "Caso concluído pela Fixa, parecido com o do lead, com o antes e o depois (situação do imóvel → matrícula regularizada). Sem citar prazo e sem expor dado do cliente sem autorização."
+      },
+      {
+        "touch_number": 3,
+        "timing": "D+14",
+        "channel": "WhatsApp (automação Kommo)",
+        "objective": "Diferencial da marca",
+        "message_skeleton": "'Engenharia e direito, num processo só': por que resolver medição, planta e parte legal no mesmo lugar evita ir de um prestador para o outro (dor da Ivete, que tentou sozinha no cartório e na prefeitura)."
+      },
+      {
+        "touch_number": 4,
+        "timing": "D+21",
+        "channel": "WhatsApp (automação Kommo)",
+        "objective": "Derrubar a objeção de documentação",
+        "message_skeleton": "Documentação incompleta é comum: o histórico pode ser reconstituído por cartório, prefeitura e levantamento técnico. Convite para contar que documentos tem."
+      },
+      {
+        "touch_number": 5,
+        "timing": "D+35",
+        "channel": "WhatsApp (SDR IA)",
+        "objective": "Refazer a nota do lead",
+        "message_skeleton": "Pergunta direta e leve sobre se o plano para o imóvel mudou (venda, financiamento, herança). Se aparecer um gatilho, o SDR IA refaz as perguntas de motivo e data e, com score ≥ 7, encaminha ao funil do assunto."
+      }
+    ],
+    "stop_condition": "Para quando o lead responde com gatilho (refaz a nota e sai da régua), pede para não receber mais mensagens (Perdido 'Outro', com a observação 'pediu para parar') ou completa os 5 toques sem resposta (vai para reativação em 90 dias)."
+  },
+  "no_show_cadence": {
+    "trigger": "Lead combinou um próximo passo concreto (análise do caso, envio de documentos, retorno após conversar com a família, resposta à proposta) e não compareceu ou não respondeu na data combinada. Para 'vou falar com meu irmão/esposa', a data combinada é 48h depois, se nenhuma outra foi marcada.",
+    "touches": [
+      {
+        "touch_number": 1,
+        "timing": "T+0 (30 min após o horário combinado, ou no dia combinado)",
+        "channel": "WhatsApp (dono do funil, na mesma conversa)",
+        "objective": "Retomar sem cobrar",
+        "message_skeleton": "Lembrar o combinado sem tom de cobrança + oferecer remarcar (inclusive online, para quem tem familiar em outra cidade)."
+      },
+      {
+        "touch_number": 2,
+        "timing": "T+24h",
+        "channel": "WhatsApp (automação Kommo em nome do dono do funil)",
+        "objective": "Tirar o obstáculo",
+        "message_skeleton": "Pergunta sobre o que ficou pendente (conversa com a família, documentos, dúvida sobre valor) + disponibilidade para uma conversa com todos os decisores juntos."
+      },
+      {
+        "touch_number": 3,
+        "timing": "T+72h",
+        "channel": "WhatsApp (automação Kommo em nome do dono do funil)",
+        "objective": "Último toque ativo",
+        "message_skeleton": "Aviso de que o caso fica guardado + convite para retomar quando fizer sentido. Sem pressão de prazo e sem 'última chance'."
+      }
+    ],
+    "stop_condition": "Para quando o lead responde (volta para a etapa em que estava) ou após o T+72h sem resposta: vai para Perdido 'Sem resposta' e entra na reativação de 90 dias."
+  },
+  "reactivation_cadence": {
+    "trigger": "90 dias após a última interação, para leads perdidos por 'Sem resposta', 'Desistiu do objetivo' ou 'Família/decisor não aprovou', e 3★ que terminaram a nutrição sem resposta. Não se aplica a 'Fora da área', 'Fora do escopo', 'Fechou com outro profissional' nem a quem pediu para parar.",
+    "timing_window": "D+90 após a última interação, com no máximo 1 ciclo por lead a cada 12 meses",
+    "touches": [
+      {
+        "touch_number": 1,
+        "timing": "D+90",
+        "channel": "WhatsApp (SDR IA)",
+        "objective": "Verificar se a situação do imóvel mudou",
+        "message_skeleton": "Lembrar em 1 linha o caso que o lead contou + perguntar se a situação mudou (venda, financiamento, inventário). Se aparecer um gatilho, volta para a Triagem IA com nova nota."
+      },
+      {
+        "touch_number": 2,
+        "timing": "D+97",
+        "channel": "WhatsApp (automação Kommo)",
+        "objective": "Deixar valor e encerrar",
+        "message_skeleton": "Um conteúdo útil ligado ao caso (ex.: o que mudou nas exigências de cartório) + aviso de que a Fixa está à disposição. Fim do ciclo."
+      }
+    ],
+    "stop_condition": "Para quando o lead responde (volta para a Triagem IA), pede para parar ou não responde aos 2 toques. Nesse último caso não há novo ciclo por 12 meses."
+  },
+  "consultative_script": {
+    "situation": {
+      "objective": "Entender o imóvel, a família e o que já foi tentado, sem repetir o que o SDR IA já registrou",
+      "example_questions": [
+        "Vi que o imóvel era dos seus pais, em [cidade]. Quem mora nele hoje?",
+        "Além do contrato de compra, você lembra se a construção chegou a ser averbada ou se tem alguma planta aprovada?",
+        "Quem mais da família é herdeiro ou dono junto com você?",
+        "Você já chegou a ir ao cartório ou à prefeitura para ver isso?"
+      ]
+    },
+    "problem": {
+      "objective": "Fazer aparecer a dor real: o imóvel não pode ser vendido ou financiado, a pessoa já tentou sozinha e não entendeu o que pediam, já teve experiência ruim com outro profissional",
+      "example_questions": [
+        "O que te pediram quando você tentou resolver no cartório?",
+        "O comprador ou o banco já disse o que precisa para seguir?",
+        "Vocês já contrataram alguém antes para isso? Como foi?",
+        "O que mais te preocupa hoje nessa situação?"
+      ]
+    },
+    "implication": {
+      "objective": "Mostrar o custo de deixar como está: comprador desiste, os filhos herdam o problema, a pessoa fica entre dois prestadores (engenheiro e advogado) sem ninguém coordenando",
+      "example_questions": [
+        "Se o comprador não conseguir o financiamento, o que acontece com o plano de vocês?",
+        "Se isso ficar para os filhos resolverem depois, como você imagina que eles fariam?",
+        "Quando você tentou sozinha, quanto tempo e quantas idas ao cartório e à prefeitura isso te custou?",
+        "Se fosse preciso contratar engenheiro de um lado e advogado de outro, quem ia coordenar os dois?"
+      ]
+    },
+    "need_payoff": {
+      "objective": "Levar o lead a dizer o valor de resolver tudo num processo só, com quem já tem relação com cartório e prefeitura, para vender, financiar ou deixar a casa resolvida para os filhos",
+      "example_questions": [
+        "Se a parte técnica e a parte legal fossem resolvidas juntas, num processo só, o que mudaria pra você?",
+        "O que te deixaria tranquila para seguir: entender cada etapa do caso ou saber quem acompanha junto ao cartório?",
+        "Com a matrícula em mãos, o que você faria primeiro: fechar a venda ou organizar a partilha?",
+        "Faz sentido a gente marcar uma conversa com você e seu irmão juntos para olhar o caso?"
+      ]
+    },
+    "usage_note": "É um esqueleto de raciocínio, não um texto para ler. Carlos e Christian adaptam ao jeito deles e ao que o lead já contou ao SDR IA. Nunca prometer prazo ou data de conclusão; se perguntarem 'quanto tempo leva', explicar as etapas do caso e o que depende de cartório e prefeitura."
+  },
+  "qualification_question_bank": [
+    {
+      "question": "O que te fez procurar a regularização agora?",
+      "purpose": "Motivo concreto (venda/financiamento/inventário). É o sinal de maior peso e o único que leva a 5★",
+      "pipeline_stage": "Triagem IA",
+      "source": "scoring_table de ee-s3-is-metricas-funil"
+    },
+    {
+      "question": "Tem alguma data ou alguém esperando isso ser resolvido (comprador, banco, cartório)?",
+      "purpose": "Timeline: separa urgência real de intenção vaga",
+      "pipeline_stage": "Triagem IA",
+      "source": "scoring_table de ee-s3-is-metricas-funil"
+    },
+    {
+      "question": "Em qual cidade fica o imóvel (ou o loteamento)?",
+      "purpose": "Área de atuação (RS e primeira metade de SC)",
+      "pipeline_stage": "Triagem IA",
+      "source": "scoring_table de ee-s3-is-metricas-funil"
+    },
+    {
+      "question": "O imóvel é seu ou da família? Quem mais participa da decisão?",
+      "purpose": "Authority: identifica cônjuge ou herdeiros cedo",
+      "pipeline_stage": "Triagem IA",
+      "source": "scoring_table de ee-s3-is-metricas-funil"
+    },
+    {
+      "question": "A regularização parte de R$ 5 mil (casa) e dá pra parcelar. Faz sentido pra você seguir com a análise do caso?",
+      "purpose": "Budget: confirma a capacidade de investimento sem negociar no WhatsApp",
+      "pipeline_stage": "Triagem IA",
+      "source": "scoring_table de ee-s3-is-metricas-funil"
+    },
+    {
+      "question": "O que você já tentou fazer para resolver, e com quem?",
+      "purpose": "Mostra a experiência anterior (cartório, prefeitura, advogado que sumiu) e onde está a desconfiança, para o humano tratar logo de início",
+      "pipeline_stage": "Em conversa",
+      "source": "objection_library de ee-s1-persona-icp + cliente oculto (persona Cláudia)"
+    },
+    {
+      "question": "Que documentos você tem hoje do imóvel (contrato, IPTU, certidões, planta)?",
+      "purpose": "Dimensiona o trabalho técnico e jurídico para a proposta. Documentação incompleta não desqualifica",
+      "pipeline_stage": "Em conversa",
+      "source": "objection_map de ee-s4-diagnostico-comercial"
+    },
+    {
+      "question": "Se isso não for resolvido agora, o que acontece com a venda ou com a família?",
+      "purpose": "Implicação: dá peso ao valor na proposta sem precisar negociar preço",
+      "pipeline_stage": "Análise do caso",
+      "source": "buyer_journey de ee-s1-persona-icp"
+    },
+    {
+      "question": "Quem da família deve receber as atualizações do processo?",
+      "purpose": "Traz os decisores distantes (ex.: irmão em outra cidade) para dentro antes da proposta e reduz o 'vou falar com meu irmão'",
+      "pipeline_stage": "Análise do caso",
+      "source": "objection_map de ee-s4-diagnostico-comercial (objeção de autoridade)"
+    }
+  ],
+  "objection_playbook": [
+    {
+      "objection": "Isso não vai ficar muito caro?",
+      "pipeline_stage": "Proposta enviada",
+      "response_options": [
+        "Antes do valor, lembrar o que custa não regularizar: sem matrícula não dá pra vender nem financiar, e resolver depois costuma sair mais caro para a família.",
+        "Mostrar o valor do caso específico e o parcelamento, relacionando ao objetivo do lead (vender, financiar, herança)."
+      ]
+    },
+    {
+      "objection": "Isso demora muito? Tenho medo do comprador desistir.",
+      "pipeline_stage": "Em conversa",
+      "response_options": [
+        "Explicar as etapas do caso e o que depende de cartório e prefeitura, sem prometer data. A segurança vem de saber em que etapa o processo está.",
+        "Registrar a urgência (comprador financiando) e priorizar a análise do caso."
+      ]
+    },
+    {
+      "objection": "Não tenho todos os documentos, uns papéis sumiram.",
+      "pipeline_stage": "Em conversa",
+      "response_options": [
+        "É mais comum do que parece: o histórico do imóvel muitas vezes é reconstituído por cartório, prefeitura e levantamento técnico. Vale olhar o caso antes de dizer que não dá."
+      ]
+    },
+    {
+      "objection": "Já paguei um advogado e ele sumiu. Como sei que com vocês vai ser diferente?",
+      "pipeline_stage": "Análise do caso",
+      "response_options": [
+        "Acolher sem criticar o outro profissional e mostrar como a Fixa conduz: engenharia e a parte legal no mesmo processo, relação direta com cartório e prefeitura, cada etapa acompanhada.",
+        "Mostrar um caso concluído parecido, sem prometer prazo."
+      ]
+    },
+    {
+      "objection": "Preciso conversar com meu irmão / minha esposa antes.",
+      "pipeline_stage": "Decisão da família",
+      "response_options": [
+        "Oferecer uma conversa com todos os decisores juntos (pode ser online para quem mora longe).",
+        "Combinar uma data de retorno e criar a tarefa no card (dispara a régua de retomada em 48h se não houver data)."
+      ]
+    },
+    {
+      "objection": "Não sei se preciso disso agora.",
+      "pipeline_stage": "Triagem IA",
+      "response_options": [
+        "Perguntar o plano para o imóvel (vender, deixar para os filhos). Sem gatilho, o lead vai para a nutrição, sem insistir."
+      ]
+    },
+    {
+      "objection": "Isso é com advogado ou com engenheiro? Vou ter que contratar os dois?",
+      "pipeline_stage": "Triagem IA",
+      "response_options": [
+        "Não precisa: na Fixa a parte técnica e a parte legal são resolvidas juntas, num processo só."
+      ]
+    }
+  ],
+  "risks_and_countermeasures": [
+    {
+      "risk": "Pipeline sem critério: lead parado em 'Em conversa' sem próxima ação",
+      "countermeasure": "Toda etapa exige tarefa com data no Kommo. Card sem tarefa aparece como pendência para o dono do funil, e a etapa de controle marca o card com a tag 'SLA estourado' quando o prazo passa. Os dois sócios acompanham essa tag, porque a conta é única."
+    },
+    {
+      "risk": "Régua agressiva queimando lead de ticket alto e decisão em família",
+      "countermeasure": "Nutrição com no máximo 5 toques em ~5 semanas, retomada com 3 toques, reativação 1 vez a cada 12 meses. Quem pede para parar sai de todas as réguas."
+    },
+    {
+      "risk": "Script lido ao pé da letra e soando robótico, contra o tom técnico e didático da marca",
+      "countermeasure": "Os toques são esqueletos. O humano personaliza com o que o lead contou, e o SDR IA é treinado com as conversas reais do Carlos."
+    },
+    {
+      "risk": "Mensagens automáticas bloqueadas fora da janela de 24h do WhatsApp",
+      "countermeasure": "No setup do Kommo (ee-s3-crm-setup), confirmar o tipo de integração do número de campanhas. Se for API oficial, os toques de nutrição, retomada e reativação precisam de template aprovado pela Meta."
+    },
+    {
+      "risk": "Prometer prazo em alguma régua ou resposta",
+      "countermeasure": "Regra fixa em todos os esqueletos e no prompt do SDR IA: nunca informar prazo nem data de conclusão."
+    },
+    {
+      "risk": "Conta única do Kommo: aviso de lead novo chega aos dois celulares, e não há alerta individual nem registro de quem fez o quê",
+      "countermeasure": "Organizar tudo por funil: cada sócio age só no próprio funil, a escalação usa a tag 'SLA estourado' e a assinatura de cada um vai na mensagem ('Aqui é o Carlos…'). Um 2º usuário (R$ 194/mês) só se o volume pedir."
+    },
+    {
+      "risk": "Passar dos 2.250 créditos de IA/mês do agente de triagem",
+      "countermeasure": "Medir o consumo no 1º mês e enxugar o fluxo do agente antes de comprar créditos extras."
+    }
+  ],
+  "completed_at": "2026-09-30T13:30:00Z"
+}

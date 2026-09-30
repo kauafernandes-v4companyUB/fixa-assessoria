@@ -1,0 +1,155 @@
+{
+  "summary": "O cliente oculto da Fixa Engenharia & Assessoria (29/09, WhatsApp da bio do Instagram) rendeu um único dado útil: um contato que chega com um 'bom dia' recebe a resposta cerca de 3h depois e a conversa não segue, porque ninguém pergunta como pode ajudar e ninguém retoma depois. Nenhuma pergunta do roteiro chegou a ser testada, então não damos nota. O que fica é uma lista curta do que muda a partir de hoje: quatro ajustes sem custo no WhatsApp Business atual e a estrutura que a V4 já vai implementar com o Kommo e o SDR IA (resposta imediata, triagem, aviso de lead novo no celular do Carlos e régua de follow-up).",
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary_headline": "Hoje o primeiro contato espera e ninguém retoma. Tem ajuste que dá pra fazer já, e o Kommo + SDR IA assumem essa parte.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "1ª resposta",
+      "value": "~3h",
+      "subtext": "'Bom dia' às 08:53 de 29/09, resposta no fim da manhã",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "Pergunta sobre o caso",
+      "value": "Nenhuma",
+      "subtext": "A conversa ficou na troca de cumprimentos",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "Follow-up",
+      "value": "Nenhum",
+      "subtext": "Ninguém retomou o contato depois",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ajustes sem custo pra hoje",
+      "value": "4",
+      "subtext": "Recursos gratuitos do WhatsApp Business",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Resposta com SDR IA",
+      "value": "Imediata",
+      "subtext": "No número novo, dentro do Kommo",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "O WhatsApp da bio é o mesmo número por onde passam clientes ativos, cartório, fornecedores e assuntos pessoais, e quem responde é o Carlos, que quase nunca está no escritório. Um 'bom dia' de número desconhecido se perde no meio disso. O problema é de estrutura, não de vontade de atender."
+    },
+    {
+      "category": "acao",
+      "text": "Hoje, sem custo, no WhatsApp Business atual: (1) mensagem de saudação automática que já pergunta sobre o caso ('Olá! Aqui é a Fixa Engenharia & Assessoria. Me conta: é sobre regularização de casa, terreno, usucapião ou inventário?'); (2) mensagem de ausência fora do horário, dizendo quando o contato vai ser respondido; (3) respostas rápidas com 3 perguntas de triagem (o que precisa regularizar, em que cidade fica o imóvel, que documentos já tem); (4) etiquetas 'Lead novo' e 'Aguardando retorno' para separar quem chegou agora das demais conversas."
+    },
+    {
+      "category": "acao",
+      "text": "O que a V4 já vai implementar: número novo de WhatsApp Business recebendo as campanhas pela landing page, atendido dentro do Kommo; SDR IA (agente de IA do próprio Kommo, já incluído no plano) respondendo na hora e fazendo a triagem por assunto; aviso de lead novo no celular do Carlos; régua de follow-up automática para quem parou de responder; dois funis (Carlos na engenharia, Christian na assessoria) com SLA em que um cobre o outro."
+    },
+    {
+      "category": "vantagem",
+      "text": "O número está ativo e o contato foi respondido no mesmo dia, com cordialidade. O Kommo Pro já está contratado. A base para ligar a estrutura nova já existe."
+    }
+  ],
+  "buyer_profile": {
+    "name": "Cláudia, 58 anos, secretária escolar em Caxias do Sul",
+    "situation": "Casa dos pais, que já faleceram (pai há 4 anos, mãe há 1). O pai construiu nos anos 80. Só existe o contrato de compra do terreno: a construção nunca foi averbada e o inventário nunca foi aberto. Ela e o irmão, que mora em São Paulo, querem vender.",
+    "urgency": "medium",
+    "urgency_reason": "Um vizinho quer comprar, mas vai financiar, e o banco exige matrícula regularizada.",
+    "budget": "Não fala primeiro. Se perguntarem: 'dá pra dividir com meu irmão, mas não temos muito, e já perdi 3 mil'.",
+    "main_objection": "Confiança: no ano passado pagou R$ 3 mil de entrada a um advogado que não fez nada e sumiu. Também pesam preço, tempo, documentação incompleta e o irmão distante.",
+    "knowledge_level": "low"
+  },
+  "simulation_script": {
+    "opening_message": "Boa tarde, vi o instagram de vcs / Tenho uma casa dos meus pais que eles já faleceram, não tem escritura, e a gente quer vender. Vcs trabalham com isso?",
+    "followup_30min": "Oi, conseguem me ajudar?",
+    "followup_2h": "Oi?",
+    "questions": [
+      {
+        "question": "Mas isso é coisa de advogado ou de engenheiro? Vou ter que contratar os dois?",
+        "objective": "Conhecimento do serviço: o diferencial de engenharia e jurídico no mesmo escritório aparece?"
+      },
+      {
+        "question": "Eu só tenho o contrato do terreno e uns IPTU, uns papel do meu pai sumiram. Dá pra fazer mesmo assim?",
+        "objective": "Documentação incompleta: explicação do processo numa linguagem que uma leiga entende"
+      },
+      {
+        "question": "E mais ou menos quanto fica tudo isso?",
+        "objective": "Objeção de preço"
+      },
+      {
+        "question": "Ele tá com um pé atrás porque ano passado a gente pagou 3 mil pra um advogado e ele sumiu. Como a gente sabe que com vcs vai ser diferente?",
+        "objective": "Confiança: prova social e explicação do processo"
+      },
+      {
+        "question": "Tá, vou conversar com meu irmão hoje de noite e te falo",
+        "objective": "Follow-up: a Fixa retoma sozinha no dia seguinte?"
+      }
+    ],
+    "buyer_behavior_rules": [
+      "Número limpo, sem foto e sem nome real; origem sempre 'vi o Instagram de vcs'",
+      "Só texto: não atende ligação e não aceita reunião presencial antes de entender melhor",
+      "Responde só o que for perguntado, uma pergunta por mensagem",
+      "Nunca revela que é teste"
+    ]
+  },
+  "simulation_metadata": {
+    "date": "2026-09-29",
+    "channel": "WhatsApp da bio do Instagram (+55 54 99971-9141)",
+    "attendant_name": "não se identificou",
+    "conversation_transcript": "29/09 08:53 · Cliente oculto: Bom dia, tudo bem ?\n29/09 ~11:50 (cerca de 3h depois) · Fixa: Bom dia, tudo bem e voce?\nDepois disso não houve mais mensagens: nenhuma pergunta sobre o caso, nenhuma apresentação e nenhum follow-up."
+  },
+  "evaluation": {
+    "overall_score": null,
+    "unavailable_reason": "Sem nota: o contato ficou no cumprimento e nenhuma dimensão do roteiro foi testada. Leitura indicativa, sem avaliação do atendimento.",
+    "strengths": [
+      "O número da bio está ativo e o contato foi respondido no mesmo dia, com cordialidade ('Bom dia, tudo bem e voce?')."
+    ],
+    "critical_improvements": [
+      "Responder na hora: a saudação automática entra hoje e o SDR IA assume no número novo",
+      "Sempre puxar o assunto: a primeira resposta já pergunta sobre o caso, em vez de só devolver o cumprimento",
+      "Retomar quem parou: etiqueta 'Aguardando retorno' hoje e régua de follow-up automática no Kommo"
+    ],
+    "sdr_impact_per_improvement": [
+      {
+        "improvement": "Primeira resposta levou cerca de 3h",
+        "sdr_solution": "O SDR IA responde na hora, 24h por dia, no número novo dentro do Kommo. Até ele entrar, a saudação automática do WhatsApp Business cobre esse intervalo.",
+        "estimated_impact": "Resposta imediata"
+      },
+      {
+        "improvement": "A conversa não saiu do cumprimento",
+        "sdr_solution": "O SDR IA abre com uma pergunta de triagem por assunto (regularização de casa, REURB/loteamento, usucapião, inventário) e encaminha o lead para o funil do Carlos ou do Christian.",
+        "estimated_impact": "Todo lead sai da 1ª conversa com o assunto identificado"
+      },
+      {
+        "improvement": "Ninguém retomou o contato",
+        "sdr_solution": "Régua de follow-up automática no Kommo para quem parou de responder, com aviso de lead novo no celular do Carlos e SLA entre Carlos e Christian.",
+        "estimated_impact": "Nenhum lead fica sem retomada"
+      }
+    ],
+    "overall_sdr_impact": {
+      "response_time_before": "~3h (1 contato, 29/09)",
+      "response_time_after": "Imediata (SDR IA)"
+    }
+  },
+  "key_insight": {
+    "headline": "O atendimento de hoje não tem estrutura para lead novo, e é isso que o Kommo + SDR IA vão tirar do colo do Carlos.",
+    "context": "Um único número para tudo, respondido pelo Carlos entre obras, cartório e prefeitura. Um lead que chega com 'bom dia' não se diferencia de um fornecedor. O teste mostrou a consequência (resposta tardia, sem pergunta, sem retomada) e não um problema de atendimento das pessoas.",
+    "numbered_reasons": [
+      "(1) Quatro ajustes sem custo no WhatsApp Business atual já mudam a primeira impressão a partir de hoje",
+      "(2) O número novo dentro do Kommo separa lead de todo o resto",
+      "(3) O SDR IA responde, faz a triagem e passa o lead para o funil certo; o Carlos e o Christian entram só com lead qualificado"
+    ],
+    "discussion_anchor": "Ligamos os 4 ajustes no WhatsApp atual ainda hoje, enquanto o número novo e o Kommo são configurados?",
+    "feasibility": "alta — os ajustes de hoje usam recursos gratuitos do WhatsApp Business e o Kommo Pro já está contratado."
+  },
+  "honesty_alert": "Leitura indicativa, não medição do atendimento. Houve um único contato, que enviou só 'Bom dia, tudo bem ?', sem os Blocos 1 a 3 do roteiro. Por isso não foram testados conhecimento do serviço, objeção de preço, confiança, CTA nem o diferencial de engenharia + jurídico. Não há nota de 0 a 10: com esse material ela seria injusta. O horário da resposta (~11:50) é aproximado a partir do relato do operador ('3 horas depois'). Tom definido pelo operador: nunca apresentar como avaliação do atendimento do Carlos. O resultado entra como 'é isso que o SDR IA vai tirar do seu colo'. SDR IA = agente de IA do próprio Kommo, incluído no plano Pro (até 50 agentes, 2.250 créditos de IA/mês no usuário único), sem ferramenta externa paga.",
+  "operator_direction": "Resultado sem material suficiente para análise por critério. Na reunião de 30/09 o tom é: ações de baixo custo para fazer hoje + o que a V4 já vai implementar com Assessoria e Kommo CRM. Sem nota e sem crítica ao atendimento.",
+  "completed_at": "2026-09-30T12:15:00Z"
+}

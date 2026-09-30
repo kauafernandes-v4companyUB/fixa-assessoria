@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-09-23 18:10 UTC · Ciclo atual: Semana 3 · Cliente: `fixa`*
+*Gerado em 2026-09-30 14:58 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -418,12 +418,110 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 
 ## 12. Diagnóstico Comercial & Funil
 
-*Skill `ee-s4-diagnostico-comercial` ainda não executada.*
+> **A Fixa fecha bem quem já chega precisando. O que vamos montar é o caminho para o lead novo não se perder antes da conversa.**
+
+Na Fixa Engenharia & Assessoria o comercial funciona bem quando o cliente chega por indicação e já com o problema na mão. O que falta é estrutura para o lead que chega sem conhecer ninguém: não há contagem de leads, a primeira resposta depende da agenda do Carlos e quem para de responder não é procurado de novo. O gargalo a atacar primeiro é Lead → Primeiro Contato. O plano começa hoje com ajustes sem custo no WhatsApp Business e segue com o que a V4 implementa: número novo no Kommo, SDR IA fazendo a triagem por assunto, dois funis (Carlos e Christian), critério 5★ = necessidade concreta + imóvel na área de atuação + decisor na conversa + investimento compatível com o ticket, e SLA de 30 min para 5★ com cobertura entre os sócios.
+
+### Diagnóstico detalhado por etapa
+
+| Etapa | Atual | Benchmark | Gap | Status | Impacto Mensal |
+|---|---|---|---|---|---|
+| Lead → Primeiro Contato | — | 65% | — | — | — |
+| Primeiro Contato → Qualificação (diagnóstico do caso) | — | 45% | — | — | — |
+| Qualificação → Proposta | — | 57% | — | — | — |
+| Proposta → Fechamento | — | 30% | — | — | — |
+
+### Critérios de Qualificação (1–5★) — validados pela cliente
+
+**⭐⭐⭐⭐⭐ 5★ — Qualificado pleno**
+- Perfil: Proprietário ou herdeiro com problema concreto e decisão em andamento: precisa vender, financiar ou inventariar, e o imóvel está na área de atuação.
+- Ação: Card cai no funil do assunto (Carlos: REURB/loteamento e regularização de casa; Christian: usucapião e inventário) com aviso de lead novo no app do Kommo. Os dois celulares recebem, porque a conta é única; quem age é o dono do funil. Contato humano em até 30 min.
+- Exemplo canônico: *"Herdeira em Caxias do Sul com casa dos pais sem averbação e inventário não aberto. Tem comprador que vai financiar, o irmão concorda com a venda e ela sabe que o serviço é pago."*
+
+**⭐⭐⭐⭐ 4★ — Qualificado em construção**
+- Perfil: Tem o problema e está na área, mas falta um sinal: decisor ausente, orçamento ainda não conversado ou gatilho sem data.
+- Ação: Encaminhar para o funil do responsável. Contato humano em até 4h, no mesmo dia útil.
+- Exemplo canônico: *"Proprietário em Farroupilha quer regularizar a casa para vender no ano que vem. Ainda não falou em valor, mas é o dono e o imóvel está na área."*
+
+**⭐⭐⭐ 3★ — Morno**
+- Perfil: Interesse real, sem gatilho definido ou com informação incompleta.
+- Ação: Régua de nutrição automática no Kommo em até 24h. O SDR IA retoma em 7 dias perguntando se o plano mudou.
+- Exemplo canônico: *"Filho pesquisando para a mãe, que tem terreno com contrato de gaveta na Serra. Ainda sem plano de venda e a mãe não está na conversa."*
+
+**⭐⭐ / ⭐ — Anti-persona / Frio**
+- Perfil: Curioso sem imóvel ou sem problema, fora da área ou buscando serviço que a Fixa não faz.
+- Ação: Resposta cordial pelo SDR IA. Nutrição passiva quando fizer sentido, sem encaminhar para os sócios.
+- Exemplo canônico: *"'Quanto custa uma escritura?', sem imóvel definido e sem responder às perguntas de triagem."*
+
+### SLA por estrela
+
+- **5★:** 30 min · responsável: Dono do funil do assunto (Carlos ou Christian), pelo Kommo no celular com aviso de lead novo
+- **4★:** 4 h · responsável: Dono do funil do assunto (Carlos ou Christian)
+- **3★:** 24 h
+- Escalação: 5★ 60 min / 4★ 8 h — O outro sócio: Carlos cobre o Christian e o Christian cobre o Carlos. Com a conta única do Kommo, a cobertura é por funil: a automação marca o card com a tag 'SLA estourado' e cria uma tarefa atrasada, que os dois veem.
+
+### Top objeções mapeadas
+
+**Isso não vai ficar muito caro?** _(tipo: None)_
+- *Resposta recomendada:* Antes do valor, mostre o que custa não regularizar: sem matrícula não dá pra vender nem financiar, e os herdeiros vão ter um processo mais caro depois. Depois apresente o valor do caso específico e a forma de pagamento (a Fixa já trabalha com parcelamento).
+- *Prevenção pelo SDR IA:* Não passar preço antes de entender o caso. Perguntar o objetivo (vender, financiar, herança) para que o valor chegue já ligado ao problema que ele resolve. Se perguntarem cedo, informar a faixa 'a partir de' do serviço identificado e dizer que o valor exato sai depois da análise do caso.
+
+**Isso demora muito? Tenho medo do comprador desistir.** _(tipo: None)_
+- *Resposta recomendada:* Explique as etapas do caso e o que depende da Fixa e o que depende de cartório e prefeitura. Não prometa data. A segurança vem de saber em que etapa o processo está.
+- *Prevenção pelo SDR IA:* Nunca informar prazo nem data de conclusão. Registrar a urgência (ex.: comprador financiando) como sinal de qualificação e passar para o humano com essa informação.
+
+**Não tenho todos os documentos, uns papéis sumiram.** _(tipo: None)_
+- *Resposta recomendada:* É mais comum do que parece. Muitas vezes o histórico do imóvel é reconstituído por cartório, prefeitura e levantamento técnico. Antes de dizer que não dá, vale analisar o caso.
+- *Prevenção pelo SDR IA:* Perguntar quais documentos existem (contrato, IPTU, certidões) sem tratar a falta como impedimento. Documentação incompleta não desqualifica o lead.
+
+### Plano de ação
+
+| # | Ação | Responsável | Prazo | Impacto Esperado |
+|---|---|---|---|---|
+| 1 | Ligar hoje, no WhatsApp Business atual: saudação automática com pergunta sobre o caso, mensagem de ausência, 3 respostas rápidas de triagem e etiquetas 'Lead novo' / 'Aguardando retorno' | Carlos, com os textos prontos enviados pela V4 (Kauã) | Hoje (30/09) | Primeira impressão diferente desde já, sem custo e sem esperar o Kommo |
+| 2 | Aprovar na reunião os critérios 1-5★, o roteamento por assunto (Carlos/Christian), a regra de indicação direto para o humano e o SLA | Carlos e Christian, com a V4 | Reunião de 30/09 | O SDR IA qualifica com o critério dos sócios, não com um critério genérico |
+| 3 | Colocar o número novo no Kommo com funil de triagem + funil do Carlos + funil do Christian, avisos de lead novo no celular dos dois e régua de retomada (48h após 'vou pensar / vou falar com X') | V4 (Kauã / Luciano); chip do número novo com o Carlos | Semana 4, antes de subir a campanha | Nenhum lead sem retomada |
+| 4 | Treinar o SDR IA com as conversas reais do Carlos (exportar as últimas 200 a 300 do WhatsApp) e com este mapa de objeções, respeitando as regras de comunicação (sem prometer prazo; jurídico como parte do processo) | V4 (scripts SDR + configuração), exportação pelo Carlos | Semana 4 | Triagem imediata no tom da Fixa; curioso filtrado antes de chegar aos sócios |
+| 5 | Medir a linha de base desde o 1º lead: leads/mês, taxa de contato, taxa de qualificação, propostas e fechamentos por funil | V4 (leitura mensal com Carlos e Christian) | Contínuo a partir do 1º lead no Kommo; primeira leitura em 30 dias | Base para calibrar mídia, SLA e forecast com número real |
+
+### Gargalo primário
+
+**Etapa:** Lead → Primeiro Contato (+ retomada de quem parou de responder)
+
+O lead novo chega a um número compartilhado, espera a disponibilidade do Carlos e, se não responde de volta, não é procurado de novo. É o ponto que decide se os R$ 3.000/mês de mídia viram conversa ou se perdem.
+
+**Impacto estimado da correção:** Resposta imediata com o SDR IA e 100% dos leads com retomada automática. O efeito em R$ só pode ser calculado depois de 30 a 60 dias de linha de base no Kommo; hoje não há volume nem taxa medidos para projetar.
+
 
 
 ## 13. Cliente Oculto — Avaliação do Atendimento
 
-*Skill `ee-s4-cliente-oculto` ainda não executada.*
+> **Hoje o primeiro contato espera e ninguém retoma. Tem ajuste que dá pra fazer já, e o Kommo + SDR IA assumem essa parte.**
+
+O cliente oculto da Fixa Engenharia & Assessoria (29/09, WhatsApp da bio do Instagram) rendeu um único dado útil: um contato que chega com um 'bom dia' recebe a resposta cerca de 3h depois e a conversa não segue, porque ninguém pergunta como pode ajudar e ninguém retoma depois. Nenhuma pergunta do roteiro chegou a ser testada, então não damos nota. O que fica é uma lista curta do que muda a partir de hoje: quatro ajustes sem custo no WhatsApp Business atual e a estrutura que a V4 já vai implementar com o Kommo e o SDR IA (resposta imediata, triagem, aviso de lead novo no celular do Carlos e régua de follow-up).
+
+### Avaliação geral
+
+- **Nota:** None/10
+- **Classificação:** —
+
+### Pontos fortes
+- O número da bio está ativo e o contato foi respondido no mesmo dia, com cordialidade ('Bom dia, tudo bem e voce?').
+
+### Melhorias críticas identificadas
+- Responder na hora: a saudação automática entra hoje e o SDR IA assume no número novo
+- Sempre puxar o assunto: a primeira resposta já pergunta sobre o caso, em vez de só devolver o cumprimento
+- Retomar quem parou: etiqueta 'Aguardando retorno' hoje e régua de follow-up automática no Kommo
+
+### Impacto projetado pelo SDR IA
+
+- Tempo de resposta antes: **~3h (1 contato, 29/09)** → depois: **Imediata (SDR IA)**
+- Taxa Lead→Contato: **—%** → **—%**
+
+### Perfil simulado
+- Nome: Cláudia, 58 anos, secretária escolar em Caxias do Sul · Pet: — · Cidade: —
+- Urgência: medium
+
 
 
 ## 14. Roadmap de Evolução
@@ -438,18 +536,22 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 - ✅ **ee-s2-diagnostico-criativos** — concluída em 2026-09-23T12:49:27Z
 - ✅ **ee-s1-diagnostico-maturidade** — concluída em 2026-09-15T00:00:00Z
 - ✅ **ee-s2-posicionamento** — concluída em 2026-09-23T12:32:04Z
+- ✅ **ee-s4-cliente-oculto** — concluída em 2026-09-30T12:15:00Z
+- ✅ **ee-s4-diagnostico-comercial** — concluída em 2026-09-30T12:40:00Z
+- ✅ **ee-s3-is-metricas-funil** — concluída em 2026-09-30T13:05:00Z
+- ✅ **ee-s3-is-pipeline** — concluída em 2026-09-30T13:30:00Z
 
-**Semana atual:** 3
+**Semana atual:** 4
 
 ### Histórico de refinamentos
-- *2026-09-15T21:01:33Z* — **ee-s1-auditoria-comunicacao** (—): 
-- *2026-09-15T21:45:00Z* — **ee-s1-swot** (—): 
-- *2026-09-16T14:30:00Z* — **ee-s2-pesquisa-mercado** (—): 
-- *2026-09-16T15:00:00Z* — **ee-continuar** (—): 
-- *2026-09-23T12:18:08Z* — **ee-s2-diagnostico-midia** (—): 
-- *2026-09-23T12:32:04Z* — **ee-s2-posicionamento** (—): 
-- *2026-09-23T12:49:27Z* — **ee-s2-diagnostico-criativos** (—): 
-- *2026-09-23T17:18:02Z* — **ee-s2-diagnostico-organico-ig** (—): 
+- *2026-09-29T16:30:00Z* — **ee-s4-diagnostico-comercial** (—): 
+- *2026-09-29T16:45:00Z* — **ee-s4-diagnostico-comercial** (—): 
+- *2026-09-30T12:00:00Z* — **ee-s4-cliente-oculto** (—): 
+- *2026-09-30T12:15:00Z* — **ee-s4-cliente-oculto** (—): 
+- *2026-09-30T12:40:00Z* — **ee-s4-diagnostico-comercial** (—): 
+- *2026-09-30T13:05:00Z* — **ee-s3-is-metricas-funil** (—): 
+- *2026-09-30T13:30:00Z* — **ee-s3-is-pipeline** (—): 
+- *2026-09-30T14:00:00Z* — **ee-s3-crm-setup** (—): 
 
 ---
 

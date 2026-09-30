@@ -242,7 +242,7 @@
     }
   },
   "progress": {
-    "current_week": 3,
+    "current_week": 4,
     "skills": {
       "ee-s1-persona-icp": {
         "status": "completed",
@@ -312,28 +312,32 @@
         "completed_at": null
       },
       "ee-s4-cliente-oculto": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-30T12:00:00Z",
+        "completed_at": "2026-09-30T12:15:00Z",
+        "version": 1
       },
       "ee-s4-diagnostico-comercial": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-30T12:20:00Z",
+        "completed_at": "2026-09-30T12:40:00Z",
+        "version": 1
       },
       "ee-s3-is-metricas-funil": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-30T12:45:00Z",
+        "completed_at": "2026-09-30T13:05:00Z",
+        "version": 1
       },
       "ee-s3-is-pipeline": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-09-30T13:10:00Z",
+        "completed_at": "2026-09-30T13:30:00Z",
+        "version": 1
       },
       "ee-s3-manual-marca": {
         "status": "pending",
@@ -487,6 +491,42 @@
       "skill": "ee-s4-diagnostico-comercial",
       "checkpoint": 0,
       "decision": "Operador corrigiu o roteamento: Dayane fica FORA por enquanto (nem funil, nem escalação). Pipeline e SLA com apenas dois funis após a triagem do SDR IA: funil do Carlos (engenharia: REURB/loteamento, regularização de casa) e funil do Christian (assessoria: usucapião, inventário). Substitui o roteamento em 3 pessoas registrado às 15:00 de 29/09. Escalação de SLA fica entre Carlos e Christian (um cobre o outro)."
+    },
+    {
+      "ts": "2026-09-30T12:00:00Z",
+      "skill": "ee-s4-cliente-oculto",
+      "checkpoint": 0,
+      "decision": "Resultado do cliente oculto (execução 29/09, WhatsApp da bio +55 54 99971-9141, persona Cláudia): às 08:53 a equipe mandou 'Bom dia, tudo bem ?'. A resposta veio cerca de 3h depois: 'Bom dia, tudo bem e voce?'. Depois disso não houve mais nada: nenhuma pergunta sobre o caso, nenhuma apresentação, nenhuma abordagem, nenhum próximo passo e nenhum follow-up. Material insuficiente para a análise completa por dimensão/nota 0-10: só dá para medir o tempo da 1ª resposta (~3h) e a ausência de condução/follow-up. TOM DA REUNIÃO 30/09 (definido pelo operador): NÃO apresentar como falha nem avaliação do atendimento do Carlos. Apresentar como (a) ações de baixo custo que dá para fazer hoje e (b) o que a V4 já vai implementar com a Assessoria + Kommo CRM (número novo de WhatsApp dentro do Kommo, triagem pelo SDR IA com resposta imediata, push de novo lead no celular do Carlos, régua de follow-up, SLA entre Carlos e Christian). Mantém o alinhamento do briefing: 'é isso que o SDR IA vai tirar do seu colo'."
+    },
+    {
+      "ts": "2026-09-30T12:15:00Z",
+      "skill": "ee-s4-cliente-oculto",
+      "checkpoint": 0,
+      "decision": "Cliente oculto concluído sem nota (evaluation.overall_score = null; o portal oculta o bloco de nota). Output com tom de ação: 4 ajustes sem custo no WhatsApp Business atual (saudação automática que já pergunta sobre o caso, mensagem de ausência, respostas rápidas de triagem, etiquetas Lead novo/Aguardando retorno) + o que a V4 implementa (número novo no Kommo, SDR IA com resposta imediata e triagem, aviso de lead novo no celular do Carlos, régua de follow-up, funis Carlos/Christian). O honesty_alert registra que o roteiro dos Blocos 1-3 não foi executado."
+    },
+    {
+      "ts": "2026-09-30T12:40:00Z",
+      "skill": "ee-s4-diagnostico-comercial",
+      "checkpoint": 0,
+      "decision": "Diagnóstico comercial gerado no tom de ação. Gargalo principal: Lead → Primeiro Contato + retomada de quem parou de responder. Taxas atuais [não disponível], benchmark de serviços profissionais. Critério 5★: necessidade concreta + imóvel na área (RS/metade de SC) + decisor + investimento compatível (a partir de R$ 5 mil). Roteamento: Carlos (REURB/loteamento, casa), Christian (usucapião, inventário); indicação direto para humano. SLA: 5★ 30 min, 4★ 4h, 3★ régua 24h; escalação 60 min / 8h para o outro sócio. Pendente na reunião 30/09: roteamento de caso misto (averbação + inventário) e aprovação de critérios/SLA."
+    },
+    {
+      "ts": "2026-09-30T13:05:00Z",
+      "skill": "ee-s3-is-metricas-funil",
+      "checkpoint": 0,
+      "decision": "Métricas do funil v1.0: 7 etapas (Lead → Triagem SDR IA → MQL → SAL → SQL → Proposta → Fechado), scoring de 5 perguntas 0-11 (motivo 0/1/3, data 0/1/2, cidade 0/2, decisor 0/1/2, investimento 0/1/2). Faixas: 5★ 10-11, 4★ 7-9, 3★ 4-6, 2★ 2-3, 1★ 0-1; só o motivo concreto (3 pts) leva a 5★. 4 filtros de anti-persona (fora da área, fora do escopo, curioso, < R$ 400/mês). Indicação vai direto para SAL. 10 motivos de perda. Metas estimadas: CPL R$ 50-60 e 25-30 leads/mês (Cenário B do diagnóstico de mídia). Caso misto: default provisório no funil do Carlos com o Christian marcado, até a reunião de 30/09."
+    },
+    {
+      "ts": "2026-09-30T13:30:00Z",
+      "skill": "ee-s3-is-pipeline",
+      "checkpoint": 0,
+      "decision": "Pipeline no Kommo: Triagem IA + 6 etapas iguais nos funis Carlos/Christian (Aguardando 1º contato [CONTROLE, SLA 30min/4h, escala 60min/8h] → Em conversa → Análise do caso → Proposta enviada → Decisão da família → Contrato assinado). Réguas: boas-vindas (T+0 SDR IA com pergunta sobre o caso, T+2h opções, T+24h encerra; humano assume sem repetir a triagem), nutrição 3★ (5 toques D+2..D+35, sem prazo prometido), retomada T+0/24h/72h (inclui 'vou falar com a família' após 48h), reativação D+90/D+97 uma vez a cada 12 meses. SPIN ancorado em Ivete/Cláudia. 9 perguntas no banco, 7 objeções. Risco para o crm-setup: confirmar API oficial vs app (templates HSM fora da janela de 24h). Semana 3 fechada; current_week → 4."
+    },
+    {
+      "ts": "2026-09-30T14:00:00Z",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 0,
+      "decision": "Operador decidiu: (1) a triagem usa o agente de IA do PRÓPRIO Kommo (plano Pro, 1 usuário, R$ 194/mês; até 50 agentes e 2.250 créditos de IA/mês), não um SDR IA externo por créditos. 'SDR IA' nos outputs = esse agente. (2) Com a conta única, tudo é estruturado por funil: funil de triagem + funil do Carlos + funil do Christian. A escalação de SLA é tag 'SLA estourado' + tarefa atrasada visível para os dois sócios, sem alerta individual. O aviso de lead novo chega aos dois celulares; age o dono do funil. Custos possíveis fora do plano: créditos de IA extras, taxas da Meta para mensagens iniciadas pela Fixa fora da janela de 24h (API oficial), usuário adicional. Outputs da S3 ajustados (diagnóstico comercial, métricas, pipeline, cliente oculto)."
     }
   ]
 }
