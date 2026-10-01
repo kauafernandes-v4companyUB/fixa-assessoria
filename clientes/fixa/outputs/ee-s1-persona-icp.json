@@ -1,9 +1,7 @@
 {
   "client_name": "Fixa Engenharia & Assessoria",
   "summary": "O ICP da Fixa é a pessoa proprietária de imóvel, física, de 35-70 anos, classe média a média-alta, com imóvel sem matrícula regularizada, buscando segurança jurídica para vender, financiar ou deixar em herança sem conflito entre os filhos. A decisão de escolher o escritório é rápida (1-3 semanas) mas carregada de desconfiança sobre prazo e seriedade, enquanto o processo em si dura meses a anos. Hoje a captação depende quase 100% de indicação e relacionamento institucional — o ICP raramente encontra a Fixa quando pesquisa online.",
-
   "summary_headline": "Fixa: proprietário(a) de imóvel 35-70 anos, classe média/média-alta, sem matrícula regularizada — quer clareza técnica e de prazo, não a oferta mais barata.",
-
   "summary_highlights": [
     {
       "category": "posicao",
@@ -16,7 +14,7 @@
       "category": "oportunidade",
       "label": "WTP regularização de casa",
       "value": "R$5.000 → até R$7.000",
-      "subtext": "Ticket confirmado no formulário e na call; aceita mais com prazo garantido",
+      "subtext": "Ticket confirmado no formulário e na call; o teto maior vem de clareza das etapas e acompanhamento (a Fixa não promete prazo)",
       "tone": "green"
     },
     {
@@ -41,7 +39,6 @@
       "tone": "gray"
     }
   ],
-
   "summary_key_findings": [
     {
       "category": "vantagem",
@@ -60,11 +57,10 @@
     },
     {
       "category": "acao",
-      "text": "Mensagem-chave só sustenta se vier com promessa de prazo por escrito no processo comercial.",
-      "text_full": "A mensagem-chave funcional aprovada ('engenharia + arquitetura + direito num só lugar') só se sustenta se for acompanhada de um processo comercial que prometa prazo por escrito — senão a promessa técnica soa vazia diante da desconfiança já mapeada."
+      "text": "Mensagem-chave só se sustenta com um processo comercial que mostre cada etapa e o que depende de terceiros, sem prometer prazo.",
+      "text_full": "A mensagem-chave funcional aprovada ('engenharia + arquitetura + direito num só lugar') só se sustenta se vier acompanhada de um processo comercial que mostre ao cliente cada etapa e o que depende de cartório e prefeitura — sem prometer prazo, que depende de terceiros. Sem isso, a promessa técnica soa vazia diante da desconfiança já mapeada."
     }
   ],
-
   "icp": {
     "demographics": {
       "type": "B2C",
@@ -126,21 +122,34 @@
       }
     ],
     "gains": [
-      { "gain": "Matrícula do imóvel regularizada e registrada em cartório no nome certo.", "type": "tangible" },
-      { "gain": "Poder vender, financiar ou dar em garantia o imóvel sem entrave jurídico.", "type": "tangible" },
-      { "gain": "Prazos e etapas claras, sabendo em que fase o processo está a cada momento.", "type": "tangible" },
-      { "gain": "Tranquilidade de que a papelada não vai virar problema para os filhos.", "type": "intangible" },
-      { "gain": "Confiança de ter sido acompanhado por gente técnica e séria, sem ser enganado.", "type": "intangible" }
+      {
+        "gain": "Matrícula do imóvel regularizada e registrada em cartório no nome certo.",
+        "type": "tangible"
+      },
+      {
+        "gain": "Poder vender, financiar ou dar em garantia o imóvel sem entrave jurídico.",
+        "type": "tangible"
+      },
+      {
+        "gain": "Prazos e etapas claras, sabendo em que fase o processo está a cada momento.",
+        "type": "tangible"
+      },
+      {
+        "gain": "Tranquilidade de que a papelada não vai virar problema para os filhos.",
+        "type": "intangible"
+      },
+      {
+        "gain": "Confiança de ter sido acompanhado por gente técnica e séria, sem ser enganado.",
+        "type": "intangible"
+      }
     ]
   },
-
   "persona": {
     "name": "Ivete Dal Bosco",
     "photo_description": "Mulher de 61 anos, cabelo grisalho curto, óculos de leitura pendurados no pescoço, expressão séria mas acolhedora, fotografada na varanda de uma casa de padrão médio num bairro consolidado de Caxias do Sul — roupas discretas, estilo dona de casa aposentada da Serra Gaúcha.",
     "story": "Ivete é viúva, aposentada, e mora na casa que o marido construiu há mais de 30 anos, num bairro consolidado de padrão médio. Depois que ele faleceu, descobriu que o imóvel nunca teve escritura definitiva registrada — só um contrato de compra e venda antigo, sem averbação. Com os três filhos morando em outras cidades, ela quer vender a casa e se mudar para perto de um deles, mas o comprador exige matrícula regularizada e o banco não libera financiamento sem isso. Já tentou resolver sozinha no cartório e na prefeitura, mas cada um pediu um documento diferente, e desistiu depois de meses indo de um lugar para o outro sem entender o processo.",
     "quote": "Eu só quero vender essa casa em paz e não deixar essa dor de cabeça pros meus filhos resolverem depois que eu morrer. Já tentei sozinha e não consegui nem entender o que me pediam."
   },
-
   "where_to_find": {
     "digital_channels": [
       "Grupos de WhatsApp/Facebook de bairro e associações de moradores em áreas de ocupação irregular na região de Caxias do Sul",
@@ -164,7 +173,6 @@
       "Rede de relacionamento institucional que a Fixa já tem com cartórios e prefeitura (fonte de indicação, não só de descoberta)"
     ]
   },
-
   "anti_persona": {
     "description": "As duas anti-personas abaixo são o espelho invertido da Ivete: onde ela tem necessidade real, prazo que ela aceita negociar e capacidade financeira compatível com o bairro que a Fixa atende, os perfis abaixo têm curiosidade sem urgência, resistência a pagar o que o serviço vale, ou expectativa de prazo incompatível com a realidade jurídica do processo.",
     "profiles": [
@@ -206,7 +214,6 @@
     ],
     "operational_rule": "A Ivete converte porque tem uma necessidade real e um prazo que ela mesma consegue negociar; os três perfis acima falham em pelo menos um desses dois pontos (necessidade real ou compatibilidade de prazo/capacidade financeira). O formulário de triagem deve capturar isso antes de qualquer diagnóstico técnico-jurídico."
   },
-
   "buyer_journey": {
     "description": "Jornada da Ivete (ou perfil equivalente) do gatilho até a indicação, mapeada com base no que se sabe hoje sobre o cliente ideal e sobre a operação 100% offline da Fixa.",
     "stages": [
@@ -273,7 +280,6 @@
     ],
     "critical_leakage_point": "O maior vazamento é na Pesquisa/Consideração digital: a Fixa depende quase 100% de indicação e relacionamento institucional (sem tráfego pago, site desatualizado, Instagram fragmentado entre marcas) — quem pesquisa online 'regularização de imóvel Caxias do Sul' encontra concorrentes com mais presença institucional primeiro, e nunca chega a saber que a Fixa existe."
   },
-
   "willingness_to_pay": {
     "description": "Faixas baseadas nos valores informados no formulário de kickoff, com os valores mencionados na call de boas-vindas usados apenas como confirmação (regularização de casa) ou nota de contexto (demais serviços), sem substituir o dado do formulário onde há divergência.",
     "services": [
@@ -281,9 +287,9 @@
         "service": "Regularização de casa individual",
         "current_ticket_range": "R$5.000",
         "perceived_fair_range": "R$3.000-6.000",
-        "premium_ceiling": "R$7.000 com prazo garantido por contrato e atualização periódica do processo",
-        "elasticity": "baixa — mais sensível ao prazo prometido do que ao preço em si",
-        "pricing_lever": "clareza de prazo e etapas + acompanhamento integrado (engenharia+jurídico no mesmo local)"
+        "premium_ceiling": "R$7.000 com acompanhamento integrado e atualização periódica de cada etapa (na pesquisa, parte da disposição a pagar mais veio atrelada a 'prazo garantido', que a Fixa não promete)",
+        "elasticity": "baixa — mais sensível à clareza do processo e à confiança do que ao preço em si",
+        "pricing_lever": "clareza das etapas e do que depende de cartório/prefeitura + acompanhamento integrado (engenharia+jurídico no mesmo local)"
       },
       {
         "service": "Usucapião",
@@ -311,7 +317,6 @@
       }
     ]
   },
-
   "objection_library": {
     "description": "Objeções reais mapeadas no formulário de kickoff, com respostas construídas a partir do diferencial confirmado da Fixa (engenharia + arquitetura + direito integrados, relacionamento institucional com cartórios e prefeitura).",
     "objections": [
@@ -366,7 +371,6 @@
       }
     ]
   },
-
   "key_message": {
     "chosen_message": "Regularize seu imóvel com engenharia, arquitetura e direito num só lugar.",
     "approach": "functional",
@@ -389,18 +393,16 @@
       }
     ]
   },
-
   "key_insight": {
-    "headline": "Ivete não está comparando preço — está comparando quem vai realmente entregar dentro do prazo prometido.",
-    "context": "Todas as objeções mapeadas no formulário são sobre confiança e prazo (medo de ser enganado, achar que vai demorar demais), não sobre o serviço em si. Os concorrentes mapeados competem em território funcional/credibilidade (Balen com escala institucional, DCA com cases documentados), mas nenhum comunica clareza de prazo como promessa formal.",
+    "headline": "Ivete não está comparando preço — está comparando em quem pode confiar para conduzir o processo até o fim.",
+    "context": "Todas as objeções mapeadas no formulário são sobre confiança e prazo (medo de ser enganado, achar que vai demorar demais), não sobre o serviço em si. Os concorrentes mapeados competem em território funcional/credibilidade (Balen com escala institucional, DCA com cases documentados), mas nenhum explica com clareza como conduz o processo.",
     "numbered_reasons": [
       "As objeções do formulário são todas sobre confiança e prazo, não sobre o serviço em si.",
-      "Nenhum concorrente mapeado comunica clareza de prazo como diferencial formal — Balen aposta em escala/tradição, DCA em cases.",
-      "A Fixa já tem o diferencial real (engenharia+arquitetura+direito integrados, relação com cartórios/prefeitura), mas ainda não formaliza isso como promessa de prazo ao cliente."
+      "Nenhum concorrente mapeado explica com clareza como conduz o processo — Balen aposta em escala/tradição, DCA em cases.",
+      "A Fixa já tem o diferencial real (engenharia+arquitetura+direito integrados, relação com cartórios/prefeitura), mas ainda não o comunica nem mostra ao cliente em que etapa o processo está."
     ],
-    "discussion_anchor": "A mensagem funcional escolhida ('tudo num só lugar') só sustenta a promessa se vier acompanhada de um processo comercial que entregue prazo por escrito — isso é decisão de processo comercial, não só de copy, e vale alinhar com o Carlos como parte da Semana 4 (CRM/SDR)."
+    "discussion_anchor": "A mensagem funcional escolhida ('tudo num só lugar') se sustenta com um processo comercial que mostra cada etapa e o que depende de terceiros — sem prometer prazo, que depende de cartório e prefeitura. Isso entra na Semana 4 (CRM/SDR)."
   },
-
   "pending_validation_items": [
     {
       "topic": "Participação da Fixa em novos loteamentos vs. Balen",
@@ -413,5 +415,6 @@
         "roteiro_apresentacao": true
       }
     }
-  ]
+  ],
+  "revision_note": "01/10/2026: recomendações de 'prazo por escrito'/'prazo garantido' revisadas — a direção foi descartada em ee-s2-posicionamento (o prazo depende de cartório e prefeitura). A resposta à desconfiança do ICP é 'num processo só' + relação institucional + clareza de cada etapa."
 }

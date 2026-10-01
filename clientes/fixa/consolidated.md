@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-10-01 18:32 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
+*Gerado em 2026-10-01 20:06 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -158,9 +158,9 @@ As duas anti-personas abaixo são o espelho invertido da Ivete: onde ela tem nec
 **Regularização de casa individual**
 - Ticket atual: R$5.000
 - Faixa percebida justa: R$3.000-6.000
-- Teto premium: R$7.000 com prazo garantido por contrato e atualização periódica do processo
-- Elasticidade: baixa — mais sensível ao prazo prometido do que ao preço em si
-- Alavanca de preço: clareza de prazo e etapas + acompanhamento integrado (engenharia+jurídico no mesmo local)
+- Teto premium: R$7.000 com acompanhamento integrado e atualização periódica de cada etapa (na pesquisa, parte da disposição a pagar mais veio atrelada a 'prazo garantido', que a Fixa não promete)
+- Elasticidade: baixa — mais sensível à clareza do processo e à confiança do que ao preço em si
+- Alavanca de preço: clareza das etapas e do que depende de cartório/prefeitura + acompanhamento integrado (engenharia+jurídico no mesmo local)
 
 **Usucapião**
 - Ticket atual: R$12.000
@@ -237,7 +237,7 @@ Nenhum dos 3 concorrentes mapeados (Balen, DCA, BLM) formaliza clareza de prazo 
 - **Resolve o técnico e o jurídico da regularização dentro do mesmo processo, sem o cliente precisar contratar um segundo prestador** *[confirmed]* — Reduz a fricção #1 do ICP — desconfiança e complexidade de lidar com múltiplos prestadores sem coordenação (mapeado nas pains de ee-s1-persona-icp).
 - **Relacionamento institucional consolidado com cartórios e a Secretaria Municipal do Urbanismo (SMU)** *[confirmed]* — Reduz prazo e atrito no processo, endereçando a dor #1 do ICP (desconfiança sobre prazo e seriedade).
 - **Possível liderança em REURB de loteamentos frente ao maior concorrente (Balen), com histórico de ter assumido a maioria dos novos loteamentos protocolados na cidade no último ano** *[potential]* — Se confirmado, é prova social/institucional forte justamente no segmento de maior ticket do negócio (R$100-400 mil) — mas hoje é apenas um relato do operador na call de kickoff, sem corroboração documental (mesma pendência já registrada em ee-s1-persona-icp).
-- **Prazo por escrito como promessa comercial formal** *[descartado]* — Endereçava a objeção #1 do ICP (medo de ser 'enrolado' sem saber prazo), mas foi descartado como direção de comunicação em ee-s2-posicionamento — depende de terceiros (cartório, prefeitura) fora do controle da Fixa, tornando a promessa insustentável mesmo com CRM implementado.
+- **Prazo por escrito como promessa comercial (avaliado e descartado)** *[descartado]* — Endereçava a objeção #1 do ICP (medo de ser 'enrolado' sem saber prazo), mas foi descartado como direção de comunicação em ee-s2-posicionamento — depende de terceiros (cartório, prefeitura) fora do controle da Fixa, tornando a promessa insustentável mesmo com CRM implementado.
 
 
 ## 5. Maturidade Digital & SWOT
@@ -274,7 +274,7 @@ Nenhum dos 3 concorrentes mapeados (Balen, DCA, BLM) formaliza clareza de prazo 
 - Zero mídia paga e zero rastreamento instalado
 
 **Oportunidades:**
-- Nenhum concorrente mapeado formaliza clareza de prazo como promessa
+- Nenhum concorrente mapeado comunica com clareza como conduz o processo
 - BLM tem presença digital quase nula
 - GMB já é ativo real e subaproveitado — quick win de 15 minutos com potencial de destravar SEO local
 - Mercado local sem nenhum concorrente com mídia paga + LP + CRM estruturados
@@ -392,7 +392,7 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 - **Budget de lançamento (Cenário B):** R$3.000/mês — ~25-30 leads/mês estimados [E], CPL blend ~R$50-60
 - **O que implementamos primeiro:** Tracking + LP + CRM — Pré-requisito antes do 1º real em anúncio — Semana 4
 - **Se pularmos a ordem:** CPL parece ruim sem ser — Anúncio pagaria pra provar o que já sabemos: falta conversão, não tráfego
-- **Concorrente com budget maior:** Balen Regularizações — Escala multi-estado — entramos menores, mas com ângulo que ninguém ocupa (prazo por escrito)
+- **Concorrente com budget maior:** Balen Regularizações — Escala multi-estado — entramos menores, mas com ângulo que ninguém ocupa (engenharia e parte legal num processo só)
 
 ### Diagnóstico por dimensão
 - **Account structure:** Ainda não existe segmentação — vamos desenhá-la a partir do ICP (35-70 anos, Caxias do Sul, classe média/média-alta, foco em busca ativa por regularização/usucapião).
@@ -541,19 +541,20 @@ O cliente oculto da Fixa Engenharia & Assessoria (29/09, WhatsApp da bio do Inst
 - ✅ **ee-s3-is-metricas-funil** — concluída em 2026-09-30T13:05:00Z
 - ✅ **ee-s3-is-pipeline** — concluída em 2026-09-30T13:30:00Z
 - ✅ **ee-s3-manual-marca** — concluída em 2026-10-01T16:00:00Z
+- 🟡 **ee-s3-landing-page** — em andamento
 - 🟡 **ee-s3-crm-setup** — em andamento
 
 **Semana atual:** 4
 
 ### Histórico de refinamentos
-- *2026-09-30T12:00:00Z* — **ee-s4-cliente-oculto** (—): 
-- *2026-09-30T12:15:00Z* — **ee-s4-cliente-oculto** (—): 
 - *2026-09-30T12:40:00Z* — **ee-s4-diagnostico-comercial** (—): 
 - *2026-09-30T13:05:00Z* — **ee-s3-is-metricas-funil** (—): 
 - *2026-09-30T13:30:00Z* — **ee-s3-is-pipeline** (—): 
 - *2026-09-30T14:00:00Z* — **ee-s3-crm-setup** (—): 
 - *2026-10-01T14:30:00Z* — **ee-s3-crm-setup** (—): 
 - *2026-10-01T16:00:00Z* — **ee-s3-manual-marca** (—): 
+- *2026-10-01T20:10:00Z* — **ee-s2-diagnostico-midia** (—): 
+- *2026-10-01T20:30:00Z* — **ee-s1-swot** (—): 
 
 ---
 

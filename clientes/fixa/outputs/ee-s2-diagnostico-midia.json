@@ -35,7 +35,7 @@
       "category": "competicao",
       "label": "Concorrente com budget maior",
       "value": "Balen Regularizações",
-      "subtext": "Escala multi-estado — entramos menores, mas com ângulo que ninguém ocupa (prazo por escrito)",
+      "subtext": "Escala multi-estado — entramos menores, mas com ângulo que ninguém ocupa (engenharia e parte legal num processo só)",
       "tone": "yellow"
     }
   ],
@@ -150,7 +150,7 @@
       "deadline": "Semana 2-3, junto com a criação da landing page"
     },
     {
-      "action": "Criar a landing page de conversão (regularização/REURB) com prova social do GMB e Instagram",
+      "action": "Criar a landing page de conversão (regularização/REURB) com prova social real: casos com nome e números publicados no Instagram",
       "priority": "high",
       "expected_impact": "Sem LP dedicada, todo lead pago cai num site institucional que não converte (CRO 8/100) — pré-requisito para ligar qualquer campanha.",
       "responsible": "V4 (ee-s3-landing-page)",
@@ -221,7 +221,7 @@
       "budget_allocation_pct": 10,
       "expected_cpc_range": "R$1-3",
       "bid_strategy": "CPC manual baixo / máx. cliques",
-      "copy_angle": "Reforça marca + prova social GMB",
+      "copy_angle": "Reforça a marca + 10 anos resolvendo regularização em Caxias do Sul",
       "risk": "Baixo volume de busca hoje (marca pouco conhecida no digital) — cluster pequeno mas barato"
     },
     {
@@ -236,7 +236,7 @@
       "budget_allocation_pct": 30,
       "expected_cpc_range": "R$5-12",
       "bid_strategy": "Máx. conversões com CPA alvo após 30 dias de aprendizado",
-      "copy_angle": "Promessa de prazo por escrito + prova social GMB — ataca a objeção #1 (achar caro/demorado)",
+      "copy_angle": "Num processo só + 10 anos de relação direta com cartórios e prefeitura — ataca a desconfiança (objeção #1) sem prometer prazo",
       "risk": "Concorrência da Balen (escala, budget maior) nesses termos",
       "opportunity_keywords": [
         {
@@ -259,7 +259,7 @@
       "budget_allocation_pct": 20,
       "expected_cpc_range": "R$4-10",
       "bid_strategy": "CPA alvo",
-      "copy_angle": "Explica prazo/processo + convite pro diagnóstico gratuito",
+      "copy_angle": "Explica as etapas do processo + convite para contar o caso no WhatsApp (análise do caso)",
       "risk": "Termo técnico pode atrair curiosos sem caso concreto (ver anti-persona 'Curioso Especulador' em ee-s1-persona-icp)"
     },
     {
@@ -405,8 +405,8 @@
         "angle": "Dor + urgência prática (venda/financiamento travados)",
         "format": "Reels/vídeo curto",
         "hook": "Sua casa não tem escritura regularizada?",
-        "body": "Você pode estar impedido de vender, financiar ou deixar o imóvel resolvido para seus filhos. A Fixa resolve engenharia, medição e registro em um só lugar — com prazo definido por escrito.",
-        "cta": "Fale com a Fixa e descubra seu prazo real",
+        "body": "Você pode estar impedido de vender, financiar ou deixar o imóvel resolvido para seus filhos. A Fixa resolve a engenharia e a parte legal da regularização num processo só.",
+        "cta": "Conte seu caso no WhatsApp",
         "target_audience": "Público quente (seguidores IG + engajamento GMB), 35-70 anos, Caxias do Sul",
         "success_criteria": "CTR > 1,2% E CPL abaixo de R$60 nos primeiros 14 dias",
         "testing_budget": 400,
@@ -414,11 +414,11 @@
       },
       {
         "id": "H2",
-        "hypothesis": "Se o criativo usar depoimento real em vídeo de cliente com nota do GMB (4,7★), então o CPL será menor que criativo sem prova social, porque ataca diretamente a desconfiança mapeada no ICP.",
+        "hypothesis": "Se o criativo usar depoimento real em vídeo de cliente com nome (Paiol Espaço Nativo, Condomínio Ângelo Venturin) ou o número de entregas publicado pela Fixa (337 lotes por REURB desde 2024), então o CPL será menor que criativo sem prova social, porque ataca diretamente a desconfiança mapeada no ICP.",
         "angle": "Prova social / depoimento",
         "format": "Vídeo depoimento",
         "hook": "Foi assim que a Fixa resolveu o problema de...",
-        "body": "Depoimento real de cliente atendido pela Fixa, com nota real do Google (4,7★, 16 avaliações).",
+        "body": "Depoimento real de cliente atendido pela Fixa, já publicado no Instagram, ou bastidor de entrega com o número de lotes entregues.",
         "cta": "Veja se o seu caso pode ser resolvido também",
         "target_audience": "Público frio lookalike de clientes atuais",
         "success_criteria": "CPL 15% menor que a média dos outros criativos testados",
@@ -427,12 +427,12 @@
       },
       {
         "id": "H3",
-        "hypothesis": "Se o anúncio comunicar 'prazo definido por escrito', então a taxa de conversão da LP será maior, porque nenhum concorrente mapeado (Balen, DCA, BLM) formaliza essa promessa.",
-        "angle": "Diferencial competitivo (prazo)",
+        "hypothesis": "Se o anúncio comunicar engenharia e a parte legal num processo só, então a taxa de conversão da LP será maior, porque nenhum concorrente mapeado (Balen, DCA, BLM) combina as duas frentes com relação institucional de 10 anos.",
+        "angle": "Diferencial competitivo (integração técnico-jurídica)",
         "format": "Carrossel estático",
-        "hook": "O único escritório da região que coloca o prazo no papel",
-        "body": "Engenharia, arquitetura e direito imobiliário em um só processo — com prazo definido por escrito desde o início.",
-        "cta": "Agende seu diagnóstico",
+        "hook": "Engenheiro de um lado, advogado do outro? Na Fixa é um processo só.",
+        "body": "Medição, projeto e a parte legal da regularização no mesmo processo, com 10 anos de relação direta com cartórios e prefeitura.",
+        "cta": "Conte seu caso no WhatsApp",
         "target_audience": "Público frio de interesse (regularização, usucapião)",
         "success_criteria": "Conv. LP > 5%",
         "testing_budget": 300,
@@ -457,8 +457,8 @@
         "angle": "Correspondência de intenção de busca",
         "format": "RSA (responsive search ad)",
         "hook": "Usucapião em Caxias do Sul",
-        "body": "Engenharia + Direito em um só processo. Prazo definido por escrito. Fale com a Fixa.",
-        "cta": "Solicite seu diagnóstico gratuito",
+        "body": "Engenharia e a parte legal num processo só. Você sabe em que etapa está. Fale com a Fixa.",
+        "cta": "Conte seu caso no WhatsApp",
         "target_audience": "Search - cluster Usucapião",
         "success_criteria": "CTR > 4% (benchmark do setor: 2,5-6%)",
         "testing_budget": 300,
@@ -566,5 +566,6 @@
   },
   "honesty_alert": "Todos os números de CPL/leads/CAC são estimados sem histórico real de conta da Fixa — tratar como hipótese a validar no piloto (pós Semana 4), não como promessa. ROAS não foi usado como meta central pela variação enorme de ticket (R$5 mil a R$400 mil).",
   "is_launch_plan": true,
-  "completed_at": "2026-09-23T12:17:44Z"
+  "completed_at": "2026-09-23T12:17:44Z",
+  "revision_note": "01/10/2026: copy das hipóteses H1, H2, H3 e H5 e ângulos de 3 clusters revisados para remover promessa de prazo ('prazo por escrito'), 'diagnóstico gratuito' (não confirmado) e a nota do GMB como prova principal. Detalhe no documento 'Direcionamento de copy e criativos — Fixa'."
 }

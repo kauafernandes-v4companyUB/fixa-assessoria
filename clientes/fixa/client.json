@@ -347,9 +347,9 @@
         "version": 1
       },
       "ee-s3-landing-page": {
-        "status": "pending",
+        "status": "in_progress",
         "checkpoint": 0,
-        "started_at": null,
+        "started_at": "2026-10-01T16:30:00Z",
         "completed_at": null
       },
       "ee-s3-copy-anuncios": {
@@ -540,6 +540,18 @@
       "skill": "ee-s3-manual-marca",
       "checkpoint": 0,
       "decision": "Manual de marca aprovado sem ajustes. Unificação: marca monolítica 'Fixa' + descritor único 'Engenharia & Assessoria' (sem sub-marcas nem cor por empresa; alternativa do Léo registrada como descartada); razões sociais só em contrato, nota, proposta e rodapé; jurídico dentro de Assessoria, nunca 3ª frente. Instagram: renomear @fixa_engenharia (opções @fixa.regularizacao, @fixa.engenhariaeassessoria, @fixaregulariza — disponibilidade a checar). Big idea 'Num processo só.'; arquétipos Sábio + Cuidador; paleta Azul Fixa #1E2B53 + Cinza Grafite #6B6B6B (do logo atual, confirmar com vetores dos MIVs) + Azul Serra #2F6DB5; Manrope + Source Sans 3. Direção de logo A (evolução do símbolo atual). Escopo do Bloco 4: papelaria, digital, redes e materiais de venda; sem fachada/uniforme."
+    },
+    {
+      "ts": "2026-10-01T20:10:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 0,
+      "decision": "Diagnóstico de mídia revisado: removida promessa de prazo ('prazo definido por escrito', 'o único escritório que coloca o prazo no papel', 'descubra seu prazo real'), 'diagnóstico gratuito' (não confirmado) e a nota do GMB (4,7★) como prova principal das hipóteses H1, H2, H3 e H5 e dos ângulos de 3 clusters de keyword. Prova social passa a ser casos reais com nome (Paiol, Ângelo Venturin) e 337 lotes entregues por REURB desde 2024. CTA padrão: 'Conte seu caso no WhatsApp'."
+    },
+    {
+      "ts": "2026-10-01T20:30:00Z",
+      "skill": "ee-s1-swot",
+      "checkpoint": 0,
+      "decision": "Revisão de consistência em ee-s1-persona-icp, ee-s1-swot e ee-s2-pesquisa-mercado: recomendações de 'prazo por escrito'/'prazo garantido'/'clareza de prazo' substituídas por 'num processo só' + relação institucional + clareza de cada etapa, alinhadas ao posicionamento. Dado real da persona mantido (parte da disposição a pagar mais veio atrelada a 'prazo garantido'), com a ressalva de que a Fixa não promete prazo. Pesquisa de mercado já registrava a direção como descartada; só o rótulo foi ajustado."
     }
   ]
 }
