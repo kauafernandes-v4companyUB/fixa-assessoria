@@ -168,8 +168,8 @@
         "touch_number": 2,
         "timing": "D+7",
         "channel": "WhatsApp (automação Kommo)",
-        "objective": "Prova real",
-        "message_skeleton": "Caso concluído pela Fixa, parecido com o do lead, com o antes e o depois (situação do imóvel → matrícula regularizada). Sem citar prazo e sem expor dado do cliente sem autorização."
+        "objective": "Tirar a confusão entre escritura e matrícula",
+        "message_skeleton": "Conteúdo curto: ter escritura não é o mesmo que ter a matrícula regularizada. A propriedade só passa para o nome de quem comprou depois do registro no cartório de imóveis, e a construção precisa estar averbada. Convite para entender em que ponto está o imóvel do lead. A Fixa ainda não tem caso concluído autorizado para contar, então este toque não usa prova social."
       },
       {
         "touch_number": 3,
@@ -367,7 +367,7 @@
       "pipeline_stage": "Análise do caso",
       "response_options": [
         "Acolher sem criticar o outro profissional e mostrar como a Fixa conduz: engenharia e a parte legal no mesmo processo, relação direta com cartório e prefeitura, cada etapa acompanhada.",
-        "Mostrar um caso concluído parecido, sem prometer prazo."
+        "Mostrar as etapas do caso dele e em qual delas a Fixa entra com cartório e prefeitura, sem prometer prazo."
       ]
     },
     {

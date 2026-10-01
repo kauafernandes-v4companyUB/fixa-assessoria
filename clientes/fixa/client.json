@@ -364,9 +364,9 @@
         "completed_at": null
       },
       "ee-s3-crm-setup": {
-        "status": "pending",
+        "status": "in_progress",
         "checkpoint": 0,
-        "started_at": null,
+        "started_at": "2026-09-30T15:00:00Z",
         "completed_at": null
       },
       "ee-s5-scripts-sdr": {
@@ -527,6 +527,12 @@
       "skill": "ee-s3-crm-setup",
       "checkpoint": 0,
       "decision": "Operador decidiu: (1) a triagem usa o agente de IA do PRÓPRIO Kommo (plano Pro, 1 usuário, R$ 194/mês; até 50 agentes e 2.250 créditos de IA/mês), não um SDR IA externo por créditos. 'SDR IA' nos outputs = esse agente. (2) Com a conta única, tudo é estruturado por funil: funil de triagem + funil do Carlos + funil do Christian. A escalação de SLA é tag 'SLA estourado' + tarefa atrasada visível para os dois sócios, sem alerta individual. O aviso de lead novo chega aos dois celulares; age o dono do funil. Custos possíveis fora do plano: créditos de IA extras, taxas da Meta para mensagens iniciadas pela Fixa fora da janela de 24h (API oficial), usuário adicional. Outputs da S3 ajustados (diagnóstico comercial, métricas, pipeline, cliente oculto)."
+    },
+    {
+      "ts": "2026-10-01T14:30:00Z",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 0,
+      "decision": "A reunião da Semana 3 (30/09) não aconteceu e será remarcada. Operador decidiu: (1) o SLA de 4★/5★ conta só em horário comercial (dias úteis, 8h–18h); fora do horário a IA responde e o relógio começa às 8h do próximo dia útil. (2) Não existe caso real concluído autorizado: o toque D+7 da nutrição passa a ser conteúdo educativo (escritura x matrícula), sem prova social. (3) Arquitetura reconfirmada: número novo faz a triagem e passa para o funil do Carlos ou do Christian, no mesmo número, em funis separados. Caso misto segue pendente (provisório: funil do Carlos com o Christian marcado). Outputs ee-s3-is-pipeline e ee-s3-is-metricas-funil, deck da Semana 3 e roteiro atualizados."
     }
   ]
 }

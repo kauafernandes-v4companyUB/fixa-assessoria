@@ -406,14 +406,14 @@
   "sla_by_star": [
     {
       "stars": 5,
-      "response_time": "30 minutos para o 1º contato humano (o SDR IA já respondeu na hora), em horário comercial",
+      "response_time": "30 minutos para o 1º contato humano (o SDR IA já respondeu na hora) · contado só em horário comercial (dias úteis, 8h–18h); lead que chega fora do horário começa a contar às 8h do próximo dia útil",
       "responsible": "Dono do funil do assunto: Carlos (REURB/loteamento, casa) ou Christian (usucapião, inventário)",
       "channel": "Mesma conversa no número de campanhas, pelo Kommo no celular (aviso de lead novo)",
       "escalation": "Sem contato em 60 min → o card ganha a tag 'SLA estourado' e fica como tarefa atrasada no funil, visível para o outro sócio, que assume"
     },
     {
       "stars": 4,
-      "response_time": "4 horas, no mesmo dia útil",
+      "response_time": "4 horas, no mesmo dia útil · contado só em horário comercial (dias úteis, 8h–18h); lead que chega fora do horário começa a contar às 8h do próximo dia útil",
       "responsible": "Dono do funil do assunto",
       "channel": "Mesma conversa, pelo Kommo",
       "escalation": "Sem contato em 8h → o card ganha a tag 'SLA estourado' e fica como tarefa atrasada no funil, visível para o outro sócio, que assume"
@@ -508,6 +508,10 @@
       {
         "date": "2026-09-30",
         "change": "Definido que a triagem usa o agente de IA do próprio Kommo (plano Pro, sem custo extra). Com a conta única, a escalação de SLA é feita por funil: tag 'SLA estourado' + tarefa atrasada visível para os dois sócios, em vez de alerta individual."
+      },
+      {
+        "date": "2026-10-01",
+        "change": "SLA de 4★/5★ contado só em horário comercial (decisão do operador)."
       }
     ]
   },

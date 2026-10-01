@@ -607,7 +607,7 @@ def build_s3_reguas(client, outputs):
         return ""
     items = [
         ("imediato", "Boas-vindas", "IA responde na hora com pergunta sobre o caso. Sem resposta: 2h e 24h, depois encerra com cordialidade."),
-        ("3★ · 5 toques", "Nutrição", "Por que o banco exige matrícula, caso real, 'num processo só', documentos. Para quando surge motivo."),
+        ("3★ · 5 toques", "Nutrição", "Por que o banco exige matrícula, escritura x matrícula, 'num processo só', documentos. Para quando surge motivo."),
         ("48h · 24h · 72h", "Retomada", "Depois de 'vou falar com meu irmão' ou combinado não cumprido. Sem pressão, sem 'última chance'."),
         ("90 dias", "Reativação", "Uma vez por lead a cada 12 meses: 'a situação do imóvel mudou?'"),
     ]
@@ -659,12 +659,45 @@ def build_s3_metricas(client, outputs):
     """
 
 
+def build_s3_kommo_status(client, outputs):
+    if not outputs.get("ee-s3-is-pipeline"):
+        return ""
+    feito = [
+        "3 funis: Triagem IA, Carlos e Christian",
+        "Mesmas etapas nos dois funis",
+        "10 motivos de perda fixos",
+        "Campos do lead: origem, assunto, estrelas, cidade, decisores",
+        "Tag 'SLA estourado' e tags de retomada",
+    ]
+    falta = [
+        "Conectar o número novo (chip)",
+        "Agente de IA da triagem",
+        "Réguas automáticas",
+        "SLA automático: tarefa + tag",
+        "App nos celulares + treinamento",
+    ]
+    li = lambda xs: "".join(f"<li>{ra.esc(x)}</li>" for x in xs)
+    return f"""
+    <section class="slide slide--soft">
+      {ra.LOGO}
+      <div class="slide__content">
+        <span class="eyebrow">Kommo · onde estamos</span>
+        <h2 class="title-section">A estrutura já está no Kommo</h2>
+        <div class="row-2" style="margin-top:2.5vh; gap:14px;">
+          <div class="glass"><div class="pattern-card__title">Já criado</div><ul class="bullets bullets--check">{li(feito)}</ul></div>
+          <div class="glass"><div class="pattern-card__title">Semana 4 · falta ligar</div><ul class="bullets">{li(falta)}</ul></div>
+        </div>
+      </div>
+    </section>
+    """
+
+
 def build_s3_decisoes(client, outputs):
     if not outputs.get("ee-s3-is-pipeline"):
         return ""
     items = [
         "Aprovar as 5 perguntas e as faixas de estrela",
-        "Aprovar o SLA: 30 min (5★) e 4h (4★), um cobre o outro",
+        "Aprovar o SLA: 30 min (5★) e 4h (4★), só em horário comercial, um cobre o outro",
         "Caso misto (averbação + inventário): funil do Carlos ou do Christian?",
         "Corte de investimento: abaixo de R$ 400/mês não segue pros sócios?",
         "Ligar hoje os 4 ajustes no WhatsApp atual",
@@ -693,6 +726,7 @@ WEEK3_SLIDES = [
     ("s3_pipeline", build_s3_pipeline, "ee-s3-is-pipeline", "Pipeline comercial"),
     ("s3_reguas", build_s3_reguas, "ee-s3-is-pipeline", "Réguas automáticas"),
     ("s3_metricas", build_s3_metricas, "ee-s3-is-metricas-funil", "O que vamos medir"),
+    ("s3_kommo", build_s3_kommo_status, "ee-s3-is-pipeline", "Kommo: onde estamos"),
     ("s3_decisoes", build_s3_decisoes, "ee-s3-is-pipeline", "Decisões de hoje"),
 ]
 WEEK_SLIDES = {2: None, 3: WEEK3_SLIDES}
