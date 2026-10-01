@@ -1,0 +1,449 @@
+{
+  "summary": "A copy de anúncios da Fixa tem 15 anúncios prontos: 11 para Meta e 4 anúncios responsivos de Google, distribuídos em topo, meio, fundo de funil e remarketing. Os ganchos usam dor real (venda travada sem matrícula), integração ('num processo só'), prova verificável (337 lotes por REURB desde 2024) e a objeção de documentação. Nenhuma peça promete prazo, e o CTA de conversão é sempre 'Conte seu caso no WhatsApp'. Planilha para revisão com o gestor: clientes/fixa/copy-anuncios-fixa.xlsx (abas Topo, Meio, Fundo, Remarketing, com coluna Status).",
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary_headline": "15 anúncios prontos: o problema no topo, prova real no meio e 'conte seu caso no WhatsApp' no fundo, sem promessa de prazo.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Anúncios prontos",
+      "value": "15",
+      "subtext": "11 Meta + 4 Google RSA (32 elementos de texto)",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Prova principal",
+      "value": "337 lotes",
+      "subtext": "Entregues por REURB desde 2024, dado publicado pela própria Fixa",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "CTA de conversão",
+      "value": "WhatsApp",
+      "subtext": "'Conte seu caso no WhatsApp' → número de campanhas no Kommo",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Pareamento com criativo",
+      "value": "Pendente",
+      "subtext": "Os criativos ainda não foram produzidos; parear quando o pack sair",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "A Fixa nunca anunciou: esta é a primeira copy paga da marca. Ela segue o 'Direcionamento de copy e criativos' de 01/10 e substitui as hipóteses da Semana 2 que prometiam prazo."
+    },
+    {
+      "category": "acao",
+      "text": "O topo de funil fala do problema sem citar a Fixa, em terceira pessoa ('muita venda trava'), para respeitar a política da Meta sobre afirmações pessoais."
+    },
+    {
+      "category": "vantagem",
+      "text": "Toda prova é verificável: 337 lotes por REURB desde 2024, 10 anos em Caxias do Sul e o caso do Paiol Espaço Nativo, já publicado com depoimento no Instagram."
+    },
+    {
+      "category": "ameaca",
+      "text": "O anúncio de remarketing com o caso Paiol só pode subir com a autorização do cliente para uso em mídia paga. As palavras-chave com 'advogado' precisam de anúncio sem oferta de serviço advocatício (regras da OAB)."
+    }
+  ],
+  "how_to_read_this_doc": {
+    "title": "Como usar este manual de copy",
+    "intro": "Este documento traz os textos de anúncio da Fixa prontos para subir na Meta (Instagram e Facebook) e no Google. Estão organizados pelo momento do cliente: quem ainda está descobrindo o problema (topo), quem está comparando como resolver (meio), quem já quer resolver (fundo) e quem já visitou a página (remarketing). Cada texto da Meta será combinado com um criativo do pack de 9 peças quando ele for produzido.",
+    "structure": [
+      {
+        "section": "funnel_stages",
+        "what": "Os anúncios separados por topo, meio, fundo e remarketing, com Meta e Google em cada etapa.",
+        "why": "Quem nunca ouviu falar da Fixa precisa de outra mensagem do que quem já está pronto para chamar no WhatsApp."
+      },
+      {
+        "section": "variations[].pair_with_creative",
+        "what": "Ainda vazio: os criativos não foram produzidos.",
+        "why": "Quando o pack sair, cada texto será ligado ao criativo do mesmo gancho (dor, prova, família)."
+      },
+      {
+        "section": "char_limits_reference",
+        "what": "Os limites de caracteres de cada plataforma.",
+        "why": "Texto acima do limite é cortado no celular ou reprovado no Google. Todos os textos aqui já cabem."
+      },
+      {
+        "section": "test_strategy",
+        "what": "Por quanto tempo testar e quando pausar ou escalar um anúncio.",
+        "why": "Evita desligar um anúncio cedo demais ou manter um que está gastando sem resultado."
+      },
+      {
+        "section": "copy_rules_applied",
+        "what": "As 5 regras que guiaram todos os textos.",
+        "why": "Qualquer texto novo escrito depois precisa seguir as mesmas regras."
+      }
+    ],
+    "workflow_recommended": [
+      "1) Confirmar a landing page no ar e o número novo de WhatsApp conectado ao Kommo (destino de todos os CTAs).",
+      "2) Revisar com o gestor de tráfego (Luciano) e marcar cada texto como aprovado ou ajustar.",
+      "3) Subir na Meta em conjuntos separados por gancho (hook_type) e no Google por cluster de palavra-chave.",
+      "4) Parear cada texto da Meta com o criativo do mesmo gancho quando o pack estiver pronto.",
+      "5) Rodar no mínimo 7 dias e aplicar os critérios de pausa e de escala da estratégia de teste."
+    ]
+  },
+  "funnel_stages": [
+    {
+      "name": "topo_de_funil",
+      "objective": "Consciência do problema: mostrar que imóvel sem matrícula trava venda, financiamento e herança",
+      "tone": "Educativo e empático, sem vender e sem citar a Fixa no texto",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [
+            {
+              "type": "text_primary",
+              "hook_type": "dor",
+              "text": "Sem matrícula, o banco não financia. É aí que muita venda de casa trava, mesmo com comprador pronto.",
+              "headline": "Por que a venda da casa travou?",
+              "cta": "Saiba mais",
+              "char_count": {
+                "text": 100,
+                "headline": 31,
+                "description": 19
+              },
+              "description": "Entenda a matrícula"
+            },
+            {
+              "type": "text_primary",
+              "hook_type": "educativo",
+              "text": "Escritura não é matrícula. O imóvel só fica no nome de quem comprou depois do registro no cartório.",
+              "headline": "Escritura e matrícula não são iguais",
+              "cta": "Saiba mais",
+              "char_count": {
+                "text": 99,
+                "headline": 36,
+                "description": 19
+              },
+              "description": "Entenda a diferença"
+            },
+            {
+              "type": "text_primary",
+              "hook_type": "familia",
+              "text": "Imóvel herdado sem documentação vira problema para os filhos resolverem depois. Dá para organizar antes.",
+              "headline": "Herança sem pendência começa aqui",
+              "cta": "Saiba mais",
+              "char_count": {
+                "text": 104,
+                "headline": 33,
+                "description": 14
+              },
+              "description": "Para a família"
+            }
+          ]
+        },
+        {
+          "name": "google_ads",
+          "variations": [
+            {
+              "type": "responsive_search",
+              "match_intent": "Informacional: 'imóvel sem escritura o que fazer', 'como tirar escritura de casa sem documento'",
+              "headlines": [
+                "Imóvel Sem Escritura?",
+                "Escritura Não É Matrícula",
+                "Entenda o Que Falta no Imóvel",
+                "Casa Sem Documento Tem Saída",
+                "Regularização em Caxias"
+              ],
+              "descriptions": [
+                "Falta documento? O histórico do imóvel muitas vezes pode ser reconstituído. Entenda.",
+                "Sem matrícula não há financiamento. Veja o que o seu imóvel precisa para ficar em dia.",
+                "Engenharia e a parte legal num processo só, em Caxias do Sul e na Serra Gaúcha."
+              ],
+              "char_count_headlines": [
+                21,
+                25,
+                29,
+                28,
+                23
+              ],
+              "char_count_descriptions": [
+                84,
+                86,
+                79
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "meio_de_funil",
+      "objective": "Consideração: mostrar como a Fixa resolve e provar com casos reais",
+      "tone": "Educativo com prova social real (casos com nome e números publicados), sem prometer prazo",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [
+            {
+              "type": "text_primary",
+              "hook_type": "prova_social",
+              "text": "337 lotes entregues por REURB desde 2024 em Caxias do Sul. A Fixa conduz a engenharia e a parte legal juntas.",
+              "headline": "337 lotes entregues desde 2024",
+              "cta": "Saiba mais",
+              "char_count": {
+                "text": 109,
+                "headline": 30,
+                "description": 11
+              },
+              "description": "Casos reais"
+            },
+            {
+              "type": "text_primary",
+              "hook_type": "diferencial",
+              "text": "Engenheiro de um lado, advogado do outro, e você no meio? Na Fixa a regularização é num processo só.",
+              "headline": "Engenharia e direito, num processo só",
+              "cta": "Saiba mais",
+              "char_count": {
+                "text": 100,
+                "headline": 37
+              }
+            },
+            {
+              "type": "text_primary",
+              "hook_type": "autoridade",
+              "text": "10 anos trabalhando com cartórios e prefeitura em Caxias do Sul. A gente sabe o que cada órgão pede.",
+              "headline": "Quem conhece o caminho do cartório",
+              "cta": "Saiba mais",
+              "char_count": {
+                "text": 100,
+                "headline": 34
+              }
+            }
+          ]
+        },
+        {
+          "name": "google_ads",
+          "variations": [
+            {
+              "type": "responsive_search",
+              "match_intent": "Comercial: 'usucapião Caxias do Sul', 'inventário de imóvel sem escritura', 'usucapião extrajudicial RS'",
+              "headlines": [
+                "Usucapião em Caxias do Sul",
+                "Inventário e Regularização",
+                "Engenharia e Direito Juntos",
+                "10 Anos em Caxias do Sul",
+                "Sem Contratar 2 Prestadores"
+              ],
+              "descriptions": [
+                "Usucapião judicial ou em cartório, com levantamento técnico e parte legal no mesmo lugar.",
+                "Inventário e regularização do imóvel juntos, para a família resolver sem pendência.",
+                "10 anos de relação direta com cartórios e prefeitura. Você sabe em que etapa está."
+              ],
+              "char_count_headlines": [
+                26,
+                26,
+                27,
+                24,
+                27
+              ],
+              "char_count_descriptions": [
+                89,
+                83,
+                82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fundo_de_funil",
+      "objective": "Conversão: levar quem já tem o problema a contar o caso no WhatsApp",
+      "tone": "Direto, CTA claro, sem urgência falsa e sem promessa de prazo",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [
+            {
+              "type": "text_primary",
+              "hook_type": "dor",
+              "text": "Imóvel sem matrícula? Conte seu caso no WhatsApp e a Fixa mostra o caminho para regularizar.",
+              "headline": "Conte seu caso no WhatsApp",
+              "cta": "Enviar mensagem",
+              "char_count": {
+                "text": 92,
+                "headline": 26,
+                "description": 16
+              },
+              "description": "Resposta na hora"
+            },
+            {
+              "type": "text_primary",
+              "hook_type": "resultado",
+              "text": "Matrícula em mãos para vender, financiar ou fazer a partilha. Comece contando seu caso para a Fixa.",
+              "headline": "Seu imóvel resolvido, num processo só",
+              "cta": "Enviar mensagem",
+              "char_count": {
+                "text": 99,
+                "headline": 37,
+                "description": 15
+              },
+              "description": "Fale com a Fixa"
+            },
+            {
+              "type": "text_primary",
+              "hook_type": "objecao",
+              "text": "Faltam papéis do imóvel? Muitas vezes dá para reconstituir. Conte o que você tem e a Fixa analisa o caso.",
+              "headline": "Falta documento? Fale com a Fixa",
+              "cta": "Enviar mensagem",
+              "char_count": {
+                "text": 105,
+                "headline": 32,
+                "description": 15
+              },
+              "description": "Análise do caso"
+            }
+          ]
+        },
+        {
+          "name": "google_ads",
+          "variations": [
+            {
+              "type": "responsive_search",
+              "match_intent": "Transacional: 'regularizar imóvel Caxias do Sul', 'REURB Caxias do Sul', 'regularização fundiária Caxias do Sul'",
+              "headlines": [
+                "Regularização de Imóveis",
+                "Imóvel Sem Matrícula?",
+                "REURB em Caxias do Sul",
+                "Conte Seu Caso no WhatsApp",
+                "Fixa Engenharia & Assessoria"
+              ],
+              "descriptions": [
+                "Engenharia e a parte legal da regularização num processo só. Conte seu caso no WhatsApp.",
+                "Casa, usucapião, inventário e REURB. Valor e parcelamento definidos na análise do caso.",
+                "337 lotes entregues por REURB desde 2024. 10 anos com cartórios e prefeitura."
+              ],
+              "char_count_headlines": [
+                24,
+                21,
+                22,
+                26,
+                28
+              ],
+              "char_count_descriptions": [
+                88,
+                87,
+                77
+              ]
+            },
+            {
+              "type": "responsive_search",
+              "match_intent": "Marca: 'fixa engenharia caxias do sul', 'fixa assessoria', 'fixa regularização de imóveis'",
+              "headlines": [
+                "Fixa Engenharia & Assessoria",
+                "Fixa: Num Processo Só",
+                "10 Anos em Caxias do Sul",
+                "Regularização de Imóveis",
+                "Fale Pelo WhatsApp"
+              ],
+              "descriptions": [
+                "Fixa: engenharia e a parte legal da regularização de imóveis, agora numa marca só.",
+                "Casa, usucapião, inventário e REURB em Caxias do Sul e na Serra Gaúcha.",
+                "Conte seu caso no WhatsApp e fale com quem cuida do seu tipo de processo."
+              ],
+              "char_count_headlines": [
+                28,
+                21,
+                24,
+                24,
+                18
+              ],
+              "char_count_descriptions": [
+                82,
+                71,
+                73
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "remarketing",
+      "objective": "Retomar quem visitou a LP ou engajou no Instagram sem chamar no WhatsApp",
+      "tone": "Próximo e sem pressão, retomando a dúvida mais comum (documento, valor) sem repetir a copy fria",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [
+            {
+              "type": "text_primary",
+              "hook_type": "objecao",
+              "text": "Ficou com dúvida sobre valor? Regularização de casa parte de R$ 5 mil e dá para parcelar. Pergunte no WhatsApp.",
+              "headline": "Dúvida sobre valor? Pergunte",
+              "cta": "Enviar mensagem",
+              "char_count": {
+                "text": 111,
+                "headline": 28,
+                "description": 20
+              },
+              "description": "A partir de R$ 5 mil"
+            },
+            {
+              "type": "text_primary",
+              "hook_type": "prova_social",
+              "text": "Veja como foi a regularização do Paiol Espaço Nativo, em Caxias do Sul, contada por quem viveu o processo.",
+              "headline": "Um caso real, contado pelo cliente",
+              "cta": "Saiba mais",
+              "char_count": {
+                "text": 106,
+                "headline": 34
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "copy_rules_applied": [
+    "Nenhuma promessa de prazo ou data: a prova é o processo integrado, a relação de 10 anos com cartório e prefeitura e os números reais.",
+    "A parte jurídica aparece como 'a parte legal da regularização', nunca como serviço advocatício ou terceira especialidade.",
+    "Topo de funil fala do problema em terceira pessoa e sem citar a marca, para educar e respeitar a política de afirmações pessoais da Meta.",
+    "Só prova verificável: 337 lotes por REURB desde 2024, 10 anos em Caxias do Sul e casos já publicados. A nota do Google não é usada como prova.",
+    "Um CTA de conversão em todo o fundo de funil: 'Conte seu caso no WhatsApp', que leva ao número de campanhas no Kommo."
+  ],
+  "char_limits_reference": {
+    "meta_ads": {
+      "primary_text_max": 125,
+      "headline_max": 40,
+      "description_max": 30,
+      "note": "Limites recomendados para não truncar no celular. O texto principal pode ir até 2.200, mas o que importa aparece antes do 'ver mais'."
+    },
+    "google_ads": {
+      "headline_max": 30,
+      "description_max": 90,
+      "note": "Limites técnicos do anúncio responsivo. Até 15 títulos e 4 descrições; aqui vão 5 e 3 por anúncio, para completar com variações depois do primeiro teste."
+    }
+  },
+  "test_strategy": {
+    "duration_min_days": 7,
+    "min_budget_per_adset_brl": 30,
+    "kpis_kill_criteria": [
+      "Meta: CTR abaixo de 0,8% depois de 1.000 impressões",
+      "Meta: nenhuma conversa no WhatsApp depois de R$ 120 gastos no conjunto (cerca de 2× o CPL meta)",
+      "Google: CTR abaixo de 3% depois de 7 dias no cluster",
+      "Google: título com desempenho 'Baixo' no relatório de recursos do RSA por 14 dias"
+    ],
+    "kpis_winners": [
+      "CPL de mídia na faixa de R$ 50–60 ou abaixo (meta do Cenário B)",
+      "Lead 4★/5★ na triagem do Kommo (qualidade acima de volume)",
+      "CTR acima de 1,2% na Meta e acima de 5% no Google"
+    ]
+  },
+  "total_variations": 15,
+  "variations_breakdown": {
+    "meta_ads": 11,
+    "google_ads_rsa": 4,
+    "google_ads_textual_elements": 32,
+    "note": "1 anúncio Meta = 1 variação; 1 RSA = 1 anúncio com 5 títulos e 3 descrições que o Google combina."
+  },
+  "sheets_url": "clientes/fixa/copy-anuncios-fixa.xlsx",
+  "completed_at": "2026-10-01T21:40:00Z"
+}

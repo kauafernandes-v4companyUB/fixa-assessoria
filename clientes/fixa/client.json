@@ -353,10 +353,11 @@
         "completed_at": null
       },
       "ee-s3-copy-anuncios": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-10-01T21:15:00Z",
+        "completed_at": "2026-10-01T21:40:00Z",
+        "version": 1
       },
       "ee-s3-criativos-anuncios": {
         "status": "pending",
@@ -558,6 +559,12 @@
       "skill": "ee-s3-landing-page",
       "checkpoint": 0,
       "decision": "Copy da LP aprovada pelo operador (9 seções, hero 'Imóvel sem matrícula? Resolvemos num processo só.', casos Paiol e Ângelo Venturin como cards com link para o vídeo, sem citação inventada). Código pronto em landing-fixa/ (Vite + React + Tailwind, tokens do manual de marca, GA4/pixel opcionais por variável). Deploy aguarda o chip do número novo de WhatsApp de campanhas (VITE_WHATSAPP_NUMBER); até lá os CTAs apontam para #contato. Pendente antes do deploy: CNPJs no rodapé e domínio."
+    },
+    {
+      "ts": "2026-10-01T21:40:00Z",
+      "skill": "ee-s3-copy-anuncios",
+      "checkpoint": 0,
+      "decision": "Copy de anúncios aprovada sem ajustes: 15 anúncios (11 Meta + 4 Google RSA) em topo, meio, fundo e remarketing. Mantidos o remarketing com o caso Paiol (sobe só com autorização do cliente para mídia paga) e a descrição 'Resposta na hora' (mídia só liga com o agente de IA do Kommo ativo). Exportada em xlsx (clientes/fixa/copy-anuncios-fixa.xlsx) em vez de Google Sheets: o gog não está instalado. pair_with_creative fica para quando o pack de criativos sair."
     }
   ]
 }
