@@ -1,0 +1,296 @@
+{
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "A landing page da Fixa leva quem tem imóvel sem matrícula até o WhatsApp de campanhas, com a promessa aprovada 'engenharia e direito, num processo só'. São 9 seções, das quais o hero, o problema, a solução, o 'como funciona', os sócios, os serviços, a prova social, o FAQ e o CTA final. Toda prova é real (337 lotes entregues por REURB desde 2024, casos Paiol e Ângelo Venturin) e nenhum texto promete prazo. A URL de deploy fica pendente até o número novo de WhatsApp existir.",
+  "summary_headline": "Uma página, um caminho: imóvel sem matrícula → contar o caso no WhatsApp → a Fixa conduz num processo só.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Promessa do hero",
+      "value": "Num processo só",
+      "subtext": "PUV aprovada em ee-s2-posicionamento, no tom do manual de marca",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Prova real",
+      "value": "337 lotes",
+      "subtext": "Entregues por REURB desde 2024 (programa 'Esse Terreno é Meu'), dado publicado pela própria Fixa",
+      "tone": "green"
+    },
+    {
+      "category": "maturidade",
+      "label": "Seções",
+      "value": "9",
+      "subtext": "Mobile-first, CTA único para o WhatsApp",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "WhatsApp de campanhas",
+      "value": "Pendente",
+      "subtext": "O chip do número novo ainda não foi entregue",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "A Fixa não tem página ativa: o site de 2016 não aparece nem na busca pelo nome. Esta LP é a primeira porta digital da marca unificada e o destino de toda a mídia do Cenário B (R$ 3.000/mês)."
+    },
+    {
+      "category": "acao",
+      "text": "CTA único para o WhatsApp de campanhas, com a mensagem pré-preenchida 'Olá! Vim pelo site da Fixa.'. É essa frase que o Kommo usa para marcar a Origem = Landing page."
+    },
+    {
+      "category": "vantagem",
+      "text": "A prova social é real e já é pública: 337 lotes entregues por REURB desde 2024 e dois casos com nome (Paiol Espaço Nativo e Condomínio Ângelo Venturin) com depoimento em vídeo no Instagram. Não há citação inventada."
+    },
+    {
+      "category": "ameaca",
+      "text": "A página fala de 'direito' e mostra o Christian como advogado. Por isso a copy é informativa: não oferece 'serviços advocatícios' nem promete resultado, e trata a parte legal como etapa do processo de regularização, em linha com as regras de publicidade da OAB (Provimento 205/2021)."
+    },
+    {
+      "category": "acao",
+      "text": "A copy não depende do número de WhatsApp. O número entra numa variável só, e o deploy de produção espera o chip do número novo (ou uma decisão de usar o número atual provisoriamente)."
+    }
+  ],
+  "sections": [
+    {
+      "name": "hero",
+      "eyebrow": "Regularização de imóveis · Caxias do Sul e Serra Gaúcha",
+      "headline": "Imóvel sem matrícula? Resolvemos num processo só.",
+      "subheadline": "Engenharia, arquitetura e a parte legal da regularização no mesmo lugar, com 10 anos de relação direta com cartórios e prefeitura. Para você vender, financiar ou deixar a casa resolvida para os filhos.",
+      "cta_primary": "Contar meu caso no WhatsApp",
+      "cta_secondary": "Ver como funciona",
+      "stats": [
+        {
+          "number": "10 anos",
+          "label": "regularizando imóveis em Caxias do Sul"
+        },
+        {
+          "number": "337 lotes",
+          "label": "entregues por REURB desde 2024"
+        },
+        {
+          "number": "1 processo",
+          "label": "engenharia e parte legal juntas"
+        }
+      ]
+    },
+    {
+      "name": "problem",
+      "eyebrow": "Você não está sozinho nisso",
+      "headline": "Quando o imóvel não tem matrícula, tudo trava",
+      "cards": [
+        {
+          "title": "Sem matrícula, sem venda",
+          "body": "O comprador desiste quando o banco não libera o financiamento. A casa existe para você, mas não para o banco."
+        },
+        {
+          "title": "Cada órgão pede um papel",
+          "body": "Você foi ao cartório e à prefeitura, e cada um pediu um documento diferente, sem ninguém explicar o caminho."
+        },
+        {
+          "title": "Engenheiro de um lado, advogado do outro",
+          "body": "E você no meio, tentando coordenar quem deveria estar coordenando por você."
+        }
+      ]
+    },
+    {
+      "name": "solution",
+      "eyebrow": "O jeito Fixa",
+      "headline": "Engenharia e direito, num processo só",
+      "benefits": [
+        {
+          "icon": "Layers",
+          "title": "Um lugar só para o caso inteiro",
+          "body": "Levantamento, projeto e parte legal conduzidos juntos. Você não precisa contratar e coordenar dois prestadores."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Quem conhece o caminho",
+          "body": "10 anos trabalhando com cartórios e com a prefeitura. A gente sabe o que cada órgão pede, antes de pedir."
+        },
+        {
+          "icon": "ListChecks",
+          "title": "Você sabe em que etapa está",
+          "body": "Cada etapa explicada: o que é com a gente e o que depende do cartório ou da prefeitura."
+        },
+        {
+          "icon": "KeyRound",
+          "title": "Imóvel resolvido para a família",
+          "body": "Matrícula em mãos para vender, financiar ou fazer a partilha sem pendência."
+        }
+      ]
+    },
+    {
+      "name": "how_it_works",
+      "eyebrow": "Como funciona",
+      "headline": "Três passos até o imóvel resolvido",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Conte seu caso no WhatsApp",
+          "body": "Algumas perguntas rápidas sobre o imóvel e você já fala com quem entende do assunto."
+        },
+        {
+          "number": 2,
+          "title": "Análise do caso",
+          "body": "Olhamos a documentação e a situação do imóvel e mostramos o caminho, o valor e as formas de parcelamento."
+        },
+        {
+          "number": 3,
+          "title": "A Fixa conduz o processo",
+          "body": "Do levantamento ao registro no cartório, até a matrícula nas suas mãos."
+        }
+      ]
+    },
+    {
+      "name": "authority",
+      "eyebrow": "Quem conduz o seu caso",
+      "headline": "Um engenheiro e um advogado, no mesmo processo",
+      "body": "Carlos Henrique Garbin, engenheiro civil, cuida da parte técnica e da relação com a prefeitura. Christian Fochezatto Lorencet, advogado, cuida da parte legal da regularização. Os dois trabalham no mesmo caso, sem você precisar levar papel de um para o outro.",
+      "credential_card": {
+        "name": "Carlos Garbin e Christian Lorencet",
+        "role": "Engenheiro civil · Advogado"
+      },
+      "credentials": [
+        {
+          "year": "2016",
+          "title": "Fixa Engenharia nasce em Caxias do Sul"
+        },
+        {
+          "year": "2024",
+          "title": "Fixa Assessoria traz a parte legal para dentro do processo"
+        },
+        {
+          "year": "2024–2026",
+          "title": "337 lotes entregues pelo programa municipal 'Esse Terreno é Meu'"
+        },
+        {
+          "year": "2026",
+          "title": "Uma marca só: Fixa"
+        }
+      ],
+      "cta_primary": "Falar com a Fixa"
+    },
+    {
+      "name": "deliverables",
+      "eyebrow": "O que a Fixa resolve",
+      "headline": "Regularização do terreno à matrícula",
+      "items": [
+        {
+          "title": "Regularização de casa (averbação e escritura)",
+          "benefit": "Para vender ou financiar o imóvel"
+        },
+        {
+          "title": "Usucapião, judicial ou em cartório",
+          "benefit": "Para ter o título de quem ocupa o imóvel há anos"
+        },
+        {
+          "title": "Inventário e partilha",
+          "benefit": "Para passar o imóvel aos herdeiros sem pendência"
+        },
+        {
+          "title": "REURB e loteamentos",
+          "benefit": "Para regularizar áreas inteiras e entregar os títulos"
+        },
+        {
+          "title": "Retificação, unificação e desmembramento",
+          "benefit": "Para corrigir medidas e divisas na matrícula"
+        }
+      ]
+    },
+    {
+      "name": "social_proof",
+      "eyebrow": "Casos reais",
+      "headline": "Histórias que a Fixa ajudou a resolver"
+    },
+    {
+      "name": "faq",
+      "eyebrow": "Perguntas frequentes",
+      "headline": "O que todo mundo pergunta antes de começar"
+    },
+    {
+      "name": "final_cta",
+      "eyebrow": "Comece pelo seu caso",
+      "headline": "Seu imóvel resolvido, num processo só.",
+      "subheadline": "Conte em poucas palavras o que você precisa. A Fixa responde e um especialista assume o seu caso.",
+      "cta_primary": "Falar com a Fixa no WhatsApp"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quanto custa regularizar?",
+      "answer": "Depende do caso. A regularização de casa parte de R$ 5 mil, e dá para parcelar. O valor exato sai na análise do caso, depois de olhar a documentação."
+    },
+    {
+      "question": "Quanto tempo leva?",
+      "answer": "Depende das etapas do seu caso e do cartório e da prefeitura, que a Fixa não controla. Por isso a gente não promete data: mostra cada etapa e o que depende de quem, para você saber sempre onde o processo está."
+    },
+    {
+      "question": "Não tenho todos os documentos. Ainda dá?",
+      "answer": "Na maioria das vezes, sim. O histórico do imóvel pode ser reconstituído com cartório, prefeitura e levantamento técnico. Vale olhar o caso antes de desistir."
+    },
+    {
+      "question": "Já paguei alguém e o processo não andou. Por que seria diferente?",
+      "answer": "Na Fixa, a parte técnica e a parte legal ficam no mesmo processo, com quem trabalha com cartórios e prefeitura há 10 anos. Você acompanha cada etapa e sabe com quem falar."
+    },
+    {
+      "question": "Vou precisar contratar engenheiro e advogado separados?",
+      "answer": "Não. A Fixa resolve a parte técnica e a parte legal da regularização juntas, num processo só."
+    },
+    {
+      "question": "Minha família mora em outra cidade. Como fazemos?",
+      "answer": "A análise do caso pode ser online, com todos os herdeiros ou decisores juntos. Muita coisa se resolve sem ninguém precisar viajar."
+    },
+    {
+      "question": "Vocês atendem a minha cidade?",
+      "answer": "A Fixa fica em Caxias do Sul e atende a Serra Gaúcha, o Rio Grande do Sul e a primeira metade de Santa Catarina."
+    }
+  ],
+  "social_proof": {
+    "testimonials": [],
+    "unavailable_reason": "Os depoimentos existem em vídeo no Instagram (Voltaire, do Paiol Espaço Nativo, e Wagner, do Condomínio Ângelo Venturin), mas não há transcrição do que foi dito. Nenhuma citação foi escrita no lugar deles; os casos entram como cards com link para o vídeo.",
+    "stats": [
+      {
+        "number": "337",
+        "label": "lotes entregues por REURB desde 2024"
+      },
+      {
+        "number": "10 anos",
+        "label": "de regularização em Caxias do Sul"
+      },
+      {
+        "number": "2",
+        "label": "frentes num processo só: engenharia e parte legal"
+      }
+    ],
+    "cases": [
+      {
+        "name": "Paiol Espaço Nativo",
+        "person": "Voltaire",
+        "what": "Regularização da construção do novo galpão e encaminhamentos junto à Prefeitura e ao Corpo de Bombeiros.",
+        "source": "Depoimento em vídeo no Instagram da Fixa",
+        "url": "https://www.instagram.com/reel/Da55764ANhV/"
+      },
+      {
+        "name": "Condomínio Ângelo Venturin",
+        "person": "Wagner",
+        "what": "Regularização fundiária de uma área de família com mais de 20 anos de história, até a entrega aos moradores.",
+        "source": "Depoimento em vídeo no Instagram da Fixa",
+        "url": "https://www.instagram.com/reel/DbY5Ec2k5id/"
+      }
+    ]
+  },
+  "meta": {
+    "title": "Regularização de imóveis em Caxias do Sul | Fixa",
+    "description": "Imóvel sem matrícula? A Fixa resolve a engenharia e a parte legal da regularização num processo só. Caxias do Sul e Serra Gaúcha.",
+    "og_title": "Fixa · Engenharia e direito, num processo só",
+    "og_description": "Regularização de imóveis em Caxias do Sul e Serra Gaúcha: casa, usucapião, inventário e REURB. Conte seu caso no WhatsApp.",
+    "og_type": "website"
+  },
+  "whatsapp_message": "Olá! Vim pelo site da Fixa.",
+  "whatsapp_link": "https://wa.me/{WHATSAPP_CAMPANHAS}?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Fixa.",
+  "deploy_unavailable_reason": "Deploy de produção aguarda o número novo de WhatsApp de campanhas (chip ainda não entregue)."
+}

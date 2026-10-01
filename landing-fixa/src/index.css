@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Tokens do Manual de Marca da Fixa (ee-s3-manual-marca, 01/10/2026) */
+@theme {
+  --color-fixa: #1E2B53;      /* Azul Fixa */
+  --color-grafite: #6B6B6B;   /* Cinza Grafite */
+  --color-serra: #2F6DB5;     /* Azul Serra (CTA, links) */
+  --color-nevoa: #F3F5F9;     /* Névoa (fundos de seção) */
+  --color-linha: #D8DEE8;     /* Linha (bordas) */
+  --color-tinta: #1A2033;     /* Tinta (texto corrido) */
+  --font-display: "Manrope", "Segoe UI", Roboto, Arial, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-white text-tinta font-body text-lg leading-relaxed antialiased; }
+  h1, h2, h3 { @apply font-display text-fixa; }
+}
+
+/* Grafismo do manual: linhas de levantamento em Cinza Grafite a 30% */
+.survey-lines {
+  background-image:
+    linear-gradient(rgba(107,107,107,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(107,107,107,.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
