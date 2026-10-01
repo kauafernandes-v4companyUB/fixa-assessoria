@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-10-01 18:12 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
+*Gerado em 2026-10-01 18:32 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -540,19 +540,20 @@ O cliente oculto da Fixa Engenharia & Assessoria (29/09, WhatsApp da bio do Inst
 - ✅ **ee-s4-diagnostico-comercial** — concluída em 2026-09-30T12:40:00Z
 - ✅ **ee-s3-is-metricas-funil** — concluída em 2026-09-30T13:05:00Z
 - ✅ **ee-s3-is-pipeline** — concluída em 2026-09-30T13:30:00Z
+- ✅ **ee-s3-manual-marca** — concluída em 2026-10-01T16:00:00Z
 - 🟡 **ee-s3-crm-setup** — em andamento
 
 **Semana atual:** 4
 
 ### Histórico de refinamentos
-- *2026-09-29T16:30:00Z* — **ee-s4-diagnostico-comercial** (—): 
-- *2026-09-29T16:45:00Z* — **ee-s4-diagnostico-comercial** (—): 
 - *2026-09-30T12:00:00Z* — **ee-s4-cliente-oculto** (—): 
 - *2026-09-30T12:15:00Z* — **ee-s4-cliente-oculto** (—): 
 - *2026-09-30T12:40:00Z* — **ee-s4-diagnostico-comercial** (—): 
 - *2026-09-30T13:05:00Z* — **ee-s3-is-metricas-funil** (—): 
 - *2026-09-30T13:30:00Z* — **ee-s3-is-pipeline** (—): 
 - *2026-09-30T14:00:00Z* — **ee-s3-crm-setup** (—): 
+- *2026-10-01T14:30:00Z* — **ee-s3-crm-setup** (—): 
+- *2026-10-01T16:00:00Z* — **ee-s3-manual-marca** (—): 
 
 ---
 

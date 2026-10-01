@@ -1,0 +1,1106 @@
+{
+  "summary": "O Manual de Marca da Fixa junta os dois MIVs atuais (Fixa Engenharia e Fixa Assessoria) numa marca só, 'Fixa', com um descritor único, um Instagram e uma paleta, como os sócios pediram no kick-off. Ele mantém o Azul Fixa e o cinza do logo atual, traduz o território aprovado (Integração, Relacionamento, Tranquilidade) em tom de voz com 4 pilares, tipografia Manrope + Source Sans 3 e 11 aplicações. Duas regras valem para toda peça: nunca prometer prazo e não apresentar o jurídico como terceira especialidade.",
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary_headline": "Uma marca só: 'Fixa', azul, um Instagram e uma voz técnica que explica sem prometer prazo.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Arquitetura de marca",
+      "value": "Marca única",
+      "subtext": "'Fixa' + descritor 'Engenharia & Assessoria'; razões sociais só em contrato, nota e rodapé",
+      "tone": "blue"
+    },
+    {
+      "category": "maturidade",
+      "label": "MIVs unificados",
+      "value": "2 → 1",
+      "subtext": "Fixa Engenharia e Fixa Assessoria num manual só",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Cores mantidas",
+      "value": "Azul + cinza",
+      "subtext": "Azul Fixa #1E2B53 do logo atual + sobretom Azul Serra para CTA",
+      "tone": "blue"
+    },
+    {
+      "category": "maturidade",
+      "label": "Tom de voz",
+      "value": "4 pilares",
+      "subtext": "Técnico e didático, seguro sem prometer, próximo, direto",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Arroba do Instagram",
+      "value": "A definir",
+      "subtext": "@fixa_engenharia não representa a marca unificada; checar disponibilidade das opções",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "Hoje a Fixa tem dois MIVs (um por empresa), um Instagram com nome de uma só (@fixa_engenharia) e um logo que já lista 'Engenharia | Arquitetura | Assessoria'. No kick-off (08/09), o Carlos foi claro: um Instagram só, porque ter um para cada 'vira bagunça', como aconteceu com um concorrente, e 'são assuntos muito complementares'."
+    },
+    {
+      "category": "acao",
+      "text": "Decisão de arquitetura: marca monolítica. 'Fixa' é a marca que o cliente vê em tudo. O descritor é único ('Engenharia & Assessoria'), sem sub-marcas e sem uma cor por empresa. As razões sociais (Fixa Engenharia Ltda e Fixa Assessoria Ltda) aparecem só onde a lei exige: contrato, nota fiscal, proposta e rodapé."
+    },
+    {
+      "category": "vantagem",
+      "text": "A unificação é o posicionamento aplicado à marca: se a promessa é 'engenharia e direito, num processo só', a marca não pode se apresentar em duas. Um nome, um número e um Instagram são a prova visual do 'num processo só'."
+    },
+    {
+      "category": "ameaca",
+      "text": "Duas regras que nenhum designer ou redator pode quebrar: nenhuma peça promete prazo ou data de conclusão, e o jurídico nunca aparece como terceira especialidade equivalente (é a parte legal resolvida dentro do processo). Também ficam fora: telhado e casa como símbolo, 'reforma' e 'execução de obra' (a Fixa não faz)."
+    },
+    {
+      "category": "acao",
+      "text": "Antes do designer começar: (1) conseguir os vetores dos dois MIVs atuais para confirmar o Azul Fixa (o hex veio de um arquivo de 128px); (2) escolher a nova arroba entre as opções e conferir a disponibilidade; (3) decidir qual das 3 direções de logo gerar primeiro."
+    }
+  ],
+  "scope": "established",
+  "block1_strategic_foundations": {
+    "presentation": {
+      "opening_letter": null,
+      "manifesto_short": "Engenharia e direito, num processo só: a Fixa deixa o seu imóvel resolvido.",
+      "manifesto_narrative": "Quem tem um imóvel sem matrícula conhece o caminho: o cartório pede um papel, a prefeitura pede outro, o engenheiro resolve a planta e manda procurar um advogado. A pessoa fica no meio, tentando coordenar quem deveria estar coordenando por ela. Muita gente desiste. Outros pagam alguém e o processo não sai do lugar.\n\nA Fixa nasceu em Caxias do Sul, em 2016, como escritório de engenharia, e em 2024 trouxe para dentro a parte legal da regularização. Hoje engenharia, arquitetura e a parte jurídica do processo andam juntas, com um ponto de contato só e dez anos de relação direta com cartórios e prefeitura. A Fixa não promete data, porque quem decide o ritmo de um registro é o cartório. Promete conduzir cada etapa e mostrar ao cliente em que ponto o processo está.\n\nNo fim, o que a família recebe é simples: a matrícula em mãos. O imóvel pode ser vendido, financiado ou deixado para os filhos sem pendência. É para isso que a Fixa existe.",
+      "navigation_instructions": "Este manual tem 5 blocos. Bloco 1 (por que a Fixa existe e para quem) e Bloco 2 (como a Fixa fala) valem para qualquer pessoa que escreva em nome da marca: sócios, equipe, V4, agente de IA do Kommo. Bloco 3 (logo, cores, tipografia) e Bloco 4 (aplicações) são o briefing do designer: o manual define as regras e o designer produz os arquivos. Bloco 5 diz quem aprova o quê. Em dúvida, as duas regras inegociáveis estão no Bloco 2: nunca prometer prazo e nunca apresentar o jurídico como terceira especialidade.",
+      "unavailable_reason": "opening_letter: os sócios não escreveram carta de abertura; o manifesto narrativo cumpre esse papel."
+    },
+    "essence": {
+      "purpose": "Deixar o imóvel das famílias da Serra Gaúcha resolvido, para que possam vender, financiar ou deixá-lo para os filhos sem pendência.",
+      "vision": "Ser a referência em regularização de imóveis na Serra Gaúcha e, a partir dela, no Rio Grande do Sul e na primeira metade de Santa Catarina, reconhecida por conduzir engenharia e parte legal num processo só.",
+      "mission": "Conduzir a regularização do imóvel do início ao fim, juntando levantamento técnico, projeto e parte legal num único processo, com relação direta com cartórios e prefeituras e clareza sobre cada etapa.",
+      "values": [
+        {
+          "name": "Um processo só",
+          "behavior_yes": "Assumir a coordenação do caso inteiro: a planta, o cartório, a prefeitura e a parte legal. O cliente fala com um ponto de contato.",
+          "behavior_no": "Mandar o cliente 'procurar um advogado' ou 'ver isso com o cartório' quando a etapa é parte do processo."
+        },
+        {
+          "name": "Clareza sem promessa",
+          "behavior_yes": "Explicar as etapas do caso, o que depende da Fixa e o que depende de cartório e prefeitura.",
+          "behavior_no": "Prometer data de conclusão ou dizer 'é rapidinho' para fechar o contrato."
+        },
+        {
+          "name": "Relação de longo prazo",
+          "behavior_yes": "Tratar cartório, prefeitura e cliente como relações que duram anos. Retomar quem parou de responder, sem pressão.",
+          "behavior_no": "Queimar uma relação institucional para acelerar um caso, ou insistir com o cliente até ele desistir."
+        },
+        {
+          "name": "Rigor técnico",
+          "behavior_yes": "Levantar, medir e documentar antes de opinar. Dizer 'precisamos analisar o caso' quando for o caso.",
+          "behavior_no": "Dar diagnóstico ou orçamento fechado por WhatsApp sem olhar a documentação."
+        }
+      ],
+      "promise": "Você fala com um lugar só, sabe em que etapa o seu processo está e termina com o imóvel resolvido.",
+      "big_idea": "Num processo só.",
+      "brand_pillars": [
+        {
+          "name": "Integração",
+          "description": "Engenharia, arquitetura e a parte legal da regularização resolvidas dentro do mesmo processo, sem o cliente coordenar dois prestadores."
+        },
+        {
+          "name": "Relacionamento",
+          "description": "Dez anos de relação direta com cartórios e com a Secretaria de Urbanismo de Caxias do Sul, que tiram atrito do caminho."
+        },
+        {
+          "name": "Tranquilidade",
+          "description": "A entrega emocional: a família resolve o imóvel sem disputa e sem deixar pendência para os filhos."
+        },
+        {
+          "name": "Clareza",
+          "description": "O cliente entende o caso dele: etapas, documentos e o que depende de quem, sem juridiquês e sem promessa de data."
+        }
+      ]
+    },
+    "positioning": {
+      "statement": "A Fixa resolve engenharia e a parte jurídica da regularização em um único processo — sem contratar dois prestadores — com 10 anos de relacionamento direto com cartórios e prefeitura, pra você vender, financiar ou deixar a casa resolvida pros filhos.",
+      "territory": "Integração + Relacionamento + Tranquilidade (aprovado em ee-s2-posicionamento, 23/09). Nenhum dos concorrentes mapeados ocupa as três juntas.",
+      "archetype_dominant": {
+        "name": "Sábio",
+        "justification": "O território é de conhecimento aplicado: a Fixa entende de engenharia e da parte legal e traduz isso para quem não entende ('já tentei sozinha e não consegui nem entender o que me pediam' — persona Ivete). O tom aprovado é 'técnico/profissional com camada didática'. O Sábio explica e dá clareza, sem prometer milagre, o que combina com a regra de não prometer prazo."
+      },
+      "archetype_secondary": {
+        "name": "Cuidador",
+        "justification": "Sustenta o pilar Tranquilidade: o motivo final do cliente é proteger a família ('não deixar essa dor de cabeça pros meus filhos'). O Cuidador aparece no acolhimento de quem já teve experiência ruim e na retomada sem pressão. Ele suaviza o Sábio, mas não vira assistencialismo nem promessa emocional."
+      },
+      "competitive_matrix": {
+        "axis_x": "Boutique relacional (baixa escala, alta proximidade) ↔ Holding institucionalizada (alta escala, processo padronizado)",
+        "axis_y": "Presença digital fraca ↔ Presença digital forte",
+        "client_position": "Hoje: boutique relacional + digital fraco. Destino: boutique relacional + digital forte (quadrante vazio).",
+        "competitors": [
+          {
+            "name": "Balen Regularizações",
+            "quadrant": "Holding institucionalizada + presença digital forte"
+          },
+          {
+            "name": "DCA Engenharia",
+            "quadrant": "Meio-termo: relacional com SEO tático forte, digital moderado"
+          },
+          {
+            "name": "BLM Assessoria Imobiliária",
+            "quadrant": "Boutique relacional + presença digital fraca"
+          }
+        ]
+      },
+      "puv": "A Fixa combina engenharia e arquitetura com a parte legal da regularização e dez anos de relação direta com cartórios e prefeitura para resolver o imóvel que não pode ser vendido, financiado ou herdado, eliminando o vaivém entre dois prestadores que ninguém coordena."
+    },
+    "audience_persona": {
+      "primary_persona": {
+        "name": "Ivete Dal Bosco",
+        "photo_description": "Mulher de 61 anos, cabelo grisalho curto, óculos de leitura pendurados no pescoço, expressão séria e acolhedora, na varanda de uma casa de padrão médio num bairro consolidado de Caxias do Sul. Para fotos de campanha: usar clientes reais com autorização ou fotos próprias, nunca banco de imagens.",
+        "age": "61 anos (ICP: 35 a 70, núcleo 40 a 70)",
+        "income": "Classe média a média-alta (B/B+, no máximo C)",
+        "occupation": "Aposentada, viúva, com três filhos morando em outras cidades",
+        "main_pain": "A casa construída pelo marido nunca teve escritura definitiva registrada. O comprador exige matrícula e o banco não financia sem ela. Já tentou sozinha no cartório e na prefeitura e não entendeu o que pediam.",
+        "purchase_motivators": "Vender em paz, não deixar problema para os filhos, ter alguém que conduza tudo e explique em que pé está, e confiar em quem tem relação com cartório e prefeitura."
+      },
+      "secondary_persona": {
+        "name": "Loteador / empresa com área a regularizar (REURB)",
+        "description": "Dono de área ou empresa com loteamento irregular em Caxias do Sul e região, que precisa regularizar para vender os lotes. Decide por relação e histórico técnico, e o ticket vai de R$ 100 mil a R$ 400 mil. A marca fala com ele no mesmo tom, mas com mais peso em projeto, portfólio e relação institucional. Captação principalmente por relacionamento, não por mídia."
+      },
+      "anti_persona": {
+        "profiles": [
+          "Curioso Especulador: quer saber 'quanto custa' ou 'como faço sozinho', sem caso concreto.",
+          "Fora do Padrão de Atendimento: renda e bairro abaixo do que a Fixa atende hoje; não consegue pagar o serviço de entrada, nem parcelado.",
+          "Emergência de Última Hora: quer a matrícula 'para semana que vem' e só aceita seguir com data garantida, que a Fixa não promete."
+        ],
+        "communication_rule": "A marca não fala para esses perfis: nada de 'regularização barata', 'faça você mesmo' ou 'resolvemos em X dias'."
+      },
+      "buyer_journey_summary": "Gatilho (quer vender, financiar ou fazer inventário e descobre que não tem matrícula) → pesquisa (Google, indicação, Instagram: 'quem é confiável?') → primeiro contato pelo WhatsApp (decide o escritório em 1 a 3 semanas, com desconfiança) → análise do caso com a família → contrato → processo de meses a anos, acompanhado etapa por etapa → matrícula em mãos e indicação. Em toda a jornada, a marca precisa reduzir a desconfiança, não a ansiedade por prazo."
+    },
+    "history_culture": {
+      "origin": "Fixa Engenharia Ltda, fundada em 13/09/2016 em Caxias do Sul pelo engenheiro civil Carlos Henrique Garbin. Em 22/08/2024 nasce a Fixa Assessoria Ltda, sociedade de Carlos com o advogado Christian Fochezatto Lorencet, para trazer para dentro a parte legal da regularização. As duas empresas dividem sede, comercial e marketing. Os CNPJs são separados por razões trabalhistas e contábeis.",
+      "milestones": [
+        "2016: fundação da Fixa Engenharia em Caxias do Sul",
+        "2018: clientes de longa duração que seguem com a Fixa até hoje",
+        "2024: fundação da Fixa Assessoria (engenharia + parte legal no mesmo escritório)",
+        "2026: unificação da marca 'Fixa' e início da captação digital"
+      ],
+      "culture": "Escritório técnico, de relação longa com cartório, prefeitura e clientes. O sócio fundador gosta de organização e quer as duas empresas 'rodando sozinhas' (kick-off, 08/09): processo, sistema de gestão próprio em implantação e menos dependência de uma pessoa só.",
+      "legacy": "Dez anos de casos resolvidos na Serra Gaúcha e relação consolidada com os órgãos que decidem o processo. É o ativo que a marca unificada precisa tornar visível."
+    }
+  },
+  "block2_verbal_identity": {
+    "personality": {
+      "scales": [
+        {
+          "trait_low": "Informal",
+          "trait_high": "Formal",
+          "position": 6
+        },
+        {
+          "trait_low": "Didático",
+          "trait_high": "Técnico",
+          "position": 5
+        },
+        {
+          "trait_low": "Contido",
+          "trait_high": "Entusiasmado",
+          "position": 3
+        },
+        {
+          "trait_low": "Próximo",
+          "trait_high": "Institucional",
+          "position": 5
+        },
+        {
+          "trait_low": "Tradicional",
+          "trait_high": "Moderno",
+          "position": 6
+        },
+        {
+          "trait_low": "Promessa",
+          "trait_high": "Evidência",
+          "position": 9
+        }
+      ],
+      "archetype_applied": "Sábio que cuida: explica com precisão e calma, mostra o caminho do caso e acolhe quem já se frustrou. Nunca exagera, nunca promete o que depende de terceiros.",
+      "as_a_person": "Um engenheiro de uns 45 anos, nascido na Serra, que conhece todo mundo no cartório e na prefeitura. Fala baixo e claro, desenha o caso num papel para o cliente entender e diz 'isso depende do cartório' sem vergonha. Não usa termo técnico sem explicar e não fala mal de concorrente. Quando não sabe, diz 'preciso olhar a documentação'."
+    },
+    "tone_of_voice": {
+      "pillars": [
+        {
+          "name": "Técnico, explicado",
+          "definition": "Usa o termo certo (matrícula, averbação, REURB) e explica em seguida, em linguagem de quem nunca entrou num cartório.",
+          "manifestation": "'A averbação é o registro da construção na matrícula. Sem ela, para o banco, a casa não existe.'"
+        },
+        {
+          "name": "Seguro, sem prometer",
+          "definition": "Transmite segurança pelo método e pela relação institucional, nunca por data ou garantia de resultado.",
+          "manifestation": "'Cada etapa do seu caso fica clara para você: o que é com a gente e o que depende do cartório.'"
+        },
+        {
+          "name": "Próximo",
+          "definition": "Fala como gente da região, que conhece o cartório pelo nome e trata o cliente pelo nome.",
+          "manifestation": "'Aqui é o Carlos, engenheiro da Fixa. Li o que você contou sobre a casa dos seus pais.'"
+        },
+        {
+          "name": "Direto",
+          "definition": "Frases curtas, um assunto por mensagem e próximo passo claro. Sem rodeio e sem 'textão'.",
+          "manifestation": "'Me conta: o imóvel é seu ou da família? Quem mais participa da decisão?'"
+        }
+      ],
+      "channel_variations": [
+        {
+          "channel": "Instagram (feed e reels)",
+          "adaptation": "Didático e visual: um conceito por post (matrícula, averbação, usucapião) e bastidores reais (entrega de pastas, cartório, campo). Legenda curta com o ponto principal na primeira linha. Sem prometer prazo e sem foto de banco."
+        },
+        {
+          "channel": "WhatsApp (agente de IA e sócios)",
+          "adaptation": "Curto, no máximo 3 frases por mensagem, uma pergunta por vez. O agente se apresenta como Fixa; o humano sempre começa com o nome ('Aqui é o Christian…'). Sem emoji em excesso e sem áudio longo."
+        },
+        {
+          "channel": "Landing page e Google Ads",
+          "adaptation": "Funcional e escaneável: o problema do cliente no título ('Imóvel sem matrícula?'), 'num processo só' como argumento e CTA para WhatsApp. Prova por relação institucional e casos, nunca por prazo."
+        },
+        {
+          "channel": "E-mail e proposta comercial",
+          "adaptation": "Mais formal, com razão social correta no rodapé. Etapas do caso numeradas, o que depende de terceiros dito explicitamente e valor com forma de pagamento."
+        },
+        {
+          "channel": "Material impresso (panfleto, pasta de serviço)",
+          "adaptation": "Institucional e regional: '10 anos resolvendo regularização de imóvel em Caxias do Sul' como apoio, contato único (WhatsApp de campanhas) e QR code para a página."
+        },
+        {
+          "channel": "Relacionamento B2B (loteadores, empresas)",
+          "adaptation": "Técnico e de portfólio: projetos executados, relação com órgãos e capacidade de projeto (urbanístico, drenagem, água, esgoto). Mesmo nome e mesmo visual."
+        }
+      ],
+      "say_dont_say": [
+        {
+          "situation": "Cliente pergunta quanto tempo leva",
+          "say": "Depende das etapas do seu caso e do cartório. Na análise a gente mostra cada etapa e o que depende de quem.",
+          "dont_say": "Em uns 3 meses está pronto.",
+          "reason": "O prazo depende de terceiros. Prometer data é a regra número 1 que a marca não quebra."
+        },
+        {
+          "situation": "Apresentar o que a Fixa faz",
+          "say": "Engenharia e direito, num processo só.",
+          "dont_say": "Somos um escritório de engenharia, arquitetura e advocacia.",
+          "reason": "O jurídico é a parte legal da regularização, não uma terceira especialidade nem escritório de advocacia."
+        },
+        {
+          "situation": "Nome da empresa em peça de comunicação",
+          "say": "Fixa",
+          "dont_say": "Fixa Engenharia / Fixa Assessoria (como marca)",
+          "reason": "Marca unificada. As razões sociais só aparecem em contrato, nota, proposta e rodapé."
+        },
+        {
+          "situation": "Cliente sem todos os documentos",
+          "say": "É mais comum do que parece: muitas vezes o histórico do imóvel pode ser reconstituído. Vale olhar o seu caso.",
+          "dont_say": "Sem esses documentos não tem como.",
+          "reason": "A objeção de documentação é das que mais travam o ICP. A marca abre caminho, não fecha."
+        },
+        {
+          "situation": "Cliente que já pagou alguém e não saiu do lugar",
+          "say": "Entendo a desconfiança. Vou te mostrar como a gente conduz cada etapa e onde o seu caso está.",
+          "dont_say": "Esses advogados de hoje não sabem fazer nada.",
+          "reason": "Nunca falar mal de concorrente ou de outro profissional. A confiança vem do método."
+        },
+        {
+          "situation": "Pergunta de preço no primeiro contato",
+          "say": "Regularização de casa parte de R$ 5 mil e dá para parcelar. O valor certo sai na análise do seu caso.",
+          "dont_say": "É baratinho! / Só passo valor pessoalmente.",
+          "reason": "Transparência de faixa sem negociar no WhatsApp. Não se posiciona como barata."
+        },
+        {
+          "situation": "Descrever o serviço",
+          "say": "Regularização de imóvel, averbação, usucapião, inventário, REURB.",
+          "dont_say": "Reformas, execução de obras, construção.",
+          "reason": "A Fixa não executa obra (kick-off, 08/09). Termos de obra atraem o lead errado."
+        },
+        {
+          "situation": "Falar da experiência",
+          "say": "10 anos resolvendo regularização de imóvel em Caxias do Sul.",
+          "dont_say": "Líderes do mercado / a maior da Serra.",
+          "reason": "Claim de liderança não comprovado. A marca usa evidência, não superlativo."
+        },
+        {
+          "situation": "Benefício final",
+          "say": "Para você vender, financiar ou deixar a casa resolvida para os filhos.",
+          "dont_say": "Realize o sonho da casa própria!",
+          "reason": "O cliente já tem a casa. O ganho é tranquilidade e liberdade de decidir, não o sonho."
+        },
+        {
+          "situation": "Retomar quem parou de responder",
+          "say": "Vou deixar o seu caso guardado aqui. Quando fizer sentido, é só responder.",
+          "dont_say": "Última chance! Condição especial só hoje!",
+          "reason": "Ticket alto e decisão em família. A pressão queima o lead que mais vale."
+        },
+        {
+          "situation": "Explicar a relação com cartório e prefeitura",
+          "say": "A gente trabalha com cartórios e com a prefeitura há 10 anos. Sabemos o que cada um pede.",
+          "dont_say": "A gente tem contato lá dentro e consegue acelerar.",
+          "reason": "Relacionamento é conhecimento do processo, nunca favorecimento. A frase errada é risco reputacional e ético."
+        },
+        {
+          "situation": "Atendimento fora do horário",
+          "say": "Recebemos sua mensagem. O especialista responde no próximo dia útil.",
+          "dont_say": "Em instantes alguém te atende! (às 22h)",
+          "reason": "Promessa que não se cumpre destrói confiança logo no primeiro contato."
+        }
+      ]
+    },
+    "editorial_guidelines": {
+      "vocabulary_categorized": {
+        "essence_words": [
+          "regularização",
+          "processo só",
+          "matrícula",
+          "integração",
+          "relacionamento",
+          "resolvido",
+          "etapa"
+        ],
+        "valued_repeated": [
+          "num processo só",
+          "imóvel resolvido",
+          "10 anos",
+          "cartório e prefeitura",
+          "análise do caso",
+          "cada etapa",
+          "Caxias do Sul e Serra Gaúcha"
+        ],
+        "audience_connection": [
+          "vender",
+          "financiar",
+          "deixar para os filhos",
+          "família",
+          "tranquilidade",
+          "sem dor de cabeça",
+          "em que pé está"
+        ]
+      },
+      "official_glossary": [
+        {
+          "term": "Matrícula",
+          "definition": "O 'RG' do imóvel no Registro de Imóveis. Sem matrícula regularizada não há venda com financiamento nem herança sem pendência."
+        },
+        {
+          "term": "Escritura",
+          "definition": "Documento da compra feito no tabelionato. Só passa a propriedade depois de registrado na matrícula."
+        },
+        {
+          "term": "Averbação",
+          "definition": "Registro de uma alteração na matrícula, por exemplo a construção da casa."
+        },
+        {
+          "term": "Usucapião",
+          "definition": "Forma de obter a propriedade de quem ocupa o imóvel há anos sem título, judicial ou em cartório (extrajudicial)."
+        },
+        {
+          "term": "Inventário",
+          "definition": "Processo que transfere os bens de quem faleceu para os herdeiros. Muitas vezes vem junto com a regularização do imóvel."
+        },
+        {
+          "term": "REURB",
+          "definition": "Regularização Fundiária Urbana (Lei 13.465/2017), usada para regularizar núcleos e loteamentos inteiros."
+        },
+        {
+          "term": "Análise do caso",
+          "definition": "Nome oficial da etapa em que a Fixa estuda documentação e situação do imóvel antes da proposta. Não chamar de 'consulta'."
+        }
+      ],
+      "forbidden_terms": [
+        {
+          "term": "prazo garantido / pronto em X dias",
+          "use_instead": "explicar as etapas e o que depende do cartório"
+        },
+        {
+          "term": "rapidinho / sem burocracia",
+          "use_instead": "a gente conduz a burocracia por você"
+        },
+        {
+          "term": "escritório de advocacia / departamento jurídico",
+          "use_instead": "a parte legal da regularização, resolvida no mesmo processo"
+        },
+        {
+          "term": "Fixa Engenharia / Fixa Assessoria (como marca)",
+          "use_instead": "Fixa"
+        },
+        {
+          "term": "reforma / execução de obra / construção",
+          "use_instead": "regularização / projeto"
+        },
+        {
+          "term": "despachante",
+          "use_instead": "condução do processo"
+        },
+        {
+          "term": "líder / maior / melhor da região",
+          "use_instead": "10 anos resolvendo regularização em Caxias do Sul"
+        },
+        {
+          "term": "contato lá dentro / acelerar no cartório",
+          "use_instead": "relação de 10 anos com cartórios e prefeitura"
+        }
+      ],
+      "form_of_address": "'Você', sempre. Nome do cliente quando souber. Sem 'senhor/senhora' por padrão; se o cliente usar, acompanhar. No WhatsApp humano, assinar com o nome ('Aqui é o Carlos'). A empresa fala na primeira pessoa do plural: 'a gente' no WhatsApp e no Instagram, 'nós' em proposta e e-mail.",
+      "emoji_punctuation": "Emoji no máximo um por mensagem e só em contexto leve (boas-vindas, agradecimento). Nada de emoji em proposta, valor ou más notícias. Sem caixa alta para ênfase e sem '!!!'. Ponto de exclamação no máximo um por mensagem.",
+      "grammar_rules": "Frases curtas, voz ativa e um assunto por parágrafo. Termo técnico sempre seguido de explicação na primeira vez. Números em algarismo (10 anos, R$ 5 mil). 'Fixa' sempre com F maiúsculo e o resto minúsculo no texto corrido (o logo usa caixa alta, o texto não)."
+    },
+    "naming_taxonomy": {
+      "rule": "Unificação (decisão dos sócios no kick-off de 08/09): a marca é uma só, 'Fixa'. Arquitetura monolítica: um nome, um logo, uma paleta, um Instagram, um WhatsApp de campanhas. O descritor único 'Engenharia & Assessoria' substitui os dois logos atuais. Arquitetura entra no texto ('engenharia e arquitetura'), não no descritor. A parte jurídica fica dentro de 'Assessoria' e nunca vira terceira frente no logo. As razões sociais (Fixa Engenharia Ltda, CNPJ de 2016; Fixa Assessoria Ltda, CNPJ de 2024) aparecem só onde a lei pede: contrato, nota fiscal, proposta, rodapé do site e do e-mail. Alternativa considerada e descartada: 'Fixa' com sub-marcas e uma cor por segmento (sugestão do Léo no kick-off). Foi descartada porque o Carlos pediu um Instagram só, a persona é a mesma nas frentes e uma empresa 'puxa serviço para a outra'. Separar a marca contradiria o 'num processo só'.",
+      "examples_yes": [
+        "Fixa",
+        "Fixa · Engenharia & Assessoria (lockup do logo)",
+        "Na Fixa, engenharia e direito andam num processo só",
+        "Carlos Garbin · Engenheiro civil · Fixa",
+        "Christian Lorencet · Advogado · Fixa",
+        "Rodapé: Fixa Engenharia Ltda — CNPJ … · Fixa Assessoria Ltda — CNPJ …"
+      ],
+      "examples_no": [
+        "Fixa Engenharia (como nome de marca em anúncio ou post)",
+        "Fixa Assessoria (como perfil ou logo separado)",
+        "Fixa Jurídico / Fixa Advocacia",
+        "Logo azul para engenharia e outra cor para assessoria",
+        "@fixa_engenharia como perfil oficial da marca unificada",
+        "Engenharia | Arquitetura | Assessoria | Jurídico (quatro frentes no descritor)"
+      ],
+      "instagram_handle": {
+        "current": "@fixa_engenharia",
+        "recommendation": "Renomear o mesmo perfil (mantém seguidores e histórico) para uma arroba que represente a marca unificada.",
+        "options_to_check": [
+          "@fixa.regularizacao",
+          "@fixa.engenhariaeassessoria",
+          "@fixaregulariza"
+        ],
+        "availability_checked": false,
+        "note": "Disponibilidade não verificada. O operador confere no Instagram antes da reunião. Nome de exibição: 'Fixa · Engenharia & Assessoria'."
+      },
+      "unavailable_reason": null
+    },
+    "storytelling": {
+      "story_arc": {
+        "act1_before": "O imóvel não tem matrícula. O comprador ou o banco trava a venda, o cartório pede um papel e a prefeitura pede outro. O dono vai e volta entre engenheiro e advogado, ou já pagou alguém e o processo não andou.",
+        "act2_different": "A Fixa conduz tudo num processo só: levantamento técnico, projeto e parte legal, com quem trabalha com cartório e prefeitura há 10 anos. O cliente fala com um lugar só e sabe em que etapa está, sem promessa de data.",
+        "act3_after": "Matrícula em mãos. O imóvel pode ser vendido, financiado ou deixado para os filhos sem pendência e sem disputa."
+      },
+      "frameworks": [
+        "Problema → caminho → resolvido (posts educativos e reels)",
+        "SPIN no atendimento: situação, problema, implicação, necessidade (roteiro comercial do pipeline)",
+        "Antes/depois documental, sem prazo: situação do imóvel → matrícula regularizada"
+      ],
+      "opening_hooks": [
+        "Sua casa existe para você, mas não existe para o banco?",
+        "Escritura não é matrícula. E essa diferença trava muita venda.",
+        "Engenheiro de um lado, advogado do outro, e você no meio?",
+        "Herdou um imóvel sem documentação? Comece por aqui.",
+        "Já tentou resolver no cartório e não entendeu o que pediram?"
+      ]
+    },
+    "slogan_tagline_signatures": {
+      "slogan": null,
+      "tagline": "Engenharia e direito, num processo só.",
+      "verbal_signatures": [
+        "10 anos resolvendo regularização de imóvel em Caxias do Sul.",
+        "Seu imóvel resolvido, num processo só.",
+        "Fixa · Engenharia & Assessoria"
+      ],
+      "unavailable_reason": "slogan: não há campanha ativa; a tagline institucional é a frase fixa da marca e o slogan nasce com a primeira campanha."
+    }
+  },
+  "block3_visual_identity_core": {
+    "logo": {
+      "concept": "O logo da Fixa unificada precisa dizer duas coisas ao mesmo tempo: continuidade (10 anos de reconhecimento local com o azul e o nome 'FIXA') e integração (dois saberes num processo só). Por isso a recomendação é evoluir, não recriar. O wordmark 'FIXA' em caixa alta e o Azul Fixa continuam, e o descritor de duas frentes vira um descritor único. O símbolo atual, um triângulo em duas tonalidades de cinza e azul, pode ser refinado para expressar terreno, marco e encaixe entre as partes.\n\nO símbolo nunca representa telhado ou casa (pedido explícito do Carlos: o trabalho da Fixa 'é mais solo') e nunca representa obra. A forma fala de terreno, divisa, levantamento e registro: o chão que a regularização deixa em ordem.",
+      "style_description": "Wordmark sem serifa geométrico, em caixa alta e peso robusto (Bold a ExtraBold), com espaçamento entre letras levemente aberto para leitura em tamanhos pequenos. Símbolo geométrico de linhas retas e ângulos precisos, construído em grid, que funcione em uma cor só. Visual sóbrio e técnico, sem gradiente, sombra ou brilho, pensado para durar 10 anos e funcionar do favicon de 16px à fachada. O descritor 'ENGENHARIA & ASSESSORIA' vem em caixa alta, peso médio e tracking aberto, alinhado à largura do wordmark.",
+      "visual_attributes": {
+        "form_language": "Geométrico: retas e ângulos de levantamento topográfico e projeto. Comunica rigor técnico (pilar Integração) e precisão, sem curvas decorativas.",
+        "weight": "Robusto no wordmark, para presença e confiança, e médio no descritor, para leitura sem competir.",
+        "balance": "Assimétrico controlado: símbolo à esquerda e wordmark à direita (lockup horizontal), com o peso visual ancorado no wordmark.",
+        "negative_space": "Equilibrado: o símbolo pode usar o espaço negativo para sugerir um encaixe entre duas partes (engenharia + parte legal), sem virar ilustração.",
+        "color_application": "Monocromático em Azul Fixa como versão principal. Duotone (Azul Fixa + Cinza Grafite) só no símbolo, como hoje. Versões negativa (branco sobre Azul Fixa) e uma cor (preto) obrigatórias. Nada de gradiente.",
+        "personality_in_form": "Técnico, explicado → formas geométricas claras e legíveis, sem ornamento. Seguro, sem prometer → peso robusto, estável e alinhado à base, nada inclinado ou 'em movimento'. Próximo → cantos levemente suavizados no símbolo (não arredondados), para não parecer frio de construtora. Direto → wordmark de 4 letras, sem elementos extras.",
+        "scalability": "Em 16 a 32px (favicon, avatar) usa só o símbolo ou o 'F' do monograma, sem descritor. O descritor só entra a partir de 120px de largura digital ou 35mm impresso. Em grande formato (fachada, banner), o descritor nunca passa de 30% da altura do wordmark.",
+        "differentiation_from_competitors": "Balen e o setor em geral usam casas, telhados, chaves e prédios. A Fixa evita todos. DCA usa linguagem de engenharia ampla. A Fixa fala de terreno, marco e encaixe, o que é próprio da regularização. O azul-marinho sóbrio afasta do verde e laranja comuns em imobiliárias."
+      },
+      "design_principles": [
+        "Evoluir, não recriar: o azul e o 'FIXA' que a região já conhece ficam.",
+        "Solo, não telhado: a forma fala de terreno e registro, nunca de casa ou obra.",
+        "Uma marca, um descritor: nada de sub-marca, cor por empresa ou quatro frentes no logo.",
+        "A tipografia faz o trabalho pesado: o símbolo apoia, o nome é o protagonista.",
+        "Funciona em uma cor só: se depender de cor ou efeito para ser reconhecido, está errado."
+      ],
+      "anatomy": {
+        "symbol": "Símbolo geométrico à esquerda (evolução do triângulo atual em duas tonalidades), expressando terreno, marco e encaixe.",
+        "wordmark": "'FIXA' em caixa alta, sem serifa geométrica, peso Bold/ExtraBold, Azul Fixa.",
+        "lockup": "Horizontal: símbolo + wordmark + descritor 'ENGENHARIA & ASSESSORIA' sob o wordmark, alinhado à sua largura. Vertical: símbolo centralizado sobre o wordmark, descritor abaixo. Reduzido: só o símbolo (avatar, favicon)."
+      },
+      "construction_grid": "Grid modular com base X = altura da letra 'I' do wordmark. O símbolo ocupa 1X de altura no lockup horizontal. O descritor tem altura de 0,22X e fica a 0,3X abaixo da linha de base do wordmark. O designer entrega o grid de construção junto com os vetores.",
+      "clear_space": "Área de proteção mínima de 1X (altura do 'I' de FIXA) em todos os lados. Nenhum texto, borda ou elemento gráfico entra nessa área.",
+      "min_max_size": {
+        "min_digital_px": "Lockup horizontal com descritor: 120px de largura. Sem descritor: 64px. Só símbolo: 16px.",
+        "min_print_mm": "Lockup com descritor: 35mm de largura. Sem descritor: 20mm. Só símbolo: 8mm.",
+        "max_recommended": "Sem limite. Em grande formato, manter a área de proteção e o descritor com no máximo 30% da altura do wordmark."
+      },
+      "official_versions": [
+        {
+          "name": "Principal horizontal (Azul Fixa sobre branco)",
+          "use_case": "Site, landing page, proposta, e-mail, papelaria"
+        },
+        {
+          "name": "Negativa (branco sobre Azul Fixa)",
+          "use_case": "Rodapés, fundos de destaque, stories, capa de deck"
+        },
+        {
+          "name": "Vertical",
+          "use_case": "Avatar com nome, materiais quadrados, brindes"
+        },
+        {
+          "name": "Símbolo isolado",
+          "use_case": "Favicon, avatar do Instagram e do WhatsApp, marca d'água em foto"
+        },
+        {
+          "name": "Uma cor (preto)",
+          "use_case": "Documentos fiscais, carimbo, impressão monocromática, gravação"
+        }
+      ],
+      "logo_directions": [
+        {
+          "direction": "A — Evolução do símbolo atual",
+          "concept": "Mantém o triângulo em duas tonalidades, redesenhado em grid, com ângulos de terreno e marco topográfico. Troca os dois descritores por 'ENGENHARIA & ASSESSORIA'. É a opção de menor ruptura para quem já conhece a Fixa.",
+          "prompt": "minimalist professional logo for 'FIXA', a land and property regularization firm, geometric triangular symbol in two tones navy blue #1E2B53 and graphite gray #6B6B6B suggesting land survey marker and terrain, bold geometric sans-serif uppercase wordmark 'FIXA' in navy, small uppercase descriptor 'ENGENHARIA & ASSESSORIA' under the wordmark, flat vector, white background, no house, no roof, no buildings, no gradients, no shadows, balanced horizontal lockup, timeless, --style raw --v 6"
+        },
+        {
+          "direction": "B — Marco e encaixe",
+          "concept": "Símbolo novo: duas formas geométricas que se encaixam e formam um marco de divisa ou um 'F' abstrato. Representa engenharia e parte legal num processo só. Mantém o wordmark e o azul.",
+          "prompt": "minimalist geometric monogram logo for 'FIXA', two interlocking angular shapes forming an abstract letter F and a land boundary marker, symbolizing two disciplines in one process, navy blue #1E2B53 with graphite gray #6B6B6B accent, strong uppercase geometric sans-serif wordmark 'FIXA', descriptor 'ENGENHARIA & ASSESSORIA', flat vector on white, precise grid construction, no house, no roof, no gradients, professional engineering and legal firm, --style raw --v 6"
+        },
+        {
+          "direction": "C — Wordmark puro",
+          "concept": "Sem símbolo separado. O 'X' de FIXA vira o elemento distintivo: duas linhas que se cruzam, como coordenadas de levantamento, onde os dois saberes se encontram. Máxima simplicidade e leitura.",
+          "prompt": "pure typographic wordmark logo 'FIXA', bold geometric uppercase sans-serif, the letter X subtly customized as two crossing survey lines like map coordinates, navy blue #1E2B53 on white, small uppercase descriptor 'ENGENHARIA & ASSESSORIA' in graphite gray #6B6B6B, flat vector, generous letter spacing, sober and timeless, no symbol, no house, no roof, no gradients, --style raw --v 6"
+        }
+      ],
+      "chosen_direction": "A — Evolução do símbolo atual (aprovada pelo operador em 01/10/2026)"
+    },
+    "incorrect_uses": [
+      {
+        "rule": "Não usar os logos antigos 'Fixa Engenharia' ou 'Fixa Assessoria' separados",
+        "visual_demo": "Dois logos lado a lado, um por empresa, em post ou cartão.",
+        "reason": "Quebra a unificação. A marca é uma só."
+      },
+      {
+        "rule": "Não criar cor por segmento",
+        "visual_demo": "FIXA em azul para engenharia e em outra cor para assessoria.",
+        "reason": "Volta a dividir a marca, contra a decisão de um Instagram e uma identidade."
+      },
+      {
+        "rule": "Não distorcer ou achatar",
+        "visual_demo": "Logo esticado na horizontal para caber num banner.",
+        "reason": "Quebra a proporção do grid e a leitura do wordmark."
+      },
+      {
+        "rule": "Não aplicar sombra, brilho, contorno ou gradiente",
+        "visual_demo": "Logo com drop shadow e brilho metálico.",
+        "reason": "Contradiz a sobriedade técnica. O logo é flat."
+      },
+      {
+        "rule": "Não aplicar sobre foto sem contraste",
+        "visual_demo": "Logo azul sobre foto escura de terreno.",
+        "reason": "Some a leitura. Usar a versão negativa ou uma faixa de cor."
+      },
+      {
+        "rule": "Não rotacionar ou inclinar",
+        "visual_demo": "Logo girado 15° num post 'dinâmico'.",
+        "reason": "A marca é estável. Inclinação passa instabilidade."
+      },
+      {
+        "rule": "Não acrescentar casa, telhado, chave ou capacete",
+        "visual_demo": "Telhado desenhado sobre o 'A' de FIXA.",
+        "reason": "Pedido do cliente: a Fixa é 'mais solo', não obra nem casa. Também é o clichê do setor."
+      },
+      {
+        "rule": "Não adicionar 'Jurídico' ou 'Advocacia' ao descritor",
+        "visual_demo": "Descritor 'ENGENHARIA | ARQUITETURA | ASSESSORIA | JURÍDICO'.",
+        "reason": "O jurídico não é terceira especialidade. O descritor oficial é 'ENGENHARIA & ASSESSORIA'."
+      }
+    ],
+    "color_system": {
+      "primary": [
+        {
+          "name": "Azul Fixa",
+          "hex": "#1E2B53",
+          "rgb": "rgb(30, 43, 83)",
+          "cmyk": "C64 M48 Y0 K67",
+          "pantone": null,
+          "hsl": "hsl(225, 47%, 22%)",
+          "role": "Cor institucional: wordmark, títulos, fundos de destaque, rodapés",
+          "justification": "É o azul do logo atual, que o Carlos pediu para manter ('a Fixa é azul'). Em 10 anos ele virou o reconhecimento da marca na região. Na unificação, passa a ser a cor das duas empresas, sem uma cor por CNPJ. Hex extraído do arquivo de logo disponível (128px): confirmar com o vetor original dos MIVs antigos.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        }
+      ],
+      "secondary": [
+        {
+          "name": "Cinza Grafite",
+          "hex": "#6B6B6B",
+          "rgb": "rgb(107, 107, 107)",
+          "cmyk": "C0 M0 Y0 K58",
+          "pantone": null,
+          "hsl": "hsl(0, 0%, 42%)",
+          "role": "Segunda cor do símbolo, textos de apoio sobre branco, ícones",
+          "justification": "É o cinza do símbolo atual. Mantido para preservar a continuidade do logo. Sobre branco passa AA (5,33:1). Serve para texto de apoio, mas não para texto corrido longo, que é Tinta. Nunca usar sobre Azul Fixa (2,58:1).",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        },
+        {
+          "name": "Azul Serra",
+          "hex": "#2F6DB5",
+          "rgb": "rgb(47, 109, 181)",
+          "cmyk": "C74 M40 Y0 K29",
+          "pantone": null,
+          "hsl": "hsl(212, 59%, 45%)",
+          "role": "Destaque (10%): links, botões de CTA, ícones ativos, números em destaque",
+          "justification": "Um sobretom mais claro do Azul Fixa, como o Carlos autorizou ('pode usar sobretons'). Dá ação ao layout sem trazer uma cor nova. Não substitui o Azul Fixa no logo.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        }
+      ],
+      "neutrals": [
+        {
+          "name": "Branco",
+          "hex": "#FFFFFF",
+          "rgb": "rgb(255, 255, 255)",
+          "cmyk": "C0 M0 Y0 K0",
+          "pantone": null,
+          "hsl": "hsl(0, 0%, 100%)",
+          "role": "Fundo dominante (60%)",
+          "justification": "Respiro e legibilidade para uma persona de 40 a 70 anos. Leitura tranquila, coerente com o território 'Tranquilidade'.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        },
+        {
+          "name": "Névoa",
+          "hex": "#F3F5F9",
+          "rgb": "rgb(243, 245, 249)",
+          "cmyk": "C2 M2 Y0 K2",
+          "pantone": null,
+          "hsl": "hsl(220, 33%, 96%)",
+          "role": "Fundos de seção, cards, áreas de formulário",
+          "justification": "Separa blocos sem linhas pesadas. É um azul quase branco que conversa com a paleta.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        },
+        {
+          "name": "Linha",
+          "hex": "#D8DEE8",
+          "rgb": "rgb(216, 222, 232)",
+          "cmyk": "C7 M4 Y0 K9",
+          "pantone": null,
+          "hsl": "hsl(218, 26%, 88%)",
+          "role": "Bordas, divisores, campos de formulário inativos",
+          "justification": "Estrutura discreta, sem disputar atenção com o conteúdo.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        },
+        {
+          "name": "Tinta",
+          "hex": "#1A2033",
+          "rgb": "rgb(26, 32, 51)",
+          "cmyk": "C49 M37 Y0 K80",
+          "pantone": null,
+          "hsl": "hsl(226, 32%, 15%)",
+          "role": "Texto corrido",
+          "justification": "Quase preto azulado. Mais macio que o preto puro e com contraste AAA sobre branco.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        }
+      ],
+      "functional": [
+        {
+          "name": "Sucesso",
+          "hex": "#2E7D4F",
+          "rgb": "rgb(46, 125, 79)",
+          "cmyk": "C63 M0 Y37 K51",
+          "pantone": null,
+          "hsl": "hsl(145, 46%, 34%)",
+          "role": "Confirmação, etapa concluída",
+          "justification": "Verde sóbrio, sem neon.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        },
+        {
+          "name": "Erro",
+          "hex": "#B3261E",
+          "rgb": "rgb(179, 38, 30)",
+          "cmyk": "C0 M79 Y83 K30",
+          "pantone": null,
+          "hsl": "hsl(3, 71%, 41%)",
+          "role": "Erro de formulário, alerta crítico",
+          "justification": "Vermelho fechado, legível sobre branco.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        },
+        {
+          "name": "Atenção",
+          "hex": "#8A5A00",
+          "rgb": "rgb(138, 90, 0)",
+          "cmyk": "C0 M35 Y100 K46",
+          "pantone": null,
+          "hsl": "hsl(39, 100%, 27%)",
+          "role": "Aviso, pendência de documento",
+          "justification": "Âmbar escuro para manter contraste AA como texto.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        },
+        {
+          "name": "Informação",
+          "hex": "#2F6DB5",
+          "rgb": "rgb(47, 109, 181)",
+          "cmyk": "C74 M40 Y0 K29",
+          "pantone": null,
+          "hsl": "hsl(212, 59%, 45%)",
+          "role": "Avisos informativos",
+          "justification": "Reaproveita o Azul Serra para não abrir uma cor nova.",
+          "unavailable_reason": "pantone: sem referência Pantone nos MIVs atuais; definir na gráfica com prova de cor a partir do HEX/CMYK."
+        }
+      ],
+      "proportions": {
+        "dominant_pct": 60,
+        "support_pct": 30,
+        "accent_pct": 10,
+        "dominant_color": "Branco / Névoa (fundos)",
+        "support_color": "Azul Fixa (títulos, blocos, rodapé)",
+        "accent_color": "Azul Serra (CTA, links, destaques)"
+      },
+      "gradients": [],
+      "wcag_contrast_matrix": [
+        {
+          "foreground": "#1A2033",
+          "background": "#FFFFFF",
+          "label": "Texto corrido sobre branco",
+          "ratio": 16.17,
+          "level": "AAA"
+        },
+        {
+          "foreground": "#1E2B53",
+          "background": "#FFFFFF",
+          "label": "Títulos e wordmark sobre branco",
+          "ratio": 13.76,
+          "level": "AAA"
+        },
+        {
+          "foreground": "#FFFFFF",
+          "background": "#1E2B53",
+          "label": "Texto branco sobre Azul Fixa (fundos de destaque, rodapé)",
+          "ratio": 13.76,
+          "level": "AAA"
+        },
+        {
+          "foreground": "#FFFFFF",
+          "background": "#2F6DB5",
+          "label": "Texto branco em botão Azul Serra",
+          "ratio": 5.28,
+          "level": "AA"
+        },
+        {
+          "foreground": "#2F6DB5",
+          "background": "#FFFFFF",
+          "label": "Link Azul Serra sobre branco",
+          "ratio": 5.28,
+          "level": "AA"
+        },
+        {
+          "foreground": "#6B6B6B",
+          "background": "#FFFFFF",
+          "label": "Texto de apoio cinza sobre branco",
+          "ratio": 5.33,
+          "level": "AA"
+        },
+        {
+          "foreground": "#1E2B53",
+          "background": "#F3F5F9",
+          "label": "Títulos sobre fundo Névoa",
+          "ratio": 12.61,
+          "level": "AAA"
+        },
+        {
+          "foreground": "#6B6B6B",
+          "background": "#1E2B53",
+          "label": "Cinza sobre Azul Fixa (não usar para texto)",
+          "ratio": 2.58,
+          "level": "Fail"
+        }
+      ],
+      "gradients_note": "A marca não usa gradiente (princípio flat do logo e da identidade)."
+    },
+    "typography": {
+      "primary_family": {
+        "name": "Manrope",
+        "source": "Google Fonts",
+        "google_fonts_url": "https://fonts.google.com/specimen/Manrope",
+        "embed_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap",
+        "weights_permitted": [
+          "500 Medium",
+          "600 SemiBold",
+          "700 Bold",
+          "800 ExtraBold"
+        ],
+        "license": "SIL Open Font License 1.1"
+      },
+      "secondary_family": {
+        "name": "Source Sans 3",
+        "source": "Google Fonts",
+        "google_fonts_url": "https://fonts.google.com/specimen/Source+Sans+3",
+        "embed_url": "https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap",
+        "weights_permitted": [
+          "400 Regular",
+          "400 Italic",
+          "600 SemiBold"
+        ],
+        "license": "SIL Open Font License 1.1"
+      },
+      "hierarchy": [
+        {
+          "level": "H1",
+          "font": "Manrope",
+          "weight": "800",
+          "size_px": 48,
+          "line_height": "1.1",
+          "use_case": "Título principal de página e capa de deck"
+        },
+        {
+          "level": "H2",
+          "font": "Manrope",
+          "weight": "700",
+          "size_px": 34,
+          "line_height": "1.2",
+          "use_case": "Títulos de seção, headline de post"
+        },
+        {
+          "level": "H3",
+          "font": "Manrope",
+          "weight": "700",
+          "size_px": 24,
+          "line_height": "1.3",
+          "use_case": "Subtítulos, títulos de card"
+        },
+        {
+          "level": "Body",
+          "font": "Source Sans 3",
+          "weight": "400",
+          "size_px": 18,
+          "line_height": "1.6",
+          "use_case": "Texto corrido em site e LP (mínimo 16px; a persona tem 40 a 70 anos)"
+        },
+        {
+          "level": "Body small",
+          "font": "Source Sans 3",
+          "weight": "400",
+          "size_px": 16,
+          "line_height": "1.5",
+          "use_case": "Textos de apoio, legendas de seção"
+        },
+        {
+          "level": "Caption",
+          "font": "Source Sans 3",
+          "weight": "600",
+          "size_px": 13,
+          "line_height": "1.4",
+          "use_case": "Rodapé legal (razões sociais e CNPJ), notas"
+        },
+        {
+          "level": "CTA",
+          "font": "Manrope",
+          "weight": "700",
+          "size_px": 18,
+          "line_height": "1",
+          "use_case": "Botões ('Falar no WhatsApp', 'Contar meu caso')"
+        },
+        {
+          "level": "Eyebrow",
+          "font": "Manrope",
+          "weight": "600",
+          "size_px": 13,
+          "line_height": "1.2",
+          "use_case": "Rótulos em caixa alta com tracking +8% (ex.: 'REGULARIZAÇÃO DE IMÓVEIS')"
+        }
+      ],
+      "fallbacks": "Manrope → 'Segoe UI', Roboto, Arial, sans-serif. Source Sans 3 → 'Segoe UI', Roboto, Helvetica, Arial, sans-serif. No Canva, se faltar alguma, usar Manrope e Source Sans 3 (as duas estão no Canva) e nunca Arial em peça final.",
+      "justification": "Manrope é sem serifa geométrica, próxima do desenho do wordmark FIXA, e dá títulos firmes e técnicos. Source Sans 3 foi desenhada para leitura em tela e tem altura-x generosa, o que importa para uma persona de 60 anos que lê no celular. As duas são do Google Fonts (licença OFL), gratuitas para site, Canva e impressão."
+    },
+    "iconography": {
+      "style": "Linear (outline), geométrico, sem preenchimento. Temas: documento, carimbo, mapa/lote, régua, balança só quando indispensável e nunca como destaque, casa evitada. Base sugerida: Lucide ou Phosphor (outline), ajustada às regras abaixo.",
+      "stroke_weight_px": 2,
+      "corner_style": "Cantos levemente arredondados (raio 2px no grid de 24px) e terminações retas",
+      "grid": "24 × 24px com 2px de margem interna",
+      "color_default": "Azul Fixa sobre fundo claro. Branco sobre Azul Fixa. Azul Serra só em estado ativo."
+    },
+    "graphic_system": {
+      "elements": [
+        "Linhas de levantamento: linhas finas (1px) em Cinza Grafite a 30%, que lembram plantas e coordenadas, usadas como fundo sutil",
+        "Faixa de etapa: sequência numerada (1 → 2 → 3) para explicar o caminho do caso, o grafismo que traduz 'cada etapa'",
+        "Recorte angular: canto diagonal derivado do símbolo para enquadrar fotos e cards"
+      ],
+      "rules": "No máximo um grafismo por peça. Nunca competir com o texto. Nunca usar planta de casa ou silhueta de telhado como grafismo."
+    },
+    "photography": {
+      "art_direction": "Foto própria e real, nunca banco de imagens (restrição do cliente). Três famílias: (1) bastidores reais, como entrega de pastas, conversa com cliente, cartório e campo de levantamento; (2) terreno e cidade da Serra Gaúcha, em luz natural; (3) retratos dos sócios e da equipe trabalhando, sem pose de banco. Cor natural, levemente fria, sem filtro saturado.",
+      "mood_keywords": [
+        "real",
+        "calmo",
+        "técnico",
+        "Serra Gaúcha",
+        "luz natural",
+        "documento em mãos"
+      ],
+      "do_dont": [
+        {
+          "type": "do",
+          "rule": "Gravar e fotografar as entregas reais (ex.: montagem das pastas do Alto São Luís 2), com autorização"
+        },
+        {
+          "type": "do",
+          "rule": "Mostrar mãos, documentos, plantas e terreno: o trabalho real"
+        },
+        {
+          "type": "do",
+          "rule": "Retrato dos sócios em ambiente de trabalho, olhando para a câmera"
+        },
+        {
+          "type": "dont",
+          "rule": "Banco de imagens de 'casal feliz com chave da casa'"
+        },
+        {
+          "type": "dont",
+          "rule": "Obra, capacete, betoneira, reforma"
+        },
+        {
+          "type": "dont",
+          "rule": "Martelo de juiz, balança dourada, livros de direito em destaque"
+        }
+      ]
+    },
+    "illustration": null,
+    "unavailable_reason": "illustration: a marca não usa ilustração; a linguagem visual é foto real + grafismos geométricos (ver graphic_system)."
+  },
+  "block4_applications": {
+    "principle": "Cada aplicação tem specs técnicas e a descrição do mockup que o designer vai produzir. Este manual não desenha as peças. Escopo: digital, redes sociais, papelaria essencial e materiais de venda que a Fixa vai remodelar ('pastas de serviço, cartões, tudo', kick-off de 08/09), incluindo o panfleto da expansão para cidades vizinhas. Fachada e uniforme ficam fora até decisão dos sócios.",
+    "applications": [
+      {
+        "category": "stationery",
+        "name": "Cartão de visita unificado",
+        "specs": "90 × 50mm, couché 300g fosco. Frente: logo horizontal centralizado em Azul Fixa sobre branco. Verso: fundo Azul Fixa com nome (Manrope 700, 11pt, branco), cargo (Source Sans 3, 8pt), WhatsApp de campanhas, e-mail @fixaassessoria.com.br e QR code para a página. Mesmo modelo para Carlos e Christian, mudando só nome e cargo.",
+        "mockup": {
+          "type": "business_card",
+          "description": "Dois cartões sobrepostos (frente branca e verso azul) sobre mesa clara com uma planta de lote ao fundo."
+        }
+      },
+      {
+        "category": "stationery",
+        "name": "Assinatura de e-mail",
+        "specs": "Largura máxima de 500px. Nome em Manrope 700 16px Azul Fixa, cargo em 14px Cinza Grafite, telefone e site, logo horizontal com 120px, tagline 'Engenharia e direito, num processo só.' em 13px e linha legal 'Fixa Engenharia Ltda · CNPJ … | Fixa Assessoria Ltda · CNPJ …' em 11px. Sem imagem de fundo.",
+        "mockup": {
+          "type": "email_signature",
+          "description": "Assinatura num cliente de e-mail claro, abaixo de uma mensagem de proposta."
+        }
+      },
+      {
+        "category": "social_media",
+        "name": "Perfil do Instagram unificado",
+        "specs": "Avatar: símbolo isolado branco sobre Azul Fixa, centralizado com 20% de margem. Nome de exibição: 'Fixa · Engenharia & Assessoria'. Arroba: a definir (ver Naming). Bio em 3 linhas: 'Regularização de imóveis em Caxias do Sul e Serra Gaúcha' / 'Engenharia e direito, num processo só.' / link para a página. Destaques com capas lineares em Azul Fixa: Matrícula, Usucapião, Inventário, REURB, Clientes.",
+        "mockup": {
+          "type": "ig_avatar_bio",
+          "description": "Tela do perfil no celular com avatar, nome, bio de 3 linhas e destaques."
+        }
+      },
+      {
+        "category": "social_media",
+        "name": "Post de feed educativo",
+        "specs": "1080 × 1350px (4:5). Fundo branco ou Névoa. Eyebrow em Manrope 600 26px caixa alta Azul Serra, headline em Manrope 800 64px Azul Fixa (máximo 8 palavras), apoio em Source Sans 3 32px Tinta. Logo símbolo 64px no canto inferior direito. Carrossel: a última lâmina sempre com CTA para o WhatsApp.",
+        "mockup": {
+          "type": "ig_feed_post",
+          "description": "Post 'Escritura não é matrícula' com grafismo de linhas de levantamento ao fundo."
+        }
+      },
+      {
+        "category": "social_media",
+        "name": "Story",
+        "specs": "1080 × 1920px. Zonas seguras: 250px no topo e na base. Foto real de bastidor com faixa inferior em Azul Fixa e texto branco em Manrope 700 48px. Sticker de link para o WhatsApp.",
+        "mockup": {
+          "type": "ig_story",
+          "description": "Story de bastidor da entrega de pastas, com faixa azul 'Mais uma matrícula entregue'."
+        }
+      },
+      {
+        "category": "digital_ui",
+        "name": "WhatsApp Business (número de campanhas)",
+        "specs": "Foto: símbolo branco sobre Azul Fixa. Nome: 'Fixa · Engenharia & Assessoria'. Descrição: 'Regularização de imóveis. Engenharia e direito, num processo só.' Horário: dias úteis, 8h–18h. Mensagem de ausência e saudação no tom do Bloco 2 (sem prometer prazo). Catálogo opcional com os serviços: Regularização de casa, Usucapião, Inventário, REURB.",
+        "mockup": {
+          "type": "whatsapp_business",
+          "description": "Tela de perfil comercial no celular com foto, nome, descrição e horário."
+        }
+      },
+      {
+        "category": "digital_ui",
+        "name": "Google Meu Negócio",
+        "specs": "Nome no perfil: 'Fixa Engenharia & Assessoria' (nome real de uso, sem palavras-chave extras, conforme as regras do Google). Logo: símbolo. Capa: foto real do escritório ou da equipe. Campo 'website' preenchido com a página (gap apontado na auditoria). Categoria principal a definir na otimização do GMB.",
+        "mockup": {
+          "type": "gmb_card",
+          "description": "Card do Google Maps com logo, nome, nota, botão de site e de WhatsApp."
+        }
+      },
+      {
+        "category": "digital_ui",
+        "name": "Favicon e ícone da página",
+        "specs": "Símbolo isolado em Azul Fixa sobre branco: 16, 32, 48, 180 (apple-touch) e 512px. Versão negativa para fundo escuro. Testar a leitura do símbolo em 16px antes de aprovar a direção de logo.",
+        "mockup": {
+          "type": "favicon_scaling",
+          "description": "Escala do símbolo de 16px a 512px lado a lado, numa aba de navegador."
+        }
+      },
+      {
+        "category": "sales_marketing",
+        "name": "Panfleto da expansão (cidades vizinhas)",
+        "specs": "A5 (148 × 210mm), frente e verso, couché 115g. Frente: hook ('Imóvel sem matrícula?') em Manrope 800 Azul Fixa, apoio '10 anos resolvendo regularização de imóvel em Caxias do Sul', QR code e WhatsApp. Verso: as 3 etapas do caminho (análise do caso → processo → matrícula em mãos), serviços e rodapé legal. Sem prazo.",
+        "mockup": {
+          "type": "one_pager",
+          "description": "Panfleto A5 frente e verso sobre balcão de cartório ou de imobiliária parceira."
+        }
+      },
+      {
+        "category": "sales_marketing",
+        "name": "Pasta de entrega de serviço",
+        "specs": "Pasta A4 com bolsa interna, fundo Azul Fixa com logo negativo na capa e tagline no rodapé. Contracapa com o contato único e as razões sociais. Usada na entrega da matrícula e dos documentos, porque é o momento de foto e de indicação.",
+        "mockup": {
+          "type": "one_pager",
+          "description": "Pasta azul fechada com o logo branco e uma matrícula saindo da bolsa interna."
+        }
+      },
+      {
+        "category": "sales_marketing",
+        "name": "Proposta comercial (capa e modelo)",
+        "specs": "A4 ou 16:9 em PDF. Capa com fundo Azul Fixa, logo negativo e 'Proposta · [nome do cliente] · [imóvel]'. Páginas internas em branco: etapas do caso numeradas, o que depende de terceiros, valor e forma de pagamento, razão social correta conforme o serviço (Engenharia ou Assessoria).",
+        "mockup": {
+          "type": "deck_cover",
+          "description": "Capa da proposta em tela de notebook com uma página de etapas ao lado."
+        }
+      }
+    ]
+  },
+  "block5_governance": {
+    "brand_owner": "Carlos Henrique Garbin (diretor das duas empresas), com Christian Lorencet como segundo aprovador. Na V4: Kauã Fernandes (account) e Leonardo Demarchi (design) mantêm o manual.",
+    "approval_process": [
+      {
+        "step": "Peça nova (post, anúncio, material) produzida no padrão do manual",
+        "responsible": "V4 (design e conteúdo)",
+        "estimated_time": "Conforme a demanda"
+      },
+      {
+        "step": "Checagem das regras inegociáveis: sem prazo, sem jurídico como 3ª especialidade, sem os nomes antigos como marca, sem banco de imagens",
+        "responsible": "Kauã Fernandes (V4)",
+        "estimated_time": "Até 1 dia útil"
+      },
+      {
+        "step": "Aprovação final (peças novas de campanha, impressos, mudanças de logo ou arroba)",
+        "responsible": "Carlos ou Christian",
+        "estimated_time": "Até 2 dias úteis"
+      },
+      {
+        "step": "Publicação e registro da versão final na pasta da marca",
+        "responsible": "V4",
+        "estimated_time": "No mesmo dia"
+      }
+    ],
+    "review_cadence": "Revisão do manual a cada 6 meses, ou antes se mudar o portfólio de serviços, entrar uma nova cidade ou um novo sócio. Tom de voz e 'diga/não diga' revisados junto com a primeira leitura de 30 dias do Kommo, com as perguntas reais dos leads.",
+    "committee": null,
+    "unavailable_reason": "committee: empresa com dois sócios; a aprovação é direta (Carlos ou Christian), sem comitê formal."
+  },
+  "completed_at": "2026-10-01T16:00:00Z"
+}
