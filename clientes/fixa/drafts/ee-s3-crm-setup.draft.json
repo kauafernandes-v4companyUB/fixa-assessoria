@@ -1,0 +1,693 @@
+{
+  "_draft_note": "RASCUNHO do ee-s3-crm-setup (status in_progress). Vai para outputs/ só depois de: chip do número novo conectado, configuração pela interface do Kommo (agente de IA, Salesbots, automações de SLA, horário de atendimento) e checklist de testes aprovado. A estrutura (funis, etapas, campos, tags, motivos de perda) já foi criada pela API em 01/10/2026; IDs em kommo_implementation.",
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary": "O Kommo da Fixa Engenharia & Assessoria começa do zero (Cenário A). A conta é única, no plano Pro, e tem 3 funis: Triagem IA, Carlos (REURB/loteamento e casa) e Christian (usucapião e inventário). As etapas 2 a 7 são iguais nos dois funis dos sócios. São 4 réguas no Salesbot: boas-vindas em 3 toques, nutrição 3★ em 4 toques + retomada de nota no D+35, retomada T+24h/72h e reativação D+90/97. O SLA conta só em horário comercial e é controlado por tarefa e pela tag 'SLA estourado', sem alerta individual. Antes de ativar as réguas, falta decidir entre API oficial e WhatsApp pelo app: com a API, todo toque fora da janela de 24h precisa de template aprovado pela Meta.",
+  "summary_headline": "Um número, três funis e quatro réguas: nenhum lead da Fixa fica sem resposta ou sem próximo passo no Kommo.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Cenário de partida",
+      "value": "A — do zero",
+      "subtext": "Kommo contratado, sem base a migrar; clientes em andamento ficam fora do funil de vendas",
+      "tone": "blue"
+    },
+    {
+      "category": "maturidade",
+      "label": "Funis na conta",
+      "value": "3",
+      "subtext": "Triagem IA + Carlos + Christian (etapas 2–7 iguais)",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Réguas no Salesbot",
+      "value": "4",
+      "subtext": "Boas-vindas · nutrição 3★ · retomada · reativação",
+      "tone": "green"
+    },
+    {
+      "category": "maturidade",
+      "label": "Campos obrigatórios",
+      "value": "7",
+      "subtext": "Origem, assunto, score, estrelas, cidade, decisores e motivo de perda",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Pendência de integração",
+      "value": "API x app",
+      "subtext": "Define se os toques fora da janela de 24h precisam de template aprovado pela Meta",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "A Fixa não tem CRM nem base de leads (Cenário A). Não há o que migrar: os clientes em andamento continuam no WhatsApp atual, e o Kommo recebe só o número novo de campanhas. Leads de indicação são registrados à mão pelos sócios."
+    },
+    {
+      "category": "acao",
+      "text": "O SLA é controlado sem alerta individual. Ao entrar em 'Aguardando 1º contato', o card recebe uma tarefa com prazo de 30 min (5★) ou 4h (4★). Se passar de 60 min ou 8h, ganha a tag 'SLA estourado' e aparece para os dois sócios, porque a conta é única."
+    },
+    {
+      "category": "acao",
+      "text": "As mensagens seguem a regra da marca em toda régua: nenhuma promessa de prazo e a parte legal tratada como parte do mesmo processo ('Engenharia e direito, num processo só')."
+    },
+    {
+      "category": "ameaca",
+      "text": "Se o número de campanhas usar a API oficial, os toques depois da janela de 24h (nutrição, retomada e reativação) só saem com template aprovado pela Meta, e cada envio tem custo. Por isso o 3º toque de boas-vindas foi para T+23h, ainda dentro da janela."
+    },
+    {
+      "category": "acao",
+      "text": "O SLA conta só em horário comercial (dias úteis, 8h–18h). O lead que chega à noite ou no fim de semana recebe a resposta da IA na hora, e o relógio dos 30 min ou 4h começa às 8h do próximo dia útil. Assim a tag 'SLA estourado' não dispara de madrugada."
+    }
+  ],
+  "scenario": {
+    "type": "A",
+    "label": "Implementação do zero",
+    "justification": "Briefing: CRM = null, acesso a CRM = false. O Kommo foi contratado (plano Pro, 1 usuário, R$ 194/mês, assinatura do Christian com contato@fixassessoria.com.br) e ainda não foi implementado (call de 23/09)."
+  },
+  "pipelines": [
+    {
+      "name": "Triagem IA",
+      "owner": "Agente de IA do Kommo (SDR IA)",
+      "scope": "Toda primeira mensagem no número de campanhas",
+      "stages": [
+        "Leads de entrada (fixa do Kommo)",
+        "Triagem IA",
+        "Nutrição 3★"
+      ],
+      "exits": "4★/5★ → funil do assunto; 3★ → etapa 'Nutrição 3★'; 1–2★ ou anti-persona → Fechado - perdido com motivo"
+    },
+    {
+      "name": "Carlos — Engenharia",
+      "owner": "Carlos Henrique Garbin",
+      "scope": "REURB/loteamento, regularização de casa (averbação, escritura) e, provisoriamente, caso misto",
+      "stages": [
+        "Aguardando 1º contato",
+        "Em conversa",
+        "Análise do caso",
+        "Proposta enviada",
+        "Decisão da família",
+        "Fechado - ganho (= Contrato assinado; nome fixo do Kommo)"
+      ],
+      "exits": "Contrato assinado ou Perdido com motivo"
+    },
+    {
+      "name": "Christian — Assessoria",
+      "owner": "Christian Fochezatto Lorencet",
+      "scope": "Usucapião e inventário",
+      "stages": [
+        "Aguardando 1º contato",
+        "Em conversa",
+        "Análise do caso",
+        "Proposta enviada",
+        "Decisão da família",
+        "Fechado - ganho (= Contrato assinado; nome fixo do Kommo)"
+      ],
+      "exits": "Contrato assinado ou Perdido com motivo"
+    }
+  ],
+  "pipeline_stages": [
+    {
+      "order": 1,
+      "name": "Triagem IA",
+      "description": "Funil de triagem. Lead que mandou a primeira mensagem no número de campanhas e está respondendo às 5 perguntas de scoring do agente de IA.",
+      "auto_actions": [
+        "Agente de IA responde em T+0, 24h por dia",
+        "Dispara a régua de boas-vindas (T+2h e T+23h se não houver resposta)",
+        "Preenche Assunto, Cidade, Decisores, Pontos e Estrelas",
+        "Score ≥ 7 → move para 'Aguardando 1º contato' no funil do assunto",
+        "Score 4–6 → etapa 'Nutrição 3★' e régua de nutrição",
+        "Anti-persona ou score ≤ 3 → resposta cordial e Perdido com motivo"
+      ]
+    },
+    {
+      "order": 2,
+      "name": "Aguardando 1º contato",
+      "description": "Etapa de controle. Lead 4★/5★ ou de indicação esperando a 1ª mensagem humana do dono do funil.",
+      "auto_actions": [
+        "Cria tarefa 'Fazer 1º contato' com prazo de 30 min (5★) ou 4h (4★)",
+        "Envia aviso de lead novo para os dois celulares",
+        "Sem mudança de etapa em 60 min (5★) ou 8h (4★) → tag 'SLA estourado'"
+      ]
+    },
+    {
+      "order": 3,
+      "name": "Em conversa",
+      "description": "O dono do funil já mandou a 1ª mensagem e está entendendo o caso (SPIN), sem repetir as perguntas da triagem.",
+      "auto_actions": [
+        "Remove a tag 'SLA estourado' se existir",
+        "Exige tarefa com data (próximo passo)",
+        "Sem resposta do lead em 48h → régua de retomada"
+      ]
+    },
+    {
+      "order": 4,
+      "name": "Análise do caso",
+      "description": "Análise marcada ou documentos recebidos, com os critérios de SQL confirmados (necessidade, decisores, investimento e data).",
+      "auto_actions": [
+        "Exige tarefa com data da análise",
+        "Caso inviável → Perdido 'Caso inviável após análise'"
+      ]
+    },
+    {
+      "order": 5,
+      "name": "Proposta enviada",
+      "description": "Proposta com valor e forma de pagamento anexada ao card, com data de envio.",
+      "auto_actions": [
+        "Exige o campo Valor do negócio e o anexo da proposta",
+        "Sem retorno em 48h → régua de retomada"
+      ]
+    },
+    {
+      "order": 6,
+      "name": "Decisão da família",
+      "description": "O lead respondeu à proposta e a decisão depende de cônjuge ou herdeiros, ou de ajuste no parcelamento.",
+      "auto_actions": [
+        "Cada 'vou falar com X' gera tarefa de retomada com data (padrão: 48h)",
+        "Sem retorno na data → régua de retomada"
+      ]
+    },
+    {
+      "order": 7,
+      "name": "Contrato assinado",
+      "description": "Etapa de ganho do Kommo. Contrato assinado e entrada ou 1ª parcela registrada. O processo técnico-jurídico continua fora do funil de vendas.",
+      "auto_actions": [
+        "Exige Valor do negócio",
+        "Encerra todas as réguas do lead"
+      ]
+    },
+    {
+      "order": 8,
+      "name": "Perdido",
+      "description": "Etapa de perda do Kommo, que existe nos 3 funis. Exige o motivo da lista fechada de 10 motivos.",
+      "auto_actions": [
+        "Campo 'Motivo de perda' obrigatório",
+        "Motivos 'Sem resposta', 'Desistiu do objetivo' e 'Família/decisor não aprovou' → reativação em 90 dias",
+        "Tag 'Pediu para parar' → fica fora de todas as réguas"
+      ]
+    }
+  ],
+  "tags": {
+    "origin": [
+      "Meta Ads",
+      "Google Ads",
+      "Instagram orgânico",
+      "Landing page",
+      "Google Meu Negócio",
+      "Indicação",
+      "Outro"
+    ],
+    "score": [
+      "1★",
+      "2★",
+      "3★",
+      "4★",
+      "5★"
+    ],
+    "products": [
+      "REURB / loteamento",
+      "Regularização de casa (averbação/escritura)",
+      "Usucapião",
+      "Inventário",
+      "Caso misto",
+      "Fora do escopo"
+    ],
+    "temperature": [
+      "Quente (4★–5★)",
+      "Morno (3★)",
+      "Frio (1★–2★)"
+    ]
+  },
+  "tag_notes": {
+    "temperature": "Calculada a partir das estrelas pelo Salesbot, nunca preenchida à mão. Existe só para filtrar a lista de leads.",
+    "origin": "Cada link para o WhatsApp (LP, anúncio, bio, GMB) leva uma mensagem pré-preenchida diferente. Exemplo: 'Olá! Vim pelo site da Fixa.' O Salesbot lê a frase e preenche a Origem. Leads de clique para WhatsApp do Meta trazem a referência do anúncio quando a integração é pela API.",
+    "operational": [
+      "SLA estourado",
+      "Retomada",
+      "Reativação",
+      "Pediu para parar",
+      "Christian marcado (caso misto)"
+    ]
+  },
+  "custom_fields": [
+    {
+      "field": "Origem",
+      "type": "Lista",
+      "options": "Ver tags.origin",
+      "required_at": "Criação do lead (automático; manual em indicação)"
+    },
+    {
+      "field": "Assunto",
+      "type": "Lista",
+      "options": "Ver tags.products",
+      "required_at": "Saída da Triagem IA"
+    },
+    {
+      "field": "Pontos do scoring",
+      "type": "Número (0–11)",
+      "options": null,
+      "required_at": "Saída da Triagem IA"
+    },
+    {
+      "field": "Estrelas",
+      "type": "Lista 1★–5★",
+      "options": "Faixas de ee-s3-is-metricas-funil: 10–11=5★, 7–9=4★, 4–6=3★, 2–3=2★, 0–1=1★",
+      "required_at": "Saída da Triagem IA"
+    },
+    {
+      "field": "Cidade do imóvel",
+      "type": "Texto",
+      "options": null,
+      "required_at": "Saída da Triagem IA"
+    },
+    {
+      "field": "Decisores",
+      "type": "Texto",
+      "options": "Ex.: 'irmão em SP, concorda em vender'",
+      "required_at": "Análise do caso"
+    },
+    {
+      "field": "Resumo do caso",
+      "type": "Texto longo",
+      "options": "Preenchido pelo agente de IA: motivo, data, documentos citados e tentativas anteriores",
+      "required_at": "Saída da Triagem IA"
+    },
+    {
+      "field": "Motivo de perda",
+      "type": "Lista (10 motivos)",
+      "options": "Sem resposta · Curioso / sem caso concreto · Fora da área de atuação · Fora do escopo · Preço / capacidade de pagamento · Família/decisor não aprovou · Fechou com outro profissional · Desistiu do objetivo · Caso inviável após análise · Outro",
+      "required_at": "Perdido"
+    },
+    {
+      "field": "Motivo de perda — detalhe",
+      "type": "Texto (1 linha)",
+      "options": null,
+      "required_at": "Perdido, quando o motivo for 'Outro'"
+    }
+  ],
+  "welcome_sequence": [
+    {
+      "order": 1,
+      "timing": "imediata (T+0, agente de IA, 24h por dia)",
+      "channel": "whatsapp",
+      "message": "Olá! Aqui é a Fixa, de Caxias do Sul: cuidamos da regularização de imóveis com a engenharia e a parte legal num processo só. Me conta, o que você precisa resolver no seu imóvel?"
+    },
+    {
+      "order": 2,
+      "timing": "T+2h sem resposta (se cair entre 20h e 8h, envia às 8h30)",
+      "channel": "whatsapp",
+      "message": "Se ficar mais fácil, pode responder só com o número: 1) casa sem escritura ou averbação, 2) terreno ou loteamento, 3) usucapião, 4) inventário, 5) outro assunto. Com poucas palavras já dá pra eu te encaminhar pra pessoa certa aqui da Fixa."
+    },
+    {
+      "order": 3,
+      "timing": "T+23h sem resposta (dentro da janela de 24h do WhatsApp)",
+      "channel": "whatsapp",
+      "message": "Vou deixar nossa conversa guardada por aqui. Quando for um bom momento, é só responder esta mensagem que a gente continua de onde parou."
+    }
+  ],
+  "welcome_notes": "Depois do 3º toque sem resposta, o lead vai para Perdido 'Sem resposta' e entra apenas na reativação de 90 dias. O toque 1 é a abertura fixa do agente de IA. Se o lead responder, o agente segue com as 5 perguntas de scoring (prompt detalhado em ee-s5-scripts-sdr).",
+  "human_handoff_template": {
+    "timing": "Dentro do SLA (30 min para 5★, 4h para 4★), na mesma conversa",
+    "carlos": "Oi, {nome}! Aqui é o Carlos, engenheiro responsável da Fixa. Li o que você contou sobre [resumo do caso em 1 linha] e já estou por dentro. [Pergunta de Situação do SPIN]",
+    "christian": "Oi, {nome}! Aqui é o Christian, advogado da Fixa Assessoria. Li o que você contou sobre [resumo do caso em 1 linha] e já estou por dentro. [Pergunta de Situação do SPIN]",
+    "rule": "Salvar como resposta rápida no Kommo. A assinatura com o nome é obrigatória: a conta é única e é assim que o lead (e o outro sócio) sabe quem está falando."
+  },
+  "nurture_sequence": [
+    {
+      "week": 1,
+      "channel": "whatsapp",
+      "message_type": "conteudo_de_valor",
+      "whatsapp_message": "Oi, {nome}! Uma coisa que pouca gente sabe: sem a matrícula regularizada, o banco não libera financiamento para quem quer comprar o imóvel, e é aí que muita venda trava. Se quiser entender o que isso significa no seu caso, é só responder aqui."
+    },
+    {
+      "week": 2,
+      "channel": "whatsapp",
+      "message_type": "conteudo_de_valor",
+      "whatsapp_message": "Oi, {nome}! Uma dúvida comum: ter escritura não é o mesmo que ter a matrícula regularizada. O imóvel só passa a constar no nome de quem comprou depois do registro no cartório de imóveis, e a construção também precisa estar averbada. Se quiser entender em que ponto está o seu, é só me responder aqui."
+    },
+    {
+      "week": 3,
+      "channel": "whatsapp",
+      "message_type": "diferencial_produto",
+      "whatsapp_message": "Oi, {nome}! Na regularização, normalmente a pessoa precisa de um engenheiro para a medição e a planta e de um advogado para a parte legal, e acaba no meio dos dois. Na Fixa isso é resolvido num processo só, com quem já trabalha com cartório e prefeitura há 10 anos. Se quiser saber como seria no seu imóvel, me chama aqui."
+    },
+    {
+      "week": 4,
+      "channel": "whatsapp",
+      "message_type": "oferta_cta",
+      "whatsapp_message": "Oi, {nome}! Muita gente deixa a regularização de lado porque faltam papéis, mas o histórico do imóvel muitas vezes pode ser reconstituído com cartório, prefeitura e levantamento técnico. Me conta que documentos você tem hoje (contrato, IPTU, alguma planta) que eu te explico por onde começar."
+    }
+  ],
+  "nurture_notes": {
+    "trigger": "Lead 3★ (4–6 pontos) ao fim da triagem, com a etapa 'Nutrição 3★'",
+    "calendar": "Semana 1 = D+2 · Semana 2 = D+7 · Semana 3 = D+14 · Semana 4 = D+21, às 9h30 em dia útil",
+    "email_unavailable_reason": "O lead chega só pelo WhatsApp e o agente de IA não pede e-mail na triagem, então a régua é só por WhatsApp. O e-mail entra se um dia a LP tiver formulário.",
+    "objection_addressed": "Semana 4 ataca a objeção 'não tenho todos os documentos' e semana 3 ataca 'vou ter que contratar engenheiro e advogado'. A objeção de 'caro e demorado' é tratada pelo humano na conversa, sem prometer prazo.",
+    "rescore_touch": {
+      "timing": "D+35",
+      "channel": "whatsapp (agente de IA)",
+      "message": "Oi, {nome}! Passando para saber se mudou alguma coisa nos planos para o imóvel, como venda, financiamento ou inventário. Se tiver novidade, me conta que eu vejo com você o próximo passo.",
+      "action": "Se aparecer um gatilho, o agente refaz as perguntas de motivo e data. Score ≥ 7 → funil do assunto. Sem resposta → reativação em 90 dias."
+    },
+    "stop_condition": "Lead responde com gatilho (sai da régua e refaz a nota), pede para parar (tag 'Pediu para parar' + Perdido 'Outro') ou completa os toques sem resposta.",
+    "no_case_study": "A Fixa não tem caso concluído autorizado para contar (decisão de 01/10). O toque de caso de sucesso virou conteúdo educativo (escritura x matrícula). Se um caso aparecer no futuro, ele substitui este toque."
+  },
+  "additional_sequences": [
+    {
+      "name": "Retomada (combinou e sumiu)",
+      "trigger": "Tarefa de retomada vencida nas etapas Em conversa, Proposta enviada ou Decisão da família (padrão: 48h depois do último 'vou falar com X')",
+      "touches": [
+        {
+          "timing": "T+0",
+          "sender": "Dono do funil, manual (resposta rápida)",
+          "message": "Oi, {nome}! Aqui é o [Carlos/Christian]. Tínhamos combinado de falar hoje sobre [o combinado]; se ficar melhor, a gente pode remarcar, inclusive por vídeo com quem estiver em outra cidade."
+        },
+        {
+          "timing": "T+24h",
+          "sender": "Salesbot em nome do dono do funil",
+          "message": "Oi, {nome}! Ficou alguma dúvida sobre a proposta, os documentos ou a conversa com a família? Se ajudar, marco um horário com todos juntos para olhar o caso."
+        },
+        {
+          "timing": "T+72h",
+          "sender": "Salesbot em nome do dono do funil",
+          "message": "Vou deixar o seu caso guardado aqui com a gente. Quando fizer sentido retomar, é só responder esta mensagem."
+        }
+      ],
+      "stop_condition": "O lead responde (volta para a etapa em que estava) ou não responde ao T+72h (Perdido 'Sem resposta' → reativação em 90 dias)."
+    },
+    {
+      "name": "Reativação",
+      "trigger": "90 dias depois da última interação, para Perdido por 'Sem resposta', 'Desistiu do objetivo' ou 'Família/decisor não aprovou', e 3★ que terminaram a nutrição. No máximo 1 ciclo a cada 12 meses.",
+      "touches": [
+        {
+          "timing": "D+90",
+          "sender": "Agente de IA",
+          "message": "Oi, {nome}! Aqui é a Fixa. Há um tempo você falou com a gente sobre [resumo do caso]; mudou alguma coisa na situação do imóvel?"
+        },
+        {
+          "timing": "D+97",
+          "sender": "Salesbot",
+          "message": "Oi, {nome}! Se um dia precisar regularizar o imóvel para vender, financiar ou fazer a partilha, a Fixa segue por aqui, com a engenharia e a parte legal num processo só."
+        }
+      ],
+      "stop_condition": "O lead responde (volta para a Triagem IA com nova nota), pede para parar ou não responde aos 2 toques (sem novo ciclo por 12 meses)."
+    }
+  ],
+  "whatsapp_integration": {
+    "number": "Número NOVO de WhatsApp Business, só para campanhas (chip retirado pelo Carlos). O +55 54 99971-9141 continua fora do Kommo, com os clientes em andamento.",
+    "decision_pending": "Escolher entre a API oficial (WhatsApp Business Platform, via Kommo) e a conexão do app pelo celular. Pela API: templates, referência de anúncio e estabilidade, com as mensagens iniciadas pela Fixa fora da janela de 24h cobradas pela Meta. Pelo app: sem custo por mensagem, mas com limite de automação e risco de bloqueio do número. A recomendação é a API oficial, porque o número é novo e existe só para campanhas.",
+    "templates_needed_if_api": [
+      "Nutrição semana 1 (D+2)",
+      "Nutrição semana 2 (D+7) — quando houver caso real",
+      "Nutrição semana 3 (D+14)",
+      "Nutrição semana 4 (D+21)",
+      "Retomada da nota (D+35)",
+      "Retomada T+24h",
+      "Retomada T+72h",
+      "Reativação D+90",
+      "Reativação D+97"
+    ],
+    "templates_note": "Os toques de boas-vindas (T+0, T+2h e T+23h) e a mensagem do sócio dentro do SLA ficam dentro da janela de 24h e não precisam de template. Na API, {nome} vira variável do template ({{1}})."
+  },
+  "kommo_setup_guide": [
+    {
+      "step": 1,
+      "title": "Conta e usuário",
+      "actions": [
+        "Entrar com contato@fixassessoria.com.br (plano Pro, 1 usuário)",
+        "Instalar o app do Kommo nos celulares do Carlos e do Christian com o mesmo login e ativar as notificações",
+        "Fuso horário America/Sao_Paulo e horário de atendimento 8h–18h em dias úteis"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Funis",
+      "actions": [
+        "Leads > configurar funil: renomear o funil padrão para 'Triagem IA'",
+        "Criar o funil 'Carlos — Engenharia' com as 6 etapas: Aguardando 1º contato → Em conversa → Análise do caso → Proposta enviada → Decisão da família → (ganho) Contrato assinado",
+        "Duplicar para 'Christian — Assessoria' com as mesmas etapas",
+        "Em 'Perdido', tornar obrigatório o campo 'Motivo de perda' nos 3 funis"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Campos e tags",
+      "actions": [
+        "Configurações > Campos: criar os 9 campos de custom_fields no lead",
+        "Criar as tags de origem, assunto e as operacionais (SLA estourado, Nutrição 3★, Retomada, Reativação, Pediu para parar, Christian marcado)",
+        "Marcar os campos obrigatórios por etapa (funil digital > requisitos da etapa)"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "WhatsApp",
+      "actions": [
+        "Integrações > WhatsApp: conectar o número novo de campanhas (API oficial recomendada)",
+        "Configurar: mensagem recebida de contato novo cria lead na Triagem IA",
+        "Se for API: submeter os 9 templates de whatsapp_integration para aprovação da Meta (categoria marketing ou utilidade, conforme a Meta classificar)",
+        "Mandar uma mensagem de teste e conferir se o histórico aparece no card"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Agente de IA (triagem)",
+      "actions": [
+        "Criar o agente no funil Triagem IA com a abertura do toque 1 de boas-vindas",
+        "Configurar as 5 perguntas de scoring, os 4 filtros de anti-persona e a regra fixa 'nunca informar prazo nem data de conclusão' (conteúdo completo em ee-s5-scripts-sdr)",
+        "Ações do agente: preencher Assunto, Cidade, Pontos, Estrelas e Resumo do caso; mover conforme a nota e o assunto",
+        "Fora do horário comercial, o agente avisa que o especialista retorna no próximo dia útil, sem prometer prazo de processo"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Salesbot — boas-vindas",
+      "actions": [
+        "Gatilho: lead criado na Triagem IA",
+        "Espera 2h → se não respondeu, envia o toque 2 (de 20h às 8h, segura até 8h30)",
+        "Espera até T+23h → se não respondeu, envia o toque 3",
+        "Espera 1h → se não respondeu, move para Perdido 'Sem resposta'"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Automação da etapa de controle (SLA)",
+      "actions": [
+        "Nos funis Carlos e Christian, ao entrar em 'Aguardando 1º contato': se estiver no horário comercial (dias úteis, 8h–18h), criar a tarefa 'Fazer 1º contato' com prazo de 30 min (5★) ou 4h (4★); fora do horário, esperar até 8h do próximo dia útil e então criar a tarefa",
+        "Automação de tempo na etapa: 60 min (5★) ou 8h (4★) de horário comercial sem mudar de etapa → adicionar a tag 'SLA estourado'",
+        "Ao entrar em 'Em conversa': remover a tag 'SLA estourado'",
+        "Lead de indicação: o sócio cria o card direto em 'Aguardando 1º contato', com Origem = Indicação"
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Salesbot — nutrição, retomada e reativação",
+      "actions": [
+        "Nutrição: gatilho na etapa 'Nutrição 3★'; toques em D+2, D+7, D+14 e D+21 e D+35 pelo agente; qualquer resposta interrompe o bot e devolve a conversa ao agente",
+        "Retomada: gatilho na tarefa de retomada vencida; T+24h e T+72h; resposta interrompe",
+        "Reativação: gatilho 90 dias após Perdido com os 3 motivos elegíveis; checar se não houve reativação nos últimos 12 meses",
+        "Em todos os bots: se a tag 'Pediu para parar' existir, não enviar"
+      ]
+    },
+    {
+      "step": 9,
+      "title": "Painel",
+      "actions": [
+        "Criar a visão de lista 'SLA estourado' (filtro por tag) e fixar para os dois sócios",
+        "Painel: leads por origem, leads por estrela, cards por etapa nos 2 funis, motivos de perda do mês",
+        "Acompanhar o consumo de créditos de IA (limite de 2.250/mês) toda semana no 1º mês"
+      ]
+    }
+  ],
+  "migration": {
+    "applies": false,
+    "reason": "Cenário A: não há base de leads nem CRM anterior. Os clientes em andamento continuam no WhatsApp atual e não entram no funil de vendas. Se algum lead recente (últimos 60 dias) ainda estiver sem decisão, o sócio pode criar o card à mão em 'Em conversa', com Origem = Outro."
+  },
+  "governance": {
+    "required_fields_by_stage": [
+      {
+        "stage": "Saída da Triagem IA",
+        "fields": [
+          "Origem",
+          "Assunto",
+          "Pontos do scoring",
+          "Estrelas",
+          "Cidade do imóvel",
+          "Resumo do caso"
+        ]
+      },
+      {
+        "stage": "Em conversa em diante",
+        "fields": [
+          "Tarefa com data (próximo passo)"
+        ]
+      },
+      {
+        "stage": "Análise do caso",
+        "fields": [
+          "Decisores"
+        ]
+      },
+      {
+        "stage": "Proposta enviada / Contrato assinado",
+        "fields": [
+          "Valor do negócio"
+        ]
+      },
+      {
+        "stage": "Perdido",
+        "fields": [
+          "Motivo de perda",
+          "Detalhe quando o motivo for 'Outro'"
+        ]
+      }
+    ],
+    "rules": [
+      "Cada sócio mexe só no próprio funil. O card com 'SLA estourado' pode ser assumido pelo outro sócio, que assina a mensagem com o próprio nome",
+      "Toda mensagem humana começa com o nome de quem está falando ('Aqui é o Carlos…'), porque a conta é única",
+      "Estrela vem da tabela de scoring. O sócio pode subir ou descer uma estrela, mas registra no card qual resposta mudou",
+      "Caso misto: vai para o funil do Carlos com a tag 'Christian marcado', até a decisão final da reunião"
+    ],
+    "adoption_plan": [
+      "Treinamento de 45 min com Carlos e Christian pelo celular: aviso de lead novo, mover card, resposta rápida de handoff, lista 'SLA estourado'",
+      "Primeiras 2 semanas: revisão semanal de 15 min com a V4 (cards sem tarefa, SLA, consumo de créditos)",
+      "30 dias após o 1º lead: primeira revisão de scoring e réguas com dado real (governança de ee-s3-is-metricas-funil)"
+    ]
+  },
+  "test_checklist": [
+    {
+      "test": "Pipeline",
+      "steps": [
+        "Criar lead manual no funil do Carlos com Origem = Indicação",
+        "Mover por todas as 6 etapas e conferir os campos obrigatórios em cada uma",
+        "Mover para Perdido sem motivo e confirmar que o Kommo bloqueia",
+        "Repetir no funil do Christian"
+      ],
+      "passed": null
+    },
+    {
+      "test": "Régua de boas-vindas",
+      "steps": [
+        "Mandar 'Oi' de um celular de teste para o número de campanhas",
+        "Conferir a abertura do agente em segundos",
+        "Não responder e conferir o toque 2 em T+2h e o toque 3 em T+23h",
+        "Conferir a ida para Perdido 'Sem resposta' em T+24h",
+        "Repetir às 22h e conferir que o toque 2 sai às 8h30"
+      ],
+      "passed": null
+    },
+    {
+      "test": "Régua de nutrição",
+      "steps": [
+        "Simular o lead 3★ dos exemplos de validação (filho pesquisando para a mãe, Bento Gonçalves, 5 pontos)",
+        "Conferir a etapa 'Nutrição 3★' e o agendamento dos toques D+2/D+7/D+14/D+21/D+35 (para testar, usar esperas de minutos numa cópia do bot)",
+        "Responder no meio da régua e conferir que o bot para",
+        "Mandar 'não quero mais mensagens' e conferir a tag 'Pediu para parar'"
+      ],
+      "passed": null
+    },
+    {
+      "test": "Integração WhatsApp",
+      "steps": [
+        "Conferir que o histórico completo aparece no card",
+        "Conferir a formatação (negrito, quebras de linha) no celular do lead",
+        "Se for API: enviar um template aprovado fora da janela de 24h e conferir a entrega",
+        "Conferir o aviso de lead novo nos celulares do Carlos e do Christian"
+      ],
+      "passed": null
+    },
+    {
+      "test": "Cenário real — scoring e roteamento",
+      "steps": [
+        "Rodar os 5 perfis de scoring_validation_examples (ee-s3-is-metricas-funil) e conferir a nota: herdeira Caxias 10 pts/5★, loteador 9/4★, Farroupilha 7/4★, Bento Gonçalves 5/3★, curioso 2★",
+        "Herdeira (inventário + venda) → confirmar o roteamento definido para caso misto",
+        "Loteador e Farroupilha → funil do Carlos; usucapião de teste → funil do Christian",
+        "Imóvel fora da área (ex.: Curitiba) → 1★, resposta cordial e Perdido 'Fora da área de atuação'",
+        "Perguntar 'quanto tempo demora?' e confirmar que o agente não informa prazo"
+      ],
+      "passed": null
+    },
+    {
+      "test": "SLA e escalação",
+      "steps": [
+        "Criar lead 5★ de teste e não mandar mensagem: conferir a tarefa de 30 min e a tag 'SLA estourado' em 60 min",
+        "Conferir que o card aparece na lista 'SLA estourado' nos dois celulares",
+        "Mandar a 1ª mensagem, mover para 'Em conversa' e conferir que a tag sai",
+        "Criar lead 5★ às 21h: conferir que a tarefa só é criada às 8h do próximo dia útil e que a tag 'SLA estourado' só aparece às 9h se ninguém assumir"
+      ],
+      "passed": null
+    }
+  ],
+  "open_items": [
+    "API oficial ou app para o número de campanhas (define templates e custo por mensagem; a Mobile Time noticiou cobrança de respostas via API a partir de 01/10/2026, ainda não confirmada na documentação da Meta)",
+    "Roteamento do caso misto (averbação + inventário): segue provisório no funil do Carlos com a tag 'Christian marcado'"
+  ],
+  "completed_at": null,
+  "kommo_implementation": {
+    "implemented_at": "2026-10-01",
+    "method": "API v4 do Kommo (./kommo.sh em ~/kommo-claude)",
+    "account": "contatofixaassessoriacombr.kommo.com (id 37022847)",
+    "pipelines": {
+      "Triagem IA": {
+        "id": 14536623,
+        "note": "Funil padrão renomeado; recebe as conversas de entrada",
+        "statuses": {
+          "Triagem IA": 112293427,
+          "Nutrição 3★": 112293431
+        }
+      },
+      "Carlos — Engenharia": {
+        "id": 14555579,
+        "statuses": {
+          "Aguardando 1º contato": 112447735,
+          "Em conversa": 112447739,
+          "Análise do caso": 112447743,
+          "Proposta enviada": 112447747,
+          "Decisão da família": 112447751
+        }
+      },
+      "Christian — Assessoria": {
+        "id": 14555583,
+        "statuses": {
+          "Aguardando 1º contato": 112447759,
+          "Em conversa": 112447763,
+          "Análise do caso": 112447767,
+          "Proposta enviada": 112447771,
+          "Decisão da família": 112447775
+        }
+      }
+    },
+    "won_lost": "Etapas 142 (Fechado - ganho) e 143 (Fechado - perdido) são fixas do Kommo e não podem ser renomeadas pela API",
+    "custom_fields": {
+      "Origem": 428450,
+      "Assunto": 428452,
+      "Pontos do scoring": 428454,
+      "Estrelas": 428456,
+      "Cidade do imóvel": 428458,
+      "Decisores": 428460,
+      "Resumo do caso": 428462,
+      "Motivo de perda — detalhe": 428464
+    },
+    "required_fields": "Decisores é obrigatório para entrar em 'Proposta enviada' nos dois funis",
+    "loss_reasons": "10 motivos nativos (lista fechada de ee-s3-is-metricas-funil); os 4 padrão do Kommo foram removidos",
+    "tags": [
+      "SLA estourado",
+      "Retomada",
+      "Reativação",
+      "Pediu para parar",
+      "Christian marcado",
+      "Quente",
+      "Morno",
+      "Frio"
+    ],
+    "pending_in_ui": [
+      "Conectar o número novo de WhatsApp (chip ainda não entregue)",
+      "Criar o agente de IA de triagem",
+      "Salesbots: boas-vindas, nutrição, retomada e reativação",
+      "Automações do funil digital: tarefa de 1º contato, tag 'SLA estourado' e remoção ao entrar em 'Em conversa'",
+      "Horário de atendimento da conta (dias úteis 8h–18h)",
+      "Instalar o app nos celulares do Carlos e do Christian"
+    ]
+  }
+}
