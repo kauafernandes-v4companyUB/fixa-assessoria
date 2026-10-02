@@ -632,8 +632,8 @@ def build_s3_metricas(client, outputs):
     if not d:
         return ""
     kpis = [
-        ("Leads/mês", "25–30", "Meta com R$ 3.000/mês de mídia [E]"),
-        ("Custo por lead", "R$ 50–60", "Só mídia · meta estimada"),
+        ("Leads/mês", "40–50", "Com R$ 3.000/mês de mídia, a partir do 3º mês [E]"),
+        ("Custo por lead", "~R$ 60", "Só mídia · ~R$ 77 no 1º mês [E]"),
         ("1º contato humano", "≤ 30 min", "Lead 5★ · hoje ~3h"),
         ("Motivos de perda", "10 fixos", "Lista fechada, revisada todo mês"),
     ]

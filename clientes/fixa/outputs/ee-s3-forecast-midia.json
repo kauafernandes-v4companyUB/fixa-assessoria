@@ -1,0 +1,687 @@
+{
+  "summary": "O forecast de 6 meses da Fixa investe R$ 23.000 em Google Search e Meta (R$ 3.000/mês nos 3 primeiros meses, escala condicionada para R$ 4.000–5.000) e projeta 355 leads, cerca de 99 análises de caso e 14 contratos no cenário realista [E], com CPL médio de R$ 65 e cerca de R$ 136.608 em valor contratado (ROAS 5.94x). Todos os números são estimativas de lançamento, sem histórico de conta, e a mídia só liga com landing page, tracking e Kommo prontos. Planilha: clientes/fixa/forecast-midia-fixa.xlsx (5 abas, modelagem com fórmulas).",
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary_headline": "R$ 23.000 em 6 meses → ~355 leads e ~14 contratos [E]; a escala só acontece se o CPL ficar em até R$ 65.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Investimento (6 meses)",
+      "value": "R$ 23.000",
+      "subtext": "R$ 3.000/mês em M1–M3; R$ 4.000–5.000 em M4–M6 se os critérios de escala forem atingidos",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Leads projetados",
+      "value": "~355",
+      "subtext": "Cenário realista [E]; pessimista ~273, otimista ~443",
+      "tone": "green"
+    },
+    {
+      "category": "maturidade",
+      "label": "CPL médio",
+      "value": "R$ 65",
+      "subtext": "M1 ~R$ 77 (aprendizado) → R$ 60 a partir de M3; Google ~R$ 78, Meta ~R$ 42",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Contratos projetados",
+      "value": "~14",
+      "subtext": "~R$ 136.608 contratados [E], ticket médio ponderado de R$ 10.100",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "CAC de mídia",
+      "value": "R$ 1.704",
+      "subtext": "Só mídia; o CAC total soma Kommo e horas dos sócios",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "A Fixa nunca investiu em mídia (V4MOS em 02/10: 0 campanhas, R$ 0 em 90 dias). O forecast é de lançamento: parte de benchmarks de serviços profissionais e jurídicos e do funil do diagnóstico comercial, não de histórico."
+    },
+    {
+      "category": "ameaca",
+      "text": "A meta de volume foi corrigida em 02/10: com R$ 3.000 e CPL de ~R$ 60 a partir do 3º mês, a projeção é de ~40–50 leads/mês, e não os 25–30 estimados na S2 (R$ 3.000 ÷ R$ 55 já dava ~55). O CPL perseguido continua o mesmo; o que mudou foi o volume, para cima."
+    },
+    {
+      "category": "ameaca",
+      "text": "O CAC alvo foi corrigido de R$ 400 para ~R$ 1.700 de mídia por contrato: com ~4% de lead para contrato, R$ 400 não era alcançável. Com ticket médio de ~R$ 10 mil, o retorno continua em ~6x."
+    },
+    {
+      "category": "acao",
+      "text": "Google leva 2/3 da verba porque regularização é serviço de necessidade, buscado ativamente. A Meta fica com 1/3, mais no público frio (60%) do que no retargeting (40%), porque o público quente ainda é pequeno no início."
+    },
+    {
+      "category": "vantagem",
+      "text": "A escala de M4–M6 é condicionada: só sobe a verba se o CPL estiver em até R$ 65, se houver pelo menos 1 contrato de origem digital por mês e se o SLA do Kommo estiver sendo cumprido."
+    }
+  ],
+  "horizon": "6 meses a partir da ligação da mídia (depois de landing page, tracking e Kommo prontos)",
+  "currency": "BRL",
+  "scenario_stance": "Realista como base, com cenários otimista (CPL −20%, conversão +20%) e pessimista (CPL +30%, conversão −20%). Todos os números são estimados [E].",
+  "channel_split": {
+    "total_monthly_budget": 3000,
+    "rationale": "Cenário B aprovado pelo Carlos em 23/09 (R$ 3.000/mês). Google Search fica com 2/3 porque regularização é serviço de necessidade, buscado ativamente ('regularizar imóvel Caxias do Sul', 'usucapião Caxias'). Meta fica com 1/3 para alcançar quem ainda não buscou e para retargeting. Valores de M1–M3; em M4–M6 a mesma proporção sobre R$ 4.000–5.000.",
+    "channels": [
+      {
+        "channel": "Google Ads (Search)",
+        "percentage": 66.7,
+        "monthly_value": 2000,
+        "primary_intent": "Captar quem já busca a solução: Regularização/REURB (R$ 1.000), Usucapião + Inventário (R$ 600), Marca (R$ 400)"
+      },
+      {
+        "channel": "Meta Ads (Instagram e Facebook)",
+        "percentage": 33.3,
+        "monthly_value": 1000,
+        "primary_intent": "Público frio de 35 a 70 anos em Caxias do Sul e Serra (R$ 600) e retargeting de quem visitou a LP ou engajou no Instagram (R$ 400)"
+      }
+    ]
+  },
+  "funnel_distribution": [
+    {
+      "phase": "Topo",
+      "percentage": 20,
+      "monthly_value": 600,
+      "objective": "Meta público frio: V1 (dor) e V3 (carrossel escritura × matrícula)"
+    },
+    {
+      "phase": "Meio",
+      "percentage": 20,
+      "monthly_value": 600,
+      "objective": "Google Usucapião + Inventário (intenção comercial)"
+    },
+    {
+      "phase": "Fundo",
+      "percentage": 47,
+      "monthly_value": 1400,
+      "objective": "Google Regularização/REURB (R$ 1.000) e Marca (R$ 400)"
+    },
+    {
+      "phase": "Remarketing",
+      "percentage": 13,
+      "monthly_value": 400,
+      "objective": "Meta retargeting: V2 (matrícula em mãos) e remarketing de objeção de valor"
+    }
+  ],
+  "funnel_distribution_note": "Marca nova normalmente pede 40–50% em topo, mas a demanda da Fixa é de necessidade e já existe na busca: com R$ 3.000, a verba se concentra onde a pessoa já procura. O diagnóstico da S2 previa R$ 600 em retargeting e R$ 400 em frio; aqui inverte, porque o público quente começa pequeno (LP nova, Instagram com pouco alcance).",
+  "campaigns": {
+    "concentration_note": "Cinco campanhas, sem pulverizar: três de Google por cluster de intenção e duas de Meta (frio e retargeting). Nada de campanha de alcance ou engajamento: todas otimizam para conversa no WhatsApp.",
+    "list": [
+      {
+        "name": "Google · Search · Regularização/REURB",
+        "platform": "Google",
+        "funnel": "fundo",
+        "monthly_budget": 1000,
+        "topic": "Imóvel sem matrícula, regularização de casa e REURB em Caxias do Sul",
+        "strategy": "Máximo de conversões; CPA alvo depois de 30 dias e 15+ conversões",
+        "set": "Palavras dos clusters Regularização/REURB e Escritura/Documento; Caxias do Sul + 50 km; RSA do fundo de funil",
+        "expected_result": "~20 leads/mês a partir de M3, CPL ~R$ 78 [E]"
+      },
+      {
+        "name": "Google · Search · Usucapião + Inventário",
+        "platform": "Google",
+        "funnel": "meio",
+        "monthly_budget": 600,
+        "topic": "Usucapião e inventário com imóvel",
+        "strategy": "Máximo de cliques nas 2 primeiras semanas, depois máximo de conversões",
+        "set": "Clusters Usucapião e Inventário/Herança; RSA do meio de funil",
+        "expected_result": "~7 leads/mês a partir de M3 [E]"
+      },
+      {
+        "name": "Google · Search · Marca",
+        "platform": "Google",
+        "funnel": "fundo",
+        "monthly_budget": 400,
+        "topic": "Busca pelo nome Fixa",
+        "strategy": "CPC manual baixo; protege a marca enquanto o site não aparece no orgânico",
+        "set": "'fixa engenharia', 'fixa assessoria', 'fixa regularização'; RSA de marca",
+        "expected_result": "Volume baixo; o objetivo é não perder quem já procura a Fixa"
+      },
+      {
+        "name": "Meta · Leads WhatsApp · Público frio",
+        "platform": "Meta",
+        "funnel": "topo",
+        "monthly_budget": 600,
+        "topic": "Dor da venda travada e confusão escritura × matrícula",
+        "strategy": "Campanha de mensagens (clique para WhatsApp) otimizada para conversas",
+        "set": "35–70 anos, Caxias do Sul e Serra Gaúcha (checar restrições de categoria especial); criativos V1 e V3; copy de topo",
+        "expected_result": "~14 leads/mês a partir de M3, CPL ~R$ 42 [E]"
+      },
+      {
+        "name": "Meta · Retargeting",
+        "platform": "Meta",
+        "funnel": "remarketing",
+        "monthly_budget": 400,
+        "topic": "Matrícula em mãos e dúvida sobre valor",
+        "strategy": "Mensagens, frequência máxima de 3 por semana",
+        "set": "Visitantes da LP (pixel), engajamento do Instagram em 90 dias; criativos V2 e V4; copy de remarketing",
+        "expected_result": "~10 leads/mês quando o público passar de 1.000 pessoas [E]"
+      }
+    ]
+  },
+  "tracking_metrics": {
+    "description": "O que medir para saber se o forecast está se confirmando. Fontes: Google Ads, Meta Ads Manager e Kommo.",
+    "metrics": [
+      {
+        "id": "cpl",
+        "metric": "CPL de mídia",
+        "definition": "Investimento do mês ÷ leads de mídia (conversas no WhatsApp com origem Meta ou Google)",
+        "source": "Google Ads + Meta Ads + Kommo (campo Origem)",
+        "frequency": "Semanal"
+      },
+      {
+        "id": "leads",
+        "metric": "Leads por canal",
+        "definition": "Conversas novas no número de campanhas, separadas por origem",
+        "source": "Kommo",
+        "frequency": "Semanal"
+      },
+      {
+        "id": "qualif",
+        "metric": "% de leads 4★/5★",
+        "definition": "Leads com 7+ pontos na triagem ÷ total de leads",
+        "source": "Kommo (campo Estrelas)",
+        "frequency": "Semanal"
+      },
+      {
+        "id": "sla",
+        "metric": "1º contato no SLA",
+        "definition": "% de 4★/5★ com mensagem humana em até 30 min (5★) ou 4h (4★), em horário comercial",
+        "source": "Kommo (tag 'SLA estourado')",
+        "frequency": "Semanal"
+      },
+      {
+        "id": "analises",
+        "metric": "Análises de caso",
+        "definition": "Leads que chegaram à etapa 'Análise do caso'",
+        "source": "Kommo",
+        "frequency": "Mensal"
+      },
+      {
+        "id": "contratos",
+        "metric": "Contratos de origem digital",
+        "definition": "Cards em 'Fechado - ganho' com origem Meta ou Google",
+        "source": "Kommo",
+        "frequency": "Mensal"
+      },
+      {
+        "id": "cac",
+        "metric": "CAC de mídia e CAC total",
+        "definition": "Mídia ÷ contratos; CAC total soma Kommo, créditos extras de IA e horas dos sócios",
+        "source": "Ads + Kommo + estimativa de horas",
+        "frequency": "Mensal"
+      }
+    ]
+  },
+  "forecast_6_months": {
+    "description": "Projeção mês a mês do cenário realista [E]. Os contratos são atribuídos ao mês em que o lead chegou; o fechamento real acontece de 2 a 6 semanas depois (decisão em 1–3 semanas e análise do caso).",
+    "evolution_logic": "Não é crescimento linear. M1 é aprendizado (CPL ~28% acima de M3, triagem e SLA ainda calibrando). M2–M3 otimizam: CPC cai e a conversão da página sobe com os melhores títulos e criativos. M4–M6 escalam a verba (R$ 4.000 e R$ 5.000) só se os critérios de escala forem atingidos, e o CPL sobe um pouco com a verba antes de estabilizar.",
+    "monthly_evolution": [
+      {
+        "month": 1,
+        "label": "Setup e aprendizado",
+        "phase": "setup",
+        "impressions": 41819,
+        "clicks": 614,
+        "ctr_pct": 1.47,
+        "cpc": 4.89,
+        "leads": 39.0,
+        "cpl": 76.97,
+        "mql_rate_pct": 45,
+        "mqls": 17.5,
+        "appointments": 8.6,
+        "show_rate_pct": 80,
+        "served_clients": 1.17,
+        "cac_media": 2558,
+        "budget": 3000,
+        "revenue_contracted": 11847,
+        "roas": 3.95,
+        "by_channel": {
+          "google": {
+            "budget": 2000,
+            "clicks": 256,
+            "leads": 19.0,
+            "cpl": 105.41
+          },
+          "meta": {
+            "budget": 1000,
+            "clicks": 357,
+            "leads": 20.0,
+            "cpl": 50.0
+          }
+        }
+      },
+      {
+        "month": 2,
+        "label": "Otimização 1",
+        "phase": "otimizacao",
+        "impressions": 42963,
+        "clicks": 637,
+        "ctr_pct": 1.48,
+        "cpc": 4.71,
+        "leads": 41.7,
+        "cpl": 71.94,
+        "mql_rate_pct": 50,
+        "mqls": 20.9,
+        "appointments": 10.8,
+        "show_rate_pct": 80,
+        "served_clients": 1.48,
+        "cac_media": 2022,
+        "budget": 3000,
+        "revenue_contracted": 14982,
+        "roas": 4.99,
+        "by_channel": {
+          "google": {
+            "budget": 2000,
+            "clicks": 267,
+            "leads": 21.3,
+            "cpl": 93.75
+          },
+          "meta": {
+            "budget": 1000,
+            "clicks": 370,
+            "leads": 20.4,
+            "cpl": 49.09
+          }
+        }
+      },
+      {
+        "month": 3,
+        "label": "Otimização 2",
+        "phase": "otimizacao",
+        "impressions": 39048,
+        "clicks": 686,
+        "ctr_pct": 1.76,
+        "cpc": 4.38,
+        "leads": 49.7,
+        "cpl": 60.34,
+        "mql_rate_pct": 50,
+        "mqls": 24.9,
+        "appointments": 14.4,
+        "show_rate_pct": 80,
+        "served_clients": 1.97,
+        "cac_media": 1521,
+        "budget": 3000,
+        "revenue_contracted": 19920,
+        "roas": 6.64,
+        "by_channel": {
+          "google": {
+            "budget": 2000,
+            "clicks": 286,
+            "leads": 25.7,
+            "cpl": 77.78
+          },
+          "meta": {
+            "budget": 1000,
+            "clicks": 400,
+            "leads": 24.0,
+            "cpl": 41.67
+          }
+        }
+      },
+      {
+        "month": 4,
+        "label": "Escala 1",
+        "phase": "escala",
+        "impressions": 50142,
+        "clicks": 883,
+        "ctr_pct": 1.76,
+        "cpc": 4.53,
+        "leads": 64.1,
+        "cpl": 62.4,
+        "mql_rate_pct": 50,
+        "mqls": 32.1,
+        "appointments": 18.6,
+        "show_rate_pct": 80,
+        "served_clients": 2.54,
+        "cac_media": 1573,
+        "budget": 4000,
+        "revenue_contracted": 25685,
+        "roas": 6.42,
+        "by_channel": {
+          "google": {
+            "budget": 2667,
+            "clicks": 370,
+            "leads": 33.3,
+            "cpl": 80.0
+          },
+          "meta": {
+            "budget": 1333,
+            "clicks": 513,
+            "leads": 30.8,
+            "cpl": 43.33
+          }
+        }
+      },
+      {
+        "month": 5,
+        "label": "Escala 2",
+        "phase": "escala",
+        "impressions": 65376,
+        "clicks": 1062,
+        "ctr_pct": 1.62,
+        "cpc": 4.71,
+        "leads": 77.0,
+        "cpl": 64.9,
+        "mql_rate_pct": 50,
+        "mqls": 38.5,
+        "appointments": 22.3,
+        "show_rate_pct": 80,
+        "served_clients": 3.06,
+        "cac_media": 1636,
+        "budget": 5000,
+        "revenue_contracted": 30868,
+        "roas": 6.17,
+        "by_channel": {
+          "google": {
+            "budget": 3333,
+            "clicks": 444,
+            "leads": 40.0,
+            "cpl": 83.33
+          },
+          "meta": {
+            "budget": 1667,
+            "clicks": 617,
+            "leads": 37.0,
+            "cpl": 45.0
+          }
+        }
+      },
+      {
+        "month": 6,
+        "label": "Escala 3",
+        "phase": "escala",
+        "impressions": 62551,
+        "clicks": 1098,
+        "ctr_pct": 1.75,
+        "cpc": 4.56,
+        "leads": 83.1,
+        "cpl": 60.15,
+        "mql_rate_pct": 50,
+        "mqls": 41.6,
+        "appointments": 24.1,
+        "show_rate_pct": 80,
+        "served_clients": 3.3,
+        "cac_media": 1516,
+        "budget": 5000,
+        "revenue_contracted": 33306,
+        "roas": 6.66,
+        "by_channel": {
+          "google": {
+            "budget": 3333,
+            "clicks": 457,
+            "leads": 43.4,
+            "cpl": 76.84
+          },
+          "meta": {
+            "budget": 1667,
+            "clicks": 641,
+            "leads": 39.7,
+            "cpl": 41.94
+          }
+        }
+      }
+    ],
+    "totals_6_months": {
+      "total_investment": 23000,
+      "total_impressions": 301899,
+      "total_clicks": 4980,
+      "avg_ctr_pct": 1.65,
+      "avg_cpc": 4.62,
+      "total_leads": 354.6,
+      "avg_cpl": 64.86,
+      "avg_mql_rate_pct": 49.5,
+      "total_mqls": 175.5,
+      "total_appointments": 98.8,
+      "avg_show_rate_pct": 80,
+      "total_served_clients": 13.5,
+      "avg_cac_media": 1704,
+      "total_revenue_contracted": 136608,
+      "roas": 5.94
+    }
+  },
+  "scenarios": {
+    "realistic": {
+      "description": "Benchmarks de serviços profissionais/jurídicos na faixa baixa-média, LP com conversão de 6–9,5%.",
+      "total_investment": 23000,
+      "total_leads": 354.6,
+      "avg_cpl": 64.86,
+      "total_case_analyses": 98.8,
+      "total_contracts": 13.5,
+      "avg_cac_media": 1704,
+      "revenue_contracted": 136608,
+      "roas": 5.94,
+      "estimated": true
+    },
+    "optimistic": {
+      "description": "CPL 20% menor e conversão do funil 20% maior (criativo com prova real performando e SLA cumprido).",
+      "total_investment": 23000,
+      "total_leads": 443.2,
+      "avg_cpl": 51.9,
+      "total_case_analyses": 148.4,
+      "total_contracts": 20.3,
+      "avg_cac_media": 1133,
+      "revenue_contracted": 204912,
+      "roas": 8.91,
+      "estimated": true
+    },
+    "pessimistic": {
+      "description": "CPL 30% maior e conversão 20% menor (aprendizado longo, criativo fraco ou atendimento fora do SLA). Equivale aos 25–30 leads/mês da meta antiga.",
+      "total_investment": 23000,
+      "total_leads": 272.8,
+      "avg_cpl": 84.31,
+      "total_case_analyses": 60.8,
+      "total_contracts": 8.3,
+      "avg_cac_media": 2771,
+      "revenue_contracted": 84065,
+      "roas": 3.65,
+      "estimated": true
+    }
+  },
+  "timeline": [
+    {
+      "month": 1,
+      "focus": "Setup e aprendizado",
+      "weekly_actions": [
+        "Sem 0: LP no ar, GA4 + pixel testados, número novo no Kommo, agente de IA e réguas testados (checklist do crm-setup)",
+        "Sem 1: subir as 5 campanhas com a copy aprovada e os criativos V1–V4; nenhuma mudança por 7 dias",
+        "Sem 2: primeira leitura (CTR, CPC, conversas); negativar termos irrelevantes no Google",
+        "Sem 3–4: pausar o pior anúncio por campanha; revisar a triagem do agente nas conversas reais"
+      ],
+      "goal": "~39 leads, CPL até ~R$ 77, 100% dos leads registrados no Kommo",
+      "assumptions": [
+        "LP, tracking e Kommo prontos antes do 1º real"
+      ],
+      "dependencies": [
+        "Chip do número novo",
+        "Logo aprovado e criativos V1 e V3 prontos",
+        "Aprovação dos scripts do SDR pelos sócios"
+      ]
+    },
+    {
+      "month": 2,
+      "focus": "Otimização 1",
+      "weekly_actions": [
+        "Trocar 1 elemento por vez nos anúncios vencedores (gancho, imagem ou formato)",
+        "Google: mudar para CPA alvo quando houver 15+ conversões",
+        "Revisar as 5 perguntas de scoring com os dados reais (primeira leitura de 30 dias)"
+      ],
+      "goal": "~42 leads, CPL ~R$ 72",
+      "assumptions": [
+        "Criativos V2 e V4 com foto real entram no ar"
+      ],
+      "dependencies": [
+        "Fotos de entrega e do evento REURB com autorização"
+      ]
+    },
+    {
+      "month": 3,
+      "focus": "Otimização 2",
+      "weekly_actions": [
+        "Concentrar a verba nos 2 melhores conjuntos de cada plataforma",
+        "Testar o reels do Carlos (pack de vídeo) contra o melhor estático",
+        "Leitura de CAC: contratos de origem digital × investimento"
+      ],
+      "goal": "~50 leads, CPL ~R$ 60, primeiros contratos fechados de origem digital",
+      "assumptions": [
+        "Taxa de 1º contato no SLA acima de 80%"
+      ],
+      "dependencies": [
+        "Sócios operando o Kommo pelo celular"
+      ]
+    },
+    {
+      "month": 4,
+      "focus": "Escala 1 (condicionada)",
+      "weekly_actions": [
+        "Se os critérios de escala forem atingidos: subir para R$ 4.000, no máximo +20% por semana por campanha",
+        "Abrir uma praça nova na Serra (Bento Gonçalves, Farroupilha) em conjunto separado",
+        "Meta: públicos semelhantes a quem chegou a 'Análise do caso'"
+      ],
+      "goal": "~64 leads, CPL até R$ 65",
+      "assumptions": [
+        "CPL até R$ 65 e pelo menos 1 contrato digital por mês em M3"
+      ],
+      "dependencies": [
+        "OK do Carlos para a verba nova"
+      ]
+    },
+    {
+      "month": 5,
+      "focus": "Escala 2",
+      "weekly_actions": [
+        "Subir para R$ 5.000 se o CPL de M4 ficou em até R$ 65",
+        "Renovar criativos com frequência acima de 3",
+        "Medir consumo de créditos de IA do Kommo (limite de 2.250/mês)"
+      ],
+      "goal": "~77 leads, CPL ~R$ 65",
+      "assumptions": [
+        "Capacidade dos dois sócios para ~20 leads 4★/5★ por mês"
+      ],
+      "dependencies": [
+        "Avaliar 2º usuário no Kommo se o volume pedir"
+      ]
+    },
+    {
+      "month": 6,
+      "focus": "Escala 3 e revisão",
+      "weekly_actions": [
+        "Manter R$ 5.000 e otimizar pelo CAC, não só pelo CPL",
+        "Revisar o forecast com 6 meses de dados reais",
+        "Decidir o próximo semestre: nova praça, nova verba ou manutenção"
+      ],
+      "goal": "~83 leads, CPL ~R$ 60",
+      "assumptions": [
+        "Dados de 5 meses no Kommo para recalibrar"
+      ],
+      "dependencies": [
+        "Leitura mensal de CAC"
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "metric": "CPL (semanal, por campanha)",
+      "threshold": "> R$ 100 por 7 dias seguidos",
+      "action": "Pausar o pior anúncio da campanha e revisar termos de busca e público"
+    },
+    {
+      "metric": "CTR Meta",
+      "threshold": "< 0,8% após 1.000 impressões",
+      "action": "Trocar o criativo ou o gancho"
+    },
+    {
+      "metric": "CTR Google",
+      "threshold": "< 3% após 7 dias",
+      "action": "Revisar títulos e negativar termos"
+    },
+    {
+      "metric": "CPC Google",
+      "threshold": "> R$ 12 na média semanal",
+      "action": "Reduzir lances e conferir a concorrência no leilão (Balen)"
+    },
+    {
+      "metric": "Frequência Meta",
+      "threshold": "> 3 por semana no retargeting",
+      "action": "Renovar criativo ou reduzir verba do retargeting"
+    },
+    {
+      "metric": "Gasto diário",
+      "threshold": "> 130% da média diária planejada",
+      "action": "Conferir limites de campanha e pausar a que estourou"
+    },
+    {
+      "metric": "Leads sem 1º contato no SLA",
+      "threshold": "> 20% dos 4★/5★ na semana",
+      "action": "Segurar a escala: o gargalo voltou para o atendimento"
+    }
+  ],
+  "scale_criteria": [
+    {
+      "metric": "CPL de mídia",
+      "threshold": "≤ R$ 65 por 2 semanas seguidas",
+      "action": "Subir a verba em até 20% por semana na campanha vencedora"
+    },
+    {
+      "metric": "Contratos de origem digital",
+      "threshold": "≥ 1 por mês",
+      "action": "Liberar a escala de M4 (R$ 4.000)"
+    },
+    {
+      "metric": "% de leads 4★/5★",
+      "threshold": "≥ 30%",
+      "action": "Manter público e copy; testar praça nova"
+    },
+    {
+      "metric": "ROAS em valor contratado",
+      "threshold": "≥ 4x no acumulado",
+      "action": "Liberar R$ 5.000 em M5–M6"
+    }
+  ],
+  "assumptions": [
+    "Verba: R$ 3.000/mês aprovada pelo Carlos em 23/09 (Cenário B). M4–M6 (R$ 4.000–5.000) é proposta condicionada, ainda não aprovada.",
+    "CPC e CTR: Google R$ 7–8 e 4–5% (clusters do diagnóstico de mídia, faixa de R$ 4–12); Meta R$ 2,5–2,8 e 1–1,2% [E].",
+    "Conversão da página para conversa no WhatsApp: Google 7,4–9,5%, Meta 5,6–6,2% [E]. Benchmark de serviços: CVR de LP de 5% a 18% (referência da skill).",
+    "CPL resultante: Google ~R$ 78 e Meta ~R$ 42 a partir de M3, dentro da faixa baixa-média do benchmark de serviços jurídicos (Google R$ 60–150, Meta R$ 40–90).",
+    "Funil comercial: 45–50% dos leads com 3★+; 22–29% chegam à análise do caso (65% × 45% do diagnóstico comercial); 80% de comparecimento [E]; 57% recebem proposta e 30% fecham (diagnóstico comercial). Resultado: ~4% de lead para contrato.",
+    "Ticket médio ponderado de R$ 10.100 [E]: 50% regularização de casa (R$ 5 mil), 30% usucapião (R$ 12 mil), 20% inventário (R$ 20 mil). REURB de loteamento (R$ 100–400 mil) fica fora: é captado por relacionamento, e um único contrato muda o resultado.",
+    "Valor contratado ≠ caixa: os clientes pagam parcelado (até 12–25x), então o caixa entra ao longo dos meses."
+  ],
+  "assumptions_and_dependencies": [
+    "Landing page no ar com o número novo de WhatsApp e tracking (GA4 + pixel) testado antes do 1º real.",
+    "Kommo com agente de IA, réguas e SLA configurados e testados (crm-setup + sdr-ia-config).",
+    "Carlos e Christian fazendo o 1º contato no SLA (30 min para 5★, 4h para 4★, em horário comercial).",
+    "Criativos V1 e V3 prontos no lançamento; V2 e V4 dependem de fotos reais com autorização.",
+    "Nenhum número deste forecast é garantia: é uma projeção de lançamento sem histórico, para revisar com dados reais a cada 30 dias."
+  ],
+  "disclaimer": [
+    "Forecast não é promessa: é a melhor estimativa com a informação de hoje, sem nenhum histórico de mídia da Fixa.",
+    "Qualidade e renovação dos criativos mudam o CPL mais do que qualquer outra variável.",
+    "Tempo de resposta aos leads: se o 1º contato sair do SLA, a conversão cai e o CAC sobe, mesmo com mídia boa.",
+    "Aprendizado dos algoritmos: conta nova pode levar mais que 30 dias para estabilizar.",
+    "Concorrência no leilão: se a Balen intensificar a mídia em Caxias do Sul, o CPC do Google sobe.",
+    "Regras de anúncio: a categoria especial de imóveis da Meta pode limitar a segmentação por idade e região.",
+    "Sazonalidade: dezembro e janeiro tendem a ter menos demanda de cartório e prefeitura (recesso) [E]."
+  ],
+  "sheets_url": "clientes/fixa/forecast-midia-fixa.xlsx",
+  "_metadata": {
+    "skill": "ee-s3-forecast-midia",
+    "version": 1,
+    "generated_at": "2026-10-02",
+    "version_notes": "Primeira versão; V4MOS atualizado em 02/10 (0 campanhas, R$ 0).",
+    "depends_on": [
+      "ee-s2-diagnostico-midia",
+      "ee-s4-diagnostico-comercial",
+      "ee-s3-is-metricas-funil",
+      "ee-s3-copy-anuncios",
+      "ee-s3-criativos-anuncios"
+    ],
+    "next_iteration": "30 dias após ligar a mídia, com CPL e conversão reais."
+  },
+  "completed_at": "2026-10-02T13:40:00Z"
+}

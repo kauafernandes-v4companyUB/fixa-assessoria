@@ -1,7 +1,7 @@
 {
   "client_name": "Fixa Engenharia & Assessoria",
-  "summary": "A Fixa vai implementar o funil de captação (tracking, landing page e CRM) antes de ligar qualquer real em mídia paga — hoje o investimento é R$0 (confirmado via V4MOS: 0 campanhas em Google e Meta Ads). Depois do funil pronto na Semana 4, o Cenário B (R$3.000/mês, Google+Meta) projeta 25-30 leads/mês a um CPL de ~R$50-60.",
-  "summary_headline": "Antes de ligar mídia paga, vamos implementar tracking + LP + CRM (Semana 4) — depois lançamos R$3.000/mês em Google+Meta com meta de 25-30 leads/mês.",
+  "summary": "A Fixa vai implementar o funil de captação (tracking, landing page e CRM) antes de ligar qualquer real em mídia paga — hoje o investimento é R$0 (confirmado via V4MOS: 0 campanhas em Google e Meta Ads). Depois do funil pronto na Semana 4, o Cenário B (R$3.000/mês, Google+Meta) projeta ~40-50 leads/mês, com CPL de ~R$77 no 1º mês (aprendizado) e ~R$60 a partir do 3º [E] (ver ee-s3-forecast-midia).",
+  "summary_headline": "Antes de ligar mídia paga, vamos implementar tracking + LP + CRM (Semana 4) — depois lançamos R$3.000/mês em Google+Meta com meta de ~40-50 leads/mês e CPL de ~R$60 a partir do 3º mês.",
   "summary_highlights": [
     {
       "category": "posicao",
@@ -14,7 +14,7 @@
       "category": "oportunidade",
       "label": "Budget de lançamento (Cenário B)",
       "value": "R$3.000/mês",
-      "subtext": "~25-30 leads/mês estimados [E], CPL blend ~R$50-60",
+      "subtext": "~40-50 leads/mês estimados [E]; CPL ~R$77 no 1º mês e ~R$60 a partir do 3º",
       "tone": "green"
     },
     {
@@ -179,7 +179,7 @@
     }
   ],
   "realistic_goal": {
-    "target_cpl": 55,
+    "target_cpl": 60,
     "target_roas": null,
     "justification": "Sem histórico de conta real da Fixa, a meta parte do benchmark blend (imobiliário + jurídico) e é tratada como hipótese a validar no piloto, não como promessa. ROAS não é a métrica central por causa da variação enorme de ticket (R$5 mil a R$400 mil) — CAC/LTV é o framing mais honesto para este negócio.",
     "assumptions": [
@@ -196,11 +196,11 @@
   },
   "realistic_goal_90d": {
     "current_cpl": null,
-    "target_cpl": 55,
+    "target_cpl": 60,
     "current_cac": null,
-    "target_cac": 400,
+    "target_cac": 1700,
     "current_leads_month": 0,
-    "target_leads_month": 25,
+    "target_leads_month": 50,
     "premissas": [
       "Landing page de conversão (ee-s3-landing-page) e tracking (GA4+pixel) no ar até o fim da Semana 4",
       "CRM básico (ee-s3-crm-setup) configurado e testado até o fim da Semana 4",
@@ -311,8 +311,8 @@
       "total_budget_monthly": 1500,
       "google_split": 1000,
       "meta_split": 500,
-      "expected_leads_monthly": 13,
-      "expected_cpl": 65,
+      "expected_leads_monthly": 20,
+      "expected_cpl": 75,
       "expected_roas": null,
       "confidence": "low",
       "effort_weeks": 1,
@@ -343,8 +343,8 @@
       "total_budget_monthly": 3000,
       "google_split": 2000,
       "meta_split": 1000,
-      "expected_leads_monthly": 27,
-      "expected_cpl": 55,
+      "expected_leads_monthly": 44,
+      "expected_cpl": 69,
       "expected_roas": null,
       "confidence": "medium",
       "effort_weeks": 2,
@@ -387,8 +387,8 @@
       "total_budget_monthly": 6000,
       "google_split": 4000,
       "meta_split": 2000,
-      "expected_leads_monthly": 55,
-      "expected_cpl": 50,
+      "expected_leads_monthly": 92,
+      "expected_cpl": 65,
       "expected_roas": null,
       "confidence": "low",
       "effort_weeks": 3,
@@ -560,12 +560,12 @@
     "numbered_reasons": [
       "(1) CRO 8/100 e CRM 5/100 — hoje não há onde o lead pago aterrissar nem quem faça o follow-up dele",
       "(2) A causa-raiz não é falta de tráfego, é ausência de estrutura de conversão (site institucional não converte, sem CRM, sem tracking)",
-      "(3) Com o funil pronto, o Cenário B projeta 25-30 leads/mês a um CPL de ~R$50-60 — upside real, mas só depois da base implementada"
+      "(3) Com o funil pronto, o Cenário B projeta ~40-50 leads/mês, com CPL de ~R$60 a partir do 3º mês [E] — upside real, mas só depois da base implementada"
     ],
     "discussion_anchor": "O stakeholder precisa aprovar esta ordem de implementação (funil antes de mídia) antes do próximo ciclo, para alinhar expectativa de quando o primeiro lead pago realmente chega."
   },
   "honesty_alert": "Todos os números de CPL/leads/CAC são estimados sem histórico real de conta da Fixa — tratar como hipótese a validar no piloto (pós Semana 4), não como promessa. ROAS não foi usado como meta central pela variação enorme de ticket (R$5 mil a R$400 mil).",
   "is_launch_plan": true,
   "completed_at": "2026-09-23T12:17:44Z",
-  "revision_note": "01/10/2026: copy das hipóteses H1, H2, H3 e H5 e ângulos de 3 clusters revisados para remover promessa de prazo ('prazo por escrito'), 'diagnóstico gratuito' (não confirmado) e a nota do GMB como prova principal. Detalhe no documento 'Direcionamento de copy e criativos — Fixa'."
+  "revision_note": "01/10/2026: copy das hipóteses H1, H2, H3 e H5 e ângulos de 3 clusters revisados para remover promessa de prazo ('prazo por escrito'), 'diagnóstico gratuito' (não confirmado) e a nota do GMB como prova principal. Detalhe no documento 'Direcionamento de copy e criativos — Fixa'. | 02/10/2026: metas de volume corrigidas pelo forecast (ee-s3-forecast-midia). A meta anterior (25–30 leads/mês com CPL de R$ 50–60 e R$ 3.000) não fechava a conta: R$ 3.000 ÷ R$ 55 ≈ 55 leads. Cenários recalculados como verba ÷ CPL (A: R$1.500 → ~20 leads a ~R$75; B: R$3.000 → ~44 leads/mês na média de M1–M3 a ~R$69; C: R$6.000 → ~92 leads a ~R$65). CAC alvo de R$400 trocado por ~R$1.700 (mídia ÷ contratos, com ~4% de lead para contrato)."
 }

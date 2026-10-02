@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-10-02 12:46 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
+*Gerado em 2026-10-02 12:54 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -374,7 +374,7 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 
 ## 9. Mídia Paga
 
-> **Headline:** Antes de ligar mídia paga, vamos implementar tracking + LP + CRM (Semana 4) — depois lançamos R$3.000/mês em Google+Meta com meta de 25-30 leads/mês.
+> **Headline:** Antes de ligar mídia paga, vamos implementar tracking + LP + CRM (Semana 4) — depois lançamos R$3.000/mês em Google+Meta com meta de ~40-50 leads/mês e CPL de ~R$60 a partir do 3º mês.
 
 - **Período analisado:** 90 dias (25/06/2026 a 23/09/2026) via V4MOS — 0 campanhas confirmadas em Google Ads e Meta Ads
 - **Budget contratado:** —/mês
@@ -389,7 +389,7 @@ Balen tem escala e reconhecimento formal, mas fala de forma institucional genér
 
 ### Principais achados
 - **Investimento atual:** R$0/mês — 0 campanhas ativas confirmadas via V4MOS (Google + Meta)
-- **Budget de lançamento (Cenário B):** R$3.000/mês — ~25-30 leads/mês estimados [E], CPL blend ~R$50-60
+- **Budget de lançamento (Cenário B):** R$3.000/mês — ~40-50 leads/mês estimados [E]; CPL ~R$77 no 1º mês e ~R$60 a partir do 3º
 - **O que implementamos primeiro:** Tracking + LP + CRM — Pré-requisito antes do 1º real em anúncio — Semana 4
 - **Se pularmos a ordem:** CPL parece ruim sem ser — Anúncio pagaria pra provar o que já sabemos: falta conversão, não tráfego
 - **Concorrente com budget maior:** Balen Regularizações — Escala multi-estado — entramos menores, mas com ângulo que ninguém ocupa (engenharia e parte legal num processo só)
@@ -546,18 +546,19 @@ O cliente oculto da Fixa Engenharia & Assessoria (29/09, WhatsApp da bio do Inst
 - ✅ **ee-s3-criativos-anuncios** — concluída em 2026-10-02T12:00:00Z
 - 🟡 **ee-s3-crm-setup** — em andamento
 - ✅ **ee-s5-scripts-sdr** — concluída em 2026-10-02T12:30:00Z
+- ✅ **ee-s3-forecast-midia** — concluída em 2026-10-02T13:40:00Z
 
 **Semana atual:** 4
 
 ### Histórico de refinamentos
-- *2026-10-01T14:30:00Z* — **ee-s3-crm-setup** (—): 
-- *2026-10-01T16:00:00Z* — **ee-s3-manual-marca** (—): 
 - *2026-10-01T20:10:00Z* — **ee-s2-diagnostico-midia** (—): 
 - *2026-10-01T20:30:00Z* — **ee-s1-swot** (—): 
 - *2026-10-01T21:00:00Z* — **ee-s3-landing-page** (—): 
 - *2026-10-01T21:40:00Z* — **ee-s3-copy-anuncios** (—): 
 - *2026-10-02T12:00:00Z* — **ee-s3-criativos-anuncios** (—): 
 - *2026-10-02T12:30:00Z* — **ee-s5-scripts-sdr** (—): 
+- *2026-10-02T13:40:00Z* — **ee-s3-forecast-midia** (—): 
+- *2026-10-02T13:45:00Z* — **ee-s2-diagnostico-midia** (—): 
 
 ---
 

@@ -140,10 +140,10 @@
     "fetched_at": "2026-09-08"
   },
   "connectors": {
-    "fetched_at": "2026-09-23T12:06:29Z",
+    "fetched_at": "2026-10-02T12:46:36Z",
     "period": {
-      "start": "2026-06-25T00:00:00Z",
-      "end": "2026-09-23T23:59:59Z"
+      "start": "2026-07-04T00:00:00Z",
+      "end": "2026-10-02T23:59:59Z"
     },
     "google_ads": {
       "total_campaigns": 0,
@@ -386,10 +386,11 @@
         "completed_at": null
       },
       "ee-s3-forecast-midia": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-10-02T13:00:00Z",
+        "completed_at": "2026-10-02T13:40:00Z",
+        "version": 1
       }
     }
   },
@@ -579,6 +580,18 @@
       "skill": "ee-s5-scripts-sdr",
       "checkpoint": 0,
       "decision": "Scripts do agente de IA do Kommo aprovados. Boas-vindas: opção A (direta, já pergunta pelo caso). 5 perguntas e pontuação 0-11 das Métricas do Funil (não a tabela genérica da skill). Agente se apresenta como 'a Fixa', sem nome humano; se perguntado, confirma que é o atendimento automático. Follow-up pela régua aprovada (T+2h, T+23h, T+72h), 8h-18h dias úteis. 7 objeções com escalação (2x mesma objeção, irritação ou pedido de atendente). Aprovação do Carlos e do Christian antes de configurar no Kommo."
+    },
+    {
+      "ts": "2026-10-02T13:40:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "checkpoint": 0,
+      "decision": "Forecast de 6 meses aprovado: R$ 3.000/mês em M1–M3 e escala condicionada para R$ 4.000 (M4) e R$ 5.000 (M5–M6), só se CPL ≤ R$ 65 por 2 semanas, ≥ 1 contrato digital/mês e SLA cumprido (não aprovada ainda pelo Carlos). Cenário realista [E]: R$ 23 mil, ~355 leads, CPL médio R$ 65 (M1 ~R$ 77, ~R$ 60 a partir de M3), ~99 análises, ~14 contratos, ~R$ 137 mil contratados, ROAS 5,9x. Google 2/3, Meta 1/3. Ticket ponderado R$ 10,1 mil (casa/usucapião/inventário; REURB fora). V4MOS atualizado em 02/10 (0 campanhas). Exportado em xlsx (gog não instalado)."
+    },
+    {
+      "ts": "2026-10-02T13:45:00Z",
+      "skill": "ee-s2-diagnostico-midia",
+      "checkpoint": 0,
+      "decision": "Metas antigas corrigidas a pedido do operador para bater com o forecast: '25–30 leads/mês com CPL R$ 50–60' (não fechava a conta) vira ~40–50 leads/mês com CPL ~R$ 60 a partir do 3º mês; CAC alvo de R$ 400 vira ~R$ 1.700; cenários A/B/C recalculados como verba ÷ CPL. Atualizados: ee-s2-diagnostico-midia, ee-s3-is-metricas-funil, ee-s3-copy-anuncios, deck da Semana 3 e roteiro da reunião (com fala que reconhece a correção ao cliente)."
     }
   ]
 }

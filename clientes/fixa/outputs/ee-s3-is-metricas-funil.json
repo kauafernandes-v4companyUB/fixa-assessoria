@@ -27,8 +27,8 @@
     {
       "category": "janela",
       "label": "Meta de CPL (Cenário B)",
-      "value": "R$ 50–60 [E]",
-      "subtext": "R$ 3.000/mês → 25–30 leads/mês, projeção do diagnóstico de mídia",
+      "value": "~R$ 60 [E]",
+      "subtext": "A partir do 3º mês (~R$ 77 no 1º); R$ 3.000/mês → ~40–50 leads/mês, forecast de mídia",
       "tone": "yellow"
     },
     {
@@ -319,7 +319,7 @@
       "source": "Kommo (pipeline de triagem)",
       "frequency": "Semanal no 1º mês, depois mensal",
       "current_value": null,
-      "target_value": "25–30/mês com R$ 3.000 de mídia (Cenário B)",
+      "target_value": "~40–50/mês com R$ 3.000 de mídia (forecast de 02/10; ~39 no 1º mês)",
       "estimated": true
     },
     {
@@ -329,7 +329,7 @@
       "source": "Google Ads + Meta Ads (investimento) e Kommo (leads com origem = mídia)",
       "frequency": "Semanal",
       "current_value": null,
-      "target_value": "R$ 50–60",
+      "target_value": "~R$ 60 a partir do 3º mês (até ~R$ 77 no 1º, de aprendizado)",
       "estimated": true
     },
     {
@@ -512,6 +512,10 @@
       {
         "date": "2026-10-01",
         "change": "SLA de 4★/5★ contado só em horário comercial (decisão do operador)."
+      },
+      {
+        "date": "2026-10-02",
+        "change": "Metas de leads e CPL alinhadas ao forecast de mídia: ~40–50 leads/mês com R$ 3.000 e CPL de ~R$ 60 a partir do 3º mês (a meta anterior de 25–30 leads com CPL de R$ 50–60 não fechava a conta)."
       }
     ]
   },
@@ -522,7 +526,7 @@
     },
     {
       "risk": "Confundir CPL com CAC e achar a mídia cara ou barata pelo número errado",
-      "countermeasure": "CPL mede só mídia (meta R$ 50–60). CAC inclui Kommo, créditos extras de IA (se houver) e horas dos sócios. Os dois aparecem separados na leitura mensal."
+      "countermeasure": "CPL mede só mídia (meta de ~R$ 60 a partir do 3º mês). CAC inclui Kommo, créditos extras de IA (se houver) e horas dos sócios. Os dois aparecem separados na leitura mensal."
     },
     {
       "risk": "Motivo de perda em texto livre, sem padrão para analisar",
