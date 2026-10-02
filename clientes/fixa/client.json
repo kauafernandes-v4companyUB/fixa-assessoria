@@ -598,6 +598,12 @@
       "skill": "ee-s3-crm-setup",
       "checkpoint": 0,
       "decision": "Caso misto (averbação + inventário) decidido pelo operador: vai para o funil do Carlos, com a tag 'Christian marcado'; o Carlos conduz e o Christian entra na parte do inventário. Atualizados: diagnóstico comercial, métricas do funil, rascunho do crm-setup, deck e roteiro da Semana 3 (vira confirmação na reunião)."
+    },
+    {
+      "ts": "2026-10-02T15:00:00Z",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 0,
+      "decision": "Número de campanhas vai usar a API oficial do WhatsApp (via Kommo). Toques fora da janela de 24h (nutrição D+2..D+35, retomada T+24h/T+72h, reativação D+90/D+97) saem como 9 templates aprovados pela Meta, cobrados por envio. Página oficial da Meta conferida em 02/10: respostas na janela gratuitas; a cobrança de respostas noticiada pela Mobile Time não consta na documentação oficial. Atualizados: rascunho do crm-setup, pipeline e roteiro da Semana 3."
     }
   ]
 }

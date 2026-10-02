@@ -1,7 +1,7 @@
 {
   "_draft_note": "RASCUNHO do ee-s3-crm-setup (status in_progress). Vai para outputs/ só depois de: chip do número novo conectado, configuração pela interface do Kommo (agente de IA, Salesbots, automações de SLA, horário de atendimento) e checklist de testes aprovado. A estrutura (funis, etapas, campos, tags, motivos de perda) já foi criada pela API em 01/10/2026; IDs em kommo_implementation.",
   "client_name": "Fixa Engenharia & Assessoria",
-  "summary": "O Kommo da Fixa Engenharia & Assessoria começa do zero (Cenário A). A conta é única, no plano Pro, e tem 3 funis: Triagem IA, Carlos (REURB/loteamento e casa) e Christian (usucapião e inventário). As etapas 2 a 7 são iguais nos dois funis dos sócios. São 4 réguas no Salesbot: boas-vindas em 3 toques, nutrição 3★ em 4 toques + retomada de nota no D+35, retomada T+24h/72h e reativação D+90/97. O SLA conta só em horário comercial e é controlado por tarefa e pela tag 'SLA estourado', sem alerta individual. Antes de ativar as réguas, falta decidir entre API oficial e WhatsApp pelo app: com a API, todo toque fora da janela de 24h precisa de template aprovado pela Meta.",
+  "summary": "O Kommo da Fixa Engenharia & Assessoria começa do zero (Cenário A). A conta é única, no plano Pro, e tem 3 funis: Triagem IA, Carlos (REURB/loteamento e casa) e Christian (usucapião e inventário). As etapas 2 a 7 são iguais nos dois funis dos sócios. São 4 réguas no Salesbot: boas-vindas em 3 toques, nutrição 3★ em 4 toques + retomada de nota no D+35, retomada T+24h/72h e reativação D+90/97. O SLA conta só em horário comercial e é controlado por tarefa e pela tag 'SLA estourado', sem alerta individual. O número de campanhas usa a API oficial (decisão de 02/10): todo toque fora da janela de 24h sai como template aprovado pela Meta.",
   "summary_headline": "Um número, três funis e quatro réguas: nenhum lead da Fixa fica sem resposta ou sem próximo passo no Kommo.",
   "summary_highlights": [
     {
@@ -34,10 +34,10 @@
     },
     {
       "category": "risco",
-      "label": "Pendência de integração",
-      "value": "API x app",
-      "subtext": "Define se os toques fora da janela de 24h precisam de template aprovado pela Meta",
-      "tone": "yellow"
+      "label": "Integração do WhatsApp",
+      "value": "API oficial",
+      "subtext": "9 templates aprovados pela Meta para os toques fora da janela de 24h, cobrados por envio",
+      "tone": "blue"
     }
   ],
   "summary_key_findings": [
@@ -397,8 +397,10 @@
   ],
   "whatsapp_integration": {
     "number": "Número NOVO de WhatsApp Business, só para campanhas (chip retirado pelo Carlos). O +55 54 99971-9141 continua fora do Kommo, com os clientes em andamento.",
-    "decision_pending": "Escolher entre a API oficial (WhatsApp Business Platform, via Kommo) e a conexão do app pelo celular. Pela API: templates, referência de anúncio e estabilidade, com as mensagens iniciadas pela Fixa fora da janela de 24h cobradas pela Meta. Pelo app: sem custo por mensagem, mas com limite de automação e risco de bloqueio do número. A recomendação é a API oficial, porque o número é novo e existe só para campanhas.",
-    "templates_needed_if_api": [
+    "templates_note": "Os toques de boas-vindas (T+0, T+2h e T+23h) e a mensagem do sócio dentro do SLA ficam dentro da janela de 24h e não precisam de template. Na API, {nome} vira variável do template ({{1}}).",
+    "decision": "API oficial do WhatsApp Business (via Kommo), decidida pelo operador em 02/10/2026. Motivos: número novo e exclusivo de campanhas, templates, referência do anúncio de origem e estabilidade, sem o risco de bloqueio da conexão pelo app.",
+    "pricing_check": "Página oficial de preços da Meta conferida em 02/10/2026: mensagens sem template dentro da janela de 24h são gratuitas; templates de marketing e de utilidade fora da janela são cobrados por envio. A cobrança de respostas via API noticiada pela Mobile Time para 01/10/2026 não aparece na documentação oficial.",
+    "templates_needed": [
       "Nutrição semana 1 (D+2)",
       "Nutrição semana 2 (D+7) — quando houver caso real",
       "Nutrição semana 3 (D+14)",
@@ -408,8 +410,7 @@
       "Retomada T+72h",
       "Reativação D+90",
       "Reativação D+97"
-    ],
-    "templates_note": "Os toques de boas-vindas (T+0, T+2h e T+23h) e a mensagem do sócio dentro do SLA ficam dentro da janela de 24h e não precisam de template. Na API, {nome} vira variável do template ({{1}})."
+    ]
   },
   "kommo_setup_guide": [
     {
@@ -444,9 +445,9 @@
       "step": 4,
       "title": "WhatsApp",
       "actions": [
-        "Integrações > WhatsApp: conectar o número novo de campanhas (API oficial recomendada)",
+        "Integrações > WhatsApp: conectar o número novo de campanhas pela API oficial (decidido em 02/10)",
         "Configurar: mensagem recebida de contato novo cria lead na Triagem IA",
-        "Se for API: submeter os 9 templates de whatsapp_integration para aprovação da Meta (categoria marketing ou utilidade, conforme a Meta classificar)",
+        "Submeter os 9 templates de whatsapp_integration para aprovação da Meta (categoria marketing ou utilidade, conforme a Meta classificar)",
         "Mandar uma mensagem de teste e conferir se o histórico aparece no card"
       ]
     },
@@ -592,7 +593,7 @@
       "steps": [
         "Conferir que o histórico completo aparece no card",
         "Conferir a formatação (negrito, quebras de linha) no celular do lead",
-        "Se for API: enviar um template aprovado fora da janela de 24h e conferir a entrega",
+        "Enviar um template aprovado fora da janela de 24h e conferir a entrega",
         "Conferir o aviso de lead novo nos celulares do Carlos e do Christian"
       ],
       "passed": null
@@ -620,7 +621,7 @@
     }
   ],
   "open_items": [
-    "API oficial ou app para o número de campanhas (define templates e custo por mensagem; a Mobile Time noticiou cobrança de respostas via API a partir de 01/10/2026, ainda não confirmada na documentação da Meta)"
+    "Nenhuma decisão pendente. Falta executar: chip conectado pela API, 9 templates aprovados pela Meta, configuração pela interface (agente de IA, Salesbots, automações de SLA, horário de atendimento) e checklist de testes."
   ],
   "completed_at": null,
   "kommo_implementation": {

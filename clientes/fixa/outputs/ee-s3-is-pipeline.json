@@ -408,7 +408,7 @@
     },
     {
       "risk": "Mensagens automáticas bloqueadas fora da janela de 24h do WhatsApp",
-      "countermeasure": "No setup do Kommo (ee-s3-crm-setup), confirmar o tipo de integração do número de campanhas. Se for API oficial, os toques de nutrição, retomada e reativação precisam de template aprovado pela Meta."
+      "countermeasure": "Número de campanhas na API oficial (decisão de 02/10): os toques de nutrição, retomada e reativação saem como template aprovado pela Meta, cobrado por envio. Boas-vindas e a resposta do sócio ficam dentro da janela de 24h, sem template."
     },
     {
       "risk": "Prometer prazo em alguma régua ou resposta",
