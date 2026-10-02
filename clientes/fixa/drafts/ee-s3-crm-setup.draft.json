@@ -82,7 +82,7 @@
     {
       "name": "Carlos — Engenharia",
       "owner": "Carlos Henrique Garbin",
-      "scope": "REURB/loteamento, regularização de casa (averbação, escritura) e, provisoriamente, caso misto",
+      "scope": "REURB/loteamento, regularização de casa (averbação, escritura) e caso misto (com a tag 'Christian marcado')",
       "stages": [
         "Aguardando 1º contato",
         "Em conversa",
@@ -547,7 +547,7 @@
       "Cada sócio mexe só no próprio funil. O card com 'SLA estourado' pode ser assumido pelo outro sócio, que assina a mensagem com o próprio nome",
       "Toda mensagem humana começa com o nome de quem está falando ('Aqui é o Carlos…'), porque a conta é única",
       "Estrela vem da tabela de scoring. O sócio pode subir ou descer uma estrela, mas registra no card qual resposta mudou",
-      "Caso misto: vai para o funil do Carlos com a tag 'Christian marcado', até a decisão final da reunião"
+      "Caso misto: vai para o funil do Carlos com a tag 'Christian marcado' (decisão de 02/10)"
     ],
     "adoption_plan": [
       "Treinamento de 45 min com Carlos e Christian pelo celular: aviso de lead novo, mover card, resposta rápida de handoff, lista 'SLA estourado'",
@@ -601,7 +601,7 @@
       "test": "Cenário real — scoring e roteamento",
       "steps": [
         "Rodar os 5 perfis de scoring_validation_examples (ee-s3-is-metricas-funil) e conferir a nota: herdeira Caxias 10 pts/5★, loteador 9/4★, Farroupilha 7/4★, Bento Gonçalves 5/3★, curioso 2★",
-        "Herdeira (inventário + venda) → confirmar o roteamento definido para caso misto",
+        "Herdeira (inventário + venda) → funil do Carlos com a tag 'Christian marcado'",
         "Loteador e Farroupilha → funil do Carlos; usucapião de teste → funil do Christian",
         "Imóvel fora da área (ex.: Curitiba) → 1★, resposta cordial e Perdido 'Fora da área de atuação'",
         "Perguntar 'quanto tempo demora?' e confirmar que o agente não informa prazo"
@@ -620,8 +620,7 @@
     }
   ],
   "open_items": [
-    "API oficial ou app para o número de campanhas (define templates e custo por mensagem; a Mobile Time noticiou cobrança de respostas via API a partir de 01/10/2026, ainda não confirmada na documentação da Meta)",
-    "Roteamento do caso misto (averbação + inventário): segue provisório no funil do Carlos com a tag 'Christian marcado'"
+    "API oficial ou app para o número de campanhas (define templates e custo por mensagem; a Mobile Time noticiou cobrança de respostas via API a partir de 01/10/2026, ainda não confirmada na documentação da Meta)"
   ],
   "completed_at": null,
   "kommo_implementation": {

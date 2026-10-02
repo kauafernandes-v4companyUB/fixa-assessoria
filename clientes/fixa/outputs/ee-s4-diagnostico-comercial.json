@@ -289,7 +289,7 @@
       "Lead de indicação: não passa por scoring, vai direto para atendimento humano (pedido do Carlos, 16/09)",
       "REURB/loteamento e regularização de casa → funil do Carlos",
       "Usucapião e inventário → funil do Christian",
-      "Caso misto (ex.: casa sem averbação + inventário não aberto) → a validar na reunião de 30/09"
+      "Caso misto (ex.: casa sem averbação + inventário não aberto): vai para o funil do Carlos, com a tag 'Christian marcado'. O Carlos conduz e o Christian entra na parte do inventário. Decidido pelo operador em 02/10."
     ]
   },
   "sla": {

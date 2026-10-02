@@ -698,7 +698,7 @@ def build_s3_decisoes(client, outputs):
     items = [
         "Aprovar as 5 perguntas e as faixas de estrela",
         "Aprovar o SLA: 30 min (5★) e 4h (4★), só em horário comercial, um cobre o outro",
-        "Caso misto (averbação + inventário): funil do Carlos ou do Christian?",
+        "Caso misto (averbação + inventário): funil do Carlos, com o Christian marcado",
         "Corte de investimento: abaixo de R$ 400/mês não segue pros sócios?",
         "Ligar hoje os 4 ajustes no WhatsApp atual",
         "Chip do número novo + exportar as últimas 200–300 conversas",

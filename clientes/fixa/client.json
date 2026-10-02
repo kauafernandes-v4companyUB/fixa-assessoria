@@ -592,6 +592,12 @@
       "skill": "ee-s2-diagnostico-midia",
       "checkpoint": 0,
       "decision": "Metas antigas corrigidas a pedido do operador para bater com o forecast: '25–30 leads/mês com CPL R$ 50–60' (não fechava a conta) vira ~40–50 leads/mês com CPL ~R$ 60 a partir do 3º mês; CAC alvo de R$ 400 vira ~R$ 1.700; cenários A/B/C recalculados como verba ÷ CPL. Atualizados: ee-s2-diagnostico-midia, ee-s3-is-metricas-funil, ee-s3-copy-anuncios, deck da Semana 3 e roteiro da reunião (com fala que reconhece a correção ao cliente)."
+    },
+    {
+      "ts": "2026-10-02T14:30:00Z",
+      "skill": "ee-s3-crm-setup",
+      "checkpoint": 0,
+      "decision": "Caso misto (averbação + inventário) decidido pelo operador: vai para o funil do Carlos, com a tag 'Christian marcado'; o Carlos conduz e o Christian entra na parte do inventário. Atualizados: diagnóstico comercial, métricas do funil, rascunho do crm-setup, deck e roteiro da Semana 3 (vira confirmação na reunião)."
     }
   ]
 }
