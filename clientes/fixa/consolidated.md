@@ -1,6 +1,6 @@
 # Visão Consolidada — Fixa (Engenharia + Assessoria, marca unificada em construção)
 
-*Gerado em 2026-10-02 12:42 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
+*Gerado em 2026-10-02 12:46 UTC · Ciclo atual: Semana 4 · Cliente: `fixa`*
 
 > Este documento consolida tudo que foi produzido para o cliente ao longo do projeto.
 > Cada seção referencia o output estruturado original em `outputs/` para auditabilidade.
@@ -545,11 +545,11 @@ O cliente oculto da Fixa Engenharia & Assessoria (29/09, WhatsApp da bio do Inst
 - ✅ **ee-s3-copy-anuncios** — concluída em 2026-10-01T21:40:00Z
 - ✅ **ee-s3-criativos-anuncios** — concluída em 2026-10-02T12:00:00Z
 - 🟡 **ee-s3-crm-setup** — em andamento
+- ✅ **ee-s5-scripts-sdr** — concluída em 2026-10-02T12:30:00Z
 
 **Semana atual:** 4
 
 ### Histórico de refinamentos
-- *2026-09-30T14:00:00Z* — **ee-s3-crm-setup** (—): 
 - *2026-10-01T14:30:00Z* — **ee-s3-crm-setup** (—): 
 - *2026-10-01T16:00:00Z* — **ee-s3-manual-marca** (—): 
 - *2026-10-01T20:10:00Z* — **ee-s2-diagnostico-midia** (—): 
@@ -557,6 +557,7 @@ O cliente oculto da Fixa Engenharia & Assessoria (29/09, WhatsApp da bio do Inst
 - *2026-10-01T21:00:00Z* — **ee-s3-landing-page** (—): 
 - *2026-10-01T21:40:00Z* — **ee-s3-copy-anuncios** (—): 
 - *2026-10-02T12:00:00Z* — **ee-s3-criativos-anuncios** (—): 
+- *2026-10-02T12:30:00Z* — **ee-s5-scripts-sdr** (—): 
 
 ---
 
