@@ -164,26 +164,31 @@
 <div class="app">
   <aside class="sidebar">
     <h1>Fixa · Roteiro de Reunião 3</h1>
-    <div class="sub">Recap S1/S2 + Condução Semana 3</div>
+    <div class="sub">Semana 3 · slide a slide do deck da Semana 3</div>
     <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
     <input type="search" id="searchBox" placeholder="Buscar...">
     <nav id="navMenu">
       <a href="#resumo">Resumo executivo</a>
       <a href="#mapa">Mapa da reunião</a>
-      <a href="#abertura">Abertura</a>
-      <div class="group-label">Diagnóstico Comercial (22-23)</div>
-      <a class="recap-link" href="#recap-a" data-search="recap maturidade crm persona icp confianca">Recap · CRM 5/100 + persona</a>
-      <a href="#entrega-comercial" data-search="diagnostico comercial gargalo funil slide 22 23">Slides 22-23 · Diagnóstico Comercial</a>
-      <div class="group-label">Cliente Oculto (24-25)</div>
-      <a href="#entrega-oculto" data-search="cliente oculto atendimento whatsapp ajustes slide 24 25">Slides 24-25 · Cliente Oculto</a>
-      <div class="group-label">Métricas do Funil (26-27)</div>
-      <a class="recap-link" href="#recap-b" data-search="recap midia cenario b 3000 sequencia lp crm">Recap · Mídia R$ 3.000 + sequência</a>
-      <a href="#entrega-metricas" data-search="metricas funil scoring estrelas sla mql sql slide 26 27">Slides 26-27 · Métricas do Funil</a>
-      <div class="group-label">Pipeline Comercial (28-29)</div>
-      <a class="recap-link" href="#recap-c" data-search="recap posicionamento tagline processo so">Recap · "Num processo só"</a>
-      <a href="#entrega-pipeline" data-search="pipeline kommo reguas spin objecoes slide 28 29">Slides 28-29 · Pipeline Comercial</a>
+      <div class="group-label">Abertura</div>
+      <a href="#s01" data-search="capa pauta abertura recap crm persona slide 1 2">Slides 1-2 · Capa + pauta</a>
+      <div class="group-label">Atendimento hoje</div>
+      <a href="#s03" data-search="ponto de partida cliente oculto bom dia 3h slide 3">Slide 3 · Ponto de partida</a>
+      <a href="#s04" data-search="4 ajustes whatsapp business gratis saudacao ausencia etiquetas slide 4">Slide 4 · O que dá pra fazer hoje</a>
+      <a href="#s05" data-search="kommo numero novo triagem ia dois funis indicacao slide 5">Slide 5 · Como fica no Kommo</a>
+      <div class="group-label">Funil e qualificação</div>
+      <a href="#s06" data-search="diagnostico comercial gargalo funil 65 45 57 30 slide 6">Slide 6 · Onde o lead se perde</a>
+      <a href="#s07" data-search="qualificacao 5 perguntas pontos estrelas regra de ouro corte 400 slide 7">Slide 7 · Critério de qualificação</a>
+      <a href="#s08" data-search="sla estrela 30 minutos 4 horas sla estourado slide 8">Slide 8 · SLA por estrela</a>
+      <div class="group-label">Pipeline e réguas</div>
+      <a href="#s09" data-search="pipeline etapas caso misto objecoes spin slide 9">Slide 9 · Pipeline comercial</a>
+      <a href="#s10" data-search="reguas boas-vindas nutricao retomada reativacao prazo slide 10">Slide 10 · Réguas automáticas</a>
+      <a href="#s11" data-search="metricas leads cpl 3000 cenario b motivos de perda slide 11">Slide 11 · O que vamos medir</a>
+      <a href="#s12" data-search="kommo onde estamos ja criado falta ligar chip exportacao slide 12">Slide 12 · Kommo: onde estamos</a>
       <div class="group-label">Encerramento</div>
-      <a href="#fechamento" data-search="fechamento decisoes plano de acao semana 4 slide 30 31">Slides 30-31 · Fechamento + plano de ação</a>
+      <a href="#s13" data-search="decisoes de hoje sintese slide 13">Slide 13 · Decisões de hoje</a>
+      <a href="#s14" data-search="proximos passos semana 4 manual de marca plano de acao slide 14">Slide 14 · Semana 4 + plano de ação</a>
+      <a href="#s15" data-search="obrigado encerramento slide 15">Slide 15 · Obrigado</a>
       <a href="#fontes">Fontes</a>
     </nav>
   </aside>
@@ -192,15 +197,15 @@
 
     <header class="cover">
       <span class="eyebrow">Roteiro estratégico integral de reunião · Reunião 3</span>
-      <h1>Fixa Engenharia &amp; Assessoria — Recap S1/S2 + Entregas da Semana 3</h1>
-      <p>Base: deck cumulativo <code>apresentacao-entrega.html</code> (31 slides). As entregas novas da Semana 3 (modelo Inside Sales) estão nos <b>slides 22 a 29</b>: Diagnóstico Comercial, Cliente Oculto, Métricas do Funil e Pipeline Comercial, cada uma com slide de abertura e slide de conteúdo. Os slides 30-31 fecham a reunião. Os slides 1-21 (Semanas 1 e 2) <b>não são reapresentados</b>. Três deles entram como recap curto, só quando explicam uma entrega nova.</p>
+      <h1>Fixa Engenharia &amp; Assessoria — Semana 3</h1>
+      <p>Base única: <code>apresentacao-semana-3.html</code> (15 slides). O roteiro segue o deck slide a slide, do 1 ao 15, sem abrir outro arquivo. O que vem das Semanas 1 e 2 (CRM 5/100, persona, Cenário B de mídia, "num processo só") entra só como fala curta, dentro do slide em que ajuda, sem voltar a slide nenhum.</p>
       <div class="cover-grid">
         <div class="item"><b>Participantes</b>Carlos Henrique Garbin (Engenharia) e Christian Lorencet (Assessoria) · V4: Kauã Fernandes</div>
         <div class="item"><b>Duração alvo</b>50–60 min</div>
-        <div class="item"><b>Objetivo</b>Aprovar critérios de qualificação, SLA e roteamento, e liberar o setup do Kommo na Semana 4</div>
+        <div class="item"><b>Objetivo</b>Fechar as 6 decisões do slide 13 e liberar o setup do Kommo na Semana 4</div>
         <div class="item"><b>Tom</b>Ação, não avaliação: "o que vamos fazer diferente a partir de hoje", nunca "o que está errado no atendimento"</div>
         <div class="item"><b>Data de referência</b>A remarcar (a reunião de 30/09 não aconteceu)</div>
-        <div class="item"><b>Versão</b>1.0 · gerado a partir de ee-s4-diagnostico-comercial, ee-s4-cliente-oculto, ee-s3-is-metricas-funil e ee-s3-is-pipeline</div>
+        <div class="item"><b>Versão</b>2.0 · roteiro refeito em cima do deck da Semana 3</div>
       </div>
     </header>
 
@@ -221,18 +226,19 @@
       <span class="eyebrow">Seção 1</span>
       <h2>Resumo executivo</h2>
       <div class="card">
-        <p><b>Objetivo da reunião:</b> terceira reunião do projeto. As Semanas 1 e 2 construíram a estratégia de atração: persona, posicionamento, mercado, mídia, orgânico e criativos. A Semana 3 é a de vendas. Ela responde o que acontece com o lead depois que ele manda a primeira mensagem, e o conteúdo principal está nos slides 22 a 29.</p>
-        <p><b>Narrativa central:</b> a Fixa não tem problema de fechamento: quem chega precisando, fecha. O problema está <i>antes</i> da conversa. O lead novo cai num número que mistura tudo, espera a agenda do Carlos e, se parar de responder, ninguém volta a chamar. O diagnóstico comercial aponta esse gargalo, o cliente oculto mostra como ele aparece na prática, as métricas do funil transformam "lead bom" em regra objetiva e o pipeline garante que nenhum lead fique sem próximo passo. Tudo isso vira o setup do Kommo na Semana 4, <b>antes</b> de ligar os R$ 3.000/mês de mídia.</p>
-        <p><b>Decisões esperadas ao final:</b> (1) aprovar as 5 perguntas e as faixas de estrela; (2) aprovar o SLA de 30 min (5★) e 4h (4★), com um sócio cobrindo o outro (já definido pelo operador: vale só em horário comercial); (3) decidir o funil do caso misto (averbação + inventário); (4) confirmar o corte de investimento (menos de R$ 400/mês não vai para os sócios); (5) ligar hoje os 4 ajustes gratuitos no WhatsApp atual; (6) chip do número novo e exportação das últimas 200–300 conversas.</p>
+        <p><b>Objetivo da reunião:</b> terceira reunião do projeto. As Semanas 1 e 2 construíram a estratégia de atração. A Semana 3 é a de vendas: o que acontece com o lead depois que ele manda a primeira mensagem. O deck tem 11 assuntos na pauta (slide 2) e termina numa lista de 6 decisões (slide 13).</p>
+        <p><b>Narrativa central:</b> a Fixa não tem problema de fechamento: quem chega precisando, fecha. O problema está <i>antes</i> da conversa. O lead novo cai num número que mistura tudo, espera a agenda do Carlos e, se parar de responder, ninguém volta a chamar (slide 3). Dá para melhorar a primeira impressão hoje, sem custo (slide 4), e o Kommo resolve a estrutura (slide 5). Depois o deck mostra onde o lead se perde (6), o que é lead bom (7), em quanto tempo ele é atendido (8), o caminho até o contrato (9), as réguas que retomam quem some (10), o que vamos medir (11) e o que já está pronto no Kommo (12). Tudo isso vira o setup da Semana 4, <b>antes</b> de ligar os R$ 3.000/mês de mídia.</p>
+        <p><b>Decisões esperadas (slide 13):</b> (1) aprovar as 5 perguntas e as faixas de estrela; (2) aprovar o SLA de 30 min (5★) e 4h (4★), só em horário comercial, um cobre o outro; (3) caso misto (averbação + inventário): funil do Carlos ou do Christian; (4) corte de investimento: abaixo de R$ 400/mês não segue para os sócios; (5) ligar hoje os 4 ajustes no WhatsApp atual; (6) chip do número novo e exportação das últimas 200–300 conversas.</p>
         <p><b>Notas internas (não verbalizar):</b></p>
         <ul style="margin-top:0;">
           <li><b>Cliente oculto:</b> foi um único contato ("bom dia" às 08:53 de 29/09, resposta ~3h depois, sem continuidade). <b>Não</b> apresentar como nota nem avaliação do Carlos. A leitura é estrutural: o número mistura cliente, cartório, fornecedor e lead, e quem responde está na obra.</li>
           <li><b>90%+ / ~33%:</b> relato verbal do Carlos no kick-off (08/09), não medido. Se citar, dizer que é a percepção dele e que o Kommo vai medir. As "~70 conversas/dia" são o WhatsApp inteiro, não leads.</li>
-          <li><b>Prazo:</b> nenhuma fala, régua ou script promete prazo ou data de conclusão. Se perguntarem "quanto tempo leva", a resposta é explicar as etapas e o que depende de cartório e prefeitura.</li>
+          <li><b>Slide 6 (referências 65% · 45% · 57% · 30%):</b> são taxas de referência de serviços profissionais, não metas da Fixa e não números medidos dela. A coluna "Fixa hoje" é "a medir no Kommo" de propósito.</li>
+          <li><b>Prazo:</b> nenhuma fala, régua ou script promete prazo ou data de conclusão. Se perguntarem "quanto tempo leva", explicar as etapas e o que depende de cartório e prefeitura.</li>
+          <li><b>Manual de Marca:</b> é entrega da Semana 4 (slide 14). Não apresentar hoje.</li>
           <li><b>Dayane:</b> fora do roteamento por enquanto (decisão de 29/09). Não trazer à pauta, a não ser que o cliente traga.</li>
-          <li><b>WhatsApp API:</b> a Mobile Time noticiou (jun–jul/2026) que a Meta passa a cobrar pelas respostas enviadas pela API a partir de 01/10/2026, com o app WhatsApp Business isento. A página oficial de preços da Meta ainda diz que mensagens fora de template são gratuitas. Não afirmar valores na reunião: registrar como ponto a confirmar no setup (ver Pipeline).</li>
+          <li><b>WhatsApp API:</b> a Mobile Time noticiou (jun–jul/2026) que a Meta passa a cobrar pelas respostas enviadas pela API a partir de 01/10/2026, com o app WhatsApp Business isento. A página oficial de preços da Meta ainda diz que mensagens fora de template são gratuitas. Não afirmar valores: ponto a confirmar no setup.</li>
         </ul>
-        <p><b>Kommo:</b> a estrutura (3 funis, etapas, 10 motivos de perda, 8 campos e 8 tags) já foi criada em 01/10. Na reunião, ela entra como prova de andamento no bloco do Pipeline (slide 12 do deck da Semana 3). Falta ligar o atendimento: número novo, agente de IA, réguas e automação do SLA.</p>
         <p><b>Resultado ideal ao sair da sala:</b> Carlos e Christian saem com as regras do funil aprovadas, os ajustes gratuitos ligados no celular e a sensação de que o Kommo vai tirar trabalho do colo deles, não criar trabalho novo.</p>
       </div>
     </section>
@@ -242,512 +248,551 @@
       <h2>Mapa da reunião</h2>
       <div class="card">
         <table>
-          <thead><tr><th>Bloco</th><th>Slide</th><th>Tipo</th><th>Objetivo</th><th>Tempo</th><th>Decisão esperada</th></tr></thead>
+          <thead><tr><th>Slide</th><th>Assunto (pauta)</th><th>Objetivo</th><th>Tempo</th><th>Decisão (slide 13)</th></tr></thead>
           <tbody>
-            <tr><td>Abertura</td><td>—</td><td>—</td><td>Situar a continuidade e a virada de "atrair" para "vender"</td><td>2 min</td><td>—</td></tr>
-            <tr><td>Recap · CRM 5/100 + persona</td><td>3 · 6</td><td><span class="tag-recap">Recap S1</span></td><td>Lembrar que o CRM era o pilar mais fraco e que o ICP decide por confiança</td><td>2 min</td><td>—</td></tr>
-            <tr><td>Diagnóstico Comercial</td><td>22-23</td><td><span class="tag-entrega">Entrega S3</span></td><td>Cravar o gargalo: Lead → 1º contato + retomada</td><td>10 min</td><td>Concordância com o gargalo e com o plano em duas camadas</td></tr>
-            <tr><td>Cliente Oculto</td><td>24-25</td><td><span class="tag-entrega">Entrega S3</span></td><td>Mostrar o gargalo na prática e ligar os 4 ajustes gratuitos</td><td>7 min</td><td>Ligar os 4 ajustes hoje</td></tr>
-            <tr><td>Recap · Mídia R$ 3.000 + sequência</td><td>14</td><td><span class="tag-recap">Recap S2</span></td><td>Lembrar por que CRM vem antes da mídia</td><td>1-2 min</td><td>—</td></tr>
-            <tr><td>Métricas do Funil</td><td>26-27</td><td><span class="tag-entrega">Entrega S3</span></td><td>Aprovar scoring, estrelas, SLA e metas</td><td>12 min</td><td>5 perguntas, faixas, SLA, corte de R$ 400/mês</td></tr>
-            <tr><td>Recap · "Num processo só"</td><td>8</td><td><span class="tag-recap">Recap S2</span></td><td>Lembrar a mensagem-âncora que as réguas usam</td><td>1 min</td><td>—</td></tr>
-            <tr><td>Pipeline Comercial</td><td>28-29 (+ slide 12 do deck S3)</td><td><span class="tag-entrega">Entrega S3</span></td><td>Aprovar etapas, réguas e caso misto; mostrar o Kommo já estruturado</td><td>14 min</td><td>Caso misto, chip + exportação</td></tr>
-            <tr><td>Fechamento</td><td>30-31</td><td>—</td><td>Consolidar decisões, plano de ação e o que vem na Semana 4</td><td>7 min</td><td>Compromissos com responsável e data</td></tr>
+            <tr><td>1-2</td><td>Capa + pauta</td><td>Situar a virada de "atrair" para "vender" e lembrar o CRM 5/100</td><td>3 min</td><td>—</td></tr>
+            <tr><td>3</td><td>1 · Ponto de partida do atendimento</td><td>Mostrar o cliente oculto sem tom de avaliação</td><td>4 min</td><td>—</td></tr>
+            <tr><td>4</td><td>2 · O que dá pra fazer hoje, sem custo</td><td>Combinar os 4 ajustes gratuitos</td><td>4 min</td><td>(5) ajustes hoje</td></tr>
+            <tr><td>5</td><td>3 · Como fica no Kommo</td><td>Número novo, triagem IA, dois funis, indicação direto pro humano</td><td>5 min</td><td>—</td></tr>
+            <tr><td>6</td><td>4 · Onde o lead se perde</td><td>Cravar o gargalo Lead → 1º contato + retomada</td><td>6 min</td><td>—</td></tr>
+            <tr><td>7</td><td>5 · Critério de qualificação</td><td>5 perguntas, pontos, estrelas, corte de R$ 400</td><td>9 min</td><td>(1) e (4)</td></tr>
+            <tr><td>8</td><td>6 · SLA por estrela</td><td>30 min / 4h / régua / resposta cordial</td><td>4 min</td><td>(2)</td></tr>
+            <tr><td>9</td><td>7 · Pipeline comercial</td><td>7 etapas e o caso misto</td><td>6 min</td><td>(3)</td></tr>
+            <tr><td>10</td><td>8 · Réguas automáticas</td><td>4 réguas com ponto de parada, sem prometer prazo</td><td>4 min</td><td>—</td></tr>
+            <tr><td>11</td><td>9 · O que vamos medir</td><td>Metas do Cenário B e primeira leitura em 30 dias</td><td>3 min</td><td>—</td></tr>
+            <tr><td>12</td><td>10 · Kommo: onde estamos</td><td>O que já está criado e o que falta ligar</td><td>3 min</td><td>(6) chip + exportação</td></tr>
+            <tr><td>13</td><td>11 · Decisões de hoje</td><td>Confirmar as 6 decisões em voz alta</td><td>4 min</td><td>Todas</td></tr>
+            <tr><td>14-15</td><td>Próximos passos + obrigado</td><td>Semana 4 e plano de ação com responsável e data</td><td>4 min</td><td>Compromissos</td></tr>
           </tbody>
         </table>
       </div>
     </section>
 
-    <!-- ABERTURA -->
-    <section id="abertura" class="slide-section" style="border-top:none;">
-      <span class="eyebrow">Abertura da reunião</span>
-      <h2>Antes de começar</h2>
-      <div class="beat beat--stage">[DEIXE O DECK NO SLIDE 1 · CUMPRIMENTE CARLOS E CHRISTIAN PELO NOME · É A PRIMEIRA REUNIÃO EM QUE O CHRISTIAN TEM PAPEL CENTRAL, ENTÃO OLHE PARA OS DOIS]</div>
-      <div class="roteiro">
-        <div class="beat beat--main">
-          <p>Bom dia, Carlos, bom dia, Christian. Hoje eu não vou voltar por tudo o que construímos nas duas primeiras reuniões. A persona, o posicionamento, o plano de mídia, o Instagram e os criativos já estão aprovados e viraram a base do projeto. Vou recuperar só dois ou três pontos dessas conversas que explicam diretamente o que fizemos agora, e a partir daí entrar nas entregas desta semana.</p>
-          <p>E esta semana muda de assunto. Até aqui a pergunta era: <i>como fazer a pessoa certa chegar até a Fixa?</i> A pergunta de hoje é outra: <i>o que acontece com essa pessoa depois que ela manda a primeira mensagem?</i> A mídia que vamos ligar só rende se essa parte estiver pronta.</p>
-        </div>
-        <div class="beat beat--context">
-          <span class="beat-label">Contexto</span>
-          <p>Nós vamos passar por quatro entregas: o diagnóstico comercial, o cliente oculto, as métricas do funil e o pipeline. Elas formam uma história só: onde o lead se perde hoje, como isso aparece na prática, o que conta como lead bom e o caminho que ele percorre até o contrato. No final eu tenho uma lista curta de decisões que preciso de vocês dois para configurar o Kommo na próxima semana.</p>
-        </div>
-        <div class="beat beat--main">
-          <p>E um aviso de tom: nada do que vou mostrar hoje é avaliação de atendimento. É desenho de estrutura. Vocês vão ver que o problema não é de vontade de atender, é de ter um número só para tudo e ninguém dedicado ao lead novo. É isso que a gente vai resolver.</p>
-        </div>
-        <button class="btn copy-fala">Copiar fala deste bloco</button>
+    <!-- SLIDES 1-2 -->
+    <section id="s01" class="slide-section" style="border-top:none;">
+      <span class="eyebrow">Slides 1-2 · Capa + pauta</span>
+      <h2>Abertura — de "atrair" para "vender"</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 3 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> os dois entendem que hoje é sobre o que acontece depois da primeira mensagem</span>
       </div>
-      <div class="nav-slide"><a href="#mapa">← Mapa</a><a href="#recap-a">Próximo: Recap CRM + persona →</a></div>
-    </section>
-
-    <!-- RECAP A -->
-    <section id="recap-a" class="recap-section">
-      <span class="eyebrow recap">Recap Semana 1 · Slides 3 e 6</span>
-      <h2>CRM 5/100 e um ICP que decide por confiança</h2>
-      <p style="font-size:.88rem;color:var(--ink-soft);margin:4px 0 14px;"><b>Motivo da retomada:</b> o diagnóstico comercial é o aprofundamento do pilar mais fraco do diagnóstico de maturidade, e as regras de atendimento partem do jeito como o ICP decide.</p>
-      <div class="beat beat--stage">[VOLTE RAPIDAMENTE AO SLIDE 3 · APONTE PARA O CARD "PILAR MAIS CRÍTICO"]</div>
+      <div class="beat beat--stage">[SLIDE 1 · CUMPRIMENTE CARLOS E CHRISTIAN PELO NOME · É A PRIMEIRA REUNIÃO EM QUE O CHRISTIAN TEM PAPEL CENTRAL, ENTÃO OLHE PARA OS DOIS]</div>
       <div class="roteiro">
         <div class="beat beat--main">
-          <p>Quero recuperar rapidamente este slide, porque ele é o ponto de partida do que fizemos esta semana. Na primeira reunião, o pilar mais baixo da maturidade digital da Fixa foi o CRM: 5 de 100. A leitura era que o lead entra pelo WhatsApp e não existe pipeline nem follow-up. Naquele dia isso era um número. Esta semana a gente foi entender o que está por trás dele.</p>
-        </div>
-        <div class="beat beat--stage">[AVANCE PARA O SLIDE 6 · APONTE PARA A LEITURA "TODAS AS OBJEÇÕES DO ICP SÃO SOBRE CONFIANÇA"]</div>
-        <div class="beat beat--main">
-          <p>E o segundo ponto é da persona: todas as objeções do cliente de vocês são sobre confiança, não sobre o serviço. "Vai ficar caro?", "vai demorar?", "já paguei alguém e não saiu do lugar". Ele escolhe o escritório em uma a três semanas, mas escolhe com medo. Guardem isso, porque a forma de atender que vou mostrar foi desenhada para quem chega desconfiado.</p>
+          <p>Bom dia, Carlos, bom dia, Christian. Nas duas primeiras reuniões a pergunta foi: como fazer a pessoa certa chegar até a Fixa? Persona, posicionamento, mídia, Instagram e criativos já estão aprovados. Hoje a pergunta é outra: o que acontece com essa pessoa depois que ela manda a primeira mensagem? A mídia que vamos ligar só rende se essa parte estiver pronta.</p>
         </div>
         <div class="beat beat--ponte">
-          <span class="beat-label">Ponte para a Semana 3</span>
-          <p>Então a pergunta desta semana foi: se o CRM está em 5 e o cliente chega desconfiado, onde exatamente o lead se perde? Esse é o diagnóstico comercial.</p>
+          <span class="beat-label">Recap Semana 1 (falado, sem voltar slide)</span>
+          <p>Lembram do diagnóstico de maturidade? O pilar mais baixo da Fixa foi o CRM: 5 de 100. O lead entra pelo WhatsApp e não existe pipeline nem follow-up. E da persona: todas as objeções do cliente de vocês são sobre confiança, não sobre o serviço. Ele escolhe com medo. Esta semana a gente foi entender o que está por trás daquele 5, e desenhou um atendimento para quem chega desconfiado.</p>
         </div>
-        <button class="btn copy-fala">Copiar fala deste bloco</button>
-      </div>
-      <div class="nav-slide"><a href="#abertura">← Abertura</a><a href="#entrega-comercial">Próximo: Diagnóstico Comercial →</a></div>
-    </section>
-
-    <!-- ENTREGA 1: DIAGNÓSTICO COMERCIAL -->
-    <section id="entrega-comercial" class="slide-section">
-      <span class="eyebrow">Entrega Semana 3 · Slides 22-23</span>
-      <h2>Diagnóstico Comercial — onde o lead some</h2>
-      <div class="slide-meta-row">
-        <span class="meta-pill"><b>Função:</b> cravar o gargalo principal do funil comercial</span>
-        <span class="meta-pill"><b>Tempo:</b> 10 min</span>
-        <span class="meta-pill"><b>Resultado esperado:</b> os dois concordam que o gargalo é Lead → 1º contato + retomada</span>
-      </div>
-      <div class="beat beat--stage">[SLIDE 22 · DEIXE A PERGUNTA "ONDE O LEAD SOME NO FUNIL COMERCIAL?" NA TELA POR ALGUNS SEGUNDOS ANTES DE FALAR]</div>
-      <div class="roteiro">
+        <div class="beat beat--stage">[SLIDE 2 · PAUTA · PASSE O DEDO PELOS 11 ITENS SEM LER UM A UM]</div>
         <div class="beat beat--main">
-          <p>A pergunta desta entrega é simples: onde o lead some? E eu quero começar pelo que funciona, porque a resposta não é "a Fixa vende mal".</p>
-        </div>
-        <div class="beat beat--stage">[AVANCE PARA O SLIDE 23 · APONTE PARA O CARD "VANTAGEM" NAS LEITURAS]</div>
-        <div class="beat beat--insight">
-          <span class="beat-label">Insight</span>
-          <p>Carlos, no kick-off você disse uma frase que virou a base de tudo isso: "o cara que fecha é o cara que precisa". Pela sua percepção, quem chega com um problema concreto (vender, financiar, inventariar) fecha em mais de 90%, e o curioso fecha bem menos, algo como um em cada três. Isso ainda não é medido, é a sua leitura do dia a dia, e o Kommo vai nos dar o número real. Mas ela diz uma coisa importante: o fechamento não é o problema. Quando o cliente chega até a conversa com vocês, com o problema na mão, a Fixa fecha.</p>
-        </div>
-        <div class="beat beat--main">
-          <p>Então o problema está antes. Olhem para os quatro números do slide.</p>
-        </div>
-        <div class="beat beat--stage">[APONTE CARD A CARD, DA ESQUERDA PARA A DIREITA]</div>
-        <div class="beat beat--main">
-          <p>Leads por mês: não medido. Hoje não existe contagem. Follow-up de quem para de responder: não existe. Vocês mesmos disseram em 16/09: "se ele parar de responder, a gente não vai mais atrás". Primeira resposta que observamos: cerca de três horas, e eu vou detalhar isso na próxima entrega. E o que estamos propondo: 30 minutos para o humano assumir um lead quente, depois de uma triagem que acontece na hora.</p>
+          <p>A pauta tem onze pontos, mas é uma história só. Primeiro, como o lead novo é atendido hoje e o que dá para mudar ainda hoje, sem custo. Depois, como fica no Kommo. Em seguida, onde o lead se perde, o que conta como lead bom, em quanto tempo ele tem que ser atendido, o caminho até o contrato e as mensagens automáticas. No fim, o que vamos medir, o que já está pronto no Kommo e uma lista curta de decisões que eu preciso de vocês dois para configurar tudo na semana que vem.</p>
         </div>
         <div class="beat beat--context">
           <span class="beat-label">Contexto</span>
-          <p>O motivo é estrutural. Não existe vendedor dedicado. O WhatsApp da bio é o mesmo número por onde passam clientes em andamento, cartório, fornecedor e assunto pessoal. E quem responde é o Carlos, que passa o dia entre obra, prefeitura e cartório. Um "bom dia" de um número desconhecido se perde no meio disso. Quando o cliente vem por indicação, ele insiste, porque já confia. O lead que vem de anúncio não insiste: ele manda a mesma mensagem para três escritórios e fica com quem respondeu primeiro.</p>
+          <p>E um aviso de tom: nada do que vou mostrar hoje é avaliação de atendimento. É desenho de estrutura. O problema não é falta de vontade de atender, é ter um número só para tudo e ninguém dedicado ao lead novo.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#mapa">← Mapa</a><a href="#s03">Próximo: Slide 3 →</a></div>
+    </section>
+
+    <!-- SLIDE 3 -->
+    <section id="s03" class="slide-section">
+      <span class="eyebrow">Slide 3 · Pauta 1 · Ponto de partida do atendimento</span>
+      <h2>Um número pra tudo, sem estrutura pro lead novo</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 4 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> eles reconhecem o padrão sem se sentir avaliados</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 3 · TOM LEVE · NÃO DÊ NOTA, NÃO USE "FALHA", NÃO MOSTRE PRINT DA CONVERSA]</div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Para ver o atendimento como o cliente vê, a gente fez um cliente oculto: alguém entra em contato como cliente real, sem avisar. Foi um contato só, e o objetivo não é dar nota. É ver a estrutura num dia comum.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA OS TRÊS CARDS, DA ESQUERDA PARA A DIREITA]</div>
+        <div class="beat beat--main">
+          <p>Na terça, 29, às 08:53, a nossa cliente oculta mandou um "bom dia, tudo bem?" no WhatsApp da bio. A primeira resposta veio umas três horas depois. Pergunta sobre o caso: nenhuma, a conversa parou no cumprimento. Retomada: nenhuma, ninguém voltou a chamar.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA O CARD "LEITURA V4"]</div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight</span>
+          <p>A leitura é esta: um "bom dia" de número desconhecido, no mesmo WhatsApp de cliente, cartório, fornecedor e família, não tem como se destacar. Quem respondeu foi educado. O que faltou foi um próximo passo, porque um cumprimento não diz que é lead, e ninguém tem a função de perguntar "me conta o que você precisa". E quem responde está na obra. É exatamente isso que o Kommo e a IA vão tirar do colo de vocês.</p>
         </div>
         <div class="beat beat--external">
           <span class="beat-label">Dado externo</span>
-          <p>E o tempo de resposta pesa muito. Tem um estudo clássico da Harvard Business Review, de 2011, "The Short Life of Online Sales Leads", que auditou 2.241 empresas. As que tentaram contato em até uma hora tiveram quase sete vezes mais chance de qualificar o lead do que as que responderam uma hora depois, e mais de sessenta vezes mais do que as que levaram 24 horas. É um estudo americano, com empresas de vários setores, então eu não uso o número como meta para vocês. Mas a direção é inequívoca: o lead de internet esfria em horas, não em dias.</p>
+          <p>E o tempo pesa. Um estudo clássico da Harvard Business Review, de 2011, "The Short Life of Online Sales Leads", auditou 2.241 empresas: quem tentou contato em até uma hora teve quase sete vezes mais chance de qualificar o lead do que quem respondeu uma hora depois, e mais de sessenta vezes mais do que quem levou 24 horas. É um estudo americano, não uso como meta para vocês, mas a direção é clara: o lead de internet esfria em horas.</p>
         </div>
         <div class="beat beat--question">
           <span class="beat-label">Pergunta</span>
-          <p>Deixa eu validar uma coisa com vocês: quando um contato novo chega hoje, no meio de uma obra ou de uma ida ao cartório, o que acontece com ele na prática? Ele espera você chegar no escritório? Fica para a noite?</p>
+          <p>Deixa eu validar com vocês: quando chega um contato novo no meio de uma obra ou de uma ida ao cartório, o que acontece com ele na prática? Espera você chegar no escritório? Fica para a noite?</p>
         </div>
         <div class="beat beat--pause">[PAUSA PARA RESPOSTA · DEIXE O CARLOS DESCREVER A ROTINA · ANOTE AS PALAVRAS DELE]</div>
         <div class="beat beat--conditional">
-          <span class="beat-label">[SE ELE CONFIRMAR QUE FICA PARA DEPOIS]</span>
-          <p>Perfeito, é exatamente isso que o diagnóstico mostra, e é humano. Ninguém consegue responder um lead novo com o capacete na cabeça. Por isso a solução não pode depender de você estar livre.</p>
-          <span class="beat-label">[SE ELE DISSER QUE RESPONDE RÁPIDO]</span>
-          <p>Ótimo, então o problema é menor do que parece na primeira resposta, e fica concentrado em quem para de responder. Mesmo assim, quando a mídia ligar e entrarem 25, 30 contatos novos por mês, a gente não pode depender disso. O que vou propor funciona mesmo no dia em que você não conseguir.</p>
-          <span class="beat-label">[SE O CHRISTIAN TROUXER UMA ROTINA DIFERENTE NA ASSESSORIA]</span>
-          <p>Boa, isso é importante, porque a partir de agora vocês vão ter funis separados. Vamos respeitar o jeito de cada um. O que precisa ser igual é o critério e o prazo de resposta.</p>
+          <span class="beat-label">[SE ELE CONFIRMAR QUE FICA PARA DEPOIS OU SE JUSTIFICAR]</span>
+          <p>Faz todo sentido, e eu teria respondido igual. Ninguém responde lead novo com capacete na cabeça, e "bom dia" não diz nada. Por isso a solução não pode depender de você estar livre.</p>
         </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "AÇÃO" NAS LEITURAS]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE ELE DISSER QUE RESPONDE RÁPIDO]</span>
+          <p>Ótimo, então o problema fica concentrado em quem para de responder. Mesmo assim, quando a mídia ligar e entrarem 25, 30 contatos novos por mês, a gente não pode depender disso. O que vou propor funciona mesmo no dia em que você não conseguir.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>E a primeira parte disso dá para resolver hoje, sem gastar nada.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s01">← Slides 1-2</a><a href="#mapa">Visão geral</a><a href="#s04">Próximo: Slide 4 →</a></div>
+    </section>
+
+    <!-- SLIDE 4 -->
+    <section id="s04" class="slide-section">
+      <span class="eyebrow">Slide 4 · Pauta 2 · O que dá pra fazer hoje, sem custo</span>
+      <h2>4 ajustes, zero custo, a partir de hoje</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 4 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> os 4 ajustes ligados hoje (decisão 5 do slide 13)</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 4 · LEIA OS 4 CARDS PAUSADAMENTE]</div>
+      <div class="roteiro">
         <div class="beat beat--main">
-          <p>Por isso o gargalo que escolhemos atacar primeiro é este: <b>Lead → Primeiro Contato</b>, junto com a retomada de quem parou de responder. E o plano tem duas camadas.</p>
-          <p>A primeira é para hoje, sem custo: quatro ajustes no WhatsApp Business que vocês já usam. Vou mostrar em detalhe no cliente oculto.</p>
-          <p>A segunda é o que a V4 implementa: um número novo, só para campanhas, dentro do Kommo que vocês já assinaram. Nele, um agente de IA do próprio Kommo, já incluído no plano, responde na hora e faz a triagem. Depois o lead vai para um de dois funis, o do Carlos na engenharia ou o do Christian na assessoria, com aviso no celular e retomada automática de quem parou de responder.</p>
+          <p>São quatro recursos gratuitos do WhatsApp Business que vocês já usam:</p>
+          <p><b>Saudação automática</b>, que já responde perguntando o caso: "Olá! Aqui é a Fixa Engenharia &amp; Assessoria. Me conta: é sobre regularização de casa, terreno, usucapião ou inventário?". O "bom dia" deixa de ficar solto.</p>
+          <p><b>Mensagem de ausência</b>: fora do horário, avisa quando o contato vai ser respondido. É o dia do atendimento, não o prazo do processo.</p>
+          <p><b>Respostas rápidas</b> com três perguntas de triagem prontas: o que precisa regularizar, em que cidade fica o imóvel e que documentos já tem.</p>
+          <p><b>Etiquetas</b> "Lead novo" e "Aguardando retorno", para separar quem chegou agora do resto das conversas.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA O CARD "COMO FICA"]</div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight</span>
+          <p>A gente manda os textos prontos hoje, e a configuração é feita no próprio aplicativo. Isso é uma ponte: não substitui o Kommo, mas muda a primeira impressão desde hoje. E o número atual vai continuar recebendo indicação e cliente antigo mesmo depois que o número novo entrar.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>Minha proposta é ligar os quatro antes de sair desta reunião. Leva uns dez minutos. Carlos, você está com o celular do número da bio aí?</p>
+        </div>
+        <div class="beat beat--pause">[AGUARDE · SE DER, FAÇAM JUNTOS NO FIM DA REUNIÃO · REGISTRE]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE NÃO FOR POSSÍVEL AGORA]</span>
+          <p>Sem problema. Eu mando os quatro textos logo depois da reunião e a gente combina um horário ainda hoje para fazer junto por chamada. Não quero deixar para a semana que vem, porque é o ajuste mais barato do projeto inteiro.</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Isso é o que dá para fazer hoje. Agora, o que a V4 monta para resolver de vez.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s03">← Slide 3</a><a href="#mapa">Visão geral</a><a href="#s05">Próximo: Slide 5 →</a></div>
+    </section>
+
+    <!-- SLIDE 5 -->
+    <section id="s05" class="slide-section">
+      <span class="eyebrow">Slide 5 · Pauta 3 · Como fica no Kommo</span>
+      <h2>Um número, uma triagem, dois funis</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 5 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> entendem o fluxo e confirmam que indicação vai direto pro humano</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 5 · SIGA AS SETAS DA ESQUERDA PARA A DIREITA]</div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>No Kommo, que vocês já assinaram no plano Pro, o desenho é este. Um <b>número novo</b>, só para campanhas: recebe tudo o que vem da landing page e dos anúncios. Nele, a <b>triagem IA</b>: o agente de IA do próprio Kommo responde na hora e faz cinco perguntas. Daí o lead vai para um de dois funis: o <b>funil do Carlos</b>, com REURB, loteamento e regularização de casa, ou o <b>funil do Christian</b>, com usucapião e inventário.</p>
         </div>
         <div class="beat beat--insight">
           <span class="beat-label">Insight</span>
-          <p>Uma distinção que vale a pena: a IA não vende. Ela faz duas coisas que hoje ninguém consegue fazer: responder na hora, 24 horas por dia, e separar quem tem caso concreto de quem só está curioso. Quem vende continua sendo vocês. A diferença é que vocês chegam na conversa já sabendo o motivo, a cidade, quem decide e o que o cliente já tentou.</p>
+          <p>A IA não vende. Ela faz duas coisas que hoje ninguém consegue fazer: responder na hora, 24 horas por dia, e separar quem tem caso concreto de quem só está curioso. Quem vende continua sendo vocês, só que chegando na conversa já sabendo o motivo, a cidade, quem decide e o que o cliente já tentou.</p>
         </div>
-        <div class="beat beat--provocation">
-          <span class="beat-label">Provocação</span>
-          <p>E tem uma coisa que eu preciso dizer com clareza: se a gente ligar os R$ 3.000 de mídia sem isso pronto, vamos pagar para trazer lead até um atendimento que ainda não consegue retomá-lo. Aí o anúncio vai parecer ruim, quando o problema está depois do anúncio. É por isso que o Kommo entra antes da campanha, não depois.</p>
-        </div>
+        <div class="beat beat--stage">[APONTE PARA O CARD "INDICAÇÃO"]</div>
         <div class="beat beat--question">
           <span class="beat-label">Pergunta</span>
-          <p>Uma coisa importante sobre indicação: vocês pediram que lead de indicação vá direto para o humano, sem passar pela IA. Isso continua valendo?</p>
+          <p>Vocês pediram que lead de indicação vá direto para o humano, sem robô. Continua valendo?</p>
         </div>
         <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO]</div>
         <div class="beat beat--conditional">
-          <span class="beat-label">[SE CONFIRMAREM]</span>
-          <p>Fechado. A IA fica só com quem chega por anúncio, landing page e Instagram. Indicação vocês registram direto no funil, já na etapa de atendimento humano.</p>
           <span class="beat-label">[SE PERGUNTAREM COMO O KOMMO SABE QUE É INDICAÇÃO]</span>
-          <p>Hoje a indicação chega no número de vocês, não no número novo das campanhas, então ela nem passa pela IA. Se alguém indicado chamar no número novo, quem assumir marca a origem como indicação e o card vai direto para o atendimento humano.</p>
+          <p>A indicação chega no número de vocês, não no número novo das campanhas, então ela nem passa pela IA. Se alguém indicado chamar no número novo, quem assumir marca a origem como indicação e o card vai direto para o atendimento humano.</p>
         </div>
-        <div class="beat beat--decision">
-          <span class="beat-label">Decisão</span>
-          <p>Então, para fechar esta entrega: vocês concordam que o primeiro gargalo a atacar é a primeira resposta e a retomada, e não o fechamento?</p>
-        </div>
-        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO · REGISTRE A DECISÃO]</div>
-        <div class="beat beat--transition">
-          <span class="beat-label">Transição</span>
-          <p>Esse gargalo não é teoria. A gente testou na prática, com um contato real, sem avisar ninguém. É a próxima entrega.</p>
-        </div>
-        <button class="btn copy-fala">Copiar fala deste bloco</button>
-      </div>
-      <div class="fontes-slide">
-        <b>Fontes externas deste bloco:</b>
-        <ul><li>Oldroyd, J.; McElheran, K.; Elkington, D. "The Short Life of Online Sales Leads". <i>Harvard Business Review</i>, mar. 2011. Auditoria de 2.241 empresas americanas.</li></ul>
-      </div>
-      <div class="nav-slide"><a href="#recap-a">← Recap</a><a href="#mapa">Visão geral</a><a href="#entrega-oculto">Próximo: Cliente Oculto →</a></div>
-    </section>
-
-    <!-- ENTREGA 2: CLIENTE OCULTO -->
-    <section id="entrega-oculto" class="slide-section">
-      <span class="eyebrow">Entrega Semana 3 · Slides 24-25</span>
-      <h2>Cliente Oculto — o atendimento visto de fora</h2>
-      <div class="slide-meta-row">
-        <span class="meta-pill"><b>Função:</b> mostrar o gargalo na prática e transformar em ação imediata</span>
-        <span class="meta-pill"><b>Tempo:</b> 7 min</span>
-        <span class="meta-pill"><b>Resultado esperado:</b> os 4 ajustes gratuitos ligados hoje</span>
-      </div>
-      <div class="beat beat--stage">[SLIDE 24 · TOM LEVE · ESTE BLOCO NÃO É AVALIAÇÃO DO CARLOS: NÃO DÊ NOTA, NÃO USE "FALHA", NÃO MOSTRE PRINT DA CONVERSA]</div>
-      <div class="roteiro">
+        <div class="beat beat--stage">[APONTE PARA O CARD "SEM CUSTO EXTRA"]</div>
         <div class="beat beat--main">
-          <p>O cliente oculto é uma técnica simples: alguém entra em contato como um cliente real, sem avisar, para a gente ver o atendimento como o cliente vê. Não tem maquiagem, e é justamente isso que torna o teste útil. Quero deixar claro antes: é um contato só, e o objetivo não é dar nota. É ver a estrutura funcionando num dia comum.</p>
+          <p>E o agente de IA, os funis, o aplicativo com aviso de lead, as tarefas e as réguas estão todos no plano Pro.</p>
         </div>
-        <div class="beat beat--stage">[AVANCE PARA O SLIDE 25 · APONTE PARA OS TRÊS PRIMEIROS CARDS]</div>
-        <div class="beat beat--main">
-          <p>Na terça, 29, às 08:53, a nossa cliente oculta mandou um "bom dia, tudo bem?" no WhatsApp da bio. A resposta veio umas três horas depois, um "bom dia, tudo bem e você?". E a conversa parou aí. Não chegou a ter pergunta sobre o caso, nem retomada depois.</p>
-        </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "LEITURA"]</div>
-        <div class="beat beat--insight">
-          <span class="beat-label">Insight</span>
-          <p>E a leitura que eu faço é esta: um "bom dia" de número desconhecido, no mesmo WhatsApp de cliente, cartório, fornecedor e família, não tem como se destacar. Quem respondeu foi educado. O que faltou foi um próximo passo, porque um cumprimento não diz que é um lead, e ninguém tem a função de perguntar "me conta o que você precisa". O problema é de estrutura, não de vontade de atender.</p>
-        </div>
-        <div class="beat beat--external">
-          <span class="beat-label">Dado externo</span>
-          <p>E vale lembrar que para o cliente de vocês o WhatsApp é o canal natural para falar com empresa. O Panorama Mobile Time/Opinion Box sobre mensageria no Brasil mostra que cerca de oito em cada dez usuários de WhatsApp já conversaram com empresas pelo aplicativo. Ou seja, o lead vai chegar pelo WhatsApp de qualquer jeito. A questão é o que ele encontra quando chega.</p>
-        </div>
-        <div class="beat beat--question">
-          <span class="beat-label">Pergunta</span>
-          <p>Quando vocês olham essa sequência, o que acham que a pessoa do outro lado pensou às onze da manhã?</p>
-        </div>
-        <div class="beat beat--pause">[DEIXE O CLIENTE CONCLUIR]</div>
         <div class="beat beat--conditional">
-          <span class="beat-label">[SE O CARLOS SE JUSTIFICAR OU FICAR DESCONFORTÁVEL]</span>
-          <p>E faz todo sentido. Eu provavelmente teria respondido igual, porque "bom dia" não diz nada. Por isso a solução é fazer a primeira mensagem já perguntar sobre o caso, e não depender de alguém adivinhar que é lead.</p>
-          <span class="beat-label">[SE ELES RECONHECEREM O PADRÃO SEM DEFESA]</span>
-          <p>Exato. E o bom é que a primeira parte disso dá para resolver hoje, sem custo nenhum.</p>
+          <span class="beat-label">[OBJEÇÃO PROVÁVEL: "ISSO VAI CUSTAR MAIS?"]</span>
+          <p>Os custos possíveis fora do plano são três: créditos de IA extras, se passar de 2.250 por mês (vamos medir no primeiro mês antes de comprar qualquer coisa), um segundo usuário, se o volume pedir, e as taxas da própria Meta para algumas mensagens do WhatsApp, que eu fecho com vocês no setup.</p>
         </div>
-        <div class="beat beat--stage">[APONTE PARA O PRIMEIRO CARD "AÇÃO" · LEIA OS 4 ITENS PAUSADAMENTE]</div>
-        <div class="beat beat--main">
-          <p>São quatro ajustes no WhatsApp Business que vocês já usam. São recursos gratuitos do próprio aplicativo:</p>
-          <p><b>Um:</b> mensagem de saudação automática que já pergunta sobre o caso: "Olá! Aqui é a Fixa Engenharia &amp; Assessoria. Me conta: é sobre regularização de casa, terreno, usucapião ou inventário?". O "bom dia" deixa de ficar solto.</p>
-          <p><b>Dois:</b> mensagem de ausência fora do horário, dizendo quando o contato vai ser respondido. É o dia do atendimento, não o prazo do processo.</p>
-          <p><b>Três:</b> respostas rápidas com três perguntas de triagem: o que precisa regularizar, em que cidade fica o imóvel e que documentos já tem. Dois toques no celular e a conversa anda.</p>
-          <p><b>Quatro:</b> etiquetas "Lead novo" e "Aguardando retorno", para separar quem chegou agora do resto das conversas.</p>
-        </div>
-        <div class="beat beat--insight">
-          <span class="beat-label">Insight</span>
-          <p>Isso é uma ponte. Ele não substitui o Kommo, mas muda a primeira impressão desde hoje, e o número atual vai continuar recebendo indicação e cliente antigo mesmo depois que o número novo entrar.</p>
-        </div>
-        <div class="beat beat--stage">[APONTE PARA O SEGUNDO CARD "AÇÃO"]</div>
-        <div class="beat beat--main">
-          <p>E no número novo, o que a V4 implementa faz esse trabalho sozinho: a IA responde na hora, com pergunta sobre o caso, o aviso de lead novo chega no celular de vocês e, se a pessoa parar de responder, a régua volta a chamar.</p>
-        </div>
-        <div class="beat beat--decision">
-          <span class="beat-label">Decisão</span>
-          <p>Minha proposta é a gente ligar esses quatro ajustes agora, antes de sair desta reunião. Eu já trouxe os textos prontos e leva uns dez minutos. Carlos, você está com o celular do número da bio aí?</p>
-        </div>
-        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO · SE NÃO DER AGORA, COMBINE HORÁRIO HOJE E REGISTRE]</div>
+        <div class="beat beat--pause">[NOTA INTERNA — NÃO VERBALIZAR: cobrança de respostas via API noticiada pela Mobile Time a partir de 01/10/2026 (~R$ 0,035), app WhatsApp Business isento; a página oficial da Meta ainda diz que mensagens fora de template são gratuitas. Se insistirem: "é centavo por mensagem, trago o número exato no setup".]</div>
         <div class="beat beat--conditional">
-          <span class="beat-label">[SE NÃO FOR POSSÍVEL AGORA]</span>
-          <p>Sem problema. Eu mando os quatro textos logo depois da reunião, e a gente combina um horário ainda hoje para fazer junto por chamada. O que eu não quero é deixar para a semana que vem, porque é o ajuste mais barato do projeto inteiro.</p>
+          <span class="beat-label">[OBJEÇÃO PROVÁVEL: "O CLIENTE VAI PERCEBER QUE É ROBÔ"]</span>
+          <p>A IA não finge ser pessoa. Ela se apresenta como a Fixa, faz poucas perguntas e passa para vocês. O que o cliente não gosta é esperar três horas e não ser chamado de novo. E ela vai ser treinada com as conversas reais de vocês, para falar do jeito da Fixa.</p>
         </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
-          <p>Com o primeiro contato resolvido, a próxima pergunta é: quando esse lead chega, como a gente decide se ele vai para o Carlos, para o Christian ou para uma conversa mais longa? Para isso precisamos definir o que é lead bom. Antes, um lembrete rápido sobre a mídia.</p>
+          <p>Agora, por que esse desenho, e não outro? Porque o lugar onde o lead se perde está bem identificado.</p>
         </div>
         <button class="btn copy-fala">Copiar fala deste bloco</button>
       </div>
-      <div class="fontes-slide">
-        <b>Fontes externas deste bloco:</b>
-        <ul><li>Panorama Mobile Time/Opinion Box — "Mensageria no Brasil" (edição mais recente, pesquisas.mobiletime.com.br). Usuários de WhatsApp que já se comunicaram com empresas pelo app: ~8 em cada 10.</li></ul>
-      </div>
-      <div class="nav-slide"><a href="#entrega-comercial">← Diagnóstico Comercial</a><a href="#mapa">Visão geral</a><a href="#recap-b">Próximo: Recap Mídia →</a></div>
+      <div class="nav-slide"><a href="#s04">← Slide 4</a><a href="#mapa">Visão geral</a><a href="#s06">Próximo: Slide 6 →</a></div>
     </section>
 
-    <!-- RECAP B -->
-    <section id="recap-b" class="recap-section">
-      <span class="eyebrow recap">Recap Semana 2 · Slide 14</span>
-      <h2>R$ 3.000/mês, 25–30 leads e a ordem das coisas</h2>
-      <p style="font-size:.88rem;color:var(--ink-soft);margin:4px 0 14px;"><b>Motivo da retomada:</b> as metas das métricas do funil vêm do Cenário B de mídia, e a sequência "CRM antes da mídia" explica o timing do Kommo.</p>
-      <div class="beat beat--stage">[VOLTE RAPIDAMENTE AO SLIDE 14 · APONTE PARA "BUDGET DE LANÇAMENTO" E "O QUE IMPLEMENTAMOS PRIMEIRO"]</div>
-      <div class="roteiro">
-        <div class="beat beat--main">
-          <p>Na semana passada vocês aprovaram o Cenário B: R$ 3.000 por mês em Google e Meta, com uma estimativa de 25 a 30 leads por mês e custo por lead na faixa de R$ 50 a 60. E aprovaram também a ordem: tracking, landing page e CRM primeiro, anúncio depois.</p>
-        </div>
-        <div class="beat beat--ponte">
-          <span class="beat-label">Ponte para a Semana 3</span>
-          <p>Esses 25 a 30 leads são a base das metas que vou mostrar agora. E o "CRM primeiro" deixou de ser um item de lista: as métricas do funil são as regras que esse CRM vai seguir.</p>
-        </div>
-        <button class="btn copy-fala">Copiar fala deste bloco</button>
-      </div>
-      <div class="nav-slide"><a href="#entrega-oculto">← Cliente Oculto</a><a href="#entrega-metricas">Próximo: Métricas do Funil →</a></div>
-    </section>
-
-    <!-- ENTREGA 3: MÉTRICAS DO FUNIL -->
-    <section id="entrega-metricas" class="slide-section">
-      <span class="eyebrow">Entrega Semana 3 · Slides 26-27</span>
-      <h2>Métricas do Funil — o que conta como lead bom</h2>
+    <!-- SLIDE 6 -->
+    <section id="s06" class="slide-section">
+      <span class="eyebrow">Slide 6 · Pauta 4 · Onde o lead se perde</span>
+      <h2>A Fixa fecha. O lead se perde antes da conversa</h2>
       <div class="slide-meta-row">
-        <span class="meta-pill"><b>Função:</b> transformar "lead bom" em regra objetiva que a IA e os dois sócios aplicam igual</span>
-        <span class="meta-pill"><b>Tempo:</b> 12 min</span>
-        <span class="meta-pill"><b>Resultado esperado:</b> aprovação das 5 perguntas, faixas de estrela, SLA e corte de R$ 400/mês</span>
+        <span class="meta-pill"><b>Tempo:</b> 6 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> concordância de que o gargalo é Lead → 1º contato + retomada</span>
       </div>
-      <div class="beat beat--stage">[SLIDE 26 · PERGUNTA NA TELA: "O QUE CONTA COMO LEAD QUALIFICADO?"]</div>
+      <div class="beat beat--stage">[SLIDE 6 · APONTE PARA O CARD "LEITURA V4" PRIMEIRO, DEPOIS PARA A TABELA]</div>
       <div class="roteiro">
-        <div class="beat beat--main">
-          <p>Hoje, quem decide se um lead é bom é a cabeça do Carlos, caso a caso. E funciona, porque ele tem dez anos de experiência. O problema é que a cabeça do Carlos não escala, não está disponível às 22h e não pode ser copiada para a IA. Esta entrega faz isso: transforma a experiência de vocês em regra escrita.</p>
-        </div>
-        <div class="beat beat--stage">[AVANCE PARA O SLIDE 27 · APONTE PARA O CARD "FUNIL CANÔNICO"]</div>
-        <div class="beat beat--main">
-          <p>Primeiro, o funil tem sete etapas: Lead, Triagem, MQL, SAL, SQL, Proposta e Fechado. Não precisam decorar as siglas, elas são para a gente medir. O que importa é que cada etapa tem um critério de entrada e de saída que dá para verificar. Não existe "esse parece bom": ou a condição aconteceu, ou não aconteceu.</p>
-        </div>
         <div class="beat beat--insight">
           <span class="beat-label">Insight</span>
-          <p>Só para vocês terem a tradução: MQL é quem tem imóvel real na área e algum motivo. SAL é quando um de vocês assumiu a conversa. SQL é quando o caso está pronto para proposta, e aí a gente usa um critério clássico de vendas, que vem da IBM, chamado BANT: necessidade, autoridade, orçamento e momento. No caso da Fixa isso vira: tem motivo concreto, quem decide está na conversa, aceitou a faixa de investimento e tem uma data ou alguém esperando.</p>
+          <p>Carlos, no kick-off você disse a frase que está no slide: "quem fecha é quem precisa". Pela sua percepção, quem chega com um problema concreto, vender, financiar, inventariar, fecha em mais de 90%, e o curioso algo como um em cada três. Isso ainda não é medido, é a sua leitura do dia a dia, e o Kommo vai dar o número real. Mas ela diz uma coisa importante: o fechamento não é o problema. O trabalho não é ensinar a fechar, é fazer o lead novo chegar até a conversa.</p>
         </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "PERGUNTAS DE SCORING" · SE QUISER, MOSTRE A TABELA DE PONTOS NO SLIDE 7 DO DECK DA SEMANA 3]</div>
+        <div class="beat beat--stage">[APONTE PARA A TABELA, LINHA A LINHA · DESTAQUE A PRIMEIRA, MARCADA COMO GARGALO]</div>
         <div class="beat beat--main">
-          <p>O coração dessa entrega são cinco perguntas que a IA faz no WhatsApp, cada uma com pontos. Somando dá de zero a onze:</p>
+          <p>Esta tabela mostra as quatro passagens do funil. Na coluna da Fixa está escrito "a medir no Kommo" em todas, porque hoje ninguém conta. Na outra coluna estão referências estimadas de serviços profissionais, advocacia e consultoria para pequenas e médias empresas: de lead para primeiro contato, cerca de 65%; de primeiro contato para qualificação, 45%; de qualificação para proposta, 57%; de proposta para fechamento, 30%. Não são metas para vocês, são um ponto de comparação até a gente ter número próprio.</p>
+          <p>E o gargalo está na primeira linha: <b>Lead → Primeiro Contato</b>. Junto com ela, a retomada de quem parou de responder. Vocês mesmos disseram em 16/09: "se ele parar de responder, a gente não vai mais atrás".</p>
+        </div>
+        <div class="beat beat--context">
+          <span class="beat-label">Contexto</span>
+          <p>O motivo é estrutural. Não existe vendedor dedicado. Quando o cliente vem por indicação, ele insiste, porque já confia. O lead de anúncio não insiste: manda a mesma mensagem para três escritórios e fica com quem respondeu primeiro.</p>
+        </div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>Na semana passada vocês aprovaram R$ 3.000 por mês de mídia, com a ordem: tracking, landing page e CRM primeiro, anúncio depois. É por isso. Se a gente ligar a mídia sem isso pronto, vamos pagar para trazer lead até um atendimento que não consegue retomá-lo, e o anúncio vai parecer ruim quando o problema está depois dele.</p>
+        </div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE O CHRISTIAN TROUXER UMA ROTINA DIFERENTE NA ASSESSORIA]</span>
+          <p>Boa, isso é importante, porque vocês vão ter funis separados. Vamos respeitar o jeito de cada um. O que precisa ser igual é o critério e o prazo de resposta.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>Vocês concordam que o primeiro gargalo a atacar é a primeira resposta e a retomada, e não o fechamento?</p>
+        </div>
+        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO · REGISTRE]</div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Para a primeira resposta funcionar sem depender de ninguém, a IA precisa saber o que é lead bom. É o próximo slide.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s05">← Slide 5</a><a href="#mapa">Visão geral</a><a href="#s07">Próximo: Slide 7 →</a></div>
+    </section>
+
+    <!-- SLIDE 7 -->
+    <section id="s07" class="slide-section">
+      <span class="eyebrow">Slide 7 · Pauta 5 · Critério de qualificação</span>
+      <h2>5 perguntas decidem pra onde o lead vai</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 9 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> perguntas, pontos e faixas aprovados; corte de R$ 400 definido (decisões 1 e 4)</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 7 · APONTE PARA A TABELA DE PERGUNTAS, LINHA A LINHA]</div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Hoje, quem decide se um lead é bom é a cabeça do Carlos, caso a caso. Funciona, porque ele tem dez anos de experiência. Mas a cabeça do Carlos não está disponível às 22h e não pode ser copiada para a IA. Este slide transforma a experiência de vocês em regra escrita: mesma resposta, mesma estrela.</p>
+          <p>São cinco perguntas que a IA faz no WhatsApp, cada uma com pontos:</p>
           <p><b>Por que agora?</b> Vender ou financiar com comprador ou banco envolvido, ou inventário e exigência de cartório: 3 pontos. Quer resolver no futuro: 1. Só curiosidade: 0.</p>
           <p><b>Tem data ou alguém esperando?</b> Nos próximos 3 meses: 2. Depois disso: 1. Sem data: 0.</p>
           <p><b>Onde fica o imóvel?</b> RS ou primeira metade de SC: 2. Fora disso: 0.</p>
           <p><b>Quem decide?</b> Dono ou herdeiro com a família de acordo: 2. Ainda precisa conversar: 1. Não é dono e o dono não sabe: 0.</p>
           <p><b>O investimento faz sentido?</b> A IA diz que regularização de casa parte de R$ 5 mil, parcelável. "Sim": 2. "Depende da proposta": 1. "Não": 0.</p>
         </div>
+        <div class="beat beat--stage">[APONTE PARA AS FAIXAS DE ESTRELA E DEPOIS PARA O CARD "REGRA DE OURO"]</div>
+        <div class="beat beat--main">
+          <p>Somando dá de zero a onze. 10 a 11 pontos é cinco estrelas, lead quente. 7 a 9 é quatro, qualificado. Esses dois vão para o funil de vocês. 4 a 6 é três estrelas, morno, e entra numa nutrição automática. Abaixo disso é resposta cordial, sem ocupar a agenda de vocês.</p>
+        </div>
         <div class="beat beat--insight">
           <span class="beat-label">Insight</span>
-          <p>E tem uma regra de ouro, que vem direto da frase do Carlos: só chega a cinco estrelas quem tem motivo concreto. Quem tem 10 ou 11 pontos tem, obrigatoriamente, os 3 pontos do "por que agora". Uma pessoa pode ter tudo bonito, com cidade, decisor e orçamento, mas sem motivo ela fica no máximo em quatro estrelas. Isso protege o tempo de vocês.</p>
-        </div>
-        <div class="beat beat--main">
-          <p>E as faixas: 10 a 11 pontos é cinco estrelas, lead quente. 7 a 9 é quatro, qualificado. Esses dois vão para o funil de vocês. 4 a 6 é três estrelas, morno, e entra numa nutrição automática até aparecer um motivo. Abaixo disso é resposta cordial, sem ocupar a agenda de vocês.</p>
+          <p>E a regra de ouro, que vem direto da frase do Carlos: só chega a cinco estrelas quem tem motivo concreto, vender, financiar ou inventariar. Alguém pode ter cidade, decisor e orçamento, mas sem motivo fica no máximo em quatro estrelas. Isso protege o tempo de vocês.</p>
         </div>
         <div class="beat beat--question">
           <span class="beat-label">Pergunta</span>
-          <p>Vou fazer um teste com vocês. Uma herdeira de Caxias, casa dos pais sem averbação, inventário não aberto, vizinho querendo comprar com financiamento, irmão em São Paulo concordando em vender, mas ela diz "depende do valor, já perdi três mil com outro". Quantas estrelas vocês dariam, pelo instinto?</p>
+          <p>Um teste. Uma herdeira de Caxias, casa dos pais sem averbação, inventário não aberto, vizinho querendo comprar com financiamento, irmão em São Paulo concordando em vender, mas ela diz "depende do valor, já perdi três mil com outro". Quantas estrelas vocês dariam, pelo instinto?</p>
         </div>
-        <div class="beat beat--pause">[PAUSA PARA RESPOSTA · DEIXE OS DOIS OPINAREM ANTES DE REVELAR]</div>
+        <div class="beat beat--pause">[PAUSA · DEIXE OS DOIS OPINAREM ANTES DE REVELAR]</div>
         <div class="beat beat--main">
-          <p>Pela tabela ela tem 10 pontos: motivo 3, data 2, cidade 2, decisor 2 e investimento 1. É cinco estrelas, e vai para o funil com 30 minutos de SLA.</p>
+          <p>Pela tabela ela tem 10 pontos: motivo 3, data 2, cidade 2, decisor 2 e investimento 1. Cinco estrelas.</p>
         </div>
         <div class="beat beat--conditional">
-          <span class="beat-label">[SE O INSTINTO DELES BATER COM A TABELA]</span>
-          <p>Perfeito. É isso que a gente quer: a tabela reproduzir o instinto de vocês, só que igual todas as vezes, às 22h e no domingo.</p>
           <span class="beat-label">[SE DEREM MENOS ESTRELAS]</span>
-          <p>Interessante. O que fez vocês descontarem? Se for o "já perdi três mil", essa é justamente a objeção de confiança da persona, e ela é tratada na conversa, não é motivo para esfriar o lead. Mas se tiver outro sinal que vocês usam e a tabela não pega, é agora que a gente ajusta.</p>
-          <span class="beat-label">[SE CARLOS E CHRISTIAN DIVERGIREM ENTRE SI]</span>
-          <p>Ótimo que apareceu agora e não com o lead na linha. Vamos voltar ao critério: o que decide se essa pessoa fecha é o motivo concreto, certo? Ela tem. Então a divergência está em outra resposta. Qual delas cada um pesou diferente?</p>
+          <p>O que fez vocês descontarem? Se for o "já perdi três mil", essa é a objeção de confiança da persona, tratada na conversa, não motivo para esfriar o lead. Mas se tiver outro sinal que vocês usam e a tabela não pega, é agora que a gente ajusta.</p>
         </div>
-        <div class="beat beat--main">
-          <p>Além das perguntas, existem quatro filtros que param a triagem na hora: imóvel fora da área, assunto fora do escopo (aluguel, compra, corretagem), o curioso que não conta o caso depois de duas perguntas e só pergunta preço, e quem diz que só consegue pagar menos de R$ 400 por mês. Esse último é uma decisão que eu preciso de vocês.</p>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE CARLOS E CHRISTIAN DIVERGIREM ENTRE SI]</span>
+          <p>Ótimo que apareceu agora e não com o lead na linha. O que decide se ela fecha é o motivo concreto, e ela tem. Então a divergência está em outra resposta. Qual delas cada um pesou diferente?</p>
         </div>
         <div class="beat beat--context">
-          <span class="beat-label">Contexto</span>
-          <p>A conta é simples: o serviço mais barato, regularização de casa, parte de R$ 5 mil. Em doze vezes dá pouco mais de R$ 400. Quem declara que só consegue menos que isso não tem como contratar nem o serviço de entrada, então vai para uma nutrição passiva, com conteúdo, e não ocupa a agenda de vocês.</p>
+          <span class="beat-label">Contexto · o corte de R$ 400 (decisão 4)</span>
+          <p>Além das perguntas, quatro filtros param a triagem na hora: imóvel fora da área, assunto fora do escopo (aluguel, compra, corretagem), o curioso que não conta o caso depois de duas perguntas e só pergunta preço, e quem diz que só consegue pagar menos de R$ 400 por mês. A conta: o serviço de entrada parte de R$ 5 mil, em doze vezes dá pouco mais de R$ 400. Quem declara menos que isso vai para uma nutrição passiva, com conteúdo.</p>
         </div>
         <div class="beat beat--decision">
           <span class="beat-label">Decisão</span>
-          <p>Então, duas aprovações aqui. Primeira: podemos considerar aprovadas as cinco perguntas, os pontos e as faixas de estrela, com revisão marcada para 30 dias depois do primeiro lead? Segunda: o corte de R$ 400 por mês fica como regra, ou vocês preferem que esse lead chegue até vocês?</p>
+          <p>Duas aprovações. Primeira: as cinco perguntas, os pontos e as faixas estão aprovados, com revisão 30 dias depois do primeiro lead? Segunda: o corte de R$ 400 por mês fica como regra, ou vocês preferem que esse lead chegue até vocês?</p>
         </div>
-        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO · NÃO AVANCE SEM DEFINIR O CORTE · REGISTRE]</div>
+        <div class="beat beat--pause">[NÃO AVANCE SEM DEFINIR O CORTE · REGISTRE]</div>
         <div class="beat beat--conditional">
           <span class="beat-label">[SE QUISEREM ATENDER MESMO ABAIXO DE R$ 400]</span>
-          <p>Faz sentido se vocês têm alguma forma de parcelamento mais longo ou um serviço menor. Então eu mudo o filtro: em vez de travar, ele passa como três estrelas com uma observação no card. Vocês decidem caso a caso, mas sem prioridade de SLA.</p>
+          <p>Faz sentido se vocês têm parcelamento mais longo ou um serviço menor. Então o filtro deixa de travar: o lead passa como três estrelas com uma observação no card, e vocês decidem caso a caso, sem prioridade de SLA.</p>
         </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "SLA LEAD 5★"]</div>
-        <div class="beat beat--main">
-          <p>Agora o SLA, que é o prazo para o humano assumir. A IA responde na hora, então o lead nunca fica no vácuo. O SLA mede quanto tempo leva para um de vocês entrar na conversa: 30 minutos para cinco estrelas e 4 horas, no mesmo dia útil, para quatro estrelas.</p>
-          <p>E se estourar? Com uma conta só no Kommo, não existe alerta individual. Então a regra é por funil: passou de 60 minutos num cinco estrelas, ou de 8 horas num quatro estrelas, o card ganha a etiqueta "SLA estourado" e aparece para os dois. Carlos cobre o Christian, Christian cobre o Carlos.</p>
-        </div>
-        <div class="beat beat--provocation">
-          <span class="beat-label">Provocação</span>
-          <p>Trinta minutos parece pouco para quem está na obra, eu sei. Mas pensem do outro lado: a IA já respondeu, já perguntou tudo e o lead já contou o caso inteiro. Ele está com o celular na mão esperando. Se o especialista aparece meia hora depois, dizendo "li o que você contou sobre a casa dos seus pais", ele não está só respondendo: está provando, na primeira mensagem, que a Fixa é diferente do advogado que sumiu.</p>
-        </div>
-        <div class="beat beat--context">
-          <span class="beat-label">Contexto</span>
-          <p>E esse relógio conta só em horário comercial, dias úteis das 8h às 18h. Se um cinco estrelas chega às 21h, a IA responde na hora e avisa que o especialista retorna no próximo dia útil, e os 30 minutos começam a contar às 8h. Ninguém precisa responder lead de madrugada.</p>
-        </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "META DE CPL"]</div>
-        <div class="beat beat--main">
-          <p>E, por fim, o que vamos medir. As metas vêm do Cenário B: 25 a 30 leads por mês e custo por lead de R$ 50 a 60. É uma estimativa, por isso o "E" ali. Vamos medir também o tempo até o primeiro contato humano e os motivos de perda, com uma lista fechada de dez. O motivo "outro" é permitido, mas se aparecer três vezes, vira motivo da lista.</p>
-        </div>
-        <div class="beat beat--insight">
-          <span class="beat-label">Insight</span>
-          <p>E uma distinção que evita decisão errada lá na frente: custo por lead não é custo de aquisição. O custo por lead mede só a mídia. O custo de aquisição inclui o Kommo, os créditos de IA, se passar do plano, e as horas de vocês no comercial. Os dois vão aparecer separados. Se só olharmos o CPL, a mídia pode parecer barata ou cara pelo motivo errado.</p>
-        </div>
-        <div class="beat beat--objection beat--conditional">
+        <div class="beat beat--conditional">
           <span class="beat-label">[OBJEÇÃO PROVÁVEL: "E SE A IA CLASSIFICAR ERRADO?"]</span>
-          <p>Vai acontecer, principalmente no começo. Por isso tem duas travas: vocês podem subir ou descer uma estrela, registrando no card qual resposta mudou, e 30 dias depois do primeiro lead a gente senta com os dados reais e recalibra pontos e faixas. A tabela de hoje é a versão 1, não é definitiva.</p>
+          <p>Vai acontecer, principalmente no começo. Por isso tem duas travas: vocês podem subir ou descer uma estrela, registrando no card qual resposta mudou, e 30 dias depois do primeiro lead a gente recalibra com dado real. Esta tabela é a versão 1.</p>
         </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
-          <p>Então agora sabemos quem é lead bom e em quanto tempo ele é atendido. Falta o caminho: por onde ele passa até o contrato e o que acontece quando ele some no meio. Isso é o pipeline.</p>
+          <p>Sabendo a estrela, a próxima pergunta é: em quanto tempo um de vocês entra na conversa?</p>
         </div>
         <button class="btn copy-fala">Copiar fala deste bloco</button>
       </div>
-      <div class="nav-slide"><a href="#recap-b">← Recap Mídia</a><a href="#mapa">Visão geral</a><a href="#recap-c">Próximo: Recap "Num processo só" →</a></div>
+      <div class="nav-slide"><a href="#s06">← Slide 6</a><a href="#mapa">Visão geral</a><a href="#s08">Próximo: Slide 8 →</a></div>
     </section>
 
-    <!-- RECAP C -->
-    <section id="recap-c" class="recap-section">
-      <span class="eyebrow recap">Recap Semana 2 · Slide 8</span>
-      <h2>"Engenharia e direito, num processo só"</h2>
-      <p style="font-size:.88rem;color:var(--ink-soft);margin:4px 0 14px;"><b>Motivo da retomada:</b> as réguas e o script do pipeline usam a mensagem do posicionamento aprovado.</p>
-      <div class="beat beat--stage">[VOLTE RAPIDAMENTE AO SLIDE 8 · APONTE PARA A PROPOSTA DE VALOR]</div>
-      <div class="roteiro">
-        <div class="beat beat--main">
-          <p>Só um lembrete de dez segundos: na semana passada vocês aprovaram o posicionamento. Engenharia e a parte legal num processo só, sem o cliente precisar contratar dois prestadores, com o relacionamento de dez anos com cartório e prefeitura. E a tagline: "Engenharia e direito, num processo só."</p>
-        </div>
-        <div class="beat beat--ponte">
-          <span class="beat-label">Ponte para a Semana 3</span>
-          <p>Essa frase deixou de ser só de anúncio. Ela aparece nas mensagens automáticas, no script de vocês e na resposta à objeção "vou ter que contratar advogado e engenheiro?". O cliente vai ouvir a mesma promessa do anúncio até o contrato.</p>
-        </div>
-        <button class="btn copy-fala">Copiar fala deste bloco</button>
-      </div>
-      <div class="nav-slide"><a href="#entrega-metricas">← Métricas do Funil</a><a href="#entrega-pipeline">Próximo: Pipeline →</a></div>
-    </section>
-
-    <!-- ENTREGA 4: PIPELINE -->
-    <section id="entrega-pipeline" class="slide-section">
-      <span class="eyebrow">Entrega Semana 3 · Slides 28-29</span>
-      <h2>Pipeline Comercial — nenhum lead sem próximo passo</h2>
+    <!-- SLIDE 8 -->
+    <section id="s08" class="slide-section">
+      <span class="eyebrow">Slide 8 · Pauta 6 · SLA por estrela</span>
+      <h2>Quem responde, e em quanto tempo</h2>
       <div class="slide-meta-row">
-        <span class="meta-pill"><b>Função:</b> desenhar o caminho do lead até o contrato, com réguas que retomam quem some</span>
-        <span class="meta-pill"><b>Tempo:</b> 14 min</span>
-        <span class="meta-pill"><b>Resultado esperado:</b> etapas aprovadas, Kommo já estruturado apresentado, caso misto decidido, chip e exportação combinados</span>
+        <span class="meta-pill"><b>Tempo:</b> 4 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> SLA aprovado (decisão 2)</span>
       </div>
-      <div class="beat beat--stage">[SLIDE 28 · PERGUNTA NA TELA: "COMO O LEAD AVANÇA ATÉ VIRAR VENDA?"]</div>
+      <div class="beat beat--stage">[SLIDE 8 · APONTE CARD A CARD, DO 5★ AO 1–2★]</div>
       <div class="roteiro">
         <div class="beat beat--main">
-          <p>Se as métricas dizem quem é lead bom, o pipeline diz o que acontece com ele a cada passo. E ele foi desenhado para resolver aquela frase de 16/09: "se ele parar de responder, a gente não vai mais atrás". No pipeline, todo lead tem um próximo passo com data. Sempre.</p>
+          <p>A IA responde na hora, então o lead nunca fica no vácuo. O SLA mede quanto tempo leva para um de vocês entrar na conversa.</p>
+          <p><b>Cinco estrelas, lead quente: 30 minutos.</b> O dono do funil assume. Passou de 60 minutos, o card ganha a etiqueta "SLA estourado" e o outro sócio assume. <b>Quatro estrelas: 4 horas</b>, no mesmo dia útil. Passou de 8 horas, mesma etiqueta. <b>Três estrelas</b> vão para a régua automática de nutrição, com conteúdo, até aparecer um motivo concreto. <b>Uma e duas estrelas</b> recebem resposta cordial, sem ocupar a agenda de vocês.</p>
         </div>
-        <div class="beat beat--stage">[AVANCE PARA O SLIDE 29 · APONTE PARA O CARD "ETAPAS NO KOMMO" · SE AJUDAR, MOSTRE O SLIDE 9 DO DECK DA SEMANA 3 COM AS ETAPAS DESENHADAS]</div>
+        <div class="beat beat--stage">[APONTE PARA O CARD "COM UMA CONTA SÓ NO KOMMO"]</div>
         <div class="beat beat--main">
-          <p>São sete etapas. A primeira é a Triagem IA, que fica num funil separado, onde a IA conversa. Depois disso o lead vai para o funil do Carlos ou para o do Christian, e os dois funis têm as mesmas seis etapas: Aguardando 1º contato, Em conversa, Análise do caso, Proposta enviada, Decisão da família e Contrato assinado.</p>
-          <p>Reparem em dois nomes, porque foram escolhidos a dedo. "Análise do caso" é como vocês já chamam o diagnóstico que fazem antes da proposta. E "Decisão da família" existe porque o cliente de vocês quase nunca decide sozinho: tem cônjuge, tem irmão, tem herdeiro. É nessa etapa que o lead some hoje, no "vou falar com meu irmão".</p>
-        </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "ETAPA DE CONTROLE"]</div>
-        <div class="beat beat--insight">
-          <span class="beat-label">Insight</span>
-          <p>E a etapa mais importante do pipeline é a mais simples: "Aguardando 1º contato". Ela é a etapa de controle, porque é exatamente o gargalo que vimos no diagnóstico. Quando o card entra ali, o Kommo cria uma tarefa com prazo de 30 minutos ou 4 horas. Se passar do limite, entra a etiqueta "SLA estourado". Olhando o funil, vocês sabem na hora se tem alguém esperando.</p>
-        </div>
-        <div class="beat beat--question">
-          <span class="beat-label">Pergunta</span>
-          <p>E aqui tem uma decisão que ficou pendente: o caso misto. Uma casa que precisa de averbação e também de inventário. Hoje a regra provisória é ir para o funil do Carlos, com o Christian marcado no card. Faz sentido para vocês, ou preferem que vá para o Christian?</p>
-        </div>
-        <div class="beat beat--pause">[PAUSA PARA RESPOSTA · DEIXE OS DOIS CONVERSAREM · NÃO AVANCE SEM DEFINIR · REGISTRE A DECISÃO]</div>
-        <div class="beat beat--conditional">
-          <span class="beat-label">[SE ESCOLHEREM O CARLOS]</span>
-          <p>Fechado. O card vai para o Carlos com a etiqueta "Christian marcado", e o Christian entra na análise do caso quando a parte do inventário aparecer.</p>
-          <span class="beat-label">[SE ESCOLHEREM O CHRISTIAN]</span>
-          <p>Fechado. A lógica também é boa: em geral o inventário vem antes, porque sem ele a venda não anda. O card vai para o Christian com o Carlos marcado.</p>
-          <span class="beat-label">[SE DISSEREM "DEPENDE DO CASO"]</span>
-          <p>Entendo, mas a IA precisa de uma regra. Proposta: vai para quem cuida do motivo principal. Se o lead disse "quero vender", vai para o Carlos. Se disse "meu pai faleceu e precisamos fazer a partilha", vai para o Christian. Pode ser assim?</p>
-        </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "RÉGUAS COM CONDIÇÃO DE PARADA" · SE AJUDAR, MOSTRE O SLIDE 10 DO DECK DA SEMANA 3]</div>
-        <div class="beat beat--main">
-          <p>Agora as réguas, que são as mensagens automáticas. São quatro, e todas têm uma regra de parada, porque régua sem parada vira spam.</p>
-          <p><b>Boas-vindas:</b> a IA responde na hora, já perguntando o que a pessoa precisa resolver no imóvel. Se não houver resposta, manda uma mensagem com opções para escolher depois de 2 horas e encerra com cordialidade antes de completar 24 horas.</p>
-          <p><b>Nutrição:</b> para o três estrelas, que tem interesse mas não tem motivo agora. Cinco mensagens em cerca de cinco semanas: por que o banco exige matrícula, a diferença entre escritura e matrícula, o "num processo só", o fato de que falta de documento não impede o processo e, no fim, uma pergunta sobre se o plano para o imóvel mudou.</p>
-          <p><b>Retomada:</b> para o "vou falar com meu irmão" ou um combinado que não aconteceu. Uma mensagem de vocês no dia, uma depois de 24 horas e outra depois de 72, sem pressão nem "última chance".</p>
-          <p><b>Reativação:</b> 90 dias depois, uma vez por ano, perguntando se a situação do imóvel mudou.</p>
-        </div>
-        <div class="beat beat--provocation">
-          <span class="beat-label">Provocação</span>
-          <p>Vocês vão notar que as réguas são educadas, quase tímidas. É de propósito. O ticket de vocês vai de R$ 5 mil a R$ 400 mil e a decisão é de família. Uma régua agressiva queima exatamente o cliente que mais vale. A pergunta não é "como a gente insiste mais?", é "como a gente nunca esquece de voltar?".</p>
+          <p>Como é uma conta só no Kommo, cada um cuida do seu funil. O aviso de lead chega nos dois celulares, e a cobertura é pela etiqueta no funil: Carlos cobre o Christian, Christian cobre o Carlos.</p>
         </div>
         <div class="beat beat--context">
           <span class="beat-label">Contexto</span>
-          <p>Uma regra vale para todas as mensagens: nenhuma promete prazo nem data de conclusão. O processo depende de cartório e prefeitura, e vocês não controlam isso. Quando o cliente perguntar "quanto tempo leva?", a IA e vocês explicam as etapas do caso e o que depende de quem. A segurança do cliente vem de saber em que etapa está, não de uma data que ninguém pode garantir.</p>
+          <p>E o relógio conta só em horário comercial, dias úteis das 8h às 18h. Se um cinco estrelas chega às 21h, a IA responde na hora e avisa que o especialista retorna no próximo dia útil, e os 30 minutos começam às 8h. Ninguém precisa responder lead de madrugada.</p>
         </div>
-        <div class="beat beat--stage">[APONTE PARA O CARD "OBJEÇÕES COM RESPOSTA PRONTA"]</div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>Trinta minutos parece pouco para quem está na obra, eu sei. Mas a IA já perguntou tudo e o lead já contou o caso. Ele está com o celular na mão. Se o especialista aparece meia hora depois dizendo "li o que você contou sobre a casa dos seus pais", ele está provando, na primeira mensagem, que a Fixa é diferente do advogado que sumiu.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Decisão</span>
+          <p>Fechamos assim: 30 minutos para cinco estrelas, 4 horas para quatro, só em horário comercial, um cobrindo o outro?</p>
+        </div>
+        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO · REGISTRE]</div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Depois que um de vocês assume, o lead entra no pipeline.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s07">← Slide 7</a><a href="#mapa">Visão geral</a><a href="#s09">Próximo: Slide 9 →</a></div>
+    </section>
+
+    <!-- SLIDE 9 -->
+    <section id="s09" class="slide-section">
+      <span class="eyebrow">Slide 9 · Pauta 7 · Pipeline comercial</span>
+      <h2>Nenhum lead sem próximo passo</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 6 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> 7 etapas aprovadas; caso misto decidido (decisão 3)</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 9 · PERCORRA AS 7 ETAPAS DA ESQUERDA PARA A DIREITA]</div>
+      <div class="roteiro">
         <div class="beat beat--main">
-          <p>O pipeline também traz o roteiro de conversa de vocês. São sete objeções com resposta curta ("vai ficar caro?", "demora muito?", "não tenho todos os documentos", "já paguei um advogado que sumiu", "preciso falar com meu irmão", "não sei se preciso agora" e "vou ter que contratar advogado e engenheiro?") e um roteiro de perguntas para a primeira conversa.</p>
+          <p>São sete etapas, iguais nos dois funis. A primeira é a <b>Triagem IA</b>, onde a IA conversa. Depois: <b>Aguardando 1º contato</b>, <b>Em conversa</b>, <b>Análise do caso</b>, <b>Proposta enviada</b>, <b>Decisão da família</b> e <b>Contrato assinado</b>.</p>
+          <p>Dois nomes foram escolhidos a dedo. "Análise do caso" é como vocês já chamam o diagnóstico antes da proposta. E "Decisão da família" existe porque o cliente de vocês quase nunca decide sozinho: tem cônjuge, irmão, herdeiro. É nessa etapa que o lead some hoje, no "vou falar com meu irmão".</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA A ETAPA 2, MARCADA "CONTROLE", E DEPOIS PARA O CARD "REGRA DO PIPELINE"]</div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight</span>
+          <p>A etapa mais importante é a mais simples: "Aguardando 1º contato". É o gargalo do slide 6. Quando o card entra ali, o Kommo cria uma tarefa com prazo de 30 minutos ou 4 horas. Olhando o funil, vocês sabem na hora se tem alguém esperando. E a regra vale para todas: critério objetivo para avançar e uma tarefa com data.</p>
+        </div>
+        <div class="beat beat--question">
+          <span class="beat-label">Pergunta · caso misto (decisão 3)</span>
+          <p>Uma decisão pendente: o caso misto, uma casa que precisa de averbação e também de inventário. A regra provisória é ir para o funil do Carlos, com o Christian marcado no card. Faz sentido, ou preferem que vá para o Christian?</p>
+        </div>
+        <div class="beat beat--pause">[DEIXE OS DOIS CONVERSAREM · NÃO AVANCE SEM DEFINIR · REGISTRE]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE ESCOLHEREM O CHRISTIAN]</span>
+          <p>Fechado. A lógica é boa: em geral o inventário vem antes, porque sem ele a venda não anda. O card vai para o Christian com o Carlos marcado.</p>
+        </div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE DISSEREM "DEPENDE DO CASO"]</span>
+          <p>A IA precisa de uma regra. Proposta: vai para quem cuida do motivo principal. "Quero vender" vai para o Carlos. "Meu pai faleceu e precisamos fazer a partilha" vai para o Christian. Pode ser assim?</p>
+        </div>
+        <div class="beat beat--main">
+          <p>E dentro do pipeline vocês recebem o roteiro de conversa: sete objeções com resposta curta ("vai ficar caro?", "demora muito?", "não tenho todos os documentos", "já paguei um advogado que sumiu", "preciso falar com meu irmão", "não sei se preciso agora" e "vou ter que contratar advogado e engenheiro?") e as perguntas da primeira conversa.</p>
         </div>
         <div class="beat beat--external">
           <span class="beat-label">Dado externo</span>
-          <p>Esse roteiro segue um método chamado SPIN, do Neil Rackham, que saiu de uma pesquisa com cerca de 35 mil ligações de vendas e virou o livro <i>SPIN Selling</i>, de 1988. A ideia é que, em venda de valor alto, quem convence o cliente é o próprio cliente, respondendo às perguntas certas. Primeiro a situação, depois o problema, depois a implicação ("se o comprador não conseguir o financiamento, o que acontece?") e por fim o que ele ganha se resolver. É um esqueleto, não um texto para ler. Cada um adapta ao seu jeito.</p>
+          <p>Esse roteiro segue o SPIN, do Neil Rackham, que saiu de uma pesquisa com cerca de 35 mil ligações de vendas (<i>SPIN Selling</i>, 1988). Em venda de valor alto, quem convence o cliente é ele mesmo, respondendo às perguntas certas: situação, problema, implicação ("se o comprador não conseguir o financiamento, o que acontece?") e o que ele ganha se resolver. É um esqueleto, não um texto para ler.</p>
         </div>
         <div class="beat beat--insight">
           <span class="beat-label">Insight</span>
-          <p>E o detalhe que eu mais gosto nesse desenho: ninguém repete pergunta. A IA registra no card o motivo, a cidade, quem decide, os documentos e até o histórico, como "já pagou um advogado que sumiu". Quando vocês entram, a primeira mensagem já é "Oi, aqui é o Carlos, engenheiro da Fixa. Li o que você contou sobre a casa em Farroupilha". Para um cliente que chega desconfiado, isso vale mais do que qualquer argumento.</p>
-        </div>
-        <div class="beat beat--objection beat--conditional">
-          <span class="beat-label">[OBJEÇÃO PROVÁVEL: "O CLIENTE VAI PERCEBER QUE É ROBÔ E NÃO VAI GOSTAR"]</span>
-          <p>A IA não finge ser pessoa. Ela se apresenta como a Fixa, faz poucas perguntas e passa para vocês. O que o cliente não gosta é esperar três horas e não ser chamado de novo. E o treinamento da IA vai usar as conversas reais de vocês, por isso preciso da exportação das últimas 200 a 300 conversas do WhatsApp. Assim ela fala do jeito da Fixa, não de um jeito genérico.</p>
-        </div>
-        <div class="beat beat--objection beat--conditional">
-          <span class="beat-label">[OBJEÇÃO PROVÁVEL: "ISSO VAI CUSTAR MAIS?"]</span>
-          <p>O agente de IA, os funis, o aplicativo com aviso de lead, as tarefas e as réguas estão no plano Pro que vocês já assinaram. Os custos possíveis fora do plano são três: créditos de IA extras, se passar de 2.250 por mês (vamos medir no primeiro mês antes de comprar qualquer coisa), um segundo usuário, se o volume pedir, e as taxas da própria Meta para algumas mensagens do WhatsApp, que eu vou fechar com vocês no setup.</p>
-        </div>
-        <div class="beat beat--stage">[NOTA INTERNA — NÃO VERBALIZAR: a Mobile Time noticiou em jun–jul/2026 que a Meta passa a cobrar pelas respostas enviadas pela API a partir de 01/10/2026 (valor noticiado equivalente ao de mensagem de utilidade, ~R$ 0,035), com o app WhatsApp Business isento. A documentação oficial da Meta ainda diz que mensagens fora de template são gratuitas. Confirme no setup (ee-s3-crm-setup) antes de passar qualquer valor. Se perguntarem, diga que o custo por mensagem é de centavos e que você traz o número exato no setup.]</div>
-        <div class="beat beat--stage">[MOSTRE O SLIDE 12 DO DECK DA SEMANA 3 ("A ESTRUTURA JÁ ESTÁ NO KOMMO") · SE O CLIENTE QUISER VER, ABRA O KOMMO NA TELA E MOSTRE OS 3 FUNIS]</div>
-        <div class="beat beat--main">
-          <p>E isso tudo já não está só no papel. O Kommo de vocês já está estruturado: os três funis criados, a Triagem IA e um funil para cada um, com as mesmas etapas que eu acabei de mostrar. Os dez motivos de perda estão em lista fechada, os campos do lead (origem, assunto, estrelas, cidade, decisores e o resumo do caso) estão lá e a etiqueta "SLA estourado" já existe.</p>
-          <p>Quando vocês abrirem o aplicativo, a casa já vai estar montada. O que falta é ligar o atendimento: conectar o número novo, configurar o agente de IA com as cinco perguntas, as réguas automáticas e a automação do SLA. Isso é a Semana 4, e começa assim que o chip chegar.</p>
-        </div>
-        <div class="beat beat--insight">
-          <span class="beat-label">Insight</span>
-          <p>A ordem é proposital. Primeiro a estrutura, que não depende de ninguém. Depois o atendimento, que depende do número. Quando o chip chegar, não vamos perder uma semana desenhando funil: é conectar, configurar a IA, testar e ligar.</p>
+          <p>E ninguém repete pergunta. A IA registra no card o motivo, a cidade, quem decide, os documentos e o histórico. Quando vocês entram, a primeira mensagem já é "Oi, aqui é o Carlos, engenheiro da Fixa. Li o que você contou sobre a casa em Farroupilha".</p>
         </div>
         <div class="beat beat--conditional">
-          <span class="beat-label">[SE PERGUNTAREM "JÁ DÁ PRA USAR?"]</span>
-          <p>Para lead de indicação, já dá: vocês podem criar o card direto no funil, em "Aguardando 1º contato". Para o lead de campanha, ainda não, porque ele depende do número novo e da IA. E a mídia só liga depois disso.</p>
-          <span class="beat-label">[SE PERGUNTAREM POR QUE A ETAPA FINAL SE CHAMA "FECHADO - GANHO"]</span>
-          <p>É o nome fixo do Kommo para o contrato assinado. Não dá para renomear, mas o significado é exatamente esse.</p>
-        </div>
-        <div class="beat beat--decision">
-          <span class="beat-label">Decisão</span>
-          <p>Então, para ligar o atendimento no Kommo na semana que vem eu preciso de três coisas deste bloco. Um: o pipeline com essas sete etapas está aprovado? Dois: Carlos, o chip do número novo, até quando você consegue? Três: a exportação das últimas 200 a 300 conversas do WhatsApp atual, para treinar a IA. Podemos combinar data para as duas?</p>
-        </div>
-        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO · REGISTRE DATA E RESPONSÁVEL DE CADA ITEM]</div>
-        <div class="beat beat--conditional">
-          <span class="beat-label">[SE HOUVER RECEIO SOBRE EXPORTAR CONVERSAS DE CLIENTE]</span>
-          <p>Preocupação correta. A exportação é só para treinar o tom e as perguntas da IA, não para publicar nada. Se preferirem, exportem só as conversas com contatos novos, e não as de clientes em andamento. Já é suficiente.</p>
+          <span class="beat-label">[SE PERGUNTAREM POR QUE A ETAPA FINAL APARECE COMO "FECHADO - GANHO" NO KOMMO]</span>
+          <p>É o nome fixo do Kommo para o contrato assinado. Não dá para renomear, mas o significado é esse.</p>
         </div>
         <div class="beat beat--transition">
           <span class="beat-label">Transição</span>
-          <p>Com isso a Semana 3 está completa: sabemos onde o lead se perde, como resolver a primeira resposta hoje, quem é lead bom e o caminho até o contrato. Deixa eu consolidar o que decidimos e mostrar o que vem na Semana 4.</p>
+          <p>E se o lead some no meio do caminho? É para isso que servem as réguas.</p>
         </div>
         <button class="btn copy-fala">Copiar fala deste bloco</button>
       </div>
       <div class="fontes-slide">
-        <b>Fontes externas deste bloco:</b>
-        <ul>
-          <li>Rackham, N. <i>SPIN Selling</i>. McGraw-Hill, 1988. Pesquisa da Huthwaite com cerca de 35 mil ligações de vendas.</li>
-          <li>Meta — "Pricing on the WhatsApp Business Platform" (developers.facebook.com, consultado em 30/09/2026). Janela de atendimento de 24h; templates cobrados fora da janela; mensagens fora de template gratuitas.</li>
-          <li>Mobile Time — "WhatsApp planeja cobrar respostas de empresas" (23/06/2026) e "WhatsApp cobra por respostas: quem ganha e quem perde" (02/07/2026). Cobrança de respostas via API a partir de 01/10/2026; app WhatsApp Business isento. <b>Uso interno, a confirmar.</b></li>
-        </ul>
+        <b>Fonte externa deste bloco:</b>
+        <ul><li>Rackham, N. <i>SPIN Selling</i>. McGraw-Hill, 1988. Pesquisa da Huthwaite com cerca de 35 mil ligações de vendas.</li></ul>
       </div>
-      <div class="nav-slide"><a href="#recap-c">← Recap</a><a href="#mapa">Visão geral</a><a href="#fechamento">Próximo: Fechamento →</a></div>
+      <div class="nav-slide"><a href="#s08">← Slide 8</a><a href="#mapa">Visão geral</a><a href="#s10">Próximo: Slide 10 →</a></div>
     </section>
 
-    <!-- FECHAMENTO -->
-    <section id="fechamento" class="slide-section">
-      <span class="eyebrow">Encerramento · Slides 30-31</span>
-      <h2>Fechamento — o que decidimos e o que vem na Semana 4</h2>
+    <!-- SLIDE 10 -->
+    <section id="s10" class="slide-section">
+      <span class="eyebrow">Slide 10 · Pauta 8 · Réguas automáticas</span>
+      <h2>Quem parou de responder volta a ser chamado</h2>
       <div class="slide-meta-row">
-        <span class="meta-pill"><b>Tempo:</b> 7 min</span>
-        <span class="meta-pill"><b>Resultado esperado:</b> decisões confirmadas em voz alta, com responsável e data</span>
+        <span class="meta-pill"><b>Tempo:</b> 4 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> confiança de que as réguas são educadas e nunca prometem prazo</span>
       </div>
-      <div class="beat beat--stage">[SLIDE 30 · "ESTRATÉGIA É O MAPA. EXECUÇÃO É A VIAGEM."]</div>
+      <div class="beat beat--stage">[SLIDE 10 · APONTE CARD A CARD]</div>
       <div class="roteiro">
         <div class="beat beat--main">
-          <p>Vou recapitular rápido o que construímos hoje. O diagnóstico comercial mostrou que a Fixa fecha, e que o lead se perde antes da conversa: na primeira resposta e em quem para de responder. O cliente oculto mostrou isso num dia comum, e a gente já tem quatro ajustes gratuitos para mudar a primeira impressão hoje. As métricas do funil transformaram "lead bom" em cinco perguntas e cinco estrelas, com SLA. E o pipeline garante que todo lead tenha próximo passo, com réguas que voltam a chamar sem incomodar.</p>
+          <p>São quatro réguas, e todas têm ponto de parada, porque régua sem parada vira spam.</p>
+          <p><b>Boas-vindas</b>, imediata: a IA responde na hora com pergunta sobre o caso. Sem resposta, volta em 2 horas e em 24, depois encerra com cordialidade.</p>
+          <p><b>Nutrição</b>, para o três estrelas, em cinco toques: por que o banco exige matrícula, a diferença entre escritura e matrícula, o "num processo só", o fato de que falta de documento não impede o processo. Para quando surge um motivo.</p>
+          <p><b>Retomada</b>, em 48h, 24h e 72h: depois de um "vou falar com meu irmão" ou de um combinado que não aconteceu. Sem pressão, sem "última chance".</p>
+          <p><b>Reativação</b>, 90 dias depois: uma vez por lead a cada 12 meses, "a situação do imóvel mudou?".</p>
         </div>
-        <div class="beat beat--stage">[APONTE PARA OS TRÊS BLOCOS: ATRAIR, CONVERTER, RETER]</div>
+        <div class="beat beat--ponte">
+          <span class="beat-label">Recap Semana 2 (falado)</span>
+          <p>Aquele "num processo só" da nutrição é a frase do posicionamento que vocês aprovaram: "Engenharia e direito, num processo só." Ela deixou de ser só de anúncio. O cliente vai ouvir a mesma promessa do anúncio até o contrato.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA O CARD "NUNCA NAS MENSAGENS"]</div>
+        <div class="beat beat--context">
+          <span class="beat-label">Contexto</span>
+          <p>Uma regra vale para todas as mensagens: nenhuma promete prazo nem data de conclusão. O processo depende de cartório e prefeitura, e vocês não controlam isso. Quando o cliente perguntar "quanto tempo leva?", a IA e vocês explicam as etapas e o que depende de quem.</p>
+        </div>
+        <div class="beat beat--provocation">
+          <span class="beat-label">Provocação</span>
+          <p>As réguas são educadas, quase tímidas, de propósito. O ticket vai de R$ 5 mil a R$ 400 mil e a decisão é de família. Régua agressiva queima justamente o cliente que mais vale. A pergunta não é "como insistir mais?", é "como nunca esquecer de voltar?".</p>
+        </div>
+        <div class="beat beat--transition">
+          <span class="beat-label">Transição</span>
+          <p>Com isso montado, a gente passa a ter número real. O que vamos medir:</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s09">← Slide 9</a><a href="#mapa">Visão geral</a><a href="#s11">Próximo: Slide 11 →</a></div>
+    </section>
+
+    <!-- SLIDE 11 -->
+    <section id="s11" class="slide-section">
+      <span class="eyebrow">Slide 11 · Pauta 9 · O que vamos medir</span>
+      <h2>Número real no lugar de impressão</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 3 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> metas entendidas como estimativa, com revisão em 30 dias</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 11 · APONTE CARD A CARD]</div>
+      <div class="roteiro">
         <div class="beat beat--main">
-          <p>E olhando para este slide: as Semanas 1 e 2 construíram o "atrair". Hoje fechamos o "converter". A Semana 4 é a execução: manual de marca, landing page, copy e criativos de anúncio, forecast de mídia e, principalmente, o setup do Kommo com a IA configurada, tudo o que vocês aprovaram hoje. Só depois disso a mídia liga.</p>
+          <p>As metas vêm do Cenário B de mídia que vocês aprovaram: R$ 3.000 por mês, <b>25 a 30 leads por mês</b> e <b>custo por lead de R$ 50 a 60</b>. É estimativa, por isso o "E". <b>Primeiro contato humano em até 30 minutos</b> para o cinco estrelas, contra as cerca de três horas de hoje. E <b>dez motivos de perda fixos</b>, numa lista fechada revisada todo mês. Se o motivo "outro" aparecer três vezes, vira motivo da lista.</p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight</span>
+          <p>Custo por lead não é custo de aquisição. O custo por lead mede só a mídia. O custo de aquisição inclui o Kommo, créditos de IA se passar do plano e as horas de vocês no comercial. Os dois vão aparecer separados, senão a mídia parece barata ou cara pelo motivo errado.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA O CARD "PRIMEIRA LEITURA"]</div>
+        <div class="beat beat--main">
+          <p>E 30 dias depois do primeiro lead no Kommo, a gente senta e recalibra pontos, estrelas e SLA com dado de verdade.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s10">← Slide 10</a><a href="#mapa">Visão geral</a><a href="#s12">Próximo: Slide 12 →</a></div>
+    </section>
+
+    <!-- SLIDE 12 -->
+    <section id="s12" class="slide-section">
+      <span class="eyebrow">Slide 12 · Pauta 10 · Kommo: onde estamos</span>
+      <h2>A estrutura já está no Kommo</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 3 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> prova de andamento; chip e exportação com data (decisão 6)</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 12 · COLUNA "JÁ CRIADO" PRIMEIRO · SE QUISEREM VER, ABRA O KOMMO NA TELA E MOSTRE OS 3 FUNIS, DEPOIS VOLTE AO SLIDE]</div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>E isso tudo já não está só no papel. No Kommo de vocês já estão criados os três funis, Triagem IA, Carlos e Christian, com as mesmas etapas nos dois. Os dez motivos de perda fixos, os campos do lead (origem, assunto, estrelas, cidade, decisores) e a etiqueta "SLA estourado", junto com as etiquetas de retomada.</p>
+        </div>
+        <div class="beat beat--stage">[APONTE PARA A COLUNA "SEMANA 4 · FALTA LIGAR"]</div>
+        <div class="beat beat--main">
+          <p>O que falta é ligar o atendimento, na Semana 4: conectar o número novo, que depende do chip; o agente de IA da triagem; as réguas automáticas; o SLA automático, com tarefa e etiqueta; e o aplicativo nos celulares de vocês, com um treinamento curto.</p>
+        </div>
+        <div class="beat beat--insight">
+          <span class="beat-label">Insight</span>
+          <p>A ordem é proposital. Primeiro a estrutura, que não depende de ninguém. Depois o atendimento, que depende do número. Quando o chip chegar, a gente não perde uma semana desenhando funil: é conectar, configurar a IA, testar e ligar.</p>
+        </div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE PERGUNTAREM "JÁ DÁ PRA USAR?"]</span>
+          <p>Para lead de indicação, já dá: vocês podem criar o card direto no funil, em "Aguardando 1º contato". Para o lead de campanha ainda não, porque ele depende do número novo e da IA. E a mídia só liga depois disso.</p>
         </div>
         <div class="beat beat--decision">
-          <span class="beat-label">Síntese das decisões (confirme em voz alta, uma a uma)</span>
-          <p>1) Gargalo principal: Lead → 1º contato + retomada. 2) Cinco perguntas, pontos e faixas de estrela aprovados, com revisão em 30 dias. 3) SLA de 30 min (5★) e 4h (4★), só em horário comercial, um sócio cobrindo o outro. 4) Corte de R$ 400/mês: regra definida. 5) Caso misto: funil definido. 6) Indicação vai direto para o humano. 7) Pipeline de sete etapas aprovado. 8) Quatro ajustes gratuitos ligados no WhatsApp atual.</p>
+          <span class="beat-label">Decisão · chip + exportação (decisão 6)</span>
+          <p>Para ligar na semana que vem eu preciso de duas coisas. Carlos, o chip do número novo: até quando você consegue? E a exportação das últimas 200 a 300 conversas do WhatsApp atual, para treinar a IA no jeito de falar da Fixa. Podemos combinar data para as duas?</p>
         </div>
-        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO DE CADA ITEM · O QUE NÃO FOR FECHADO VAI PARA "PENDENTE" NA TABELA]</div>
+        <div class="beat beat--pause">[REGISTRE DATA E RESPONSÁVEL DE CADA ITEM]</div>
+        <div class="beat beat--conditional">
+          <span class="beat-label">[SE HOUVER RECEIO SOBRE EXPORTAR CONVERSAS DE CLIENTE]</span>
+          <p>Preocupação correta. A exportação é só para treinar o tom e as perguntas da IA, nada é publicado. Se preferirem, exportem só as conversas com contatos novos, não as de clientes em andamento. Já é suficiente.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s11">← Slide 11</a><a href="#mapa">Visão geral</a><a href="#s13">Próximo: Slide 13 →</a></div>
+    </section>
+
+    <!-- SLIDE 13 -->
+    <section id="s13" class="slide-section">
+      <span class="eyebrow">Slide 13 · Pauta 11 · Decisões de hoje</span>
+      <h2>O que precisamos fechar pra configurar o Kommo</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 4 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> as 6 decisões confirmadas em voz alta</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 13 · LEIA ITEM A ITEM · A MAIORIA JÁ FOI FECHADA NOS SLIDES ANTERIORES: AQUI É SÓ CONFIRMAR]</div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Para fechar, deixa eu confirmar o que combinamos, item por item.</p>
+        </div>
+        <div class="beat beat--decision">
+          <span class="beat-label">Síntese das decisões (confirme uma a uma)</span>
+          <p>1) As cinco perguntas e as faixas de estrela estão aprovadas, com revisão em 30 dias (slide 7). 2) SLA de 30 minutos para cinco estrelas e 4 horas para quatro, só em horário comercial, um cobrindo o outro (slide 8). 3) Caso misto: vai para o funil que definimos (slide 9). 4) Corte de investimento abaixo de R$ 400 por mês: a regra que definimos (slide 7). 5) Os quatro ajustes no WhatsApp atual ligados hoje (slide 4). 6) Chip do número novo e exportação das conversas nas datas combinadas (slide 12).</p>
+        </div>
+        <div class="beat beat--pause">[AGUARDE A CONFIRMAÇÃO DE CADA ITEM · O QUE NÃO FOR FECHADO VAI PARA "PENDENTE" NO PLANO DE AÇÃO]</div>
+        <div class="beat beat--main">
+          <p>E dois combinados que também ficaram de hoje: o gargalo que vamos atacar primeiro é a primeira resposta e a retomada, e lead de indicação vai direto para vocês, sem IA.</p>
+        </div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s12">← Slide 12</a><a href="#mapa">Visão geral</a><a href="#s14">Próximo: Slide 14 →</a></div>
+    </section>
+
+    <!-- SLIDE 14 -->
+    <section id="s14" class="slide-section">
+      <span class="eyebrow">Slide 14 · Próximos passos do projeto</span>
+      <h2>O que vamos executar na Semana 4</h2>
+      <div class="slide-meta-row">
+        <span class="meta-pill"><b>Tempo:</b> 3 min</span>
+        <span class="meta-pill"><b>Resultado esperado:</b> clareza do que vem e plano de ação com responsável e data</span>
+      </div>
+      <div class="beat beat--stage">[SLIDE 14 · PASSE PELAS TRÊS COLUNAS: IDENTIDADE, DIGITAL, VENDAS]</div>
+      <div class="roteiro">
+        <div class="beat beat--main">
+          <p>Hoje fechamos o desenho de vendas. A Semana 4 é execução, em três frentes. Na <b>identidade</b>, o Manual de Marca, que unifica a Fixa numa marca só. No <b>digital</b>, a landing page, a copy e os criativos de anúncio e o forecast de mídia. E em <b>vendas</b>, o setup do Kommo, os scripts do SDR e a configuração do SDR IA, com tudo o que vocês aprovaram hoje.</p>
+          <p>Só depois que a landing page e o Kommo estiverem no ar a mídia liga.</p>
+        </div>
         <h3>Plano de ação</h3>
         <table>
           <thead><tr><th>Ação</th><th>Responsável</th><th>Prazo</th><th>Dependência</th><th>Critério de conclusão</th><th>Status</th></tr></thead>
@@ -763,9 +808,19 @@
             <tr><td>Primeira revisão de scoring, estrelas e SLA com dado real</td><td>V4 + Carlos e Christian</td><td>30 dias após o 1º lead</td><td>Volume de leads no Kommo</td><td>Tabela v1.1 publicada</td><td>Aguardando</td></tr>
           </tbody>
         </table>
-        <div class="beat beat--stage" style="margin-top:16px;">[SLIDE 31 · "BORA EXECUTAR."]</div>
+        <button class="btn copy-fala">Copiar fala deste bloco</button>
+      </div>
+      <div class="nav-slide"><a href="#s13">← Slide 13</a><a href="#mapa">Visão geral</a><a href="#s15">Próximo: Slide 15 →</a></div>
+    </section>
+
+    <!-- SLIDE 15 -->
+    <section id="s15" class="slide-section">
+      <span class="eyebrow">Slide 15 · Obrigado</span>
+      <h2>Encerramento</h2>
+      <div class="beat beat--stage">[SLIDE 15 · "VAMOS JUNTOS TRANSFORMAR CONTEXTO EM ESCALA."]</div>
+      <div class="roteiro">
         <div class="beat beat--main">
-          <p>Então os compromissos: Carlos, os quatro ajustes hoje, e o chip e a exportação nas datas que combinamos. Da nossa parte, a estrutura do Kommo já está pronta, e o atendimento liga na Semana 4, com tudo o que vocês aprovaram hoje, e um treinamento curto com os dois pelo celular antes do primeiro lead de verdade.</p>
+          <p>Então os compromissos: Carlos, os quatro ajustes hoje, e o chip e a exportação nas datas que combinamos. Da nossa parte, a estrutura do Kommo já está pronta, e o atendimento liga na Semana 4, com tudo o que vocês aprovaram hoje e um treinamento curto com os dois pelo celular antes do primeiro lead de verdade.</p>
           <p>Muito obrigado. Hoje foi a reunião que conecta tudo o que construímos à venda de fato. Qualquer dúvida no meio do caminho, o canal é o mesmo de sempre.</p>
         </div>
         <button class="btn copy-fala">Copiar fala de encerramento</button>
@@ -776,26 +831,20 @@
       <span class="eyebrow">Fontes</span>
       <h2>Fontes internas e externas utilizadas nesta reunião</h2>
       <div class="card">
-        <p style="font-size:.85rem;"><b>Entregas da Semana 3 (conteúdo principal, slides 22-29 de <code>apresentacao-entrega.html</code>):</b></p>
+        <p style="font-size:.85rem;"><b>Deck da reunião:</b> <code>apresentacao-semana-3.html</code> (15 slides).</p>
+        <p style="font-size:.85rem;"><b>Entregas da Semana 3 por trás dos slides:</b></p>
         <ul style="font-size:.88rem;">
-          <li><b>ee-s4-diagnostico-comercial.json</b> (slides 22-23): gargalo, estrutura do time, mapa de objeções, critérios 1-5★, SLA.</li>
-          <li><b>ee-s4-cliente-oculto.json</b> (slides 24-25): execução de 29/09, 4 ajustes gratuitos, o que a V4 implementa. Sem nota, por decisão do operador.</li>
-          <li><b>ee-s3-is-metricas-funil.json</b> (slides 26-27): funil de 7 etapas, scoring 0-11, filtros de anti-persona, SLA, 10 motivos de perda, metas.</li>
-          <li><b>ee-s3-is-pipeline.json</b> (slides 28-29): etapas no Kommo, 4 réguas, script SPIN, banco de perguntas, 7 objeções.</li>
-          <li>Apoio visual: <code>apresentacao-semana-3.html</code> (slides 7, 9, 10, 12 e 13: tabela de pontos, etapas, réguas, Kommo já estruturado e decisões).</li>
+          <li><b>ee-s4-cliente-oculto.json</b> (slides 3-4): execução de 29/09, 4 ajustes gratuitos. Sem nota, por decisão do operador.</li>
+          <li><b>ee-s4-diagnostico-comercial.json</b> (slides 5-6): gargalo, estrutura do time, roteamento em dois funis, mapa de objeções.</li>
+          <li><b>ee-s3-is-metricas-funil.json</b> (slides 7, 8 e 11): scoring 0-11, faixas de estrela, filtros, SLA, 10 motivos de perda, metas.</li>
+          <li><b>ee-s3-is-pipeline.json</b> (slides 9-10): etapas no Kommo, 4 réguas, script SPIN, 7 objeções.</li>
+          <li><b>client.json</b> (slides 12-13): estrutura do Kommo criada em 01/10 e decisões pendentes.</li>
         </ul>
-        <p style="font-size:.85rem;"><b>Recaps (já apresentados nas Reuniões 1 e 2):</b></p>
-        <ul style="font-size:.88rem;">
-          <li><b>ee-s1-diagnostico-maturidade.json</b> (slide 3): CRM 5/100.</li>
-          <li><b>ee-s1-persona-icp.json</b> (slide 6): objeções de confiança, decisão em 1-3 semanas.</li>
-          <li><b>ee-s2-diagnostico-midia.json</b> (slide 14): Cenário B, R$ 3.000/mês, 25-30 leads, sequência tracking + LP + CRM.</li>
-          <li><b>ee-s2-posicionamento.json</b> (slide 8): PUV e tagline "Engenharia e direito, num processo só".</li>
-        </ul>
+        <p style="font-size:.85rem;"><b>Recaps falados (sem slide):</b> ee-s1-diagnostico-maturidade (CRM 5/100), ee-s1-persona-icp (objeções de confiança), ee-s2-diagnostico-midia (Cenário B, R$ 3.000/mês, 25-30 leads, CRM antes da mídia), ee-s2-posicionamento ("Engenharia e direito, num processo só").</p>
         <p style="font-size:.85rem;"><b>Relatos dos sócios (usar como relato, não como dado medido):</b> kick-off de 08/09 ("o cara que fecha é o cara que precisa"; 90%+ / ~33%), call de 16/09 (sem follow-up; indicação direto para o humano), call de 23/09 (Kommo Pro, número novo, dois funis, R$ 3.000/mês de mídia).</p>
         <p style="font-size:.85rem;"><b>Fontes externas:</b></p>
         <ul style="font-size:.88rem;">
           <li><b>Oldroyd, McElheran &amp; Elkington — "The Short Life of Online Sales Leads"</b>, Harvard Business Review, 2011. Resposta em até 1h: ~7× mais chance de qualificar do que 1h depois e 60× mais do que 24h depois. Auditoria de 2.241 empresas dos EUA; não usar como meta.</li>
-          <li><b>Panorama Mobile Time/Opinion Box — Mensageria no Brasil</b> (edição mais recente). Cerca de 8 em cada 10 usuários de WhatsApp já conversaram com empresas pelo app.</li>
           <li><b>Rackham, N. — <i>SPIN Selling</i></b>, McGraw-Hill, 1988. Base do roteiro consultivo.</li>
           <li><b>Meta — Pricing on the WhatsApp Business Platform</b> (consultado em 30/09/2026). Janela de 24h, templates e mensagens gratuitas.</li>
           <li><b>Mobile Time</b> — reportagens de 23/06/2026 e 02/07/2026 sobre a cobrança de respostas via API a partir de 01/10/2026. Uso interno, a confirmar.</li>
@@ -806,6 +855,7 @@
 
   </main>
 </div>
+
 
 <button id="backTop" aria-label="Voltar ao topo">↑</button>
 
