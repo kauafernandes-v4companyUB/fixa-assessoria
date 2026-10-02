@@ -1,0 +1,164 @@
+{
+  "summary": "O briefing de criativos da Fixa tem 4 peças principais e 1 reserva, cada uma com um ângulo e uma fase de funil: dor da venda travada (topo), carrossel escritura × matrícula (topo), 337 lotes por REURB (meio) e matrícula em mãos (fundo). São 15 arquivos: as 5 variações em 1080×1080, 1080×1350 e 1080×1920 (o carrossel tem 5 lâminas por formato). A IA gera só fundo, ícone e layout: pessoas e entregas vêm de foto própria, porque a marca não usa banco de imagens.",
+  "client_name": "Fixa Engenharia & Assessoria",
+  "summary_headline": "4 criativos + 1 reserva, um ângulo por peça: dor no topo, prova real no meio, matrícula em mãos no fundo, sem pessoa gerada por IA.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Peças principais",
+      "value": "4 + 1 reserva",
+      "subtext": "Dor, curiosidade, prova social, resultado; urgência real como reserva",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Prova central",
+      "value": "337 lotes",
+      "subtext": "Entregues por REURB desde 2024, publicado pela própria Fixa",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "Regra de imagem",
+      "value": "Foto própria",
+      "subtext": "IA só para fundo, ícone e layout; nada de pessoa ou casa gerada",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Insumo pendente",
+      "value": "Fotos reais",
+      "subtext": "Entrega de pasta (V2) e evento REURB com autorização (V4)",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "contexto",
+      "text": "A Fixa nunca rodou anúncio. Este é o primeiro pack e ele segue o manual de marca (Azul Fixa, Manrope, grafismo de levantamento) e o direcionamento de copy de 01/10."
+    },
+    {
+      "category": "acao",
+      "text": "Cada peça testa uma hipótese diferente e tem nome no padrão fase_ângulo_formato_versão (ex.: topo_dor_feed45_v1), para o gestor ler o resultado direto no Gerenciador de Anúncios."
+    },
+    {
+      "category": "ameaca",
+      "text": "Imagem de pessoa ou casa gerada por IA equivale a banco de imagens, que a marca proíbe. Por isso Midjourney e Ideogram entram só em fundo, ícone e composição tipográfica. As peças V2 e V4 dependem de foto real."
+    },
+    {
+      "category": "vantagem",
+      "text": "As peças V1 e V3 são 100% tipográficas e podem ser produzidas assim que o logo for aprovado, sem esperar sessão de fotos."
+    }
+  ],
+  "variations": [
+    {
+      "hook_type": "dor",
+      "funnel_stage": "topo_de_funil",
+      "naming": "topo_dor_feed45_v1",
+      "hypothesis": "No público frio, nomear a venda travada pela falta de matrícula gera CTR maior do que o gancho educativo (V3), porque é a dor que dispara a busca.",
+      "hook_text": "Sem matrícula, o banco não financia a casa.",
+      "short_copy": "Sem matrícula, o banco não financia. É aí que muita venda de casa trava, mesmo com comprador pronto.",
+      "medium_copy": "Sem matrícula, o banco não financia. É aí que muita venda de casa trava, mesmo com comprador pronto. Muitas vezes falta só a averbação da construção ou o registro da escritura. Entender o que o imóvel precisa é o primeiro passo para destravar a venda, o financiamento ou a herança.",
+      "headline": "Por que a venda travou?",
+      "description": "Sem matrícula não há financiamento. Entenda o que o imóvel precisa.",
+      "button_cta": "Saiba mais",
+      "visual_concept": "Peça tipográfica sobre fundo Névoa com o grafismo de linhas de levantamento. No centro, um documento em traço linear (estilo dos ícones do manual: 2px, cantos de 2px) com um cadeado em Azul Serra no lugar do carimbo. Título grande em Azul Fixa no terço superior. Sem pessoas, sem casa e sem foto.",
+      "recommended_format": "feed_portrait",
+      "midjourney_prompt": "flat minimalist vector illustration, a single property registry document outline with a small padlock icon instead of a stamp, thin 2px line art, centered, subtle surveying grid lines in the background, palette navy blue #1E2B53, medium blue #2F6DB5, graphite gray #6B6B6B, off-white #F3F5F9, generous negative space, clean editorial layout, --ar 4:5 --style raw --v 6 --no people, faces, hands, house, roof, keys, hard hat, construction, gavel, scales of justice, stock photo, gradient, 3d render, text",
+      "ideogram_prompt": "Minimal editorial poster, off-white background #F3F5F9 with faint surveying grid lines. Top third: bold geometric sans-serif headline in navy #1E2B53, exact text: \"Sem matrícula, o banco não financia a casa.\" Center: thin-line icon of a property document with a padlock in blue #2F6DB5. No people, no houses. Aspect ratio 4:5.",
+      "canva_guide": "Título no terço superior, alinhado à esquerda, Manrope 800 em 64–72pt Azul Fixa. Ícone do documento no centro, ocupando cerca de 35% da altura. Linha de apoio ('Entenda o que falta no imóvel') em Source Sans 3 32pt Tinta no terço inferior. Fonte: Manrope 800 no título, Source Sans 3 no apoio, nunca menor que 24pt. Logo (versão horizontal ou símbolo) só no rodapé, canto inferior direito, nunca como abertura. Texto na imagem curto (até ~20% da área). Exportar PNG em 1080×1080 (quadrado), 1080×1350 (feed 4:5) e 1080×1920 (story, zonas seguras de 250px no topo e na base)."
+    },
+    {
+      "hook_type": "resultado",
+      "funnel_stage": "fundo_de_funil",
+      "naming": "fundo_resultado_feed45_v1",
+      "hypothesis": "Com quem já conhece o problema, mostrar o 'depois' (matrícula entregue) converte mais em conversa no WhatsApp do que repetir a dor, porque o lead já está decidido a resolver.",
+      "hook_text": "Matrícula em mãos: vender, financiar ou fazer a partilha.",
+      "short_copy": "Matrícula em mãos para vender, financiar ou fazer a partilha. Comece contando seu caso para a Fixa.",
+      "medium_copy": "Matrícula em mãos para vender, financiar ou fazer a partilha. Na Fixa, a engenharia e a parte legal da regularização andam juntas, num processo só, com quem trabalha com cartórios e prefeitura há 10 anos. Você fala com um lugar só e sabe em que etapa o processo está. Comece contando seu caso no WhatsApp.",
+      "headline": "Seu imóvel resolvido",
+      "description": "Engenharia e a parte legal num processo só. Conte seu caso no WhatsApp.",
+      "button_cta": "Enviar mensagem",
+      "visual_concept": "Foto própria e real de uma entrega: mãos segurando a pasta azul da Fixa com a matrícula saindo da bolsa interna, sobre a mesa do escritório, em luz natural. Faixa inferior em Azul Fixa com o título em branco. Sem foto de banco e sem imagem gerada por IA de pessoas: a IA entra só como fundo de reserva enquanto a foto não existe.",
+      "recommended_format": "feed_portrait",
+      "midjourney_prompt": "RESERVA (só fundo, sem pessoas): flat minimalist composition of a closed navy blue document folder with a single registry sheet slightly out of it, top view on a light desk surface, soft natural light, palette navy blue #1E2B53, medium blue #2F6DB5, graphite gray #6B6B6B, off-white #F3F5F9, plenty of empty space at the bottom for a text band, --ar 4:5 --style raw --v 6 --no people, faces, hands, house, roof, keys, stock photo, text",
+      "ideogram_prompt": "Layout guide only: real photo area on top 70% (placeholder), bottom 30% solid navy band #1E2B53 with white bold geometric sans-serif text, exact text: \"Matrícula em mãos: vender, financiar ou fazer a partilha.\" Small white logo text \"FIXA\" bottom right. Aspect ratio 4:5.",
+      "canva_guide": "Foto real ocupando os 70% superiores. Faixa Azul Fixa nos 30% inferiores com o título em Manrope 800 branco, 56–64pt, em até 3 linhas. Botão desenhado 'Conte seu caso no WhatsApp' em Azul Serra. Fonte: Manrope 800 no título, Source Sans 3 no apoio, nunca menor que 24pt. Logo (versão horizontal ou símbolo) só no rodapé, canto inferior direito, nunca como abertura. Texto na imagem curto (até ~20% da área). Exportar PNG em 1080×1080 (quadrado), 1080×1350 (feed 4:5) e 1080×1920 (story, zonas seguras de 250px no topo e na base)."
+    },
+    {
+      "hook_type": "curiosidade",
+      "funnel_stage": "topo_de_funil",
+      "naming": "topo_curiosidade_carrossel_v1",
+      "hypothesis": "Um carrossel educativo que desfaz a confusão escritura × matrícula gera mais salvamentos e cliques no público frio do que a peça única de dor (V1), porque abre um loop de curiosidade.",
+      "hook_text": "Escritura e matrícula são a mesma coisa? Não.",
+      "short_copy": "Escritura não é matrícula. O imóvel só fica no nome de quem comprou depois do registro no cartório.",
+      "medium_copy": "Escritura não é matrícula. A escritura é o documento da compra; o imóvel só passa a ficar no nome de quem comprou depois do registro no cartório de imóveis. E se a casa foi construída depois, a construção também precisa estar averbada. É por isso que muita gente que 'tem os papéis' descobre na hora da venda que falta alguma coisa.",
+      "headline": "Escritura não é matrícula",
+      "description": "Entenda a diferença e o que o seu imóvel pode estar precisando.",
+      "button_cta": "Saiba mais",
+      "visual_concept": "Carrossel de 5 lâminas em fundo branco/Névoa com a faixa de etapas do manual. 1) Pergunta-gancho. 2) 'Escritura = documento da compra'. 3) 'Matrícula = o registro no cartório'. 4) 'Construção nova? Precisa de averbação'. 5) CTA 'Na dúvida, conte seu caso' + logo. Ícones lineares (documento, carimbo) em Azul Fixa. Só tipografia e ícones, sem foto.",
+      "recommended_format": "carousel",
+      "midjourney_prompt": "set of three thin-line flat icons on transparent background: a property deed document, a registry office stamp, a land plot map, consistent 2px stroke, rounded 2px corners, single color navy #1E2B53, minimal, vector style, --ar 1:1 --style raw --v 6 --no people, house, roof, keys, gradient, 3d, text",
+      "ideogram_prompt": "Instagram carousel slide 1 of 5, 4:5, off-white background #F3F5F9, centered bold geometric sans-serif text in navy #1E2B53, exact text: \"Escritura e matrícula são a mesma coisa?\" Below in blue #2F6DB5: \"Não.\" Small arrow hint at bottom right. No images, typography only.",
+      "canva_guide": "Lâminas 1080×1350 com a mesma grade: número da lâmina no topo à esquerda (Manrope 600 24pt Azul Serra), título no centro (Manrope 800 56–64pt Azul Fixa), ícone acima do título. Lâmina 5 com fundo Azul Fixa e texto branco. Fonte: Manrope 800 no título, Source Sans 3 no apoio, nunca menor que 24pt. Logo (versão horizontal ou símbolo) só no rodapé, canto inferior direito, nunca como abertura. Texto na imagem curto (até ~20% da área). Exportar PNG em 1080×1080 (quadrado), 1080×1350 (feed 4:5) e 1080×1920 (story, zonas seguras de 250px no topo e na base)."
+    },
+    {
+      "hook_type": "social_proof",
+      "funnel_stage": "meio_de_funil",
+      "naming": "meio_prova_story_v1",
+      "hypothesis": "Um número verificável e local (337 lotes por REURB em Caxias do Sul) reduz mais a desconfiança e baixa o CPL no público morno do que a mensagem de diferencial sem prova.",
+      "hook_text": "337 lotes entregues por REURB desde 2024.",
+      "short_copy": "337 lotes entregues por REURB desde 2024 em Caxias do Sul. A Fixa conduz a engenharia e a parte legal juntas.",
+      "medium_copy": "337 lotes entregues por REURB desde 2024 em Caxias do Sul, pelo programa municipal de regularização fundiária. Por trás de cada número tem uma família com o imóvel no nome. A Fixa conduz a engenharia e a parte legal da regularização juntas, com 10 anos de relação direta com cartórios e prefeitura.",
+      "headline": "337 lotes desde 2024",
+      "description": "Regularização fundiária em Caxias do Sul, com engenharia e parte legal juntas.",
+      "button_cta": "Saiba mais",
+      "visual_concept": "Story com foto própria de uma entrega de REURB (do evento já publicado no Instagram da Fixa, com autorização de quem aparece) escurecida a 40%. Número '337' gigante em branco, Manrope 800, ocupando a largura. Abaixo: 'lotes entregues por REURB desde 2024'. Rodapé com o símbolo e o sticker de link para a LP.",
+      "recommended_format": "stories",
+      "midjourney_prompt": "RESERVA (só fundo, sem pessoas): aerial-style flat vector map of residential land plots with thin boundary lines, abstract, navy #1E2B53 background with blue #2F6DB5 lines, minimal, lots of negative space in the center for a large number, --ar 9:16 --style raw --v 6 --no people, faces, house, roof, keys, 3d, text",
+      "ideogram_prompt": "Vertical story 9:16, dark navy background #1E2B53 with faint land plot lines. Huge white bold geometric sans-serif number centered, exact text: \"337\". Below in white: \"lotes entregues por REURB desde 2024\". Small text at bottom: \"Caxias do Sul\". Keep 250px safe zones top and bottom.",
+      "canva_guide": "Foto real em tela cheia com camada Azul Fixa a 60% de opacidade. '337' em Manrope 800 280–320pt branco no centro. Legenda Source Sans 3 40pt branca. Sticker de link e logo dentro das zonas seguras. Fonte: Manrope 800 no título, Source Sans 3 no apoio, nunca menor que 24pt. Logo (versão horizontal ou símbolo) só no rodapé, canto inferior direito, nunca como abertura. Texto na imagem curto (até ~20% da área). Exportar PNG em 1080×1080 (quadrado), 1080×1350 (feed 4:5) e 1080×1920 (story, zonas seguras de 250px no topo e na base)."
+    },
+    {
+      "hook_type": "urgencia",
+      "funnel_stage": "fundo_de_funil",
+      "naming": "fundo_urgencia_story_v1_reserva",
+      "hypothesis": "RESERVA. Para quem já tem comprador ou financiamento em andamento, nomear essa urgência real (não escassez inventada) acelera a conversa no WhatsApp. Só entra se V2 não converter no fundo de funil.",
+      "hook_text": "Comprador esperando? A matrícula é o que falta.",
+      "short_copy": "Tem comprador esperando e falta a matrícula? Conte seu caso no WhatsApp e a Fixa mostra o caminho.",
+      "medium_copy": "Tem comprador esperando e o banco pediu a matrícula? Esse é o momento em que muita venda trava. A Fixa olha o seu caso, explica as etapas e o que depende do cartório e da prefeitura, e conduz a engenharia e a parte legal juntas. Sem promessa de data: com clareza sobre cada etapa.",
+      "headline": "Comprador esperando?",
+      "description": "Conte seu caso no WhatsApp e veja o caminho para regularizar o imóvel.",
+      "button_cta": "Enviar mensagem",
+      "visual_concept": "Story tipográfico: fundo Azul Fixa com o grafismo de recorte angular do símbolo. Pergunta em branco no terço superior e a linha 'A matrícula é o que falta' em Azul Serra sobre faixa branca. CTA 'Conte seu caso no WhatsApp' no terço inferior. Nenhuma contagem regressiva, 'última chance' ou data.",
+      "recommended_format": "stories",
+      "midjourney_prompt": "flat minimalist vertical background, navy #1E2B53 with one large diagonal angular cut in blue #2F6DB5 in the lower right corner, subtle thin surveying grid, empty space for text, --ar 9:16 --style raw --v 6 --no people, faces, hands, house, roof, keys, hard hat, construction, gavel, scales of justice, stock photo, gradient, 3d render, text",
+      "ideogram_prompt": "Vertical story 9:16, navy background #1E2B53, bold white geometric sans-serif headline in the upper third, exact text: \"Comprador esperando?\" Below, white band with navy text: \"A matrícula é o que falta.\" Bottom third button shape in blue #2F6DB5 with white text: \"Conte seu caso no WhatsApp\". No countdown, no dates.",
+      "canva_guide": "Título Manrope 800 96pt branco; faixa branca com texto Azul Fixa 56pt; botão Azul Serra com texto Manrope 700 40pt. Fonte: Manrope 800 no título, Source Sans 3 no apoio, nunca menor que 24pt. Logo (versão horizontal ou símbolo) só no rodapé, canto inferior direito, nunca como abertura. Texto na imagem curto (até ~20% da área). Exportar PNG em 1080×1080 (quadrado), 1080×1350 (feed 4:5) e 1080×1920 (story, zonas seguras de 250px no topo e na base)."
+    }
+  ],
+  "ab_test_guide": {
+    "combinations": [
+      "Topo: V1 (dor) × V3 (curiosidade), mesmo público frio e mesmo orçamento",
+      "Meio: V4 (337 lotes) × anúncio de diferencial da copy (meio_diferencial), para medir o peso da prova",
+      "Fundo: V2 (resultado) no retargeting; V5 (urgência real) só entra se V2 ficar acima do CPL meta",
+      "Formato: a vencedora do topo em feed 4:5 × story 9:16, com a mesma copy"
+    ],
+    "success_metrics": {
+      "ctr_min": "0,8% (Meta, link) [E]",
+      "cpc_max": "R$ 4,00 por clique no link [E]; o critério final é CPL de até R$ 60 e lead 4★/5★ na triagem"
+    },
+    "test_duration": "7 dias no mínimo, com pelo menos R$ 30 por conjunto por dia",
+    "cut_criteria": "Pausar a peça com CTR abaixo de 0,8% após 1.000 impressões ou com R$ 120 gastos sem nenhuma conversa no WhatsApp. Manter a vencedora e trocar só um elemento por vez (gancho, imagem ou formato)."
+  },
+  "total_pieces": 15,
+  "total_pieces_note": "5 variações × 3 formatos (1080×1080, 1080×1350 e 1080×1920). O carrossel da V3 conta como 1 peça por formato, com 5 lâminas. A V5 é reserva: só é produzida se a V2 não converter. Os reels com o Carlos, com Carlos e Christian e os cortes dos depoimentos (pack de 9 do direcionamento) são produção de vídeo, fora deste briefing.",
+  "next_steps_operator": [
+    "Aguardar o logo unificado aprovado (briefing de design)",
+    "Produzir V1 e V3 (só tipografia e ícones) no Canva com os prompts de ícone/fundo",
+    "Fotografar a entrega de pasta (V2) e obter autorização das pessoas do evento REURB (V4)",
+    "Exportar cada peça em 1080×1080, 1080×1350 e 1080×1920 com o nome do padrão",
+    "Entregar os PNGs para registrar em produced_creatives e parear com a copy (pair_with_creative)"
+  ],
+  "completed_at": "2026-10-02T12:00:00Z"
+}

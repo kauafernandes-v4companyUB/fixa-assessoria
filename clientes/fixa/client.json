@@ -360,10 +360,11 @@
         "version": 1
       },
       "ee-s3-criativos-anuncios": {
-        "status": "pending",
+        "status": "completed",
         "checkpoint": 0,
-        "started_at": null,
-        "completed_at": null
+        "started_at": "2026-10-01T21:50:00Z",
+        "completed_at": "2026-10-02T12:00:00Z",
+        "version": 1
       },
       "ee-s3-crm-setup": {
         "status": "in_progress",
@@ -565,6 +566,12 @@
       "skill": "ee-s3-copy-anuncios",
       "checkpoint": 0,
       "decision": "Copy de anúncios aprovada sem ajustes: 15 anúncios (11 Meta + 4 Google RSA) em topo, meio, fundo e remarketing. Mantidos o remarketing com o caso Paiol (sobe só com autorização do cliente para mídia paga) e a descrição 'Resposta na hora' (mídia só liga com o agente de IA do Kommo ativo). Exportada em xlsx (clientes/fixa/copy-anuncios-fixa.xlsx) em vez de Google Sheets: o gog não está instalado. pair_with_creative fica para quando o pack de criativos sair."
+    },
+    {
+      "ts": "2026-10-02T12:00:00Z",
+      "skill": "ee-s3-criativos-anuncios",
+      "checkpoint": 0,
+      "decision": "Briefing de criativos aprovado sem ajustes: 4 peças + 1 reserva (V1 topo_dor_feed45_v1, V2 fundo_resultado_feed45_v1, V3 topo_curiosidade_carrossel_v1, V4 meio_prova_story_v1, V5 fundo_urgencia_story_v1_reserva), 15 arquivos em 3 formatos. Regra: IA (Midjourney/Ideogram) só para fundo, ícone e layout; pessoas e entregas com foto própria. V1 e V3 dependem só do logo aprovado; V2 e V4 de fotos reais (entrega de pasta; evento REURB com autorização). produced_creatives e pair_with_creative ficam para quando o Léo entregar os PNGs."
     }
   ]
 }
